@@ -1,0 +1,85 @@
+{
+  "timestamp": "2026-05-13T16:27:32",
+  "objetivo": "Diagnosticar requests/endpoints/payloads do fluxo Incoming/Acknowledge/Import do ProjectWise Deliverables Management sem executar importacao automatica.",
+  "observacoes": [
+    "Fase 1 apenas diagnostica. Nenhuma importacao automatica e executada pelo script.",
+    "GUIDs foram mantidos para permitir identificar projectId/connectSpaceId/submittalId.",
+    "Cookies, authorization headers, tokens, request verification tokens e e-mails foram mascarados quando detectados.",
+    "Revise o log antes de compartilhar, pois pode haver dados de negocio em URLs, payloads ou nomes de documentos."
+  ],
+  "totalEventos": 4,
+  "totalEventosProvavelmenteDM": 0,
+  "eventosProvavelmenteDM": [],
+  "eventosCompletos": [
+    {
+      "timestamp": "2026-05-13T16:26:27",
+      "tipoEvento": "request",
+      "metodo": "GET",
+      "resourceType": "document",
+      "url": "https://connect.bentley.com/",
+      "headers": {
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "postData": null,
+      "provavelmenteDM": false
+    },
+    {
+      "timestamp": "2026-05-13T16:26:30",
+      "tipoEvento": "response",
+      "metodo": "GET",
+      "resourceType": "document",
+      "url": "https://connect.bentley.com/",
+      "status": 302,
+      "statusText": "",
+      "headers": {
+        "content-length": "0",
+        "date": "Wed, 13 May 2026 19:26:26 GMT",
+        "location": "https://imsoidc.bentley.com/connect/authorize?client_id=connect-portal-2297&redirect_uri=https%3A%2F%2Fconnect.bentley.com%2Fsignin-oidc&response_type=code&scope=openid%20profile%20email%20organization%20global_roles%20feature_tracking&code_challenge=YeZF2f-TeTFgkilDEMNYo4Gdeh32kYxQQF2DTwlq2Y0&code_challenge_method=S256&response_mode=form_post&nonce=639142971866171918.MWYwZDBlYjUtZTk1Yy00YzYwLWJhNTctM2NkNzUzZmEzMWMwZTlmYTgzOWEtNDQ5Mi00ZDhmLThkNDYtYWZjZDQ4ZTA3MWMw&state=CfDJ8Hgt-RFKcO1HucTHQlf-lUyj0BtJNZFZ5mpCu0yMY5WICVNJNSxyPRhGdkIH217eXcyAj6VPDAps1CqSp2SuYojZZYFWgvtsi0KsXKqygp2Iw6qnZrbTv0M8SbpqEli_5kpbd2mDucigZ3mUoV-M9oRlUPMXXC6d5NR57i5OSTGkTjgG00SGZKH1Hack_rk5Vvh_shWJBJmJ4y6dtciRy_ya-WxhLhm4VRi05LiV5jSXjx4D1jRqcZijxIQZA0bJ6UuJ5YXzieSkEQEUXAJ7k-G-yzp-epSyMwXlVZsg8N4rgknqivn-77YIiBmC3VEl--oaoF7JkzmiL_lx39qeRpfWm257gzHJEILUZ81Kco0N5X0GV7pMIupHtkQ71_-Nng&x-client-SKU=ID_NET8_0&x-client-ver=7.1.2.0",
+        "request-context": "appId=cid-v1:735a8d33-42e5-4179-8aa6-447c845a400e",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+      },
+      "provavelmenteDM": false
+    },
+    {
+      "timestamp": "2026-05-13T16:26:30",
+      "tipoEvento": "request",
+      "metodo": "GET",
+      "resourceType": "document",
+      "url": "https://imsoidc.bentley.com/connect/authorize?client_id=connect-portal-2297&redirect_uri=https%3A%2F%2Fconnect.bentley.com%2Fsignin-oidc&response_type=code&scope=openid+profile+email+organization+global_roles+feature_tracking&code_challenge=YeZF2f-TeTFgkilDEMNYo4Gdeh32kYxQQF2DTwlq2Y0&code_challenge_method=S256&response_mode=form_post&nonce=639142971866171918.MWYwZDBlYjUtZTk1Yy00YzYwLWJhNTctM2NkNzUzZmEzMWMwZTlmYTgzOWEtNDQ5Mi00ZDhmLThkNDYtYWZjZDQ4ZTA3MWMw&state=CfDJ8Hgt-RFKcO1HucTHQlf-lUyj0BtJNZFZ5mpCu0yMY5WICVNJNSxyPRhGdkIH217eXcyAj6VPDAps1CqSp2SuYojZZYFWgvtsi0KsXKqygp2Iw6qnZrbTv0M8SbpqEli_5kpbd2mDucigZ3mUoV-M9oRlUPMXXC6d5NR57i5OSTGkTjgG00SGZKH1Hack_rk5Vvh_shWJBJmJ4y6dtciRy_ya-WxhLhm4VRi05LiV5jSXjx4D1jRqcZijxIQZA0bJ6UuJ5YXzieSkEQEUXAJ7k-G-yzp-epSyMwXlVZsg8N4rgknqivn-77YIiBmC3VEl--oaoF7JkzmiL_lx39qeRpfWm257gzHJEILUZ81Kco0N5X0GV7pMIupHtkQ71_-Nng&x-client-SKU=ID_NET8_0&x-client-ver=7.1.2.0",
+      "headers": {
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "postData": null,
+      "provavelmenteDM": false
+    },
+    {
+      "timestamp": "2026-05-13T16:26:31",
+      "tipoEvento": "response",
+      "metodo": "GET",
+      "resourceType": "document",
+      "url": "https://imsoidc.bentley.com/connect/authorize?client_id=connect-portal-2297&redirect_uri=https%3A%2F%2Fconnect.bentley.com%2Fsignin-oidc&response_type=code&scope=openid+profile+email+organization+global_roles+feature_tracking&code_challenge=YeZF2f-TeTFgkilDEMNYo4Gdeh32kYxQQF2DTwlq2Y0&code_challenge_method=S256&response_mode=form_post&nonce=639142971866171918.MWYwZDBlYjUtZTk1Yy00YzYwLWJhNTctM2NkNzUzZmEzMWMwZTlmYTgzOWEtNDQ5Mi00ZDhmLThkNDYtYWZjZDQ4ZTA3MWMw&state=CfDJ8Hgt-RFKcO1HucTHQlf-lUyj0BtJNZFZ5mpCu0yMY5WICVNJNSxyPRhGdkIH217eXcyAj6VPDAps1CqSp2SuYojZZYFWgvtsi0KsXKqygp2Iw6qnZrbTv0M8SbpqEli_5kpbd2mDucigZ3mUoV-M9oRlUPMXXC6d5NR57i5OSTGkTjgG00SGZKH1Hack_rk5Vvh_shWJBJmJ4y6dtciRy_ya-WxhLhm4VRi05LiV5jSXjx4D1jRqcZijxIQZA0bJ6UuJ5YXzieSkEQEUXAJ7k-G-yzp-epSyMwXlVZsg8N4rgknqivn-77YIiBmC3VEl--oaoF7JkzmiL_lx39qeRpfWm257gzHJEILUZ81Kco0N5X0GV7pMIupHtkQ71_-Nng&x-client-SKU=ID_NET8_0&x-client-ver=7.1.2.0",
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "cache-control": "no-cache, no-store",
+        "content-length": "11159",
+        "content-type": "text/html;charset=utf-8",
+        "date": "Wed, 13 May 2026 19:26:28 GMT",
+        "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+        "pragma": "no-cache",
+        "referrer-policy": "origin",
+        "strict-transport-security": "max-age=31536000",
+        "x-content-type-options": "nosniff"
+      },
+      "provavelmenteDM": false
+    }
+  ]
+}

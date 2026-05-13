@@ -1,0 +1,12 @@
+[
+  {
+    "concessao": "CONCESSAO_TESTE",
+    "nomeProjeto": "PROJETO_TESTE",
+    "connectedProjectId": "",
+    "connectSpaceId": "",
+    "projectId": "",
+    "ativo": true,
+    "autoImportar": false,
+    "ultimaVerificacao": null
+  }
+]
