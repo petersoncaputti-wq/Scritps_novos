@@ -1,0 +1,22 @@
+2026-05-11 15:27:48 | INFO | ProjectWise - criacao de usuarios em lote
+2026-05-11 15:27:48 | INFO | Log: C:\Users\peter\OneDrive\Desktop\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\PW_CriarUsuariosLote_20260511_152748.log
+2026-05-11 15:27:48 | INFO | Abrindo login no ProjectWise...
+2026-05-11 15:27:57 | OK | Login realizado. Usuario atual: Peterson Caputti
+2026-05-11 15:28:07 | INFO | Arquivo de entrada: C:\Users\peter\OneDrive\Desktop\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Modelo_Criacao_Usuarios_ProjectWise.xlsx
+2026-05-11 15:28:08 | INFO | Registros carregados: 1
+2026-05-11 15:28:08 | WARN | Linha 2: usuario ja existe - Jessica Mello (encontrado por E-mail)
+2026-05-11 15:28:08 | INFO | Sessao ProjectWise encerrada.
+2026-05-11 15:28:08 | INFO | 
+2026-05-11 15:28:08 | INFO | ================ RESUMO FINAL ================
+2026-05-11 15:28:08 | INFO | Total de linhas processadas : 1
+2026-05-11 15:28:08 | OK | Usuarios criados            : 0
+2026-05-11 15:28:08 | OK | Usuarios atualizados        : 0
+2026-05-11 15:28:08 | WARN | Usuarios ja existentes      : 1
+2026-05-11 15:28:08 | INFO | Linhas apenas validadas     : 0
+2026-05-11 15:28:08 | OK | Linhas invalidas            : 0
+2026-05-11 15:28:08 | OK | Erros de processamento      : 0
+2026-05-11 15:28:08 | OK | Relatorio completo          : C:\Users\peter\OneDrive\Desktop\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\PW_CriarUsuariosLote_Relatorio_20260511_152748.csv
+2026-05-11 15:28:08 | INFO | 
+2026-05-11 15:28:08 | WARN | Usuarios que ja existiam e nao foram recriados:
+2026-05-11 15:28:08 | WARN | - Linha 2 | Jessica Mello | Jessica.mello@egis-group.com
+2026-05-11 15:28:08 | INFO | ==============================================

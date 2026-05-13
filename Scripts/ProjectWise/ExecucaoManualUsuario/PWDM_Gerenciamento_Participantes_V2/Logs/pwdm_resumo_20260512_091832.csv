@@ -1,0 +1,66 @@
+﻿timestamp,nomeProjeto,projectId,email,acao_solicitada,acao_planejada,situacao_usuario,status,http_status
+2026-05-12T09:18:32,Acesso 3° Ano - km 321+900 - BR153/GO,0f10d4a0-17c4-4ab7-8c46-102982815fbd,ka***@egis-group.com,incluir,atualizar_participante,participante,atualizado,200
+2026-05-12T09:18:32,Acesso 3° Ano - km 355+900 - BR153/GO,36db6d1c-077b-4e07-9c06-0341a7d6edcc,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Acesso 3° Ano - km 375+800 - BR414/GO,e7dd53be-8204-4836-bbcb-e7dca6a347cd,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Acesso 3° Ano - km 397+050 - BR153/GO,76149810-45e0-4d44-8be1-d97fe0ba5dfb,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Acesso 4° Ano - km 274+950 - BR153/GO,e05b8863-0b4b-48ad-bd4f-6eb762dbd633,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Acesso 4° Ano - km 303+820 - BR153/GO,e1391c2b-745d-44b1-a952-699e623a93c1,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Acesso 5° Ano - km 188+210 - BR153/GO,1e3291bf-199c-4703-bc44-b9aabc5e173e,ka***@egis-group.com,incluir,adicionar_existente,candidato,adicionado,200
+2026-05-12T09:18:32,Acesso 5° Ano - km 188+550 - BR153/GO,e1b19953-5c29-4c32-8c33-18e12bbcb979,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Acesso 5° Ano - km 265+320 - BR153/GO,1ee39910-0021-40e1-bf69-1064e9bec49b,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Acesso 6° Ano - km 158+630 - BR153/GO,7c76c1f3-5f65-4a30-92bd-21aef293251d,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Acesso 6° Ano - km 693+000 - BR153/TO,62ed2dbe-18fc-47dd-8255-aea523ef2b62,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Acesso 7° Ano - km 124+420 - BR153/GO,d5ec25ff-8e7c-41ce-8308-3d60a9359e6d,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Acesso 7° Ano - km 141+870 - BR153/GO,ba9771ff-244d-49bc-a170-e31e37cbefac,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Acesso 7° Ano - km 91+280 - BR153/GO,2deaeffb-787f-4387-8164-3dd5498645e8,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Acesso 8° Ano - km 31+50 - BR153/GO,e0346c76-173d-491b-8a6c-fd1a4bc0056c,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Acesso 8° Ano - km 72+48 - BR153/GO,fa5efb85-33b4-486f-a89a-3a3da2d36d9d,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Acesso km 435+000 - BR414/GO,ac9087eb-5989-4e7c-953d-ab205aaa6ffd,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Adequação Largura de Faixa Existente 8° Ano - BR080/GO,85c7b5a0-066b-45d7-9434-45d5946103f2,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Adequação Largura de Faixa Existente 8° Ano - BR414/GO,75e57cad-c1ee-4ba5-be63-377ccdd4a307,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Agulha 11 - km 672+200 - BR153/TO,e3b6a29c-b1b0-4312-bca6-3d6191e218b3,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,"Agulha 12, 14 e 15 - km 671+672 - BR153/TO",0d6504b6-9983-4506-b5ce-4bf7bee61f35,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Agulha 13 - km 675+400 - BR153/TO,f4e2576e-0061-4888-9e96-5e730a6a80f2,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Alças Viadutos - km 432+441 - BR153/GO,5b723ffb-0cc7-4f36-8506-8d8caaf76d48,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Ampliações 10° Ano SH 10 - km 71+08 - 107+120 - BR153/GO,060f59fd-1281-441a-9c3b-a35d30bf7c7e,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Ampliações 10° Ano SH 12 -  km 124+420 - 141+850 - BR153/GO,73e0c8e4-4e61-4db9-b593-fbf6ae1f0f2d,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Ampliações 20° Ano SH 1 - km 624+300 - 663+000 - BR153/TO,73c8edf6-5218-43df-a71c-f3eb247a7f8d,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Ampliações 23° Ano SH 6 - km 800+000 - 802+531 - BR153/TO,6161082b-f770-44c9-b4f3-aecc6eb4b560,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Ampliações 3° Ano SH 1* - km 622+700 - 624+300 - BR153/TO,5bfae34e-dd1a-49ab-8955-d2e2032bde5c,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,"Ampliações 3° Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO",922466d5-864b-4292-8b7f-090a6ce7d2d8,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Ampliações 3° Ano SH 2* - km 671+190 - 677+000 - BR153/TO,310d5d46-0966-4077-b7bd-eeddc8ecae4a,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO,df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Ampliações 4° Ano SH 20 e 21 - km 288+500 - 319+240 - BR153/GO,643fd25c-51fd-4c0c-b711-55e3865ab634,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Ampliações 4° Ano SH 5* e 6* - km 797+300 - 800+000 - BR153/TO,9d91ddb9-dd6a-4039-bf95-e662ba182b66,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Ampliações 4°Ano SH 3* e 4*- km 720+800 - 724+000 - BR153/TO,7fc2aa3b-24ed-4278-9f43-ed387d2222fa,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Ampliações 4°Ano SH 4* - km 721+905 - 760+644 - BR153/TO,533e03e7-e1f6-4030-a52d-90b0ffcf3a35,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Ampliações 5°Ano SH 18 e 19 - km 274+940 - 288+500 - BR153/GO,41dcf418-be1f-48da-a4f6-9bd73c21476c,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Ampliações 5°Ano SH 2 - km 677+000 - 701+900 - BR153/TO,f5a29f05-ce93-4e72-92f6-8a52dded6166,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Ampliações 5°Ano SH 22 - km 319+240 - 321+850 - BR153/GO,97f3d3f5-46c4-4eeb-8dc4-12325756dd11,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Ampliações 6° Ano SH 16 e 17 - km 212+450 - 274+940 - BR153/GO,a59cdfbd-96bf-444e-aac8-aa85f4f23526,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Ampliações 6° Ano SH 23 - km 321+850 - 357+290 - BR153/GO,73b23679-5ec0-4bf8-a6ce-901939a4cadf,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Ampliações 7° Ano SH 11 - km 107+120 - 124+420 - BR153/GO,e72f828e-3f3c-43ce-b089-172a4ef2c0a8,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Ampliações 7° Ano SH 15 - km 199+430 - 212+450 - BR153/GO,032bdfb0-e3b4-4c90-8722-74204fd5fe98,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Ampliações 7° Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO,71cee75d-3a66-4993-9e87-1b93fc0b1a80,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Ampliações 8° Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO,7e13aff4-ba0e-4a9b-bf3d-be7b0f4eb876,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Ampliações 8° Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO,7728f036-853f-42b0-b4cf-6f205110728d,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Ampliações 9° Ano SH 30 - km 435+50 - 444+132 - BR153/GO,f79aa49d-fd3a-4c08-931d-af7b123e0e82,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Ampliações 9° Ano SH 42 - km 395+890 - 409+05 - BR414/GO,b417ea35-4b6b-4b5c-9d01-51f724833057,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,BSO 1 (sem SAU) - Anápolis - km 422+420 Norte - BR153/GO,17162cc7-b03d-41bb-8334-a27971d18f2b,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,BSO 2 (sem SAU) - São Francisco de Goiás - km 380+080 Sul - BR153/GO,ebb88ea5-61dc-4a93-8b3e-292088f8ea01,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,BSO 3 (com SAU) - Jaraguá - km 342+000 Norte - BR153/GO,3149e56e-958d-4084-9201-1e457aceb7a2,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,BSO 4 (com SAU) - Rialma - km 295+280 Sul - BR153/GO,ab69abaa-31e4-4dbb-9377-3de5378fe81d,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,BSO 5 (sem SAU) - São Luiz do Norte - km 256+660 Norte - BR153/GO,c831ff11-2ac1-46c8-a5bf-8bf18dc11f6b,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Dispositivo 9°Ano - km 444+122 - BR153/GO,444d077b-51f0-45f4-9c33-db7463330142,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,HS-WIM Abadiânia - km 432+174 - BR414/GO,d71a6fd9-7697-482e-9077-6140b8a01ada,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,HS-WIM Campinorte - km 169+067 - BR153/GO,a8319426-3ee6-4687-8ab2-08d144df9856,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Marginal sul - km 671 - 677 - BR153/TO,2a9452c2-b943-4983-9ee4-9e3c935dbe3f,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Passarela 1 Uruaçu 4° Ano - km 197+800 - BR153/GO,9f6c0ea6-159f-49da-a8a6-d673ee87ea94,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Passarela 2 Uruaçu 4° Ano - Km 198+430 - BR153/GO,ddc3c1bf-a95b-4ed8-b951-cb211e038102,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Passarela 3 Alvorada 4° Ano - Km 759+700 - BR153/GO,f16d5f47-a211-444c-8b7f-3ec1e8406beb,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Passarela 4 Aliança 4° Ano - km 623+500 - BR153/TO,12ce14ea-dae0-4e6e-95b2-f4d4214d156e,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Pontos de ônibus 3° e 4° Ano - BR-153,91a83c9e-282f-497b-b343-8905caaaf64e,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Praça de Pedágio Santa Rita do Novo Destino - km 155+500 - BR080/GO,5e9fa82e-8f4c-4b99-9fbe-34cb31df03b3,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Retorno em U - km 668 - BR-153/TO,db3c5c28-2fc0-4e50-9188-d39f20dcd435,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Retornos em U 20° Ano - km 624+500 - 624+700 - BR153/TO,99ceee97-601d-4150-a4e1-4f0777a679c1,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-12T09:18:32,Retornos em U 24° Ano - km 1+238 - BR153/GO,269d66be-ac2a-4f43-803f-2a3008943570,ka***@egis-group.com,incluir,atualizar_participante,participante,sem_alteracao,

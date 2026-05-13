@@ -1,0 +1,4 @@
+2026-05-12 13:00:06 | INFO | Modulo 'pwps_dab' importado.
+2026-05-12 13:00:06 | INFO | Tentando conexao via New-PWLogin...
+2026-05-12 13:00:24 | INFO | Conexao realizada via New-PWLogin -BentleyIMS.
+2026-05-12 13:00:24 | INFO | Sessao ProjectWise encerrada via Undo-PWLogin.

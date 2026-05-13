@@ -1,0 +1,637 @@
+2026-05-11 14:52:20 | INFO | Aplicacao iniciada.
+2026-05-11 14:52:20 | INFO | Tentando importar modulo do ProjectWise.
+2026-05-11 14:52:20 | INFO | Modulo 'pwps_dab' importado com sucesso.
+2026-05-11 14:52:20 | INFO | Tentando conectar ao datasource do ProjectWise.
+2026-05-11 14:52:20 | INFO | Tentando conexao via 'New-PWLogin'. Parametros: DatasourceName, UserName, Password, UseGui, DoNotCreateWorkingDirectory, BentleyIMS, LoadWRE, NonAdminLogin, Token, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:52:30 | INFO | Conexao realizada via 'New-PWLogin -BentleyIMS'.
+2026-05-11 14:52:30 | INFO | Conexao com ProjectWise realizada com sucesso.
+2026-05-11 14:52:44 | INFO | Buscando usuario pelo email: wesley.mezine@egis-group.com
+2026-05-11 14:52:44 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:52:45 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:52:46 | INFO | Buscando usuario pelo email: leonardo.botelho@egis-group.com
+2026-05-11 14:52:46 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:52:46 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:52:47 | INFO | Buscando usuario pelo email: bruna.rocha@egis-group.com
+2026-05-11 14:52:47 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:52:47 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:52:48 | INFO | Buscando usuario pelo email: leticia.silva@egis-group.com
+2026-05-11 14:52:48 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:52:49 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:52:49 | INFO | Buscando usuario pelo email: joao.carvalho@egis-group.com
+2026-05-11 14:52:49 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:52:49 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:52:50 | INFO | Buscando usuario pelo email: aline.baldo@egis-group.com
+2026-05-11 14:52:50 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:52:50 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:52:51 | INFO | Buscando usuario pelo email: claudia.campos@egis-group.com
+2026-05-11 14:52:51 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:52:51 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:52:51 | INFO | Buscando usuario pelo email: matheus.santos@egis-group.com
+2026-05-11 14:52:51 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:52:52 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:52:52 | INFO | Buscando usuario pelo email: vinicius.silva@egis-group.com
+2026-05-11 14:52:52 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:52:52 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:52:53 | INFO | Buscando usuario pelo email: pietro.sa@egis-group.com
+2026-05-11 14:52:53 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:52:53 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:52:54 | INFO | Buscando usuario pelo email: samara.silva@egis-group.com
+2026-05-11 14:52:54 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:52:54 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:52:54 | INFO | Buscando usuario pelo email: larissa.macedo@egis-group.com
+2026-05-11 14:52:54 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:52:54 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:52:55 | INFO | Buscando usuario pelo email: fernanda.santos@egis-group.com
+2026-05-11 14:52:55 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:52:55 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:52:56 | INFO | Buscando usuario pelo email: luciano.moura@egis-group.com
+2026-05-11 14:52:56 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:52:56 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:52:56 | INFO | Buscando usuario pelo email: andressa.reis@egis-group.com
+2026-05-11 14:52:56 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:52:57 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:52:57 | INFO | Buscando usuario pelo email: raissa.farias@egis-group.com
+2026-05-11 14:52:57 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:52:57 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:52:58 | INFO | Buscando usuario pelo email: patricia.hidalgo@egis-group.com
+2026-05-11 14:52:58 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:52:58 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:52:59 | INFO | Buscando usuario pelo email: ronaldo.silva@egis-group.com
+2026-05-11 14:52:59 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:52:59 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:52:59 | INFO | Buscando usuario pelo email: celio.araujo@egis-group.com
+2026-05-11 14:52:59 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:53:00 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:53:00 | INFO | Buscando usuario pelo email: hermes.almeida@egis-group.com
+2026-05-11 14:53:00 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:53:01 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:53:01 | INFO | Buscando usuario pelo email: Daniele.SPITZ@egis-group.com'
+2026-05-11 14:53:01 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:53:01 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:53:02 | INFO | Buscando usuario pelo email: Jose.JUNIOR@egis-group.com
+2026-05-11 14:53:02 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:53:02 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:53:10 | INFO | Listando pastas da raiz por Root.
+2026-05-11 14:53:11 | INFO | Listando filhos da pasta ID: 56
+2026-05-11 14:53:22 | INFO | Listando filhos da pasta ID: 297
+2026-05-11 14:53:23 | INFO | Listando filhos da pasta ID: 586
+2026-05-11 14:53:42 | INFO | Iniciando leitura da seguranca do projeto 'Acesso 3°Ano 321+900' (ID: 58230)
+2026-05-11 14:53:43 | INFO | Get-PWFolderSecurity retornou 14 item(ns).
+2026-05-11 14:53:43 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:53:43 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:53:43 | INFO | Total consolidado de acessos encontrados: 13
+2026-05-11 14:53:43 | INFO | Projeto 'Acesso 3° Ano - km 321+900 - BR153/GO' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-05-11 14:53:43 | INFO | Iniciando leitura da seguranca do projeto 'Acesso 3°Ano 355+900' (ID: 59011)
+2026-05-11 14:53:43 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:53:43 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:53:43 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:53:43 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:53:43 | INFO | Projeto 'Acesso 3° Ano - km 355+900 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:53:43 | INFO | Iniciando leitura da seguranca do projeto 'Acesso 3°Ano 375+800' (ID: 59792)
+2026-05-11 14:53:44 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:53:44 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:53:44 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:53:44 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:53:44 | INFO | Projeto 'Acesso 3° Ano - km 375+800 - BR414/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:53:44 | INFO | Iniciando leitura da seguranca do projeto 'Acesso 3°Ano 397+050' (ID: 60573)
+2026-05-11 14:53:45 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:53:45 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:53:45 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:53:45 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:53:45 | INFO | Projeto 'Acesso 3° Ano - km 397+050 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:53:45 | INFO | Iniciando leitura da seguranca do projeto 'Acesso 4°Ano 274+950' (ID: 61354)
+2026-05-11 14:53:45 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:53:45 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:53:45 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:53:45 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:53:45 | INFO | Projeto 'Acesso 4° Ano - km 274+950 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:53:45 | INFO | Iniciando leitura da seguranca do projeto 'Acesso 4°Ano 303+820' (ID: 62135)
+2026-05-11 14:53:46 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:53:46 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:53:46 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:53:46 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:53:46 | INFO | Projeto 'Acesso 4° Ano - km 303+820 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:53:46 | INFO | Iniciando leitura da seguranca do projeto 'Acesso 5°Ano 188+210' (ID: 66822)
+2026-05-11 14:53:47 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:53:47 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:53:47 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:53:47 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:53:47 | INFO | Projeto 'Acesso 5° Ano - km 188+210 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:53:47 | INFO | Iniciando leitura da seguranca do projeto 'Acesso 5°Ano 188+550' (ID: 67603)
+2026-05-11 14:53:47 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:53:47 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:53:47 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:53:47 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:53:47 | INFO | Projeto 'Acesso 5° Ano - km 188+550 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:53:47 | INFO | Iniciando leitura da seguranca do projeto 'Acesso 5°Ano 265+320' (ID: 68384)
+2026-05-11 14:53:48 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:53:48 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:53:48 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:53:48 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:53:48 | INFO | Projeto 'Acesso 5° Ano - km 265+320 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:53:48 | INFO | Iniciando leitura da seguranca do projeto 'Acesso 6°Ano 158+630' (ID: 237749)
+2026-05-11 14:53:49 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:53:49 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:53:49 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:53:49 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:53:49 | INFO | Projeto 'Acesso 6° Ano - km 158+630 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:53:49 | INFO | Iniciando leitura da seguranca do projeto 'Acesso 6°Ano 693+000' (ID: 71509)
+2026-05-11 14:53:49 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:53:49 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:53:49 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:53:49 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:53:49 | INFO | Projeto 'Acesso 6° Ano - km 693+000 - BR153/TO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:53:49 | INFO | Iniciando leitura da seguranca do projeto 'Acesso 7°Ano 124+420' (ID: 239311)
+2026-05-11 14:53:50 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:53:50 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:53:50 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:53:50 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:53:50 | INFO | Projeto 'Acesso 7° Ano - km 124+420 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:53:50 | INFO | Iniciando leitura da seguranca do projeto 'Acesso 7°Ano 141+870' (ID: 240092)
+2026-05-11 14:53:51 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:53:51 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:53:51 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:53:51 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:53:51 | INFO | Projeto 'Acesso 7° Ano - km 141+870 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:53:51 | INFO | Iniciando leitura da seguranca do projeto 'Acesso 7°Ano 91+280' (ID: 238530)
+2026-05-11 14:53:52 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:53:52 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:53:52 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:53:52 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:53:52 | INFO | Projeto 'Acesso 7° Ano - km 91+280 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:53:52 | INFO | Iniciando leitura da seguranca do projeto 'Acesso 8°Ano 31+50' (ID: 240874)
+2026-05-11 14:53:52 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:53:52 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:53:52 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:53:52 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:53:53 | INFO | Projeto 'Acesso 8° Ano - km 31+50 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:53:53 | INFO | Iniciando leitura da seguranca do projeto 'Acesso 8°Ano 72+48' (ID: 241681)
+2026-05-11 14:53:53 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:53:53 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:53:53 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:53:53 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:53:53 | INFO | Projeto 'Acesso 8° Ano - km 72+48 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:53:53 | INFO | Iniciando leitura da seguranca do projeto 'Acesso km 35 - BR414/GO' (ID: 298790)
+2026-05-11 14:53:54 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:53:55 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:53:55 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:53:55 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:53:55 | INFO | Projeto 'Acesso km 435+000 - BR414/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:53:55 | INFO | Iniciando leitura da seguranca do projeto 'Adequação Faixa BR-080' (ID: 210381)
+2026-05-11 14:53:56 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:53:56 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:53:56 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:53:56 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:53:56 | INFO | Projeto 'Adequação Largura de Faixa Existente 8° Ano - BR080/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:53:56 | INFO | Iniciando leitura da seguranca do projeto 'Adequação Faixa BR-414' (ID: 209600)
+2026-05-11 14:53:58 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:53:59 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:53:59 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:53:59 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:53:59 | INFO | Projeto 'Adequação Largura de Faixa Existente 8° Ano - BR414/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:53:59 | INFO | Iniciando leitura da seguranca do projeto 'Agulha 11' (ID: 330034)
+2026-05-11 14:54:02 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:02 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:02 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:02 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:02 | INFO | Projeto 'Agulha 11 - km 672+200 - BR153/TO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:02 | INFO | Iniciando leitura da seguranca do projeto 'Agulha 12, 14 e 15' (ID: 331602)
+2026-05-11 14:54:04 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:04 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:04 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:04 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:04 | INFO | Projeto 'Agulha 12, 14 e 15 - km 671+672 - BR153/TO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:04 | INFO | Iniciando leitura da seguranca do projeto 'Agulha 13' (ID: 330821)
+2026-05-11 14:54:05 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:05 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:05 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:05 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:05 | INFO | Projeto 'Agulha 13 - km 675+400 - BR153/TO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:05 | INFO | Iniciando leitura da seguranca do projeto 'Alças Viadutos km 432+441' (ID: 211162)
+2026-05-11 14:54:06 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:06 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:06 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:06 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:06 | INFO | Projeto 'Alças Viadutos - km 432+441 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:06 | INFO | Iniciando leitura da seguranca do projeto 'Ampliações 10°Ano SH 10' (ID: 236186)
+2026-05-11 14:54:06 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:06 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:06 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:06 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:06 | INFO | Projeto 'Ampliações 10° Ano SH 10 - km 71+08 - 107+120 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:07 | INFO | Iniciando leitura da seguranca do projeto 'Ampliações 10°Ano SH 12' (ID: 236967)
+2026-05-11 14:54:07 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:07 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:07 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:07 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:07 | INFO | Projeto 'Ampliações 10° Ano SH 12 -  km 124+420 - 141+850 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:07 | INFO | Iniciando leitura da seguranca do projeto 'Ampliações 20°Ano SH 1' (ID: 75414)
+2026-05-11 14:54:08 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:08 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:08 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:08 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:08 | INFO | Projeto 'Ampliações 20° Ano SH 1 - km 624+300 - 663+000 - BR153/TO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:08 | INFO | Iniciando leitura da seguranca do projeto 'Ampliações 23°Ano SH 6' (ID: 74633)
+2026-05-11 14:54:09 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:09 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:09 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:09 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:09 | INFO | Projeto 'Ampliações 23° Ano SH 6 - km 800+000 - 802+531 - BR153/TO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:09 | INFO | Iniciando leitura da seguranca do projeto 'Ampliações 3° Ano SH 1' (ID: 306343)
+2026-05-11 14:54:10 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:10 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:10 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:10 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:10 | INFO | Projeto 'Ampliações 3° Ano SH 1* - km 622+700 - 624+300 - BR153/TO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:10 | INFO | Iniciando leitura da seguranca do projeto 'Ampliações 3°Ano SH 1,5' (ID: 76195)
+2026-05-11 14:54:11 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:11 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:11 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:11 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:11 | INFO | Projeto 'Ampliações 3° Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:11 | INFO | Iniciando leitura da seguranca do projeto 'Ampliações 3°Ano SH 2*' (ID: 100581)
+2026-05-11 14:54:11 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:12 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:12 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:12 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:12 | INFO | Projeto 'Ampliações 3° Ano SH 2* - km 671+190 - 677+000 - BR153/TO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:12 | INFO | Iniciando leitura da seguranca do projeto 'Ampliações 4°Ano SH 14' (ID: 63697)
+2026-05-11 14:54:12 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:12 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:12 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:12 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:12 | INFO | Projeto 'Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:12 | INFO | Iniciando leitura da seguranca do projeto 'Ampliações 4°Ano SH 20 e 21' (ID: 64479)
+2026-05-11 14:54:13 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:13 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:13 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:13 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:13 | INFO | Projeto 'Ampliações 4° Ano SH 20 e 21 - km 288+500 - 319+240 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:13 | INFO | Iniciando leitura da seguranca do projeto 'Ampliações 4°Ano SH 3* e 4*' (ID: 65260)
+2026-05-11 14:54:14 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:14 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:14 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:14 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:14 | INFO | Projeto 'Ampliações 4°Ano SH 3* e 4*- km 720+800 - 724+000 - BR153/TO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:14 | INFO | Iniciando leitura da seguranca do projeto 'Ampliações 4°Ano SH 4*' (ID: 66041)
+2026-05-11 14:54:15 | INFO | Get-PWFolderSecurity retornou 17 item(ns).
+2026-05-11 14:54:15 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:15 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:15 | INFO | Total consolidado de acessos encontrados: 15
+2026-05-11 14:54:15 | INFO | Projeto 'Ampliações 4°Ano SH 4* - km 721+905 - 760+644 - BR153/TO' carregado para arvore. Groups=11 | UserLists=3 | Outros=1
+2026-05-11 14:54:15 | INFO | Iniciando leitura da seguranca do projeto 'Ampliações 4°Ano SH 5* e 6*' (ID: 62916)
+2026-05-11 14:54:15 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:16 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:16 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:16 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:16 | INFO | Projeto 'Ampliações 4° Ano SH 5* e 6* - km 797+300 - 800+000 - BR153/TO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:16 | INFO | Iniciando leitura da seguranca do projeto 'Ampliações 5°Ano SH 18 e 19' (ID: 69165)
+2026-05-11 14:54:16 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:16 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:16 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:16 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:16 | INFO | Projeto 'Ampliações 5°Ano SH 18 e 19 - km 274+940 - 288+500 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:16 | INFO | Iniciando leitura da seguranca do projeto 'Ampliações 5°Ano SH 2' (ID: 69946)
+2026-05-11 14:54:17 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:17 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:17 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:17 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:17 | INFO | Projeto 'Ampliações 5°Ano SH 2 - km 677+000 - 701+900 - BR153/TO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:17 | INFO | Iniciando leitura da seguranca do projeto 'Ampliações 5°Ano SH 22' (ID: 70727)
+2026-05-11 14:54:18 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:18 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:18 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:18 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:18 | INFO | Projeto 'Ampliações 5°Ano SH 22 - km 319+240 - 321+850 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:18 | INFO | Iniciando leitura da seguranca do projeto 'Ampliações 6°Ano SH 16 e 17' (ID: 72290)
+2026-05-11 14:54:18 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:18 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:18 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:19 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:19 | INFO | Projeto 'Ampliações 6° Ano SH 16 e 17 - km 212+450 - 274+940 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:19 | INFO | Iniciando leitura da seguranca do projeto 'Ampliações 6°Ano SH 23' (ID: 73071)
+2026-05-11 14:54:19 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:19 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:19 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:19 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:19 | INFO | Projeto 'Ampliações 6° Ano SH 23 - km 321+850 - 357+290 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:19 | INFO | Iniciando leitura da seguranca do projeto 'Ampliações 7°Ano SH 11' (ID: 211943)
+2026-05-11 14:54:20 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:20 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:20 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:20 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:20 | INFO | Projeto 'Ampliações 7° Ano SH 11 - km 107+120 - 124+420 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:20 | INFO | Iniciando leitura da seguranca do projeto 'Ampliações 7°Ano SH 15' (ID: 73852)
+2026-05-11 14:54:21 | INFO | Get-PWFolderSecurity retornou 25 item(ns).
+2026-05-11 14:54:21 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:21 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:21 | INFO | Total consolidado de acessos encontrados: 23
+2026-05-11 14:54:21 | INFO | Projeto 'Ampliações 7° Ano SH 15 - km 199+430 - 212+450 - BR153/GO' carregado para arvore. Groups=20 | UserLists=2 | Outros=1
+2026-05-11 14:54:21 | INFO | Iniciando leitura da seguranca do projeto 'Ampliações 7°Ano SH 24 a 26' (ID: 212724)
+2026-05-11 14:54:22 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:22 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:22 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:22 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:22 | INFO | Projeto 'Ampliações 7° Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:22 | INFO | Iniciando leitura da seguranca do projeto 'Ampliações 8°Ano SH 27 e 28' (ID: 213506)
+2026-05-11 14:54:22 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:22 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:22 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:22 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:22 | INFO | Projeto 'Ampliações 8° Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:22 | INFO | Iniciando leitura da seguranca do projeto 'Ampliações 8°Ano SH 29 e 30' (ID: 214287)
+2026-05-11 14:54:23 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:23 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:23 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:23 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:23 | INFO | Projeto 'Ampliações 8° Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:23 | INFO | Iniciando leitura da seguranca do projeto 'Ampliações 9°Ano SH 30' (ID: 215068)
+2026-05-11 14:54:24 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:24 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:24 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:24 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:24 | INFO | Projeto 'Ampliações 9° Ano SH 30 - km 435+50 - 444+132 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:24 | INFO | Iniciando leitura da seguranca do projeto 'Ampliações 9°Ano SH 42' (ID: 235405)
+2026-05-11 14:54:25 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:25 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:25 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:25 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:25 | INFO | Projeto 'Ampliações 9° Ano SH 42 - km 395+890 - 409+05 - BR414/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:25 | INFO | Iniciando leitura da seguranca do projeto 'Atendimento classe 1A' (ID: 395024)
+2026-05-11 14:54:26 | INFO | Get-PWFolderSecurity retornou 14 item(ns).
+2026-05-11 14:54:26 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:26 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:26 | INFO | Total consolidado de acessos encontrados: 13
+2026-05-11 14:54:26 | INFO | Projeto 'Adequação Largura de Faixa Existente - Atendimento classe 1A' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-05-11 14:54:26 | INFO | Iniciando leitura da seguranca do projeto 'BSO 01 km 422+420' (ID: 269955)
+2026-05-11 14:54:26 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:26 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:26 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:26 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:26 | INFO | Projeto 'BSO 1 (sem SAU) - Anápolis - km 422+420 Norte - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:26 | INFO | Iniciando leitura da seguranca do projeto 'BSO 02 -  km 380+080' (ID: 271731)
+2026-05-11 14:54:27 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:27 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:27 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:27 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:27 | INFO | Projeto 'BSO 2 (sem SAU) - São Francisco de Goiás - km 380+080 Sul - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:27 | INFO | Iniciando leitura da seguranca do projeto 'BSO 03 km 342+000' (ID: 273475)
+2026-05-11 14:54:28 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:28 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:28 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:28 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:28 | INFO | Projeto 'BSO 3 (com SAU) - Jaraguá - km 342+000 Norte - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:28 | INFO | Iniciando leitura da seguranca do projeto 'BSO 04 km 295+280' (ID: 275236)
+2026-05-11 14:54:29 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:29 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:29 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:29 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:29 | INFO | Projeto 'BSO 4 (com SAU) - Rialma - km 295+280 Sul - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:29 | INFO | Iniciando leitura da seguranca do projeto 'BSO 05 km 256+660' (ID: 276197)
+2026-05-11 14:54:29 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:29 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:29 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:29 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:29 | INFO | Projeto 'BSO 5 (sem SAU) - São Luiz do Norte - km 256+660 Norte - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:29 | INFO | Iniciando leitura da seguranca do projeto 'BSO 06 km 212+760' (ID: 276978)
+2026-05-11 14:54:30 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:30 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:30 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:30 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:30 | INFO | Projeto 'BSO 6 (sem SAU) - Uruaçu - km 212+760 Sul - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:30 | INFO | Iniciando leitura da seguranca do projeto 'BSO 07 km 170+980' (ID: 277759)
+2026-05-11 14:54:31 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:31 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:31 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:31 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:31 | INFO | Projeto 'BSO 7 (com SAU) - Campinorte - km 170+980 Norte - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:31 | INFO | Iniciando leitura da seguranca do projeto 'BSO 08 km 129+880' (ID: 278540)
+2026-05-11 14:54:32 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:32 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:32 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:32 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:32 | INFO | Projeto 'BSO 08 (com SAU) - km 129+880 Sul - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:32 | INFO | Iniciando leitura da seguranca do projeto 'BSO 09 km 087+040' (ID: 279321)
+2026-05-11 14:54:32 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:32 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:32 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:33 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:33 | INFO | Projeto 'BSO 09 (sem SAU) - km 087+040 Norte - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:33 | INFO | Iniciando leitura da seguranca do projeto 'BSO 10 km 046+870' (ID: 280102)
+2026-05-11 14:54:33 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:33 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:33 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:33 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:33 | INFO | Projeto 'BSO 10 (sem SAU) - km 046+870 Sul - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:33 | INFO | Iniciando leitura da seguranca do projeto 'BSO 11 km 409+260' (ID: 280883)
+2026-05-11 14:54:34 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:34 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:34 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:34 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:34 | INFO | Projeto 'BSO 11 (com SAU) - km 409+260 Norte - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:34 | INFO | Iniciando leitura da seguranca do projeto 'BSO 12 km 765+220' (ID: 281664)
+2026-05-11 14:54:35 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:35 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:35 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:35 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:35 | INFO | Projeto 'BSO 12 (com SAU) - km 765+220 Sul - BR153/TO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:35 | INFO | Iniciando leitura da seguranca do projeto 'BSO 13 km 717+200' (ID: 282445)
+2026-05-11 14:54:35 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:36 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:36 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:36 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:36 | INFO | Projeto 'BSO 13 (sem SAU) - km 717+200 Norte - BR153/TO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:36 | INFO | Iniciando leitura da seguranca do projeto 'BSO 14 km 677+200' (ID: 283230)
+2026-05-11 14:54:36 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:36 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:36 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:36 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:36 | INFO | Projeto 'BSO 14 (sem SAU) - km 677+200 Sul - BR153/TO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:36 | INFO | Iniciando leitura da seguranca do projeto 'BSO 15 km 637+500' (ID: 284011)
+2026-05-11 14:54:37 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:37 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:37 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:37 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:37 | INFO | Projeto 'BSO 15 (com SAU) -  km 637+500 Norte - BR153/TO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:37 | INFO | Iniciando leitura da seguranca do projeto 'BSO 16 km 409+260' (ID: 284792)
+2026-05-11 14:54:38 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:38 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:38 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:38 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:38 | INFO | Projeto 'BSO 16 (sem SAU) - km 409+260 Norte - BR414/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:38 | INFO | Iniciando leitura da seguranca do projeto 'BSO 17 km 360+120' (ID: 285573)
+2026-05-11 14:54:39 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:39 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:39 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:39 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:39 | INFO | Projeto 'BSO 17 (com SAU) - km 360+120 Sul - BR414/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:39 | INFO | Iniciando leitura da seguranca do projeto 'BSO 18 km 305+460' (ID: 286354)
+2026-05-11 14:54:39 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:39 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:39 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:39 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:39 | INFO | Projeto 'BSO 18 (com SAU) - km 305+460 Norte - BR414/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:39 | INFO | Iniciando leitura da seguranca do projeto 'BSO 19 km 141+950' (ID: 287135)
+2026-05-11 14:54:40 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:40 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:40 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:40 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:40 | INFO | Projeto 'BSO 19 (sem SAU) - km 141+950 Sul - BR080/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:40 | INFO | Iniciando leitura da seguranca do projeto 'Dispositivo 9°Ano' (ID: 54554)
+2026-05-11 14:54:41 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:41 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:41 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:41 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:41 | INFO | Projeto 'Dispositivo 9°Ano - km 444+122 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:41 | INFO | Iniciando leitura da seguranca do projeto 'HS-WIM 1 km169+067' (ID: 291834)
+2026-05-11 14:54:42 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:42 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:42 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:42 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:42 | INFO | Projeto 'HS-WIM Campinorte - km 169+067 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:42 | INFO | Iniciando leitura da seguranca do projeto 'HS-WIM 2 km432+174' (ID: 292616)
+2026-05-11 14:54:43 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:43 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:43 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:43 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:43 | INFO | Projeto 'HS-WIM Abadiânia - km 432+174 - BR414/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:43 | INFO | Iniciando leitura da seguranca do projeto 'Marginal sul km 671-677' (ID: 310242)
+2026-05-11 14:54:44 | INFO | Get-PWFolderSecurity retornou 27 item(ns).
+2026-05-11 14:54:44 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:44 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:44 | INFO | Total consolidado de acessos encontrados: 25
+2026-05-11 14:54:44 | INFO | Projeto 'Marginal sul - km 671 - 677 - BR153/TO' carregado para arvore. Groups=21 | UserLists=3 | Outros=1
+2026-05-11 14:54:44 | INFO | Iniciando leitura da seguranca do projeto 'Passarela Aliança km 623' (ID: 347970)
+2026-05-11 14:54:45 | INFO | Get-PWFolderSecurity retornou 26 item(ns).
+2026-05-11 14:54:45 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:45 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:45 | INFO | Total consolidado de acessos encontrados: 24
+2026-05-11 14:54:45 | INFO | Projeto 'Passarela 4 Aliança 4° Ano - km 623+500 - BR153/TO' carregado para arvore. Groups=20 | UserLists=3 | Outros=1
+2026-05-11 14:54:45 | INFO | Iniciando leitura da seguranca do projeto 'Passarela Alvorada Km 759' (ID: 336554)
+2026-05-11 14:54:46 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:46 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:46 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:46 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:46 | INFO | Projeto 'Passarela 3 Alvorada 4° Ano - Km 759+700 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:46 | INFO | Iniciando leitura da seguranca do projeto 'Passarela Uruaçu km 197' (ID: 334989)
+2026-05-11 14:54:47 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:47 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:47 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:47 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:47 | INFO | Projeto 'Passarela 1 Uruaçu 4° Ano - km 197+800 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:47 | INFO | Iniciando leitura da seguranca do projeto 'Passarela Uruaçu km 198' (ID: 335770)
+2026-05-11 14:54:48 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:48 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:48 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:48 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:48 | INFO | Projeto 'Passarela 2 Uruaçu 4° Ano - Km 198+430 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:48 | INFO | Iniciando leitura da seguranca do projeto 'Pontos de ônibus' (ID: 370792)
+2026-05-11 14:54:48 | INFO | Get-PWFolderSecurity retornou 18 item(ns).
+2026-05-11 14:54:49 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:49 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:49 | INFO | Total consolidado de acessos encontrados: 15
+2026-05-11 14:54:49 | INFO | Projeto 'Pontos de ônibus 3° e 4° Ano - BR-153' carregado para arvore. Groups=11 | UserLists=2 | Outros=2
+2026-05-11 14:54:49 | INFO | Iniciando leitura da seguranca do projeto 'PPD 01 km 801+020' (ID: 287916)
+2026-05-11 14:54:49 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:49 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:49 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:49 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:49 | INFO | Projeto 'PPD Talismã - km 801+020 Norte - BR153/TO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:49 | INFO | Iniciando leitura da seguranca do projeto 'PPD 02 km 210+900' (ID: 288697)
+2026-05-11 14:54:50 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:50 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:50 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:50 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:50 | INFO | Projeto 'PPD Uruaçu - km 210+900 Sul - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:50 | INFO | Iniciando leitura da seguranca do projeto 'PPF km 168+000' (ID: 289478)
+2026-05-11 14:54:51 | INFO | Get-PWFolderSecurity retornou 15 item(ns).
+2026-05-11 14:54:51 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:51 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:51 | INFO | Total consolidado de acessos encontrados: 13
+2026-05-11 14:54:51 | INFO | Projeto 'Posto de Pesagem - km 168+000 - BR153/GO' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-05-11 14:54:51 | INFO | Iniciando leitura da seguranca do projeto 'PPF km 171+000' (ID: 290259)
+2026-05-11 14:54:52 | INFO | Get-PWFolderSecurity retornou 15 item(ns).
+2026-05-11 14:54:52 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:52 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:52 | INFO | Total consolidado de acessos encontrados: 13
+2026-05-11 14:54:52 | INFO | Projeto 'Posto de Pesagem - km 171+000 - BR153/GO' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-05-11 14:54:52 | INFO | Iniciando leitura da seguranca do projeto 'PPF km 431+300' (ID: 291040)
+2026-05-11 14:54:53 | INFO | Get-PWFolderSecurity retornou 15 item(ns).
+2026-05-11 14:54:53 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:53 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:53 | INFO | Total consolidado de acessos encontrados: 13
+2026-05-11 14:54:53 | INFO | Projeto 'Posto de Pesagem - km 431+300 - BR414/GO' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-05-11 14:54:53 | INFO | Iniciando leitura da seguranca do projeto 'Praça 01 km 640+000' (ID: 253195)
+2026-05-11 14:54:53 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:54 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:54 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:54 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:54 | INFO | Projeto 'Praça de Pedágio Aliança do Tocantins - km 640+000 - BR153/TO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:54 | INFO | Iniciando leitura da seguranca do projeto 'Praça 02 km 745+555' (ID: 255070)
+2026-05-11 14:54:54 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:54 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:54 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:54 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:54 | INFO | Projeto 'Praça de Pedágio Alvorada - km 745+555 - BR153/TO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:54 | INFO | Iniciando leitura da seguranca do projeto 'Praça 03 km 012+500' (ID: 256892)
+2026-05-11 14:54:55 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:55 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:55 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:55 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:55 | INFO | Projeto 'Praça de Pedágio Porangatu - km 012+500 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:55 | INFO | Iniciando leitura da seguranca do projeto 'Praça 04 km 116+120' (ID: 258782)
+2026-05-11 14:54:56 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:56 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:56 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:56 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:56 | INFO | Projeto 'Praça de Pedágio Estrela do Norte -  km 116+120 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:56 | INFO | Iniciando leitura da seguranca do projeto 'Praça 05 km 182+040' (ID: 260616)
+2026-05-11 14:54:57 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:57 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:57 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:57 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:57 | INFO | Projeto 'Praça de Pedágio Campinorte - km 182+040 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:57 | INFO | Iniciando leitura da seguranca do projeto 'Praça 06 km 233+400' (ID: 262525)
+2026-05-11 14:54:58 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:54:58 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:54:58 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:54:58 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:54:58 | INFO | Projeto 'Praça de Pedágio Hidrolina - km 233+400 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:54:58 | INFO | Iniciando leitura da seguranca do projeto 'Praça 07 km 367+500' (ID: 264434)
+2026-05-11 14:55:01 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:55:01 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:55:01 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:55:01 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:55:01 | INFO | Projeto 'Praça de Pedágio Jaraguá - km 367+500 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:55:01 | INFO | Iniciando leitura da seguranca do projeto 'Praça 08 km 155+500' (ID: 266226)
+2026-05-11 14:55:01 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:55:01 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:55:01 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:55:01 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:55:01 | INFO | Projeto 'Praça de Pedágio Santa Rita do Novo Destino - km 155+500 - BR080/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:55:01 | INFO | Iniciando leitura da seguranca do projeto 'Praça 09 km 404+080' (ID: 268129)
+2026-05-11 14:55:03 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:55:03 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:55:03 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:55:03 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:55:03 | INFO | Projeto 'Praça de Pedágio Corumbá de Goiás - km 404+080 - BR414/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:55:03 | INFO | Iniciando leitura da seguranca do projeto 'Retorno em U km 668' (ID: 361738)
+2026-05-11 14:55:03 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:55:03 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:55:03 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:55:03 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:55:03 | INFO | Projeto 'Retorno em U - km 668 - BR-153/TO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:55:03 | INFO | Iniciando leitura da seguranca do projeto 'Retorno km 1+238' (ID: 208819)
+2026-05-11 14:55:04 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:55:04 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:55:04 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:55:04 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:55:04 | INFO | Projeto 'Retornos em U 24° Ano - km 1+238 - BR153/GO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 14:55:04 | INFO | Iniciando leitura da seguranca do projeto 'Retornos em “U” 20' (ID: 307124)
+2026-05-11 14:55:05 | INFO | Get-PWFolderSecurity retornou 16 item(ns).
+2026-05-11 14:55:05 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-11 14:55:05 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-11 14:55:05 | INFO | Total consolidado de acessos encontrados: 14
+2026-05-11 14:55:05 | INFO | Projeto 'Retornos em U 20° Ano - km 624+500 - 624+700 - BR153/TO' carregado para arvore. Groups=11 | UserLists=2 | Outros=1
+2026-05-11 15:22:27 | INFO | Resumo final da execução | Total=572 | Sucesso=513 | JaExiste=59 | Erro=0
+2026-05-11 15:23:42 | INFO | Sessao encerrada com 'Undo-PWLogin'.

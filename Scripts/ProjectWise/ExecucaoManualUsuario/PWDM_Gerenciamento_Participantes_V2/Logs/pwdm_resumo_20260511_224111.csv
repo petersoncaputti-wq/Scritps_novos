@@ -1,0 +1,25 @@
+﻿timestamp,nomeProjeto,projectId,email,acao_solicitada,acao_planejada,situacao_usuario,status,http_status
+2026-05-11T22:41:11,Alteamento de Greide - km 163 - BR101/ES,51c13f2f-3ee2-4822-b711-0a1e4191a31a,je***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-11T22:41:11,"Ciclovia de Linhares - km 138,794 +144,750 - BR101/ES",fb7e0380-e5ad-4201-93a1-f8e0dd7530ad,je***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-11T22:41:11,Contorno de Fundão - km 227 + 232 - BR101/ES,b33b8577-c8b6-4f2a-8636-1cb79fe8e847,je***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-11T22:41:11,Contorno de Ibiraçu - km 212 + 215 - BR101/ES,2972c1b9-4938-4819-88ee-8aa0399e1519,je***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-11T22:41:11,"Contorno de Vitória Dispositivo 1 - km 284,710 - BR101/ES",c26b2400-4294-4331-a490-1aeb0a2e325c,je***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-11T22:41:11,"Contorno de Vitória Dispositivo 2 - km 287,730 - BR101/ES",b763c0cf-7622-4a0b-9f0e-ac40e56d8056,je***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-11T22:41:11,"Contorno de Vitória Marginais - km 278,900 + 291,000 - BR101/ES",b83f14cb-2c8b-4cc8-af10-f75eaa6a1a59,je***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-11T22:41:11,"Duplicação SH C - km 203,6 + 222,9 - BR101/ES",b2a0d093-b73f-4a35-80a5-72482941a2d2,je***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-11T22:41:11,"Duplicação SH C (Contorno de Fundão) - km 222,9 + 227 - BR101/ES",0c26eb3d-651b-4635-a704-fc336bbdd5fb,je***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-11T22:41:11,"Duplicação SH C (Contorno de Ibiraçu) - km 210,9 + 212 - BR101/ES",fc3fe767-6888-4b53-b265-340717d202a4,je***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-11T22:41:11,Duplicação SH D1 - km 242 + 247 - BR101/ES,02829d40-9e38-4ef4-ac8f-0229db57e1e2,je***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-11T22:41:11,"Duplicação SH D2 - km 231,9 + 242 - BR101/ES",059e2f5b-b03f-4868-8f10-916046e97587,je***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-11T22:41:11,"Duplicação SH F - km 308,1 + 359,2 - BR101/ES",6f431584-c23f-4726-a37e-92547004f897,je***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-11T22:41:11,"Duplicação SH G1A (ANTT) -  km 357,7 + 373,5 - BR101/ES",f8a873e4-d9c0-46f0-a093-f3eb05c28203,je***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-11T22:41:11,"Duplicação SH G1A (Obras) -  km 357,7 + 373,5 - BR101/ES",1f9e5deb-28a4-4cf7-a4a6-754511c9cbc7,je***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-11T22:41:11,"Duplicação SH G1B - km 380,3 + 396,8 - BR101/ES",31129f32-46ea-4d0c-858e-52b0e3befebf,je***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-11T22:41:11,"Duplicação SH G2 -  km 396,8 + 426,7 - BR101/ES",6a3b231e-9fda-4347-b2da-48c1c0246203,je***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-11T22:41:11,HS-WIM - Ibiraçu - km 224 - BR101/ES,054785a1-382d-4ae9-a8f2-26e259ce68a9,je***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-11T22:41:11,"Marginais de Viana -  km 291,5 + 304,8 - BR101/ES",9556b93e-cf07-4104-999d-72439ee92322,je***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-11T22:41:11,"Marginais de Vitória - km 278,200 - 291,500 - BR101/ES",a386e50a-e792-49cc-a8f1-c85d8c98a0fb,je***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-11T22:41:11,Passarelas - km 6 - BR101/ES,0eae41f5-6047-4f8e-ae3d-b6878e1060e8,je***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-11T22:41:11,Pedro Canário (km 15 + 17) / Linhares (km 146 + 150) / Timbuí (km 237 + 239) - BR101/ES,b80dc7a9-285f-470f-9efa-36c4d3c239f4,je***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-11T22:41:11,PPD Trecho Norte - Linhares - km 169+900 - BR101/ES,e221e732-7d85-4885-82a7-96d09389b8be,je***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-11T22:41:11,PPD Trecho Sul - Serra - km 425+300 - BR101/ES,3887ad62-2f26-423f-bf8e-801139045ca8,je***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200

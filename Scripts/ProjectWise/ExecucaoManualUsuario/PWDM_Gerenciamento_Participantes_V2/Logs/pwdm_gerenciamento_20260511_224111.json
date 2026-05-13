@@ -1,0 +1,1879 @@
+{
+  "timestamp": "2026-05-11T22:41:11",
+  "operacoes": [
+    {
+      "nomeProjeto": "Alteamento de Greide - km 163 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Alteamento de Greide - km 163 - BR101/ES",
+        "id": "245710",
+        "guid": "cb1c86c5-f3b8-446d-b026-7bcbc62988b5",
+        "connectedProjectId": "51c13f2f-3ee2-4822-b711-0a1e4191a31a",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/51c13f2f-3ee2-4822-b711-0a1e4191a31a/ProjectSettings/51c13f2f-3ee2-4822-b711-0a1e4191a31a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "51c13f2f-3ee2-4822-b711-0a1e4191a31a",
+      "projectId": "51c13f2f-3ee2-4822-b711-0a1e4191a31a",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "nomeProjeto": "Ciclovia de Linhares - km 138,794 +144,750 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Ciclovia de Linhares - km 138,794 +144,750 - BR101/ES",
+        "id": "244929",
+        "guid": "35e2ef7f-fd6d-4647-b746-33aeb0cc389a",
+        "connectedProjectId": "fb7e0380-e5ad-4201-93a1-f8e0dd7530ad",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/fb7e0380-e5ad-4201-93a1-f8e0dd7530ad/ProjectSettings/fb7e0380-e5ad-4201-93a1-f8e0dd7530ad/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "fb7e0380-e5ad-4201-93a1-f8e0dd7530ad",
+      "projectId": "fb7e0380-e5ad-4201-93a1-f8e0dd7530ad",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "nomeProjeto": "Contorno de Fundão - km 227 + 232 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Contorno de Fundão - km 227 + 232 - BR101/ES",
+        "id": "242586",
+        "guid": "c11fc2f3-edb1-46a8-bbd6-562d8a34f778",
+        "connectedProjectId": "b33b8577-c8b6-4f2a-8636-1cb79fe8e847",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/b33b8577-c8b6-4f2a-8636-1cb79fe8e847/ProjectSettings/b33b8577-c8b6-4f2a-8636-1cb79fe8e847/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "b33b8577-c8b6-4f2a-8636-1cb79fe8e847",
+      "projectId": "b33b8577-c8b6-4f2a-8636-1cb79fe8e847",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "nomeProjeto": "Contorno de Ibiraçu - km 212 + 215 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Contorno de Ibiraçu - km 212 + 215 - BR101/ES",
+        "id": "244148",
+        "guid": "bedc1db0-b65c-47a1-bbff-a45fb31ab049",
+        "connectedProjectId": "2972c1b9-4938-4819-88ee-8aa0399e1519",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/2972c1b9-4938-4819-88ee-8aa0399e1519/ProjectSettings/2972c1b9-4938-4819-88ee-8aa0399e1519/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "2972c1b9-4938-4819-88ee-8aa0399e1519",
+      "projectId": "2972c1b9-4938-4819-88ee-8aa0399e1519",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "nomeProjeto": "Contorno de Vitória Dispositivo 1 - km 284,710 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Contorno de Vitória Dispositivo 1 - km 284,710 - BR101/ES",
+        "id": "243367",
+        "guid": "c36a4880-8681-4256-85cf-957ef97f1108",
+        "connectedProjectId": "c26b2400-4294-4331-a490-1aeb0a2e325c",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/c26b2400-4294-4331-a490-1aeb0a2e325c/ProjectSettings/c26b2400-4294-4331-a490-1aeb0a2e325c/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "c26b2400-4294-4331-a490-1aeb0a2e325c",
+      "projectId": "c26b2400-4294-4331-a490-1aeb0a2e325c",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "nomeProjeto": "Contorno de Vitória Dispositivo 2 - km 287,730 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Contorno de Vitória Dispositivo 2 - km 287,730 - BR101/ES",
+        "id": "332794",
+        "guid": "f4e339b2-264c-4cd8-a455-46ca7715ecfe",
+        "connectedProjectId": "b763c0cf-7622-4a0b-9f0e-ac40e56d8056",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/b763c0cf-7622-4a0b-9f0e-ac40e56d8056/ProjectSettings/b763c0cf-7622-4a0b-9f0e-ac40e56d8056/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "b763c0cf-7622-4a0b-9f0e-ac40e56d8056",
+      "projectId": "b763c0cf-7622-4a0b-9f0e-ac40e56d8056",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "nomeProjeto": "Contorno de Vitória Marginais - km 278,900 + 291,000 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Contorno de Vitória Marginais - km 278,900 + 291,000 - BR101/ES",
+        "id": "333576",
+        "guid": "647876ab-ac2a-4c19-b1c1-5dfeeffb38ca",
+        "connectedProjectId": "b83f14cb-2c8b-4cc8-af10-f75eaa6a1a59",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/b83f14cb-2c8b-4cc8-af10-f75eaa6a1a59/ProjectSettings/b83f14cb-2c8b-4cc8-af10-f75eaa6a1a59/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "b83f14cb-2c8b-4cc8-af10-f75eaa6a1a59",
+      "projectId": "b83f14cb-2c8b-4cc8-af10-f75eaa6a1a59",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "nomeProjeto": "Duplicação SH C - km 203,6 + 222,9 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH C - km 203,6 + 222,9 - BR101/ES",
+        "id": "248054",
+        "guid": "9b021995-fdbc-48e7-a9dc-e90b3cb03ee7",
+        "connectedProjectId": "b2a0d093-b73f-4a35-80a5-72482941a2d2",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/b2a0d093-b73f-4a35-80a5-72482941a2d2/ProjectSettings/b2a0d093-b73f-4a35-80a5-72482941a2d2/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "b2a0d093-b73f-4a35-80a5-72482941a2d2",
+      "projectId": "b2a0d093-b73f-4a35-80a5-72482941a2d2",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "nomeProjeto": "Duplicação SH C (Contorno de Fundão) - km 222,9 + 227 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH C (Contorno de Fundão) - km 222,9 + 227 - BR101/ES",
+        "id": "351230",
+        "guid": "46971796-c534-4541-a3a4-2c73b01b23c2",
+        "connectedProjectId": "0c26eb3d-651b-4635-a704-fc336bbdd5fb",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/0c26eb3d-651b-4635-a704-fc336bbdd5fb/ProjectSettings/0c26eb3d-651b-4635-a704-fc336bbdd5fb/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "0c26eb3d-651b-4635-a704-fc336bbdd5fb",
+      "projectId": "0c26eb3d-651b-4635-a704-fc336bbdd5fb",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "nomeProjeto": "Duplicação SH C (Contorno de Ibiraçu) - km 210,9 + 212 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH C (Contorno de Ibiraçu) - km 210,9 + 212 - BR101/ES",
+        "id": "350448",
+        "guid": "898c3cfc-ac08-4d92-8649-c4d3d8e4d9c5",
+        "connectedProjectId": "fc3fe767-6888-4b53-b265-340717d202a4",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/fc3fe767-6888-4b53-b265-340717d202a4/ProjectSettings/fc3fe767-6888-4b53-b265-340717d202a4/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "fc3fe767-6888-4b53-b265-340717d202a4",
+      "projectId": "fc3fe767-6888-4b53-b265-340717d202a4",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "nomeProjeto": "Duplicação SH D1 - km 242 + 247 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH D1 - km 242 + 247 - BR101/ES",
+        "id": "248835",
+        "guid": "3ac231b6-a53b-4ab3-a2e6-7bc88a950419",
+        "connectedProjectId": "02829d40-9e38-4ef4-ac8f-0229db57e1e2",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/02829d40-9e38-4ef4-ac8f-0229db57e1e2/ProjectSettings/02829d40-9e38-4ef4-ac8f-0229db57e1e2/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "02829d40-9e38-4ef4-ac8f-0229db57e1e2",
+      "projectId": "02829d40-9e38-4ef4-ac8f-0229db57e1e2",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "nomeProjeto": "Duplicação SH D2 - km 231,9 + 242 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH D2 - km 231,9 + 242 - BR101/ES",
+        "id": "249616",
+        "guid": "d9b8acf2-eb1b-4b6b-816c-86d8b4dd2255",
+        "connectedProjectId": "059e2f5b-b03f-4868-8f10-916046e97587",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/059e2f5b-b03f-4868-8f10-916046e97587/ProjectSettings/059e2f5b-b03f-4868-8f10-916046e97587/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "059e2f5b-b03f-4868-8f10-916046e97587",
+      "projectId": "059e2f5b-b03f-4868-8f10-916046e97587",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "nomeProjeto": "Duplicação SH F - km 308,1 + 359,2 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH F - km 308,1 + 359,2 - BR101/ES",
+        "id": "259324",
+        "guid": "376db00a-ddaa-4cfa-8520-7e72238f8224",
+        "connectedProjectId": "6f431584-c23f-4726-a37e-92547004f897",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/6f431584-c23f-4726-a37e-92547004f897/ProjectSettings/6f431584-c23f-4726-a37e-92547004f897/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "6f431584-c23f-4726-a37e-92547004f897",
+      "projectId": "6f431584-c23f-4726-a37e-92547004f897",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "nomeProjeto": "Duplicação SH G1A (ANTT) -  km 357,7 + 373,5 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH G1A (ANTT) -  km 357,7 + 373,5 - BR101/ES",
+        "id": "360783",
+        "guid": "53fed576-5e29-4aad-b430-3cbdb2dd9957",
+        "connectedProjectId": "f8a873e4-d9c0-46f0-a093-f3eb05c28203",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/f8a873e4-d9c0-46f0-a093-f3eb05c28203/ProjectSettings/f8a873e4-d9c0-46f0-a093-f3eb05c28203/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "f8a873e4-d9c0-46f0-a093-f3eb05c28203",
+      "projectId": "f8a873e4-d9c0-46f0-a093-f3eb05c28203",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "nomeProjeto": "Duplicação SH G1A (Obras) -  km 357,7 + 373,5 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH G1A (Obras) -  km 357,7 + 373,5 - BR101/ES",
+        "id": "250397",
+        "guid": "aa2a86af-0f24-444a-a7b7-6a7a2ad96c60",
+        "connectedProjectId": "1f9e5deb-28a4-4cf7-a4a6-754511c9cbc7",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/1f9e5deb-28a4-4cf7-a4a6-754511c9cbc7/ProjectSettings/1f9e5deb-28a4-4cf7-a4a6-754511c9cbc7/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "1f9e5deb-28a4-4cf7-a4a6-754511c9cbc7",
+      "projectId": "1f9e5deb-28a4-4cf7-a4a6-754511c9cbc7",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "nomeProjeto": "Duplicação SH G1B - km 380,3 + 396,8 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH G1B - km 380,3 + 396,8 - BR101/ES",
+        "id": "251178",
+        "guid": "11425a55-88f9-4505-80a9-508be98a10a1",
+        "connectedProjectId": "31129f32-46ea-4d0c-858e-52b0e3befebf",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/31129f32-46ea-4d0c-858e-52b0e3befebf/ProjectSettings/31129f32-46ea-4d0c-858e-52b0e3befebf/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "31129f32-46ea-4d0c-858e-52b0e3befebf",
+      "projectId": "31129f32-46ea-4d0c-858e-52b0e3befebf",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "nomeProjeto": "Duplicação SH G2 -  km 396,8 + 426,7 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH G2 -  km 396,8 + 426,7 - BR101/ES",
+        "id": "251959",
+        "guid": "3fbd7012-dead-4ec0-8484-f2bf1557d7fc",
+        "connectedProjectId": "6a3b231e-9fda-4347-b2da-48c1c0246203",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/6a3b231e-9fda-4347-b2da-48c1c0246203/ProjectSettings/6a3b231e-9fda-4347-b2da-48c1c0246203/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "6a3b231e-9fda-4347-b2da-48c1c0246203",
+      "projectId": "6a3b231e-9fda-4347-b2da-48c1c0246203",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "nomeProjeto": "HS-WIM - Ibiraçu - km 224 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "HS-WIM - Ibiraçu - km 224 - BR101/ES",
+        "id": "258071",
+        "guid": "1081a941-2eb9-42a6-8fc7-b70f8f549d76",
+        "connectedProjectId": "054785a1-382d-4ae9-a8f2-26e259ce68a9",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/054785a1-382d-4ae9-a8f2-26e259ce68a9/ProjectSettings/054785a1-382d-4ae9-a8f2-26e259ce68a9/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "054785a1-382d-4ae9-a8f2-26e259ce68a9",
+      "projectId": "054785a1-382d-4ae9-a8f2-26e259ce68a9",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "nomeProjeto": "Marginais de Viana -  km 291,5 + 304,8 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Marginais de Viana -  km 291,5 + 304,8 - BR101/ES",
+        "id": "252740",
+        "guid": "f0fad2a7-e275-4519-b0ad-f58f11e1bf7e",
+        "connectedProjectId": "9556b93e-cf07-4104-999d-72439ee92322",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/9556b93e-cf07-4104-999d-72439ee92322/ProjectSettings/9556b93e-cf07-4104-999d-72439ee92322/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "9556b93e-cf07-4104-999d-72439ee92322",
+      "projectId": "9556b93e-cf07-4104-999d-72439ee92322",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "nomeProjeto": "Marginais de Vitória - km 278,200 - 291,500 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Marginais de Vitória - km 278,200 - 291,500 - BR101/ES",
+        "id": "247272",
+        "guid": "c14cce9b-0a2a-46db-b1ba-fa612294448d",
+        "connectedProjectId": "a386e50a-e792-49cc-a8f1-c85d8c98a0fb",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/a386e50a-e792-49cc-a8f1-c85d8c98a0fb/ProjectSettings/a386e50a-e792-49cc-a8f1-c85d8c98a0fb/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "a386e50a-e792-49cc-a8f1-c85d8c98a0fb",
+      "projectId": "a386e50a-e792-49cc-a8f1-c85d8c98a0fb",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "nomeProjeto": "Passarelas - km 6 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Passarelas - km 6 - BR101/ES",
+        "id": "246491",
+        "guid": "128d0bb8-c2df-47a7-b103-dae3db3b5598",
+        "connectedProjectId": "0eae41f5-6047-4f8e-ae3d-b6878e1060e8",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/0eae41f5-6047-4f8e-ae3d-b6878e1060e8/ProjectSettings/0eae41f5-6047-4f8e-ae3d-b6878e1060e8/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "0eae41f5-6047-4f8e-ae3d-b6878e1060e8",
+      "projectId": "0eae41f5-6047-4f8e-ae3d-b6878e1060e8",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "nomeProjeto": "Pedro Canário (km 15 + 17) / Linhares (km 146 + 150) / Timbuí (km 237 + 239) - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Pedro Canário (km 15 + 17) / Linhares (km 146 + 150) / Timbuí (km 237 + 239) - BR101/ES",
+        "id": "253973",
+        "guid": "4299f4a8-2dfb-4bdc-a2fb-431eece8f295",
+        "connectedProjectId": "b80dc7a9-285f-470f-9efa-36c4d3c239f4",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/b80dc7a9-285f-470f-9efa-36c4d3c239f4/ProjectSettings/b80dc7a9-285f-470f-9efa-36c4d3c239f4/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "b80dc7a9-285f-470f-9efa-36c4d3c239f4",
+      "projectId": "b80dc7a9-285f-470f-9efa-36c4d3c239f4",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "nomeProjeto": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+        "id": "255227",
+        "guid": "9e26356f-eafb-4cab-b87d-014d40b80831",
+        "connectedProjectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e221e732-7d85-4885-82a7-96d09389b8be/ProjectSettings/e221e732-7d85-4885-82a7-96d09389b8be/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "e221e732-7d85-4885-82a7-96d09389b8be",
+      "projectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "nomeProjeto": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+        "id": "256672",
+        "guid": "389e884f-5d2f-4042-a269-496a34745745",
+        "connectedProjectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+      "projectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    }
+  ],
+  "resultados": [
+    {
+      "projectId": "51c13f2f-3ee2-4822-b711-0a1e4191a31a",
+      "nomeProjeto": "Alteamento de Greide - km 163 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Alteamento de Greide - km 163 - BR101/ES",
+        "id": "245710",
+        "guid": "cb1c86c5-f3b8-446d-b026-7bcbc62988b5",
+        "connectedProjectId": "51c13f2f-3ee2-4822-b711-0a1e4191a31a",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/51c13f2f-3ee2-4822-b711-0a1e4191a31a/ProjectSettings/51c13f2f-3ee2-4822-b711-0a1e4191a31a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/51c13f2f-3ee2-4822-b711-0a1e4191a31a/ProjectSettings/51c13f2f-3ee2-4822-b711-0a1e4191a31a/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/51c13f2f-3ee2-4822-b711-0a1e4191a31a/ProjectSettings/51c13f2f-3ee2-4822-b711-0a1e4191a31a/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Jessica RODRIGUES DE MELLO",
+            "email": "je***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "ea039daf-80e3-4b00-b96d-37663e8a9fdf",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "fb7e0380-e5ad-4201-93a1-f8e0dd7530ad",
+      "nomeProjeto": "Ciclovia de Linhares - km 138,794 +144,750 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Ciclovia de Linhares - km 138,794 +144,750 - BR101/ES",
+        "id": "244929",
+        "guid": "35e2ef7f-fd6d-4647-b746-33aeb0cc389a",
+        "connectedProjectId": "fb7e0380-e5ad-4201-93a1-f8e0dd7530ad",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/fb7e0380-e5ad-4201-93a1-f8e0dd7530ad/ProjectSettings/fb7e0380-e5ad-4201-93a1-f8e0dd7530ad/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/fb7e0380-e5ad-4201-93a1-f8e0dd7530ad/ProjectSettings/fb7e0380-e5ad-4201-93a1-f8e0dd7530ad/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/fb7e0380-e5ad-4201-93a1-f8e0dd7530ad/ProjectSettings/fb7e0380-e5ad-4201-93a1-f8e0dd7530ad/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Jessica RODRIGUES DE MELLO",
+            "email": "je***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "f13be14c-2045-47b1-a6e2-269af1c12540",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "b33b8577-c8b6-4f2a-8636-1cb79fe8e847",
+      "nomeProjeto": "Contorno de Fundão - km 227 + 232 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Contorno de Fundão - km 227 + 232 - BR101/ES",
+        "id": "242586",
+        "guid": "c11fc2f3-edb1-46a8-bbd6-562d8a34f778",
+        "connectedProjectId": "b33b8577-c8b6-4f2a-8636-1cb79fe8e847",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/b33b8577-c8b6-4f2a-8636-1cb79fe8e847/ProjectSettings/b33b8577-c8b6-4f2a-8636-1cb79fe8e847/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/b33b8577-c8b6-4f2a-8636-1cb79fe8e847/ProjectSettings/b33b8577-c8b6-4f2a-8636-1cb79fe8e847/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/b33b8577-c8b6-4f2a-8636-1cb79fe8e847/ProjectSettings/b33b8577-c8b6-4f2a-8636-1cb79fe8e847/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Jessica RODRIGUES DE MELLO",
+            "email": "je***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "58ae21ef-9212-4381-8f37-15d4ae60ee3c",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "2972c1b9-4938-4819-88ee-8aa0399e1519",
+      "nomeProjeto": "Contorno de Ibiraçu - km 212 + 215 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Contorno de Ibiraçu - km 212 + 215 - BR101/ES",
+        "id": "244148",
+        "guid": "bedc1db0-b65c-47a1-bbff-a45fb31ab049",
+        "connectedProjectId": "2972c1b9-4938-4819-88ee-8aa0399e1519",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/2972c1b9-4938-4819-88ee-8aa0399e1519/ProjectSettings/2972c1b9-4938-4819-88ee-8aa0399e1519/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/2972c1b9-4938-4819-88ee-8aa0399e1519/ProjectSettings/2972c1b9-4938-4819-88ee-8aa0399e1519/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/2972c1b9-4938-4819-88ee-8aa0399e1519/ProjectSettings/2972c1b9-4938-4819-88ee-8aa0399e1519/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Jessica RODRIGUES DE MELLO",
+            "email": "je***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "d3a5caed-f322-4226-a852-6cd996109b60",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "c26b2400-4294-4331-a490-1aeb0a2e325c",
+      "nomeProjeto": "Contorno de Vitória Dispositivo 1 - km 284,710 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Contorno de Vitória Dispositivo 1 - km 284,710 - BR101/ES",
+        "id": "243367",
+        "guid": "c36a4880-8681-4256-85cf-957ef97f1108",
+        "connectedProjectId": "c26b2400-4294-4331-a490-1aeb0a2e325c",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/c26b2400-4294-4331-a490-1aeb0a2e325c/ProjectSettings/c26b2400-4294-4331-a490-1aeb0a2e325c/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/c26b2400-4294-4331-a490-1aeb0a2e325c/ProjectSettings/c26b2400-4294-4331-a490-1aeb0a2e325c/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/c26b2400-4294-4331-a490-1aeb0a2e325c/ProjectSettings/c26b2400-4294-4331-a490-1aeb0a2e325c/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Jessica RODRIGUES DE MELLO",
+            "email": "je***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "4ca0d1c1-bb07-4e0b-8e12-8ba5b9bff020",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "b763c0cf-7622-4a0b-9f0e-ac40e56d8056",
+      "nomeProjeto": "Contorno de Vitória Dispositivo 2 - km 287,730 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Contorno de Vitória Dispositivo 2 - km 287,730 - BR101/ES",
+        "id": "332794",
+        "guid": "f4e339b2-264c-4cd8-a455-46ca7715ecfe",
+        "connectedProjectId": "b763c0cf-7622-4a0b-9f0e-ac40e56d8056",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/b763c0cf-7622-4a0b-9f0e-ac40e56d8056/ProjectSettings/b763c0cf-7622-4a0b-9f0e-ac40e56d8056/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/b763c0cf-7622-4a0b-9f0e-ac40e56d8056/ProjectSettings/b763c0cf-7622-4a0b-9f0e-ac40e56d8056/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/b763c0cf-7622-4a0b-9f0e-ac40e56d8056/ProjectSettings/b763c0cf-7622-4a0b-9f0e-ac40e56d8056/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Jessica RODRIGUES DE MELLO",
+            "email": "je***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "358995bb-0ebf-4809-b9a5-8aba837788b6",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "b83f14cb-2c8b-4cc8-af10-f75eaa6a1a59",
+      "nomeProjeto": "Contorno de Vitória Marginais - km 278,900 + 291,000 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Contorno de Vitória Marginais - km 278,900 + 291,000 - BR101/ES",
+        "id": "333576",
+        "guid": "647876ab-ac2a-4c19-b1c1-5dfeeffb38ca",
+        "connectedProjectId": "b83f14cb-2c8b-4cc8-af10-f75eaa6a1a59",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/b83f14cb-2c8b-4cc8-af10-f75eaa6a1a59/ProjectSettings/b83f14cb-2c8b-4cc8-af10-f75eaa6a1a59/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/b83f14cb-2c8b-4cc8-af10-f75eaa6a1a59/ProjectSettings/b83f14cb-2c8b-4cc8-af10-f75eaa6a1a59/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/b83f14cb-2c8b-4cc8-af10-f75eaa6a1a59/ProjectSettings/b83f14cb-2c8b-4cc8-af10-f75eaa6a1a59/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Jessica RODRIGUES DE MELLO",
+            "email": "je***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "4b6a3728-9c9c-4fe2-81fc-b0240c5207cf",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "b2a0d093-b73f-4a35-80a5-72482941a2d2",
+      "nomeProjeto": "Duplicação SH C - km 203,6 + 222,9 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH C - km 203,6 + 222,9 - BR101/ES",
+        "id": "248054",
+        "guid": "9b021995-fdbc-48e7-a9dc-e90b3cb03ee7",
+        "connectedProjectId": "b2a0d093-b73f-4a35-80a5-72482941a2d2",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/b2a0d093-b73f-4a35-80a5-72482941a2d2/ProjectSettings/b2a0d093-b73f-4a35-80a5-72482941a2d2/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/b2a0d093-b73f-4a35-80a5-72482941a2d2/ProjectSettings/b2a0d093-b73f-4a35-80a5-72482941a2d2/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/b2a0d093-b73f-4a35-80a5-72482941a2d2/ProjectSettings/b2a0d093-b73f-4a35-80a5-72482941a2d2/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Jessica RODRIGUES DE MELLO",
+            "email": "je***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "db24623a-bc35-4ede-89c3-67c007fed576",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "0c26eb3d-651b-4635-a704-fc336bbdd5fb",
+      "nomeProjeto": "Duplicação SH C (Contorno de Fundão) - km 222,9 + 227 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH C (Contorno de Fundão) - km 222,9 + 227 - BR101/ES",
+        "id": "351230",
+        "guid": "46971796-c534-4541-a3a4-2c73b01b23c2",
+        "connectedProjectId": "0c26eb3d-651b-4635-a704-fc336bbdd5fb",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/0c26eb3d-651b-4635-a704-fc336bbdd5fb/ProjectSettings/0c26eb3d-651b-4635-a704-fc336bbdd5fb/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/0c26eb3d-651b-4635-a704-fc336bbdd5fb/ProjectSettings/0c26eb3d-651b-4635-a704-fc336bbdd5fb/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/0c26eb3d-651b-4635-a704-fc336bbdd5fb/ProjectSettings/0c26eb3d-651b-4635-a704-fc336bbdd5fb/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Jessica RODRIGUES DE MELLO",
+            "email": "je***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "3d92755f-e591-480d-9dd6-db3e71a5a0b2",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "fc3fe767-6888-4b53-b265-340717d202a4",
+      "nomeProjeto": "Duplicação SH C (Contorno de Ibiraçu) - km 210,9 + 212 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH C (Contorno de Ibiraçu) - km 210,9 + 212 - BR101/ES",
+        "id": "350448",
+        "guid": "898c3cfc-ac08-4d92-8649-c4d3d8e4d9c5",
+        "connectedProjectId": "fc3fe767-6888-4b53-b265-340717d202a4",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/fc3fe767-6888-4b53-b265-340717d202a4/ProjectSettings/fc3fe767-6888-4b53-b265-340717d202a4/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/fc3fe767-6888-4b53-b265-340717d202a4/ProjectSettings/fc3fe767-6888-4b53-b265-340717d202a4/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/fc3fe767-6888-4b53-b265-340717d202a4/ProjectSettings/fc3fe767-6888-4b53-b265-340717d202a4/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Jessica RODRIGUES DE MELLO",
+            "email": "je***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "23fc6304-3875-4b0a-a2f4-41e174c92120",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "02829d40-9e38-4ef4-ac8f-0229db57e1e2",
+      "nomeProjeto": "Duplicação SH D1 - km 242 + 247 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH D1 - km 242 + 247 - BR101/ES",
+        "id": "248835",
+        "guid": "3ac231b6-a53b-4ab3-a2e6-7bc88a950419",
+        "connectedProjectId": "02829d40-9e38-4ef4-ac8f-0229db57e1e2",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/02829d40-9e38-4ef4-ac8f-0229db57e1e2/ProjectSettings/02829d40-9e38-4ef4-ac8f-0229db57e1e2/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/02829d40-9e38-4ef4-ac8f-0229db57e1e2/ProjectSettings/02829d40-9e38-4ef4-ac8f-0229db57e1e2/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/02829d40-9e38-4ef4-ac8f-0229db57e1e2/ProjectSettings/02829d40-9e38-4ef4-ac8f-0229db57e1e2/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Jessica RODRIGUES DE MELLO",
+            "email": "je***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "c2c9874f-86f0-4abf-8e65-82e35ab32c48",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "059e2f5b-b03f-4868-8f10-916046e97587",
+      "nomeProjeto": "Duplicação SH D2 - km 231,9 + 242 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH D2 - km 231,9 + 242 - BR101/ES",
+        "id": "249616",
+        "guid": "d9b8acf2-eb1b-4b6b-816c-86d8b4dd2255",
+        "connectedProjectId": "059e2f5b-b03f-4868-8f10-916046e97587",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/059e2f5b-b03f-4868-8f10-916046e97587/ProjectSettings/059e2f5b-b03f-4868-8f10-916046e97587/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/059e2f5b-b03f-4868-8f10-916046e97587/ProjectSettings/059e2f5b-b03f-4868-8f10-916046e97587/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/059e2f5b-b03f-4868-8f10-916046e97587/ProjectSettings/059e2f5b-b03f-4868-8f10-916046e97587/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Jessica RODRIGUES DE MELLO",
+            "email": "je***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "dbd16298-fb62-4e99-855e-9b87b10d0d6d",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "6f431584-c23f-4726-a37e-92547004f897",
+      "nomeProjeto": "Duplicação SH F - km 308,1 + 359,2 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH F - km 308,1 + 359,2 - BR101/ES",
+        "id": "259324",
+        "guid": "376db00a-ddaa-4cfa-8520-7e72238f8224",
+        "connectedProjectId": "6f431584-c23f-4726-a37e-92547004f897",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/6f431584-c23f-4726-a37e-92547004f897/ProjectSettings/6f431584-c23f-4726-a37e-92547004f897/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/6f431584-c23f-4726-a37e-92547004f897/ProjectSettings/6f431584-c23f-4726-a37e-92547004f897/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/6f431584-c23f-4726-a37e-92547004f897/ProjectSettings/6f431584-c23f-4726-a37e-92547004f897/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Jessica RODRIGUES DE MELLO",
+            "email": "je***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "32b68191-b1bc-4e27-9221-b86e29124c9d",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "f8a873e4-d9c0-46f0-a093-f3eb05c28203",
+      "nomeProjeto": "Duplicação SH G1A (ANTT) -  km 357,7 + 373,5 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH G1A (ANTT) -  km 357,7 + 373,5 - BR101/ES",
+        "id": "360783",
+        "guid": "53fed576-5e29-4aad-b430-3cbdb2dd9957",
+        "connectedProjectId": "f8a873e4-d9c0-46f0-a093-f3eb05c28203",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/f8a873e4-d9c0-46f0-a093-f3eb05c28203/ProjectSettings/f8a873e4-d9c0-46f0-a093-f3eb05c28203/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/f8a873e4-d9c0-46f0-a093-f3eb05c28203/ProjectSettings/f8a873e4-d9c0-46f0-a093-f3eb05c28203/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/f8a873e4-d9c0-46f0-a093-f3eb05c28203/ProjectSettings/f8a873e4-d9c0-46f0-a093-f3eb05c28203/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Jessica RODRIGUES DE MELLO",
+            "email": "je***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "a9bd7a69-629a-4411-bab0-b2a3bf541fd4",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "1f9e5deb-28a4-4cf7-a4a6-754511c9cbc7",
+      "nomeProjeto": "Duplicação SH G1A (Obras) -  km 357,7 + 373,5 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH G1A (Obras) -  km 357,7 + 373,5 - BR101/ES",
+        "id": "250397",
+        "guid": "aa2a86af-0f24-444a-a7b7-6a7a2ad96c60",
+        "connectedProjectId": "1f9e5deb-28a4-4cf7-a4a6-754511c9cbc7",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/1f9e5deb-28a4-4cf7-a4a6-754511c9cbc7/ProjectSettings/1f9e5deb-28a4-4cf7-a4a6-754511c9cbc7/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/1f9e5deb-28a4-4cf7-a4a6-754511c9cbc7/ProjectSettings/1f9e5deb-28a4-4cf7-a4a6-754511c9cbc7/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/1f9e5deb-28a4-4cf7-a4a6-754511c9cbc7/ProjectSettings/1f9e5deb-28a4-4cf7-a4a6-754511c9cbc7/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Jessica RODRIGUES DE MELLO",
+            "email": "je***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "2c02c0e1-b1b9-4a1b-a7e2-68fc48be3d67",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "31129f32-46ea-4d0c-858e-52b0e3befebf",
+      "nomeProjeto": "Duplicação SH G1B - km 380,3 + 396,8 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH G1B - km 380,3 + 396,8 - BR101/ES",
+        "id": "251178",
+        "guid": "11425a55-88f9-4505-80a9-508be98a10a1",
+        "connectedProjectId": "31129f32-46ea-4d0c-858e-52b0e3befebf",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/31129f32-46ea-4d0c-858e-52b0e3befebf/ProjectSettings/31129f32-46ea-4d0c-858e-52b0e3befebf/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/31129f32-46ea-4d0c-858e-52b0e3befebf/ProjectSettings/31129f32-46ea-4d0c-858e-52b0e3befebf/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/31129f32-46ea-4d0c-858e-52b0e3befebf/ProjectSettings/31129f32-46ea-4d0c-858e-52b0e3befebf/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Jessica RODRIGUES DE MELLO",
+            "email": "je***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "63f95428-0898-43d7-a5df-8866fbfdec21",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "6a3b231e-9fda-4347-b2da-48c1c0246203",
+      "nomeProjeto": "Duplicação SH G2 -  km 396,8 + 426,7 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH G2 -  km 396,8 + 426,7 - BR101/ES",
+        "id": "251959",
+        "guid": "3fbd7012-dead-4ec0-8484-f2bf1557d7fc",
+        "connectedProjectId": "6a3b231e-9fda-4347-b2da-48c1c0246203",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/6a3b231e-9fda-4347-b2da-48c1c0246203/ProjectSettings/6a3b231e-9fda-4347-b2da-48c1c0246203/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/6a3b231e-9fda-4347-b2da-48c1c0246203/ProjectSettings/6a3b231e-9fda-4347-b2da-48c1c0246203/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/6a3b231e-9fda-4347-b2da-48c1c0246203/ProjectSettings/6a3b231e-9fda-4347-b2da-48c1c0246203/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Jessica RODRIGUES DE MELLO",
+            "email": "je***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "cb59d143-3dac-4dc4-a38d-41fdf47103a7",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "054785a1-382d-4ae9-a8f2-26e259ce68a9",
+      "nomeProjeto": "HS-WIM - Ibiraçu - km 224 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "HS-WIM - Ibiraçu - km 224 - BR101/ES",
+        "id": "258071",
+        "guid": "1081a941-2eb9-42a6-8fc7-b70f8f549d76",
+        "connectedProjectId": "054785a1-382d-4ae9-a8f2-26e259ce68a9",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/054785a1-382d-4ae9-a8f2-26e259ce68a9/ProjectSettings/054785a1-382d-4ae9-a8f2-26e259ce68a9/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/054785a1-382d-4ae9-a8f2-26e259ce68a9/ProjectSettings/054785a1-382d-4ae9-a8f2-26e259ce68a9/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/054785a1-382d-4ae9-a8f2-26e259ce68a9/ProjectSettings/054785a1-382d-4ae9-a8f2-26e259ce68a9/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Jessica RODRIGUES DE MELLO",
+            "email": "je***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "e897e037-3ac3-4177-91be-a857f87150bb",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "9556b93e-cf07-4104-999d-72439ee92322",
+      "nomeProjeto": "Marginais de Viana -  km 291,5 + 304,8 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Marginais de Viana -  km 291,5 + 304,8 - BR101/ES",
+        "id": "252740",
+        "guid": "f0fad2a7-e275-4519-b0ad-f58f11e1bf7e",
+        "connectedProjectId": "9556b93e-cf07-4104-999d-72439ee92322",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/9556b93e-cf07-4104-999d-72439ee92322/ProjectSettings/9556b93e-cf07-4104-999d-72439ee92322/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/9556b93e-cf07-4104-999d-72439ee92322/ProjectSettings/9556b93e-cf07-4104-999d-72439ee92322/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/9556b93e-cf07-4104-999d-72439ee92322/ProjectSettings/9556b93e-cf07-4104-999d-72439ee92322/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Jessica RODRIGUES DE MELLO",
+            "email": "je***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "ab936046-ba1f-4875-8e71-a8e66d60c715",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "a386e50a-e792-49cc-a8f1-c85d8c98a0fb",
+      "nomeProjeto": "Marginais de Vitória - km 278,200 - 291,500 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Marginais de Vitória - km 278,200 - 291,500 - BR101/ES",
+        "id": "247272",
+        "guid": "c14cce9b-0a2a-46db-b1ba-fa612294448d",
+        "connectedProjectId": "a386e50a-e792-49cc-a8f1-c85d8c98a0fb",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/a386e50a-e792-49cc-a8f1-c85d8c98a0fb/ProjectSettings/a386e50a-e792-49cc-a8f1-c85d8c98a0fb/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/a386e50a-e792-49cc-a8f1-c85d8c98a0fb/ProjectSettings/a386e50a-e792-49cc-a8f1-c85d8c98a0fb/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/a386e50a-e792-49cc-a8f1-c85d8c98a0fb/ProjectSettings/a386e50a-e792-49cc-a8f1-c85d8c98a0fb/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Jessica RODRIGUES DE MELLO",
+            "email": "je***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "76f174e9-3abe-4e45-b7c9-4a7645471d02",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "0eae41f5-6047-4f8e-ae3d-b6878e1060e8",
+      "nomeProjeto": "Passarelas - km 6 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Passarelas - km 6 - BR101/ES",
+        "id": "246491",
+        "guid": "128d0bb8-c2df-47a7-b103-dae3db3b5598",
+        "connectedProjectId": "0eae41f5-6047-4f8e-ae3d-b6878e1060e8",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/0eae41f5-6047-4f8e-ae3d-b6878e1060e8/ProjectSettings/0eae41f5-6047-4f8e-ae3d-b6878e1060e8/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/0eae41f5-6047-4f8e-ae3d-b6878e1060e8/ProjectSettings/0eae41f5-6047-4f8e-ae3d-b6878e1060e8/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/0eae41f5-6047-4f8e-ae3d-b6878e1060e8/ProjectSettings/0eae41f5-6047-4f8e-ae3d-b6878e1060e8/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Jessica RODRIGUES DE MELLO",
+            "email": "je***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "484314c4-cc56-418c-8ae5-a51278e695a0",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "b80dc7a9-285f-470f-9efa-36c4d3c239f4",
+      "nomeProjeto": "Pedro Canário (km 15 + 17) / Linhares (km 146 + 150) / Timbuí (km 237 + 239) - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Pedro Canário (km 15 + 17) / Linhares (km 146 + 150) / Timbuí (km 237 + 239) - BR101/ES",
+        "id": "253973",
+        "guid": "4299f4a8-2dfb-4bdc-a2fb-431eece8f295",
+        "connectedProjectId": "b80dc7a9-285f-470f-9efa-36c4d3c239f4",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/b80dc7a9-285f-470f-9efa-36c4d3c239f4/ProjectSettings/b80dc7a9-285f-470f-9efa-36c4d3c239f4/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/b80dc7a9-285f-470f-9efa-36c4d3c239f4/ProjectSettings/b80dc7a9-285f-470f-9efa-36c4d3c239f4/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/b80dc7a9-285f-470f-9efa-36c4d3c239f4/ProjectSettings/b80dc7a9-285f-470f-9efa-36c4d3c239f4/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Jessica RODRIGUES DE MELLO",
+            "email": "je***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "527a57aa-cfd1-468d-b6c0-08995e679707",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+      "nomeProjeto": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+        "id": "255227",
+        "guid": "9e26356f-eafb-4cab-b87d-014d40b80831",
+        "connectedProjectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e221e732-7d85-4885-82a7-96d09389b8be/ProjectSettings/e221e732-7d85-4885-82a7-96d09389b8be/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/e221e732-7d85-4885-82a7-96d09389b8be/ProjectSettings/e221e732-7d85-4885-82a7-96d09389b8be/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/e221e732-7d85-4885-82a7-96d09389b8be/ProjectSettings/e221e732-7d85-4885-82a7-96d09389b8be/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Jessica RODRIGUES DE MELLO",
+            "email": "je***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "42e9d5b9-078e-4024-9571-08db02331927",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+      "nomeProjeto": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+        "id": "256672",
+        "guid": "389e884f-5d2f-4042-a269-496a34745745",
+        "connectedProjectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Jessica RODRIGUES DE MELLO",
+            "email": "je***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "5b4bde07-873d-4fab-9def-f21504764568",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    }
+  ]
+}

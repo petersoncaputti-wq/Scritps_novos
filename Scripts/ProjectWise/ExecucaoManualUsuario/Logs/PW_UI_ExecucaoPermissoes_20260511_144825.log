@@ -1,0 +1,74 @@
+2026-05-11 14:48:25 | INFO | Aplicacao iniciada.
+2026-05-11 14:48:25 | INFO | Tentando importar modulo do ProjectWise.
+2026-05-11 14:48:25 | INFO | Modulo 'pwps_dab' importado com sucesso.
+2026-05-11 14:48:25 | INFO | Tentando conectar ao datasource do ProjectWise.
+2026-05-11 14:48:25 | INFO | Tentando conexao via 'New-PWLogin'. Parametros: DatasourceName, UserName, Password, UseGui, DoNotCreateWorkingDirectory, BentleyIMS, LoadWRE, NonAdminLogin, Token, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:48:40 | INFO | Conexao realizada via 'New-PWLogin -BentleyIMS'.
+2026-05-11 14:48:40 | INFO | Conexao com ProjectWise realizada com sucesso.
+2026-05-11 14:48:53 | INFO | Buscando usuario pelo email: wesley.mezine@egis-group.com
+2026-05-11 14:48:53 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:48:53 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:48:56 | INFO | Buscando usuario pelo email: leonardo.botelho@egis-group.com
+2026-05-11 14:48:56 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:48:56 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:48:58 | INFO | Buscando usuario pelo email: bruna.rocha@egis-group.com
+2026-05-11 14:48:58 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:48:58 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:48:58 | INFO | Buscando usuario pelo email: leticia.silva@egis-group.com
+2026-05-11 14:48:58 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:48:58 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:48:59 | INFO | Buscando usuario pelo email: joao.carvalho@egis-group.com
+2026-05-11 14:48:59 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:48:59 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:49:01 | INFO | Buscando usuario pelo email: aline.baldo@egis-group.com
+2026-05-11 14:49:01 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:49:01 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:49:02 | INFO | Buscando usuario pelo email: claudia.campos@egis-group.com
+2026-05-11 14:49:02 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:49:02 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:49:02 | INFO | Buscando usuario pelo email: matheus.santos@egis-group.com
+2026-05-11 14:49:02 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:49:02 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:49:03 | INFO | Buscando usuario pelo email: vinicius.silva@egis-group.com
+2026-05-11 14:49:03 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:49:03 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:49:03 | INFO | Buscando usuario pelo email: pietro.sa@egis-group.com
+2026-05-11 14:49:03 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:49:03 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:49:04 | INFO | Buscando usuario pelo email: samara.silva@egis-group.com
+2026-05-11 14:49:04 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:49:04 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:49:04 | INFO | Buscando usuario pelo email: larissa.macedo@egis-group.com
+2026-05-11 14:49:04 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:49:05 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:49:05 | INFO | Buscando usuario pelo email: fernanda.santos@egis-group.com
+2026-05-11 14:49:05 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:49:05 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:49:05 | INFO | Buscando usuario pelo email: luciano.moura@egis-group.com
+2026-05-11 14:49:05 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:49:06 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:49:06 | INFO | Buscando usuario pelo email: andressa.reis@egis-group.com
+2026-05-11 14:49:06 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:49:06 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:49:06 | INFO | Buscando usuario pelo email: raissa.farias@egis-group.com
+2026-05-11 14:49:06 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:49:07 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:49:07 | INFO | Buscando usuario pelo email: patricia.hidalgo@egis-group.com
+2026-05-11 14:49:07 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:49:07 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:49:08 | INFO | Buscando usuario pelo email: ronaldo.silva@egis-group.com
+2026-05-11 14:49:08 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:49:08 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:49:08 | INFO | Buscando usuario pelo email: celio.araujo@egis-group.com
+2026-05-11 14:49:08 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:49:08 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:49:09 | INFO | Buscando usuario pelo email: hermes.almeida@egis-group.com
+2026-05-11 14:49:09 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:49:09 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:49:09 | INFO | Buscando usuario pelo email: Daniele.SPITZ@egis-group.com'
+2026-05-11 14:49:09 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:49:09 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:49:10 | INFO | Buscando usuario pelo email: Jose.JUNIOR@egis-group.com
+2026-05-11 14:49:10 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-11 14:49:10 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-11 14:50:26 | INFO | Sessao encerrada com 'Undo-PWLogin'.

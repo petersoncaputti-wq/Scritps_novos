@@ -1,0 +1,66 @@
+2026-05-11 14:31:24 | INFO | ProjectWise - criacao de usuarios em lote
+2026-05-11 14:31:24 | INFO | Log: C:\Users\peter\OneDrive\Desktop\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\PW_CriarUsuariosLote_20260511_143124.log
+2026-05-11 14:31:24 | INFO | Abrindo login no ProjectWise...
+2026-05-11 14:31:34 | OK | Login realizado. Usuario atual: Peterson Caputti
+2026-05-11 14:31:42 | INFO | Arquivo de entrada: C:\Users\peter\OneDrive\Desktop\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Modelo_Criacao_Usuarios_ProjectWise.xlsx
+2026-05-11 14:31:43 | INFO | Registros carregados: 23
+2026-05-11 14:31:43 | WARN | Linha 2: usuario ja existe - Wesley Mezine (encontrado por Name)
+2026-05-11 14:31:44 | WARN | Linha 3: usuario ja existe - Leonardo Botelho (encontrado por Name)
+2026-05-11 14:31:44 | WARN | Linha 4: usuario ja existe - Bruna Rocha (encontrado por Name)
+2026-05-11 14:31:44 | WARN | Linha 5: usuario ja existe - Bruna Rocha (encontrado por Name)
+2026-05-11 14:31:44 | WARN | Linha 6: usuario ja existe - Letícia Silva (encontrado por Name)
+2026-05-11 14:31:44 | WARN | Linha 7: usuario ja existe - João Paulo (encontrado por Name)
+2026-05-11 14:31:44 | WARN | Linha 8: usuario ja existe - Aline Santos (encontrado por E-mail)
+2026-05-11 14:31:44 | WARN | Linha 9: usuario ja existe - Cláudia Campos (encontrado por E-mail)
+2026-05-11 14:31:45 | WARN | Linha 10: usuario ja existe - Matheus Santos (encontrado por Name)
+2026-05-11 14:31:45 | WARN | Linha 11: usuario ja existe - Vinicius Viana (encontrado por Name)
+2026-05-11 14:31:45 | WARN | Linha 12: usuario ja existe - Pietro Capitol (encontrado por Name)
+2026-05-11 14:31:45 | WARN | Linha 13: usuario ja existe - Samara Capitol (encontrado por Name)
+2026-05-11 14:31:45 | WARN | Linha 14: usuario ja existe - Larissa Macedo (encontrado por Name)
+2026-05-11 14:31:46 | WARN | Linha 15: usuario ja existe - Fernanda Santos (encontrado por Name)
+2026-05-11 14:31:46 | WARN | Linha 16: usuario ja existe - Luciano Moura (encontrado por Name)
+2026-05-11 14:31:46 | WARN | Linha 17: usuario ja existe - Andressa Reis (encontrado por Name)
+2026-05-11 14:31:46 | WARN | Linha 18: usuario ja existe - Raíssa Farias (encontrado por E-mail)
+2026-05-11 14:31:46 | WARN | Linha 19: usuario ja existe - Patrícia Hidalgo (encontrado por Name)
+2026-05-11 14:31:47 | WARN | Linha 20: usuario ja existe - Ronaldo Silva (encontrado por Name)
+2026-05-11 14:31:47 | WARN | Linha 21: usuario ja existe - Célio Araujo (encontrado por Name)
+2026-05-11 14:31:47 | WARN | Linha 22: usuario ja existe - Hermes Vinicius (encontrado por Name)
+2026-05-11 14:31:47 | WARN | Linha 23: usuario ja existe - Daniele Spitz (encontrado por Name)
+2026-05-11 14:31:47 | WARN | Linha 24: usuario ja existe - José Milton (encontrado por Name)
+2026-05-11 14:31:48 | INFO | Sessao ProjectWise encerrada.
+2026-05-11 14:31:48 | INFO | 
+2026-05-11 14:31:48 | INFO | ================ RESUMO FINAL ================
+2026-05-11 14:31:48 | INFO | Total de linhas processadas : 23
+2026-05-11 14:31:48 | OK | Usuarios criados            : 0
+2026-05-11 14:31:48 | OK | Usuarios atualizados        : 0
+2026-05-11 14:31:48 | WARN | Usuarios ja existentes      : 23
+2026-05-11 14:31:48 | INFO | Linhas apenas validadas     : 0
+2026-05-11 14:31:48 | OK | Linhas invalidas            : 0
+2026-05-11 14:31:48 | OK | Erros de processamento      : 0
+2026-05-11 14:31:48 | OK | Relatorio completo          : C:\Users\peter\OneDrive\Desktop\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\PW_CriarUsuariosLote_Relatorio_20260511_143124.csv
+2026-05-11 14:31:48 | INFO | 
+2026-05-11 14:31:48 | WARN | Usuarios que ja existiam e nao foram recriados:
+2026-05-11 14:31:48 | WARN | - Linha 2 | Wesley Mezine | wesley.mezine@egis-group.com
+2026-05-11 14:31:48 | WARN | - Linha 3 | Leonardo Botelho | leonardo.botelho@egis-group.com
+2026-05-11 14:31:48 | WARN | - Linha 4 | Bruna Rocha | bruna.rocha@egis-group.com
+2026-05-11 14:31:48 | WARN | - Linha 5 | Bruna Rocha | bruna.rocha@egis-group.com
+2026-05-11 14:31:48 | WARN | - Linha 6 | Letícia Silva | leticia.silva@egis-group.com
+2026-05-11 14:31:48 | WARN | - Linha 7 | João Paulo | joao.carvalho@egis-group.com
+2026-05-11 14:31:48 | WARN | - Linha 8 | Aline Santos | aline.baldo@egis-group.com
+2026-05-11 14:31:48 | WARN | - Linha 9 | Cláudia Campos | claudia.campos@egis-group.com
+2026-05-11 14:31:48 | WARN | - Linha 10 | Matheus Santos | matheus.santos@egis-group.com
+2026-05-11 14:31:48 | WARN | - Linha 11 | Vinicius Viana | vinicius.silva@egis-group.com
+2026-05-11 14:31:48 | WARN | - Linha 12 | Pietro Capitol | pietro.sa@egis-group.com
+2026-05-11 14:31:48 | WARN | - Linha 13 | Samara Capitol | samara.silva@egis-group.com
+2026-05-11 14:31:48 | WARN | - Linha 14 | Larissa Macedo | larissa.macedo@egis-group.com
+2026-05-11 14:31:48 | WARN | - Linha 15 | Fernanda Santos | fernanda.santos@egis-group.com
+2026-05-11 14:31:48 | WARN | - Linha 16 | Luciano Moura | luciano.moura@egis-group.com
+2026-05-11 14:31:48 | WARN | - Linha 17 | Andressa Reis | andressa.reis@egis-group.com
+2026-05-11 14:31:48 | WARN | - Linha 18 | Raíssa Farias | raissa.farias@egis-group.com
+2026-05-11 14:31:48 | WARN | - Linha 19 | Patrícia Hidalgo | patricia.hidalgo@egis-group.com
+2026-05-11 14:31:48 | WARN | - Linha 20 | Ronaldo Silva | ronaldo.silva@egis-group.com
+2026-05-11 14:31:48 | WARN | - Linha 21 | Célio Araujo | celio.araujo@egis-group.com
+2026-05-11 14:31:48 | WARN | - Linha 22 | Hermes Vinicius | hermes.almeida@egis-group.com
+2026-05-11 14:31:48 | WARN | - Linha 23 | Daniele Spitz | Daniele.SPITZ@egis-group.com'
+2026-05-11 14:31:48 | WARN | - Linha 24 | José Milton | Jose.JUNIOR@egis-group.com
+2026-05-11 14:31:48 | INFO | ==============================================

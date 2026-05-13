@@ -1,0 +1,5 @@
+2026-05-12 12:04:25 | INFO | Modulo 'pwps_dab' importado.
+2026-05-12 12:04:25 | INFO | Tentando conexao via New-PWLogin...
+2026-05-12 12:04:40 | INFO | Conexao realizada via New-PWLogin -BentleyIMS.
+2026-05-12 12:06:18 | WARN | Nao encontrei um Group exatamente chamado 'Engenharia GRP'. A aplicacao pode falhar se o nome estiver incorreto.
+2026-05-12 12:06:22 | INFO | Listando filhos: Engenharia
