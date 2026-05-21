@@ -1,0 +1,22 @@
+{
+  "SharePoint": {
+    "TenantUrl": "https://grupoecorodovias.sharepoint.com",
+    "TenantId": "bf7db00b-6dcc-41f4-8148-8653bb3d6537",
+    "Scopes": [
+      "Sites.Read.All",
+      "Files.Read.All"
+    ]
+  },
+  "ProjectWise": {
+    "Datasource": "",
+    "DestinationFolder": ""
+  },
+  "Paths": {
+    "Temp": "./temp",
+    "Logs": "./logs"
+  },
+  "Logging": {
+    "CsvFile": "import-log.csv",
+    "JsonFile": "import-log.json"
+  }
+}

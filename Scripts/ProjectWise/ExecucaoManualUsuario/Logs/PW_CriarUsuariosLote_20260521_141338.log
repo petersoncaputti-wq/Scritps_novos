@@ -1,0 +1,28 @@
+2026-05-21 14:13:38 | INFO | ProjectWise - criacao de usuarios em lote
+2026-05-21 14:13:38 | INFO | Log: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\PW_CriarUsuariosLote_20260521_141338.log
+2026-05-21 14:13:38 | INFO | Abrindo login no ProjectWise...
+2026-05-21 14:13:56 | OK | Login realizado. Usuario atual: Peterson Caputti
+2026-05-21 14:14:24 | INFO | Arquivo de entrada: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Modelo_Criacao_Usuarios_ProjectWise.xlsx
+2026-05-21 14:14:25 | INFO | Registros carregados: 4
+2026-05-21 14:14:26 | WARN | Linha 2: usuario ja existe - Fabrizia Oliverii (encontrado por Name)
+2026-05-21 14:14:26 | WARN | Linha 3: usuario ja existe - Luís Eduardo G. Almeida (encontrado por Name)
+2026-05-21 14:14:26 | WARN | Linha 4: usuario ja existe - Marcos Peixoto (encontrado por Name)
+2026-05-21 14:14:26 | WARN | Linha 5: usuario ja existe - Marlon Rocha (encontrado por Name)
+2026-05-21 14:14:27 | INFO | Sessao ProjectWise encerrada.
+2026-05-21 14:14:27 | INFO | 
+2026-05-21 14:14:27 | INFO | ================ RESUMO FINAL ================
+2026-05-21 14:14:27 | INFO | Total de linhas processadas : 4
+2026-05-21 14:14:27 | OK | Usuarios criados            : 0
+2026-05-21 14:14:27 | OK | Usuarios atualizados        : 0
+2026-05-21 14:14:27 | WARN | Usuarios ja existentes      : 4
+2026-05-21 14:14:27 | INFO | Linhas apenas validadas     : 0
+2026-05-21 14:14:27 | OK | Linhas invalidas            : 0
+2026-05-21 14:14:27 | OK | Erros de processamento      : 0
+2026-05-21 14:14:27 | OK | Relatorio completo          : C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\PW_CriarUsuariosLote_Relatorio_20260521_141338.csv
+2026-05-21 14:14:27 | INFO | 
+2026-05-21 14:14:27 | WARN | Usuarios que ja existiam e nao foram recriados:
+2026-05-21 14:14:27 | WARN | - Linha 2 | Fabrizia Oliverii | fabrizia.oliverii@jgpconsultoria.com.br
+2026-05-21 14:14:27 | WARN | - Linha 3 | Luís Eduardo G. Almeida | luis.almeida@jgpconsultoria.com.br
+2026-05-21 14:14:27 | WARN | - Linha 4 | Marcos Peixoto | marcos.peixoto@jgpconsultoria.com.br
+2026-05-21 14:14:27 | WARN | - Linha 5 | Marlon Rocha | marlon.rocha@jgpconsultoria.com.br
+2026-05-21 14:14:27 | INFO | ==============================================
