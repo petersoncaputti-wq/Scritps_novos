@@ -1,0 +1,303 @@
+2026-05-19 10:20:27 | INFO | Aplicacao iniciada.
+2026-05-19 10:20:27 | INFO | Tentando importar modulo do ProjectWise.
+2026-05-19 10:20:28 | INFO | Modulo 'pwps_dab' importado com sucesso.
+2026-05-19 10:20:28 | INFO | Tentando conectar ao datasource do ProjectWise.
+2026-05-19 10:20:28 | INFO | Tentando conexao via 'New-PWLogin'. Parametros: DatasourceName, UserName, Password, UseGui, DoNotCreateWorkingDirectory, BentleyIMS, LoadWRE, NonAdminLogin, Token, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-19 10:20:48 | INFO | Conexao realizada via 'New-PWLogin -BentleyIMS'.
+2026-05-19 10:20:48 | INFO | Conexao com ProjectWise realizada com sucesso.
+2026-05-19 10:20:51 | INFO | Buscando usuario pelo email: Filipe.Ciriaco@ecorodovias.com.br
+2026-05-19 10:20:51 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-05-19 10:20:52 | INFO | Usuario localizado com correspondencia exata de email.
+2026-05-19 10:20:55 | INFO | Listando pastas da raiz por Root.
+2026-05-19 10:21:01 | INFO | Listando filhos da pasta ID: 56
+2026-05-19 10:22:33 | INFO | Listando filhos da pasta ID: 28913
+2026-05-19 10:22:36 | INFO | Listando filhos da pasta ID: 30100
+2026-05-19 10:23:00 | INFO | Iniciando leitura da seguranca do projeto '01.01.02 - Duplicação' (ID: 390090)
+2026-05-19 10:23:01 | INFO | Get-PWFolderSecurity retornou 14 item(ns).
+2026-05-19 10:23:01 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-19 10:23:01 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-19 10:23:01 | INFO | Total consolidado de acessos encontrados: 13
+2026-05-19 10:23:01 | INFO | Projeto '01.01.02 - Duplicação - Cotia-Embu' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-05-19 10:23:01 | INFO | Iniciando leitura da seguranca do projeto '02.02.02.01 BSO 1' (ID: 311855)
+2026-05-19 10:23:02 | INFO | Get-PWFolderSecurity retornou 3 item(ns).
+2026-05-19 10:23:02 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-19 10:23:02 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-19 10:23:02 | INFO | Total consolidado de acessos encontrados: 3
+2026-05-19 10:23:02 | WARN | Projeto '02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste' retornou apenas 1 group(s) pela API. Tentando fallback por nome...
+2026-05-19 10:23:02 | INFO | Cache de grupos carregado via Get-PWGroups: 4607 item(ns).
+2026-05-19 10:23:09 | WARN | Fallback por nome encontrou 10 group(s) para projeto '02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste'. Apelidos usados: 02.02.02.01 - bso 1 - km 39,5 - sp-280 - leste | 02.02.02.01 - bso 1 | 02.02.02.01 bso 1
+2026-05-19 10:23:09 | WARN |     [GROUP INFERIDO] RC-02.02.02.01 BSO 1-ASSISTENTE ENG
+2026-05-19 10:23:09 | WARN |     [GROUP INFERIDO] RC-02.02.02.01 BSO 1-CONSULTA TODAS REV
+2026-05-19 10:23:09 | WARN |     [GROUP INFERIDO] RC-02.02.02.01 BSO 1-CONSULTA ULTIMA REV
+2026-05-19 10:23:09 | WARN |     [GROUP INFERIDO] RC-02.02.02.01 BSO 1-ENG CONSULTA TODAS REV
+2026-05-19 10:23:09 | WARN |     [GROUP INFERIDO] RC-02.02.02.01 BSO 1-ENG CONSULTA ULTIMA REV
+2026-05-19 10:23:09 | WARN |     [GROUP INFERIDO] RC-02.02.02.01 BSO 1-ESPECIALISTA
+2026-05-19 10:23:09 | WARN |     [GROUP INFERIDO] RC-02.02.02.01 BSO 1-GESTOR ENG
+2026-05-19 10:23:09 | WARN |     [GROUP INFERIDO] RC-02.02.02.01 BSO 1-GESTOR UNIDADE
+2026-05-19 10:23:09 | WARN |     [GROUP INFERIDO] RC-02.02.02.01 BSO 1-PODER CONCEDENTE
+2026-05-19 10:23:09 | WARN |     [GROUP INFERIDO] RC-02.02.02.01 BSO 1-PROJETISTA
+2026-05-19 10:23:09 | INFO | Projeto '02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-05-19 10:23:09 | INFO | Iniciando leitura da seguranca do projeto '02.02.02.02 BSO 2' (ID: 312266)
+2026-05-19 10:23:12 | INFO | Get-PWFolderSecurity retornou 5 item(ns).
+2026-05-19 10:23:13 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-19 10:23:13 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-19 10:23:13 | INFO | Total consolidado de acessos encontrados: 3
+2026-05-19 10:23:13 | WARN | Projeto '02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste' retornou apenas 2 group(s) pela API. Tentando fallback por nome...
+2026-05-19 10:23:20 | WARN | Fallback por nome encontrou 9 group(s) para projeto '02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste'. Apelidos usados: 02.02.02.02 - bso 2 - km 17,000 - sp-270 - oeste | 02.02.02.02 - bso 2 | 02.02.02.02 bso 2
+2026-05-19 10:23:20 | WARN |     [GROUP INFERIDO] RC-02.02.02.02 BSO 2-ASSISTENTE ENG
+2026-05-19 10:23:20 | WARN |     [GROUP INFERIDO] RC-02.02.02.02 BSO 2-CONSULTA TODAS REV
+2026-05-19 10:23:20 | WARN |     [GROUP INFERIDO] RC-02.02.02.02 BSO 2-CONSULTA ULTIMA REV
+2026-05-19 10:23:20 | WARN |     [GROUP INFERIDO] RC-02.02.02.02 BSO 2-ENG CONSULTA TODAS REV
+2026-05-19 10:23:20 | WARN |     [GROUP INFERIDO] RC-02.02.02.02 BSO 2-ENG CONSULTA ULTIMA REV
+2026-05-19 10:23:20 | WARN |     [GROUP INFERIDO] RC-02.02.02.02 BSO 2-GESTOR ENG
+2026-05-19 10:23:20 | WARN |     [GROUP INFERIDO] RC-02.02.02.02 BSO 2-GESTOR UNIDADE
+2026-05-19 10:23:20 | WARN |     [GROUP INFERIDO] RC-02.02.02.02 BSO 2-PODER CONCEDENTE
+2026-05-19 10:23:20 | WARN |     [GROUP INFERIDO] RC-02.02.02.02 BSO 2-PROJETISTA
+2026-05-19 10:23:20 | INFO | Projeto '02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste' carregado para arvore. Groups=11 | UserLists=0 | Outros=1
+2026-05-19 10:23:20 | INFO | Iniciando leitura da seguranca do projeto '02.02.02.03 BSO 3' (ID: 312677)
+2026-05-19 10:23:20 | INFO | Get-PWFolderSecurity retornou 5 item(ns).
+2026-05-19 10:23:20 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-19 10:23:20 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-19 10:23:20 | INFO | Total consolidado de acessos encontrados: 3
+2026-05-19 10:23:20 | WARN | Projeto '02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste' retornou apenas 2 group(s) pela API. Tentando fallback por nome...
+2026-05-19 10:23:29 | WARN | Fallback por nome encontrou 10 group(s) para projeto '02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste'. Apelidos usados: 02.02.02.03 - bso 3 - km 27,3 - sp-270 - leste | 02.02.02.03 - bso 3 | 02.02.02.03 bso 3
+2026-05-19 10:23:29 | WARN |     [GROUP INFERIDO] RC-02.02.02.03 BSO 3-ASSISTENTE ENG
+2026-05-19 10:23:29 | WARN |     [GROUP INFERIDO] RC-02.02.02.03 BSO 3-CONSULTA TODAS REV
+2026-05-19 10:23:29 | WARN |     [GROUP INFERIDO] RC-02.02.02.03 BSO 3-CONSULTA ULTIMA REV
+2026-05-19 10:23:29 | WARN |     [GROUP INFERIDO] RC-02.02.02.03 BSO 3-ENG CONSULTA TODAS REV
+2026-05-19 10:23:29 | WARN |     [GROUP INFERIDO] RC-02.02.02.03 BSO 3-ENG CONSULTA ULTIMA REV
+2026-05-19 10:23:29 | WARN |     [GROUP INFERIDO] RC-02.02.02.03 BSO 3-ESPECIALISTA
+2026-05-19 10:23:29 | WARN |     [GROUP INFERIDO] RC-02.02.02.03 BSO 3-GESTOR ENG
+2026-05-19 10:23:29 | WARN |     [GROUP INFERIDO] RC-02.02.02.03 BSO 3-GESTOR UNIDADE
+2026-05-19 10:23:29 | WARN |     [GROUP INFERIDO] RC-02.02.02.03 BSO 3-PODER CONCEDENTE
+2026-05-19 10:23:29 | WARN |     [GROUP INFERIDO] RC-02.02.02.03 BSO 3-PROJETISTA
+2026-05-19 10:23:29 | INFO | Projeto '02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste' carregado para arvore. Groups=12 | UserLists=0 | Outros=1
+2026-05-19 10:23:29 | INFO | Iniciando leitura da seguranca do projeto '02.02.02.04 BSO 4' (ID: 313088)
+2026-05-19 10:23:31 | INFO | Get-PWFolderSecurity retornou 3 item(ns).
+2026-05-19 10:23:31 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-19 10:23:31 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-19 10:23:31 | INFO | Total consolidado de acessos encontrados: 3
+2026-05-19 10:23:31 | WARN | Projeto '02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste' retornou apenas 1 group(s) pela API. Tentando fallback por nome...
+2026-05-19 10:23:39 | WARN | Fallback por nome encontrou 10 group(s) para projeto '02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste'. Apelidos usados: 02.02.02.04 - bso 4 - km 27,8 - sp-280 - leste | 02.02.02.04 - bso 4 | 02.02.02.04 bso 4
+2026-05-19 10:23:39 | WARN |     [GROUP INFERIDO] RC-02.02.02.04 BSO 4-ASSISTENTE ENG
+2026-05-19 10:23:39 | WARN |     [GROUP INFERIDO] RC-02.02.02.04 BSO 4-CONSULTA TODAS REV
+2026-05-19 10:23:39 | WARN |     [GROUP INFERIDO] RC-02.02.02.04 BSO 4-CONSULTA ULTIMA REV
+2026-05-19 10:23:39 | WARN |     [GROUP INFERIDO] RC-02.02.02.04 BSO 4-ENG CONSULTA TODAS REV
+2026-05-19 10:23:39 | WARN |     [GROUP INFERIDO] RC-02.02.02.04 BSO 4-ENG CONSULTA ULTIMA REV
+2026-05-19 10:23:39 | WARN |     [GROUP INFERIDO] RC-02.02.02.04 BSO 4-ESPECIALISTA
+2026-05-19 10:23:39 | WARN |     [GROUP INFERIDO] RC-02.02.02.04 BSO 4-GESTOR ENG
+2026-05-19 10:23:39 | WARN |     [GROUP INFERIDO] RC-02.02.02.04 BSO 4-GESTOR UNIDADE
+2026-05-19 10:23:39 | WARN |     [GROUP INFERIDO] RC-02.02.02.04 BSO 4-PODER CONCEDENTE
+2026-05-19 10:23:39 | WARN |     [GROUP INFERIDO] RC-02.02.02.04 BSO 4-PROJETISTA
+2026-05-19 10:23:39 | INFO | Projeto '02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-05-19 10:23:39 | INFO | Iniciando leitura da seguranca do projeto '02.02.02.05 BSO 5' (ID: 313499)
+2026-05-19 10:23:41 | INFO | Get-PWFolderSecurity retornou 7 item(ns).
+2026-05-19 10:23:42 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-19 10:23:42 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-19 10:23:42 | INFO | Total consolidado de acessos encontrados: 4
+2026-05-19 10:23:42 | WARN | Projeto '02.02.02.05 - BSO 5 - (Localização á definir) - SP-280' retornou apenas 2 group(s) pela API. Tentando fallback por nome...
+2026-05-19 10:23:52 | WARN | Fallback por nome encontrou 9 group(s) para projeto '02.02.02.05 - BSO 5 - (Localização á definir) - SP-280'. Apelidos usados: 02.02.02.05 - bso 5 - (localizacao a definir) - sp-280 | 02.02.02.05 - bso 5 - (localizacao a definir) | 02.02.02.05 - bso 5 | 02.02.02.05 bso 5
+2026-05-19 10:23:52 | WARN |     [GROUP INFERIDO] RC-02.02.02.05 BSO 5-ASSISTENTE ENG
+2026-05-19 10:23:52 | WARN |     [GROUP INFERIDO] RC-02.02.02.05 BSO 5-CONSULTA TODAS REV
+2026-05-19 10:23:52 | WARN |     [GROUP INFERIDO] RC-02.02.02.05 BSO 5-CONSULTA ULTIMA REV
+2026-05-19 10:23:52 | WARN |     [GROUP INFERIDO] RC-02.02.02.05 BSO 5-ENG CONSULTA TODAS REV
+2026-05-19 10:23:52 | WARN |     [GROUP INFERIDO] RC-02.02.02.05 BSO 5-ENG CONSULTA ULTIMA REV
+2026-05-19 10:23:52 | WARN |     [GROUP INFERIDO] RC-02.02.02.05 BSO 5-ESPECIALISTA
+2026-05-19 10:23:52 | WARN |     [GROUP INFERIDO] RC-02.02.02.05 BSO 5-GESTOR UNIDADE
+2026-05-19 10:23:52 | WARN |     [GROUP INFERIDO] RC-02.02.02.05 BSO 5-PODER CONCEDENTE
+2026-05-19 10:23:52 | WARN |     [GROUP INFERIDO] RC-02.02.02.05 BSO 5-PROJETISTA
+2026-05-19 10:23:52 | INFO | Projeto '02.02.02.05 - BSO 5 - (Localização á definir) - SP-280' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-05-19 10:23:52 | INFO | Iniciando leitura da seguranca do projeto '02.02.03 - PPD 1' (ID: 327363)
+2026-05-19 10:23:54 | INFO | Get-PWFolderSecurity retornou 3 item(ns).
+2026-05-19 10:23:54 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-19 10:23:54 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-19 10:23:54 | INFO | Total consolidado de acessos encontrados: 3
+2026-05-19 10:23:54 | WARN | Projeto '02.02.03 - PPD 1 - km 20 - SP-280 - Leste' retornou apenas 1 group(s) pela API. Tentando fallback por nome...
+2026-05-19 10:24:04 | WARN | Fallback por nome encontrou 10 group(s) para projeto '02.02.03 - PPD 1 - km 20 - SP-280 - Leste'. Apelidos usados: 02.02.03 - ppd 1 - km 20 - sp-280 - leste | 02.02.03 - ppd 1 | 02.02.03 ppd 1
+2026-05-19 10:24:04 | WARN |     [GROUP INFERIDO] RC-02.02.03 - PPD 1-ASSISTENTE ENG
+2026-05-19 10:24:04 | WARN |     [GROUP INFERIDO] RC-02.02.03 - PPD 1-CONSULTA TODAS REV
+2026-05-19 10:24:04 | WARN |     [GROUP INFERIDO] RC-02.02.03 - PPD 1-CONSULTA ULTIMA REV
+2026-05-19 10:24:04 | WARN |     [GROUP INFERIDO] RC-02.02.03 - PPD 1-ENG CONSULTA TODAS REV
+2026-05-19 10:24:04 | WARN |     [GROUP INFERIDO] RC-02.02.03 - PPD 1-ENG CONSULTA ULTIMA REV
+2026-05-19 10:24:04 | WARN |     [GROUP INFERIDO] RC-02.02.03 - PPD 1-ESPECIALISTA
+2026-05-19 10:24:04 | WARN |     [GROUP INFERIDO] RC-02.02.03 - PPD 1-GESTOR ENG
+2026-05-19 10:24:04 | WARN |     [GROUP INFERIDO] RC-02.02.03 - PPD 1-GESTOR UNIDADE
+2026-05-19 10:24:04 | WARN |     [GROUP INFERIDO] RC-02.02.03 - PPD 1-PODER CONCEDENTE
+2026-05-19 10:24:04 | WARN |     [GROUP INFERIDO] RC-02.02.03 - PPD 1-PROJETISTA
+2026-05-19 10:24:04 | INFO | Projeto '02.02.03 - PPD 1 - km 20 - SP-280 - Leste' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-05-19 10:24:04 | INFO | Iniciando leitura da seguranca do projeto '02.02.03 - PPD 2' (ID: 327774)
+2026-05-19 10:24:06 | INFO | Get-PWFolderSecurity retornou 3 item(ns).
+2026-05-19 10:24:07 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-19 10:24:07 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-19 10:24:07 | INFO | Total consolidado de acessos encontrados: 3
+2026-05-19 10:24:07 | WARN | Projeto '02.02.03 - PPD 2 - km 33 - SP-280 - Oeste' retornou apenas 1 group(s) pela API. Tentando fallback por nome...
+2026-05-19 10:24:14 | WARN | Fallback por nome encontrou 10 group(s) para projeto '02.02.03 - PPD 2 - km 33 - SP-280 - Oeste'. Apelidos usados: 02.02.03 - ppd 2 - km 33 - sp-280 - oeste | 02.02.03 - ppd 2 | 02.02.03 ppd 2
+2026-05-19 10:24:14 | WARN |     [GROUP INFERIDO] RC-02.02.03 - PPD 2-ASSISTENTE ENG
+2026-05-19 10:24:14 | WARN |     [GROUP INFERIDO] RC-02.02.03 - PPD 2-CONSULTA TODAS REV
+2026-05-19 10:24:14 | WARN |     [GROUP INFERIDO] RC-02.02.03 - PPD 2-CONSULTA ULTIMA REV
+2026-05-19 10:24:14 | WARN |     [GROUP INFERIDO] RC-02.02.03 - PPD 2-ENG CONSULTA TODAS REV
+2026-05-19 10:24:14 | WARN |     [GROUP INFERIDO] RC-02.02.03 - PPD 2-ENG CONSULTA ULTIMA REV
+2026-05-19 10:24:14 | WARN |     [GROUP INFERIDO] RC-02.02.03 - PPD 2-ESPECIALISTA
+2026-05-19 10:24:14 | WARN |     [GROUP INFERIDO] RC-02.02.03 - PPD 2-GESTOR ENG
+2026-05-19 10:24:14 | WARN |     [GROUP INFERIDO] RC-02.02.03 - PPD 2-GESTOR UNIDADE
+2026-05-19 10:24:14 | WARN |     [GROUP INFERIDO] RC-02.02.03 - PPD 2-PODER CONCEDENTE
+2026-05-19 10:24:14 | WARN |     [GROUP INFERIDO] RC-02.02.03 - PPD 2-PROJETISTA
+2026-05-19 10:24:14 | INFO | Projeto '02.02.03 - PPD 2 - km 33 - SP-280 - Oeste' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-05-19 10:24:14 | INFO | Iniciando leitura da seguranca do projeto '02.02.04 - PMRv' (ID: 328185)
+2026-05-19 10:24:17 | INFO | Get-PWFolderSecurity retornou 3 item(ns).
+2026-05-19 10:24:18 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-19 10:24:18 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-19 10:24:18 | INFO | Total consolidado de acessos encontrados: 3
+2026-05-19 10:24:18 | WARN | Projeto '02.02.04 - PMRV - Araçariguama - SP-280' retornou apenas 1 group(s) pela API. Tentando fallback por nome...
+2026-05-19 10:24:27 | WARN | Fallback por nome encontrou 10 group(s) para projeto '02.02.04 - PMRV - Araçariguama - SP-280'. Apelidos usados: 02.02.04 - pmrv - aracariguama - sp-280 | 02.02.04 - pmrv - aracariguama | 02.02.04 - pmrv | 02.02.04 pmrv
+2026-05-19 10:24:27 | WARN |     [GROUP INFERIDO] RC-02.02.04 - PMRv-ASSISTENTE ENG
+2026-05-19 10:24:27 | WARN |     [GROUP INFERIDO] RC-02.02.04 - PMRv-CONSULTA TODAS REV
+2026-05-19 10:24:27 | WARN |     [GROUP INFERIDO] RC-02.02.04 - PMRv-CONSULTA ULTIMA REV
+2026-05-19 10:24:27 | WARN |     [GROUP INFERIDO] RC-02.02.04 - PMRv-ENG CONSULTA TODAS REV
+2026-05-19 10:24:27 | WARN |     [GROUP INFERIDO] RC-02.02.04 - PMRv-ENG CONSULTA ULTIMA REV
+2026-05-19 10:24:27 | WARN |     [GROUP INFERIDO] RC-02.02.04 - PMRv-ESPECIALISTA
+2026-05-19 10:24:27 | WARN |     [GROUP INFERIDO] RC-02.02.04 - PMRv-GESTOR ENG
+2026-05-19 10:24:27 | WARN |     [GROUP INFERIDO] RC-02.02.04 - PMRv-GESTOR UNIDADE
+2026-05-19 10:24:27 | WARN |     [GROUP INFERIDO] RC-02.02.04 - PMRv-PODER CONCEDENTE
+2026-05-19 10:24:27 | WARN |     [GROUP INFERIDO] RC-02.02.04 - PMRv-PROJETISTA
+2026-05-19 10:24:27 | INFO | Projeto '02.02.04 - PMRV - Araçariguama - SP-280' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-05-19 10:24:27 | INFO | Iniciando leitura da seguranca do projeto '02.05.19 - Dispositivo' (ID: 390573)
+2026-05-19 10:24:27 | INFO | Get-PWFolderSecurity retornou 14 item(ns).
+2026-05-19 10:24:28 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-19 10:24:28 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-19 10:24:28 | INFO | Total consolidado de acessos encontrados: 13
+2026-05-19 10:24:28 | INFO | Projeto '02.05.19 - Dispositivo de Conexão - BR-116' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-05-19 10:24:28 | INFO | Iniciando leitura da seguranca do projeto '02.05.22 - Alça' (ID: 394768)
+2026-05-19 10:24:29 | INFO | Get-PWFolderSecurity retornou 14 item(ns).
+2026-05-19 10:24:29 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-19 10:24:29 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-19 10:24:29 | INFO | Total consolidado de acessos encontrados: 13
+2026-05-19 10:24:29 | INFO | Projeto '02.05.22 - Alça - km 22,20 - SP-280' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-05-19 10:24:29 | INFO | Iniciando leitura da seguranca do projeto '02.05.23 - Diamante' (ID: 394559)
+2026-05-19 10:24:32 | INFO | Get-PWFolderSecurity retornou 14 item(ns).
+2026-05-19 10:24:32 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-19 10:24:32 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-19 10:24:32 | INFO | Total consolidado de acessos encontrados: 13
+2026-05-19 10:24:32 | INFO | Projeto '02.05.23 - Diamante - km 36,00 SP-280' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-05-19 10:24:32 | INFO | Iniciando leitura da seguranca do projeto '02.05.24 - Trombeta' (ID: 394721)
+2026-05-19 10:24:33 | INFO | Get-PWFolderSecurity retornou 14 item(ns).
+2026-05-19 10:24:33 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-19 10:24:33 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-19 10:24:33 | INFO | Total consolidado de acessos encontrados: 13
+2026-05-19 10:24:33 | INFO | Projeto '02.05.24 - Trombeta - km 46,62 - SP-280' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-05-19 10:24:33 | INFO | Iniciando leitura da seguranca do projeto '02.05.26 - Alça' (ID: 390461)
+2026-05-19 10:24:34 | INFO | Get-PWFolderSecurity retornou 14 item(ns).
+2026-05-19 10:24:35 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-19 10:24:35 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-19 10:24:35 | INFO | Total consolidado de acessos encontrados: 13
+2026-05-19 10:24:35 | INFO | Projeto '02.05.26 - Alça - km 22,80 - SP-280' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-05-19 10:24:35 | INFO | Iniciando leitura da seguranca do projeto '02.06.11-  Marginal' (ID: 394745)
+2026-05-19 10:24:36 | INFO | Get-PWFolderSecurity retornou 14 item(ns).
+2026-05-19 10:24:36 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-19 10:24:36 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-19 10:24:36 | INFO | Total consolidado de acessos encontrados: 13
+2026-05-19 10:24:36 | INFO | Projeto '02.06.11-  Marginal Decrescente - km 30,74 +31,23 - SP-280' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-05-19 10:24:36 | INFO | Iniciando leitura da seguranca do projeto '02.09.19 - Pontos' (ID: 390611)
+2026-05-19 10:24:37 | INFO | Get-PWFolderSecurity retornou 14 item(ns).
+2026-05-19 10:24:38 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-19 10:24:38 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-19 10:24:38 | INFO | Total consolidado de acessos encontrados: 13
+2026-05-19 10:24:38 | INFO | Projeto '02.09.19 - Pontos de Ônibus Cotia-Embu - km 0 + 16,5' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-05-19 10:24:38 | INFO | Iniciando leitura da seguranca do projeto '02.10.19 - Acesso' (ID: 390648)
+2026-05-19 10:24:39 | INFO | Get-PWFolderSecurity retornou 14 item(ns).
+2026-05-19 10:24:40 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-19 10:24:40 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-19 10:24:40 | INFO | Total consolidado de acessos encontrados: 13
+2026-05-19 10:24:40 | INFO | Projeto '02.10.19 - Acesso Cotia-Embu - km 0 + 16,5' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-05-19 10:24:40 | INFO | Iniciando leitura da seguranca do projeto '02.11.01.15 - OAE' (ID: 390499)
+2026-05-19 10:24:41 | INFO | Get-PWFolderSecurity retornou 14 item(ns).
+2026-05-19 10:24:43 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-19 10:24:43 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-19 10:24:43 | INFO | Total consolidado de acessos encontrados: 13
+2026-05-19 10:24:43 | INFO | Projeto '02.11.01.15 - OAE - km 22,2 - SP-280' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-05-19 10:24:43 | INFO | Iniciando leitura da seguranca do projeto '02.11.01.17 - OAE' (ID: 390536)
+2026-05-19 10:24:44 | INFO | Get-PWFolderSecurity retornou 14 item(ns).
+2026-05-19 10:24:45 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-19 10:24:45 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-19 10:24:45 | INFO | Total consolidado de acessos encontrados: 13
+2026-05-19 10:24:45 | INFO | Projeto '02.11.01.17 - OAE - km 22,2 - SP-280' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-05-19 10:24:45 | INFO | Iniciando leitura da seguranca do projeto '02.11.01.31 - OAE' (ID: 390685)
+2026-05-19 10:24:46 | INFO | Get-PWFolderSecurity retornou 14 item(ns).
+2026-05-19 10:24:46 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-19 10:24:46 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-19 10:24:46 | INFO | Total consolidado de acessos encontrados: 13
+2026-05-19 10:24:46 | INFO | Projeto '02.11.01.31 - OAE - Cotia-Embu - km 0' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-05-19 10:24:46 | INFO | Iniciando leitura da seguranca do projeto '03.11 - HS-WIM 1' (ID: 328597)
+2026-05-19 10:24:48 | INFO | Get-PWFolderSecurity retornou 3 item(ns).
+2026-05-19 10:24:49 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-19 10:24:49 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-19 10:24:49 | INFO | Total consolidado de acessos encontrados: 3
+2026-05-19 10:24:49 | WARN | Projeto '03.11 - HS-WIM 1 - km 20 - SP-280' retornou apenas 1 group(s) pela API. Tentando fallback por nome...
+2026-05-19 10:24:56 | WARN | Fallback por nome encontrou 10 group(s) para projeto '03.11 - HS-WIM 1 - km 20 - SP-280'. Apelidos usados: 03.11 - hs-wim 1 - km 20 - sp-280 | 03.11 - hs-wim 1 | 03.11 hs-wim 1
+2026-05-19 10:24:56 | WARN |     [GROUP INFERIDO] RC-03.11 - HS-WIM 1-ASSISTENTE ENG
+2026-05-19 10:24:56 | WARN |     [GROUP INFERIDO] RC-03.11 - HS-WIM 1-CONSULTA TODAS REV
+2026-05-19 10:24:56 | WARN |     [GROUP INFERIDO] RC-03.11 - HS-WIM 1-CONSULTA ULTIMA REV
+2026-05-19 10:24:56 | WARN |     [GROUP INFERIDO] RC-03.11 - HS-WIM 1-ENG CONSULTA TODAS REV
+2026-05-19 10:24:56 | WARN |     [GROUP INFERIDO] RC-03.11 - HS-WIM 1-ENG CONSULTA ULTIMA REV
+2026-05-19 10:24:56 | WARN |     [GROUP INFERIDO] RC-03.11 - HS-WIM 1-ESPECIALISTA
+2026-05-19 10:24:56 | WARN |     [GROUP INFERIDO] RC-03.11 - HS-WIM 1-GESTOR ENG
+2026-05-19 10:24:56 | WARN |     [GROUP INFERIDO] RC-03.11 - HS-WIM 1-GESTOR UNIDADE
+2026-05-19 10:24:56 | WARN |     [GROUP INFERIDO] RC-03.11 - HS-WIM 1-PODER CONCEDENTE
+2026-05-19 10:24:56 | WARN |     [GROUP INFERIDO] RC-03.11 - HS-WIM 1-PROJETISTA
+2026-05-19 10:24:56 | INFO | Projeto '03.11 - HS-WIM 1 - km 20 - SP-280' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-05-19 10:24:56 | INFO | Iniciando leitura da seguranca do projeto '03.11 - HS-WIM 2' (ID: 329008)
+2026-05-19 10:24:58 | INFO | Get-PWFolderSecurity retornou 3 item(ns).
+2026-05-19 10:24:59 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-19 10:24:59 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-19 10:24:59 | INFO | Total consolidado de acessos encontrados: 3
+2026-05-19 10:24:59 | WARN | Projeto '03.11 - HS-WIM 2 - (Localização á definir) - SP-280' retornou apenas 1 group(s) pela API. Tentando fallback por nome...
+2026-05-19 10:25:08 | WARN | Fallback por nome encontrou 10 group(s) para projeto '03.11 - HS-WIM 2 - (Localização á definir) - SP-280'. Apelidos usados: 03.11 - hs-wim 2 - (localizacao a definir) - sp-280 | 03.11 - hs-wim 2 - (localizacao a definir) | 03.11 - hs-wim 2 | 03.11 hs-wim 2
+2026-05-19 10:25:08 | WARN |     [GROUP INFERIDO] RC-03.11 - HS-WIM 2-ASSISTENTE ENG
+2026-05-19 10:25:08 | WARN |     [GROUP INFERIDO] RC-03.11 - HS-WIM 2-CONSULTA TODAS REV
+2026-05-19 10:25:08 | WARN |     [GROUP INFERIDO] RC-03.11 - HS-WIM 2-CONSULTA ULTIMA REV
+2026-05-19 10:25:08 | WARN |     [GROUP INFERIDO] RC-03.11 - HS-WIM 2-ENG CONSULTA TODAS REV
+2026-05-19 10:25:08 | WARN |     [GROUP INFERIDO] RC-03.11 - HS-WIM 2-ENG CONSULTA ULTIMA REV
+2026-05-19 10:25:08 | WARN |     [GROUP INFERIDO] RC-03.11 - HS-WIM 2-ESPECIALISTA
+2026-05-19 10:25:08 | WARN |     [GROUP INFERIDO] RC-03.11 - HS-WIM 2-GESTOR ENG
+2026-05-19 10:25:08 | WARN |     [GROUP INFERIDO] RC-03.11 - HS-WIM 2-GESTOR UNIDADE
+2026-05-19 10:25:08 | WARN |     [GROUP INFERIDO] RC-03.11 - HS-WIM 2-PODER CONCEDENTE
+2026-05-19 10:25:08 | WARN |     [GROUP INFERIDO] RC-03.11 - HS-WIM 2-PROJETISTA
+2026-05-19 10:25:08 | INFO | Projeto '03.11 - HS-WIM 2 - (Localização á definir) - SP-280' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-05-19 10:25:08 | INFO | Iniciando leitura da seguranca do projeto '03.11 - HS-WIM 3' (ID: 329419)
+2026-05-19 10:25:10 | INFO | Get-PWFolderSecurity retornou 3 item(ns).
+2026-05-19 10:25:10 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-19 10:25:10 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-19 10:25:10 | INFO | Total consolidado de acessos encontrados: 3
+2026-05-19 10:25:10 | WARN | Projeto '03.11 - HS-WIM 3 - (Localização á definir) - SP-280' retornou apenas 1 group(s) pela API. Tentando fallback por nome...
+2026-05-19 10:25:19 | WARN | Fallback por nome encontrou 10 group(s) para projeto '03.11 - HS-WIM 3 - (Localização á definir) - SP-280'. Apelidos usados: 03.11 - hs-wim 3 - (localizacao a definir) - sp-280 | 03.11 - hs-wim 3 - (localizacao a definir) | 03.11 - hs-wim 3 | 03.11 hs-wim 3
+2026-05-19 10:25:19 | WARN |     [GROUP INFERIDO] RC-03.11 - HS-WIM 3-ASSISTENTE ENG
+2026-05-19 10:25:19 | WARN |     [GROUP INFERIDO] RC-03.11 - HS-WIM 3-CONSULTA TODAS REV
+2026-05-19 10:25:19 | WARN |     [GROUP INFERIDO] RC-03.11 - HS-WIM 3-CONSULTA ULTIMA REV
+2026-05-19 10:25:19 | WARN |     [GROUP INFERIDO] RC-03.11 - HS-WIM 3-ENG CONSULTA TODAS REV
+2026-05-19 10:25:19 | WARN |     [GROUP INFERIDO] RC-03.11 - HS-WIM 3-ENG CONSULTA ULTIMA REV
+2026-05-19 10:25:19 | WARN |     [GROUP INFERIDO] RC-03.11 - HS-WIM 3-ESPECIALISTA
+2026-05-19 10:25:19 | WARN |     [GROUP INFERIDO] RC-03.11 - HS-WIM 3-GESTOR ENG
+2026-05-19 10:25:19 | WARN |     [GROUP INFERIDO] RC-03.11 - HS-WIM 3-GESTOR UNIDADE
+2026-05-19 10:25:19 | WARN |     [GROUP INFERIDO] RC-03.11 - HS-WIM 3-PODER CONCEDENTE
+2026-05-19 10:25:19 | WARN |     [GROUP INFERIDO] RC-03.11 - HS-WIM 3-PROJETISTA
+2026-05-19 10:25:19 | INFO | Projeto '03.11 - HS-WIM 3 - (Localização á definir) - SP-280' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-05-19 10:25:19 | INFO | Iniciando leitura da seguranca do projeto 'Projeto Conceitual' (ID: 299566)
+2026-05-19 10:25:22 | INFO | Get-PWFolderSecurity retornou 3 item(ns).
+2026-05-19 10:25:22 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-05-19 10:25:22 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-05-19 10:25:22 | INFO | Total consolidado de acessos encontrados: 3
+2026-05-19 10:25:22 | WARN | Projeto 'Projeto Conceitual - Raposo Tavares/ Nova Ligação Embu' retornou apenas 1 group(s) pela API. Tentando fallback por nome...
+2026-05-19 10:25:29 | WARN | Fallback por nome encontrou 10 group(s) para projeto 'Projeto Conceitual - Raposo Tavares/ Nova Ligação Embu'. Apelidos usados: projeto conceitual - raposo tavares/ nova ligacao embu | projeto conceitual raposo tavares/ nova ligacao embu | projeto conceitual
+2026-05-19 10:25:29 | WARN |     [GROUP INFERIDO] RC-Projeto Conceitual-ASSISTENTE ENG
+2026-05-19 10:25:29 | WARN |     [GROUP INFERIDO] RC-Projeto Conceitual-CONSULTA TODAS REV
+2026-05-19 10:25:29 | WARN |     [GROUP INFERIDO] RC-Projeto Conceitual-CONSULTA ULTIMA REV
+2026-05-19 10:25:29 | WARN |     [GROUP INFERIDO] RC-Projeto Conceitual-ENG CONSULTA TODAS REV
+2026-05-19 10:25:29 | WARN |     [GROUP INFERIDO] RC-Projeto Conceitual-ENG CONSULTA ULTIMA REV
+2026-05-19 10:25:29 | WARN |     [GROUP INFERIDO] RC-Projeto Conceitual-ESPECIALISTA
+2026-05-19 10:25:29 | WARN |     [GROUP INFERIDO] RC-Projeto Conceitual-GESTOR ENG
+2026-05-19 10:25:29 | WARN |     [GROUP INFERIDO] RC-Projeto Conceitual-GESTOR UNIDADE
+2026-05-19 10:25:29 | WARN |     [GROUP INFERIDO] RC-Projeto Conceitual-PODER CONCEDENTE
+2026-05-19 10:25:29 | WARN |     [GROUP INFERIDO] RC-Projeto Conceitual-PROJETISTA
+2026-05-19 10:25:29 | INFO | Projeto 'Projeto Conceitual - Raposo Tavares/ Nova Ligação Embu' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-05-19 10:34:22 | INFO | Resumo final da execução | Total=2 | Sucesso=1 | JaExiste=1 | Erro=0
+2026-05-19 11:02:46 | INFO | Sessao encerrada com 'Undo-PWLogin'.

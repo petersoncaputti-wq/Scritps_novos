@@ -1,0 +1,22 @@
+2026-05-18 10:10:17 | INFO | ProjectWise - criacao de usuarios em lote
+2026-05-18 10:10:17 | INFO | Log: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\PW_CriarUsuariosLote_20260518_101017.log
+2026-05-18 10:10:17 | INFO | Abrindo login no ProjectWise...
+2026-05-18 10:10:38 | OK | Login realizado. Usuario atual: Peterson Caputti
+2026-05-18 10:10:48 | INFO | Arquivo de entrada: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Modelo_Criacao_Usuarios_ProjectWise.xlsx
+2026-05-18 10:10:50 | INFO | Registros carregados: 4
+2026-05-18 10:10:51 | OK | Linha 2: usuario criado - Fabrizia Oliverii
+2026-05-18 10:10:52 | OK | Linha 3: usuario criado - Luís Eduardo G. Almeida
+2026-05-18 10:10:52 | OK | Linha 4: usuario criado - Marcos Peixoto
+2026-05-18 10:10:53 | OK | Linha 5: usuario criado - Marlon Rocha
+2026-05-18 10:10:54 | INFO | Sessao ProjectWise encerrada.
+2026-05-18 10:10:54 | INFO | 
+2026-05-18 10:10:54 | INFO | ================ RESUMO FINAL ================
+2026-05-18 10:10:54 | INFO | Total de linhas processadas : 4
+2026-05-18 10:10:54 | OK | Usuarios criados            : 4
+2026-05-18 10:10:54 | OK | Usuarios atualizados        : 0
+2026-05-18 10:10:54 | WARN | Usuarios ja existentes      : 0
+2026-05-18 10:10:54 | INFO | Linhas apenas validadas     : 0
+2026-05-18 10:10:54 | OK | Linhas invalidas            : 0
+2026-05-18 10:10:54 | OK | Erros de processamento      : 0
+2026-05-18 10:10:54 | OK | Relatorio completo          : C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\PW_CriarUsuariosLote_Relatorio_20260518_101017.csv
+2026-05-18 10:10:54 | INFO | ==============================================
