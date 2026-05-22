@@ -1,0 +1,32 @@
+2026-05-21 14:29:13 | INFO | ProjectWise - criacao de usuarios em lote
+2026-05-21 14:29:13 | INFO | Log: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\PW_CriarUsuariosLote_20260521_142913.log
+2026-05-21 14:29:13 | INFO | Abrindo login no ProjectWise...
+2026-05-21 14:29:24 | OK | Login realizado. Usuario atual: Peterson Caputti
+2026-05-21 14:29:31 | INFO | Arquivo de entrada: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Modelo_Criacao_Usuarios_ProjectWise.xlsx
+2026-05-21 14:29:32 | INFO | Registros carregados: 4
+2026-05-21 14:29:32 | WARN | Linha 2: usuario ja existe - Fabrizia Oliverii (encontrado por Name)
+2026-05-21 14:29:32 | WARN | Linha 3: usuario ja existe - Luís Eduardo G. Almeida (encontrado por Name)
+2026-05-21 14:29:32 | WARN | Linha 4: usuario ja existe - Marcos Peixoto (encontrado por Name)
+2026-05-21 14:29:32 | WARN | Linha 5: usuario ja existe - Marlon Rocha (encontrado por Name)
+2026-05-21 14:29:36 | INFO | Gerando arquivo da lista processada para descricao: Engenharia consulta ultima revisão
+2026-05-21 14:29:36 | OK | Arquivo gerado: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\UsuariosPorDescricao_20260521_142913\Usuarios_Descricao_Engenharia consulta ultima revisão.xlsx
+2026-05-21 14:29:36 | INFO | Sessao ProjectWise encerrada.
+2026-05-21 14:29:36 | INFO | 
+2026-05-21 14:29:36 | INFO | ================ RESUMO FINAL ================
+2026-05-21 14:29:36 | INFO | Total de linhas processadas : 4
+2026-05-21 14:29:36 | OK | Usuarios criados            : 0
+2026-05-21 14:29:36 | OK | Usuarios atualizados        : 0
+2026-05-21 14:29:36 | WARN | Usuarios ja existentes      : 4
+2026-05-21 14:29:36 | INFO | Linhas apenas validadas     : 0
+2026-05-21 14:29:36 | OK | Linhas invalidas            : 0
+2026-05-21 14:29:36 | OK | Erros de processamento      : 0
+2026-05-21 14:29:36 | OK | Relatorio completo          : C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\PW_CriarUsuariosLote_Relatorio_20260521_142913.csv
+2026-05-21 14:29:36 | OK | Arquivos Excel por descricao:
+2026-05-21 14:29:36 | OK | - C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\UsuariosPorDescricao_20260521_142913\Usuarios_Descricao_Engenharia consulta ultima revisão.xlsx
+2026-05-21 14:29:36 | INFO | 
+2026-05-21 14:29:36 | WARN | Usuarios que ja existiam e nao foram recriados:
+2026-05-21 14:29:36 | WARN | - Linha 2 | Engenharia consulta ultima revisão | Fabrizia Oliverii | fabrizia.oliverii@jgpconsultoria.com.br
+2026-05-21 14:29:36 | WARN | - Linha 3 | Engenharia consulta ultima revisão | Luís Eduardo G. Almeida | luis.almeida@jgpconsultoria.com.br
+2026-05-21 14:29:36 | WARN | - Linha 4 | Engenharia consulta ultima revisão | Marcos Peixoto | marcos.peixoto@jgpconsultoria.com.br
+2026-05-21 14:29:36 | WARN | - Linha 5 | Engenharia consulta ultima revisão | Marlon Rocha | marlon.rocha@jgpconsultoria.com.br
+2026-05-21 14:29:36 | INFO | ==============================================

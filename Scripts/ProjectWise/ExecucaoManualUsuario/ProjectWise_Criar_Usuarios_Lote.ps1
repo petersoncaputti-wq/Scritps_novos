@@ -49,6 +49,7 @@ if (-not (Test-Path $PastaLog)) {
 $TimeStamp = Get-Date -Format "yyyyMMdd_HHmmss"
 $ArquivoLog = Join-Path $PastaLog "PW_CriarUsuariosLote_$TimeStamp.log"
 $ArquivoRelatorio = Join-Path $PastaLog "PW_CriarUsuariosLote_Relatorio_$TimeStamp.csv"
+$PastaUsuariosPorDescricao = Join-Path $PastaLog "UsuariosPorDescricao_$TimeStamp"
 
 function Write-Log {
     param(
@@ -190,6 +191,33 @@ function Selecionar-ArquivoEntrada {
     }
 
     throw "Nenhum arquivo foi selecionado."
+}
+
+function Selecionar-PastaExtracaoUsuariosPorDescricao {
+    param([string]$PastaPadrao)
+
+    try {
+        $dialog = New-Object System.Windows.Forms.FolderBrowserDialog
+        $dialog.Description = "Selecione onde salvar os arquivos Excel por descricao"
+        $dialog.ShowNewFolderButton = $true
+
+        if (Test-Path $PastaPadrao) {
+            $dialog.SelectedPath = $PastaPadrao
+        }
+        else {
+            $dialog.SelectedPath = [Environment]::GetFolderPath("Desktop")
+        }
+
+        if ($dialog.ShowDialog() -eq [System.Windows.Forms.DialogResult]::OK) {
+            return (Join-Path $dialog.SelectedPath "UsuariosPorDescricao_$TimeStamp")
+        }
+    }
+    catch {
+        Write-Log "Falha ao abrir seletor de pasta para extracao: $($_.Exception.Message)" "WARN"
+    }
+
+    Write-Status "Nenhuma pasta foi selecionada para a extracao. Usando pasta padrao: $PastaPadrao" "WARN"
+    return $PastaPadrao
 }
 
 function Importar-DadosUsuarios {
@@ -524,6 +552,7 @@ function New-Resultado {
     return [PSCustomObject]@{
         Linha            = $Registro.Linha
         UserName         = $Registro.UserName
+        Description      = $Registro.Description
         Email            = $Registro.Email
         SecurityProvider = $Registro.SecurityProvider
         IMSUser          = $Registro.IMSUser
@@ -638,10 +667,103 @@ function Processar-Registros {
     return $resultados.ToArray()
 }
 
+function Get-NomeArquivoSeguro {
+    param(
+        [string]$Nome,
+        [int]$TamanhoMaximo = 80
+    )
+
+    if ([string]::IsNullOrWhiteSpace($Nome)) {
+        $Nome = "SemDescricao"
+    }
+
+    $invalidos = [System.IO.Path]::GetInvalidFileNameChars()
+    foreach ($char in $invalidos) {
+        $Nome = $Nome.Replace($char, "_")
+    }
+
+    $Nome = ($Nome -replace '\s+', ' ').Trim()
+    if ($Nome.Length -gt $TamanhoMaximo) {
+        $Nome = $Nome.Substring(0, $TamanhoMaximo).Trim()
+    }
+
+    if ([string]::IsNullOrWhiteSpace($Nome)) {
+        return "SemDescricao"
+    }
+
+    return $Nome
+}
+
+function Exportar-UsuariosPorDescricoes {
+    param(
+        [object[]]$Resultados,
+        [string]$PastaDestino
+    )
+
+    $descricoes = @(
+        $Resultados |
+            Where-Object { -not [string]::IsNullOrWhiteSpace($_.Description) } |
+            Select-Object -ExpandProperty Description -Unique
+    )
+
+    if ($descricoes.Count -eq 0) {
+        Write-Status "Nenhuma descricao foi informada na planilha. Extracao por descricao ignorada." "WARN"
+        return @()
+    }
+
+    Import-Module ImportExcel -ErrorAction Stop
+
+    if (-not (Test-Path $PastaDestino)) {
+        New-Item -ItemType Directory -Path $PastaDestino -Force | Out-Null
+    }
+
+    $arquivos = New-Object System.Collections.Generic.List[string]
+
+    foreach ($descricao in $descricoes) {
+        Write-Status "Gerando arquivo da lista processada para descricao: $descricao"
+
+        $dadosExportacao = @(
+            $Resultados |
+                Where-Object { $_.Description -ieq $descricao } |
+                Sort-Object Email, UserName |
+                Select-Object Email, Description, UserName, Status, Acao, Mensagem
+        )
+
+        if ($dadosExportacao.Count -eq 0) {
+            $dadosExportacao = @(
+                [PSCustomObject]@{
+                    Email       = ""
+                    Description = $descricao
+                    UserName    = ""
+                    Status      = ""
+                    Acao        = ""
+                    Mensagem    = ""
+                }
+            )
+        }
+
+        $nomeBase = "Usuarios_Descricao_{0}" -f (Get-NomeArquivoSeguro -Nome $descricao)
+        $arquivo = Join-Path $PastaDestino "$nomeBase.xlsx"
+        $sufixo = 2
+        while (Test-Path $arquivo) {
+            $arquivo = Join-Path $PastaDestino ("{0}_{1}.xlsx" -f $nomeBase, $sufixo)
+            $sufixo++
+        }
+
+        $dadosExportacao | Export-Excel -Path $arquivo -WorksheetName "Usuarios" -AutoSize -ClearSheet
+        $arquivos.Add($arquivo)
+
+        Write-Status "Arquivo gerado: $arquivo" "OK"
+    }
+
+    return $arquivos.ToArray()
+}
+
 function Mostrar-ResumoFinal {
     param(
         [object[]]$Resultados,
-        [string]$ArquivoRelatorioFinal
+        [string]$ArquivoRelatorioFinal,
+        [string[]]$ArquivosUsuariosPorDescricao
     )
 
     $total = @($Resultados).Count
@@ -662,6 +784,12 @@ function Mostrar-ResumoFinal {
     Write-Status "Linhas invalidas            : $invalidos" $(if ($invalidos -gt 0) { "WARN" } else { "OK" })
     Write-Status "Erros de processamento      : $erros" $(if ($erros -gt 0) { "ERROR" } else { "OK" })
     Write-Status "Relatorio completo          : $ArquivoRelatorioFinal" "OK"
+    if (@($ArquivosUsuariosPorDescricao).Count -gt 0) {
+        Write-Status "Arquivos Excel por descricao:" "OK"
+        foreach ($arquivo in $ArquivosUsuariosPorDescricao) {
+            Write-Status "- $arquivo" "OK"
+        }
+    }
 
     $itensComProblema = @($Resultados | Where-Object { $_.Status -in @("INVALIDO", "ERRO") })
     if ($itensComProblema.Count -gt 0) {
@@ -677,7 +805,7 @@ function Mostrar-ResumoFinal {
         Write-Status ""
         Write-Status "Usuarios que ja existiam e nao foram recriados:" "WARN"
         foreach ($item in $itensExistentes) {
-            Write-Status ("- Linha {0} | {1} | {2}" -f $item.Linha, $item.UserName, $item.Email) "WARN"
+            Write-Status ("- Linha {0} | {1} | {2} | {3}" -f $item.Linha, $item.Description, $item.UserName, $item.Email) "WARN"
         }
     }
 
@@ -713,6 +841,9 @@ try {
 
     try {
         $resultados = @(Processar-Registros -Registros $registros)
+        $arquivosUsuariosPorDescricao = @()
+        $PastaUsuariosPorDescricao = Selecionar-PastaExtracaoUsuariosPorDescricao -PastaPadrao $PastaUsuariosPorDescricao
+        $arquivosUsuariosPorDescricao = @(Exportar-UsuariosPorDescricoes -Resultados $resultados -PastaDestino $PastaUsuariosPorDescricao)
     }
     finally {
         if ($login -and -not $SomenteValidar) {
@@ -728,7 +859,7 @@ try {
 
     $resultados | Export-Csv -Path $ArquivoRelatorio -NoTypeInformation -Encoding UTF8 -Delimiter ';'
 
-    Mostrar-ResumoFinal -Resultados $resultados -ArquivoRelatorioFinal $ArquivoRelatorio
+    Mostrar-ResumoFinal -Resultados $resultados -ArquivoRelatorioFinal $ArquivoRelatorio -ArquivosUsuariosPorDescricao $arquivosUsuariosPorDescricao
     Pausar-Final
 }
 catch {
