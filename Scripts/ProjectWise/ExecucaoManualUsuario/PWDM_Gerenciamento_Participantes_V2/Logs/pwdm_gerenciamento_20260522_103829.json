@@ -1,0 +1,85 @@
+{
+  "timestamp": "2026-05-22T10:38:29",
+  "operacoes": [
+    {
+      "nomeProjeto": "147 - Porto de Santos  - FIPS km 64 - SP - 150",
+      "origemProjectWise": {
+        "nome": "147 - Porto de Santos  - FIPS km 64 - SP - 150",
+        "id": "394974",
+        "guid": "46dd7f4d-58f3-4e70-9c9e-df884b0fc5f9",
+        "connectedProjectId": "4d436160-39c8-4c79-9421-ce62a731c2fa",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/4d436160-39c8-4c79-9421-ce62a731c2fa/ProjectSettings/4d436160-39c8-4c79-9421-ce62a731c2fa/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "4d436160-39c8-4c79-9421-ce62a731c2fa",
+      "projectId": "4d436160-39c8-4c79-9421-ce62a731c2fa",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membra da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    }
+  ],
+  "resultados": [
+    {
+      "projectId": "4d436160-39c8-4c79-9421-ce62a731c2fa",
+      "nomeProjeto": "147 - Porto de Santos  - FIPS km 64 - SP - 150",
+      "origemProjectWise": {
+        "nome": "147 - Porto de Santos  - FIPS km 64 - SP - 150",
+        "id": "394974",
+        "guid": "46dd7f4d-58f3-4e70-9c9e-df884b0fc5f9",
+        "connectedProjectId": "4d436160-39c8-4c79-9421-ce62a731c2fa",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/4d436160-39c8-4c79-9421-ce62a731c2fa/ProjectSettings/4d436160-39c8-4c79-9421-ce62a731c2fa/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ca***@astec.eng.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/4d436160-39c8-4c79-9421-ce62a731c2fa/ProjectSettings/4d436160-39c8-4c79-9421-ce62a731c2fa/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/4d436160-39c8-4c79-9421-ce62a731c2fa/ProjectSettings/4d436160-39c8-4c79-9421-ce62a731c2fa/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Camila Fabri Mello",
+            "email": "ca***@astec.eng.br",
+            "roleLabel": "Membra da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "55f2d164-df28-4873-8f39-68a8de5359e8",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    }
+  ]
+}
