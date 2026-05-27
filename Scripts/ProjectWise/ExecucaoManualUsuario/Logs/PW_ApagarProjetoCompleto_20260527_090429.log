@@ -1,0 +1,10 @@
+2026-05-27 09:04:29 | INFO | Modulo 'pwps_dab' importado.
+2026-05-27 09:04:29 | INFO | Inicio da rotina de exclusao completa de projeto.
+2026-05-27 09:04:29 | INFO | Caminho do projeto: ENGENHARIA\Nome da Concessao\Projetos\NOME_PROJETO
+2026-05-27 09:04:29 | INFO | Prefixo Admin: SIGLA-NOME_PROJETO
+2026-05-27 09:04:29 | INFO | Executar: False
+2026-05-27 09:04:29 | INFO | Tentando conexao via New-PWLogin...
+2026-05-27 09:04:44 | INFO | Conexao realizada via New-PWLogin -BentleyIMS.
+2026-05-27 09:04:44 | ERROR | Erro fatal: Projeto nao encontrado no ProjectWise Explorer: ENGENHARIA\Nome da Concessao\Projetos\NOME_PROJETO
+2026-05-27 09:04:44 | INFO | CSV de resultado gerado: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\PW_ApagarProjetoCompleto_20260527_090429.csv
+2026-05-27 09:04:44 | INFO | Sessao ProjectWise encerrada via Undo-PWLogin.
