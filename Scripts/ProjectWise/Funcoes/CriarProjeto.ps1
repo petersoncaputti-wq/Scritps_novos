@@ -226,16 +226,16 @@ function CriarPasta {
         Write-Host "Criando pasta: $nomePasta"
 
         if (-not [string]::IsNullOrWhiteSpace($environment) -and -not [string]::IsNullOrWhiteSpace($workflow)) {
-            New-PWFolder -FolderPath $nomePasta -Environment $environment -Workflow $workflow
+            New-PWFolder -FolderPath $nomePasta -Environment $environment -Workflow $workflow -ErrorAction Stop
         }
         elseif (-not [string]::IsNullOrWhiteSpace($environment)) {
-            New-PWFolder -FolderPath $nomePasta -Environment $environment
+            New-PWFolder -FolderPath $nomePasta -Environment $environment -ErrorAction Stop
         }
         elseif (-not [string]::IsNullOrWhiteSpace($workflow)) {
-            New-PWFolder -FolderPath $nomePasta -Workflow $workflow
+            New-PWFolder -FolderPath $nomePasta -Workflow $workflow -ErrorAction Stop
         }
         else {
-            New-PWFolder -FolderPath $nomePasta
+            New-PWFolder -FolderPath $nomePasta -ErrorAction Stop
         }
     }
     else {

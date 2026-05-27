@@ -14,7 +14,7 @@ param(
 Add-Type -AssemblyName System.Windows.Forms
 Import-Module ImportExcel -ErrorAction SilentlyContinue -WarningAction SilentlyContinue
 
-$my_other_script = [System.IO.Path]::GetFullPath($PSScriptRoot + "\Funcoes\CriarProjeto.ps1")
+$my_other_script = [System.IO.Path]::GetFullPath((Join-Path $PSScriptRoot "..\Funcoes\CriarProjeto.ps1"))
 
 if (-not (Test-Path $my_other_script)) {
     [System.Windows.Forms.MessageBox]::Show(
@@ -26,6 +26,7 @@ if (-not (Test-Path $my_other_script)) {
     return
 }
 
+Write-Host 'Carregando funcoes de criacao de projeto: ' $my_other_script
 . $my_other_script
 
 #-------------------------------------------------------
