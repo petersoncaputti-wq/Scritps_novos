@@ -24,7 +24,10 @@ param(
     [switch]$ExecuteParam,
 
     # Limita a quantidade de documentos processados. Use 0 para processar todos.
-    [int]$LimiteDocumentosParam = -1
+    [int]$LimiteDocumentosParam = -1,
+
+    # Caminho opcional do arquivo de log. Se vazio, cria um log na pasta Logs ao lado do script.
+    [string]$LogPathParam
 )
 
 #requires -Version 5.1
@@ -87,6 +90,9 @@ $ModoBuscaRapida = $true
 # A validacao principal passa a ser o campo Name preenchido.
 $ValidarAtributoUmaVez = $false
 
+# Caminho do arquivo de log. Deixe vazio para gerar automaticamente em .\Logs.
+$LogFilePath = ""
+
 # =================================================================================================
 # INICIALIZACAO
 # =================================================================================================
@@ -105,6 +111,10 @@ if ($ExecuteParam.IsPresent) {
 
 if ($LimiteDocumentosParam -ge 0) {
     $LimiteDocumentos = $LimiteDocumentosParam
+}
+
+if (-not [string]::IsNullOrWhiteSpace($LogPathParam)) {
+    $LogFilePath = $LogPathParam
 }
 
 function Restart-ScriptInMtaIfNeeded {
@@ -161,6 +171,17 @@ Restart-ScriptInMtaIfNeeded -BoundParameters $PSBoundParameters
 $ErrorActionPreference = "Stop"
 $WarningPreference = "Continue"
 
+if ([string]::IsNullOrWhiteSpace($LogFilePath)) {
+    $logDirectory = if (-not [string]::IsNullOrWhiteSpace($PSScriptRoot)) {
+        Join-Path $PSScriptRoot "Logs"
+    }
+    else {
+        Join-Path (Get-Location).Path "Logs"
+    }
+
+    $LogFilePath = Join-Path $logDirectory ("Ajuste_de_Atributos_{0}.log" -f (Get-Date -Format "yyyyMMdd_HHmmss"))
+}
+
 function Write-Log {
     param(
         [Parameter(Mandatory = $true)]
@@ -172,13 +193,95 @@ function Write-Log {
 
     $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
     $prefix = "[$timestamp][$Level]"
+    $line = "$prefix $Message"
 
     switch ($Level) {
-        "OK"     { Write-Host "$prefix $Message" -ForegroundColor Green }
-        "WARN"   { Write-Host "$prefix $Message" -ForegroundColor Yellow }
-        "ERROR"  { Write-Host "$prefix $Message" -ForegroundColor Red }
-        "DRYRUN" { Write-Host "$prefix $Message" -ForegroundColor Cyan }
-        default  { Write-Host "$prefix $Message" -ForegroundColor Gray }
+        "OK"     { Write-Host $line -ForegroundColor Green }
+        "WARN"   { Write-Host $line -ForegroundColor Yellow }
+        "ERROR"  { Write-Host $line -ForegroundColor Red }
+        "DRYRUN" { Write-Host $line -ForegroundColor Cyan }
+        default  { Write-Host $line -ForegroundColor Gray }
+    }
+
+    try {
+        $logFolder = Split-Path -Parent $script:LogFilePath
+        if (-not [string]::IsNullOrWhiteSpace($logFolder) -and -not (Test-Path -LiteralPath $logFolder)) {
+            New-Item -Path $logFolder -ItemType Directory -Force -ErrorAction Stop | Out-Null
+        }
+
+        Add-Content -LiteralPath $script:LogFilePath -Value $line -Encoding UTF8 -ErrorAction Stop
+    }
+    catch {
+        Write-Host "[WARN] Nao foi possivel gravar no arquivo de log '$script:LogFilePath'. Erro: $($_.Exception.Message)" -ForegroundColor Yellow
+    }
+}
+
+function Write-ExceptionLog {
+    param(
+        [Parameter(Mandatory = $true)]
+        [System.Management.Automation.ErrorRecord]$ErrorRecord,
+
+        [string]$Context = "Erro"
+    )
+
+    Write-Log "$Context`: $($ErrorRecord.Exception.Message)" "ERROR"
+
+    if ($null -ne $ErrorRecord.InvocationInfo) {
+        Write-Log "Linha: $($ErrorRecord.InvocationInfo.ScriptLineNumber) | Comando: $($ErrorRecord.InvocationInfo.Line.Trim())" "ERROR"
+    }
+
+    if (-not [string]::IsNullOrWhiteSpace($ErrorRecord.ScriptStackTrace)) {
+        Write-Log "StackTrace PowerShell: $($ErrorRecord.ScriptStackTrace)" "ERROR"
+    }
+}
+
+function Resolve-ExecutionMode {
+    param(
+        [bool]$DryRunWasRequested,
+        [bool]$ExecuteWasRequested,
+        [bool]$DefaultDryRun
+    )
+
+    if ($DryRunWasRequested -or $ExecuteWasRequested) {
+        return [PSCustomObject]@{
+            DryRun = $DefaultDryRun
+            SelectedByPrompt = $false
+        }
+    }
+
+    Write-Host ""
+    Write-Host "Modo de execucao:" -ForegroundColor Cyan
+    Write-Host "  S - Simulacao: nao altera documentos"
+    Write-Host "  E - Executar: altera documentos no ProjectWise"
+    Write-Host "  C - Cancelar"
+
+    while ($true) {
+        $selection = (Read-Host "Selecione o modo de execucao [S/E/C]").Trim()
+
+        if ([string]::IsNullOrWhiteSpace($selection)) {
+            $selection = "S"
+        }
+
+        switch -Regex ($selection) {
+            "^(S|SIM|SIMULACAO)$" {
+                return [PSCustomObject]@{
+                    DryRun = $true
+                    SelectedByPrompt = $true
+                }
+            }
+            "^(E|EXECUTAR|REAL|N|NAO)$" {
+                return [PSCustomObject]@{
+                    DryRun = $false
+                    SelectedByPrompt = $true
+                }
+            }
+            "^(C|CANCELAR)$" {
+                throw "Execucao cancelada pelo usuario antes de iniciar o processamento."
+            }
+            default {
+                Write-Log "Opcao invalida. Digite S para simulacao, E para executar ou C para cancelar." "WARN"
+            }
+        }
     }
 }
 
@@ -1198,7 +1301,14 @@ function Update-NumeroDocumentoAttribute {
         $AttributeColumnName = [string]$Value
     }
 
-    $updateResult = Update-PWDocumentAttributes -InputDocuments @($Document) -Attributes $attributesToUpdate -ReturnBoolean -WarningAction SilentlyContinue -ErrorAction Stop
+    Write-Log "Tentando atualizar atributo. Documento='$DocumentName' | Coluna='$AttributeColumnName' | Valor='$Value'." "INFO"
+    $updateWarnings = $null
+    $updateResult = Update-PWDocumentAttributes -InputDocuments @($Document) -Attributes $attributesToUpdate -ReturnBoolean -WarningAction SilentlyContinue -WarningVariable updateWarnings -ErrorAction Stop
+    if ($updateWarnings) {
+        Write-Log "Avisos retornados pelo Update-PWDocumentAttributes: $($updateWarnings -join ' | ')" "WARN"
+    }
+
+    Write-Log "Retorno da primeira tentativa Update-PWDocumentAttributes: $updateResult" "INFO"
 
     if ($updateResult -ne $false) {
         return $true
@@ -1209,10 +1319,20 @@ function Update-NumeroDocumentoAttribute {
         $documentsWithAttributes = @(Get-DocumentWithAttributesByName -DocumentName $DocumentName -FolderId $FolderId -FolderPath $FolderPath)
 
         if ($documentsWithAttributes.Count -gt 0) {
-            $updateResult = Update-PWDocumentAttributes -InputDocuments @($documentsWithAttributes[0]) -Attributes $attributesToUpdate -ReturnBoolean -WarningAction SilentlyContinue -ErrorAction Stop
+            Write-Log "Documento recarregado com atributos. Tentando atualizar novamente '$DocumentName'." "INFO"
+            $retryWarnings = $null
+            $updateResult = Update-PWDocumentAttributes -InputDocuments @($documentsWithAttributes[0]) -Attributes $attributesToUpdate -ReturnBoolean -WarningAction SilentlyContinue -WarningVariable retryWarnings -ErrorAction Stop
+            if ($retryWarnings) {
+                Write-Log "Avisos retornados na segunda tentativa: $($retryWarnings -join ' | ')" "WARN"
+            }
+
+            Write-Log "Retorno da segunda tentativa Update-PWDocumentAttributes: $updateResult" "INFO"
             if ($updateResult -ne $false) {
                 return $true
             }
+        }
+        else {
+            Write-Log "Nao foi possivel recarregar '$DocumentName' com atributos para segunda tentativa." "WARN"
         }
     }
 
@@ -1258,9 +1378,31 @@ function Get-NumeroDocumentoFromName {
 
 try {
     Write-Log "Iniciando preenchimento do atributo '$NumeroDocumentoAttributeName'." "INFO"
+    Write-Log "Arquivo de log desta execucao: $LogFilePath" "INFO"
+    Write-Log "Script: $PSCommandPath" "INFO"
+    Write-Log "PowerShell: $($PSVersionTable.PSVersion) | ApartmentState: $([System.Threading.Thread]::CurrentThread.GetApartmentState()) | Usuario: $env:USERNAME" "INFO"
+
+    $executionMode = Resolve-ExecutionMode -DryRunWasRequested $DryRunParam.IsPresent -ExecuteWasRequested $ExecuteParam.IsPresent -DefaultDryRun $DryRun
+    $DryRun = $executionMode.DryRun
+    if ($executionMode.SelectedByPrompt) {
+        if ($DryRun) {
+            Write-Log "Modo selecionado no console: SIMULACAO. Nenhum documento sera alterado." "DRYRUN"
+        }
+        else {
+            Write-Log "Modo selecionado no console: EXECUCAO REAL. Documentos poderao ser alterados no ProjectWise." "WARN"
+        }
+    }
+
+    Write-Log "Parametros: ProjectPathParam='$ProjectPathParam' | DryRunParam=$($DryRunParam.IsPresent) | ExecuteParam=$($ExecuteParam.IsPresent) | LimiteDocumentosParam=$LimiteDocumentosParam" "INFO"
+    Write-Log "Configuracao efetiva: ProjectPath='$ProjectPath' | ImportFolderName='$ImportFolderName' | DryRun=$DryRun | LimiteDocumentos=$LimiteDocumentos | ModoBuscaRapida=$ModoBuscaRapida | DatasourceName='$DatasourceName' | UsarBentleyIMS=$UsarBentleyIMS" "INFO"
+    Write-Log "Atributo alvo: Exibicao='$NumeroDocumentoAttributeName' | ColunaConfigurada='$NumeroDocumentoAttributeColumnName' | EnvironmentConfigurado='$ProjectWiseEnvironmentName'" "INFO"
 
     Write-Log "Importando modulo PWPS_DAB." "INFO"
     Import-Module PWPS_DAB -ErrorAction Stop
+    $pwpsModule = Get-Module PWPS_DAB
+    if ($null -ne $pwpsModule) {
+        Write-Log "Modulo PWPS_DAB carregado. Versao=$($pwpsModule.Version) | Caminho=$($pwpsModule.Path)" "OK"
+    }
 
     Connect-ProjectWiseDatasource
 
@@ -1319,6 +1461,7 @@ try {
     $errorCount = 0
     $ignoredCount = 0
     $unitMismatchCount = 0
+    $processedCount = 0
 
     Write-Log "Documentos encontrados: $totalFound" "INFO"
     Write-Log "Documentos selecionados para processamento: $totalToProcess" "INFO"
@@ -1334,10 +1477,19 @@ try {
     }
 
     foreach ($document in $documents) {
+        $processedCount++
         $displayName = Get-DocumentDisplayName -Document $document
+        $percentComplete = if ($totalToProcess -gt 0) {
+            [int](($processedCount / $totalToProcess) * 100)
+        }
+        else {
+            100
+        }
+
+        Write-Progress -Activity "Ajuste de atributos ProjectWise" -Status ("Processando {0} de {1}: {2}" -f $processedCount, $totalToProcess, $displayName) -PercentComplete $percentComplete
 
         try {
-            Write-Log "Processando documento: $displayName" "INFO"
+            Write-Log ("Processando documento {0}/{1}: {2}" -f $processedCount, $totalToProcess, $displayName) "INFO"
 
             # Le o campo Name da aba General.
             $documentName = Get-DocumentPropertyValue -Document $document -PropertyNames @("Name", "DocumentName")
@@ -1388,14 +1540,16 @@ try {
 
             if ($errorMessage -like "*(01) Unidade do documento diferente da unidade da pasta*") {
                 $unitMismatchCount++
-                Write-Log "Falha de validacao ProjectWise em '$displayName': unidade do documento diferente da unidade da pasta." "ERROR"
+                Write-ExceptionLog -ErrorRecord $_ -Context "Falha de validacao ProjectWise em '$displayName': unidade do documento diferente da unidade da pasta"
                 continue
             }
 
             $errorCount++
-            Write-Log "Falha ao processar '$displayName'. Erro: $errorMessage" "ERROR"
+            Write-ExceptionLog -ErrorRecord $_ -Context "Falha ao processar '$displayName'"
         }
     }
+
+    Write-Progress -Activity "Ajuste de atributos ProjectWise" -Completed
 
     Write-Host ""
     Write-Log "Resumo final" "INFO"
@@ -1407,11 +1561,11 @@ try {
     Write-Log "Com erro: $errorCount" "ERROR"
 
     if ($DryRun) {
-        Write-Log "Execucao finalizada em modo simulacao. Para alterar documentos, configure `$DryRun = `$false." "DRYRUN"
-        Write-Log "Opcionalmente, execute com -ExecuteParam para forcar a atualizacao real." "DRYRUN"
+        Write-Log "Execucao finalizada em modo simulacao. Para alterar documentos, execute novamente e escolha E no modo de execucao." "DRYRUN"
+        Write-Log "Opcionalmente, execute com -ExecuteParam para pular a pergunta e forcar a atualizacao real." "DRYRUN"
     }
 }
 catch {
-    Write-Log "Erro fatal: $($_.Exception.Message)" "ERROR"
+    Write-ExceptionLog -ErrorRecord $_ -Context "Erro fatal"
     exit 1
 }
