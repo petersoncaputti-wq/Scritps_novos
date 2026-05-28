@@ -1,0 +1,1559 @@
+﻿[2026-05-27 16:22:44] [INFO] Iniciando reanalise. Simular: True
+[2026-05-27 16:22:44] [INFO] Efetuando login via Bentley IMS.
+[2026-05-27 16:22:56] [OK] Login realizado com sucesso: 01SSRV305.ECSC.ECORODOVIAS.CORP:Ecorodovias-01
+[2026-05-27 16:22:56] [INFO] Carregando pastas raiz do ProjectWise.
+[2026-05-27 16:23:02] [INFO] Listando subpastas de: Engenharia
+[2026-05-27 16:23:17] [OK] Concessao selecionada: Ecovias Rio Minas
+[2026-05-27 16:23:17] [INFO] Listando subpastas de: Ecovias Rio Minas
+[2026-05-27 16:23:19] [INFO] Listando subpastas de: Projetos
+[2026-05-27 16:23:58] [OK] Projeto selecionado: Praça de Pedágio P6
+[2026-05-27 16:23:58] [INFO] Listando subpastas de: Praça de Pedágio P6
+[2026-05-27 16:24:05] [INFO] Listando subpastas de: Praça de Pedágio P6\Area de Transferencia
+[2026-05-27 16:24:08] [INFO] Listando subpastas de: Praça de Pedágio P6\Area de Transferencia\Importacao
+[2026-05-27 16:24:08] [AVISO] A pasta atual nao possui subpastas. Ela sera usada para buscar documentos.
+[2026-05-27 16:24:09] [OK] Pasta selecionada para reanalise: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\Area de Transferencia\Importacao
+[2026-05-27 16:24:11] [AVISO] Busca inicial limitada aos primeiros 100 documentos da pasta selecionada.
+[2026-05-27 16:24:11] [INFO] Documentos candidatos carregados pela busca limitada: 100
+[2026-05-27 16:26:08] [INFO] Documentos encontrados para reanalise: 73
+[2026-05-27 16:26:08] [SIMULACAO] Modo simulacao ativo. O processamento sera executado sem alterar documentos/pastas/states.
+[2026-05-27 16:26:08] [INFO] Carregando lista oficial de disciplinas ANTT: Ecorodovias\Area de Administração\Registros\Disciplinas ANTT
+[2026-05-27 16:26:49] [INFO] Disciplinas ANTT carregadas: 59
+[2026-05-27 16:26:49] [INFO] 
+[2026-05-27 16:26:49] [INFO] Contador: 1/73
+[2026-05-27 16:26:49] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-001-R01a.dwg
+[2026-05-27 16:26:49] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:26:50] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:26:50] [INFO] Fase destino: 
+[2026-05-27 16:26:50] [INFO] Volume: 
+[2026-05-27 16:26:50] [INFO] Disciplina: 001 -> 
+[2026-05-27 16:26:50] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:26:50] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:26:50] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:50] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:50] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:26:50] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:50] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-001-R01a.dwg: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:50] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:50] [INFO] 
+[2026-05-27 16:26:50] [INFO] Contador: 2/73
+[2026-05-27 16:26:50] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-001-R01a.pdf
+[2026-05-27 16:26:50] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:26:50] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:26:50] [INFO] Fase destino: 
+[2026-05-27 16:26:50] [INFO] Volume: 
+[2026-05-27 16:26:50] [INFO] Disciplina: 001 -> 
+[2026-05-27 16:26:50] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:26:50] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:26:50] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:50] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:50] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:26:50] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:50] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-001-R01a.pdf: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:50] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:50] [INFO] 
+[2026-05-27 16:26:50] [INFO] Contador: 3/73
+[2026-05-27 16:26:50] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-001-R02a.dwg
+[2026-05-27 16:26:50] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:26:51] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:26:51] [INFO] Fase destino: 
+[2026-05-27 16:26:51] [INFO] Volume: 
+[2026-05-27 16:26:51] [INFO] Disciplina: 001 -> 
+[2026-05-27 16:26:51] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:26:51] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:26:51] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:51] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:51] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:26:51] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:51] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-001-R02a.dwg: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:51] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:51] [INFO] 
+[2026-05-27 16:26:51] [INFO] Contador: 4/73
+[2026-05-27 16:26:51] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-001-R02a.pdf
+[2026-05-27 16:26:51] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:26:51] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:26:51] [INFO] Fase destino: 
+[2026-05-27 16:26:51] [INFO] Volume: 
+[2026-05-27 16:26:51] [INFO] Disciplina: 001 -> 
+[2026-05-27 16:26:51] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:26:51] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:26:51] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:51] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:51] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:26:51] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:51] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-001-R02a.pdf: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:51] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:51] [INFO] 
+[2026-05-27 16:26:51] [INFO] Contador: 5/73
+[2026-05-27 16:26:51] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-002-R00a.dwg
+[2026-05-27 16:26:51] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:26:52] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:26:52] [INFO] Fase destino: 
+[2026-05-27 16:26:52] [INFO] Volume: 
+[2026-05-27 16:26:52] [INFO] Disciplina: 002 -> 
+[2026-05-27 16:26:52] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:26:52] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:26:52] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:52] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:52] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:26:52] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:52] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-002-R00a.dwg: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:52] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:52] [INFO] 
+[2026-05-27 16:26:52] [INFO] Contador: 6/73
+[2026-05-27 16:26:52] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-002-R00a.pdf
+[2026-05-27 16:26:52] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:26:52] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:26:52] [INFO] Fase destino: 
+[2026-05-27 16:26:52] [INFO] Volume: 
+[2026-05-27 16:26:52] [INFO] Disciplina: 002 -> 
+[2026-05-27 16:26:52] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:26:52] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:26:52] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:52] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:52] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:26:52] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:52] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-002-R00a.pdf: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:52] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:52] [INFO] 
+[2026-05-27 16:26:52] [INFO] Contador: 7/73
+[2026-05-27 16:26:52] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-002-R01a.dwg
+[2026-05-27 16:26:52] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:26:54] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:26:54] [INFO] Fase destino: 
+[2026-05-27 16:26:54] [INFO] Volume: 
+[2026-05-27 16:26:54] [INFO] Disciplina: 002 -> 
+[2026-05-27 16:26:54] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:26:54] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:26:54] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:54] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:54] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:26:54] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:54] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-002-R01a.dwg: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:54] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:54] [INFO] 
+[2026-05-27 16:26:54] [INFO] Contador: 8/73
+[2026-05-27 16:26:54] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-002-R01a.pdf
+[2026-05-27 16:26:54] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:26:56] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:26:56] [INFO] Fase destino: 
+[2026-05-27 16:26:56] [INFO] Volume: 
+[2026-05-27 16:26:56] [INFO] Disciplina: 002 -> 
+[2026-05-27 16:26:56] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:26:56] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:26:56] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:56] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:56] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:26:56] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:56] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-002-R01a.pdf: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:56] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:56] [INFO] 
+[2026-05-27 16:26:56] [INFO] Contador: 9/73
+[2026-05-27 16:26:56] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-003-R00a.dwg
+[2026-05-27 16:26:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:26:57] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:26:57] [INFO] Fase destino: 
+[2026-05-27 16:26:57] [INFO] Volume: 
+[2026-05-27 16:26:57] [INFO] Disciplina: 003 -> 
+[2026-05-27 16:26:57] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:26:57] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:26:57] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:57] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:57] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:26:57] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:57] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-003-R00a.dwg: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:57] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:26:57] [INFO] 
+[2026-05-27 16:26:57] [INFO] Contador: 10/73
+[2026-05-27 16:26:57] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-003-R00a.pdf
+[2026-05-27 16:26:57] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:27:01] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:27:01] [INFO] Fase destino: 
+[2026-05-27 16:27:01] [INFO] Volume: 
+[2026-05-27 16:27:01] [INFO] Disciplina: 003 -> 
+[2026-05-27 16:27:01] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:27:01] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:27:01] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:01] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:01] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:27:01] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:01] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-003-R00a.pdf: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:01] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:01] [INFO] 
+[2026-05-27 16:27:01] [INFO] Contador: 11/73
+[2026-05-27 16:27:01] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-003-R01a.dwg
+[2026-05-27 16:27:01] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:27:02] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:27:02] [INFO] Fase destino: 
+[2026-05-27 16:27:02] [INFO] Volume: 
+[2026-05-27 16:27:02] [INFO] Disciplina: 003 -> 
+[2026-05-27 16:27:02] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:27:02] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:27:02] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:02] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:02] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:27:02] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:02] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-003-R01a.dwg: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:02] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:02] [INFO] 
+[2026-05-27 16:27:02] [INFO] Contador: 12/73
+[2026-05-27 16:27:03] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-003-R01a.pdf
+[2026-05-27 16:27:03] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:27:04] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:27:04] [INFO] Fase destino: 
+[2026-05-27 16:27:04] [INFO] Volume: 
+[2026-05-27 16:27:04] [INFO] Disciplina: 003 -> 
+[2026-05-27 16:27:04] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:27:04] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:27:04] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:04] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:04] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:27:04] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:04] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-003-R01a.pdf: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:04] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:04] [INFO] 
+[2026-05-27 16:27:04] [INFO] Contador: 13/73
+[2026-05-27 16:27:04] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-004-R00a.dwg
+[2026-05-27 16:27:04] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:27:06] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:27:06] [INFO] Fase destino: 
+[2026-05-27 16:27:06] [INFO] Volume: 
+[2026-05-27 16:27:06] [INFO] Disciplina: 004 -> 
+[2026-05-27 16:27:06] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:27:06] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:27:06] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:06] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:06] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:27:06] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:06] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-004-R00a.dwg: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:06] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:06] [INFO] 
+[2026-05-27 16:27:06] [INFO] Contador: 14/73
+[2026-05-27 16:27:06] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-004-R00a.pdf
+[2026-05-27 16:27:06] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:27:07] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:27:07] [INFO] Fase destino: 
+[2026-05-27 16:27:07] [INFO] Volume: 
+[2026-05-27 16:27:07] [INFO] Disciplina: 004 -> 
+[2026-05-27 16:27:07] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:27:07] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:27:07] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:07] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:07] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:27:07] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:07] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-004-R00a.pdf: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:07] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:07] [INFO] 
+[2026-05-27 16:27:07] [INFO] Contador: 15/73
+[2026-05-27 16:27:07] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-004-R02a.dwg
+[2026-05-27 16:27:07] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:27:10] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:27:10] [INFO] Fase destino: 
+[2026-05-27 16:27:10] [INFO] Volume: 
+[2026-05-27 16:27:10] [INFO] Disciplina: 004 -> 
+[2026-05-27 16:27:10] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:27:10] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:27:10] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:10] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:10] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:27:10] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:10] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-004-R02a.dwg: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:10] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:10] [INFO] 
+[2026-05-27 16:27:10] [INFO] Contador: 16/73
+[2026-05-27 16:27:10] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-004-R02a.pdf
+[2026-05-27 16:27:10] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:27:12] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:27:12] [INFO] Fase destino: 
+[2026-05-27 16:27:12] [INFO] Volume: 
+[2026-05-27 16:27:12] [INFO] Disciplina: 004 -> 
+[2026-05-27 16:27:12] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:27:12] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:27:12] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:12] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:12] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:27:12] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:12] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-004-R02a.pdf: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:12] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:12] [INFO] 
+[2026-05-27 16:27:12] [INFO] Contador: 17/73
+[2026-05-27 16:27:12] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-005-R00a.dwg
+[2026-05-27 16:27:12] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:27:13] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:27:13] [INFO] Fase destino: 
+[2026-05-27 16:27:13] [INFO] Volume: 
+[2026-05-27 16:27:13] [INFO] Disciplina: 005 -> 
+[2026-05-27 16:27:13] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:27:13] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:27:13] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:13] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:13] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:27:13] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:13] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-005-R00a.dwg: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:13] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:13] [INFO] 
+[2026-05-27 16:27:13] [INFO] Contador: 18/73
+[2026-05-27 16:27:13] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-005-R00a.pdf
+[2026-05-27 16:27:13] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:27:15] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:27:15] [INFO] Fase destino: 
+[2026-05-27 16:27:15] [INFO] Volume: 
+[2026-05-27 16:27:15] [INFO] Disciplina: 005 -> 
+[2026-05-27 16:27:15] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:27:15] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:27:15] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:15] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:15] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:27:15] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:15] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-005-R00a.pdf: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:15] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:15] [INFO] 
+[2026-05-27 16:27:15] [INFO] Contador: 19/73
+[2026-05-27 16:27:15] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-005-R02a.dwg
+[2026-05-27 16:27:15] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:27:17] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:27:17] [INFO] Fase destino: 
+[2026-05-27 16:27:17] [INFO] Volume: 
+[2026-05-27 16:27:17] [INFO] Disciplina: 005 -> 
+[2026-05-27 16:27:17] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:27:17] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:27:17] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:17] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:17] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:27:17] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:17] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-005-R02a.dwg: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:17] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:17] [INFO] 
+[2026-05-27 16:27:17] [INFO] Contador: 20/73
+[2026-05-27 16:27:17] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-005-R02a.pdf
+[2026-05-27 16:27:17] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:27:20] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:27:20] [INFO] Fase destino: 
+[2026-05-27 16:27:20] [INFO] Volume: 
+[2026-05-27 16:27:20] [INFO] Disciplina: 005 -> 
+[2026-05-27 16:27:20] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:27:20] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:27:20] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:20] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:20] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:27:20] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:20] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-005-R02a.pdf: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:20] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:20] [INFO] 
+[2026-05-27 16:27:20] [INFO] Contador: 21/73
+[2026-05-27 16:27:20] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-006-R01a.dwg
+[2026-05-27 16:27:20] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:27:22] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:27:22] [INFO] Fase destino: 
+[2026-05-27 16:27:22] [INFO] Volume: 
+[2026-05-27 16:27:22] [INFO] Disciplina: 006 -> 
+[2026-05-27 16:27:22] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:27:22] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:27:22] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:22] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:22] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:27:22] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:22] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-006-R01a.dwg: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:22] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:22] [INFO] 
+[2026-05-27 16:27:22] [INFO] Contador: 22/73
+[2026-05-27 16:27:22] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-006-R01a.pdf
+[2026-05-27 16:27:22] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:27:24] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:27:24] [INFO] Fase destino: 
+[2026-05-27 16:27:24] [INFO] Volume: 
+[2026-05-27 16:27:24] [INFO] Disciplina: 006 -> 
+[2026-05-27 16:27:24] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:27:24] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:27:24] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:24] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:24] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:27:24] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:24] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-006-R01a.pdf: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:24] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:24] [INFO] 
+[2026-05-27 16:27:24] [INFO] Contador: 23/73
+[2026-05-27 16:27:24] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-006-R02a.dwg
+[2026-05-27 16:27:24] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:27:25] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:27:25] [INFO] Fase destino: 
+[2026-05-27 16:27:25] [INFO] Volume: 
+[2026-05-27 16:27:25] [INFO] Disciplina: 006 -> 
+[2026-05-27 16:27:25] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:27:25] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:27:25] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:25] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:25] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:27:25] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:25] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-006-R02a.dwg: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:25] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:25] [INFO] 
+[2026-05-27 16:27:25] [INFO] Contador: 24/73
+[2026-05-27 16:27:25] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-006-R02a.pdf
+[2026-05-27 16:27:25] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:27:27] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:27:27] [INFO] Fase destino: 
+[2026-05-27 16:27:27] [INFO] Volume: 
+[2026-05-27 16:27:27] [INFO] Disciplina: 006 -> 
+[2026-05-27 16:27:27] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:27:27] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:27:27] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:27] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:27] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:27:27] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:27] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-006-R02a.pdf: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:27] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:27] [INFO] 
+[2026-05-27 16:27:27] [INFO] Contador: 25/73
+[2026-05-27 16:27:27] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-BM-P1-R00-Lg_EcoRioMinas-3951960.jpg
+[2026-05-27 16:27:27] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:27:29] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:27:29] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:27:29] [INFO] Volume: Volume I
+[2026-05-27 16:27:29] [INFO] Disciplina: P1 -> Arquitetura
+[2026-05-27 16:27:29] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:27:29] [INFO] Tipo Documento: BM -> 
+[2026-05-27 16:27:29] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:29] [ERRO] ERM-493RJ-112+815-PDA-ANT-BM-P1-R00-Lg_EcoRioMinas-3951960.jpg: Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:29] [SIMULACAO] Atualizaria atributo Erros: Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:29] [INFO] 
+[2026-05-27 16:27:29] [INFO] Contador: 26/73
+[2026-05-27 16:27:29] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-BM-P1-R00-LOGOANTT-3951954.PNG
+[2026-05-27 16:27:29] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:27:29] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:27:29] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:27:29] [INFO] Volume: Volume I
+[2026-05-27 16:27:29] [INFO] Disciplina: P1 -> Arquitetura
+[2026-05-27 16:27:29] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:27:29] [INFO] Tipo Documento: BM -> 
+[2026-05-27 16:27:29] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:29] [ERRO] ERM-493RJ-112+815-PDA-ANT-BM-P1-R00-LOGOANTT-3951954.PNG: Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:29] [SIMULACAO] Atualizaria atributo Erros: Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:29] [INFO] 
+[2026-05-27 16:27:29] [INFO] Contador: 27/73
+[2026-05-27 16:27:29] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-BM-P1-R00-LOGOECORODOVIAS-3904546.PNG
+[2026-05-27 16:27:29] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:27:29] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:27:29] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:27:29] [INFO] Volume: Volume I
+[2026-05-27 16:27:29] [INFO] Disciplina: P1 -> Arquitetura
+[2026-05-27 16:27:29] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:27:29] [INFO] Tipo Documento: BM -> 
+[2026-05-27 16:27:29] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:29] [ERRO] ERM-493RJ-112+815-PDA-ANT-BM-P1-R00-LOGOECORODOVIAS-3904546.PNG: Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:29] [SIMULACAO] Atualizaria atributo Erros: Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:29] [INFO] 
+[2026-05-27 16:27:29] [INFO] Contador: 28/73
+[2026-05-27 16:27:29] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-BM-P1-R00-SondoTec-3904548.png
+[2026-05-27 16:27:29] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:27:30] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:27:30] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:27:30] [INFO] Volume: Volume I
+[2026-05-27 16:27:30] [INFO] Disciplina: P1 -> Arquitetura
+[2026-05-27 16:27:30] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:27:30] [INFO] Tipo Documento: BM -> 
+[2026-05-27 16:27:30] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:30] [ERRO] ERM-493RJ-112+815-PDA-ANT-BM-P1-R00-SondoTec-3904548.png: Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:30] [SIMULACAO] Atualizaria atributo Erros: Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:30] [INFO] 
+[2026-05-27 16:27:30] [INFO] Contador: 29/73
+[2026-05-27 16:27:30] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-BM-P1-R00-SondoTec-3951958.png
+[2026-05-27 16:27:30] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:27:30] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:27:30] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:27:30] [INFO] Volume: Volume I
+[2026-05-27 16:27:30] [INFO] Disciplina: P1 -> Arquitetura
+[2026-05-27 16:27:30] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:27:30] [INFO] Tipo Documento: BM -> 
+[2026-05-27 16:27:30] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:30] [ERRO] ERM-493RJ-112+815-PDA-ANT-BM-P1-R00-SondoTec-3951958.png: Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:30] [SIMULACAO] Atualizaria atributo Erros: Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:30] [INFO] 
+[2026-05-27 16:27:30] [INFO] Contador: 30/73
+[2026-05-27 16:27:30] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-BM-P8-R00-Lg_EcoRioMinas-1093523.jpg
+[2026-05-27 16:27:30] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:27:31] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:27:31] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:27:31] [INFO] Volume: Volume I
+[2026-05-27 16:27:31] [INFO] Disciplina: P8 -> Incêndio
+[2026-05-27 16:27:31] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:27:31] [INFO] Tipo Documento: BM -> 
+[2026-05-27 16:27:31] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:31] [ERRO] ERM-493RJ-112+815-PDA-ANT-BM-P8-R00-Lg_EcoRioMinas-1093523.jpg: Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:31] [SIMULACAO] Atualizaria atributo Erros: Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:31] [INFO] 
+[2026-05-27 16:27:31] [INFO] Contador: 31/73
+[2026-05-27 16:27:31] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-BM-P8-R00-LOGOANTT-1093517.PNG
+[2026-05-27 16:27:31] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:27:31] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:27:31] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:27:31] [INFO] Volume: Volume I
+[2026-05-27 16:27:31] [INFO] Disciplina: P8 -> Incêndio
+[2026-05-27 16:27:31] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:27:31] [INFO] Tipo Documento: BM -> 
+[2026-05-27 16:27:31] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:31] [ERRO] ERM-493RJ-112+815-PDA-ANT-BM-P8-R00-LOGOANTT-1093517.PNG: Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:31] [SIMULACAO] Atualizaria atributo Erros: Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:31] [INFO] 
+[2026-05-27 16:27:31] [INFO] Contador: 32/73
+[2026-05-27 16:27:31] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-BM-P8-R00-plantachavep06-1078986.png
+[2026-05-27 16:27:31] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:27:31] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:27:31] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:27:31] [INFO] Volume: Volume I
+[2026-05-27 16:27:31] [INFO] Disciplina: P8 -> Incêndio
+[2026-05-27 16:27:31] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:27:31] [INFO] Tipo Documento: BM -> 
+[2026-05-27 16:27:31] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:31] [ERRO] ERM-493RJ-112+815-PDA-ANT-BM-P8-R00-plantachavep06-1078986.png: Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:31] [SIMULACAO] Atualizaria atributo Erros: Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:31] [INFO] 
+[2026-05-27 16:27:31] [INFO] Contador: 33/73
+[2026-05-27 16:27:31] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-BM-P8-R00-SondoTec-1093521.png
+[2026-05-27 16:27:31] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:27:32] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:27:32] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:27:32] [INFO] Volume: Volume I
+[2026-05-27 16:27:32] [INFO] Disciplina: P8 -> Incêndio
+[2026-05-27 16:27:32] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:27:32] [INFO] Tipo Documento: BM -> 
+[2026-05-27 16:27:32] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:32] [ERRO] ERM-493RJ-112+815-PDA-ANT-BM-P8-R00-SondoTec-1093521.png: Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:32] [SIMULACAO] Atualizaria atributo Erros: Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:27:32] [INFO] 
+[2026-05-27 16:27:32] [INFO] Contador: 34/73
+[2026-05-27 16:27:32] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-F1-002-R00b.dwg
+[2026-05-27 16:27:32] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:27:33] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:27:33] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:27:33] [INFO] Volume: Volume II
+[2026-05-27 16:27:33] [INFO] Disciplina: F1 -> Geometria
+[2026-05-27 16:27:33] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:27:33] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:27:33] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Geometria\Desenhos
+[2026-05-27 16:27:33] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:27:33] [INFO] Pasta disciplina existe: Sim
+[2026-05-27 16:27:33] [INFO] Pasta tipo documento existe: Nao
+[2026-05-27 16:27:33] [SIMULACAO] Criaria pasta Desenhos
+[2026-05-27 16:27:42] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:27:42] [INFO] PDF encontrado: Sim
+[2026-05-27 16:27:42] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:27:42] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:27:42] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-F1-002-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Geometria\Desenhos
+[2026-05-27 16:27:42] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-F1-002-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Geometria\Desenhos
+[2026-05-27 16:27:42] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-F1-002-R00b.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Geometria\Desenhos
+[2026-05-27 16:27:42] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-F1-002-R00b.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Geometria\Desenhos
+[2026-05-27 16:27:42] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-F1-002-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Geometria\Desenhos
+[2026-05-27 16:27:42] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-F1-002-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Geometria\Desenhos
+[2026-05-27 16:27:42] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:27:42] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:27:42] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:27:42] [INFO] 
+[2026-05-27 16:27:42] [INFO] Contador: 35/73
+[2026-05-27 16:27:42] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-F1-002-R00b.pdf
+[2026-05-27 16:27:42] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:27:43] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:27:43] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:27:43] [INFO] Volume: Volume II
+[2026-05-27 16:27:43] [INFO] Disciplina: F1 -> Geometria
+[2026-05-27 16:27:43] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:27:43] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:27:43] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Geometria\Desenhos
+[2026-05-27 16:27:43] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:27:43] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Geometria\Desenhos
+[2026-05-27 16:27:57] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:27:57] [INFO] PDF encontrado: Sim
+[2026-05-27 16:27:57] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:27:59] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:27:59] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-F1-002-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Geometria\Desenhos
+[2026-05-27 16:27:59] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-F1-002-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Geometria\Desenhos
+[2026-05-27 16:27:59] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-F1-002-R00b.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Geometria\Desenhos
+[2026-05-27 16:27:59] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-F1-002-R00b.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Geometria\Desenhos
+[2026-05-27 16:27:59] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-F1-002-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Geometria\Desenhos
+[2026-05-27 16:27:59] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-F1-002-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Geometria\Desenhos
+[2026-05-27 16:27:59] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:27:59] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:27:59] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:27:59] [INFO] 
+[2026-05-27 16:27:59] [INFO] Contador: 36/73
+[2026-05-27 16:27:59] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-I2-001-R00a.dwg
+[2026-05-27 16:27:59] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 16:28:02] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:28:02] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:28:02] [INFO] Volume: Volume II
+[2026-05-27 16:28:02] [INFO] Disciplina: I2 -> Pavimentação
+[2026-05-27 16:28:02] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:28:02] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:28:02] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 16:28:02] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:28:03] [INFO] Pasta disciplina existe: Nao
+[2026-05-27 16:28:03] [INFO] Pasta tipo documento existe: Nao
+[2026-05-27 16:28:03] [SIMULACAO] Criaria pasta Pavimentação
+[2026-05-27 16:28:03] [SIMULACAO] Criaria pasta Desenhos
+[2026-05-27 16:28:09] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:28:09] [INFO] PDF encontrado: Sim
+[2026-05-27 16:28:09] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:28:09] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:28:09] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-I2-001-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 16:28:09] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-I2-001-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 16:28:09] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:28:09] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:28:09] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:28:09] [INFO] 
+[2026-05-27 16:28:09] [INFO] Contador: 37/73
+[2026-05-27 16:28:09] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-I2-001-R00a.pdf
+[2026-05-27 16:28:09] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 16:28:10] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:28:10] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:28:10] [INFO] Volume: Volume II
+[2026-05-27 16:28:10] [INFO] Disciplina: I2 -> Pavimentação
+[2026-05-27 16:28:10] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:28:10] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:28:10] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 16:28:10] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:28:10] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 16:28:11] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:28:11] [INFO] PDF encontrado: Sim
+[2026-05-27 16:28:11] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:28:12] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:28:12] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-I2-001-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 16:28:12] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-I2-001-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 16:28:12] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:28:12] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:28:12] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:28:12] [INFO] 
+[2026-05-27 16:28:12] [INFO] Contador: 38/73
+[2026-05-27 16:28:12] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-I2-002-R00a.dwg
+[2026-05-27 16:28:12] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 16:28:12] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:28:12] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:28:12] [INFO] Volume: Volume II
+[2026-05-27 16:28:12] [INFO] Disciplina: I2 -> Pavimentação
+[2026-05-27 16:28:12] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:28:12] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:28:12] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 16:28:12] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:28:12] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 16:28:16] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:28:16] [INFO] PDF encontrado: Sim
+[2026-05-27 16:28:16] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:28:17] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:28:17] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-I2-002-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 16:28:17] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-I2-002-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 16:28:17] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:28:17] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:28:17] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:28:17] [INFO] 
+[2026-05-27 16:28:17] [INFO] Contador: 39/73
+[2026-05-27 16:28:17] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-I2-002-R00a.pdf
+[2026-05-27 16:28:17] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 16:28:19] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:28:19] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:28:19] [INFO] Volume: Volume II
+[2026-05-27 16:28:19] [INFO] Disciplina: I2 -> Pavimentação
+[2026-05-27 16:28:19] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:28:19] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:28:19] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 16:28:19] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:28:19] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 16:28:21] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:28:21] [INFO] PDF encontrado: Sim
+[2026-05-27 16:28:21] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:28:21] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:28:21] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-I2-002-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 16:28:21] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-I2-002-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 16:28:21] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:28:21] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:28:21] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:28:21] [INFO] 
+[2026-05-27 16:28:21] [INFO] Contador: 40/73
+[2026-05-27 16:28:21] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-I2-003-R00a.dwg
+[2026-05-27 16:28:21] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 16:28:21] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:28:21] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:28:21] [INFO] Volume: Volume II
+[2026-05-27 16:28:21] [INFO] Disciplina: I2 -> Pavimentação
+[2026-05-27 16:28:21] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:28:21] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:28:21] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 16:28:21] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:28:21] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 16:28:23] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:28:23] [INFO] PDF encontrado: Sim
+[2026-05-27 16:28:23] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:28:23] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:28:23] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-I2-003-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 16:28:23] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-I2-003-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 16:28:23] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:28:23] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:28:23] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:28:23] [INFO] 
+[2026-05-27 16:28:23] [INFO] Contador: 41/73
+[2026-05-27 16:28:23] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-I2-003-R00a.pdf
+[2026-05-27 16:28:23] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 16:28:23] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:28:23] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:28:23] [INFO] Volume: Volume II
+[2026-05-27 16:28:23] [INFO] Disciplina: I2 -> Pavimentação
+[2026-05-27 16:28:23] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:28:23] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:28:24] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 16:28:24] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:28:24] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 16:28:32] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:28:32] [INFO] PDF encontrado: Sim
+[2026-05-27 16:28:32] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:28:33] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:28:33] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-I2-003-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 16:28:33] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-I2-003-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 16:28:33] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:28:33] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:28:33] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:28:33] [INFO] 
+[2026-05-27 16:28:33] [INFO] Contador: 42/73
+[2026-05-27 16:28:33] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-J1-001-R00a.dwg
+[2026-05-27 16:28:33] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 16:28:34] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:28:34] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:28:34] [INFO] Volume: Volume II
+[2026-05-27 16:28:34] [INFO] Disciplina: J1 -> Sinalização e Dispositivos de Segurança
+[2026-05-27 16:28:34] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:28:34] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:28:34] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Sinalização e Dispositivos de Segurança\Desenhos
+[2026-05-27 16:28:34] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:28:35] [INFO] Pasta disciplina existe: Nao
+[2026-05-27 16:28:35] [INFO] Pasta tipo documento existe: Nao
+[2026-05-27 16:28:35] [SIMULACAO] Criaria pasta Sinalização e Dispositivos de Segurança
+[2026-05-27 16:28:35] [SIMULACAO] Criaria pasta Desenhos
+[2026-05-27 16:28:44] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:28:44] [INFO] PDF encontrado: Sim
+[2026-05-27 16:28:44] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:28:44] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:28:44] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-J1-001-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Sinalização e Dispositivos de Segurança\Desenhos
+[2026-05-27 16:28:44] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-J1-001-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Sinalização e Dispositivos de Segurança\Desenhos
+[2026-05-27 16:28:44] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:28:44] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:28:44] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:28:44] [INFO] 
+[2026-05-27 16:28:44] [INFO] Contador: 43/73
+[2026-05-27 16:28:44] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-J1-001-R00a.pdf
+[2026-05-27 16:28:44] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 16:28:46] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:28:46] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:28:46] [INFO] Volume: Volume II
+[2026-05-27 16:28:46] [INFO] Disciplina: J1 -> Sinalização e Dispositivos de Segurança
+[2026-05-27 16:28:46] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:28:46] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:28:46] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Sinalização e Dispositivos de Segurança\Desenhos
+[2026-05-27 16:28:46] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:28:46] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Sinalização e Dispositivos de Segurança\Desenhos
+[2026-05-27 16:28:54] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:28:54] [INFO] PDF encontrado: Sim
+[2026-05-27 16:28:54] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:28:55] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:28:55] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-J1-001-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Sinalização e Dispositivos de Segurança\Desenhos
+[2026-05-27 16:28:55] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-J1-001-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Sinalização e Dispositivos de Segurança\Desenhos
+[2026-05-27 16:28:55] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:28:55] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:28:55] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:28:55] [INFO] 
+[2026-05-27 16:28:55] [INFO] Contador: 44/73
+[2026-05-27 16:28:55] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a.dwg
+[2026-05-27 16:28:55] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 16:28:57] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:28:57] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:28:57] [INFO] Volume: Volume II
+[2026-05-27 16:28:57] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 16:28:57] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:28:57] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:28:57] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:28:57] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:28:59] [INFO] Pasta disciplina existe: Nao
+[2026-05-27 16:28:59] [INFO] Pasta tipo documento existe: Nao
+[2026-05-27 16:28:59] [SIMULACAO] Criaria pasta Iluminação
+[2026-05-27 16:28:59] [SIMULACAO] Criaria pasta Desenhos
+[2026-05-27 16:29:07] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:29:07] [INFO] PDF encontrado: Sim
+[2026-05-27 16:29:07] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:29:07] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:29:07] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:07] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:07] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00b.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:07] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00b.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:07] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:07] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:07] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:29:07] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:29:07] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:29:07] [INFO] 
+[2026-05-27 16:29:07] [INFO] Contador: 45/73
+[2026-05-27 16:29:07] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a_1.dwg
+[2026-05-27 16:29:07] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 16:29:08] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:29:08] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:29:08] [INFO] Volume: Volume II
+[2026-05-27 16:29:08] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 16:29:08] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:29:08] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:29:08] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:08] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:29:08] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:12] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:29:12] [INFO] PDF encontrado: Sim
+[2026-05-27 16:29:12] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:29:13] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:29:13] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:13] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:13] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00b.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:13] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00b.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:13] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:13] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:13] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:29:13] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:29:13] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:29:13] [INFO] 
+[2026-05-27 16:29:13] [INFO] Contador: 46/73
+[2026-05-27 16:29:13] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a.pdf
+[2026-05-27 16:29:13] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 16:29:15] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:29:15] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:29:15] [INFO] Volume: Volume II
+[2026-05-27 16:29:15] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 16:29:15] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:29:15] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:29:15] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:15] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:29:15] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:30] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:29:30] [INFO] PDF encontrado: Sim
+[2026-05-27 16:29:30] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:29:30] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:29:30] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:30] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:30] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00b.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:30] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00b.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:30] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:30] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:30] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:29:30] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:29:30] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:29:30] [INFO] 
+[2026-05-27 16:29:30] [INFO] Contador: 47/73
+[2026-05-27 16:29:30] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a_1.pdf
+[2026-05-27 16:29:30] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 16:29:32] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:29:32] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:29:32] [INFO] Volume: Volume II
+[2026-05-27 16:29:32] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 16:29:32] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:29:32] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:29:32] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:32] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:29:32] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:38] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:29:38] [INFO] PDF encontrado: Sim
+[2026-05-27 16:29:38] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:29:38] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:29:38] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:38] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:38] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00b.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:38] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00b.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:38] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:38] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:38] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:29:38] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:29:38] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:29:38] [INFO] 
+[2026-05-27 16:29:38] [INFO] Contador: 48/73
+[2026-05-27 16:29:38] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00b.dwg
+[2026-05-27 16:29:38] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:29:39] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:29:39] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:29:39] [INFO] Volume: Volume II
+[2026-05-27 16:29:39] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 16:29:39] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:29:39] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:29:39] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:39] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:29:39] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:42] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:29:42] [INFO] PDF encontrado: Sim
+[2026-05-27 16:29:42] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:29:42] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:29:42] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:42] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:42] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00b.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:42] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00b.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:42] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:42] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:42] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:29:42] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:29:42] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:29:42] [INFO] 
+[2026-05-27 16:29:42] [INFO] Contador: 49/73
+[2026-05-27 16:29:42] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00b.pdf
+[2026-05-27 16:29:42] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:29:42] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:29:42] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:29:42] [INFO] Volume: Volume II
+[2026-05-27 16:29:42] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 16:29:42] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:29:42] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:29:42] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:42] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:29:42] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:45] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:29:45] [INFO] PDF encontrado: Sim
+[2026-05-27 16:29:45] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:29:46] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:29:46] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:46] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:46] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00b.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:46] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00b.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:46] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:46] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:46] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:29:46] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:29:46] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:29:46] [INFO] 
+[2026-05-27 16:29:46] [INFO] Contador: 50/73
+[2026-05-27 16:29:46] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a.dwg
+[2026-05-27 16:29:46] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 16:29:48] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:29:48] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:29:48] [INFO] Volume: Volume II
+[2026-05-27 16:29:48] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 16:29:48] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:29:48] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:29:48] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:29:48] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:29:48] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:02] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:30:02] [INFO] PDF encontrado: Sim
+[2026-05-27 16:30:02] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:30:03] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:30:03] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:03] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:03] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00b.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:03] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00b.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:03] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:03] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:03] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:30:03] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:30:03] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:30:03] [INFO] 
+[2026-05-27 16:30:03] [INFO] Contador: 51/73
+[2026-05-27 16:30:03] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a_1.dwg
+[2026-05-27 16:30:03] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 16:30:05] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:30:05] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:30:05] [INFO] Volume: Volume II
+[2026-05-27 16:30:05] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 16:30:05] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:30:05] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:30:05] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:05] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:30:05] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:19] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:30:19] [INFO] PDF encontrado: Sim
+[2026-05-27 16:30:19] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:30:20] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:30:20] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:20] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:20] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00b.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:20] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00b.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:20] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:20] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:20] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:30:20] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:30:20] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:30:20] [INFO] 
+[2026-05-27 16:30:20] [INFO] Contador: 52/73
+[2026-05-27 16:30:20] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a.pdf
+[2026-05-27 16:30:20] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 16:30:22] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:30:22] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:30:22] [INFO] Volume: Volume II
+[2026-05-27 16:30:22] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 16:30:22] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:30:22] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:30:22] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:22] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:30:22] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:28] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:30:28] [INFO] PDF encontrado: Sim
+[2026-05-27 16:30:28] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:30:28] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:30:28] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:28] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:28] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00b.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:28] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00b.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:28] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:28] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:28] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:30:28] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:30:28] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:30:28] [INFO] 
+[2026-05-27 16:30:28] [INFO] Contador: 53/73
+[2026-05-27 16:30:28] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a_1.pdf
+[2026-05-27 16:30:28] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 16:30:29] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:30:29] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:30:29] [INFO] Volume: Volume II
+[2026-05-27 16:30:29] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 16:30:29] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:30:29] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:30:29] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:29] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:30:29] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:36] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:30:36] [INFO] PDF encontrado: Sim
+[2026-05-27 16:30:36] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:30:36] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:30:36] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:36] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:36] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00b.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:36] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00b.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:36] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:36] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:36] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:30:36] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:30:36] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:30:36] [INFO] 
+[2026-05-27 16:30:36] [INFO] Contador: 54/73
+[2026-05-27 16:30:36] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00b.dwg
+[2026-05-27 16:30:36] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:30:37] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:30:37] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:30:37] [INFO] Volume: Volume II
+[2026-05-27 16:30:37] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 16:30:37] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:30:37] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:30:37] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:37] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:30:37] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:40] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:30:40] [INFO] PDF encontrado: Sim
+[2026-05-27 16:30:40] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:30:40] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:30:40] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:40] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:40] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00b.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:40] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00b.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:40] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:40] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:40] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:30:40] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:30:40] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:30:40] [INFO] 
+[2026-05-27 16:30:40] [INFO] Contador: 55/73
+[2026-05-27 16:30:40] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00b.pdf
+[2026-05-27 16:30:40] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:30:41] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:30:41] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:30:41] [INFO] Volume: Volume II
+[2026-05-27 16:30:41] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 16:30:41] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:30:41] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:30:41] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:41] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:30:41] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:54] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:30:54] [INFO] PDF encontrado: Sim
+[2026-05-27 16:30:54] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:30:55] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:30:55] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:55] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:55] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00b.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:55] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00b.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:55] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:55] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:55] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:30:55] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:30:55] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:30:55] [INFO] 
+[2026-05-27 16:30:55] [INFO] Contador: 56/73
+[2026-05-27 16:30:55] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a.dwg
+[2026-05-27 16:30:55] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 16:30:56] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:30:56] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:30:56] [INFO] Volume: Volume II
+[2026-05-27 16:30:56] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 16:30:56] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:30:56] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:30:56] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:30:56] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:30:56] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:02] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:31:02] [INFO] PDF encontrado: Sim
+[2026-05-27 16:31:02] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:31:02] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:31:02] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:02] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:02] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00b.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:02] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00b.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:02] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:02] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:02] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:31:02] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:31:02] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:31:02] [INFO] 
+[2026-05-27 16:31:02] [INFO] Contador: 57/73
+[2026-05-27 16:31:02] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a_1.dwg
+[2026-05-27 16:31:02] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 16:31:02] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:31:02] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:31:02] [INFO] Volume: Volume II
+[2026-05-27 16:31:02] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 16:31:02] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:31:02] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:31:02] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:02] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:31:02] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:10] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:31:10] [INFO] PDF encontrado: Sim
+[2026-05-27 16:31:10] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:31:10] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:31:10] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:10] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:10] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00b.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:10] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00b.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:10] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:10] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:10] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:31:10] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:31:10] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:31:10] [INFO] 
+[2026-05-27 16:31:10] [INFO] Contador: 58/73
+[2026-05-27 16:31:10] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a.pdf
+[2026-05-27 16:31:10] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 16:31:11] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:31:11] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:31:11] [INFO] Volume: Volume II
+[2026-05-27 16:31:11] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 16:31:11] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:31:11] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:31:11] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:11] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:31:11] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:14] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:31:14] [INFO] PDF encontrado: Sim
+[2026-05-27 16:31:14] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:31:14] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:31:14] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:14] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:14] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00b.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:14] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00b.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:14] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:14] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:14] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:31:14] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:31:14] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:31:14] [INFO] 
+[2026-05-27 16:31:14] [INFO] Contador: 59/73
+[2026-05-27 16:31:14] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a_1.pdf
+[2026-05-27 16:31:14] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 16:31:14] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:31:14] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:31:14] [INFO] Volume: Volume II
+[2026-05-27 16:31:14] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 16:31:14] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:31:14] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:31:14] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:14] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:31:14] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:22] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:31:22] [INFO] PDF encontrado: Sim
+[2026-05-27 16:31:22] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:31:22] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:31:22] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:22] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:22] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00b.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:22] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00b.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:22] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:22] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:22] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:31:22] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:31:22] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:31:22] [INFO] 
+[2026-05-27 16:31:22] [INFO] Contador: 60/73
+[2026-05-27 16:31:22] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00b.dwg
+[2026-05-27 16:31:22] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:31:22] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:31:22] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:31:22] [INFO] Volume: Volume II
+[2026-05-27 16:31:22] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 16:31:22] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:31:22] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:31:22] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:22] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:31:22] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:29] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:31:29] [INFO] PDF encontrado: Sim
+[2026-05-27 16:31:29] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:31:29] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:31:29] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:29] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:29] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00b.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:29] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00b.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:29] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:29] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:29] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:31:29] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:31:29] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:31:29] [INFO] 
+[2026-05-27 16:31:29] [INFO] Contador: 61/73
+[2026-05-27 16:31:29] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00b.pdf
+[2026-05-27 16:31:30] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:31:32] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:31:32] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:31:32] [INFO] Volume: Volume II
+[2026-05-27 16:31:32] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 16:31:32] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:31:32] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:31:32] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:32] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:31:32] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:45] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:31:45] [INFO] PDF encontrado: Sim
+[2026-05-27 16:31:45] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:31:46] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:31:46] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:46] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:46] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00b.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:46] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00b.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:46] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:46] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:46] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:31:46] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:31:46] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:31:46] [INFO] 
+[2026-05-27 16:31:46] [INFO] Contador: 62/73
+[2026-05-27 16:31:46] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a.dwg
+[2026-05-27 16:31:46] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 16:31:48] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:31:48] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:31:48] [INFO] Volume: Volume II
+[2026-05-27 16:31:48] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 16:31:48] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:31:48] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:31:48] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:31:48] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:31:48] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:03] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:32:03] [INFO] PDF encontrado: Sim
+[2026-05-27 16:32:03] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:32:04] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:32:04] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:04] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:04] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:04] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:04] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-RCA.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:04] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-RCA.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:04] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:32:04] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:32:04] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:32:04] [INFO] 
+[2026-05-27 16:32:04] [INFO] Contador: 63/73
+[2026-05-27 16:32:04] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a_1.dwg
+[2026-05-27 16:32:04] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 16:32:09] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:32:09] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:32:09] [INFO] Volume: Volume II
+[2026-05-27 16:32:09] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 16:32:09] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:32:09] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:32:09] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:09] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:32:09] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:20] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:32:20] [INFO] PDF encontrado: Sim
+[2026-05-27 16:32:20] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:32:21] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:32:21] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:21] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:21] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:21] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:21] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-RCA.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:21] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-RCA.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:21] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:32:21] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:32:21] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:32:21] [INFO] 
+[2026-05-27 16:32:21] [INFO] Contador: 64/73
+[2026-05-27 16:32:21] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a.pdf
+[2026-05-27 16:32:21] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 16:32:22] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:32:22] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:32:22] [INFO] Volume: Volume II
+[2026-05-27 16:32:22] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 16:32:22] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:32:22] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:32:22] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:22] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:32:22] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:37] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:32:37] [INFO] PDF encontrado: Sim
+[2026-05-27 16:32:37] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:32:38] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:32:38] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:38] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:38] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:38] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:38] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-RCA.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:38] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-RCA.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:38] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:32:38] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:32:38] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:32:38] [INFO] 
+[2026-05-27 16:32:38] [INFO] Contador: 65/73
+[2026-05-27 16:32:38] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a_1.pdf
+[2026-05-27 16:32:38] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 16:32:40] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:32:40] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:32:41] [INFO] Volume: Volume II
+[2026-05-27 16:32:41] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 16:32:41] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:32:41] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:32:41] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:41] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:32:41] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:54] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:32:54] [INFO] PDF encontrado: Sim
+[2026-05-27 16:32:54] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:32:54] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:32:54] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:54] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:54] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:54] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:54] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-RCA.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:54] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-RCA.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:54] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:32:54] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:32:54] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:32:54] [INFO] 
+[2026-05-27 16:32:54] [INFO] Contador: 66/73
+[2026-05-27 16:32:54] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-004-RCA.dwg
+[2026-05-27 16:32:54] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:32:55] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:32:55] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:32:55] [INFO] Volume: Volume II
+[2026-05-27 16:32:55] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 16:32:55] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:32:55] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:32:55] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:55] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:32:55] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:59] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:32:59] [INFO] PDF encontrado: Sim
+[2026-05-27 16:32:59] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:32:59] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:32:59] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:59] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:59] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:59] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:59] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-RCA.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:59] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-RCA.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:32:59] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:32:59] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:32:59] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:32:59] [INFO] 
+[2026-05-27 16:32:59] [INFO] Contador: 67/73
+[2026-05-27 16:33:00] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-004-RCA.pdf
+[2026-05-27 16:33:00] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:33:02] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:33:02] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:33:02] [INFO] Volume: Volume II
+[2026-05-27 16:33:02] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 16:33:02] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:33:02] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:33:02] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:33:02] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:33:02] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:33:19] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:33:19] [INFO] PDF encontrado: Sim
+[2026-05-27 16:33:19] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:33:20] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:33:20] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:33:20] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:33:20] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:33:20] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:33:20] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-RCA.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:33:20] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-004-RCA.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:33:20] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:33:20] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:33:20] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:33:20] [INFO] 
+[2026-05-27 16:33:20] [INFO] Contador: 68/73
+[2026-05-27 16:33:20] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a.dwg
+[2026-05-27 16:33:20] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 16:33:22] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:33:22] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:33:22] [INFO] Volume: Volume II
+[2026-05-27 16:33:22] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 16:33:22] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:33:22] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:33:22] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:33:22] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:33:22] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:33:36] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:33:36] [INFO] PDF encontrado: Sim
+[2026-05-27 16:33:37] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:33:37] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:33:37] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:33:37] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:33:37] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:33:37] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:33:37] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-RCA.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:33:37] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-RCA.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:33:37] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:33:37] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:33:37] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:33:37] [INFO] 
+[2026-05-27 16:33:37] [INFO] Contador: 69/73
+[2026-05-27 16:33:37] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a_1.dwg
+[2026-05-27 16:33:37] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 16:33:41] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:33:41] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:33:41] [INFO] Volume: Volume II
+[2026-05-27 16:33:41] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 16:33:41] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:33:41] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:33:41] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:33:41] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:33:41] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:33:55] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:33:55] [INFO] PDF encontrado: Sim
+[2026-05-27 16:33:55] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:33:56] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:33:56] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:33:56] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:33:56] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:33:56] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:33:56] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-RCA.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:33:56] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-RCA.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:33:56] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:33:56] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:33:56] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:33:56] [INFO] 
+[2026-05-27 16:33:56] [INFO] Contador: 70/73
+[2026-05-27 16:33:56] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a.pdf
+[2026-05-27 16:33:56] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 16:33:58] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:33:58] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:33:58] [INFO] Volume: Volume II
+[2026-05-27 16:33:58] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 16:33:58] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:33:58] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:33:58] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:33:58] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:33:58] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:12] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:34:12] [INFO] PDF encontrado: Sim
+[2026-05-27 16:34:12] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:34:13] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:34:13] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:13] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:13] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:13] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:13] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-RCA.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:13] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-RCA.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:13] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:34:13] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:34:13] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:34:13] [INFO] 
+[2026-05-27 16:34:13] [INFO] Contador: 71/73
+[2026-05-27 16:34:13] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a_1.pdf
+[2026-05-27 16:34:13] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 16:34:15] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:34:15] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:34:15] [INFO] Volume: Volume II
+[2026-05-27 16:34:15] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 16:34:15] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:34:15] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:34:15] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:15] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:34:15] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:22] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:34:22] [INFO] PDF encontrado: Sim
+[2026-05-27 16:34:22] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:34:22] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:34:22] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:22] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:22] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:22] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:23] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-RCA.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:23] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-RCA.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:23] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:34:23] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:34:23] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:34:23] [INFO] 
+[2026-05-27 16:34:23] [INFO] Contador: 72/73
+[2026-05-27 16:34:23] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-005-RCA.dwg
+[2026-05-27 16:34:23] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:34:23] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:34:23] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:34:23] [INFO] Volume: Volume II
+[2026-05-27 16:34:23] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 16:34:23] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:34:23] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:34:23] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:23] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:34:23] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:28] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:34:28] [INFO] PDF encontrado: Sim
+[2026-05-27 16:34:28] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:34:29] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:34:29] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:29] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:29] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:29] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:29] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-RCA.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:29] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-RCA.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:29] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:34:29] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:34:29] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:34:29] [INFO] 
+[2026-05-27 16:34:29] [INFO] Contador: 73/73
+[2026-05-27 16:34:29] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-005-RCA.pdf
+[2026-05-27 16:34:29] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:34:30] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:34:30] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 16:34:30] [INFO] Volume: Volume II
+[2026-05-27 16:34:30] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 16:34:30] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 16:34:30] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 16:34:30] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:30] [INFO] Pasta base localizada: Sim
+[2026-05-27 16:34:30] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:48] [INFO] Nativo encontrado: Sim
+[2026-05-27 16:34:48] [INFO] PDF encontrado: Sim
+[2026-05-27 16:34:48] [INFO] XFDF encontrado: Nao
+[2026-05-27 16:34:48] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 16:34:48] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:48] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:48] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a_1.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:48] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a_1.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:48] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-RCA.dwg para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:48] [SIMULACAO] Copiaria ERM-493RJ-112+815-PDA-ANT-DE-K2-005-RCA.pdf para Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 16:34:48] [SIMULACAO] Atualizaria state da origem para Validado pelo Sistema - Copiado p/ Disciplina.
+[2026-05-27 16:34:48] [SIMULACAO] Atualizaria state do documento no destino para Em analise do Assistente.
+[2026-05-27 16:34:48] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 16:34:48] [INFO] 
+[2026-05-27 16:34:48] [INFO] ============================================================
+[2026-05-27 16:34:48] [INFO] Resumo da reanalise/movimentacao assistida
+[2026-05-27 16:34:48] [INFO] ============================================================
+[2026-05-27 16:34:48] [INFO] Encontrados: 73
+[2026-05-27 16:34:48] [INFO] Processados: 73
+[2026-05-27 16:34:48] [INFO] DestinoCalculado: 40
+[2026-05-27 16:34:48] [INFO] PastaBaseNaoLocalizada: 33
+[2026-05-27 16:34:48] [INFO] DisciplinaNaoLocalizada: 24
+[2026-05-27 16:34:48] [INFO] TipoDocumentoVazio: 33
+[2026-05-27 16:34:48] [INFO] PastasCriadas: 0
+[2026-05-27 16:34:48] [INFO] DocumentosCopiados: 0
+[2026-05-27 16:34:48] [INFO] DocumentosMovidos: 0
+[2026-05-27 16:34:48] [INFO] JaExistiamNoDestino: 0
+[2026-05-27 16:34:48] [INFO] MovidosParaSuperados: 0
+[2026-05-27 16:34:48] [INFO] EstadosAtualizados: 0
+[2026-05-27 16:34:48] [INFO] Erros: 0
+[2026-05-27 16:34:48] [INFO] ============================================================
+[2026-05-27 16:34:48] [INFO] Log detalhado: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\ReavaliarMovimentacaoDocumentos_20260527_162243.log

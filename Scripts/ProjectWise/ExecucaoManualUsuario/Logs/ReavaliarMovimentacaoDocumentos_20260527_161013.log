@@ -1,0 +1,23 @@
+﻿[2026-05-27 16:10:13] [INFO] Iniciando reanalise. Simular: True
+[2026-05-27 16:10:13] [INFO] Efetuando login via Bentley IMS.
+[2026-05-27 16:10:19] [OK] Login realizado com sucesso: 
+[2026-05-27 16:10:19] [INFO] Carregando pastas raiz do ProjectWise.
+[2026-05-27 16:10:19] [INFO] 
+[2026-05-27 16:10:19] [INFO] ============================================================
+[2026-05-27 16:10:19] [INFO] Resumo da reanalise/movimentacao assistida
+[2026-05-27 16:10:19] [INFO] ============================================================
+[2026-05-27 16:10:19] [INFO] Encontrados: 0
+[2026-05-27 16:10:19] [INFO] Processados: 0
+[2026-05-27 16:10:19] [INFO] DestinoCalculado: 0
+[2026-05-27 16:10:19] [INFO] PastaBaseNaoLocalizada: 0
+[2026-05-27 16:10:19] [INFO] DisciplinaNaoLocalizada: 0
+[2026-05-27 16:10:19] [INFO] TipoDocumentoVazio: 0
+[2026-05-27 16:10:19] [INFO] PastasCriadas: 0
+[2026-05-27 16:10:19] [INFO] DocumentosCopiados: 0
+[2026-05-27 16:10:19] [INFO] DocumentosMovidos: 0
+[2026-05-27 16:10:19] [INFO] JaExistiamNoDestino: 0
+[2026-05-27 16:10:19] [INFO] MovidosParaSuperados: 0
+[2026-05-27 16:10:19] [INFO] EstadosAtualizados: 0
+[2026-05-27 16:10:19] [INFO] Erros: 0
+[2026-05-27 16:10:19] [INFO] ============================================================
+[2026-05-27 16:10:19] [INFO] Log detalhado: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\ReavaliarMovimentacaoDocumentos_20260527_161013.log

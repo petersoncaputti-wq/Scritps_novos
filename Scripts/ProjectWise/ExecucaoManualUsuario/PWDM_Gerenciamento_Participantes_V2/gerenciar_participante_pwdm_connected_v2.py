@@ -2,6 +2,7 @@ import subprocess
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Optional
+from tkinter import Tk, filedialog
 
 from playwright.sync_api import Browser, sync_playwright
 
@@ -27,6 +28,7 @@ from gerenciar_participante_pwdm_v2 import (
     url_tela_participantes,
     url_absoluta_pwdm,
 )
+from lote_usuarios_pwdm_v2 import carregar_emails_xlsx
 from projetos_projectwise_pwdm_v2 import carregar_projetos_selecionados_com_diagnostico
 
 
@@ -200,6 +202,58 @@ def montar_operacoes_com_aba_unica(
     return operacoes
 
 
+def montar_operacoes_lote_com_aba_unica(
+    page,
+    projetos: list[dict[str, Any]],
+    emails: list[str],
+    acao_usuario: str,
+    titulo: str,
+    permissoes: dict[str, bool],
+) -> list[dict[str, Any]]:
+    print("\n[7/9] Lendo participantes dos projetos selecionados para o lote...")
+    print("[INFO] Usando uma unica aba auxiliar para consultar todos os projetos.")
+    operacoes: list[dict[str, Any]] = []
+    pagina_api = page.context.new_page()
+
+    try:
+        for indice, projeto in enumerate(projetos, start=1):
+            connect_space_id = projeto["connectSpaceId"]
+            project_id = projeto["projectId"]
+            print(f"- Projeto {indice}: {projeto['nome']} ({project_id})")
+            dados = abrir_tela_e_buscar_dados_em_aba(pagina_api, connect_space_id, project_id)
+            permissoes_atuais = permissoes_usuario_atual(dados)
+
+            for email in emails:
+                usuario = buscar_usuario_no_projeto(dados, email)
+                acao_efetiva, descricao_acao = determinar_acao_efetiva(acao_usuario, usuario["status"])
+
+                operacoes.append(
+                    {
+                        "email": email,
+                        "nomeProjeto": projeto["nome"],
+                        "origemProjectWise": projeto.get("origemProjectWise"),
+                        "criterioCruzamento": projeto.get("criterioCruzamento"),
+                        "connectSpaceId": connect_space_id,
+                        "projectId": project_id,
+                        "acaoSolicitada": acao_usuario,
+                        "acaoEfetiva": acao_efetiva,
+                        "descricaoAcao": descricao_acao,
+                        "status": usuario["status"],
+                        "membro": usuario["membro"],
+                        "permissoesUsuarioAtual": permissoes_atuais,
+                        "titulo": titulo,
+                        "permissoes": permissoes,
+                    }
+                )
+    finally:
+        try:
+            pagina_api.close()
+        except Exception:
+            pass
+
+    return operacoes
+
+
 def confirmar_aplicacao_sn(operacoes: list[dict[str, Any]]) -> bool:
     aplicaveis = [
         op
@@ -212,7 +266,12 @@ def confirmar_aplicacao_sn(operacoes: list[dict[str, Any]]) -> bool:
         return False
 
     print("\nConfirmacao final:")
-    print(f"- Projetos selecionados: {len(operacoes)}")
+    emails = sorted({str(op.get("email") or "") for op in operacoes if op.get("email")})
+    projetos = sorted({str(op.get("projectId") or "") for op in operacoes if op.get("projectId")})
+    if emails:
+        print(f"- Usuarios selecionados: {len(emails)}")
+    print(f"- Projetos selecionados: {len(projetos) or len(operacoes)}")
+    print(f"- Operacoes planejadas: {len(operacoes)}")
     print(f"- Operacoes aplicaveis: {len(aplicaveis)}")
     print("- Responda S para aplicar ou N para cancelar.")
 
@@ -464,6 +523,48 @@ def aplicar_operacoes_com_aba_unica(page, operacoes: list[dict[str, Any]], email
     return resultados
 
 
+def aplicar_operacoes_lote_com_aba_unica(page, operacoes: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    print("\n[9/9] Aplicando alteracoes confirmadas...")
+    print("[INFO] Usando uma unica aba auxiliar para aplicar todos os POSTs do lote.")
+    resultados = []
+    pagina_api = page.context.new_page()
+
+    try:
+        for indice, op in enumerate(operacoes, start=1):
+            email = str(op.get("email") or "")
+            print(
+                f"- Operacao {indice}/{len(operacoes)}: "
+                f"{email} | {op.get('nomeProjeto') or op['projectId']} [{op.get('acaoEfetiva')}]"
+            )
+            try:
+                resultado = aplicar_operacao_em_aba(pagina_api, op, email)
+                print(f"  [OK] {resultado['status']}")
+            except Exception as erro:
+                resultado = {"status": "erro", "erro": str(erro)}
+                print(f"  [ERRO] {erro}")
+
+            resultados.append(
+                {
+                    "projectId": op["projectId"],
+                    "nomeProjeto": op.get("nomeProjeto"),
+                    "origemProjectWise": op.get("origemProjectWise"),
+                    "criterioCruzamento": op.get("criterioCruzamento"),
+                    "email": email,
+                    "acao_solicitada": op.get("acaoSolicitada"),
+                    "acao_planejada": op.get("acaoEfetiva") or op["status"],
+                    "situacao_usuario": op["status"],
+                    "resultado": resultado,
+                }
+            )
+    finally:
+        try:
+            pagina_api.close()
+        except Exception:
+            pass
+
+    return resultados
+
+
 def confirmar_email_informado(email: str) -> None:
     print(f"\nE-mail informado: {email}")
     while True:
@@ -473,6 +574,95 @@ def confirmar_email_informado(email: str) -> None:
         if resposta in {"n", "nao", "não", "no", ""}:
             raise RuntimeError("E-mail nao confirmado. Nenhuma alteracao sera preparada.")
         print("[AVISO] Responda apenas S ou N.")
+
+
+def solicitar_modo_usuarios() -> str:
+    print("\nModo de usuarios")
+    print("01. Usuario unico")
+    print("02. Lote por planilha .xlsx")
+    while True:
+        resposta = input("Escolha [1/2]: ").strip()
+        if resposta in {"1", "01"}:
+            return "unico"
+        if resposta in {"2", "02"}:
+            return "lote_xlsx"
+        print("[AVISO] Escolha 1 ou 2.")
+
+
+def selecionar_planilha_usuarios_xlsx() -> Path:
+    root = Tk()
+    root.withdraw()
+    root.attributes("-topmost", True)
+    try:
+        caminho = filedialog.askopenfilename(
+            title="Selecione a planilha .xlsx de usuarios",
+            filetypes=[
+                ("Planilhas Excel", "*.xlsx"),
+                ("Todos os arquivos", "*.*"),
+            ],
+        )
+    finally:
+        root.destroy()
+
+    if not caminho:
+        raise RuntimeError("Nenhuma planilha foi selecionada.")
+
+    return Path(caminho)
+
+
+def carregar_emails_lote_interativo() -> list[str]:
+    caminho = selecionar_planilha_usuarios_xlsx()
+    resumo = carregar_emails_xlsx(caminho)
+    emails = list(resumo["emailsValidosUnicos"])
+
+    print(f"\n[OK] Planilha importada: {Path(resumo['arquivo']).resolve()}")
+    print(f"- Aba: {resumo['aba']}")
+    print(f"- Linhas de dados: {resumo['linhasDados']}")
+    print(f"- E-mails encontrados: {resumo['emailsEncontrados']}")
+    print(f"- E-mails validos unicos: {len(emails)}")
+    print(f"- Duplicados ignorados: {len(resumo['duplicados'])}")
+    print(f"- Invalidos ignorados: {len(resumo['invalidos'])}")
+    print(f"- Linhas sem e-mail ignoradas: {len(resumo['linhasSemEmail'])}")
+
+    if resumo["invalidos"]:
+        print("[AVISO] E-mails invalidos ignorados:")
+        for item in resumo["invalidos"][:20]:
+            print(f"  - Linha {item['linha']}: {item['email']}")
+        if len(resumo["invalidos"]) > 20:
+            print(f"  ... mais {len(resumo['invalidos']) - 20} invalido(s).")
+
+    return emails
+
+
+def confirmar_emails_lote(emails: list[str]) -> None:
+    print("\nUsuarios do lote:")
+    for indice, email in enumerate(emails, start=1):
+        print(f"{indice:03d}. {email}")
+    while True:
+        resposta = input("Continuar com estes usuarios? [S/N]: ").strip().lower()
+        if resposta in {"s", "sim", "y", "yes"}:
+            return
+        if resposta in {"n", "nao", "não", "no", ""}:
+            raise RuntimeError("Lote nao confirmado. Nenhuma alteracao sera preparada.")
+        print("[AVISO] Responda apenas S ou N.")
+
+
+def exibir_previa_lote(operacoes: list[dict[str, Any]], emails: list[str]) -> None:
+    print("\n[8/9] Previa consolidada do lote:")
+    projetos = sorted({str(op.get("projectId") or "") for op in operacoes if op.get("projectId")})
+    aplicaveis = [
+        op
+        for op in operacoes
+        if op.get("acaoEfetiva") not in {"ignorar_usuario_ausente", "excluir_participante"}
+    ]
+    print(f"- Usuarios: {len(emails)}")
+    print(f"- Projetos: {len(projetos)}")
+    print(f"- Operacoes planejadas: {len(operacoes)}")
+    print(f"- Operacoes aplicaveis: {len(aplicaveis)}")
+
+    for email in emails:
+        operacoes_email = [op for op in operacoes if op.get("email") == email]
+        exibir_previa(operacoes_email, email)
 
 
 def main() -> None:
@@ -490,8 +680,14 @@ def main() -> None:
             abrir_portal(page)
 
             print("\nDados da operacao")
-            email = solicitar_email()
-            confirmar_email_informado(email)
+            modo_usuarios = solicitar_modo_usuarios()
+            if modo_usuarios == "lote_xlsx":
+                emails = carregar_emails_lote_interativo()
+                confirmar_emails_lote(emails)
+            else:
+                email = solicitar_email()
+                confirmar_email_informado(email)
+                emails = [email]
 
             acao_usuario = solicitar_acao_usuario()
 
@@ -506,18 +702,34 @@ def main() -> None:
                 titulo = solicitar_titulo()
                 permissoes = solicitar_permissoes()
 
-            operacoes = montar_operacoes_com_aba_unica(
-                page,
-                projetos_selecionados,
-                email,
-                acao_usuario,
-                titulo,
-                permissoes,
-            )
-            exibir_previa(operacoes, email)
+            if modo_usuarios == "lote_xlsx":
+                operacoes = montar_operacoes_lote_com_aba_unica(
+                    page,
+                    projetos_selecionados,
+                    emails,
+                    acao_usuario,
+                    titulo,
+                    permissoes,
+                )
+                exibir_previa_lote(operacoes, emails)
+            else:
+                operacoes = montar_operacoes_com_aba_unica(
+                    page,
+                    projetos_selecionados,
+                    emails[0],
+                    acao_usuario,
+                    titulo,
+                    permissoes,
+                )
+                for op in operacoes:
+                    op["email"] = emails[0]
+                exibir_previa(operacoes, emails[0])
 
             if confirmar_aplicacao_sn(operacoes):
-                resultados = aplicar_operacoes_com_aba_unica(page, operacoes, email)
+                if modo_usuarios == "lote_xlsx":
+                    resultados = aplicar_operacoes_lote_com_aba_unica(page, operacoes)
+                else:
+                    resultados = aplicar_operacoes_com_aba_unica(page, operacoes, emails[0])
             else:
                 print("\n[OK] Execucao cancelada pelo usuario. Nenhuma alteracao foi aplicada.")
                 resultados = [
@@ -526,7 +738,7 @@ def main() -> None:
                         "nomeProjeto": op.get("nomeProjeto"),
                         "origemProjectWise": op.get("origemProjectWise"),
                         "criterioCruzamento": op.get("criterioCruzamento"),
-                        "email": email,
+                        "email": op.get("email") or emails[0],
                         "acao_solicitada": op.get("acaoSolicitada"),
                         "acao_planejada": op.get("acaoEfetiva") or op.get("status"),
                         "situacao_usuario": op.get("status"),

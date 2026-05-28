@@ -1,0 +1,66 @@
+2026-05-28 11:10:38 | INFO | ProjectWise - criacao de usuarios em lote
+2026-05-28 11:10:38 | INFO | Log: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\PW_CriarUsuariosLote_20260528_111038.log
+2026-05-28 11:10:38 | INFO | Abrindo login no ProjectWise...
+2026-05-28 11:10:54 | OK | Login realizado. Usuario atual: Peterson Caputti
+2026-05-28 11:11:03 | INFO | Arquivo de entrada: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Modelo_Criacao_Usuarios_ProjectWise.xlsx
+2026-05-28 11:11:06 | INFO | Registros carregados: 27
+2026-05-28 11:11:07 | OK | Linha 2: usuario criado - Wesley Mezine
+2026-05-28 11:11:07 | OK | Linha 3: usuario criado - Leonardo Botelho
+2026-05-28 11:11:07 | WARN | Linha 4: usuario ja existe - Bruna Rocha (encontrado por Name)
+2026-05-28 11:11:08 | OK | Linha 5: usuario criado - Letícia Silva
+2026-05-28 11:11:08 | OK | Linha 6: usuario criado - Daniele Spitz
+2026-05-28 11:11:08 | OK | Linha 7: usuario criado - José Milton
+2026-05-28 11:11:09 | OK | Linha 8: usuario criado - João Paulo
+2026-05-28 11:11:09 | WARN | Linha 9: usuario ja existe - Aline Santos (encontrado por E-mail)
+2026-05-28 11:11:10 | WARN | Linha 10: usuario ja existe - Cláudia Campos (encontrado por E-mail)
+2026-05-28 11:11:10 | OK | Linha 11: usuario criado - Matheus Santos
+2026-05-28 11:11:11 | OK | Linha 12: usuario criado - Vinicius Viana
+2026-05-28 11:11:12 | OK | Linha 13: usuario criado - Samara Capitol
+2026-05-28 11:11:12 | OK | Linha 14: usuario criado - Pietro As
+2026-05-28 11:11:13 | OK | Linha 15: usuario criado - Larissa Macedo
+2026-05-28 11:11:14 | OK | Linha 16: usuario criado - Fernanda Santos
+2026-05-28 11:11:14 | WARN | Linha 17: usuario ja existe - Luciano Moura (encontrado por Name)
+2026-05-28 11:11:14 | WARN | Linha 18: usuario ja existe - Andressa Reis (encontrado por Name)
+2026-05-28 11:11:14 | WARN | Linha 19: usuario ja existe - Raíssa Farias (encontrado por E-mail)
+2026-05-28 11:11:14 | WARN | Linha 20: usuario ja existe - Patrícia Hidalgo (encontrado por Name)
+2026-05-28 11:11:15 | OK | Linha 21: usuario criado - Ronaldo Silva
+2026-05-28 11:11:16 | OK | Linha 22: usuario criado - Célio Araujo
+2026-05-28 11:11:16 | WARN | Linha 23: usuario ja existe - Hermes Vinicius (encontrado por Name)
+2026-05-28 11:11:16 | WARN | Linha 24: invalida - Name vazio; E-mail vazio
+2026-05-28 11:11:16 | WARN | Linha 25: invalida - Name vazio; E-mail vazio
+2026-05-28 11:11:16 | WARN | Linha 26: invalida - Name vazio; E-mail vazio
+2026-05-28 11:11:16 | WARN | Linha 27: invalida - Name vazio; E-mail vazio
+2026-05-28 11:11:16 | WARN | Linha 28: invalida - Name vazio; E-mail vazio
+2026-05-28 11:11:30 | INFO | Gerando arquivo da lista processada para descricao: Projetista e consulta a todas as revisões
+2026-05-28 11:11:30 | OK | Arquivo gerado: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\UsuariosPorDescricao_20260528_111038\Usuarios_Descricao_Projetista e consulta a todas as revisões.xlsx
+2026-05-28 11:11:31 | INFO | Sessao ProjectWise encerrada.
+2026-05-28 11:11:31 | INFO | 
+2026-05-28 11:11:31 | INFO | ================ RESUMO FINAL ================
+2026-05-28 11:11:31 | INFO | Total de linhas processadas : 27
+2026-05-28 11:11:31 | OK | Usuarios criados            : 14
+2026-05-28 11:11:31 | OK | Usuarios atualizados        : 0
+2026-05-28 11:11:31 | WARN | Usuarios ja existentes      : 8
+2026-05-28 11:11:31 | INFO | Linhas apenas validadas     : 0
+2026-05-28 11:11:31 | WARN | Linhas invalidas            : 5
+2026-05-28 11:11:31 | OK | Erros de processamento      : 0
+2026-05-28 11:11:31 | OK | Relatorio completo          : C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\PW_CriarUsuariosLote_Relatorio_20260528_111038.csv
+2026-05-28 11:11:31 | OK | Arquivos Excel por descricao:
+2026-05-28 11:11:31 | OK | - C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\UsuariosPorDescricao_20260528_111038\Usuarios_Descricao_Projetista e consulta a todas as revisões.xlsx
+2026-05-28 11:11:31 | INFO | 
+2026-05-28 11:11:31 | WARN | Linhas que precisam de atencao:
+2026-05-28 11:11:31 | WARN | - Linha 24 | INVALIDO |  | Name vazio; E-mail vazio
+2026-05-28 11:11:31 | WARN | - Linha 25 | INVALIDO |  | Name vazio; E-mail vazio
+2026-05-28 11:11:31 | WARN | - Linha 26 | INVALIDO |  | Name vazio; E-mail vazio
+2026-05-28 11:11:31 | WARN | - Linha 27 | INVALIDO |  | Name vazio; E-mail vazio
+2026-05-28 11:11:31 | WARN | - Linha 28 | INVALIDO |  | Name vazio; E-mail vazio
+2026-05-28 11:11:31 | INFO | 
+2026-05-28 11:11:31 | WARN | Usuarios que ja existiam e nao foram recriados:
+2026-05-28 11:11:31 | WARN | - Linha 4 | Projetista e consulta a todas as revisões | Bruna Rocha | bruna.rocha@egis-group.com
+2026-05-28 11:11:31 | WARN | - Linha 9 | Projetista e consulta a todas as revisões | Aline Santos | aline.baldo@egis-group.com
+2026-05-28 11:11:31 | WARN | - Linha 10 | Projetista e consulta a todas as revisões | Cláudia Campos | claudia.campos@egis-group.com
+2026-05-28 11:11:31 | WARN | - Linha 17 | Projetista e consulta a todas as revisões | Luciano Moura | luciano.moura@egis-group.com
+2026-05-28 11:11:31 | WARN | - Linha 18 | Projetista e consulta a todas as revisões | Andressa Reis | andressa.reis@egis-group.com
+2026-05-28 11:11:31 | WARN | - Linha 19 | Projetista e consulta a todas as revisões | Raíssa Farias | raissa.farias@egis-group.com
+2026-05-28 11:11:31 | WARN | - Linha 20 | Projetista e consulta a todas as revisões | Patrícia Hidalgo | patricia.hidalgo@egis-group.com
+2026-05-28 11:11:31 | WARN | - Linha 23 | Projetista e consulta a todas as revisões | Hermes Vinicius | hermes.almeida@egis-group.com
+2026-05-28 11:11:31 | INFO | ==============================================

@@ -1,0 +1,359 @@
+﻿[2026-05-27 16:18:20] [INFO] Iniciando reanalise. Simular: True
+[2026-05-27 16:18:20] [INFO] Efetuando login via Bentley IMS.
+[2026-05-27 16:18:44] [OK] Login realizado com sucesso: 01SSRV305.ECSC.ECORODOVIAS.CORP:Ecorodovias-01
+[2026-05-27 16:18:44] [INFO] Carregando pastas raiz do ProjectWise.
+[2026-05-27 16:18:48] [INFO] Listando subpastas de: Engenharia
+[2026-05-27 16:19:02] [OK] Concessao selecionada: Ecovias Rio Minas
+[2026-05-27 16:19:02] [INFO] Listando subpastas de: Ecovias Rio Minas
+[2026-05-27 16:19:07] [INFO] Listando subpastas de: Projetos
+[2026-05-27 16:20:09] [OK] Projeto selecionado: Praça de Pedágio P6
+[2026-05-27 16:20:09] [INFO] Listando subpastas de: Praça de Pedágio P6
+[2026-05-27 16:20:19] [INFO] Listando subpastas de: Praça de Pedágio P6\Area de Transferencia
+[2026-05-27 16:20:27] [INFO] Listando subpastas de: Praça de Pedágio P6\Area de Transferencia\Importacao
+[2026-05-27 16:20:27] [AVISO] A pasta atual nao possui subpastas. Ela sera usada para buscar documentos.
+[2026-05-27 16:20:28] [OK] Pasta selecionada para reanalise: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\Area de Transferencia\Importacao
+[2026-05-27 16:20:29] [AVISO] Busca inicial limitada aos primeiros 20 documentos da pasta selecionada.
+[2026-05-27 16:20:29] [INFO] Documentos candidatos carregados pela busca limitada: 20
+[2026-05-27 16:21:03] [INFO] Documentos encontrados para reanalise: 20
+[2026-05-27 16:21:03] [SIMULACAO] Modo simulacao ativo. O processamento sera executado sem alterar documentos/pastas/states.
+[2026-05-27 16:21:03] [INFO] Carregando lista oficial de disciplinas ANTT: Ecorodovias\Area de Administração\Registros\Disciplinas ANTT
+[2026-05-27 16:21:44] [INFO] Disciplinas ANTT carregadas: 59
+[2026-05-27 16:21:44] [INFO] 
+[2026-05-27 16:21:44] [INFO] Contador: 1/20
+[2026-05-27 16:21:44] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-001-R01a.dwg
+[2026-05-27 16:21:44] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:21:44] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:21:44] [INFO] Fase destino: 
+[2026-05-27 16:21:44] [INFO] Volume: 
+[2026-05-27 16:21:44] [INFO] Disciplina: 001 -> 
+[2026-05-27 16:21:44] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:21:44] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:21:44] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:44] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:44] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:21:44] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:44] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-001-R01a.dwg: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:44] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:44] [INFO] 
+[2026-05-27 16:21:44] [INFO] Contador: 2/20
+[2026-05-27 16:21:44] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-001-R01a.pdf
+[2026-05-27 16:21:44] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:21:44] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:21:44] [INFO] Fase destino: 
+[2026-05-27 16:21:44] [INFO] Volume: 
+[2026-05-27 16:21:44] [INFO] Disciplina: 001 -> 
+[2026-05-27 16:21:44] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:21:44] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:21:44] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:44] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:44] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:21:44] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:44] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-001-R01a.pdf: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:44] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:44] [INFO] 
+[2026-05-27 16:21:44] [INFO] Contador: 3/20
+[2026-05-27 16:21:44] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-001-R02a.dwg
+[2026-05-27 16:21:44] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:21:45] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:21:45] [INFO] Fase destino: 
+[2026-05-27 16:21:45] [INFO] Volume: 
+[2026-05-27 16:21:45] [INFO] Disciplina: 001 -> 
+[2026-05-27 16:21:45] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:21:45] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:21:45] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:45] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:45] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:21:45] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:45] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-001-R02a.dwg: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:45] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:45] [INFO] 
+[2026-05-27 16:21:45] [INFO] Contador: 4/20
+[2026-05-27 16:21:45] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-001-R02a.pdf
+[2026-05-27 16:21:45] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:21:46] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:21:46] [INFO] Fase destino: 
+[2026-05-27 16:21:46] [INFO] Volume: 
+[2026-05-27 16:21:46] [INFO] Disciplina: 001 -> 
+[2026-05-27 16:21:46] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:21:46] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:21:46] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:46] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:46] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:21:46] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:46] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-001-R02a.pdf: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:46] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:46] [INFO] 
+[2026-05-27 16:21:46] [INFO] Contador: 5/20
+[2026-05-27 16:21:46] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-002-R00a.dwg
+[2026-05-27 16:21:46] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:21:47] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:21:47] [INFO] Fase destino: 
+[2026-05-27 16:21:47] [INFO] Volume: 
+[2026-05-27 16:21:47] [INFO] Disciplina: 002 -> 
+[2026-05-27 16:21:47] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:21:47] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:21:47] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:47] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:47] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:21:47] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:47] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-002-R00a.dwg: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:47] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:47] [INFO] 
+[2026-05-27 16:21:47] [INFO] Contador: 6/20
+[2026-05-27 16:21:47] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-002-R00a.pdf
+[2026-05-27 16:21:47] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:21:49] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:21:49] [INFO] Fase destino: 
+[2026-05-27 16:21:49] [INFO] Volume: 
+[2026-05-27 16:21:49] [INFO] Disciplina: 002 -> 
+[2026-05-27 16:21:49] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:21:49] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:21:49] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:49] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:49] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:21:49] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:49] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-002-R00a.pdf: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:49] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:49] [INFO] 
+[2026-05-27 16:21:49] [INFO] Contador: 7/20
+[2026-05-27 16:21:49] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-002-R01a.dwg
+[2026-05-27 16:21:49] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:21:50] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:21:50] [INFO] Fase destino: 
+[2026-05-27 16:21:50] [INFO] Volume: 
+[2026-05-27 16:21:50] [INFO] Disciplina: 002 -> 
+[2026-05-27 16:21:50] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:21:50] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:21:50] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:50] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:50] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:21:50] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:50] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-002-R01a.dwg: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:50] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:50] [INFO] 
+[2026-05-27 16:21:50] [INFO] Contador: 8/20
+[2026-05-27 16:21:50] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-002-R01a.pdf
+[2026-05-27 16:21:50] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:21:52] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:21:52] [INFO] Fase destino: 
+[2026-05-27 16:21:52] [INFO] Volume: 
+[2026-05-27 16:21:52] [INFO] Disciplina: 002 -> 
+[2026-05-27 16:21:52] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:21:52] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:21:52] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:52] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:52] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:21:52] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:52] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-002-R01a.pdf: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:52] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:52] [INFO] 
+[2026-05-27 16:21:52] [INFO] Contador: 9/20
+[2026-05-27 16:21:52] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-003-R00a.dwg
+[2026-05-27 16:21:52] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:21:53] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:21:53] [INFO] Fase destino: 
+[2026-05-27 16:21:53] [INFO] Volume: 
+[2026-05-27 16:21:53] [INFO] Disciplina: 003 -> 
+[2026-05-27 16:21:53] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:21:53] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:21:53] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:53] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:53] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:21:53] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:53] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-003-R00a.dwg: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:53] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:53] [INFO] 
+[2026-05-27 16:21:53] [INFO] Contador: 10/20
+[2026-05-27 16:21:53] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-003-R00a.pdf
+[2026-05-27 16:21:53] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:21:56] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:21:56] [INFO] Fase destino: 
+[2026-05-27 16:21:56] [INFO] Volume: 
+[2026-05-27 16:21:56] [INFO] Disciplina: 003 -> 
+[2026-05-27 16:21:56] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:21:56] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:21:56] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:56] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:56] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:21:56] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:56] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-003-R00a.pdf: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:56] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:56] [INFO] 
+[2026-05-27 16:21:56] [INFO] Contador: 11/20
+[2026-05-27 16:21:56] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-003-R01a.dwg
+[2026-05-27 16:21:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:21:57] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:21:57] [INFO] Fase destino: 
+[2026-05-27 16:21:57] [INFO] Volume: 
+[2026-05-27 16:21:57] [INFO] Disciplina: 003 -> 
+[2026-05-27 16:21:57] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:21:57] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:21:57] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:57] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:57] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:21:57] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:57] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-003-R01a.dwg: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:57] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:57] [INFO] 
+[2026-05-27 16:21:57] [INFO] Contador: 12/20
+[2026-05-27 16:21:57] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-003-R01a.pdf
+[2026-05-27 16:21:57] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:21:59] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:21:59] [INFO] Fase destino: 
+[2026-05-27 16:21:59] [INFO] Volume: 
+[2026-05-27 16:21:59] [INFO] Disciplina: 003 -> 
+[2026-05-27 16:21:59] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:21:59] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:21:59] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:59] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:59] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:21:59] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:59] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-003-R01a.pdf: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:59] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:21:59] [INFO] 
+[2026-05-27 16:21:59] [INFO] Contador: 13/20
+[2026-05-27 16:21:59] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-004-R00a.dwg
+[2026-05-27 16:21:59] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:22:00] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:22:00] [INFO] Fase destino: 
+[2026-05-27 16:22:00] [INFO] Volume: 
+[2026-05-27 16:22:00] [INFO] Disciplina: 004 -> 
+[2026-05-27 16:22:00] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:22:00] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:22:00] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:00] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:00] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:22:00] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:00] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-004-R00a.dwg: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:00] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:00] [INFO] 
+[2026-05-27 16:22:00] [INFO] Contador: 14/20
+[2026-05-27 16:22:00] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-004-R00a.pdf
+[2026-05-27 16:22:00] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:22:03] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:22:03] [INFO] Fase destino: 
+[2026-05-27 16:22:03] [INFO] Volume: 
+[2026-05-27 16:22:03] [INFO] Disciplina: 004 -> 
+[2026-05-27 16:22:03] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:22:03] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:22:03] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:03] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:03] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:22:03] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:03] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-004-R00a.pdf: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:03] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:03] [INFO] 
+[2026-05-27 16:22:03] [INFO] Contador: 15/20
+[2026-05-27 16:22:03] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-004-R02a.dwg
+[2026-05-27 16:22:03] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:22:07] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:22:07] [INFO] Fase destino: 
+[2026-05-27 16:22:07] [INFO] Volume: 
+[2026-05-27 16:22:07] [INFO] Disciplina: 004 -> 
+[2026-05-27 16:22:07] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:22:07] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:22:07] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:07] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:07] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:22:07] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:07] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-004-R02a.dwg: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:07] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:07] [INFO] 
+[2026-05-27 16:22:07] [INFO] Contador: 16/20
+[2026-05-27 16:22:07] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-004-R02a.pdf
+[2026-05-27 16:22:07] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:22:08] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:22:08] [INFO] Fase destino: 
+[2026-05-27 16:22:08] [INFO] Volume: 
+[2026-05-27 16:22:08] [INFO] Disciplina: 004 -> 
+[2026-05-27 16:22:08] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:22:08] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:22:08] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:08] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:08] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:22:08] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:08] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-004-R02a.pdf: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:08] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:08] [INFO] 
+[2026-05-27 16:22:08] [INFO] Contador: 17/20
+[2026-05-27 16:22:08] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-005-R00a.dwg
+[2026-05-27 16:22:08] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:22:10] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:22:10] [INFO] Fase destino: 
+[2026-05-27 16:22:10] [INFO] Volume: 
+[2026-05-27 16:22:10] [INFO] Disciplina: 005 -> 
+[2026-05-27 16:22:10] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:22:10] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:22:10] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:10] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:10] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:22:10] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:10] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-005-R00a.dwg: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:10] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:10] [INFO] 
+[2026-05-27 16:22:10] [INFO] Contador: 18/20
+[2026-05-27 16:22:10] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-005-R00a.pdf
+[2026-05-27 16:22:10] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:22:13] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:22:13] [INFO] Fase destino: 
+[2026-05-27 16:22:13] [INFO] Volume: 
+[2026-05-27 16:22:13] [INFO] Disciplina: 005 -> 
+[2026-05-27 16:22:13] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:22:13] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:22:13] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:13] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:13] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:22:13] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:13] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-005-R00a.pdf: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:13] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:13] [INFO] 
+[2026-05-27 16:22:13] [INFO] Contador: 19/20
+[2026-05-27 16:22:13] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-005-R02a.dwg
+[2026-05-27 16:22:13] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:22:14] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:22:14] [INFO] Fase destino: 
+[2026-05-27 16:22:14] [INFO] Volume: 
+[2026-05-27 16:22:14] [INFO] Disciplina: 005 -> 
+[2026-05-27 16:22:14] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:22:14] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:22:14] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:14] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:14] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:22:14] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:14] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-005-R02a.dwg: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:14] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:14] [INFO] 
+[2026-05-27 16:22:14] [INFO] Contador: 20/20
+[2026-05-27 16:22:14] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-005-R02a.pdf
+[2026-05-27 16:22:14] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 16:22:14] [INFO] Poder Concedente: ANTT
+[2026-05-27 16:22:14] [INFO] Fase destino: 
+[2026-05-27 16:22:14] [INFO] Volume: 
+[2026-05-27 16:22:14] [INFO] Disciplina: 005 -> 
+[2026-05-27 16:22:14] [INFO] Disciplina encontrada na lista oficial: Nao
+[2026-05-27 16:22:14] [INFO] Tipo Documento: L3 -> 
+[2026-05-27 16:22:14] [ERRO] Fase Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:14] [ERRO] Volume vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:14] [ERRO] Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio.
+[2026-05-27 16:22:14] [ERRO] Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:14] [ERRO] ERM-493RJ-112+815-EXE-DE-L3-005-R02a.pdf: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:14] [SIMULACAO] Atualizaria atributo Erros: Fase Pai vazio. Nao foi possivel montar pasta destino. | Volume vazio. Nao foi possivel montar pasta destino. | Disciplina nao localizada na lista oficial e atributo Disciplina Pai vazio. | Tipo Documento Pai vazio. Nao foi possivel montar pasta destino.
+[2026-05-27 16:22:14] [INFO] 
+[2026-05-27 16:22:14] [INFO] ============================================================
+[2026-05-27 16:22:14] [INFO] Resumo da reanalise/movimentacao assistida
+[2026-05-27 16:22:14] [INFO] ============================================================
+[2026-05-27 16:22:14] [INFO] Encontrados: 20
+[2026-05-27 16:22:14] [INFO] Processados: 20
+[2026-05-27 16:22:14] [INFO] DestinoCalculado: 0
+[2026-05-27 16:22:14] [INFO] PastaBaseNaoLocalizada: 20
+[2026-05-27 16:22:14] [INFO] DisciplinaNaoLocalizada: 20
+[2026-05-27 16:22:14] [INFO] TipoDocumentoVazio: 20
+[2026-05-27 16:22:14] [INFO] PastasCriadas: 0
+[2026-05-27 16:22:14] [INFO] DocumentosCopiados: 0
+[2026-05-27 16:22:14] [INFO] DocumentosMovidos: 0
+[2026-05-27 16:22:14] [INFO] JaExistiamNoDestino: 0
+[2026-05-27 16:22:14] [INFO] MovidosParaSuperados: 0
+[2026-05-27 16:22:14] [INFO] EstadosAtualizados: 0
+[2026-05-27 16:22:14] [INFO] Erros: 0
+[2026-05-27 16:22:14] [INFO] ============================================================
+[2026-05-27 16:22:14] [INFO] Log detalhado: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\ReavaliarMovimentacaoDocumentos_20260527_161820.log

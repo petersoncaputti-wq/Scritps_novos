@@ -1,0 +1,915 @@
+﻿[2026-05-27 17:42:08] [INFO] Iniciando reanalise. Simular: False
+[2026-05-27 17:42:08] [INFO] Efetuando login via Bentley IMS.
+[2026-05-27 17:42:25] [OK] Login realizado com sucesso: 01SSRV305.ECSC.ECORODOVIAS.CORP:Ecorodovias-01
+[2026-05-27 17:42:25] [INFO] Carregando pastas raiz do ProjectWise.
+[2026-05-27 17:42:28] [INFO] Listando subpastas de: Engenharia
+[2026-05-27 17:43:12] [AVISO] Informe um numero entre 1 e 13.
+[2026-05-27 17:43:16] [OK] Concessao selecionada: Ecovias Rio Minas
+[2026-05-27 17:43:16] [INFO] Listando subpastas de: Ecovias Rio Minas
+[2026-05-27 17:43:18] [INFO] Listando subpastas de: Projetos
+[2026-05-27 17:44:46] [OK] Projeto selecionado: Praça de Pedágio P6
+[2026-05-27 17:44:46] [INFO] Listando subpastas de: Praça de Pedágio P6
+[2026-05-27 17:45:03] [INFO] Listando subpastas de: Praça de Pedágio P6\Area de Transferencia
+[2026-05-27 17:45:08] [INFO] Listando subpastas de: Praça de Pedágio P6\Area de Transferencia\Importacao
+[2026-05-27 17:45:08] [AVISO] A pasta atual nao possui subpastas. Ela sera usada para buscar documentos.
+[2026-05-27 17:45:09] [OK] Pasta selecionada para reanalise: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\Area de Transferencia\Importacao
+[2026-05-27 17:45:11] [AVISO] Busca inicial limitada aos primeiros 100 documentos da pasta selecionada.
+[2026-05-27 17:45:11] [INFO] Documentos candidatos carregados pela busca limitada: 100
+[2026-05-27 17:46:57] [INFO] Documentos encontrados para reanalise: 73
+[2026-05-27 17:47:18] [INFO] Carregando lista oficial de disciplinas ANTT: Ecorodovias\Area de Administração\Registros\Disciplinas ANTT
+[2026-05-27 17:47:56] [INFO] Disciplinas ANTT carregadas: 59
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 1/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-001-R01a.dwg
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 2/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-001-R01a.pdf
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 3/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-001-R02a.dwg
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 4/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-001-R02a.pdf
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 5/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-002-R00a.dwg
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 6/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-002-R00a.pdf
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 7/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-002-R01a.dwg
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 8/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-002-R01a.pdf
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 9/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-003-R00a.dwg
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 10/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-003-R00a.pdf
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 11/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-003-R01a.dwg
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 12/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-003-R01a.pdf
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 13/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-004-R00a.dwg
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 14/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-004-R00a.pdf
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 15/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-004-R02a.dwg
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 16/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-004-R02a.pdf
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 17/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-005-R00a.dwg
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 18/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-005-R00a.pdf
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 19/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-005-R02a.dwg
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 20/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-005-R02a.pdf
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 21/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-006-R01a.dwg
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 22/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-006-R01a.pdf
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 23/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-006-R02a.dwg
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 24/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-EXE-DE-L3-006-R02a.pdf
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 25/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-BM-P1-R00-Lg_EcoRioMinas-3951960.jpg
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 26/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-BM-P1-R00-LOGOANTT-3951954.PNG
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 27/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-BM-P1-R00-LOGOECORODOVIAS-3904546.PNG
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 28/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-BM-P1-R00-SondoTec-3904548.png
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 29/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-BM-P1-R00-SondoTec-3951958.png
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 30/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-BM-P8-R00-Lg_EcoRioMinas-1093523.jpg
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 31/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-BM-P8-R00-LOGOANTT-1093517.PNG
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:56] [INFO] Contador: 32/73
+[2026-05-27 17:47:56] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-BM-P8-R00-plantachavep06-1078986.png
+[2026-05-27 17:47:56] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:56] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:56] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:56] [INFO] 
+[2026-05-27 17:47:57] [INFO] Contador: 33/73
+[2026-05-27 17:47:57] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-BM-P8-R00-SondoTec-1093521.png
+[2026-05-27 17:47:57] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:57] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 17:47:57] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:57] [INFO] 
+[2026-05-27 17:47:57] [INFO] Contador: 34/73
+[2026-05-27 17:47:57] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-F1-002-R00b.dwg
+[2026-05-27 17:47:57] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:57] [AVISO] Erros atual: Versao incorreta. A versao correta seria: A
+[2026-05-27 17:47:57] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:57] [INFO] 
+[2026-05-27 17:47:57] [INFO] Contador: 35/73
+[2026-05-27 17:47:57] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-F1-002-R00b.pdf
+[2026-05-27 17:47:57] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:47:57] [AVISO] Erros atual: Versao incorreta. A versao correta seria: A
+[2026-05-27 17:47:57] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:47:57] [INFO] 
+[2026-05-27 17:47:57] [INFO] Contador: 36/73
+[2026-05-27 17:47:57] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-I2-001-R00a.dwg
+[2026-05-27 17:47:57] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 17:47:58] [INFO] Poder Concedente: ANTT
+[2026-05-27 17:47:58] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 17:47:58] [INFO] Volume: Volume II
+[2026-05-27 17:47:58] [INFO] Disciplina: I2 -> Pavimentação
+[2026-05-27 17:47:58] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 17:47:58] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 17:47:58] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 17:47:58] [INFO] Pasta base localizada: Sim
+[2026-05-27 17:47:59] [INFO] Pasta disciplina existe: Nao
+[2026-05-27 17:47:59] [INFO] Pasta tipo documento existe: Nao
+[2026-05-27 17:48:35] [INFO] Nativo encontrado: Sim
+[2026-05-27 17:48:35] [INFO] PDF encontrado: Sim
+[2026-05-27 17:48:35] [INFO] XFDF encontrado: Nao
+[2026-05-27 17:48:37] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 17:49:19] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 17:49:19] [INFO] 
+[2026-05-27 17:49:19] [INFO] Contador: 37/73
+[2026-05-27 17:49:19] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-I2-001-R00a.pdf
+[2026-05-27 17:49:19] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 17:49:20] [INFO] Poder Concedente: ANTT
+[2026-05-27 17:49:20] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 17:49:20] [INFO] Volume: Volume II
+[2026-05-27 17:49:20] [INFO] Disciplina: I2 -> Pavimentação
+[2026-05-27 17:49:20] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 17:49:20] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 17:49:20] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 17:49:20] [INFO] Pasta base localizada: Sim
+[2026-05-27 17:49:20] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 17:49:21] [INFO] Nativo encontrado: Sim
+[2026-05-27 17:49:21] [INFO] PDF encontrado: Sim
+[2026-05-27 17:49:21] [INFO] XFDF encontrado: Nao
+[2026-05-27 17:49:22] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 17:49:22] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-I2-001-R00a.dwg
+[2026-05-27 17:49:24] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-I2-001-R00a.pdf
+[2026-05-27 17:49:27] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 17:49:27] [INFO] 
+[2026-05-27 17:49:27] [INFO] Contador: 38/73
+[2026-05-27 17:49:27] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-I2-002-R00a.dwg
+[2026-05-27 17:49:27] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 17:49:29] [INFO] Poder Concedente: ANTT
+[2026-05-27 17:49:29] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 17:49:29] [INFO] Volume: Volume II
+[2026-05-27 17:49:29] [INFO] Disciplina: I2 -> Pavimentação
+[2026-05-27 17:49:29] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 17:49:29] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 17:49:29] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 17:49:29] [INFO] Pasta base localizada: Sim
+[2026-05-27 17:49:29] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 17:49:37] [INFO] Nativo encontrado: Sim
+[2026-05-27 17:49:37] [INFO] PDF encontrado: Sim
+[2026-05-27 17:49:37] [INFO] XFDF encontrado: Nao
+[2026-05-27 17:49:38] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 17:49:59] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 17:49:59] [INFO] 
+[2026-05-27 17:49:59] [INFO] Contador: 39/73
+[2026-05-27 17:49:59] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-I2-002-R00a.pdf
+[2026-05-27 17:49:59] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 17:50:00] [INFO] Poder Concedente: ANTT
+[2026-05-27 17:50:00] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 17:50:00] [INFO] Volume: Volume II
+[2026-05-27 17:50:00] [INFO] Disciplina: I2 -> Pavimentação
+[2026-05-27 17:50:00] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 17:50:00] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 17:50:00] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 17:50:00] [INFO] Pasta base localizada: Sim
+[2026-05-27 17:50:00] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 17:50:02] [INFO] Nativo encontrado: Sim
+[2026-05-27 17:50:02] [INFO] PDF encontrado: Sim
+[2026-05-27 17:50:02] [INFO] XFDF encontrado: Nao
+[2026-05-27 17:50:03] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 17:50:07] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-I2-002-R00a.dwg
+[2026-05-27 17:50:12] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-I2-002-R00a.pdf
+[2026-05-27 17:50:14] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 17:50:14] [INFO] 
+[2026-05-27 17:50:14] [INFO] Contador: 40/73
+[2026-05-27 17:50:14] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-I2-003-R00a.dwg
+[2026-05-27 17:50:14] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 17:50:15] [INFO] Poder Concedente: ANTT
+[2026-05-27 17:50:15] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 17:50:15] [INFO] Volume: Volume II
+[2026-05-27 17:50:15] [INFO] Disciplina: I2 -> Pavimentação
+[2026-05-27 17:50:15] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 17:50:15] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 17:50:15] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 17:50:15] [INFO] Pasta base localizada: Sim
+[2026-05-27 17:50:15] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 17:50:24] [INFO] Nativo encontrado: Sim
+[2026-05-27 17:50:24] [INFO] PDF encontrado: Sim
+[2026-05-27 17:50:24] [INFO] XFDF encontrado: Nao
+[2026-05-27 17:50:25] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 17:50:56] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 17:50:56] [INFO] 
+[2026-05-27 17:50:56] [INFO] Contador: 41/73
+[2026-05-27 17:50:56] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-I2-003-R00a.pdf
+[2026-05-27 17:50:56] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 17:50:56] [INFO] Poder Concedente: ANTT
+[2026-05-27 17:50:56] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 17:50:56] [INFO] Volume: Volume II
+[2026-05-27 17:50:56] [INFO] Disciplina: I2 -> Pavimentação
+[2026-05-27 17:50:56] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 17:50:56] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 17:50:56] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 17:50:56] [INFO] Pasta base localizada: Sim
+[2026-05-27 17:50:56] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Pavimentação\Desenhos
+[2026-05-27 17:50:58] [INFO] Nativo encontrado: Sim
+[2026-05-27 17:50:58] [INFO] PDF encontrado: Sim
+[2026-05-27 17:50:58] [INFO] XFDF encontrado: Nao
+[2026-05-27 17:50:58] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 17:50:59] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-I2-003-R00a.dwg
+[2026-05-27 17:50:59] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-I2-003-R00a.pdf
+[2026-05-27 17:51:00] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 17:51:00] [INFO] 
+[2026-05-27 17:51:00] [INFO] Contador: 42/73
+[2026-05-27 17:51:00] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-J1-001-R00a.dwg
+[2026-05-27 17:51:00] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 17:51:01] [INFO] Poder Concedente: ANTT
+[2026-05-27 17:51:01] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 17:51:01] [INFO] Volume: Volume II
+[2026-05-27 17:51:01] [INFO] Disciplina: J1 -> Sinalização e Dispositivos de Segurança
+[2026-05-27 17:51:01] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 17:51:01] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 17:51:01] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Sinalização e Dispositivos de Segurança\Desenhos
+[2026-05-27 17:51:01] [INFO] Pasta base localizada: Sim
+[2026-05-27 17:51:01] [INFO] Pasta disciplina existe: Nao
+[2026-05-27 17:51:01] [INFO] Pasta tipo documento existe: Nao
+[2026-05-27 17:53:36] [INFO] Nativo encontrado: Sim
+[2026-05-27 17:53:36] [INFO] PDF encontrado: Sim
+[2026-05-27 17:53:36] [INFO] XFDF encontrado: Nao
+[2026-05-27 17:53:36] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 17:54:39] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 17:54:39] [INFO] 
+[2026-05-27 17:54:39] [INFO] Contador: 43/73
+[2026-05-27 17:54:39] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-J1-001-R00a.pdf
+[2026-05-27 17:54:39] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 17:54:39] [INFO] Poder Concedente: ANTT
+[2026-05-27 17:54:39] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 17:54:39] [INFO] Volume: Volume II
+[2026-05-27 17:54:39] [INFO] Disciplina: J1 -> Sinalização e Dispositivos de Segurança
+[2026-05-27 17:54:39] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 17:54:39] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 17:54:39] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Sinalização e Dispositivos de Segurança\Desenhos
+[2026-05-27 17:54:39] [INFO] Pasta base localizada: Sim
+[2026-05-27 17:54:39] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Sinalização e Dispositivos de Segurança\Desenhos
+[2026-05-27 17:54:41] [INFO] Nativo encontrado: Sim
+[2026-05-27 17:54:41] [INFO] PDF encontrado: Sim
+[2026-05-27 17:54:41] [INFO] XFDF encontrado: Nao
+[2026-05-27 17:54:42] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 17:54:45] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-J1-001-R00a.dwg
+[2026-05-27 17:54:50] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-J1-001-R00a.pdf
+[2026-05-27 17:54:53] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 17:54:53] [INFO] 
+[2026-05-27 17:54:53] [INFO] Contador: 44/73
+[2026-05-27 17:54:53] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a.dwg
+[2026-05-27 17:54:53] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 17:54:54] [INFO] Poder Concedente: ANTT
+[2026-05-27 17:54:54] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 17:54:54] [INFO] Volume: Volume II
+[2026-05-27 17:54:54] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 17:54:54] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 17:54:54] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 17:54:54] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 17:54:54] [INFO] Pasta base localizada: Sim
+[2026-05-27 17:54:55] [INFO] Pasta disciplina existe: Nao
+[2026-05-27 17:54:55] [INFO] Pasta tipo documento existe: Nao
+[2026-05-27 17:55:22] [INFO] Nativo encontrado: Sim
+[2026-05-27 17:55:22] [INFO] PDF encontrado: Sim
+[2026-05-27 17:55:22] [INFO] XFDF encontrado: Nao
+[2026-05-27 17:55:22] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 17:55:56] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 17:55:56] [INFO] 
+[2026-05-27 17:55:56] [INFO] Contador: 45/73
+[2026-05-27 17:55:56] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a_1.dwg
+[2026-05-27 17:55:56] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 17:55:57] [INFO] Poder Concedente: ANTT
+[2026-05-27 17:55:57] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 17:55:57] [INFO] Volume: Volume II
+[2026-05-27 17:55:57] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 17:55:57] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 17:55:57] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 17:55:57] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 17:55:57] [INFO] Pasta base localizada: Sim
+[2026-05-27 17:55:57] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 17:56:01] [INFO] Nativo encontrado: Sim
+[2026-05-27 17:56:01] [INFO] PDF encontrado: Sim
+[2026-05-27 17:56:01] [INFO] XFDF encontrado: Nao
+[2026-05-27 17:56:01] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 17:56:03] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a.dwg
+[2026-05-27 17:56:04] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a.pdf
+[2026-05-27 17:56:05] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00b.dwg
+[2026-05-27 17:56:06] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00b.pdf
+[2026-05-27 17:56:07] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a_1.dwg
+[2026-05-27 17:56:08] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a_1.pdf
+[2026-05-27 17:56:09] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 17:56:09] [INFO] 
+[2026-05-27 17:56:09] [INFO] Contador: 46/73
+[2026-05-27 17:56:09] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a.pdf
+[2026-05-27 17:56:09] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 17:56:09] [INFO] Poder Concedente: ANTT
+[2026-05-27 17:56:09] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 17:56:09] [INFO] Volume: Volume II
+[2026-05-27 17:56:09] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 17:56:09] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 17:56:09] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 17:56:09] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 17:56:09] [INFO] Pasta base localizada: Sim
+[2026-05-27 17:56:09] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 17:56:21] [INFO] Nativo encontrado: Sim
+[2026-05-27 17:56:21] [INFO] PDF encontrado: Sim
+[2026-05-27 17:56:21] [INFO] XFDF encontrado: Nao
+[2026-05-27 17:56:22] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 17:56:22] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a.dwg
+[2026-05-27 17:56:23] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a.pdf
+[2026-05-27 17:56:24] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00b.dwg
+[2026-05-27 17:56:25] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00b.pdf
+[2026-05-27 17:56:26] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a_1.dwg
+[2026-05-27 17:56:27] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a_1.pdf
+[2026-05-27 17:56:28] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 17:56:28] [INFO] 
+[2026-05-27 17:56:28] [INFO] Contador: 47/73
+[2026-05-27 17:56:28] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a_1.pdf
+[2026-05-27 17:56:28] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 17:56:28] [INFO] Poder Concedente: ANTT
+[2026-05-27 17:56:28] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 17:56:28] [INFO] Volume: Volume II
+[2026-05-27 17:56:28] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 17:56:28] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 17:56:28] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 17:56:28] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 17:56:28] [INFO] Pasta base localizada: Sim
+[2026-05-27 17:56:28] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 17:56:31] [INFO] Nativo encontrado: Sim
+[2026-05-27 17:56:31] [INFO] PDF encontrado: Sim
+[2026-05-27 17:56:31] [INFO] XFDF encontrado: Nao
+[2026-05-27 17:56:31] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 17:56:32] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a.dwg
+[2026-05-27 17:56:33] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a.pdf
+[2026-05-27 17:56:34] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00b.dwg
+[2026-05-27 17:56:34] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00b.pdf
+[2026-05-27 17:56:35] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a_1.dwg
+[2026-05-27 17:56:36] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00a_1.pdf
+[2026-05-27 17:56:37] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 17:56:37] [INFO] 
+[2026-05-27 17:56:37] [INFO] Contador: 48/73
+[2026-05-27 17:56:37] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00b.dwg
+[2026-05-27 17:56:37] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:56:37] [AVISO] Erros atual: Versao incorreta. A versao correta seria: A
+[2026-05-27 17:56:37] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:56:37] [INFO] 
+[2026-05-27 17:56:37] [INFO] Contador: 49/73
+[2026-05-27 17:56:37] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-001-R00b.pdf
+[2026-05-27 17:56:37] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:56:37] [AVISO] Erros atual: Versao incorreta. A versao correta seria: A
+[2026-05-27 17:56:37] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:56:37] [INFO] 
+[2026-05-27 17:56:37] [INFO] Contador: 50/73
+[2026-05-27 17:56:37] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a.dwg
+[2026-05-27 17:56:37] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 17:56:37] [INFO] Poder Concedente: ANTT
+[2026-05-27 17:56:37] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 17:56:37] [INFO] Volume: Volume II
+[2026-05-27 17:56:37] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 17:56:37] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 17:56:37] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 17:56:37] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 17:56:37] [INFO] Pasta base localizada: Sim
+[2026-05-27 17:56:37] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 17:56:40] [INFO] Nativo encontrado: Sim
+[2026-05-27 17:56:40] [INFO] PDF encontrado: Sim
+[2026-05-27 17:56:40] [INFO] XFDF encontrado: Nao
+[2026-05-27 17:56:41] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 17:57:13] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 17:57:13] [INFO] 
+[2026-05-27 17:57:13] [INFO] Contador: 51/73
+[2026-05-27 17:57:13] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a_1.dwg
+[2026-05-27 17:57:13] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 17:57:14] [INFO] Poder Concedente: ANTT
+[2026-05-27 17:57:14] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 17:57:14] [INFO] Volume: Volume II
+[2026-05-27 17:57:14] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 17:57:14] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 17:57:14] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 17:57:14] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 17:57:14] [INFO] Pasta base localizada: Sim
+[2026-05-27 17:57:14] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 17:57:16] [INFO] Nativo encontrado: Sim
+[2026-05-27 17:57:16] [INFO] PDF encontrado: Sim
+[2026-05-27 17:57:16] [INFO] XFDF encontrado: Nao
+[2026-05-27 17:57:16] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 17:57:17] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a.dwg
+[2026-05-27 17:57:18] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a.pdf
+[2026-05-27 17:57:19] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00b.dwg
+[2026-05-27 17:57:20] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00b.pdf
+[2026-05-27 17:57:20] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a_1.dwg
+[2026-05-27 17:57:21] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a_1.pdf
+[2026-05-27 17:57:22] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 17:57:22] [INFO] 
+[2026-05-27 17:57:22] [INFO] Contador: 52/73
+[2026-05-27 17:57:22] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a.pdf
+[2026-05-27 17:57:22] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 17:57:22] [INFO] Poder Concedente: ANTT
+[2026-05-27 17:57:22] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 17:57:22] [INFO] Volume: Volume II
+[2026-05-27 17:57:22] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 17:57:22] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 17:57:22] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 17:57:22] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 17:57:22] [INFO] Pasta base localizada: Sim
+[2026-05-27 17:57:22] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 17:57:25] [INFO] Nativo encontrado: Sim
+[2026-05-27 17:57:25] [INFO] PDF encontrado: Sim
+[2026-05-27 17:57:25] [INFO] XFDF encontrado: Nao
+[2026-05-27 17:57:25] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 17:57:26] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a.dwg
+[2026-05-27 17:57:27] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a.pdf
+[2026-05-27 17:57:28] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00b.dwg
+[2026-05-27 17:57:29] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00b.pdf
+[2026-05-27 17:57:29] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a_1.dwg
+[2026-05-27 17:57:30] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a_1.pdf
+[2026-05-27 17:57:31] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 17:57:31] [INFO] 
+[2026-05-27 17:57:31] [INFO] Contador: 53/73
+[2026-05-27 17:57:31] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a_1.pdf
+[2026-05-27 17:57:31] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 17:57:31] [INFO] Poder Concedente: ANTT
+[2026-05-27 17:57:31] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 17:57:31] [INFO] Volume: Volume II
+[2026-05-27 17:57:31] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 17:57:31] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 17:57:31] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 17:57:31] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 17:57:31] [INFO] Pasta base localizada: Sim
+[2026-05-27 17:57:31] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 17:57:34] [INFO] Nativo encontrado: Sim
+[2026-05-27 17:57:34] [INFO] PDF encontrado: Sim
+[2026-05-27 17:57:34] [INFO] XFDF encontrado: Nao
+[2026-05-27 17:57:34] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 17:57:35] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a.dwg
+[2026-05-27 17:57:36] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a.pdf
+[2026-05-27 17:57:37] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00b.dwg
+[2026-05-27 17:57:38] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00b.pdf
+[2026-05-27 17:57:39] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a_1.dwg
+[2026-05-27 17:57:40] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00a_1.pdf
+[2026-05-27 17:57:40] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 17:57:40] [INFO] 
+[2026-05-27 17:57:40] [INFO] Contador: 54/73
+[2026-05-27 17:57:40] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00b.dwg
+[2026-05-27 17:57:40] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:57:40] [AVISO] Erros atual: Versao incorreta. A versao correta seria: A
+[2026-05-27 17:57:40] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:57:40] [INFO] 
+[2026-05-27 17:57:40] [INFO] Contador: 55/73
+[2026-05-27 17:57:40] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-002-R00b.pdf
+[2026-05-27 17:57:40] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:57:40] [AVISO] Erros atual: Versao incorreta. A versao correta seria: A
+[2026-05-27 17:57:40] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:57:40] [INFO] 
+[2026-05-27 17:57:40] [INFO] Contador: 56/73
+[2026-05-27 17:57:40] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a.dwg
+[2026-05-27 17:57:40] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 17:57:41] [INFO] Poder Concedente: ANTT
+[2026-05-27 17:57:41] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 17:57:41] [INFO] Volume: Volume II
+[2026-05-27 17:57:41] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 17:57:41] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 17:57:41] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 17:57:41] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 17:57:41] [INFO] Pasta base localizada: Sim
+[2026-05-27 17:57:41] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 17:57:45] [INFO] Nativo encontrado: Sim
+[2026-05-27 17:57:45] [INFO] PDF encontrado: Sim
+[2026-05-27 17:57:45] [INFO] XFDF encontrado: Nao
+[2026-05-27 17:57:46] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 17:58:27] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 17:58:27] [INFO] 
+[2026-05-27 17:58:27] [INFO] Contador: 57/73
+[2026-05-27 17:58:27] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a_1.dwg
+[2026-05-27 17:58:27] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 17:58:27] [INFO] Poder Concedente: ANTT
+[2026-05-27 17:58:27] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 17:58:27] [INFO] Volume: Volume II
+[2026-05-27 17:58:27] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 17:58:27] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 17:58:27] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 17:58:27] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 17:58:27] [INFO] Pasta base localizada: Sim
+[2026-05-27 17:58:27] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 17:58:30] [INFO] Nativo encontrado: Sim
+[2026-05-27 17:58:30] [INFO] PDF encontrado: Sim
+[2026-05-27 17:58:30] [INFO] XFDF encontrado: Nao
+[2026-05-27 17:58:30] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 17:58:34] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a.dwg
+[2026-05-27 17:58:40] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a.pdf
+[2026-05-27 17:58:44] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00b.dwg
+[2026-05-27 17:58:48] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00b.pdf
+[2026-05-27 17:58:51] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a_1.dwg
+[2026-05-27 17:58:52] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a_1.pdf
+[2026-05-27 17:58:52] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 17:58:52] [INFO] 
+[2026-05-27 17:58:52] [INFO] Contador: 58/73
+[2026-05-27 17:58:52] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a.pdf
+[2026-05-27 17:58:52] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 17:58:52] [INFO] Poder Concedente: ANTT
+[2026-05-27 17:58:52] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 17:58:52] [INFO] Volume: Volume II
+[2026-05-27 17:58:52] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 17:58:52] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 17:58:52] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 17:58:52] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 17:58:52] [INFO] Pasta base localizada: Sim
+[2026-05-27 17:58:52] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 17:58:55] [INFO] Nativo encontrado: Sim
+[2026-05-27 17:58:55] [INFO] PDF encontrado: Sim
+[2026-05-27 17:58:55] [INFO] XFDF encontrado: Nao
+[2026-05-27 17:58:55] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 17:58:56] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a.dwg
+[2026-05-27 17:58:57] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a.pdf
+[2026-05-27 17:58:58] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00b.dwg
+[2026-05-27 17:58:59] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00b.pdf
+[2026-05-27 17:59:00] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a_1.dwg
+[2026-05-27 17:59:00] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a_1.pdf
+[2026-05-27 17:59:01] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 17:59:01] [INFO] 
+[2026-05-27 17:59:01] [INFO] Contador: 59/73
+[2026-05-27 17:59:01] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a_1.pdf
+[2026-05-27 17:59:01] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 17:59:01] [INFO] Poder Concedente: ANTT
+[2026-05-27 17:59:01] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 17:59:01] [INFO] Volume: Volume II
+[2026-05-27 17:59:01] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 17:59:01] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 17:59:01] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 17:59:01] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 17:59:01] [INFO] Pasta base localizada: Sim
+[2026-05-27 17:59:01] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 17:59:04] [INFO] Nativo encontrado: Sim
+[2026-05-27 17:59:04] [INFO] PDF encontrado: Sim
+[2026-05-27 17:59:04] [INFO] XFDF encontrado: Nao
+[2026-05-27 17:59:05] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 17:59:06] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a.dwg
+[2026-05-27 17:59:07] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a.pdf
+[2026-05-27 17:59:08] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00b.dwg
+[2026-05-27 17:59:08] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00b.pdf
+[2026-05-27 17:59:10] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a_1.dwg
+[2026-05-27 17:59:11] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00a_1.pdf
+[2026-05-27 17:59:11] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 17:59:11] [INFO] 
+[2026-05-27 17:59:11] [INFO] Contador: 60/73
+[2026-05-27 17:59:11] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00b.dwg
+[2026-05-27 17:59:11] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:59:11] [AVISO] Erros atual: Versao incorreta. A versao correta seria: A
+[2026-05-27 17:59:12] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:59:12] [INFO] 
+[2026-05-27 17:59:12] [INFO] Contador: 61/73
+[2026-05-27 17:59:12] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-003-R00b.pdf
+[2026-05-27 17:59:12] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 17:59:12] [AVISO] Erros atual: Versao incorreta. A versao correta seria: A
+[2026-05-27 17:59:12] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 17:59:12] [INFO] 
+[2026-05-27 17:59:12] [INFO] Contador: 62/73
+[2026-05-27 17:59:12] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a.dwg
+[2026-05-27 17:59:12] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 17:59:12] [INFO] Poder Concedente: ANTT
+[2026-05-27 17:59:12] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 17:59:12] [INFO] Volume: Volume II
+[2026-05-27 17:59:12] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 17:59:12] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 17:59:12] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 17:59:12] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 17:59:12] [INFO] Pasta base localizada: Sim
+[2026-05-27 17:59:12] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 17:59:15] [INFO] Nativo encontrado: Sim
+[2026-05-27 17:59:15] [INFO] PDF encontrado: Sim
+[2026-05-27 17:59:15] [INFO] XFDF encontrado: Nao
+[2026-05-27 17:59:16] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 18:00:07] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 18:00:07] [INFO] 
+[2026-05-27 18:00:07] [INFO] Contador: 63/73
+[2026-05-27 18:00:07] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a_1.dwg
+[2026-05-27 18:00:07] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 18:00:07] [INFO] Poder Concedente: ANTT
+[2026-05-27 18:00:07] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 18:00:07] [INFO] Volume: Volume II
+[2026-05-27 18:00:07] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 18:00:07] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 18:00:07] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 18:00:07] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 18:00:07] [INFO] Pasta base localizada: Sim
+[2026-05-27 18:00:07] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 18:00:10] [INFO] Nativo encontrado: Sim
+[2026-05-27 18:00:10] [INFO] PDF encontrado: Sim
+[2026-05-27 18:00:10] [INFO] XFDF encontrado: Nao
+[2026-05-27 18:00:11] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 18:00:15] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a.dwg
+[2026-05-27 18:00:20] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a.pdf
+[2026-05-27 18:00:23] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a_1.dwg
+[2026-05-27 18:00:29] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a_1.pdf
+[2026-05-27 18:00:30] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-004-RCA.dwg
+[2026-05-27 18:00:31] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-004-RCA.pdf
+[2026-05-27 18:00:32] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 18:00:32] [INFO] 
+[2026-05-27 18:00:32] [INFO] Contador: 64/73
+[2026-05-27 18:00:32] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a.pdf
+[2026-05-27 18:00:32] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 18:00:32] [INFO] Poder Concedente: ANTT
+[2026-05-27 18:00:32] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 18:00:32] [INFO] Volume: Volume II
+[2026-05-27 18:00:32] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 18:00:32] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 18:00:32] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 18:00:32] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 18:00:32] [INFO] Pasta base localizada: Sim
+[2026-05-27 18:00:32] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 18:00:35] [INFO] Nativo encontrado: Sim
+[2026-05-27 18:00:35] [INFO] PDF encontrado: Sim
+[2026-05-27 18:00:35] [INFO] XFDF encontrado: Nao
+[2026-05-27 18:00:36] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 18:00:37] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a.dwg
+[2026-05-27 18:00:38] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a.pdf
+[2026-05-27 18:00:39] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a_1.dwg
+[2026-05-27 18:00:40] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a_1.pdf
+[2026-05-27 18:00:41] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-004-RCA.dwg
+[2026-05-27 18:00:42] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-004-RCA.pdf
+[2026-05-27 18:00:43] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 18:00:43] [INFO] 
+[2026-05-27 18:00:43] [INFO] Contador: 65/73
+[2026-05-27 18:00:43] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a_1.pdf
+[2026-05-27 18:00:43] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 18:00:44] [INFO] Poder Concedente: ANTT
+[2026-05-27 18:00:44] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 18:00:44] [INFO] Volume: Volume II
+[2026-05-27 18:00:44] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 18:00:44] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 18:00:44] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 18:00:44] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 18:00:44] [INFO] Pasta base localizada: Sim
+[2026-05-27 18:00:44] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 18:00:47] [INFO] Nativo encontrado: Sim
+[2026-05-27 18:00:47] [INFO] PDF encontrado: Sim
+[2026-05-27 18:00:47] [INFO] XFDF encontrado: Nao
+[2026-05-27 18:00:47] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 18:00:48] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a.dwg
+[2026-05-27 18:00:49] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a.pdf
+[2026-05-27 18:00:50] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a_1.dwg
+[2026-05-27 18:00:51] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-004-R00a_1.pdf
+[2026-05-27 18:00:52] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-004-RCA.dwg
+[2026-05-27 18:00:53] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-004-RCA.pdf
+[2026-05-27 18:00:54] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 18:00:54] [INFO] 
+[2026-05-27 18:00:54] [INFO] Contador: 66/73
+[2026-05-27 18:00:54] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-004-RCA.dwg
+[2026-05-27 18:00:54] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 18:00:54] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 18:00:54] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 18:00:54] [INFO] 
+[2026-05-27 18:00:54] [INFO] Contador: 67/73
+[2026-05-27 18:00:54] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-004-RCA.pdf
+[2026-05-27 18:00:54] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 18:00:54] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 18:00:54] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 18:00:54] [INFO] 
+[2026-05-27 18:00:54] [INFO] Contador: 68/73
+[2026-05-27 18:00:54] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a.dwg
+[2026-05-27 18:00:54] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 18:00:54] [INFO] Poder Concedente: ANTT
+[2026-05-27 18:00:54] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 18:00:54] [INFO] Volume: Volume II
+[2026-05-27 18:00:54] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 18:00:54] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 18:00:54] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 18:00:54] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 18:00:54] [INFO] Pasta base localizada: Sim
+[2026-05-27 18:00:54] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 18:00:57] [INFO] Nativo encontrado: Sim
+[2026-05-27 18:00:57] [INFO] PDF encontrado: Sim
+[2026-05-27 18:00:57] [INFO] XFDF encontrado: Nao
+[2026-05-27 18:00:57] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 18:01:19] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 18:01:19] [INFO] 
+[2026-05-27 18:01:19] [INFO] Contador: 69/73
+[2026-05-27 18:01:19] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a_1.dwg
+[2026-05-27 18:01:19] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 18:01:19] [INFO] Poder Concedente: ANTT
+[2026-05-27 18:01:19] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 18:01:19] [INFO] Volume: Volume II
+[2026-05-27 18:01:19] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 18:01:19] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 18:01:19] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 18:01:19] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 18:01:19] [INFO] Pasta base localizada: Sim
+[2026-05-27 18:01:19] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 18:01:22] [INFO] Nativo encontrado: Sim
+[2026-05-27 18:01:22] [INFO] PDF encontrado: Sim
+[2026-05-27 18:01:22] [INFO] XFDF encontrado: Nao
+[2026-05-27 18:01:22] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 18:01:23] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a.dwg
+[2026-05-27 18:01:24] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a.pdf
+[2026-05-27 18:01:25] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a_1.dwg
+[2026-05-27 18:01:26] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a_1.pdf
+[2026-05-27 18:01:26] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-005-RCA.dwg
+[2026-05-27 18:01:27] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-005-RCA.pdf
+[2026-05-27 18:01:28] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 18:01:28] [INFO] 
+[2026-05-27 18:01:28] [INFO] Contador: 70/73
+[2026-05-27 18:01:28] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a.pdf
+[2026-05-27 18:01:28] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 18:01:28] [INFO] Poder Concedente: ANTT
+[2026-05-27 18:01:28] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 18:01:28] [INFO] Volume: Volume II
+[2026-05-27 18:01:28] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 18:01:28] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 18:01:28] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 18:01:28] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 18:01:28] [INFO] Pasta base localizada: Sim
+[2026-05-27 18:01:28] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 18:01:31] [INFO] Nativo encontrado: Sim
+[2026-05-27 18:01:31] [INFO] PDF encontrado: Sim
+[2026-05-27 18:01:31] [INFO] XFDF encontrado: Nao
+[2026-05-27 18:01:32] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 18:01:33] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a.dwg
+[2026-05-27 18:01:33] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a.pdf
+[2026-05-27 18:01:35] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a_1.dwg
+[2026-05-27 18:01:36] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a_1.pdf
+[2026-05-27 18:01:37] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-005-RCA.dwg
+[2026-05-27 18:01:38] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-005-RCA.pdf
+[2026-05-27 18:01:39] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 18:01:39] [INFO] 
+[2026-05-27 18:01:39] [INFO] Contador: 71/73
+[2026-05-27 18:01:39] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a_1.pdf
+[2026-05-27 18:01:39] [INFO] State atual: Validado pelo Sistema - Pasta destino nao localizada
+[2026-05-27 18:01:40] [INFO] Poder Concedente: ANTT
+[2026-05-27 18:01:40] [INFO] Fase destino: 02 - Anteprojeto
+[2026-05-27 18:01:40] [INFO] Volume: Volume II
+[2026-05-27 18:01:40] [INFO] Disciplina: K2 -> Iluminação
+[2026-05-27 18:01:40] [INFO] Disciplina encontrada na lista oficial: Sim
+[2026-05-27 18:01:40] [INFO] Tipo Documento: DE -> Desenhos
+[2026-05-27 18:01:40] [INFO] Destino calculado: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 18:01:40] [INFO] Pasta base localizada: Sim
+[2026-05-27 18:01:40] [INFO] Pasta destino ja garantida em cache: Engenharia\Ecovias Rio Minas\Projetos\Praça P6\1 - Area de Trabalho\02 - Anteprojeto\Volume II\Iluminação\Desenhos
+[2026-05-27 18:01:51] [INFO] Nativo encontrado: Sim
+[2026-05-27 18:01:51] [INFO] PDF encontrado: Sim
+[2026-05-27 18:01:51] [INFO] XFDF encontrado: Nao
+[2026-05-27 18:01:51] [INFO] Superados: nenhum documento anterior encontrado.
+[2026-05-27 18:01:52] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a.dwg
+[2026-05-27 18:01:53] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a.pdf
+[2026-05-27 18:01:54] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a_1.dwg
+[2026-05-27 18:01:54] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-005-R00a_1.pdf
+[2026-05-27 18:01:55] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-005-RCA.dwg
+[2026-05-27 18:01:56] [AVISO] Documento ja existe no destino: ERM-493RJ-112+815-PDA-ANT-DE-K2-005-RCA.pdf
+[2026-05-27 18:01:57] [OK] Resultado final: documento reanalisado e fluxo de movimentacao concluido.
+[2026-05-27 18:01:57] [INFO] 
+[2026-05-27 18:01:57] [INFO] Contador: 72/73
+[2026-05-27 18:01:57] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-005-RCA.dwg
+[2026-05-27 18:01:57] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 18:01:57] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 18:01:57] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 18:01:57] [INFO] 
+[2026-05-27 18:01:57] [INFO] Contador: 73/73
+[2026-05-27 18:01:57] [INFO] Documento: ERM-493RJ-112+815-PDA-ANT-DE-K2-005-RCA.pdf
+[2026-05-27 18:01:57] [INFO] State atual: Nao Validado pelo Sistema
+[2026-05-27 18:01:57] [AVISO] Erros atual: Revisao e Versao incorreta. O correto seria, Revisao: 00 Versao: A
+[2026-05-27 18:01:57] [AVISO] Documento ignorado: o atributo Erros indica pendencia de validacao, nao problema de pasta destino/movimentacao.
+[2026-05-27 18:01:57] [INFO] 
+[2026-05-27 18:01:57] [INFO] ============================================================
+[2026-05-27 18:01:57] [INFO] Resumo da reanalise/movimentacao assistida
+[2026-05-27 18:01:57] [INFO] ============================================================
+[2026-05-27 18:01:57] [INFO] Encontrados: 73
+[2026-05-27 18:01:57] [INFO] Processados: 73
+[2026-05-27 18:01:57] [INFO] DestinoCalculado: 28
+[2026-05-27 18:01:57] [INFO] PastaBaseNaoLocalizada: 0
+[2026-05-27 18:01:57] [INFO] DisciplinaNaoLocalizada: 0
+[2026-05-27 18:01:57] [INFO] TipoDocumentoVazio: 0
+[2026-05-27 18:01:57] [INFO] IgnoradosErroValidacao: 45
+[2026-05-27 18:01:57] [INFO] PastasCriadas: 6
+[2026-05-27 18:01:57] [INFO] DocumentosCopiados: 38
+[2026-05-27 18:01:57] [INFO] DocumentosMovidos: 0
+[2026-05-27 18:01:57] [INFO] JaExistiamNoDestino: 98
+[2026-05-27 18:01:57] [INFO] MovidosParaSuperados: 0
+[2026-05-27 18:01:57] [INFO] EstadosAtualizados: 56
+[2026-05-27 18:01:57] [INFO] Erros: 0
+[2026-05-27 18:01:57] [INFO] ============================================================
+[2026-05-27 18:01:57] [INFO] Log detalhado: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\ReavaliarMovimentacaoDocumentos_20260527_174208.log
