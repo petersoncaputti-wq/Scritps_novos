@@ -1,0 +1,37 @@
+﻿timestamp,nomeProjeto,projectId,email,acao_solicitada,acao_planejada,situacao_usuario,status,http_status
+2026-05-29T09:49:47,"02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste",bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66,an***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-29T09:49:47,"02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste",bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66,da***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-29T09:49:47,"02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste",bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66,je***@egis-group.com,incluir,atualizar_participante,participante,atualizado,200
+2026-05-29T09:49:47,"02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste",bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-29T09:49:47,"02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste",3d856c59-1088-4880-9217-cb841410147c,an***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-29T09:49:47,"02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste",3d856c59-1088-4880-9217-cb841410147c,da***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-29T09:49:47,"02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste",3d856c59-1088-4880-9217-cb841410147c,je***@egis-group.com,incluir,atualizar_participante,participante,atualizado,200
+2026-05-29T09:49:47,"02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste",3d856c59-1088-4880-9217-cb841410147c,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-29T09:49:47,"02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste",ea3b588e-3784-4f4d-aadd-ba905875ad99,an***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-29T09:49:47,"02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste",ea3b588e-3784-4f4d-aadd-ba905875ad99,da***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-29T09:49:47,"02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste",ea3b588e-3784-4f4d-aadd-ba905875ad99,je***@egis-group.com,incluir,atualizar_participante,participante,atualizado,200
+2026-05-29T09:49:47,"02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste",ea3b588e-3784-4f4d-aadd-ba905875ad99,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-29T09:49:47,"02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste",ae496c86-d35f-45ed-9421-67432d77d9bd,an***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-29T09:49:47,"02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste",ae496c86-d35f-45ed-9421-67432d77d9bd,da***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-29T09:49:47,"02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste",ae496c86-d35f-45ed-9421-67432d77d9bd,je***@egis-group.com,incluir,atualizar_participante,participante,atualizado,200
+2026-05-29T09:49:47,"02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste",ae496c86-d35f-45ed-9421-67432d77d9bd,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-29T09:49:47,02.02.02.05 - BSO 5 - (Localização á definir) - SP-280,5778dda5-3d2d-402b-bfd9-6f6e7d87a077,an***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-29T09:49:47,02.02.02.05 - BSO 5 - (Localização á definir) - SP-280,5778dda5-3d2d-402b-bfd9-6f6e7d87a077,da***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-29T09:49:47,02.02.02.05 - BSO 5 - (Localização á definir) - SP-280,5778dda5-3d2d-402b-bfd9-6f6e7d87a077,je***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-29T09:49:47,02.02.02.05 - BSO 5 - (Localização á definir) - SP-280,5778dda5-3d2d-402b-bfd9-6f6e7d87a077,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-29T09:49:47,02.02.03 - PPD 1 - km 20 - SP-280 - Leste,50c209f1-607a-4b28-b9a3-d5c139d8961a,an***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-29T09:49:47,02.02.03 - PPD 1 - km 20 - SP-280 - Leste,50c209f1-607a-4b28-b9a3-d5c139d8961a,da***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-29T09:49:47,02.02.03 - PPD 1 - km 20 - SP-280 - Leste,50c209f1-607a-4b28-b9a3-d5c139d8961a,je***@egis-group.com,incluir,atualizar_participante,participante,atualizado,200
+2026-05-29T09:49:47,02.02.03 - PPD 1 - km 20 - SP-280 - Leste,50c209f1-607a-4b28-b9a3-d5c139d8961a,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-29T09:49:47,02.02.03 - PPD 2 - km 33 - SP-280 - Oeste,dbe9beeb-f435-48b6-82d8-7714f491c706,an***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-29T09:49:47,02.02.03 - PPD 2 - km 33 - SP-280 - Oeste,dbe9beeb-f435-48b6-82d8-7714f491c706,da***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-29T09:49:47,02.02.03 - PPD 2 - km 33 - SP-280 - Oeste,dbe9beeb-f435-48b6-82d8-7714f491c706,je***@egis-group.com,incluir,atualizar_participante,participante,atualizado,200
+2026-05-29T09:49:47,02.02.03 - PPD 2 - km 33 - SP-280 - Oeste,dbe9beeb-f435-48b6-82d8-7714f491c706,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-29T09:49:47,03.11 - HS-WIM 1 - km 20 - SP-280,2d0daf2a-daa7-4b01-ae64-b0de2acc681a,an***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-29T09:49:47,03.11 - HS-WIM 1 - km 20 - SP-280,2d0daf2a-daa7-4b01-ae64-b0de2acc681a,da***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-29T09:49:47,03.11 - HS-WIM 1 - km 20 - SP-280,2d0daf2a-daa7-4b01-ae64-b0de2acc681a,je***@egis-group.com,incluir,atualizar_participante,participante,atualizado,200
+2026-05-29T09:49:47,03.11 - HS-WIM 1 - km 20 - SP-280,2d0daf2a-daa7-4b01-ae64-b0de2acc681a,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-29T09:49:47,03.11 - HS-WIM 2 - (Localização á definir) - SP-280,da2a40d3-8844-47a0-880d-1da9c9501096,an***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-29T09:49:47,03.11 - HS-WIM 2 - (Localização á definir) - SP-280,da2a40d3-8844-47a0-880d-1da9c9501096,da***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-29T09:49:47,03.11 - HS-WIM 2 - (Localização á definir) - SP-280,da2a40d3-8844-47a0-880d-1da9c9501096,je***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-05-29T09:49:47,03.11 - HS-WIM 2 - (Localização á definir) - SP-280,da2a40d3-8844-47a0-880d-1da9c9501096,ka***@egis-group.com,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200

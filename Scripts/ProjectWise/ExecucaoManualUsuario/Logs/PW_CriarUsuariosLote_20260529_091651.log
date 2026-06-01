@@ -1,0 +1,69 @@
+2026-05-29 09:16:51 | INFO | ProjectWise - criacao de usuarios em lote
+2026-05-29 09:16:52 | INFO | Log: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\PW_CriarUsuariosLote_20260529_091651.log
+2026-05-29 09:16:52 | INFO | Abrindo login no ProjectWise...
+2026-05-29 09:17:05 | OK | Login realizado. Usuario atual: Peterson Caputti
+2026-05-29 09:17:17 | INFO | Arquivo de entrada: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Modelo_Criacao_Usuarios_ProjectWise.xlsx
+2026-05-29 09:17:19 | INFO | Registros carregados: 22
+2026-05-29 09:17:19 | OK | Linha 2: usuario criado - Andrea Ferreira
+2026-05-29 09:17:20 | OK | Linha 3: usuario criado - Daniel Queiroz
+2026-05-29 09:17:20 | WARN | Linha 4: usuario ja existe - Jéssica Mello (encontrado por E-mail)
+2026-05-29 09:17:20 | WARN | Linha 5: usuario ja existe - Kauane Aparecida (encontrado por E-mail)
+2026-05-29 09:17:20 | WARN | Linha 6: invalida - Name vazio; E-mail vazio
+2026-05-29 09:17:20 | WARN | Linha 7: invalida - Name vazio; E-mail vazio
+2026-05-29 09:17:20 | WARN | Linha 8: invalida - Name vazio; E-mail vazio
+2026-05-29 09:17:20 | WARN | Linha 9: invalida - Name vazio; E-mail vazio
+2026-05-29 09:17:20 | WARN | Linha 10: invalida - Name vazio; E-mail vazio
+2026-05-29 09:17:20 | WARN | Linha 11: invalida - Name vazio; E-mail vazio
+2026-05-29 09:17:20 | WARN | Linha 12: invalida - Name vazio; E-mail vazio
+2026-05-29 09:17:20 | WARN | Linha 13: invalida - Name vazio; E-mail vazio
+2026-05-29 09:17:20 | WARN | Linha 14: invalida - Name vazio; E-mail vazio
+2026-05-29 09:17:20 | WARN | Linha 15: invalida - Name vazio; E-mail vazio
+2026-05-29 09:17:20 | WARN | Linha 16: invalida - Name vazio; E-mail vazio
+2026-05-29 09:17:20 | WARN | Linha 17: invalida - Name vazio; E-mail vazio
+2026-05-29 09:17:20 | WARN | Linha 18: invalida - Name vazio; E-mail vazio
+2026-05-29 09:17:20 | WARN | Linha 19: invalida - Name vazio; E-mail vazio
+2026-05-29 09:17:20 | WARN | Linha 20: invalida - Name vazio; E-mail vazio
+2026-05-29 09:17:20 | WARN | Linha 21: invalida - Name vazio; E-mail vazio
+2026-05-29 09:17:20 | WARN | Linha 22: invalida - Name vazio; E-mail vazio
+2026-05-29 09:17:20 | WARN | Linha 23: invalida - Name vazio; E-mail vazio
+2026-05-29 09:17:23 | WARN | Nenhuma pasta foi selecionada para a extracao. Usando pasta padrao: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\UsuariosPorDescricao_20260529_091651
+2026-05-29 09:17:23 | INFO | Gerando arquivo da lista processada para descricao: Projetista
+2026-05-29 09:17:24 | OK | Arquivo gerado: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\UsuariosPorDescricao_20260529_091651\Usuarios_Descricao_Projetista.xlsx
+2026-05-29 09:17:24 | INFO | Sessao ProjectWise encerrada.
+2026-05-29 09:17:24 | INFO | 
+2026-05-29 09:17:24 | INFO | ================ RESUMO FINAL ================
+2026-05-29 09:17:24 | INFO | Total de linhas processadas : 22
+2026-05-29 09:17:24 | OK | Usuarios criados            : 2
+2026-05-29 09:17:24 | OK | Usuarios atualizados        : 0
+2026-05-29 09:17:24 | WARN | Usuarios ja existentes      : 2
+2026-05-29 09:17:24 | INFO | Linhas apenas validadas     : 0
+2026-05-29 09:17:24 | WARN | Linhas invalidas            : 18
+2026-05-29 09:17:24 | OK | Erros de processamento      : 0
+2026-05-29 09:17:24 | OK | Relatorio completo          : C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\PW_CriarUsuariosLote_Relatorio_20260529_091651.csv
+2026-05-29 09:17:24 | OK | Arquivos Excel por descricao:
+2026-05-29 09:17:24 | OK | - C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\UsuariosPorDescricao_20260529_091651\Usuarios_Descricao_Projetista.xlsx
+2026-05-29 09:17:24 | INFO | 
+2026-05-29 09:17:24 | WARN | Linhas que precisam de atencao:
+2026-05-29 09:17:24 | WARN | - Linha 6 | INVALIDO |  | Name vazio; E-mail vazio
+2026-05-29 09:17:24 | WARN | - Linha 7 | INVALIDO |  | Name vazio; E-mail vazio
+2026-05-29 09:17:24 | WARN | - Linha 8 | INVALIDO |  | Name vazio; E-mail vazio
+2026-05-29 09:17:24 | WARN | - Linha 9 | INVALIDO |  | Name vazio; E-mail vazio
+2026-05-29 09:17:24 | WARN | - Linha 10 | INVALIDO |  | Name vazio; E-mail vazio
+2026-05-29 09:17:24 | WARN | - Linha 11 | INVALIDO |  | Name vazio; E-mail vazio
+2026-05-29 09:17:24 | WARN | - Linha 12 | INVALIDO |  | Name vazio; E-mail vazio
+2026-05-29 09:17:24 | WARN | - Linha 13 | INVALIDO |  | Name vazio; E-mail vazio
+2026-05-29 09:17:24 | WARN | - Linha 14 | INVALIDO |  | Name vazio; E-mail vazio
+2026-05-29 09:17:24 | WARN | - Linha 15 | INVALIDO |  | Name vazio; E-mail vazio
+2026-05-29 09:17:24 | WARN | - Linha 16 | INVALIDO |  | Name vazio; E-mail vazio
+2026-05-29 09:17:24 | WARN | - Linha 17 | INVALIDO |  | Name vazio; E-mail vazio
+2026-05-29 09:17:24 | WARN | - Linha 18 | INVALIDO |  | Name vazio; E-mail vazio
+2026-05-29 09:17:24 | WARN | - Linha 19 | INVALIDO |  | Name vazio; E-mail vazio
+2026-05-29 09:17:24 | WARN | - Linha 20 | INVALIDO |  | Name vazio; E-mail vazio
+2026-05-29 09:17:24 | WARN | - Linha 21 | INVALIDO |  | Name vazio; E-mail vazio
+2026-05-29 09:17:24 | WARN | - Linha 22 | INVALIDO |  | Name vazio; E-mail vazio
+2026-05-29 09:17:24 | WARN | - Linha 23 | INVALIDO |  | Name vazio; E-mail vazio
+2026-05-29 09:17:24 | INFO | 
+2026-05-29 09:17:24 | WARN | Usuarios que ja existiam e nao foram recriados:
+2026-05-29 09:17:24 | WARN | - Linha 4 | Projetista | Jéssica Mello | jessica.mello@egis-group.com
+2026-05-29 09:17:24 | WARN | - Linha 5 | Projetista | Kauane Aparecida | kauane.silva@egis-group.com
+2026-05-29 09:17:24 | INFO | ==============================================

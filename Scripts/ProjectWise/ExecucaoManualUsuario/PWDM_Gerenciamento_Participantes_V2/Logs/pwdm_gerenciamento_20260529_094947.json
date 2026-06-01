@@ -1,0 +1,3135 @@
+{
+  "timestamp": "2026-05-29T09:49:47",
+  "operacoes": [
+    {
+      "email": "an***@egis-group.com",
+      "nomeProjeto": "02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste",
+        "id": "311855",
+        "guid": "b5813bc9-dba9-495a-abab-24c58304e99a",
+        "connectedProjectId": "bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/ProjectSettings/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66",
+      "projectId": "bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "da***@egis-group.com",
+      "nomeProjeto": "02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste",
+        "id": "311855",
+        "guid": "b5813bc9-dba9-495a-abab-24c58304e99a",
+        "connectedProjectId": "bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/ProjectSettings/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66",
+      "projectId": "bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "je***@egis-group.com",
+      "nomeProjeto": "02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste",
+        "id": "311855",
+        "guid": "b5813bc9-dba9-495a-abab-24c58304e99a",
+        "connectedProjectId": "bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/ProjectSettings/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66",
+      "projectId": "bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Jessica RODRIGUES DE MELLO",
+        "email": "je***@egis-group.com",
+        "roleLabel": "Projetista Egis",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": true,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [
+          "2*5409"
+        ],
+        "id": "a3ac4d54-f1bd-49e9-baf6-0d6d6c608284",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ka***@egis-group.com",
+      "nomeProjeto": "02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste",
+        "id": "311855",
+        "guid": "b5813bc9-dba9-495a-abab-24c58304e99a",
+        "connectedProjectId": "bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/ProjectSettings/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66",
+      "projectId": "bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "an***@egis-group.com",
+      "nomeProjeto": "02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste",
+      "origemProjectWise": {
+        "nome": "02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste",
+        "id": "312266",
+        "guid": "9a16bedb-b7e4-49cc-bfc2-6b41056adfd7",
+        "connectedProjectId": "3d856c59-1088-4880-9217-cb841410147c",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/3d856c59-1088-4880-9217-cb841410147c/ProjectSettings/3d856c59-1088-4880-9217-cb841410147c/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "3d856c59-1088-4880-9217-cb841410147c",
+      "projectId": "3d856c59-1088-4880-9217-cb841410147c",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "da***@egis-group.com",
+      "nomeProjeto": "02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste",
+      "origemProjectWise": {
+        "nome": "02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste",
+        "id": "312266",
+        "guid": "9a16bedb-b7e4-49cc-bfc2-6b41056adfd7",
+        "connectedProjectId": "3d856c59-1088-4880-9217-cb841410147c",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/3d856c59-1088-4880-9217-cb841410147c/ProjectSettings/3d856c59-1088-4880-9217-cb841410147c/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "3d856c59-1088-4880-9217-cb841410147c",
+      "projectId": "3d856c59-1088-4880-9217-cb841410147c",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "je***@egis-group.com",
+      "nomeProjeto": "02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste",
+      "origemProjectWise": {
+        "nome": "02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste",
+        "id": "312266",
+        "guid": "9a16bedb-b7e4-49cc-bfc2-6b41056adfd7",
+        "connectedProjectId": "3d856c59-1088-4880-9217-cb841410147c",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/3d856c59-1088-4880-9217-cb841410147c/ProjectSettings/3d856c59-1088-4880-9217-cb841410147c/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "3d856c59-1088-4880-9217-cb841410147c",
+      "projectId": "3d856c59-1088-4880-9217-cb841410147c",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Jessica RODRIGUES DE MELLO",
+        "email": "je***@egis-group.com",
+        "roleLabel": "Projetista ",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "17631c3c-9e24-45c2-b993-d9f1662e4893",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ka***@egis-group.com",
+      "nomeProjeto": "02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste",
+      "origemProjectWise": {
+        "nome": "02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste",
+        "id": "312266",
+        "guid": "9a16bedb-b7e4-49cc-bfc2-6b41056adfd7",
+        "connectedProjectId": "3d856c59-1088-4880-9217-cb841410147c",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/3d856c59-1088-4880-9217-cb841410147c/ProjectSettings/3d856c59-1088-4880-9217-cb841410147c/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "3d856c59-1088-4880-9217-cb841410147c",
+      "projectId": "3d856c59-1088-4880-9217-cb841410147c",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "an***@egis-group.com",
+      "nomeProjeto": "02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste",
+        "id": "312677",
+        "guid": "77488ef1-35b7-4d76-b8a6-5c89ca48cbde",
+        "connectedProjectId": "ea3b588e-3784-4f4d-aadd-ba905875ad99",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/ea3b588e-3784-4f4d-aadd-ba905875ad99/ProjectSettings/ea3b588e-3784-4f4d-aadd-ba905875ad99/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "ea3b588e-3784-4f4d-aadd-ba905875ad99",
+      "projectId": "ea3b588e-3784-4f4d-aadd-ba905875ad99",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "da***@egis-group.com",
+      "nomeProjeto": "02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste",
+        "id": "312677",
+        "guid": "77488ef1-35b7-4d76-b8a6-5c89ca48cbde",
+        "connectedProjectId": "ea3b588e-3784-4f4d-aadd-ba905875ad99",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/ea3b588e-3784-4f4d-aadd-ba905875ad99/ProjectSettings/ea3b588e-3784-4f4d-aadd-ba905875ad99/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "ea3b588e-3784-4f4d-aadd-ba905875ad99",
+      "projectId": "ea3b588e-3784-4f4d-aadd-ba905875ad99",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "je***@egis-group.com",
+      "nomeProjeto": "02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste",
+        "id": "312677",
+        "guid": "77488ef1-35b7-4d76-b8a6-5c89ca48cbde",
+        "connectedProjectId": "ea3b588e-3784-4f4d-aadd-ba905875ad99",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/ea3b588e-3784-4f4d-aadd-ba905875ad99/ProjectSettings/ea3b588e-3784-4f4d-aadd-ba905875ad99/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "ea3b588e-3784-4f4d-aadd-ba905875ad99",
+      "projectId": "ea3b588e-3784-4f4d-aadd-ba905875ad99",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Jessica RODRIGUES DE MELLO",
+        "email": "je***@egis-group.com",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "ea82a29a-2e0f-4efe-9ae2-2ac7876db3ca",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ka***@egis-group.com",
+      "nomeProjeto": "02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste",
+        "id": "312677",
+        "guid": "77488ef1-35b7-4d76-b8a6-5c89ca48cbde",
+        "connectedProjectId": "ea3b588e-3784-4f4d-aadd-ba905875ad99",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/ea3b588e-3784-4f4d-aadd-ba905875ad99/ProjectSettings/ea3b588e-3784-4f4d-aadd-ba905875ad99/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "ea3b588e-3784-4f4d-aadd-ba905875ad99",
+      "projectId": "ea3b588e-3784-4f4d-aadd-ba905875ad99",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "an***@egis-group.com",
+      "nomeProjeto": "02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste",
+        "id": "313088",
+        "guid": "b013fc3f-989d-41bc-99f1-3ac5a4fe13ba",
+        "connectedProjectId": "ae496c86-d35f-45ed-9421-67432d77d9bd",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/ae496c86-d35f-45ed-9421-67432d77d9bd/ProjectSettings/ae496c86-d35f-45ed-9421-67432d77d9bd/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "ae496c86-d35f-45ed-9421-67432d77d9bd",
+      "projectId": "ae496c86-d35f-45ed-9421-67432d77d9bd",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "da***@egis-group.com",
+      "nomeProjeto": "02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste",
+        "id": "313088",
+        "guid": "b013fc3f-989d-41bc-99f1-3ac5a4fe13ba",
+        "connectedProjectId": "ae496c86-d35f-45ed-9421-67432d77d9bd",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/ae496c86-d35f-45ed-9421-67432d77d9bd/ProjectSettings/ae496c86-d35f-45ed-9421-67432d77d9bd/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "ae496c86-d35f-45ed-9421-67432d77d9bd",
+      "projectId": "ae496c86-d35f-45ed-9421-67432d77d9bd",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "je***@egis-group.com",
+      "nomeProjeto": "02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste",
+        "id": "313088",
+        "guid": "b013fc3f-989d-41bc-99f1-3ac5a4fe13ba",
+        "connectedProjectId": "ae496c86-d35f-45ed-9421-67432d77d9bd",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/ae496c86-d35f-45ed-9421-67432d77d9bd/ProjectSettings/ae496c86-d35f-45ed-9421-67432d77d9bd/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "ae496c86-d35f-45ed-9421-67432d77d9bd",
+      "projectId": "ae496c86-d35f-45ed-9421-67432d77d9bd",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Jessica RODRIGUES DE MELLO",
+        "email": "je***@egis-group.com",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "ade4416d-e1a5-4864-8c77-72ebcb83f21f",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ka***@egis-group.com",
+      "nomeProjeto": "02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste",
+        "id": "313088",
+        "guid": "b013fc3f-989d-41bc-99f1-3ac5a4fe13ba",
+        "connectedProjectId": "ae496c86-d35f-45ed-9421-67432d77d9bd",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/ae496c86-d35f-45ed-9421-67432d77d9bd/ProjectSettings/ae496c86-d35f-45ed-9421-67432d77d9bd/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "ae496c86-d35f-45ed-9421-67432d77d9bd",
+      "projectId": "ae496c86-d35f-45ed-9421-67432d77d9bd",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "an***@egis-group.com",
+      "nomeProjeto": "02.02.02.05 - BSO 5 - (Localização á definir) - SP-280",
+      "origemProjectWise": {
+        "nome": "02.02.02.05 - BSO 5 - (Localização á definir) - SP-280",
+        "id": "313499",
+        "guid": "d4df1966-1475-4057-9b07-ff226f5488f4",
+        "connectedProjectId": "5778dda5-3d2d-402b-bfd9-6f6e7d87a077",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/ProjectSettings/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "5778dda5-3d2d-402b-bfd9-6f6e7d87a077",
+      "projectId": "5778dda5-3d2d-402b-bfd9-6f6e7d87a077",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "da***@egis-group.com",
+      "nomeProjeto": "02.02.02.05 - BSO 5 - (Localização á definir) - SP-280",
+      "origemProjectWise": {
+        "nome": "02.02.02.05 - BSO 5 - (Localização á definir) - SP-280",
+        "id": "313499",
+        "guid": "d4df1966-1475-4057-9b07-ff226f5488f4",
+        "connectedProjectId": "5778dda5-3d2d-402b-bfd9-6f6e7d87a077",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/ProjectSettings/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "5778dda5-3d2d-402b-bfd9-6f6e7d87a077",
+      "projectId": "5778dda5-3d2d-402b-bfd9-6f6e7d87a077",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "je***@egis-group.com",
+      "nomeProjeto": "02.02.02.05 - BSO 5 - (Localização á definir) - SP-280",
+      "origemProjectWise": {
+        "nome": "02.02.02.05 - BSO 5 - (Localização á definir) - SP-280",
+        "id": "313499",
+        "guid": "d4df1966-1475-4057-9b07-ff226f5488f4",
+        "connectedProjectId": "5778dda5-3d2d-402b-bfd9-6f6e7d87a077",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/ProjectSettings/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "5778dda5-3d2d-402b-bfd9-6f6e7d87a077",
+      "projectId": "5778dda5-3d2d-402b-bfd9-6f6e7d87a077",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ka***@egis-group.com",
+      "nomeProjeto": "02.02.02.05 - BSO 5 - (Localização á definir) - SP-280",
+      "origemProjectWise": {
+        "nome": "02.02.02.05 - BSO 5 - (Localização á definir) - SP-280",
+        "id": "313499",
+        "guid": "d4df1966-1475-4057-9b07-ff226f5488f4",
+        "connectedProjectId": "5778dda5-3d2d-402b-bfd9-6f6e7d87a077",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/ProjectSettings/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "5778dda5-3d2d-402b-bfd9-6f6e7d87a077",
+      "projectId": "5778dda5-3d2d-402b-bfd9-6f6e7d87a077",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "an***@egis-group.com",
+      "nomeProjeto": "02.02.03 - PPD 1 - km 20 - SP-280 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.03 - PPD 1 - km 20 - SP-280 - Leste",
+        "id": "327363",
+        "guid": "dd212a56-0588-4400-b305-5a4ec3c72a53",
+        "connectedProjectId": "50c209f1-607a-4b28-b9a3-d5c139d8961a",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/50c209f1-607a-4b28-b9a3-d5c139d8961a/ProjectSettings/50c209f1-607a-4b28-b9a3-d5c139d8961a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "50c209f1-607a-4b28-b9a3-d5c139d8961a",
+      "projectId": "50c209f1-607a-4b28-b9a3-d5c139d8961a",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "da***@egis-group.com",
+      "nomeProjeto": "02.02.03 - PPD 1 - km 20 - SP-280 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.03 - PPD 1 - km 20 - SP-280 - Leste",
+        "id": "327363",
+        "guid": "dd212a56-0588-4400-b305-5a4ec3c72a53",
+        "connectedProjectId": "50c209f1-607a-4b28-b9a3-d5c139d8961a",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/50c209f1-607a-4b28-b9a3-d5c139d8961a/ProjectSettings/50c209f1-607a-4b28-b9a3-d5c139d8961a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "50c209f1-607a-4b28-b9a3-d5c139d8961a",
+      "projectId": "50c209f1-607a-4b28-b9a3-d5c139d8961a",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "je***@egis-group.com",
+      "nomeProjeto": "02.02.03 - PPD 1 - km 20 - SP-280 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.03 - PPD 1 - km 20 - SP-280 - Leste",
+        "id": "327363",
+        "guid": "dd212a56-0588-4400-b305-5a4ec3c72a53",
+        "connectedProjectId": "50c209f1-607a-4b28-b9a3-d5c139d8961a",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/50c209f1-607a-4b28-b9a3-d5c139d8961a/ProjectSettings/50c209f1-607a-4b28-b9a3-d5c139d8961a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "50c209f1-607a-4b28-b9a3-d5c139d8961a",
+      "projectId": "50c209f1-607a-4b28-b9a3-d5c139d8961a",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Jessica RODRIGUES DE MELLO",
+        "email": "je***@egis-group.com",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "e313a655-bedf-4729-84dd-b62fb79eebbf",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ka***@egis-group.com",
+      "nomeProjeto": "02.02.03 - PPD 1 - km 20 - SP-280 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.03 - PPD 1 - km 20 - SP-280 - Leste",
+        "id": "327363",
+        "guid": "dd212a56-0588-4400-b305-5a4ec3c72a53",
+        "connectedProjectId": "50c209f1-607a-4b28-b9a3-d5c139d8961a",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/50c209f1-607a-4b28-b9a3-d5c139d8961a/ProjectSettings/50c209f1-607a-4b28-b9a3-d5c139d8961a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "50c209f1-607a-4b28-b9a3-d5c139d8961a",
+      "projectId": "50c209f1-607a-4b28-b9a3-d5c139d8961a",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "an***@egis-group.com",
+      "nomeProjeto": "02.02.03 - PPD 2 - km 33 - SP-280 - Oeste",
+      "origemProjectWise": {
+        "nome": "02.02.03 - PPD 2 - km 33 - SP-280 - Oeste",
+        "id": "327774",
+        "guid": "b1c9e711-a1d8-4259-834f-88a16c57ff40",
+        "connectedProjectId": "dbe9beeb-f435-48b6-82d8-7714f491c706",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/dbe9beeb-f435-48b6-82d8-7714f491c706/ProjectSettings/dbe9beeb-f435-48b6-82d8-7714f491c706/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "dbe9beeb-f435-48b6-82d8-7714f491c706",
+      "projectId": "dbe9beeb-f435-48b6-82d8-7714f491c706",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "da***@egis-group.com",
+      "nomeProjeto": "02.02.03 - PPD 2 - km 33 - SP-280 - Oeste",
+      "origemProjectWise": {
+        "nome": "02.02.03 - PPD 2 - km 33 - SP-280 - Oeste",
+        "id": "327774",
+        "guid": "b1c9e711-a1d8-4259-834f-88a16c57ff40",
+        "connectedProjectId": "dbe9beeb-f435-48b6-82d8-7714f491c706",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/dbe9beeb-f435-48b6-82d8-7714f491c706/ProjectSettings/dbe9beeb-f435-48b6-82d8-7714f491c706/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "dbe9beeb-f435-48b6-82d8-7714f491c706",
+      "projectId": "dbe9beeb-f435-48b6-82d8-7714f491c706",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "je***@egis-group.com",
+      "nomeProjeto": "02.02.03 - PPD 2 - km 33 - SP-280 - Oeste",
+      "origemProjectWise": {
+        "nome": "02.02.03 - PPD 2 - km 33 - SP-280 - Oeste",
+        "id": "327774",
+        "guid": "b1c9e711-a1d8-4259-834f-88a16c57ff40",
+        "connectedProjectId": "dbe9beeb-f435-48b6-82d8-7714f491c706",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/dbe9beeb-f435-48b6-82d8-7714f491c706/ProjectSettings/dbe9beeb-f435-48b6-82d8-7714f491c706/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "dbe9beeb-f435-48b6-82d8-7714f491c706",
+      "projectId": "dbe9beeb-f435-48b6-82d8-7714f491c706",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Jessica RODRIGUES DE MELLO",
+        "email": "je***@egis-group.com",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "6e8f8840-fdb3-4711-bdb6-866cafe258e2",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ka***@egis-group.com",
+      "nomeProjeto": "02.02.03 - PPD 2 - km 33 - SP-280 - Oeste",
+      "origemProjectWise": {
+        "nome": "02.02.03 - PPD 2 - km 33 - SP-280 - Oeste",
+        "id": "327774",
+        "guid": "b1c9e711-a1d8-4259-834f-88a16c57ff40",
+        "connectedProjectId": "dbe9beeb-f435-48b6-82d8-7714f491c706",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/dbe9beeb-f435-48b6-82d8-7714f491c706/ProjectSettings/dbe9beeb-f435-48b6-82d8-7714f491c706/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "dbe9beeb-f435-48b6-82d8-7714f491c706",
+      "projectId": "dbe9beeb-f435-48b6-82d8-7714f491c706",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "an***@egis-group.com",
+      "nomeProjeto": "03.11 - HS-WIM 1 - km 20 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.11 - HS-WIM 1 - km 20 - SP-280",
+        "id": "328597",
+        "guid": "8eb542fd-4931-4f16-8e0f-b6bd00cd9c7a",
+        "connectedProjectId": "2d0daf2a-daa7-4b01-ae64-b0de2acc681a",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/ProjectSettings/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "2d0daf2a-daa7-4b01-ae64-b0de2acc681a",
+      "projectId": "2d0daf2a-daa7-4b01-ae64-b0de2acc681a",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "da***@egis-group.com",
+      "nomeProjeto": "03.11 - HS-WIM 1 - km 20 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.11 - HS-WIM 1 - km 20 - SP-280",
+        "id": "328597",
+        "guid": "8eb542fd-4931-4f16-8e0f-b6bd00cd9c7a",
+        "connectedProjectId": "2d0daf2a-daa7-4b01-ae64-b0de2acc681a",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/ProjectSettings/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "2d0daf2a-daa7-4b01-ae64-b0de2acc681a",
+      "projectId": "2d0daf2a-daa7-4b01-ae64-b0de2acc681a",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "je***@egis-group.com",
+      "nomeProjeto": "03.11 - HS-WIM 1 - km 20 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.11 - HS-WIM 1 - km 20 - SP-280",
+        "id": "328597",
+        "guid": "8eb542fd-4931-4f16-8e0f-b6bd00cd9c7a",
+        "connectedProjectId": "2d0daf2a-daa7-4b01-ae64-b0de2acc681a",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/ProjectSettings/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "2d0daf2a-daa7-4b01-ae64-b0de2acc681a",
+      "projectId": "2d0daf2a-daa7-4b01-ae64-b0de2acc681a",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Jessica RODRIGUES DE MELLO",
+        "email": "je***@egis-group.com",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "20baa9a5-f518-48f0-b2c6-34aa2b057cb8",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ka***@egis-group.com",
+      "nomeProjeto": "03.11 - HS-WIM 1 - km 20 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.11 - HS-WIM 1 - km 20 - SP-280",
+        "id": "328597",
+        "guid": "8eb542fd-4931-4f16-8e0f-b6bd00cd9c7a",
+        "connectedProjectId": "2d0daf2a-daa7-4b01-ae64-b0de2acc681a",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/ProjectSettings/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "2d0daf2a-daa7-4b01-ae64-b0de2acc681a",
+      "projectId": "2d0daf2a-daa7-4b01-ae64-b0de2acc681a",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "an***@egis-group.com",
+      "nomeProjeto": "03.11 - HS-WIM 2 - (Localização á definir) - SP-280",
+      "origemProjectWise": {
+        "nome": "03.11 - HS-WIM 2 - (Localização á definir) - SP-280",
+        "id": "329008",
+        "guid": "290c3c2b-873f-48eb-b301-c3bc8ff1586f",
+        "connectedProjectId": "da2a40d3-8844-47a0-880d-1da9c9501096",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/da2a40d3-8844-47a0-880d-1da9c9501096/ProjectSettings/da2a40d3-8844-47a0-880d-1da9c9501096/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "da2a40d3-8844-47a0-880d-1da9c9501096",
+      "projectId": "da2a40d3-8844-47a0-880d-1da9c9501096",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "da***@egis-group.com",
+      "nomeProjeto": "03.11 - HS-WIM 2 - (Localização á definir) - SP-280",
+      "origemProjectWise": {
+        "nome": "03.11 - HS-WIM 2 - (Localização á definir) - SP-280",
+        "id": "329008",
+        "guid": "290c3c2b-873f-48eb-b301-c3bc8ff1586f",
+        "connectedProjectId": "da2a40d3-8844-47a0-880d-1da9c9501096",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/da2a40d3-8844-47a0-880d-1da9c9501096/ProjectSettings/da2a40d3-8844-47a0-880d-1da9c9501096/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "da2a40d3-8844-47a0-880d-1da9c9501096",
+      "projectId": "da2a40d3-8844-47a0-880d-1da9c9501096",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "je***@egis-group.com",
+      "nomeProjeto": "03.11 - HS-WIM 2 - (Localização á definir) - SP-280",
+      "origemProjectWise": {
+        "nome": "03.11 - HS-WIM 2 - (Localização á definir) - SP-280",
+        "id": "329008",
+        "guid": "290c3c2b-873f-48eb-b301-c3bc8ff1586f",
+        "connectedProjectId": "da2a40d3-8844-47a0-880d-1da9c9501096",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/da2a40d3-8844-47a0-880d-1da9c9501096/ProjectSettings/da2a40d3-8844-47a0-880d-1da9c9501096/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "da2a40d3-8844-47a0-880d-1da9c9501096",
+      "projectId": "da2a40d3-8844-47a0-880d-1da9c9501096",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ka***@egis-group.com",
+      "nomeProjeto": "03.11 - HS-WIM 2 - (Localização á definir) - SP-280",
+      "origemProjectWise": {
+        "nome": "03.11 - HS-WIM 2 - (Localização á definir) - SP-280",
+        "id": "329008",
+        "guid": "290c3c2b-873f-48eb-b301-c3bc8ff1586f",
+        "connectedProjectId": "da2a40d3-8844-47a0-880d-1da9c9501096",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/da2a40d3-8844-47a0-880d-1da9c9501096/ProjectSettings/da2a40d3-8844-47a0-880d-1da9c9501096/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "da2a40d3-8844-47a0-880d-1da9c9501096",
+      "projectId": "da2a40d3-8844-47a0-880d-1da9c9501096",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    }
+  ],
+  "resultados": [
+    {
+      "projectId": "bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66",
+      "nomeProjeto": "02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste",
+        "id": "311855",
+        "guid": "b5813bc9-dba9-495a-abab-24c58304e99a",
+        "connectedProjectId": "bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/ProjectSettings/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "an***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/ProjectSettings/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/ProjectSettings/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Andrea FERREIRA",
+            "email": "an***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "cb7d3c82-0855-4407-bd2b-66352d3db0cf",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66",
+      "nomeProjeto": "02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste",
+        "id": "311855",
+        "guid": "b5813bc9-dba9-495a-abab-24c58304e99a",
+        "connectedProjectId": "bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/ProjectSettings/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "da***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/ProjectSettings/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/ProjectSettings/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Daniel BESERRA DE QUEIROZ",
+            "email": "da***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "6bf91c8b-595e-4c7a-8b8d-9d6294390ced",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66",
+      "nomeProjeto": "02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste",
+        "id": "311855",
+        "guid": "b5813bc9-dba9-495a-abab-24c58304e99a",
+        "connectedProjectId": "bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/ProjectSettings/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/ProjectSettings/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/PWProjectParticipantOrGroup",
+          "pageUrl": "https://pwdm.bentley.com/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/ProjectSettings/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "je***@egis-group.com",
+              "roleLabel": "Projetista Egis",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "a3ac4d54-f1bd-49e9-baf6-0d6d6c608284",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/ProjectSettings/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/ProjectSettings/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "je***@egis-group.com",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "a3ac4d54-f1bd-49e9-baf6-0d6d6c608284",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66",
+      "nomeProjeto": "02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste",
+        "id": "311855",
+        "guid": "b5813bc9-dba9-495a-abab-24c58304e99a",
+        "connectedProjectId": "bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/ProjectSettings/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ka***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/ProjectSettings/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/ProjectSettings/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Kauane APARECIDA ALCANTARA SILVA",
+            "email": "ka***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "2cfa0fc7-1f90-4286-8d79-8c6827393f9a",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "3d856c59-1088-4880-9217-cb841410147c",
+      "nomeProjeto": "02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste",
+      "origemProjectWise": {
+        "nome": "02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste",
+        "id": "312266",
+        "guid": "9a16bedb-b7e4-49cc-bfc2-6b41056adfd7",
+        "connectedProjectId": "3d856c59-1088-4880-9217-cb841410147c",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/3d856c59-1088-4880-9217-cb841410147c/ProjectSettings/3d856c59-1088-4880-9217-cb841410147c/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "an***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/3d856c59-1088-4880-9217-cb841410147c/ProjectSettings/3d856c59-1088-4880-9217-cb841410147c/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/3d856c59-1088-4880-9217-cb841410147c/ProjectSettings/3d856c59-1088-4880-9217-cb841410147c/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Andrea FERREIRA",
+            "email": "an***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "3847b10a-e49e-424c-9741-37602401860d",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "3d856c59-1088-4880-9217-cb841410147c",
+      "nomeProjeto": "02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste",
+      "origemProjectWise": {
+        "nome": "02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste",
+        "id": "312266",
+        "guid": "9a16bedb-b7e4-49cc-bfc2-6b41056adfd7",
+        "connectedProjectId": "3d856c59-1088-4880-9217-cb841410147c",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/3d856c59-1088-4880-9217-cb841410147c/ProjectSettings/3d856c59-1088-4880-9217-cb841410147c/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "da***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/3d856c59-1088-4880-9217-cb841410147c/ProjectSettings/3d856c59-1088-4880-9217-cb841410147c/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/3d856c59-1088-4880-9217-cb841410147c/ProjectSettings/3d856c59-1088-4880-9217-cb841410147c/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Daniel BESERRA DE QUEIROZ",
+            "email": "da***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "cd7cb3fd-42ba-4907-b94c-acbaf4d81af1",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "3d856c59-1088-4880-9217-cb841410147c",
+      "nomeProjeto": "02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste",
+      "origemProjectWise": {
+        "nome": "02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste",
+        "id": "312266",
+        "guid": "9a16bedb-b7e4-49cc-bfc2-6b41056adfd7",
+        "connectedProjectId": "3d856c59-1088-4880-9217-cb841410147c",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/3d856c59-1088-4880-9217-cb841410147c/ProjectSettings/3d856c59-1088-4880-9217-cb841410147c/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/3d856c59-1088-4880-9217-cb841410147c/ProjectSettings/3d856c59-1088-4880-9217-cb841410147c/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/3d856c59-1088-4880-9217-cb841410147c/ProjectSettings/3d856c59-1088-4880-9217-cb841410147c/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "je***@egis-group.com",
+            "roleLabel": "Projetista ",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "17631c3c-9e24-45c2-b993-d9f1662e4893",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/3d856c59-1088-4880-9217-cb841410147c/ProjectSettings/3d856c59-1088-4880-9217-cb841410147c/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/3d856c59-1088-4880-9217-cb841410147c/ProjectSettings/3d856c59-1088-4880-9217-cb841410147c/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "je***@egis-group.com",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "17631c3c-9e24-45c2-b993-d9f1662e4893",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "3d856c59-1088-4880-9217-cb841410147c",
+      "nomeProjeto": "02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste",
+      "origemProjectWise": {
+        "nome": "02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste",
+        "id": "312266",
+        "guid": "9a16bedb-b7e4-49cc-bfc2-6b41056adfd7",
+        "connectedProjectId": "3d856c59-1088-4880-9217-cb841410147c",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/3d856c59-1088-4880-9217-cb841410147c/ProjectSettings/3d856c59-1088-4880-9217-cb841410147c/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ka***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/3d856c59-1088-4880-9217-cb841410147c/ProjectSettings/3d856c59-1088-4880-9217-cb841410147c/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/3d856c59-1088-4880-9217-cb841410147c/ProjectSettings/3d856c59-1088-4880-9217-cb841410147c/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Kauane APARECIDA ALCANTARA SILVA",
+            "email": "ka***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "581d2a8f-5ff0-4a4f-b02c-bd751cd3f1da",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "ea3b588e-3784-4f4d-aadd-ba905875ad99",
+      "nomeProjeto": "02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste",
+        "id": "312677",
+        "guid": "77488ef1-35b7-4d76-b8a6-5c89ca48cbde",
+        "connectedProjectId": "ea3b588e-3784-4f4d-aadd-ba905875ad99",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/ea3b588e-3784-4f4d-aadd-ba905875ad99/ProjectSettings/ea3b588e-3784-4f4d-aadd-ba905875ad99/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "an***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/ea3b588e-3784-4f4d-aadd-ba905875ad99/ProjectSettings/ea3b588e-3784-4f4d-aadd-ba905875ad99/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/ea3b588e-3784-4f4d-aadd-ba905875ad99/ProjectSettings/ea3b588e-3784-4f4d-aadd-ba905875ad99/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Andrea FERREIRA",
+            "email": "an***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "a7572b16-ed12-4a4b-a18e-91fd86731129",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "ea3b588e-3784-4f4d-aadd-ba905875ad99",
+      "nomeProjeto": "02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste",
+        "id": "312677",
+        "guid": "77488ef1-35b7-4d76-b8a6-5c89ca48cbde",
+        "connectedProjectId": "ea3b588e-3784-4f4d-aadd-ba905875ad99",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/ea3b588e-3784-4f4d-aadd-ba905875ad99/ProjectSettings/ea3b588e-3784-4f4d-aadd-ba905875ad99/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "da***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/ea3b588e-3784-4f4d-aadd-ba905875ad99/ProjectSettings/ea3b588e-3784-4f4d-aadd-ba905875ad99/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/ea3b588e-3784-4f4d-aadd-ba905875ad99/ProjectSettings/ea3b588e-3784-4f4d-aadd-ba905875ad99/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Daniel BESERRA DE QUEIROZ",
+            "email": "da***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "c779f451-550e-4b69-8e6e-f53721b198c0",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "ea3b588e-3784-4f4d-aadd-ba905875ad99",
+      "nomeProjeto": "02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste",
+        "id": "312677",
+        "guid": "77488ef1-35b7-4d76-b8a6-5c89ca48cbde",
+        "connectedProjectId": "ea3b588e-3784-4f4d-aadd-ba905875ad99",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/ea3b588e-3784-4f4d-aadd-ba905875ad99/ProjectSettings/ea3b588e-3784-4f4d-aadd-ba905875ad99/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/ea3b588e-3784-4f4d-aadd-ba905875ad99/ProjectSettings/ea3b588e-3784-4f4d-aadd-ba905875ad99/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/ea3b588e-3784-4f4d-aadd-ba905875ad99/ProjectSettings/ea3b588e-3784-4f4d-aadd-ba905875ad99/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "je***@egis-group.com",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "ea82a29a-2e0f-4efe-9ae2-2ac7876db3ca",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/ea3b588e-3784-4f4d-aadd-ba905875ad99/ProjectSettings/ea3b588e-3784-4f4d-aadd-ba905875ad99/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/ea3b588e-3784-4f4d-aadd-ba905875ad99/ProjectSettings/ea3b588e-3784-4f4d-aadd-ba905875ad99/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "je***@egis-group.com",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "ea82a29a-2e0f-4efe-9ae2-2ac7876db3ca",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "ea3b588e-3784-4f4d-aadd-ba905875ad99",
+      "nomeProjeto": "02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste",
+        "id": "312677",
+        "guid": "77488ef1-35b7-4d76-b8a6-5c89ca48cbde",
+        "connectedProjectId": "ea3b588e-3784-4f4d-aadd-ba905875ad99",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/ea3b588e-3784-4f4d-aadd-ba905875ad99/ProjectSettings/ea3b588e-3784-4f4d-aadd-ba905875ad99/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ka***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/ea3b588e-3784-4f4d-aadd-ba905875ad99/ProjectSettings/ea3b588e-3784-4f4d-aadd-ba905875ad99/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/ea3b588e-3784-4f4d-aadd-ba905875ad99/ProjectSettings/ea3b588e-3784-4f4d-aadd-ba905875ad99/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Kauane APARECIDA ALCANTARA SILVA",
+            "email": "ka***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "4b143194-2359-4d58-bb05-7de0e11e58e2",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "ae496c86-d35f-45ed-9421-67432d77d9bd",
+      "nomeProjeto": "02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste",
+        "id": "313088",
+        "guid": "b013fc3f-989d-41bc-99f1-3ac5a4fe13ba",
+        "connectedProjectId": "ae496c86-d35f-45ed-9421-67432d77d9bd",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/ae496c86-d35f-45ed-9421-67432d77d9bd/ProjectSettings/ae496c86-d35f-45ed-9421-67432d77d9bd/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "an***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/ae496c86-d35f-45ed-9421-67432d77d9bd/ProjectSettings/ae496c86-d35f-45ed-9421-67432d77d9bd/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/ae496c86-d35f-45ed-9421-67432d77d9bd/ProjectSettings/ae496c86-d35f-45ed-9421-67432d77d9bd/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Andrea FERREIRA",
+            "email": "an***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "db5b0b33-92d7-4091-aa2d-17e14d626e55",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "ae496c86-d35f-45ed-9421-67432d77d9bd",
+      "nomeProjeto": "02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste",
+        "id": "313088",
+        "guid": "b013fc3f-989d-41bc-99f1-3ac5a4fe13ba",
+        "connectedProjectId": "ae496c86-d35f-45ed-9421-67432d77d9bd",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/ae496c86-d35f-45ed-9421-67432d77d9bd/ProjectSettings/ae496c86-d35f-45ed-9421-67432d77d9bd/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "da***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/ae496c86-d35f-45ed-9421-67432d77d9bd/ProjectSettings/ae496c86-d35f-45ed-9421-67432d77d9bd/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/ae496c86-d35f-45ed-9421-67432d77d9bd/ProjectSettings/ae496c86-d35f-45ed-9421-67432d77d9bd/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Daniel BESERRA DE QUEIROZ",
+            "email": "da***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "25ae27f4-fb90-4898-85ad-52ffafedab73",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "ae496c86-d35f-45ed-9421-67432d77d9bd",
+      "nomeProjeto": "02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste",
+        "id": "313088",
+        "guid": "b013fc3f-989d-41bc-99f1-3ac5a4fe13ba",
+        "connectedProjectId": "ae496c86-d35f-45ed-9421-67432d77d9bd",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/ae496c86-d35f-45ed-9421-67432d77d9bd/ProjectSettings/ae496c86-d35f-45ed-9421-67432d77d9bd/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/ae496c86-d35f-45ed-9421-67432d77d9bd/ProjectSettings/ae496c86-d35f-45ed-9421-67432d77d9bd/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/ae496c86-d35f-45ed-9421-67432d77d9bd/ProjectSettings/ae496c86-d35f-45ed-9421-67432d77d9bd/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "je***@egis-group.com",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "ade4416d-e1a5-4864-8c77-72ebcb83f21f",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/ae496c86-d35f-45ed-9421-67432d77d9bd/ProjectSettings/ae496c86-d35f-45ed-9421-67432d77d9bd/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/ae496c86-d35f-45ed-9421-67432d77d9bd/ProjectSettings/ae496c86-d35f-45ed-9421-67432d77d9bd/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "je***@egis-group.com",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "ade4416d-e1a5-4864-8c77-72ebcb83f21f",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "ae496c86-d35f-45ed-9421-67432d77d9bd",
+      "nomeProjeto": "02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste",
+        "id": "313088",
+        "guid": "b013fc3f-989d-41bc-99f1-3ac5a4fe13ba",
+        "connectedProjectId": "ae496c86-d35f-45ed-9421-67432d77d9bd",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/ae496c86-d35f-45ed-9421-67432d77d9bd/ProjectSettings/ae496c86-d35f-45ed-9421-67432d77d9bd/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ka***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/ae496c86-d35f-45ed-9421-67432d77d9bd/ProjectSettings/ae496c86-d35f-45ed-9421-67432d77d9bd/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/ae496c86-d35f-45ed-9421-67432d77d9bd/ProjectSettings/ae496c86-d35f-45ed-9421-67432d77d9bd/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Kauane APARECIDA ALCANTARA SILVA",
+            "email": "ka***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "5c79048c-cbcb-4f91-84b4-feb45f5401b0",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "5778dda5-3d2d-402b-bfd9-6f6e7d87a077",
+      "nomeProjeto": "02.02.02.05 - BSO 5 - (Localização á definir) - SP-280",
+      "origemProjectWise": {
+        "nome": "02.02.02.05 - BSO 5 - (Localização á definir) - SP-280",
+        "id": "313499",
+        "guid": "d4df1966-1475-4057-9b07-ff226f5488f4",
+        "connectedProjectId": "5778dda5-3d2d-402b-bfd9-6f6e7d87a077",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/ProjectSettings/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "an***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/ProjectSettings/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/ProjectSettings/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Andrea FERREIRA",
+            "email": "an***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "e2cc05d0-90f0-4473-a828-402816d5bce3",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "5778dda5-3d2d-402b-bfd9-6f6e7d87a077",
+      "nomeProjeto": "02.02.02.05 - BSO 5 - (Localização á definir) - SP-280",
+      "origemProjectWise": {
+        "nome": "02.02.02.05 - BSO 5 - (Localização á definir) - SP-280",
+        "id": "313499",
+        "guid": "d4df1966-1475-4057-9b07-ff226f5488f4",
+        "connectedProjectId": "5778dda5-3d2d-402b-bfd9-6f6e7d87a077",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/ProjectSettings/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "da***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/ProjectSettings/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/ProjectSettings/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Daniel BESERRA DE QUEIROZ",
+            "email": "da***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "3a276b72-cdc1-4d73-8dbc-9d7190734770",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "5778dda5-3d2d-402b-bfd9-6f6e7d87a077",
+      "nomeProjeto": "02.02.02.05 - BSO 5 - (Localização á definir) - SP-280",
+      "origemProjectWise": {
+        "nome": "02.02.02.05 - BSO 5 - (Localização á definir) - SP-280",
+        "id": "313499",
+        "guid": "d4df1966-1475-4057-9b07-ff226f5488f4",
+        "connectedProjectId": "5778dda5-3d2d-402b-bfd9-6f6e7d87a077",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/ProjectSettings/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/ProjectSettings/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/ProjectSettings/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Jessica RODRIGUES DE MELLO",
+            "email": "je***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "b30724a3-8239-47d0-8f8f-87f1ec703032",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "5778dda5-3d2d-402b-bfd9-6f6e7d87a077",
+      "nomeProjeto": "02.02.02.05 - BSO 5 - (Localização á definir) - SP-280",
+      "origemProjectWise": {
+        "nome": "02.02.02.05 - BSO 5 - (Localização á definir) - SP-280",
+        "id": "313499",
+        "guid": "d4df1966-1475-4057-9b07-ff226f5488f4",
+        "connectedProjectId": "5778dda5-3d2d-402b-bfd9-6f6e7d87a077",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/ProjectSettings/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ka***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/ProjectSettings/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/ProjectSettings/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Kauane APARECIDA ALCANTARA SILVA",
+            "email": "ka***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "f896b96a-c388-4572-8d74-6bcdabfa80d5",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "50c209f1-607a-4b28-b9a3-d5c139d8961a",
+      "nomeProjeto": "02.02.03 - PPD 1 - km 20 - SP-280 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.03 - PPD 1 - km 20 - SP-280 - Leste",
+        "id": "327363",
+        "guid": "dd212a56-0588-4400-b305-5a4ec3c72a53",
+        "connectedProjectId": "50c209f1-607a-4b28-b9a3-d5c139d8961a",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/50c209f1-607a-4b28-b9a3-d5c139d8961a/ProjectSettings/50c209f1-607a-4b28-b9a3-d5c139d8961a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "an***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/50c209f1-607a-4b28-b9a3-d5c139d8961a/ProjectSettings/50c209f1-607a-4b28-b9a3-d5c139d8961a/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/50c209f1-607a-4b28-b9a3-d5c139d8961a/ProjectSettings/50c209f1-607a-4b28-b9a3-d5c139d8961a/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Andrea FERREIRA",
+            "email": "an***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "e0c12455-0278-42c5-9490-130f0398a2e1",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "50c209f1-607a-4b28-b9a3-d5c139d8961a",
+      "nomeProjeto": "02.02.03 - PPD 1 - km 20 - SP-280 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.03 - PPD 1 - km 20 - SP-280 - Leste",
+        "id": "327363",
+        "guid": "dd212a56-0588-4400-b305-5a4ec3c72a53",
+        "connectedProjectId": "50c209f1-607a-4b28-b9a3-d5c139d8961a",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/50c209f1-607a-4b28-b9a3-d5c139d8961a/ProjectSettings/50c209f1-607a-4b28-b9a3-d5c139d8961a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "da***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/50c209f1-607a-4b28-b9a3-d5c139d8961a/ProjectSettings/50c209f1-607a-4b28-b9a3-d5c139d8961a/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/50c209f1-607a-4b28-b9a3-d5c139d8961a/ProjectSettings/50c209f1-607a-4b28-b9a3-d5c139d8961a/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Daniel BESERRA DE QUEIROZ",
+            "email": "da***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "6790d030-40a2-4fd6-9765-6bc6ecfafe7e",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "50c209f1-607a-4b28-b9a3-d5c139d8961a",
+      "nomeProjeto": "02.02.03 - PPD 1 - km 20 - SP-280 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.03 - PPD 1 - km 20 - SP-280 - Leste",
+        "id": "327363",
+        "guid": "dd212a56-0588-4400-b305-5a4ec3c72a53",
+        "connectedProjectId": "50c209f1-607a-4b28-b9a3-d5c139d8961a",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/50c209f1-607a-4b28-b9a3-d5c139d8961a/ProjectSettings/50c209f1-607a-4b28-b9a3-d5c139d8961a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/50c209f1-607a-4b28-b9a3-d5c139d8961a/ProjectSettings/50c209f1-607a-4b28-b9a3-d5c139d8961a/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/50c209f1-607a-4b28-b9a3-d5c139d8961a/ProjectSettings/50c209f1-607a-4b28-b9a3-d5c139d8961a/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "je***@egis-group.com",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "e313a655-bedf-4729-84dd-b62fb79eebbf",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/50c209f1-607a-4b28-b9a3-d5c139d8961a/ProjectSettings/50c209f1-607a-4b28-b9a3-d5c139d8961a/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/50c209f1-607a-4b28-b9a3-d5c139d8961a/ProjectSettings/50c209f1-607a-4b28-b9a3-d5c139d8961a/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "je***@egis-group.com",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "e313a655-bedf-4729-84dd-b62fb79eebbf",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "50c209f1-607a-4b28-b9a3-d5c139d8961a",
+      "nomeProjeto": "02.02.03 - PPD 1 - km 20 - SP-280 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.03 - PPD 1 - km 20 - SP-280 - Leste",
+        "id": "327363",
+        "guid": "dd212a56-0588-4400-b305-5a4ec3c72a53",
+        "connectedProjectId": "50c209f1-607a-4b28-b9a3-d5c139d8961a",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/50c209f1-607a-4b28-b9a3-d5c139d8961a/ProjectSettings/50c209f1-607a-4b28-b9a3-d5c139d8961a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ka***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/50c209f1-607a-4b28-b9a3-d5c139d8961a/ProjectSettings/50c209f1-607a-4b28-b9a3-d5c139d8961a/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/50c209f1-607a-4b28-b9a3-d5c139d8961a/ProjectSettings/50c209f1-607a-4b28-b9a3-d5c139d8961a/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Kauane APARECIDA ALCANTARA SILVA",
+            "email": "ka***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "7fcf510c-cae0-4776-bff6-0df6a08363e0",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "dbe9beeb-f435-48b6-82d8-7714f491c706",
+      "nomeProjeto": "02.02.03 - PPD 2 - km 33 - SP-280 - Oeste",
+      "origemProjectWise": {
+        "nome": "02.02.03 - PPD 2 - km 33 - SP-280 - Oeste",
+        "id": "327774",
+        "guid": "b1c9e711-a1d8-4259-834f-88a16c57ff40",
+        "connectedProjectId": "dbe9beeb-f435-48b6-82d8-7714f491c706",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/dbe9beeb-f435-48b6-82d8-7714f491c706/ProjectSettings/dbe9beeb-f435-48b6-82d8-7714f491c706/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "an***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/dbe9beeb-f435-48b6-82d8-7714f491c706/ProjectSettings/dbe9beeb-f435-48b6-82d8-7714f491c706/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/dbe9beeb-f435-48b6-82d8-7714f491c706/ProjectSettings/dbe9beeb-f435-48b6-82d8-7714f491c706/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Andrea FERREIRA",
+            "email": "an***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "329a35d1-64c0-47a6-ab6f-e60334f1be77",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "dbe9beeb-f435-48b6-82d8-7714f491c706",
+      "nomeProjeto": "02.02.03 - PPD 2 - km 33 - SP-280 - Oeste",
+      "origemProjectWise": {
+        "nome": "02.02.03 - PPD 2 - km 33 - SP-280 - Oeste",
+        "id": "327774",
+        "guid": "b1c9e711-a1d8-4259-834f-88a16c57ff40",
+        "connectedProjectId": "dbe9beeb-f435-48b6-82d8-7714f491c706",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/dbe9beeb-f435-48b6-82d8-7714f491c706/ProjectSettings/dbe9beeb-f435-48b6-82d8-7714f491c706/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "da***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/dbe9beeb-f435-48b6-82d8-7714f491c706/ProjectSettings/dbe9beeb-f435-48b6-82d8-7714f491c706/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/dbe9beeb-f435-48b6-82d8-7714f491c706/ProjectSettings/dbe9beeb-f435-48b6-82d8-7714f491c706/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Daniel BESERRA DE QUEIROZ",
+            "email": "da***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "17ce31d4-acf1-4780-9bc0-de472aa46f61",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "dbe9beeb-f435-48b6-82d8-7714f491c706",
+      "nomeProjeto": "02.02.03 - PPD 2 - km 33 - SP-280 - Oeste",
+      "origemProjectWise": {
+        "nome": "02.02.03 - PPD 2 - km 33 - SP-280 - Oeste",
+        "id": "327774",
+        "guid": "b1c9e711-a1d8-4259-834f-88a16c57ff40",
+        "connectedProjectId": "dbe9beeb-f435-48b6-82d8-7714f491c706",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/dbe9beeb-f435-48b6-82d8-7714f491c706/ProjectSettings/dbe9beeb-f435-48b6-82d8-7714f491c706/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/dbe9beeb-f435-48b6-82d8-7714f491c706/ProjectSettings/dbe9beeb-f435-48b6-82d8-7714f491c706/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/dbe9beeb-f435-48b6-82d8-7714f491c706/ProjectSettings/dbe9beeb-f435-48b6-82d8-7714f491c706/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "je***@egis-group.com",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "6e8f8840-fdb3-4711-bdb6-866cafe258e2",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/dbe9beeb-f435-48b6-82d8-7714f491c706/ProjectSettings/dbe9beeb-f435-48b6-82d8-7714f491c706/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/dbe9beeb-f435-48b6-82d8-7714f491c706/ProjectSettings/dbe9beeb-f435-48b6-82d8-7714f491c706/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "je***@egis-group.com",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "6e8f8840-fdb3-4711-bdb6-866cafe258e2",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "dbe9beeb-f435-48b6-82d8-7714f491c706",
+      "nomeProjeto": "02.02.03 - PPD 2 - km 33 - SP-280 - Oeste",
+      "origemProjectWise": {
+        "nome": "02.02.03 - PPD 2 - km 33 - SP-280 - Oeste",
+        "id": "327774",
+        "guid": "b1c9e711-a1d8-4259-834f-88a16c57ff40",
+        "connectedProjectId": "dbe9beeb-f435-48b6-82d8-7714f491c706",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/dbe9beeb-f435-48b6-82d8-7714f491c706/ProjectSettings/dbe9beeb-f435-48b6-82d8-7714f491c706/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ka***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/dbe9beeb-f435-48b6-82d8-7714f491c706/ProjectSettings/dbe9beeb-f435-48b6-82d8-7714f491c706/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/dbe9beeb-f435-48b6-82d8-7714f491c706/ProjectSettings/dbe9beeb-f435-48b6-82d8-7714f491c706/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Kauane APARECIDA ALCANTARA SILVA",
+            "email": "ka***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "9c24b9fa-4754-4ed9-82f1-ac44a93ac03f",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "2d0daf2a-daa7-4b01-ae64-b0de2acc681a",
+      "nomeProjeto": "03.11 - HS-WIM 1 - km 20 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.11 - HS-WIM 1 - km 20 - SP-280",
+        "id": "328597",
+        "guid": "8eb542fd-4931-4f16-8e0f-b6bd00cd9c7a",
+        "connectedProjectId": "2d0daf2a-daa7-4b01-ae64-b0de2acc681a",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/ProjectSettings/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "an***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/ProjectSettings/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/ProjectSettings/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Andrea FERREIRA",
+            "email": "an***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "5be93f06-c033-4a54-88be-cd4a1d8c6ae6",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "2d0daf2a-daa7-4b01-ae64-b0de2acc681a",
+      "nomeProjeto": "03.11 - HS-WIM 1 - km 20 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.11 - HS-WIM 1 - km 20 - SP-280",
+        "id": "328597",
+        "guid": "8eb542fd-4931-4f16-8e0f-b6bd00cd9c7a",
+        "connectedProjectId": "2d0daf2a-daa7-4b01-ae64-b0de2acc681a",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/ProjectSettings/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "da***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/ProjectSettings/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/ProjectSettings/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Daniel BESERRA DE QUEIROZ",
+            "email": "da***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "cef46985-50a2-45c5-8f2d-feb69c76940e",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "2d0daf2a-daa7-4b01-ae64-b0de2acc681a",
+      "nomeProjeto": "03.11 - HS-WIM 1 - km 20 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.11 - HS-WIM 1 - km 20 - SP-280",
+        "id": "328597",
+        "guid": "8eb542fd-4931-4f16-8e0f-b6bd00cd9c7a",
+        "connectedProjectId": "2d0daf2a-daa7-4b01-ae64-b0de2acc681a",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/ProjectSettings/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/ProjectSettings/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/ProjectSettings/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "je***@egis-group.com",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "20baa9a5-f518-48f0-b2c6-34aa2b057cb8",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/ProjectSettings/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/ProjectSettings/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "je***@egis-group.com",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "20baa9a5-f518-48f0-b2c6-34aa2b057cb8",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "2d0daf2a-daa7-4b01-ae64-b0de2acc681a",
+      "nomeProjeto": "03.11 - HS-WIM 1 - km 20 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.11 - HS-WIM 1 - km 20 - SP-280",
+        "id": "328597",
+        "guid": "8eb542fd-4931-4f16-8e0f-b6bd00cd9c7a",
+        "connectedProjectId": "2d0daf2a-daa7-4b01-ae64-b0de2acc681a",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/ProjectSettings/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ka***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/ProjectSettings/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/ProjectSettings/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Kauane APARECIDA ALCANTARA SILVA",
+            "email": "ka***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "ba30cba3-7282-4187-b893-faaaaa290f70",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "da2a40d3-8844-47a0-880d-1da9c9501096",
+      "nomeProjeto": "03.11 - HS-WIM 2 - (Localização á definir) - SP-280",
+      "origemProjectWise": {
+        "nome": "03.11 - HS-WIM 2 - (Localização á definir) - SP-280",
+        "id": "329008",
+        "guid": "290c3c2b-873f-48eb-b301-c3bc8ff1586f",
+        "connectedProjectId": "da2a40d3-8844-47a0-880d-1da9c9501096",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/da2a40d3-8844-47a0-880d-1da9c9501096/ProjectSettings/da2a40d3-8844-47a0-880d-1da9c9501096/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "an***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/da2a40d3-8844-47a0-880d-1da9c9501096/ProjectSettings/da2a40d3-8844-47a0-880d-1da9c9501096/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/da2a40d3-8844-47a0-880d-1da9c9501096/ProjectSettings/da2a40d3-8844-47a0-880d-1da9c9501096/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Andrea FERREIRA",
+            "email": "an***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "b43c3ceb-924b-4528-a678-5ac5b64ecfec",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "da2a40d3-8844-47a0-880d-1da9c9501096",
+      "nomeProjeto": "03.11 - HS-WIM 2 - (Localização á definir) - SP-280",
+      "origemProjectWise": {
+        "nome": "03.11 - HS-WIM 2 - (Localização á definir) - SP-280",
+        "id": "329008",
+        "guid": "290c3c2b-873f-48eb-b301-c3bc8ff1586f",
+        "connectedProjectId": "da2a40d3-8844-47a0-880d-1da9c9501096",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/da2a40d3-8844-47a0-880d-1da9c9501096/ProjectSettings/da2a40d3-8844-47a0-880d-1da9c9501096/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "da***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/da2a40d3-8844-47a0-880d-1da9c9501096/ProjectSettings/da2a40d3-8844-47a0-880d-1da9c9501096/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/da2a40d3-8844-47a0-880d-1da9c9501096/ProjectSettings/da2a40d3-8844-47a0-880d-1da9c9501096/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Daniel BESERRA DE QUEIROZ",
+            "email": "da***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "0082be79-3853-43c3-aeb1-6ba095c03dae",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "da2a40d3-8844-47a0-880d-1da9c9501096",
+      "nomeProjeto": "03.11 - HS-WIM 2 - (Localização á definir) - SP-280",
+      "origemProjectWise": {
+        "nome": "03.11 - HS-WIM 2 - (Localização á definir) - SP-280",
+        "id": "329008",
+        "guid": "290c3c2b-873f-48eb-b301-c3bc8ff1586f",
+        "connectedProjectId": "da2a40d3-8844-47a0-880d-1da9c9501096",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/da2a40d3-8844-47a0-880d-1da9c9501096/ProjectSettings/da2a40d3-8844-47a0-880d-1da9c9501096/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/da2a40d3-8844-47a0-880d-1da9c9501096/ProjectSettings/da2a40d3-8844-47a0-880d-1da9c9501096/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/da2a40d3-8844-47a0-880d-1da9c9501096/ProjectSettings/da2a40d3-8844-47a0-880d-1da9c9501096/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Jessica RODRIGUES DE MELLO",
+            "email": "je***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "8a4991ff-b00f-42ed-85c4-0e9623938581",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "da2a40d3-8844-47a0-880d-1da9c9501096",
+      "nomeProjeto": "03.11 - HS-WIM 2 - (Localização á definir) - SP-280",
+      "origemProjectWise": {
+        "nome": "03.11 - HS-WIM 2 - (Localização á definir) - SP-280",
+        "id": "329008",
+        "guid": "290c3c2b-873f-48eb-b301-c3bc8ff1586f",
+        "connectedProjectId": "da2a40d3-8844-47a0-880d-1da9c9501096",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/da2a40d3-8844-47a0-880d-1da9c9501096/ProjectSettings/da2a40d3-8844-47a0-880d-1da9c9501096/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ka***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/da2a40d3-8844-47a0-880d-1da9c9501096/ProjectSettings/da2a40d3-8844-47a0-880d-1da9c9501096/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/da2a40d3-8844-47a0-880d-1da9c9501096/ProjectSettings/da2a40d3-8844-47a0-880d-1da9c9501096/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Kauane APARECIDA ALCANTARA SILVA",
+            "email": "ka***@egis-group.com",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "90448bbd-42fe-4f17-9eba-3d6f6bc9ae18",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    }
+  ]
+}
