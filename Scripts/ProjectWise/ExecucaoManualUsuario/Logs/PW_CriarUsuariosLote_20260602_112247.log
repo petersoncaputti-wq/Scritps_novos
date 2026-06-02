@@ -1,0 +1,28 @@
+2026-06-02 11:22:47 | INFO | ProjectWise - criacao de usuarios em lote
+2026-06-02 11:22:48 | INFO | Log: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\PW_CriarUsuariosLote_20260602_112247.log
+2026-06-02 11:22:49 | INFO | Abrindo login no ProjectWise...
+2026-06-02 11:23:03 | OK | Login realizado. Usuario atual: Peterson Caputti
+2026-06-02 11:23:11 | INFO | Arquivo de entrada: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Modelo_Criacao_Usuarios_ProjectWise.xlsx
+2026-06-02 11:23:16 | INFO | Registros carregados: 3
+2026-06-02 11:23:16 | WARN | Linha 2: invalida - Name vazio; E-mail vazio
+2026-06-02 11:23:16 | WARN | Linha 3: invalida - Name vazio; E-mail vazio
+2026-06-02 11:23:16 | WARN | Linha 4: invalida - Name vazio; E-mail vazio
+2026-06-02 11:23:54 | WARN | Nenhuma pasta foi selecionada para a extracao. Usando pasta padrao: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\UsuariosPorDescricao_20260602_112247
+2026-06-02 11:23:54 | WARN | Nenhuma descricao foi informada na planilha. Extracao por descricao ignorada.
+2026-06-02 11:23:54 | INFO | Sessao ProjectWise encerrada.
+2026-06-02 11:23:54 | INFO | 
+2026-06-02 11:23:54 | INFO | ================ RESUMO FINAL ================
+2026-06-02 11:23:54 | INFO | Total de linhas processadas : 3
+2026-06-02 11:23:54 | OK | Usuarios criados            : 0
+2026-06-02 11:23:54 | OK | Usuarios atualizados        : 0
+2026-06-02 11:23:54 | WARN | Usuarios ja existentes      : 0
+2026-06-02 11:23:54 | INFO | Linhas apenas validadas     : 0
+2026-06-02 11:23:54 | WARN | Linhas invalidas            : 3
+2026-06-02 11:23:54 | OK | Erros de processamento      : 0
+2026-06-02 11:23:54 | OK | Relatorio completo          : C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\PW_CriarUsuariosLote_Relatorio_20260602_112247.csv
+2026-06-02 11:23:54 | INFO | 
+2026-06-02 11:23:54 | WARN | Linhas que precisam de atencao:
+2026-06-02 11:23:54 | WARN | - Linha 2 | INVALIDO |  | Name vazio; E-mail vazio
+2026-06-02 11:23:54 | WARN | - Linha 3 | INVALIDO |  | Name vazio; E-mail vazio
+2026-06-02 11:23:54 | WARN | - Linha 4 | INVALIDO |  | Name vazio; E-mail vazio
+2026-06-02 11:23:54 | INFO | ==============================================
