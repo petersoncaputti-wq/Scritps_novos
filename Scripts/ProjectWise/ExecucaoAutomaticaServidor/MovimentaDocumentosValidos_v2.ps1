@@ -710,11 +710,23 @@ try {
         return
     }
 
-    Write-Host "Documentos encontrados: $($documentos.Count)"
+    $documentos = @($documentos)
+    $totalDocumentos = $documentos.Count
+    $indiceDocumento = 0
+
+    Write-Host ("Quantidade de documentos a movimentar: {0}" -f $totalDocumentos)
 
     foreach ($documento in $documentos) {
+        $indiceDocumento++
         $nomeLog = if ($documento.FileName) { $documento.FileName } else { $documento.Name }
-        Write-Host "Processando: $nomeLog"
+        $percentual = [math]::Round(($indiceDocumento / $totalDocumentos) * 100, 0)
+
+        Write-Progress `
+            -Activity 'Movimentando documentos validados' `
+            -Status ("{0}/{1} - {2}" -f $indiceDocumento, $totalDocumentos, $nomeLog) `
+            -PercentComplete $percentual
+
+        Write-Host ("Processando [{0}/{1} - {2}%]: {3}" -f $indiceDocumento, $totalDocumentos, $percentual, $nomeLog)
 
         $docBaseRef = New-Object PSObject
 
