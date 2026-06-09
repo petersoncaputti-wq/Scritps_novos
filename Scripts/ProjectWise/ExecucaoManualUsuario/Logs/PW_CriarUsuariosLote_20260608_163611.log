@@ -1,0 +1,25 @@
+2026-06-08 16:36:11 | INFO | ProjectWise - criacao de usuarios em lote
+2026-06-08 16:36:11 | INFO | Log: C:\Users\Peterson\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\PW_CriarUsuariosLote_20260608_163611.log
+2026-06-08 16:36:11 | INFO | Abrindo login no ProjectWise...
+2026-06-08 16:36:21 | OK | Login realizado. Usuario atual: Peterson Caputti
+2026-06-08 16:36:33 | INFO | Arquivo de entrada: C:\Users\Peterson\OneDrive - Grupo Ecorodovias\Área de Trabalho\Modelo_Criacao_Usuarios_ProjectWise.xlsx
+2026-06-08 16:36:35 | INFO | Registros carregados: 3
+2026-06-08 16:36:36 | OK | Linha 2: usuario criado - Rodrigo Cosentino Rodrigues
+2026-06-08 16:36:37 | OK | Linha 3: usuario criado - Andrea Laurindvicius Ribeiro
+2026-06-08 16:36:37 | OK | Linha 4: usuario criado - Eunice Satie Shoji
+2026-06-08 16:36:40 | INFO | Gerando arquivo da lista processada para descricao: Gestão ECS
+2026-06-08 16:36:40 | OK | Arquivo gerado: C:\Users\Peterson\OneDrive\Desktop\UsuariosPorDescricao_20260608_163611\Usuarios_Descricao_Gestão ECS.xlsx
+2026-06-08 16:36:40 | INFO | Sessao ProjectWise encerrada.
+2026-06-08 16:36:40 | INFO | 
+2026-06-08 16:36:40 | INFO | ================ RESUMO FINAL ================
+2026-06-08 16:36:40 | INFO | Total de linhas processadas : 3
+2026-06-08 16:36:40 | OK | Usuarios criados            : 3
+2026-06-08 16:36:40 | OK | Usuarios atualizados        : 0
+2026-06-08 16:36:40 | WARN | Usuarios ja existentes      : 0
+2026-06-08 16:36:40 | INFO | Linhas apenas validadas     : 0
+2026-06-08 16:36:40 | OK | Linhas invalidas            : 0
+2026-06-08 16:36:40 | OK | Erros de processamento      : 0
+2026-06-08 16:36:40 | OK | Relatorio completo          : C:\Users\Peterson\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\PW_CriarUsuariosLote_Relatorio_20260608_163611.csv
+2026-06-08 16:36:40 | OK | Arquivos Excel por descricao:
+2026-06-08 16:36:40 | OK | - C:\Users\Peterson\OneDrive\Desktop\UsuariosPorDescricao_20260608_163611\Usuarios_Descricao_Gestão ECS.xlsx
+2026-06-08 16:36:40 | INFO | ==============================================

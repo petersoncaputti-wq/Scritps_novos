@@ -14,11 +14,20 @@
     - Enviado para a Unidade
     - Não Validada pelo Sistema
 
+    Tambem oferece buscas opcionais:
+    - Enviado ao Poder Concedente
+    - Emitido pela Engenharia
+
     Cada busca usa:
     - Nome do documento = %
     - State correspondente ao nome da pesquisa
     - Escopo = projeto selecionado
     - Incluir subpastas = sim
+
+    No inicio da execucao, o usuario escolhe:
+    - ENTER/P para criar somente as buscas padrao
+    - T para criar todas as buscas
+    - Numeros especificos, como 1,3,6 ou 1-5
 
 .EXAMPLE
     powershell.exe -NoProfile -MTA -ExecutionPolicy Bypass -File ".\Criar_Buscas_Salvas_Projetos_PW.ps1" -WhatIf
@@ -40,6 +49,8 @@ param(
     [switch]$NaoDesconectar,
     [switch]$NaoPausar,
     [switch]$RelancadoMTA,
+    [switch]$TodasBuscas,
+    [string[]]$NomesBuscas,
     [string]$NomePesquisa = "Em análise da Assistente",
     [string[]]$EstadosPesquisa = @("Em analise do assistente")
 )
@@ -112,6 +123,7 @@ $BuscasPadrao = @(
         States = $EstadosPesquisa
         SearchSubFolders = $true
         OriginalsOnly = $true
+        Opcional = $false
     },
     @{
         Tipo = "Documento"
@@ -120,6 +132,7 @@ $BuscasPadrao = @(
         States = @("Em analise da Engenharia")
         SearchSubFolders = $true
         OriginalsOnly = $true
+        Opcional = $false
     },
     @{
         Tipo = "Documento"
@@ -128,6 +141,7 @@ $BuscasPadrao = @(
         States = @("Em analise Especifica")
         SearchSubFolders = $true
         OriginalsOnly = $true
+        Opcional = $false
     },
     @{
         Tipo = "Documento"
@@ -136,6 +150,7 @@ $BuscasPadrao = @(
         States = @("Enviado para Unidade")
         SearchSubFolders = $true
         OriginalsOnly = $true
+        Opcional = $false
     },
     @{
         Tipo = "Documento"
@@ -144,6 +159,25 @@ $BuscasPadrao = @(
         States = @("Nao Validado pelo Sistema")
         SearchSubFolders = $true
         OriginalsOnly = $true
+        Opcional = $false
+    },
+    @{
+        Tipo = "Documento"
+        Nome = "Enviado ao Poder Concedente"
+        DocumentName = "%"
+        States = @("Enviado ao Poder Concedente")
+        SearchSubFolders = $true
+        OriginalsOnly = $true
+        Opcional = $true
+    },
+    @{
+        Tipo = "Documento"
+        Nome = "Emitido pela Engenharia"
+        DocumentName = "%"
+        States = @("Emitido pela Engenharia")
+        SearchSubFolders = $true
+        OriginalsOnly = $true
+        Opcional = $true
     }
 )
 
@@ -513,6 +547,99 @@ function Read-MultipleNumberSelection {
     }
 }
 
+function Read-SearchSelection {
+    param(
+        [string]$Message,
+        [int]$Maximum,
+        [int[]]$DefaultSelection
+    )
+
+    while ($true) {
+        $entrada = (Read-Host $Message).Trim()
+        if ([string]::IsNullOrWhiteSpace($entrada) -or $entrada -ieq "P") {
+            return @($DefaultSelection)
+        }
+
+        if ($entrada -ieq "T") {
+            return @(1..$Maximum)
+        }
+
+        $selecionados = New-Object System.Collections.Generic.List[int]
+        $partes = @($entrada -split "," | ForEach-Object { $_.Trim() } | Where-Object { $_ -ne "" })
+
+        foreach ($parte in $partes) {
+            if ($parte -match "^\d+\-\d+$") {
+                $limites = $parte -split "-"
+                $inicio = [int]$limites[0]
+                $fim = [int]$limites[1]
+                if ($inicio -le $fim -and $inicio -ge 1 -and $fim -le $Maximum) {
+                    foreach ($numero in $inicio..$fim) {
+                        if (-not $selecionados.Contains($numero)) {
+                            $selecionados.Add($numero)
+                        }
+                    }
+                }
+            }
+            else {
+                $numero = 0
+                if ([int]::TryParse($parte, [ref]$numero) -and $numero -ge 1 -and $numero -le $Maximum) {
+                    if (-not $selecionados.Contains($numero)) {
+                        $selecionados.Add($numero)
+                    }
+                }
+            }
+        }
+
+        if ($selecionados.Count -gt 0) {
+            return @($selecionados | Sort-Object)
+        }
+
+        Write-Warn "Opcao invalida. Use P para padrao, T para todas, ou numeros como: 1,3,5 ou 2-6."
+    }
+}
+
+function Select-BuscasParaCriacao {
+    param([array]$Buscas)
+
+    if ($TodasBuscas) {
+        return @($Buscas)
+    }
+
+    if ($NomesBuscas -and $NomesBuscas.Count -gt 0) {
+        $buscasPorNome = New-Object System.Collections.Generic.List[object]
+        foreach ($nomeBuscaInformado in $NomesBuscas) {
+            $encontrada = @($Buscas | Where-Object { [string]$_.Nome -ieq [string]$nomeBuscaInformado })
+            if ($encontrada.Count -eq 0) {
+                throw "Busca informada nao encontrada: $nomeBuscaInformado"
+            }
+
+            foreach ($buscaEncontrada in $encontrada) {
+                $buscasPorNome.Add($buscaEncontrada)
+            }
+        }
+
+        return @($buscasPorNome)
+    }
+
+    Write-Host ""
+    Write-Host "Buscas disponiveis para criar:" -ForegroundColor White
+
+    $indicesPadrao = New-Object System.Collections.Generic.List[int]
+    for ($i = 0; $i -lt $Buscas.Count; $i++) {
+        $busca = $Buscas[$i]
+        $indice = $i + 1
+        $tipo = if ($busca.ContainsKey("Opcional") -and [bool]$busca.Opcional) { "OPCIONAL" } else { "PADRAO" }
+        if ($tipo -eq "PADRAO") {
+            $indicesPadrao.Add($indice)
+        }
+
+        Write-Host ("[{0}] [{1}] {2}" -f $indice, $tipo, $busca.Nome)
+    }
+
+    $selecionados = Read-SearchSelection -Message "Selecione as buscas (ENTER/P=padrao, T=todas, ex.: 1,3,6 ou 1-5)" -Maximum $Buscas.Count -DefaultSelection @($indicesPadrao)
+    return @($selecionados | ForEach-Object { $Buscas[$_ - 1] })
+}
+
 function Select-FolderFromList {
     param(
         [array]$Folders,
@@ -841,8 +968,9 @@ function Validar-Buscas {
 
 try {
     Assert-Mta
+    $buscasSelecionadas = Select-BuscasParaCriacao -Buscas $BuscasPadrao
     Importar-ModuloProjectWise
-    Validar-Buscas -Buscas $BuscasPadrao
+    Validar-Buscas -Buscas $buscasSelecionadas
     Conectar-ProjectWise
 
     if ($ProjectPaths -and $ProjectPaths.Count -gt 0) {
@@ -857,7 +985,7 @@ try {
     }
 
     Write-Step "Projetos selecionados: $($projetosSelecionados.Count)"
-    Write-Step "Buscas configuradas: $($BuscasPadrao.Count)"
+    Write-Step "Buscas selecionadas: $($buscasSelecionadas.Count)"
 
     $totalCriadas = 0
     $totalIgnoradas = 0
@@ -868,7 +996,7 @@ try {
         Write-Host ""
         Write-Step "Processando projeto: $rotuloProjeto"
 
-        foreach ($busca in $BuscasPadrao) {
+        foreach ($busca in $buscasSelecionadas) {
             try {
                 if ([string]$busca.Tipo -ieq "Documento") {
                     $resultadoBusca = Nova-BuscaDocumento -Projeto $projeto -Busca $busca
