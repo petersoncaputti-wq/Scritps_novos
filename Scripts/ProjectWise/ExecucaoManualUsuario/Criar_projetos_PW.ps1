@@ -223,6 +223,11 @@ Verifique os campos:
             }
         }
 
+        if (Get-Command TestarProjetoExistente -ErrorAction SilentlyContinue) {
+            if (TestarProjetoExistente -NomeConcessao $nomeConcessao -Projeto $projeto) {
+                Write-Host "Projeto [$projeto] ja existe. A criacao de pastas sera ignorada; grupos, user lists e acessos serao processados."
+            }
+        }
         try {
             $resultado = CriarProjeto `
                 -PoderConcedente $poderConcedente `

@@ -141,6 +141,28 @@ function DefinicaoEnvironmentLD {
     return ''
 }
 
+function ObterPastaRaizProjeto {
+    param (
+        [string]$NomeConcessao,
+        [string]$Projeto
+    )
+
+    $NomeConcessao = Normalizar-Texto $NomeConcessao
+    $Projeto       = Normalizar-Texto $Projeto
+    $nomePasta     = "ENGENHARIA\$NomeConcessao\Projetos\$Projeto"
+
+    return Get-PWFolders -FolderPath $nomePasta -PopulatePaths -JustOne
+}
+
+function TestarProjetoExistente {
+    param (
+        [string]$NomeConcessao,
+        [string]$Projeto
+    )
+
+    return [bool](ObterPastaRaizProjeto -NomeConcessao $NomeConcessao -Projeto $Projeto)
+}
+
 function CriarPastaRaizProjeto {
     param (
         [string]$NomeConcessao,
@@ -163,6 +185,12 @@ function CriarPastaRaizProjeto {
     $Projetista           = Normalizar-Texto $Projetista
 
     $nomePasta = "ENGENHARIA\$NomeConcessao\Projetos\$Projeto"
+    $pastaExistente = ObterPastaRaizProjeto -NomeConcessao $NomeConcessao -Projeto $Projeto
+
+    if ($pastaExistente) {
+        Write-Host "Projeto ja existe no datasource: $nomePasta"
+        return $pastaExistente
+    }
 
     Write-Host ""
     Write-Host "===== DADOS RECEBIDOS PARA CRIACAO DA PASTA RAIZ ====="
@@ -360,6 +388,8 @@ function CriarPastasProjeto {
         Write-Host "Nao foi possivel definir os environments para o poder concedente informado: $PoderConcedente"
         return $null
     }   
+
+    $projetoExistente = TestarProjetoExistente -NomeConcessao $NomeConcessao -Projeto $Projeto
     
     $pastaRaiz = CriarPastaRaizProjeto `
         -NomeConcessao $NomeConcessao `
@@ -373,6 +403,11 @@ function CriarPastasProjeto {
 
     if (-not $pastaRaiz) {
         return $null
+    }
+
+    if ($projetoExistente) {
+        Write-Host "Pulando criacao de pastas do projeto existente [$Projeto]. Serao processados user lists, grupos e acessos."
+        return $pastaRaiz
     }
     
     $null = CriarEstruturaInicialPastasProjeto `
@@ -757,15 +792,24 @@ function CriarUserListGRD {
 function CriarUserList {
     param ($nome, $userListPai)
 
-    $userlist = Get-PWUserLists -UserListName $nome
-    $userlist = $userlist.Where({$_.Name -eq $nome})
+    $userlist = @(Get-PWUserLists -UserListName $nome).Where({$_.Name -eq $nome})
 
     if (-not $userlist) {
+        Write-Host "Criando user list: $nome"
         $userlist = New-PWUserListByName -UserList $nome
+    }
+    else {
+        Write-Host "User list ja existe: $nome"
     }
 
     if ($userListPai) {
-        Add-PWMemberToUserList -UserList $userListPai.Name -UserListNames $nome
+        try {
+            Add-PWMemberToUserList -UserList $userListPai.Name -UserListNames $nome -ErrorAction Stop
+            Write-Host "User list [$nome] vinculada a [$($userListPai.Name)]."
+        }
+        catch {
+            Write-Host "Aviso ao vincular user list [$nome] a [$($userListPai.Name)]: $($_.Exception.Message)"
+        }
     }
 
     return $userlist
@@ -972,15 +1016,27 @@ function CriarGrupoUsuario {
 
     if (-not $descricao) { $descricao = $nome }
 
-    $grupo = Get-PWGroups -GroupName $nome
+    $grupo = @(Get-PWGroups -GroupName $nome).Where({$_.Name -eq $nome})
 
     if (-not $grupo) {
+        Write-Host "Criando grupo: $nome"
         $grupo = New-PWGroupByName -GroupName $nome -GroupDescription $descricao
+    }
+    else {
+        Write-Host "Grupo ja existe: $nome"
     }
 
     foreach ($ul in $userListsMembros) {
-        Add-PWMemberToUserList -UserList $ul -GroupNames $nome
+        try {
+            Add-PWMemberToUserList -UserList $ul -GroupNames $nome -ErrorAction Stop
+            Write-Host "Grupo [$nome] vinculado a user list [$ul]."
+        }
+        catch {
+            Write-Host "Aviso ao vincular grupo [$nome] a user list [$ul]: $($_.Exception.Message)"
+        }
     }
+
+    return $grupo
 }
 
 function CriarProjeto {
