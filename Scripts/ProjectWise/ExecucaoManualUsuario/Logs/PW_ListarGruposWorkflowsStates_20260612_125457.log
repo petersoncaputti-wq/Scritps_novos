@@ -1,0 +1,20 @@
+2026-06-12 12:55:00 | INFO | Importando modulo ProjectWise.
+2026-06-12 12:55:00 | INFO | Modulo 'pwps_dab' ja carregado.
+2026-06-12 12:55:00 | INFO | Conectando via Bentley IMS.
+2026-06-12 12:55:00 | INFO | Tentando conexao via 'New-PWLogin'. Parametros: DatasourceName, UserName, Password, UseGui, DoNotCreateWorkingDirectory, BentleyIMS, LoadWRE, NonAdminLogin, Token, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-06-12 12:55:14 | OK | Conexao realizada via 'New-PWLogin -BentleyIMS'.
+2026-06-12 12:55:14 | OK | Usuario atual: Peterson Caputti
+2026-06-12 12:55:14 | OK | Conexao realizada com sucesso.
+2026-06-12 12:55:15 | OK | Pasta Engenharia localizada: Engenharia
+2026-06-12 12:55:15 | INFO | Listando filhos: Engenharia
+2026-06-12 12:55:17 | OK | Concessoes carregadas: 14.
+2026-06-12 12:57:09 | INFO | Consultando seguranca da concessao 'Ecovias Capixaba'.
+2026-06-12 12:57:09 | INFO | Modo Access Control: 'Workflows'. Workflow, State e Grupo em branco trazem todos os valores encontrados.
+2026-06-12 12:57:09 | INFO | Filtros: Tipo='group' | SecurityType='Document' | Workflow='' | State='' | Grupo=''.
+2026-06-12 12:57:14 | INFO | Get-PWFolderSecurity retornou 56 item(ns).
+2026-06-12 12:57:14 | OK | Consulta concluida. Registros encontrados: 55.
+2026-06-12 12:58:01 | INFO | Consultando seguranca da concessao 'Ecovias Capixaba'.
+2026-06-12 12:58:01 | INFO | Modo Access Control: 'Workflows'. Workflow, State e Grupo em branco trazem todos os valores encontrados.
+2026-06-12 12:58:01 | INFO | Filtros: Tipo='group' | SecurityType='Document' | Workflow='' | State='' | Grupo='Gestão - ECS'.
+2026-06-12 12:58:02 | INFO | Get-PWFolderSecurity retornou 56 item(ns).
+2026-06-12 12:58:02 | OK | Consulta concluida. Registros encontrados: 55.

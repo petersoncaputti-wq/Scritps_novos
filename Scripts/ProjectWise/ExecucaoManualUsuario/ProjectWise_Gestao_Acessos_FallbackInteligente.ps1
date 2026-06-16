@@ -1808,6 +1808,43 @@ function Aplicar-FiltroProjetos {
     Atualizar-EstadoInterface
 }
 
+function Selecionar-AcessosExibidosNaArvore {
+    if (-not $script:TreeProjetos -or $script:TreeProjetos.Nodes.Count -eq 0) {
+        return 0
+    }
+
+    $totalMarcados = 0
+    $script:AtualizandoCheckTree = $true
+
+    try {
+        foreach ($projetoNode in $script:TreeProjetos.Nodes) {
+            foreach ($categoriaNode in $projetoNode.Nodes) {
+                foreach ($acessoNode in $categoriaNode.Nodes) {
+                    $tagAcesso = $acessoNode.Tag
+
+                    if ($null -eq $tagAcesso -or $tagAcesso.NodeType -ne 'Access') {
+                        $acessoNode.Checked = $false
+                        continue
+                    }
+
+                    if (-not $acessoNode.Checked) {
+                        $acessoNode.Checked = $true
+                    }
+
+                    $totalMarcados++
+                }
+            }
+
+            Atualizar-CheckVisualProjeto -ProjetoNode $projetoNode
+        }
+    }
+    finally {
+        $script:AtualizandoCheckTree = $false
+    }
+
+    return $totalMarcados
+}
+
 function Obter-ChaveUsuario {
     param([object]$Usuario)
 
@@ -2079,6 +2116,7 @@ function Atualizar-EstadoInterface {
     $script:TextFiltroAcessos.Enabled = $temConcessao
     $script:BtnAplicarFiltro.Enabled = $temConcessao
     $script:BtnLimparFiltro.Enabled = $temConcessao
+    if ($script:BtnSelecionarExibidos) { $script:BtnSelecionarExibidos.Enabled = $temConcessao -and $temArvore }
 }
 
 function Marcar-FilhosNode {
@@ -2490,6 +2528,13 @@ $script:LabelResultadoFiltro.AutoSize = $true
 $script:LabelResultadoFiltro.Location = New-Object System.Drawing.Point(15,132)
 $groupSelecao.Controls.Add($script:LabelResultadoFiltro)
 
+$script:BtnSelecionarExibidos = New-Object System.Windows.Forms.Button
+$script:BtnSelecionarExibidos.Text = "Selecionar exibidos"
+$script:BtnSelecionarExibidos.Location = New-Object System.Drawing.Point(970,126)
+$script:BtnSelecionarExibidos.Size = New-Object System.Drawing.Size(150,28)
+$script:BtnSelecionarExibidos.Enabled = $false
+$groupSelecao.Controls.Add($script:BtnSelecionarExibidos)
+
 $script:TreeProjetos = New-Object System.Windows.Forms.TreeView
 $script:TreeProjetos.Location = New-Object System.Drawing.Point(15,155)
 $script:TreeProjetos.Size = New-Object System.Drawing.Size(1105,125)
@@ -2591,6 +2636,10 @@ function Ajustar-LayoutCampos {
         $script:TextFiltroAcessos.Width = [Math]::Max(260, $script:BtnAplicarFiltro.Left - $filtroLeft - $espacamento)
     }
 
+    if ($script:BtnSelecionarExibidos) {
+        $script:BtnSelecionarExibidos.Left = $groupSelecao.ClientSize.Width - $script:BtnSelecionarExibidos.Width - $margemDireita
+    }
+
     if ($script:BtnConfirmarSelecao) {
         $script:BtnConfirmarSelecao.Left = $groupSelecao.ClientSize.Width - $script:BtnConfirmarSelecao.Width - $margemDireita
         $script:BtnConfirmarSelecao.Top = $groupSelecao.ClientSize.Height - $script:BtnConfirmarSelecao.Height - 10
@@ -2627,6 +2676,7 @@ $script:TextFiltroAcessos.BringToFront()
 
 $script:BtnAplicarFiltro.Anchor = [System.Windows.Forms.AnchorStyles]::Top -bor [System.Windows.Forms.AnchorStyles]::Right
 $script:BtnLimparFiltro.Anchor = [System.Windows.Forms.AnchorStyles]::Top -bor [System.Windows.Forms.AnchorStyles]::Right
+$script:BtnSelecionarExibidos.Anchor = [System.Windows.Forms.AnchorStyles]::Top -bor [System.Windows.Forms.AnchorStyles]::Right
 $script:LabelResultadoFiltro.Anchor = [System.Windows.Forms.AnchorStyles]::Top -bor [System.Windows.Forms.AnchorStyles]::Left -bor [System.Windows.Forms.AnchorStyles]::Right
 $script:TreeProjetos.Anchor = [System.Windows.Forms.AnchorStyles]::Top -bor [System.Windows.Forms.AnchorStyles]::Bottom -bor [System.Windows.Forms.AnchorStyles]::Left -bor [System.Windows.Forms.AnchorStyles]::Right
 
@@ -2677,6 +2727,25 @@ $script:BtnLimparFiltro.Add_Click({
     }
     catch {
         Write-Log "Erro ao limpar filtro. Detalhe: $($_.Exception.Message)" "ERROR"
+        Show-UiError $_.Exception.Message
+    }
+})
+
+$script:BtnSelecionarExibidos.Add_Click({
+    try {
+        $totalMarcados = Selecionar-AcessosExibidosNaArvore
+
+        if ($script:TextFiltroAcessos -and -not [string]::IsNullOrWhiteSpace($script:TextFiltroAcessos.Text)) {
+            Write-UiLog "Acessos exibidos pelo filtro selecionados: $totalMarcados"
+        }
+        else {
+            Write-UiLog "Acessos exibidos selecionados: $totalMarcados"
+        }
+
+        Atualizar-EstadoInterface
+    }
+    catch {
+        Write-Log "Erro ao selecionar acessos exibidos. Detalhe: $($_.Exception.Message)" "ERROR"
         Show-UiError $_.Exception.Message
     }
 })

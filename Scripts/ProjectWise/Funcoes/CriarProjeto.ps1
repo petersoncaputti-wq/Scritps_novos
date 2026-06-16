@@ -13,8 +13,11 @@ $acessosUnidade = @(
 )
 
 # -------------------------------------------------------
-# NOVA ESTRUTURA DE PASTAS
+# Estrutura base de pastas por poder concedente
 # -------------------------------------------------------
+# Mantem as fases/volumes da estrutura antiga, sem criar as pastas finais
+# de disciplina. As disciplinas, Superados e xfdf__ passam a ser
+# responsabilidade do fluxo de movimentacao quando houver documento.
 $pastasDocumentosGerais = @(
     'Atas de Reuniao',
     'Cadastro de interferências',
@@ -28,22 +31,26 @@ $pastasDocumentosGerais = @(
     'Topografia'
 )
 
-$fasesPadrao = @(
+$pastasEstruturaARTESP = @(
+    '01 - Estudos gerais',
+    '02 - Serviços iniciais',
+    '03 - Preliminar',
+    '04 - Funcional',
+    '05 - Básico',
+    '06 - Executivo',
+    '07 - As built'
+)
+
+$pastasEstruturaANTT = @(
     '01 - Funcional',
     '02 - Anteprojeto',
-    '03 - Executivo'
-)
-
-$volumesAnteprojeto = @(
-    'Volume I',
-    'Volume II'
-)
-
-$volumesExecutivo = @(
-    'Volume I',
-    'Volume II',
-    'Volume III',
-    'Volume IV'
+    '02 - Anteprojeto\Volume I',
+    '02 - Anteprojeto\Volume II',
+    '03 - Executivo',
+    '03 - Executivo\Volume I',
+    '03 - Executivo\Volume II',
+    '03 - Executivo\Volume III',
+    '03 - Executivo\Volume IV'
 )
 
 #-------------------------------------------------------
@@ -151,7 +158,7 @@ function ObterPastaRaizProjeto {
     $Projeto       = Normalizar-Texto $Projeto
     $nomePasta     = "ENGENHARIA\$NomeConcessao\Projetos\$Projeto"
 
-    return Get-PWFolders -FolderPath $nomePasta -PopulatePaths -JustOne
+    return Get-PWFolders -FolderPath $nomePasta -PopulatePaths -JustOne -WarningAction SilentlyContinue
 }
 
 function TestarProjetoExistente {
@@ -276,7 +283,6 @@ function CriarEstruturaInicialPastasProjeto {
 
     $raizProjeto = "ENGENHARIA\$concessao\Projetos\$projeto"
 
-    # 0 - Documentos Gerais
     $nomePasta = "$raizProjeto\0 - Documentos Gerais"
     CriarPasta -NomePasta $nomePasta -PastasProjeto $pastasProjeto -Environment $environmentEngenharia -Workflow "Workflow - Engenharia"
 
@@ -285,53 +291,12 @@ function CriarEstruturaInicialPastasProjeto {
         CriarPasta -NomePasta $nomeSubpasta -PastasProjeto $pastasProjeto -Environment $environmentEngenharia -Workflow "Workflow - Engenharia"
     }
 
-    # 1 - Area de Trabalho
     $nomePasta = "$raizProjeto\1 - Area de Trabalho"
     CriarPasta -NomePasta $nomePasta -PastasProjeto $pastasProjeto -Environment $environmentEngenharia -Workflow "Workflow - Engenharia"
 
-    foreach ($fase in $fasesPadrao) {
-        $nomeFase = "$raizProjeto\1 - Area de Trabalho\$fase"
-        CriarPasta -NomePasta $nomeFase -PastasProjeto $pastasProjeto -Environment $environmentEngenharia -Workflow "Workflow - Engenharia"
-
-        if ($fase -eq '02 - Anteprojeto') {
-            foreach ($volume in $volumesAnteprojeto) {
-                $nomeVolume = "$nomeFase\$volume"
-                CriarPasta -NomePasta $nomeVolume -PastasProjeto $pastasProjeto -Environment $environmentEngenharia -Workflow "Workflow - Engenharia"
-            }
-        }
-
-        if ($fase -eq '03 - Executivo') {
-            foreach ($volume in $volumesExecutivo) {
-                $nomeVolume = "$nomeFase\$volume"
-                CriarPasta -NomePasta $nomeVolume -PastasProjeto $pastasProjeto -Environment $environmentEngenharia -Workflow "Workflow - Engenharia"
-            }
-        }
-    }
-
-    # 2 - Unidade
     $nomePasta = "$raizProjeto\2 - Unidade"
     CriarPasta -NomePasta $nomePasta -PastasProjeto $pastasProjeto -Environment $environmentUnidade -Workflow "Workflow - Engenharia - Unidade"
 
-    foreach ($fase in $fasesPadrao) {
-        $nomeFase = "$raizProjeto\2 - Unidade\$fase"
-        CriarPasta -NomePasta $nomeFase -PastasProjeto $pastasProjeto -Environment $environmentUnidade -Workflow "Workflow - Engenharia - Unidade"
-
-        if ($fase -eq '02 - Anteprojeto') {
-            foreach ($volume in $volumesAnteprojeto) {
-                $nomeVolume = "$nomeFase\$volume"
-                CriarPasta -NomePasta $nomeVolume -PastasProjeto $pastasProjeto -Environment $environmentUnidade -Workflow "Workflow - Engenharia - Unidade"
-            }
-        }
-
-        if ($fase -eq '03 - Executivo') {
-            foreach ($volume in $volumesExecutivo) {
-                $nomeVolume = "$nomeFase\$volume"
-                CriarPasta -NomePasta $nomeVolume -PastasProjeto $pastasProjeto -Environment $environmentUnidade -Workflow "Workflow - Engenharia - Unidade"
-            }
-        }
-    }
-
-    # Area de Transferencia
     $nomePasta = "$raizProjeto\Area de Transferencia"
     CriarPasta -NomePasta $nomePasta -PastasProjeto $pastasProjeto -Workflow "Workflow - Transferencia"
 
@@ -344,17 +309,29 @@ function CriarEstruturaInicialPastasProjeto {
     $nomePasta = "$raizProjeto\Area de Transferencia\Importacao"
     CriarPasta -NomePasta $nomePasta -PastasProjeto $pastasProjeto -Environment $environmentGRD -Workflow "Importacao"
 
-    # Previsao de Documentos (LD)
     $nomePasta = "$raizProjeto\Previsao de Documentos (LD)"
     CriarPasta -NomePasta $nomePasta -PastasProjeto $pastasProjeto -Environment $environmentLD
+}
+
+function ObterPastasEstruturaPorPoderConcedente {
+    param ([string]$PoderConcedente)
+
+    switch ($PoderConcedente) {
+        'ARTESP' { return $pastasEstruturaARTESP }
+        'ANTT' { return $pastasEstruturaANTT }
+        Default { return $pastasEstruturaARTESP }
+    }
 }
 
 function CriarPastasArea {
     param ($pastasProjeto, $poderConcedente, $concessao, $projeto, $area, $environment, $workflow, $workflowSuperados)
 
-    # Mantida apenas para compatibilidade.
-    # Na nova estrutura, as subpastas já são criadas em CriarEstruturaInicialPastasProjeto.
-    return
+    $pastas = ObterPastasEstruturaPorPoderConcedente -PoderConcedente $poderConcedente
+
+    foreach ($pasta in $pastas) {
+        $nomePasta = "ENGENHARIA\$concessao\Projetos\$projeto\$area\$pasta"
+        CriarPasta -NomePasta $nomePasta -PastasProjeto $pastasProjeto -Environment $environment -Workflow $workflow
+    }
 }
 
 function CriarPastasProjeto {
@@ -420,7 +397,6 @@ function CriarPastasProjeto {
         -EnvironmentLD $environmentLD `
         -EnvironmentGRDRetorno $environmentGRDRetorno
 
-    # Mantido por compatibilidade, mas sem ação
     $null = CriarPastasArea `
         -PastasProjeto $pastaRaiz `
         -PoderConcedente $PoderConcedente `

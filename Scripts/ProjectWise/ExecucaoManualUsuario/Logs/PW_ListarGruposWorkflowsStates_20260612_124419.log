@@ -1,0 +1,216 @@
+2026-06-12 12:44:21 | INFO | Importando modulo ProjectWise.
+2026-06-12 12:44:21 | INFO | Modulo 'pwps_dab' ja carregado.
+2026-06-12 12:44:21 | INFO | Conectando via Bentley IMS.
+2026-06-12 12:44:21 | INFO | Tentando conexao via 'New-PWLogin'. Parametros: DatasourceName, UserName, Password, UseGui, DoNotCreateWorkingDirectory, BentleyIMS, LoadWRE, NonAdminLogin, Token, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-06-12 12:44:32 | OK | Conexao realizada via 'New-PWLogin -BentleyIMS'.
+2026-06-12 12:44:32 | OK | Usuario atual: Peterson Caputti
+2026-06-12 12:44:32 | OK | Conexao realizada com sucesso.
+2026-06-12 12:44:32 | OK | Pasta Engenharia localizada: Engenharia
+2026-06-12 12:44:32 | INFO | Listando filhos: Engenharia
+2026-06-12 12:44:34 | OK | Concessoes carregadas: 14.
+2026-06-12 12:44:46 | INFO | Consultando seguranca da concessao 'Ecovias Araguaia'.
+2026-06-12 12:44:46 | INFO | Workflow, State e Grupo em branco trazem todos os valores encontrados.
+2026-06-12 12:44:46 | INFO | Filtros: Tipo='group' | SecurityType='Document' | Workflow='' | State='' | Grupo=''.
+2026-06-12 12:44:46 | INFO | Carregando projetos da concessao 'Ecovias Araguaia'.
+2026-06-12 12:44:46 | INFO | Listando filhos: Ecovias Araguaia
+2026-06-12 12:44:46 | INFO | Listando filhos: Ecovias Araguaia/Projetos
+2026-06-12 12:45:05 | INFO | Projetos incluidos na consulta: 93.
+2026-06-12 12:45:06 | INFO | Get-PWFolderSecurity retornou 15 item(ns).
+2026-06-12 12:45:08 | INFO | Get-PWFolderSecurity retornou 15 item(ns).
+2026-06-12 12:45:13 | INFO | Get-PWFolderSecurity retornou 29 item(ns).
+2026-06-12 12:45:16 | INFO | Get-PWFolderSecurity retornou 29 item(ns).
+2026-06-12 12:45:17 | INFO | Get-PWFolderSecurity retornou 29 item(ns).
+2026-06-12 12:45:19 | INFO | Get-PWFolderSecurity retornou 29 item(ns).
+2026-06-12 12:45:23 | INFO | Get-PWFolderSecurity retornou 29 item(ns).
+2026-06-12 12:45:26 | INFO | Get-PWFolderSecurity retornou 29 item(ns).
+2026-06-12 12:45:28 | INFO | Get-PWFolderSecurity retornou 29 item(ns).
+2026-06-12 12:45:30 | INFO | Get-PWFolderSecurity retornou 29 item(ns).
+2026-06-12 12:45:35 | INFO | Get-PWFolderSecurity retornou 29 item(ns).
+2026-06-12 12:45:37 | INFO | Get-PWFolderSecurity retornou 29 item(ns).
+2026-06-12 12:45:39 | INFO | Get-PWFolderSecurity retornou 29 item(ns).
+2026-06-12 12:45:39 | INFO | Consultando seguranca da concessao 'Ecovias Araguaia'.
+2026-06-12 12:45:39 | INFO | Workflow, State e Grupo em branco trazem todos os valores encontrados.
+2026-06-12 12:45:39 | INFO | Filtros: Tipo='group' | SecurityType='Document' | Workflow='' | State='' | Grupo='Gestão - ECS'.
+2026-06-12 12:45:39 | INFO | Carregando projetos da concessao 'Ecovias Araguaia'.
+2026-06-12 12:45:39 | INFO | Listando filhos: Ecovias Araguaia
+2026-06-12 12:45:39 | INFO | Listando filhos: Ecovias Araguaia/Projetos
+2026-06-12 12:46:00 | INFO | Projetos incluidos na consulta: 93.
+2026-06-12 12:46:00 | INFO | Get-PWFolderSecurity retornou 15 item(ns).
+2026-06-12 12:46:06 | INFO | Get-PWFolderSecurity retornou 15 item(ns).
+2026-06-12 12:46:09 | INFO | Get-PWFolderSecurity retornou 29 item(ns).
+2026-06-12 12:46:11 | INFO | Get-PWFolderSecurity retornou 29 item(ns).
+2026-06-12 12:46:17 | INFO | Get-PWFolderSecurity retornou 29 item(ns).
+2026-06-12 12:46:19 | INFO | Get-PWFolderSecurity retornou 29 item(ns).
+2026-06-12 12:46:21 | INFO | Get-PWFolderSecurity retornou 29 item(ns).
+2026-06-12 12:46:28 | INFO | Get-PWFolderSecurity retornou 29 item(ns).
+2026-06-12 12:46:30 | INFO | Get-PWFolderSecurity retornou 29 item(ns).
+2026-06-12 12:46:31 | INFO | Get-PWFolderSecurity retornou 29 item(ns).
+2026-06-12 12:46:36 | INFO | Get-PWFolderSecurity retornou 29 item(ns).
+2026-06-12 12:46:40 | INFO | Get-PWFolderSecurity retornou 29 item(ns).
+2026-06-12 12:46:42 | INFO | Get-PWFolderSecurity retornou 29 item(ns).
+2026-06-12 12:46:44 | INFO | Get-PWFolderSecurity retornou 29 item(ns).
+2026-06-12 12:46:49 | INFO | Get-PWFolderSecurity retornou 29 item(ns).
+2026-06-12 12:46:51 | INFO | Get-PWFolderSecurity retornou 29 item(ns).
+2026-06-12 12:46:53 | INFO | Get-PWFolderSecurity retornou 29 item(ns).
+2026-06-12 12:46:55 | INFO | Get-PWFolderSecurity retornou 29 item(ns).
+2026-06-12 12:47:01 | INFO | Get-PWFolderSecurity retornou 15 item(ns).
+2026-06-12 12:47:03 | INFO | Get-PWFolderSecurity retornou 29 item(ns).
+2026-06-12 12:47:03 | OK | Sessao ProjectWise encerrada via 'Undo-PWLogin'.
+2026-06-12 12:47:03 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:03 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:03 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:03 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:03 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:03 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:03 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:03 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:03 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:03 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:03 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:03 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:03 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:03 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:04 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:04 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:04 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:04 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:04 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:04 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:04 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:04 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:04 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:04 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:04 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:04 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:04 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:04 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:04 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:04 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:04 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:04 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:04 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:04 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:04 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:04 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:04 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:04 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:04 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:04 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:05 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:05 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:05 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:05 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:05 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:05 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:05 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:05 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:05 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:05 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:05 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:05 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:05 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:05 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:05 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:05 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:05 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:05 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:05 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:05 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:05 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:05 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:05 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:05 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:05 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:05 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:06 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:06 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:06 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:06 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:06 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:06 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:06 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:06 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:06 | ERROR | Erro na consulta: Não é possível localizar um parâmetro que coincida com o nome de parâmetro 'Rows'.
+2026-06-12 12:47:07 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:07 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:07 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:07 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:07 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:07 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:07 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:07 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:07 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:07 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:07 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:07 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:07 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:08 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:08 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:08 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:08 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:08 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:08 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:08 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:08 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:08 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:08 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:08 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:08 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:08 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:08 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:08 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:08 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:08 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:08 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:08 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:08 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:08 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:08 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:08 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:08 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:08 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:08 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:09 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:09 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:09 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:09 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:09 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:09 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:09 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:09 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:09 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:09 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:09 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:09 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:09 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:09 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:09 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:09 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:09 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:09 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:09 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:09 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:09 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:09 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:09 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:09 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:09 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:09 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:10 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:10 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:10 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:10 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:10 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:10 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:10 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:10 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:10 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:10 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:10 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:10 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:10 | OK | Sessao ProjectWise encerrada via 'Undo-PWLogin'.
+2026-06-12 12:47:10 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:10 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:10 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:10 | WARN | Falha ao consultar Get-PWFolderSecurity: Not logged into a ProjectWise datasource.
+2026-06-12 12:47:10 | ERROR | Erro na consulta: Não é possível localizar um parâmetro que coincida com o nome de parâmetro 'Rows'.

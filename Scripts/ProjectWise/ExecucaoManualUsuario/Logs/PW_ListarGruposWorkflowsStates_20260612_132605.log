@@ -1,0 +1,479 @@
+2026-06-12 13:26:07 | INFO | Importando modulo ProjectWise.
+2026-06-12 13:26:07 | INFO | Modulo 'pwps_dab' ja carregado.
+2026-06-12 13:26:07 | INFO | Conectando via Bentley IMS.
+2026-06-12 13:26:07 | INFO | Tentando conexao via 'New-PWLogin'. Parametros: DatasourceName, UserName, Password, UseGui, DoNotCreateWorkingDirectory, BentleyIMS, LoadWRE, NonAdminLogin, Token, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-06-12 13:26:21 | OK | Conexao realizada via 'New-PWLogin -BentleyIMS'.
+2026-06-12 13:26:21 | OK | Usuario atual: Peterson Caputti
+2026-06-12 13:26:21 | OK | Conexao realizada com sucesso.
+2026-06-12 13:26:22 | OK | Pasta Engenharia localizada: Engenharia
+2026-06-12 13:26:22 | INFO | Listando filhos: Engenharia
+2026-06-12 13:26:25 | OK | Concessoes carregadas: 14.
+2026-06-12 13:26:30 | INFO | Consultando seguranca da concessao 'Ecovias Capixaba'.
+2026-06-12 13:26:30 | INFO | Modo Access Control: 'Workflows'. Workflow, State e Grupo em branco trazem todos os valores encontrados.
+2026-06-12 13:26:30 | INFO | Filtros: Tipo='group' | SecurityType='Document' | Workflow='' | State='' | Grupo=''.
+2026-06-12 13:26:33 | INFO | Get-PWFolderSecurity retornou 34 item(ns).
+2026-06-12 13:26:33 | OK | Consulta concluida. Registros encontrados: 34.
+2026-06-12 13:27:13 | INFO | Listando descendentes de 'Ecovias Capixaba' para aplicar remocao.
+2026-06-12 13:27:13 | INFO | Listando filhos: Ecovias Capixaba
+2026-06-12 13:27:13 | INFO | Listando filhos: Projetos
+2026-06-12 13:27:17 | INFO | Listando filhos: Documentos Gerais
+2026-06-12 13:27:19 | INFO | Listando filhos: Contorno de Fundão - km 227 + 232 - BR101/ES
+2026-06-12 13:27:20 | INFO | Listando filhos: Contorno de Vitória Dispositivo 1 - km 284,710 - BR101/ES
+2026-06-12 13:27:20 | INFO | Listando filhos: Contorno de Ibiraçu - km 212 + 215 - BR101/ES
+2026-06-12 13:27:21 | INFO | Listando filhos: Ciclovia de Linhares - km 138,794 +144,750 - BR101/ES
+2026-06-12 13:27:22 | INFO | Listando filhos: Alteamento de Greide - km 163 - BR101/ES
+2026-06-12 13:27:23 | INFO | Listando filhos: Passarelas - km 6 - BR101/ES
+2026-06-12 13:27:24 | INFO | Listando filhos: Marginais de Vitória - km 278,200 - 291,500 - BR101/ES
+2026-06-12 13:27:25 | INFO | Listando filhos: Duplicação SH C - km 203,6 + 222,9 - BR101/ES
+2026-06-12 13:27:25 | INFO | Listando filhos: Duplicação SH D1 - km 242 + 247 - BR101/ES
+2026-06-12 13:27:26 | INFO | Listando filhos: Duplicação SH D2 - km 231,9 + 242 - BR101/ES
+2026-06-12 13:27:27 | INFO | Listando filhos: Duplicação SH G1A (Obras) -  km 357,7 + 373,5 - BR101/ES
+2026-06-12 13:27:28 | INFO | Listando filhos: Duplicação SH G1B - km 380,3 + 396,8 - BR101/ES
+2026-06-12 13:27:29 | INFO | Listando filhos: Duplicação SH G2 -  km 396,8 + 426,7 - BR101/ES
+2026-06-12 13:27:30 | INFO | Listando filhos: Marginais de Viana -  km 291,5 + 304,8 - BR101/ES
+2026-06-12 13:27:31 | INFO | Listando filhos: Pedro Canário (km 15 + 17) / Linhares (km 146 + 150) / Timbuí (km 237 + 239) - BR101/ES
+2026-06-12 13:27:32 | INFO | Listando filhos: PPD Trecho Norte - Linhares - km 169+900 - BR101/ES
+2026-06-12 13:27:33 | INFO | Listando filhos: PPD Trecho Sul - Serra - km 425+300 - BR101/ES
+2026-06-12 13:27:34 | INFO | Listando filhos: HS-WIM - Ibiraçu - km 224 - BR101/ES
+2026-06-12 13:27:35 | INFO | Listando filhos: Duplicação SH F - km 308,1 + 359,2 - BR101/ES
+2026-06-12 13:27:36 | INFO | Listando filhos: Contorno de Vitória Dispositivo 2 - km 287,730 - BR101/ES
+2026-06-12 13:27:36 | INFO | Listando filhos: Contorno de Vitória Marginais - km 278,900 + 291,000 - BR101/ES
+2026-06-12 13:27:37 | INFO | Listando filhos: Duplicação SH C (Contorno de Ibiraçu) - km 210,9 + 212 - BR101/ES
+2026-06-12 13:27:38 | INFO | Listando filhos: Duplicação SH C (Contorno de Fundão) - km 222,9 + 227 - BR101/ES
+2026-06-12 13:27:38 | INFO | Listando filhos: Duplicação SH G1A (ANTT) -  km 357,7 + 373,5 - BR101/ES
+2026-06-12 13:27:39 | INFO | Listando filhos: Ciclo Orçamentário
+2026-06-12 13:27:39 | INFO | Listando filhos: Cronograma Geral
+2026-06-12 13:27:39 | INFO | Listando filhos: Edital - Per
+2026-06-12 13:27:39 | INFO | Listando filhos: Estudos - EVTEA
+2026-06-12 13:27:39 | INFO | Listando filhos: Faixa de Domínio
+2026-06-12 13:27:39 | INFO | Listando filhos: KMZ
+2026-06-12 13:27:39 | INFO | Listando filhos: Marcos Topográficos
+2026-06-12 13:27:39 | INFO | Listando filhos: Ofícios
+2026-06-12 13:27:39 | INFO | Listando filhos: Aerolevantamento
+2026-06-12 13:27:40 | INFO | Listando filhos: Plano de Negócio Projeto
+2026-06-12 13:27:40 | INFO | Listando filhos: Plano de Negócio Orçamento
+2026-06-12 13:27:40 | INFO | Listando filhos: Portaria - Pode Conc.
+2026-06-12 13:27:40 | INFO | Listando filhos: Volume tráfego SAT's
+2026-06-12 13:27:40 | INFO | Listando filhos: Volume tráfego Pedágios
+2026-06-12 13:27:40 | INFO | Listando filhos: Documentos Gerais
+2026-06-12 13:27:42 | INFO | Listando filhos: 1 - Area de Trabalho
+2026-06-12 13:27:43 | INFO | Listando filhos: 2 - Unidade
+2026-06-12 13:27:43 | INFO | Listando filhos: Area de Transferencia
+2026-06-12 13:27:44 | INFO | Listando filhos: Previsao de Documentos (LD)
+2026-06-12 13:27:44 | INFO | Listando filhos: 0 - Documentos Gerais
+2026-06-12 13:27:45 | INFO | Listando filhos: 1 - Area de Trabalho
+2026-06-12 13:27:46 | INFO | Listando filhos: 2 - Unidade
+2026-06-12 13:27:46 | INFO | Listando filhos: Area de Transferencia
+2026-06-12 13:27:47 | INFO | Listando filhos: Previsao de Documentos (LD)
+2026-06-12 13:27:47 | INFO | Listando filhos: 0 - Documentos Gerais
+2026-06-12 13:27:49 | INFO | Listando filhos: 1 - Area de Trabalho
+2026-06-12 13:27:49 | INFO | Listando filhos: 2 - Unidade
+2026-06-12 13:27:50 | INFO | Listando filhos: Area de Transferencia
+2026-06-12 13:27:50 | INFO | Listando filhos: Previsao de Documentos (LD)
+2026-06-12 13:27:50 | INFO | Listando filhos: 0 - Documentos Gerais
+2026-06-12 13:27:52 | INFO | Listando filhos: 1 - Area de Trabalho
+2026-06-12 13:27:53 | INFO | Listando filhos: 2 - Unidade
+2026-06-12 13:27:53 | INFO | Listando filhos: Area de Transferencia
+2026-06-12 13:27:54 | INFO | Listando filhos: Previsao de Documentos (LD)
+2026-06-12 13:27:54 | INFO | Listando filhos: 0 - Documentos Gerais
+2026-06-12 13:27:58 | INFO | Listando filhos: 1 - Area de Trabalho
+2026-06-12 13:28:01 | INFO | Listando filhos: 2 - Unidade
+2026-06-12 13:28:01 | INFO | Listando filhos: Area de Transferencia
+2026-06-12 13:28:02 | INFO | Listando filhos: Previsao de Documentos (LD)
+2026-06-12 13:28:02 | INFO | Listando filhos: 0 - Documentos Gerais
+2026-06-12 13:28:04 | INFO | Listando filhos: 1 - Area de Trabalho
+2026-06-12 13:28:04 | INFO | Listando filhos: 2 - Unidade
+2026-06-12 13:28:05 | INFO | Listando filhos: Area de Transferencia
+2026-06-12 13:28:05 | INFO | Listando filhos: Previsao de Documentos (LD)
+2026-06-12 13:28:05 | INFO | Listando filhos: 0 - Documentos Gerais
+2026-06-12 13:28:07 | INFO | Listando filhos: 1 - Area de Trabalho
+2026-06-12 13:28:07 | INFO | Listando filhos: 2 - Unidade
+2026-06-12 13:28:08 | INFO | Listando filhos: Area de Transferencia
+2026-06-12 13:28:09 | INFO | Listando filhos: Previsao de Documentos (LD)
+2026-06-12 13:28:09 | INFO | Listando filhos: 0 - Documentos Gerais
+2026-06-12 13:28:11 | INFO | Listando filhos: 1 - Area de Trabalho
+2026-06-12 13:28:12 | INFO | Listando filhos: 2 - Unidade
+2026-06-12 13:28:13 | INFO | Listando filhos: Area de Transferencia
+2026-06-12 13:28:13 | INFO | Listando filhos: Previsao de Documentos (LD)
+2026-06-12 13:28:13 | INFO | Listando filhos: 0 - Documentos Gerais
+2026-06-12 13:28:20 | INFO | Listando filhos: 1 - Area de Trabalho
+2026-06-12 13:28:20 | INFO | Listando filhos: 2 - Unidade
+2026-06-12 13:28:21 | INFO | Listando filhos: Area de Transferencia
+2026-06-12 13:28:21 | INFO | Listando filhos: Previsao de Documentos (LD)
+2026-06-12 13:28:21 | INFO | Listando filhos: 0 - Documentos Gerais
+2026-06-12 13:28:24 | INFO | Listando filhos: 1 - Area de Trabalho
+2026-06-12 13:28:25 | INFO | Listando filhos: 2 - Unidade
+2026-06-12 13:28:29 | INFO | Listando filhos: Area de Transferencia
+2026-06-12 13:28:30 | INFO | Listando filhos: Previsao de Documentos (LD)
+2026-06-12 13:28:30 | INFO | Listando filhos: 0 - Documentos Gerais
+2026-06-12 13:28:31 | INFO | Listando filhos: 1 - Area de Trabalho
+2026-06-12 13:28:32 | INFO | Listando filhos: 2 - Unidade
+2026-06-12 13:28:33 | INFO | Listando filhos: Area de Transferencia
+2026-06-12 13:28:33 | INFO | Listando filhos: Previsao de Documentos (LD)
+2026-06-12 13:28:33 | INFO | Listando filhos: 0 - Documentos Gerais
+2026-06-12 13:28:35 | INFO | Listando filhos: 1 - Area de Trabalho
+2026-06-12 13:28:35 | INFO | Listando filhos: 2 - Unidade
+2026-06-12 13:28:36 | INFO | Listando filhos: Area de Transferencia
+2026-06-12 13:28:37 | INFO | Listando filhos: Previsao de Documentos (LD)
+2026-06-12 13:28:37 | INFO | Listando filhos: 0 - Documentos Gerais
+2026-06-12 13:28:39 | INFO | Listando filhos: 1 - Area de Trabalho
+2026-06-12 13:28:39 | INFO | Listando filhos: 2 - Unidade
+2026-06-12 13:28:40 | INFO | Listando filhos: Area de Transferencia
+2026-06-12 13:28:41 | INFO | Listando filhos: Previsao de Documentos (LD)
+2026-06-12 13:28:41 | INFO | Listando filhos: 0 - Documentos Gerais
+2026-06-12 13:28:43 | INFO | Listando filhos: 1 - Area de Trabalho
+2026-06-12 13:28:47 | INFO | Listando filhos: 2 - Unidade
+2026-06-12 13:28:48 | INFO | Listando filhos: Area de Transferencia
+2026-06-12 13:28:49 | INFO | Listando filhos: Previsao de Documentos (LD)
+2026-06-12 13:28:49 | INFO | Listando filhos: 0 - Documentos Gerais
+2026-06-12 13:28:51 | INFO | Listando filhos: 1 - Area de Trabalho
+2026-06-12 13:28:52 | INFO | Listando filhos: 2 - Unidade
+2026-06-12 13:28:52 | INFO | Listando filhos: Area de Transferencia
+2026-06-12 13:28:53 | INFO | Listando filhos: Previsao de Documentos (LD)
+2026-06-12 13:28:53 | INFO | Listando filhos: 0 - Documentos Gerais
+2026-06-12 13:28:59 | INFO | Listando filhos: 1 - Area de Trabalho
+2026-06-12 13:29:00 | INFO | Listando filhos: 2 - Unidade
+2026-06-12 13:29:01 | INFO | Listando filhos: Area de Transferencia
+2026-06-12 13:29:02 | INFO | Listando filhos: Previsao de Documentos (LD)
+2026-06-12 13:29:02 | INFO | Listando filhos: 0 - Documentos Gerais
+2026-06-12 13:29:04 | INFO | Listando filhos: 1 - Area de Trabalho
+2026-06-12 13:29:04 | INFO | Listando filhos: 2 - Unidade
+2026-06-12 13:29:05 | INFO | Listando filhos: Area de Transferencia
+2026-06-12 13:29:06 | INFO | Listando filhos: Previsao de Documentos (LD)
+2026-06-12 13:29:06 | INFO | Listando filhos: 0 - Documentos Gerais
+2026-06-12 13:29:09 | INFO | Listando filhos: 1 - Area de Trabalho
+2026-06-12 13:29:10 | INFO | Listando filhos: 2 - Unidade
+2026-06-12 13:29:11 | INFO | Listando filhos: Area de Transferencia
+2026-06-12 13:29:11 | INFO | Listando filhos: Previsao de Documentos (LD)
+2026-06-12 13:29:11 | INFO | Listando filhos: 0 - Documentos Gerais
+2026-06-12 13:29:18 | INFO | Listando filhos: 1 - Area de Trabalho
+2026-06-12 13:29:19 | INFO | Listando filhos: 2 - Unidade
+2026-06-12 13:29:19 | INFO | Listando filhos: Area de Transferencia
+2026-06-12 13:29:20 | INFO | Listando filhos: Previsao de Documentos (LD)
+2026-06-12 13:29:20 | INFO | Listando filhos: 0 - Documentos Gerais
+2026-06-12 13:29:22 | INFO | Listando filhos: 1 - Area de Trabalho
+2026-06-12 13:29:22 | INFO | Listando filhos: 2 - Unidade
+2026-06-12 13:29:23 | INFO | Listando filhos: Area de Transferencia
+2026-06-12 13:29:24 | INFO | Listando filhos: Previsao de Documentos (LD)
+2026-06-12 13:29:24 | INFO | Listando filhos: 0 - Documentos Gerais
+2026-06-12 13:29:25 | INFO | Listando filhos: 1 - Area de Trabalho
+2026-06-12 13:29:26 | INFO | Listando filhos: 2 - Unidade
+2026-06-12 13:29:27 | INFO | Listando filhos: Area de Transferencia
+2026-06-12 13:29:27 | INFO | Listando filhos: Previsao de Documentos (LD)
+2026-06-12 13:29:27 | INFO | Listando filhos: 0 - Documentos Gerais
+2026-06-12 13:29:29 | INFO | Listando filhos: 1 - Area de Trabalho
+2026-06-12 13:29:30 | INFO | Listando filhos: 2 - Unidade
+2026-06-12 13:29:31 | INFO | Listando filhos: Area de Transferencia
+2026-06-12 13:29:35 | INFO | Listando filhos: Previsao de Documentos (LD)
+2026-06-12 13:29:35 | INFO | Listando filhos: 1 - Area de Trabalho
+2026-06-12 13:29:37 | INFO | Listando filhos: 2 - Unidade
+2026-06-12 13:29:38 | INFO | Listando filhos: Area de Transferencia
+2026-06-12 13:29:39 | INFO | Listando filhos: Previsao de Documentos (LD)
+2026-06-12 13:29:39 | INFO | Listando filhos: 0 - Documentos Gerais
+2026-06-12 13:29:46 | INFO | Listando filhos: 1 - Area de Trabalho
+2026-06-12 13:29:48 | INFO | Listando filhos: 2 - Unidade
+2026-06-12 13:29:49 | INFO | Listando filhos: Area de Transferencia
+2026-06-12 13:29:49 | INFO | Listando filhos: Previsao de Documentos (LD)
+2026-06-12 13:29:49 | INFO | Listando filhos: Ciclo Orçamentário
+2026-06-12 13:29:50 | INFO | Listando filhos: Cronograma Geral
+2026-06-12 13:29:50 | INFO | Listando filhos: Edital - Per
+2026-06-12 13:29:50 | INFO | Listando filhos: Estudos - EVTEA
+2026-06-12 13:29:50 | INFO | Listando filhos: Faixa de Domínio
+2026-06-12 13:29:50 | INFO | Listando filhos: KMZ
+2026-06-12 13:29:50 | INFO | Listando filhos: Marcos Topográficos
+2026-06-12 13:29:50 | INFO | Listando filhos: Ofícios
+2026-06-12 13:29:50 | INFO | Listando filhos: Aerolevantamento
+2026-06-12 13:29:50 | INFO | Listando filhos: Plano de Negócio Projeto
+2026-06-12 13:29:50 | INFO | Listando filhos: Plano de Negócio Orçamento
+2026-06-12 13:29:50 | INFO | Listando filhos: Portaria - Pode Conc.
+2026-06-12 13:29:50 | INFO | Listando filhos: Volume tráfego SAT's
+2026-06-12 13:29:50 | INFO | Listando filhos: Volume tráfego Pedágios
+2026-06-12 13:29:50 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:29:50 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:29:51 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:29:52 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:29:52 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:29:54 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:29:58 | INFO | Listando filhos: Entrada
+2026-06-12 13:31:08 | INFO | Listando filhos: Saida
+2026-06-12 13:31:08 | INFO | Listando filhos: Unidade
+2026-06-12 13:31:08 | INFO | Listando filhos: Cronograma
+2026-06-12 13:31:08 | INFO | Listando filhos: Atas de Reunião
+2026-06-12 13:31:08 | INFO | Listando filhos: Ofícios
+2026-06-12 13:31:09 | INFO | Listando filhos: EVTEA
+2026-06-12 13:31:09 | INFO | Listando filhos: Checklist de Qualidade
+2026-06-12 13:31:10 | INFO | Listando filhos: Stage Gate
+2026-06-12 13:31:10 | INFO | Listando filhos: Cadastro de interferências
+2026-06-12 13:31:10 | INFO | Listando filhos: Sondagens
+2026-06-12 13:31:10 | INFO | Listando filhos: Topografia
+2026-06-12 13:31:11 | INFO | Listando filhos: Meio ambiente
+2026-06-12 13:31:11 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:31:12 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:31:14 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:31:15 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:31:15 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:31:15 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:31:16 | INFO | Listando filhos: Entrada
+2026-06-12 13:32:11 | INFO | Listando filhos: Saida
+2026-06-12 13:32:11 | INFO | Listando filhos: Unidade
+2026-06-12 13:32:12 | INFO | Listando filhos: Cronograma
+2026-06-12 13:32:12 | INFO | Listando filhos: Atas de Reunião
+2026-06-12 13:32:12 | INFO | Listando filhos: Ofícios
+2026-06-12 13:32:12 | INFO | Listando filhos: EVTEA
+2026-06-12 13:32:12 | INFO | Listando filhos: Checklist de Qualidade
+2026-06-12 13:32:12 | INFO | Listando filhos: Stage Gate
+2026-06-12 13:32:12 | INFO | Listando filhos: Cadastro de interferências
+2026-06-12 13:32:12 | INFO | Listando filhos: Sondagens
+2026-06-12 13:32:12 | INFO | Listando filhos: Topografia
+2026-06-12 13:32:12 | INFO | Listando filhos: Meio ambiente
+2026-06-12 13:32:12 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:32:13 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:32:15 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:32:19 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:32:19 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:32:19 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:32:20 | INFO | Listando filhos: Entrada
+2026-06-12 13:33:28 | INFO | Listando filhos: Saida
+2026-06-12 13:33:28 | INFO | Listando filhos: Unidade
+2026-06-12 13:33:28 | INFO | Listando filhos: Cronograma
+2026-06-12 13:33:28 | INFO | Listando filhos: Atas de Reunião
+2026-06-12 13:33:28 | INFO | Listando filhos: Ofícios
+2026-06-12 13:33:29 | INFO | Listando filhos: EVTEA
+2026-06-12 13:33:29 | INFO | Listando filhos: Checklist de Qualidade
+2026-06-12 13:33:29 | INFO | Listando filhos: Stage Gate
+2026-06-12 13:33:29 | INFO | Listando filhos: Cadastro de interferências
+2026-06-12 13:33:29 | INFO | Listando filhos: Sondagens
+2026-06-12 13:33:29 | INFO | Listando filhos: Topografia
+2026-06-12 13:33:29 | INFO | Listando filhos: Meio ambiente
+2026-06-12 13:33:29 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:33:29 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:33:29 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:33:30 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:33:30 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:33:31 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:33:35 | INFO | Listando filhos: Entrada
+2026-06-12 13:34:13 | INFO | Listando filhos: Saida
+2026-06-12 13:34:13 | INFO | Listando filhos: Unidade
+2026-06-12 13:34:13 | INFO | Listando filhos: Cronograma
+2026-06-12 13:34:13 | INFO | Listando filhos: Atas de Reunião
+2026-06-12 13:34:13 | INFO | Listando filhos: Ofícios
+2026-06-12 13:34:13 | INFO | Listando filhos: EVTEA
+2026-06-12 13:34:13 | INFO | Listando filhos: Checklist de Qualidade
+2026-06-12 13:34:13 | INFO | Listando filhos: Stage Gate
+2026-06-12 13:34:13 | INFO | Listando filhos: Cadastro de interferências
+2026-06-12 13:34:13 | INFO | Listando filhos: Sondagens
+2026-06-12 13:34:13 | INFO | Listando filhos: Topografia
+2026-06-12 13:34:13 | INFO | Listando filhos: Meio ambiente
+2026-06-12 13:34:14 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:34:14 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:34:14 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:34:17 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:34:17 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:34:20 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:34:21 | INFO | Listando filhos: Entrada
+2026-06-12 13:34:21 | INFO | Listando filhos: Saida
+2026-06-12 13:34:21 | INFO | Listando filhos: Cronograma
+2026-06-12 13:34:22 | INFO | Listando filhos: Atas de Reunião
+2026-06-12 13:34:22 | INFO | Listando filhos: Ofícios
+2026-06-12 13:34:22 | INFO | Listando filhos: EVTEA
+2026-06-12 13:34:22 | INFO | Listando filhos: Checklist de Qualidade
+2026-06-12 13:34:22 | INFO | Listando filhos: Stage Gate
+2026-06-12 13:34:22 | INFO | Listando filhos: Cadastro de interferências
+2026-06-12 13:34:22 | INFO | Listando filhos: Sondagens
+2026-06-12 13:34:22 | INFO | Listando filhos: Topografia
+2026-06-12 13:34:22 | INFO | Listando filhos: Meio ambiente
+2026-06-12 13:34:22 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:34:22 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:34:23 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:34:24 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:34:24 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:34:24 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:34:25 | INFO | Listando filhos: Entrada
+2026-06-12 13:34:25 | INFO | Listando filhos: Saida
+2026-06-12 13:34:26 | INFO | Listando filhos: Cronograma
+2026-06-12 13:34:26 | INFO | Listando filhos: Atas de Reunião
+2026-06-12 13:34:26 | INFO | Listando filhos: Ofícios
+2026-06-12 13:34:27 | INFO | Listando filhos: EVTEA
+2026-06-12 13:34:27 | INFO | Listando filhos: Checklist de Qualidade
+2026-06-12 13:34:27 | INFO | Listando filhos: Stage Gate
+2026-06-12 13:34:27 | INFO | Listando filhos: Cadastro de interferências
+2026-06-12 13:34:28 | INFO | Listando filhos: Sondagens
+2026-06-12 13:34:28 | INFO | Listando filhos: Topografia
+2026-06-12 13:34:29 | INFO | Listando filhos: Meio ambiente
+2026-06-12 13:34:29 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:34:29 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:34:31 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:34:32 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:34:32 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:34:33 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:34:33 | INFO | Listando filhos: Entrada
+2026-06-12 13:36:18 | INFO | Listando filhos: Saida
+2026-06-12 13:36:18 | INFO | Listando filhos: Unidade
+2026-06-12 13:36:18 | INFO | Listando filhos: Cronograma
+2026-06-12 13:36:18 | INFO | Listando filhos: Atas de Reunião
+2026-06-12 13:36:19 | INFO | Listando filhos: Ofícios
+2026-06-12 13:36:19 | INFO | Listando filhos: EVTEA
+2026-06-12 13:36:19 | INFO | Listando filhos: Checklist de Qualidade
+2026-06-12 13:36:19 | INFO | Listando filhos: Stage Gate
+2026-06-12 13:36:19 | INFO | Listando filhos: Cadastro de interferências
+2026-06-12 13:36:19 | INFO | Listando filhos: Sondagens
+2026-06-12 13:36:19 | INFO | Listando filhos: Topografia
+2026-06-12 13:36:19 | INFO | Listando filhos: Meio ambiente
+2026-06-12 13:36:19 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:36:19 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:36:20 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:36:21 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:36:21 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:36:23 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:36:27 | INFO | Listando filhos: Entrada
+2026-06-12 13:36:37 | INFO | Listando filhos: Saida
+2026-06-12 13:36:37 | INFO | Listando filhos: Unidade
+2026-06-12 13:36:37 | INFO | Listando filhos: Cronograma
+2026-06-12 13:36:37 | INFO | Listando filhos: Atas de Reunião
+2026-06-12 13:36:38 | INFO | Listando filhos: Ofícios
+2026-06-12 13:36:38 | INFO | Listando filhos: EVTEA
+2026-06-12 13:36:38 | INFO | Listando filhos: Checklist de Qualidade
+2026-06-12 13:36:38 | INFO | Listando filhos: Stage Gate
+2026-06-12 13:36:39 | INFO | Listando filhos: Cadastro de interferências
+2026-06-12 13:36:39 | INFO | Listando filhos: Sondagens
+2026-06-12 13:36:39 | INFO | Listando filhos: Topografia
+2026-06-12 13:36:39 | INFO | Listando filhos: Meio ambiente
+2026-06-12 13:36:39 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:36:40 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:36:42 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:36:45 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:36:45 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:36:47 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:36:52 | INFO | Listando filhos: Entrada
+2026-06-12 13:36:52 | INFO | Listando filhos: Saida
+2026-06-12 13:36:52 | INFO | Listando filhos: Cronograma
+2026-06-12 13:36:53 | INFO | Listando filhos: Atas de Reunião
+2026-06-12 13:36:53 | INFO | Listando filhos: Ofícios
+2026-06-12 13:36:53 | INFO | Listando filhos: EVTEA
+2026-06-12 13:36:54 | INFO | Listando filhos: Checklist de Qualidade
+2026-06-12 13:36:54 | INFO | Listando filhos: Stage Gate
+2026-06-12 13:36:54 | INFO | Listando filhos: Cadastro de interferências
+2026-06-12 13:36:55 | INFO | Listando filhos: Sondagens
+2026-06-12 13:36:55 | INFO | Listando filhos: Topografia
+2026-06-12 13:36:55 | INFO | Listando filhos: Meio ambiente
+2026-06-12 13:36:55 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:36:56 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:36:58 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:37:02 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:37:02 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:37:03 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:37:04 | INFO | Listando filhos: Entrada
+2026-06-12 13:37:18 | INFO | Listando filhos: Saida
+2026-06-12 13:37:18 | INFO | Listando filhos: Unidade
+2026-06-12 13:37:18 | INFO | Listando filhos: Cronograma
+2026-06-12 13:37:19 | INFO | Listando filhos: Atas de Reunião
+2026-06-12 13:37:19 | INFO | Listando filhos: Ofícios
+2026-06-12 13:37:19 | INFO | Listando filhos: EVTEA
+2026-06-12 13:37:19 | INFO | Listando filhos: Checklist de Qualidade
+2026-06-12 13:37:19 | INFO | Listando filhos: Stage Gate
+2026-06-12 13:37:20 | INFO | Listando filhos: Cadastro de interferências
+2026-06-12 13:37:20 | INFO | Listando filhos: Sondagens
+2026-06-12 13:37:20 | INFO | Listando filhos: Topografia
+2026-06-12 13:37:20 | INFO | Listando filhos: Meio ambiente
+2026-06-12 13:37:21 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:37:21 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:37:23 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:37:25 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:37:25 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:37:25 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:37:26 | INFO | Listando filhos: Entrada
+2026-06-12 13:37:30 | INFO | Listando filhos: Saida
+2026-06-12 13:37:30 | INFO | Listando filhos: Unidade
+2026-06-12 13:37:30 | INFO | Listando filhos: Cronograma
+2026-06-12 13:37:30 | INFO | Listando filhos: Atas de Reunião
+2026-06-12 13:37:30 | INFO | Listando filhos: Ofícios
+2026-06-12 13:37:30 | INFO | Listando filhos: EVTEA
+2026-06-12 13:37:30 | INFO | Listando filhos: Checklist de Qualidade
+2026-06-12 13:37:30 | INFO | Listando filhos: Stage Gate
+2026-06-12 13:37:31 | INFO | Listando filhos: Cadastro de interferências
+2026-06-12 13:37:31 | INFO | Listando filhos: Sondagens
+2026-06-12 13:37:31 | INFO | Listando filhos: Topografia
+2026-06-12 13:37:31 | INFO | Listando filhos: Meio ambiente
+2026-06-12 13:37:31 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:37:31 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:37:31 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:37:32 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:37:32 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:37:33 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:37:33 | INFO | Listando filhos: Entrada
+2026-06-12 13:37:46 | INFO | Listando filhos: Saida
+2026-06-12 13:37:46 | INFO | Listando filhos: Unidade
+2026-06-12 13:37:47 | INFO | Listando filhos: Cronograma
+2026-06-12 13:37:47 | INFO | Listando filhos: Atas de Reunião
+2026-06-12 13:37:47 | INFO | Listando filhos: Ofícios
+2026-06-12 13:37:47 | INFO | Listando filhos: EVTEA
+2026-06-12 13:37:47 | INFO | Listando filhos: Checklist de Qualidade
+2026-06-12 13:37:47 | INFO | Listando filhos: Stage Gate
+2026-06-12 13:37:47 | INFO | Listando filhos: Cadastro de interferências
+2026-06-12 13:37:47 | INFO | Listando filhos: Sondagens
+2026-06-12 13:37:47 | INFO | Listando filhos: Topografia
+2026-06-12 13:37:47 | INFO | Listando filhos: Meio ambiente
+2026-06-12 13:37:48 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:37:48 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:37:51 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:37:54 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:37:54 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:37:56 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:38:00 | INFO | Listando filhos: Entrada
+2026-06-12 13:38:17 | INFO | Listando filhos: Saida
+2026-06-12 13:38:17 | INFO | Listando filhos: Unidade
+2026-06-12 13:38:17 | INFO | Listando filhos: Cronograma
+2026-06-12 13:38:18 | INFO | Listando filhos: Atas de Reunião
+2026-06-12 13:38:18 | INFO | Listando filhos: Ofícios
+2026-06-12 13:38:18 | INFO | Listando filhos: EVTEA
+2026-06-12 13:38:18 | INFO | Listando filhos: Checklist de Qualidade
+2026-06-12 13:38:18 | INFO | Listando filhos: Stage Gate
+2026-06-12 13:38:19 | INFO | Listando filhos: Cadastro de interferências
+2026-06-12 13:38:19 | INFO | Listando filhos: Sondagens
+2026-06-12 13:38:20 | INFO | Listando filhos: Topografia
+2026-06-12 13:38:20 | INFO | Listando filhos: Meio ambiente
+2026-06-12 13:38:20 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:38:20 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:38:22 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:38:23 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:38:23 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:38:23 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:38:26 | INFO | Listando filhos: Entrada
+2026-06-12 13:38:36 | INFO | Listando filhos: Saida
+2026-06-12 13:38:36 | INFO | Listando filhos: Unidade
+2026-06-12 13:38:37 | INFO | Listando filhos: Cronograma
+2026-06-12 13:38:37 | INFO | Listando filhos: Atas de Reunião
+2026-06-12 13:38:37 | INFO | Listando filhos: Ofícios
+2026-06-12 13:38:37 | INFO | Listando filhos: EVTEA
+2026-06-12 13:38:38 | INFO | Listando filhos: Checklist de Qualidade
+2026-06-12 13:38:38 | INFO | Listando filhos: Stage Gate
+2026-06-12 13:38:38 | INFO | Listando filhos: Cadastro de interferências
+2026-06-12 13:38:39 | INFO | Listando filhos: Sondagens
+2026-06-12 13:38:39 | INFO | Listando filhos: Topografia
+2026-06-12 13:38:39 | INFO | Listando filhos: Meio ambiente
+2026-06-12 13:38:40 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:38:40 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:38:41 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:38:45 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:38:45 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:38:49 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:38:53 | INFO | Listando filhos: Entrada
+2026-06-12 13:38:54 | INFO | Listando filhos: Saida
+2026-06-12 13:38:54 | INFO | Listando filhos: Cronograma
+2026-06-12 13:38:54 | INFO | Listando filhos: Atas de Reunião
+2026-06-12 13:38:54 | INFO | Listando filhos: Ofícios
+2026-06-12 13:38:55 | INFO | Listando filhos: EVTEA
+2026-06-12 13:38:55 | INFO | Listando filhos: Checklist de Qualidade
+2026-06-12 13:38:55 | INFO | Listando filhos: Stage Gate
+2026-06-12 13:38:56 | INFO | Listando filhos: Cadastro de interferências
+2026-06-12 13:38:56 | INFO | Listando filhos: Sondagens
+2026-06-12 13:38:56 | INFO | Listando filhos: Topografia
+2026-06-12 13:38:56 | INFO | Listando filhos: Meio ambiente
+2026-06-12 13:38:56 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:38:57 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:38:58 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:38:58 | INFO | Listando filhos: 01 - Funcional
+2026-06-12 13:38:59 | INFO | Listando filhos: 02 - Anteprojeto
+2026-06-12 13:38:59 | INFO | Listando filhos: 03 - Executivo
+2026-06-12 13:39:00 | INFO | Listando filhos: Doc. Geral
+2026-06-12 13:39:00 | INFO | Listando filhos: Entrada
