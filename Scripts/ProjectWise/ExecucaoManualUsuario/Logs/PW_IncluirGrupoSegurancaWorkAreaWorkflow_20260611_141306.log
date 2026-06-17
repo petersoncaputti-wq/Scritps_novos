@@ -1,9 +1,0 @@
-2026-06-11 14:13:06 | INFO | Inicio da validacao de login.
-2026-06-11 14:13:07 | INFO | Modulo 'pwps_dab' importado. Versao=0.0 24.0.2 | Caminho=C:\Program Files\WindowsPowerShell\Modules\pwps_dab\24.0.2\pwps_dab.ps1 C:\Program Files\WindowsPowerShell\Modules\pwps_dab\24.0.2\pwps_dab.dll
-2026-06-11 14:13:07 | INFO | Tentando conexao via 'New-PWLogin'. Parametros: DatasourceName, UserName, Password, UseGui, DoNotCreateWorkingDirectory, BentleyIMS, LoadWRE, NonAdminLogin, Token, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
-2026-06-11 14:13:18 | OK | Conexao realizada via 'New-PWLogin -BentleyIMS'.
-2026-06-11 14:13:18 | OK | Datasource conectado: 01SSRV305.ECSC.ECORODOVIAS.CORP:Ecorodovias-01
-2026-06-11 14:13:19 | OK | Usuario atual: Peterson Caputti
-2026-06-11 14:13:19 | OK | Validacao de login concluida com sucesso.
-2026-06-11 14:13:21 | ERROR | Erro na execucao: Nenhum Group encontrado no PW Administrator contendo o texto 'NOME DO GROUP'.
-2026-06-11 14:13:21 | OK | Sessao ProjectWise encerrada via 'Undo-PWLogin'.
