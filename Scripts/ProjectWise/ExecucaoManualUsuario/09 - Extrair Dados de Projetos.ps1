@@ -1,6 +1,7 @@
 ﻿# =======================================================
-# Extração 1 - Projetos criados em uma concessão ProjectWise
-# Versão usando a mesma lógica do script de gestão de acessos:
+# Exporta inventario tecnico de projetos por concessao no ProjectWise.
+# Gera Excel com identificadores, caminho, datas, autores e workflow.
+# Usa a mesma logica do script de gestao de acessos:
 # - Get-PWFoldersImmediateChildren -Root
 # - Get-PWFoldersImmediateChildren -FolderID
 # =======================================================

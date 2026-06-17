@@ -2,7 +2,7 @@
 setlocal
 
 set "SCRIPT_DIR=%~dp0"
-set "SCRIPT_PATH=%SCRIPT_DIR%Criar_Buscas_Salvas_Projetos_PW.ps1"
+set "SCRIPT_PATH=%SCRIPT_DIR%06 - Criar Buscas Salvas em Projetos.ps1"
 
 echo Executando criacao de buscas salvas no ProjectWise...
 echo.

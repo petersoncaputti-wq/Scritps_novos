@@ -30,13 +30,13 @@
     - Numeros especificos, como 1,3,6 ou 1-5
 
 .EXAMPLE
-    powershell.exe -NoProfile -MTA -ExecutionPolicy Bypass -File ".\Criar_Buscas_Salvas_Projetos_PW.ps1" -WhatIf
+    powershell.exe -NoProfile -MTA -ExecutionPolicy Bypass -File ".\06 - Criar Buscas Salvas em Projetos.ps1" -WhatIf
 
 .EXAMPLE
-    powershell.exe -NoProfile -MTA -ExecutionPolicy Bypass -File ".\Criar_Buscas_Salvas_Projetos_PW.ps1" -ProjectPaths "ENGENHARIA\Ecovias\Projetos\ABC123"
+    powershell.exe -NoProfile -MTA -ExecutionPolicy Bypass -File ".\06 - Criar Buscas Salvas em Projetos.ps1" -ProjectPaths "ENGENHARIA\Ecovias\Projetos\ABC123"
 
 .EXAMPLE
-    powershell.exe -NoProfile -MTA -ExecutionPolicy Bypass -File ".\Criar_Buscas_Salvas_Projetos_PW.ps1" -EstadosPesquisa "Em analise do assistente"
+    powershell.exe -NoProfile -MTA -ExecutionPolicy Bypass -File ".\06 - Criar Buscas Salvas em Projetos.ps1" -EstadosPesquisa "Em analise do assistente"
 #>
 
 [CmdletBinding(SupportsShouldProcess = $true)]

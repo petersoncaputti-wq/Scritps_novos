@@ -58,7 +58,7 @@ Escopo:
   - selecao de concessao/projetos;
   - painel de log;
   - previa das operacoes antes de aplicar.
-- Usar uma abordagem simples para Windows, alinhada ao padrao visual do script `ProjectWise_Gestao_Acessos_FallbackInteligente.ps1`.
+- Usar uma abordagem simples para Windows, alinhada ao padrao visual do script `02 - Gerenciar Acessos de Projetos.ps1`.
 
 Criterio de aceite:
 - Usuario consegue montar e revisar operacoes pela interface.

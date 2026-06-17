@@ -12,14 +12,14 @@
     O campo Bentley IMS user name sera preenchido com o mesmo valor de E-mail.
 
 .EXAMPLE
-    .\ProjectWise_Criar_Usuarios_Lote.ps1 -GerarModelo
+    .\03 - Criar Usuarios ProjectWise em Lote.ps1 -GerarModelo
 
 .EXAMPLE
-    .\ProjectWise_Criar_Usuarios_Lote.ps1 -CaminhoArquivo .\usuarios_pw.csv -SomenteValidar
+    .\03 - Criar Usuarios ProjectWise em Lote.ps1 -CaminhoArquivo .\usuarios_pw.csv -SomenteValidar
 
 .EXAMPLE
     $senha = Read-Host "Senha PW" -AsSecureString
-    .\ProjectWise_Criar_Usuarios_Lote.ps1 -CaminhoArquivo .\usuarios_pw.xlsx -DatasourceName "Servidor:Datasource" -UserName "admin" -Password $senha
+    .\03 - Criar Usuarios ProjectWise em Lote.ps1 -CaminhoArquivo .\usuarios_pw.xlsx -DatasourceName "Servidor:Datasource" -UserName "admin" -Password $senha
 #>
 
 [CmdletBinding()]
