@@ -799,3 +799,5 @@
 2026-06-18 11:06:12 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
 2026-06-18 11:06:12 | INFO | Total consolidado de acessos encontrados: 13
 2026-06-18 11:06:12 | INFO | Projeto 'PRF-9-MG-589+000' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-06-18 11:14:06 | INFO | Resumo final da execução | Total=3680 | Sucesso=673 | JaExiste=3007 | Erro=0
+2026-06-18 11:14:18 | INFO | Sessao encerrada com 'Undo-PWLogin'.

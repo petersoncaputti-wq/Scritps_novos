@@ -1,0 +1,24 @@
+2026-06-18 11:14:36 | INFO | Aplicacao iniciada.
+2026-06-18 11:14:36 | INFO | Tentando importar modulo do ProjectWise.
+2026-06-18 11:14:36 | INFO | Modulo 'pwps_dab' importado com sucesso.
+2026-06-18 11:14:36 | INFO | Tentando conectar ao datasource do ProjectWise.
+2026-06-18 11:14:36 | INFO | Tentando conexao via 'New-PWLogin'. Parametros: DatasourceName, UserName, Password, UseGui, DoNotCreateWorkingDirectory, BentleyIMS, LoadWRE, NonAdminLogin, Token, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-06-18 11:14:56 | INFO | Conexao realizada via 'New-PWLogin -BentleyIMS'.
+2026-06-18 11:14:56 | INFO | Conexao com ProjectWise realizada com sucesso.
+2026-06-18 11:15:14 | ERROR | Erro ao buscar usuario. Detalhe: Informe ao menos um e-mail.
+2026-06-18 11:15:21 | INFO | Buscando usuario pelo email: bruno.g.oliveira@ecovias.com.br
+2026-06-18 11:15:21 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-06-18 11:15:21 | INFO | Usuario localizado com correspondencia exata de email.
+2026-06-18 11:15:23 | INFO | Buscando usuario pelo email: elker.p.rocha@ecovias.com.br
+2026-06-18 11:15:23 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-06-18 11:15:23 | INFO | Usuario localizado com correspondencia exata de email.
+2026-06-18 11:15:24 | INFO | Buscando usuario pelo email: rafael.freitas@ecovias.com.br
+2026-06-18 11:15:24 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-06-18 11:15:24 | INFO | Usuario localizado com correspondencia exata de email.
+2026-06-18 11:15:24 | INFO | Buscando usuario pelo email: vanessa.s.brito@ecovias.com.br
+2026-06-18 11:15:24 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-06-18 11:15:25 | INFO | Usuario localizado com correspondencia exata de email.
+2026-06-18 11:15:35 | INFO | Listando pastas da raiz por Root.
+2026-06-18 11:15:41 | INFO | Listando filhos da pasta ID: 56
+2026-06-18 11:16:40 | INFO | Listando filhos da pasta ID: 1101
+2026-06-18 11:16:40 | INFO | Listando filhos da pasta ID: 1118
