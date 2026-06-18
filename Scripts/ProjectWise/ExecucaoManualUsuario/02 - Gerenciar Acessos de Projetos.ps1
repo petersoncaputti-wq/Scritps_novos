@@ -37,6 +37,7 @@ $script:InicializacaoConcluida = $false
 $script:ProjetosCarregados = @()
 $script:CacheGruposPW = $null
 $script:ResumoImportacaoUsuarios = $null
+$script:FiltroExclusaoAvancado = ""
 
 # ---------------------------------------------------------
 # FUNCOES DE LOG
@@ -1611,6 +1612,8 @@ function Renderizar-ArvoreProjetos {
     param(
         [array]$ProjetosData,
         [string]$Filtro = "",
+        [string]$ExcluirFiltro = "",
+        [bool]$TermoExato = $false,
         [hashtable]$MapaMarcados = $null
     )
 
@@ -1619,6 +1622,7 @@ function Renderizar-ArvoreProjetos {
     }
 
     $filtroNormalizado = Normalizar-Texto $Filtro
+    $excluirNormalizado = Normalizar-Texto $ExcluirFiltro
 
     $script:AtualizandoCheckTree = $true
     try {
@@ -1627,12 +1631,22 @@ function Renderizar-ArvoreProjetos {
         foreach ($projetoData in $ProjetosData) {
             $nomeProjeto = $projetoData.ProjetoNome
             $projetoCombina = $false
+            $nomeProjetoNormalizado = Normalizar-Texto $nomeProjeto
+
+            if (-not [string]::IsNullOrWhiteSpace($excluirNormalizado) -and $nomeProjetoNormalizado.Contains($excluirNormalizado)) {
+                continue
+            }
 
             if ([string]::IsNullOrWhiteSpace($filtroNormalizado)) {
                 $projetoCombina = $true
             }
             else {
-                $projetoCombina = (Normalizar-Texto $nomeProjeto) -like "*$filtroNormalizado*"
+                if ($TermoExato) {
+                    $projetoCombina = $nomeProjetoNormalizado.Contains($filtroNormalizado)
+                }
+                else {
+                    $projetoCombina = $nomeProjetoNormalizado -like "*$filtroNormalizado*"
+                }
             }
 
             if ($projetoCombina) {
@@ -1641,15 +1655,42 @@ function Renderizar-ArvoreProjetos {
                 $outrosFiltrados = @($projetoData.OutrosAcessos)
             }
             else {
-                $gruposFiltrados = @($projetoData.Groups | Where-Object {
-                    (Normalizar-Texto $_.Nome) -like "*$filtroNormalizado*"
+                if ($TermoExato) {
+                    $gruposFiltrados = @($projetoData.Groups | Where-Object {
+                        (Normalizar-Texto $_.Nome).Contains($filtroNormalizado)
+                    })
+                    $listasFiltradas = @($projetoData.UserLists | Where-Object {
+                        (Normalizar-Texto $_.Nome).Contains($filtroNormalizado)
+                    })
+                    $outrosFiltrados = @($projetoData.OutrosAcessos | Where-Object {
+                        (Normalizar-Texto $_.Nome).Contains($filtroNormalizado) -or
+                        (Normalizar-Texto $_.Tipo).Contains($filtroNormalizado)
+                    })
+                }
+                else {
+                    $gruposFiltrados = @($projetoData.Groups | Where-Object {
+                        (Normalizar-Texto $_.Nome) -like "*$filtroNormalizado*"
+                    })
+                    $listasFiltradas = @($projetoData.UserLists | Where-Object {
+                        (Normalizar-Texto $_.Nome) -like "*$filtroNormalizado*"
+                    })
+                    $outrosFiltrados = @($projetoData.OutrosAcessos | Where-Object {
+                        (Normalizar-Texto $_.Nome) -like "*$filtroNormalizado*" -or
+                        (Normalizar-Texto $_.Tipo) -like "*$filtroNormalizado*"
+                    })
+                }
+            }
+
+            if (-not [string]::IsNullOrWhiteSpace($excluirNormalizado)) {
+                $gruposFiltrados = @($gruposFiltrados | Where-Object {
+                    -not (Normalizar-Texto $_.Nome).Contains($excluirNormalizado)
                 })
-                $listasFiltradas = @($projetoData.UserLists | Where-Object {
-                    (Normalizar-Texto $_.Nome) -like "*$filtroNormalizado*"
+                $listasFiltradas = @($listasFiltradas | Where-Object {
+                    -not (Normalizar-Texto $_.Nome).Contains($excluirNormalizado)
                 })
-                $outrosFiltrados = @($projetoData.OutrosAcessos | Where-Object {
-                    (Normalizar-Texto $_.Nome) -like "*$filtroNormalizado*" -or
-                    (Normalizar-Texto $_.Tipo) -like "*$filtroNormalizado*"
+                $outrosFiltrados = @($outrosFiltrados | Where-Object {
+                    -not (Normalizar-Texto $_.Nome).Contains($excluirNormalizado) -and
+                    -not (Normalizar-Texto $_.Tipo).Contains($excluirNormalizado)
                 })
             }
 
@@ -1789,8 +1830,19 @@ function Renderizar-ArvoreProjetos {
         $qtdProjetosVisiveis = $script:TreeProjetos.Nodes.Count
         $qtdProjetosOriginais = @($ProjetosData).Count
 
-        if ([string]::IsNullOrWhiteSpace($Filtro)) {
+        if ([string]::IsNullOrWhiteSpace($Filtro) -and [string]::IsNullOrWhiteSpace($ExcluirFiltro)) {
             $script:LabelResultadoFiltro.Text = "Projetos exibidos: $qtdProjetosVisiveis"
+        }
+        elseif ([string]::IsNullOrWhiteSpace($Filtro)) {
+            $script:LabelResultadoFiltro.Text = "Exclusao ativa: $qtdProjetosVisiveis de $qtdProjetosOriginais projeto(s) exibidos"
+        }
+        elseif ($TermoExato) {
+            if ([string]::IsNullOrWhiteSpace($ExcluirFiltro)) {
+                $script:LabelResultadoFiltro.Text = "Filtro avancado ativo: $qtdProjetosVisiveis de $qtdProjetosOriginais projeto(s) exibidos | pesquisa: $Filtro"
+            }
+            else {
+                $script:LabelResultadoFiltro.Text = "Filtro avancado ativo: $qtdProjetosVisiveis de $qtdProjetosOriginais projeto(s) exibidos | pesquisa: $Filtro | excluindo: $ExcluirFiltro"
+            }
         }
         else {
             $script:LabelResultadoFiltro.Text = "Filtro ativo: $qtdProjetosVisiveis de $qtdProjetosOriginais projeto(s) exibidos"
@@ -1799,13 +1851,98 @@ function Renderizar-ArvoreProjetos {
 }
 
 function Aplicar-FiltroProjetos {
+    param(
+        [switch]$TermoExato,
+        [string]$ExcluirFiltro = ""
+    )
+
     $filtro = ""
     if ($script:TextFiltroAcessos) {
         $filtro = $script:TextFiltroAcessos.Text
     }
 
-    Renderizar-ArvoreProjetos -ProjetosData $script:ProjetosCarregados -Filtro $filtro
+    Renderizar-ArvoreProjetos -ProjetosData $script:ProjetosCarregados -Filtro $filtro -ExcluirFiltro $ExcluirFiltro -TermoExato:$TermoExato.IsPresent
     Atualizar-EstadoInterface
+}
+
+function Limpar-CamposFiltroProjetos {
+    if ($script:TextFiltroAcessos) {
+        $script:TextFiltroAcessos.Text = ""
+    }
+    $script:FiltroExclusaoAvancado = ""
+}
+
+function Mostrar-ModalFiltroAvancado {
+    $dialog = New-Object System.Windows.Forms.Form
+    $dialog.Text = "Filtro avancado"
+    $dialog.Size = New-Object System.Drawing.Size(520,230)
+    $dialog.StartPosition = "CenterParent"
+    $dialog.FormBorderStyle = [System.Windows.Forms.FormBorderStyle]::FixedDialog
+    $dialog.MaximizeBox = $false
+    $dialog.MinimizeBox = $false
+    $dialog.ShowInTaskbar = $false
+
+    $labelPesquisa = New-Object System.Windows.Forms.Label
+    $labelPesquisa.Text = "Termo de pesquisa:"
+    $labelPesquisa.AutoSize = $true
+    $labelPesquisa.Location = New-Object System.Drawing.Point(18,22)
+    $dialog.Controls.Add($labelPesquisa)
+
+    $txtPesquisa = New-Object System.Windows.Forms.TextBox
+    $txtPesquisa.Location = New-Object System.Drawing.Point(18,45)
+    $txtPesquisa.Size = New-Object System.Drawing.Size(466,25)
+    $txtPesquisa.Font = $fontePadrao
+    if ($script:TextFiltroAcessos) {
+        $txtPesquisa.Text = $script:TextFiltroAcessos.Text
+    }
+    $dialog.Controls.Add($txtPesquisa)
+
+    $labelExclusao = New-Object System.Windows.Forms.Label
+    $labelExclusao.Text = "Termo de exclusao:"
+    $labelExclusao.AutoSize = $true
+    $labelExclusao.Location = New-Object System.Drawing.Point(18,82)
+    $dialog.Controls.Add($labelExclusao)
+
+    $txtExclusao = New-Object System.Windows.Forms.TextBox
+    $txtExclusao.Location = New-Object System.Drawing.Point(18,105)
+    $txtExclusao.Size = New-Object System.Drawing.Size(466,25)
+    $txtExclusao.Font = $fontePadrao
+    $txtExclusao.Text = $script:FiltroExclusaoAvancado
+    $dialog.Controls.Add($txtExclusao)
+
+    $btnPesquisar = New-Object System.Windows.Forms.Button
+    $btnPesquisar.Text = "Pesquisar"
+    $btnPesquisar.Location = New-Object System.Drawing.Point(282,148)
+    $btnPesquisar.Size = New-Object System.Drawing.Size(95,30)
+    $btnPesquisar.DialogResult = [System.Windows.Forms.DialogResult]::OK
+    $dialog.Controls.Add($btnPesquisar)
+
+    $btnCancelar = New-Object System.Windows.Forms.Button
+    $btnCancelar.Text = "Cancelar"
+    $btnCancelar.Location = New-Object System.Drawing.Point(389,148)
+    $btnCancelar.Size = New-Object System.Drawing.Size(95,30)
+    $btnCancelar.DialogResult = [System.Windows.Forms.DialogResult]::Cancel
+    $dialog.Controls.Add($btnCancelar)
+
+    $dialog.AcceptButton = $btnPesquisar
+    $dialog.CancelButton = $btnCancelar
+
+    if ($dialog.ShowDialog($form) -eq [System.Windows.Forms.DialogResult]::OK) {
+        $termoPesquisa = $txtPesquisa.Text
+        $termoExclusao = $txtExclusao.Text
+
+        if ($script:TextFiltroAcessos) {
+            $script:TextFiltroAcessos.Text = $termoPesquisa
+        }
+        $script:FiltroExclusaoAvancado = $termoExclusao
+
+        if ([string]::IsNullOrWhiteSpace($termoPesquisa) -and [string]::IsNullOrWhiteSpace($termoExclusao)) {
+            Aplicar-FiltroProjetos
+        }
+        else {
+            Aplicar-FiltroProjetos -TermoExato -ExcluirFiltro $termoExclusao
+        }
+    }
 }
 
 function Selecionar-AcessosExibidosNaArvore {
@@ -2115,6 +2252,7 @@ function Atualizar-EstadoInterface {
     $script:TreeProjetos.Enabled = $temConcessao
     $script:TextFiltroAcessos.Enabled = $temConcessao
     $script:BtnAplicarFiltro.Enabled = $temConcessao
+    if ($script:BtnFiltroAvancado) { $script:BtnFiltroAvancado.Enabled = $temConcessao }
     $script:BtnLimparFiltro.Enabled = $temConcessao
     if ($script:BtnSelecionarExibidos) { $script:BtnSelecionarExibidos.Enabled = $temConcessao -and $temArvore }
 }
@@ -2374,9 +2512,7 @@ function Carregar-ArvoreProjetosDaConcessao {
 
     $script:ConcessaoSelecionada = $Concessao
     $script:LabelConcessaoAtual.Text = "Concessão: $nomeConcessao"
-    if ($script:TextFiltroAcessos) {
-        $script:TextFiltroAcessos.Text = ""
-    }
+    Limpar-CamposFiltroProjetos
     Renderizar-ArvoreProjetos -ProjetosData $script:ProjetosCarregados -Filtro ""
     Write-UiLog "Concessao '$nomeConcessao' carregada com sucesso."
 }
@@ -2510,10 +2646,17 @@ $groupSelecao.Controls.Add($script:TextFiltroAcessos)
 
 $script:BtnAplicarFiltro = New-Object System.Windows.Forms.Button
 $script:BtnAplicarFiltro.Text = "Filtrar"
-$script:BtnAplicarFiltro.Location = New-Object System.Drawing.Point(915,95)
+$script:BtnAplicarFiltro.Location = New-Object System.Drawing.Point(805,95)
 $script:BtnAplicarFiltro.Size = New-Object System.Drawing.Size(90,30)
 $script:BtnAplicarFiltro.Enabled = $false
 $groupSelecao.Controls.Add($script:BtnAplicarFiltro)
+
+$script:BtnFiltroAvancado = New-Object System.Windows.Forms.Button
+$script:BtnFiltroAvancado.Text = "Filtro avançado"
+$script:BtnFiltroAvancado.Location = New-Object System.Drawing.Point(905,95)
+$script:BtnFiltroAvancado.Size = New-Object System.Drawing.Size(130,30)
+$script:BtnFiltroAvancado.Enabled = $false
+$groupSelecao.Controls.Add($script:BtnFiltroAvancado)
 
 $script:BtnLimparFiltro = New-Object System.Windows.Forms.Button
 $script:BtnLimparFiltro.Text = "Limpar filtro"
@@ -2625,7 +2768,13 @@ function Ajustar-LayoutCampos {
 
     if ($script:TextFiltroAcessos -and $script:BtnAplicarFiltro -and $script:BtnLimparFiltro) {
         $script:BtnLimparFiltro.Left = $groupSelecao.ClientSize.Width - $script:BtnLimparFiltro.Width - $margemDireita
-        $script:BtnAplicarFiltro.Left = $script:BtnLimparFiltro.Left - $script:BtnAplicarFiltro.Width - $espacamento
+        if ($script:BtnFiltroAvancado) {
+            $script:BtnFiltroAvancado.Left = $script:BtnLimparFiltro.Left - $script:BtnFiltroAvancado.Width - $espacamento
+            $script:BtnAplicarFiltro.Left = $script:BtnFiltroAvancado.Left - $script:BtnAplicarFiltro.Width - $espacamento
+        }
+        else {
+            $script:BtnAplicarFiltro.Left = $script:BtnLimparFiltro.Left - $script:BtnAplicarFiltro.Width - $espacamento
+        }
 
         $filtroLeft = $script:TextFiltroAcessos.Left
         if ($labelFiltroAcessos) {
@@ -2675,6 +2824,7 @@ $script:TextFiltroAcessos.Anchor = [System.Windows.Forms.AnchorStyles]::Top -bor
 $script:TextFiltroAcessos.BringToFront()
 
 $script:BtnAplicarFiltro.Anchor = [System.Windows.Forms.AnchorStyles]::Top -bor [System.Windows.Forms.AnchorStyles]::Right
+$script:BtnFiltroAvancado.Anchor = [System.Windows.Forms.AnchorStyles]::Top -bor [System.Windows.Forms.AnchorStyles]::Right
 $script:BtnLimparFiltro.Anchor = [System.Windows.Forms.AnchorStyles]::Top -bor [System.Windows.Forms.AnchorStyles]::Right
 $script:BtnSelecionarExibidos.Anchor = [System.Windows.Forms.AnchorStyles]::Top -bor [System.Windows.Forms.AnchorStyles]::Right
 $script:LabelResultadoFiltro.Anchor = [System.Windows.Forms.AnchorStyles]::Top -bor [System.Windows.Forms.AnchorStyles]::Left -bor [System.Windows.Forms.AnchorStyles]::Right
@@ -2712,6 +2862,7 @@ $script:TreeProjetos.Add_AfterCheck({
 
 $script:BtnAplicarFiltro.Add_Click({
     try {
+        $script:FiltroExclusaoAvancado = ""
         Aplicar-FiltroProjetos
     }
     catch {
@@ -2720,9 +2871,19 @@ $script:BtnAplicarFiltro.Add_Click({
     }
 })
 
+$script:BtnFiltroAvancado.Add_Click({
+    try {
+        Mostrar-ModalFiltroAvancado
+    }
+    catch {
+        Write-Log "Erro ao abrir filtro avancado. Detalhe: $($_.Exception.Message)" "ERROR"
+        Show-UiError $_.Exception.Message
+    }
+})
+
 $script:BtnLimparFiltro.Add_Click({
     try {
-        $script:TextFiltroAcessos.Text = ""
+        Limpar-CamposFiltroProjetos
         Aplicar-FiltroProjetos
     }
     catch {
@@ -2735,7 +2896,10 @@ $script:BtnSelecionarExibidos.Add_Click({
     try {
         $totalMarcados = Selecionar-AcessosExibidosNaArvore
 
-        if ($script:TextFiltroAcessos -and -not [string]::IsNullOrWhiteSpace($script:TextFiltroAcessos.Text)) {
+        $temFiltroBusca = $script:TextFiltroAcessos -and -not [string]::IsNullOrWhiteSpace($script:TextFiltroAcessos.Text)
+        $temFiltroExclusao = -not [string]::IsNullOrWhiteSpace($script:FiltroExclusaoAvancado)
+
+        if ($temFiltroBusca -or $temFiltroExclusao) {
             Write-UiLog "Acessos exibidos pelo filtro selecionados: $totalMarcados"
         }
         else {
@@ -2761,6 +2925,7 @@ $script:TextFiltroAcessos.Add_KeyDown({
 
     if ($e.KeyCode -eq [System.Windows.Forms.Keys]::Enter) {
         try {
+            $script:FiltroExclusaoAvancado = ""
             Aplicar-FiltroProjetos
             $e.SuppressKeyPress = $true
         }
@@ -2874,7 +3039,7 @@ $script:BtnImportarUsuarios.Add_Click({
             $script:SelecoesProjetos = @()
             $script:ProjetosCarregados = @()
             Limpar-ArvoreProjetos
-            if ($script:TextFiltroAcessos) { $script:TextFiltroAcessos.Text = "" }
+            Limpar-CamposFiltroProjetos
             Atualizar-ResumoNaTela
             $script:LabelConcessaoAtual.Text = "Concessão: -"
         }
@@ -2922,7 +3087,7 @@ $btnBuscarUsuario.Add_Click({
             $script:SelecoesProjetos = @()
             $script:ProjetosCarregados = @()
             Limpar-ArvoreProjetos
-            if ($script:TextFiltroAcessos) { $script:TextFiltroAcessos.Text = "" }
+            Limpar-CamposFiltroProjetos
             Atualizar-ResumoNaTela
             $script:LabelConcessaoAtual.Text = "Concessão: -"
         }
