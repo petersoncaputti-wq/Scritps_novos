@@ -485,3 +485,8 @@
 2026-06-18 11:26:04 | INFO | Projeto 'BSO 10 - Além Paraíba - BR-116/MG - km 797+930 - Sul' carregado para arvore. Groups=20 | UserLists=1 | Outros=1
 2026-06-18 11:26:04 | INFO | Iniciando leitura da seguranca do projeto 'BSO 11 - Sapucaia' (ID: 404959)
 2026-06-18 11:26:05 | INFO | Get-PWFolderSecurity retornou 14 item(ns).
+2026-06-18 11:26:05 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-06-18 11:26:05 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-06-18 11:26:05 | INFO | Total consolidado de acessos encontrados: 13
+2026-06-18 11:26:05 | INFO | Projeto 'BSO 11 - Sapucaia - BR-116/RJ  - km 29+900 - Norte' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-06-18 11:26:05 | INFO | Iniciando leitura da seguranca do projeto 'BSO 12 - Teresópolis' (ID: 405122)
