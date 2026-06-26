@@ -1,0 +1,2047 @@
+{
+  "timestamp": "2026-06-23T11:44:14",
+  "operacoes": [
+    {
+      "nomeProjeto": "Acesso 13° Ano - km 736+555 - BR365/MG",
+      "origemProjectWise": {
+        "nome": "Acesso 13° Ano - km 736+555 - BR365/MG",
+        "id": "322419",
+        "guid": "91c0e663-30b2-4ba7-9afc-10a58993c952",
+        "connectedProjectId": "83d6cb36-d44d-4f2e-b40c-c25f36fe3b0c",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/83d6cb36-d44d-4f2e-b40c-c25f36fe3b0c/ProjectSettings/83d6cb36-d44d-4f2e-b40c-c25f36fe3b0c/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "83d6cb36-d44d-4f2e-b40c-c25f36fe3b0c",
+      "projectId": "83d6cb36-d44d-4f2e-b40c-c25f36fe3b0c",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Thiago Figueiredo",
+        "email": "t_***@ecovias.com.br",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [],
+        "id": "d64e60fa-45e1-4070-9a17-fdd92885c90a",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "t_***@ecovias.com.br"
+    },
+    {
+      "nomeProjeto": "Acesso 13° Ano - km 736+735 - BR365/MG",
+      "origemProjectWise": {
+        "nome": "Acesso 13° Ano - km 736+735 - BR365/MG",
+        "id": "323203",
+        "guid": "d1c7c559-56e4-45a5-89af-af32660db766",
+        "connectedProjectId": "f44d925d-1f98-4c6b-bd47-3fd996b20f62",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/f44d925d-1f98-4c6b-bd47-3fd996b20f62/ProjectSettings/f44d925d-1f98-4c6b-bd47-3fd996b20f62/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "f44d925d-1f98-4c6b-bd47-3fd996b20f62",
+      "projectId": "f44d925d-1f98-4c6b-bd47-3fd996b20f62",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Thiago Figueiredo",
+        "email": "t_***@ecovias.com.br",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [],
+        "id": "807148b2-bb13-4290-93d4-ffd9dc8b40e2",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "t_***@ecovias.com.br"
+    },
+    {
+      "nomeProjeto": "Acesso 13° Ano - km 745+420 - BR365/MG",
+      "origemProjectWise": {
+        "nome": "Acesso 13° Ano - km 745+420 - BR365/MG",
+        "id": "323963",
+        "guid": "adb0ad77-0ede-470b-a673-69f8b77b4c50",
+        "connectedProjectId": "49a090d3-bcdb-49fe-a806-f78f635c1aa8",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/49a090d3-bcdb-49fe-a806-f78f635c1aa8/ProjectSettings/49a090d3-bcdb-49fe-a806-f78f635c1aa8/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "49a090d3-bcdb-49fe-a806-f78f635c1aa8",
+      "projectId": "49a090d3-bcdb-49fe-a806-f78f635c1aa8",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Thiago Figueiredo",
+        "email": "t_***@ecovias.com.br",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [],
+        "id": "115cee96-5abe-4e9c-9843-28550f255bdc",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "t_***@ecovias.com.br"
+    },
+    {
+      "nomeProjeto": "Acesso 5° Ano - km 167+140 - BR364/GO",
+      "origemProjectWise": {
+        "nome": "Acesso 5° Ano - km 167+140 - BR364/GO",
+        "id": "313954",
+        "guid": "25ba2604-3c1d-4c0d-bd46-d755e31e1d17",
+        "connectedProjectId": "d3194951-2ca2-4d87-801c-71a28593e067",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/d3194951-2ca2-4d87-801c-71a28593e067/ProjectSettings/d3194951-2ca2-4d87-801c-71a28593e067/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "d3194951-2ca2-4d87-801c-71a28593e067",
+      "projectId": "d3194951-2ca2-4d87-801c-71a28593e067",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Thiago Figueiredo",
+        "email": "t_***@ecovias.com.br",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "bb2493ce-4e83-47a2-b458-2703a602167f",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "t_***@ecovias.com.br"
+    },
+    {
+      "nomeProjeto": "Acesso 5° Ano - km 626+050 - BR365/MG",
+      "origemProjectWise": {
+        "nome": "Acesso 5° Ano - km 626+050 - BR365/MG",
+        "id": "314740",
+        "guid": "a89e7d41-06b4-41b0-9f26-e96778d9f708",
+        "connectedProjectId": "fb4620e6-3175-4d5c-8f3f-2cc75616efc1",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/fb4620e6-3175-4d5c-8f3f-2cc75616efc1/ProjectSettings/fb4620e6-3175-4d5c-8f3f-2cc75616efc1/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "fb4620e6-3175-4d5c-8f3f-2cc75616efc1",
+      "projectId": "fb4620e6-3175-4d5c-8f3f-2cc75616efc1",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Thiago Figueiredo",
+        "email": "t_***@ecovias.com.br",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "4c4ec9aa-7af2-4a72-923e-6454939aa175",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "t_***@ecovias.com.br"
+    },
+    {
+      "nomeProjeto": "Acesso 5° Ano - km 630+312 - BR365/MG",
+      "origemProjectWise": {
+        "nome": "Acesso 5° Ano - km 630+312 - BR365/MG",
+        "id": "315526",
+        "guid": "21600589-c5dd-4909-950f-79d05f0ccda4",
+        "connectedProjectId": "f97055fa-d039-4657-9981-2053f78dd22a",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/f97055fa-d039-4657-9981-2053f78dd22a/ProjectSettings/f97055fa-d039-4657-9981-2053f78dd22a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "f97055fa-d039-4657-9981-2053f78dd22a",
+      "projectId": "f97055fa-d039-4657-9981-2053f78dd22a",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Thiago Figueiredo",
+        "email": "t_***@ecovias.com.br",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [],
+        "id": "be7a8910-db6a-48b6-ad67-a029aed7da9e",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "t_***@ecovias.com.br"
+    },
+    {
+      "nomeProjeto": "Acesso 5° Ano - km 637+000 - BR365/MG",
+      "origemProjectWise": {
+        "nome": "Acesso 5° Ano - km 637+000 - BR365/MG",
+        "id": "316309",
+        "guid": "9eb0e029-c732-4e91-ba85-ab47efa769ba",
+        "connectedProjectId": "9c05643c-96a7-4a2d-a393-7a8ab02116c8",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/9c05643c-96a7-4a2d-a393-7a8ab02116c8/ProjectSettings/9c05643c-96a7-4a2d-a393-7a8ab02116c8/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "9c05643c-96a7-4a2d-a393-7a8ab02116c8",
+      "projectId": "9c05643c-96a7-4a2d-a393-7a8ab02116c8",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Thiago Figueiredo",
+        "email": "t_***@ecovias.com.br",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": true,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [],
+        "id": "fa4fb26e-679a-4460-8c71-02e4eb253c01",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "t_***@ecovias.com.br"
+    },
+    {
+      "nomeProjeto": "Acesso 5° Ano - km 642+340 - BR365/MG",
+      "origemProjectWise": {
+        "nome": "Acesso 5° Ano - km 642+340 - BR365/MG",
+        "id": "317095",
+        "guid": "3241b8dc-46a2-4cc0-b9d9-e80fb5aefd45",
+        "connectedProjectId": "05905580-d68e-491e-aa54-b7e88e95d509",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/05905580-d68e-491e-aa54-b7e88e95d509/ProjectSettings/05905580-d68e-491e-aa54-b7e88e95d509/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "05905580-d68e-491e-aa54-b7e88e95d509",
+      "projectId": "05905580-d68e-491e-aa54-b7e88e95d509",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Thiago Figueiredo",
+        "email": "t_***@ecovias.com.br",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [],
+        "id": "5a24fb94-f28f-4257-a54c-47780f8cd04a",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "t_***@ecovias.com.br"
+    },
+    {
+      "nomeProjeto": "Acesso 5° Ano - km 642+726 - BR365/MG",
+      "origemProjectWise": {
+        "nome": "Acesso 5° Ano - km 642+726 - BR365/MG",
+        "id": "317877",
+        "guid": "7b2c0a51-ee09-4f66-a78f-31b09d47b573",
+        "connectedProjectId": "08c399be-1af9-4e0e-bf49-0bc6922d534c",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/08c399be-1af9-4e0e-bf49-0bc6922d534c/ProjectSettings/08c399be-1af9-4e0e-bf49-0bc6922d534c/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "08c399be-1af9-4e0e-bf49-0bc6922d534c",
+      "projectId": "08c399be-1af9-4e0e-bf49-0bc6922d534c",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Thiago Figueiredo",
+        "email": "t_***@ecovias.com.br",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [],
+        "id": "94c7aaec-6232-4e06-b0db-7d744ebe632a",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "t_***@ecovias.com.br"
+    },
+    {
+      "nomeProjeto": "Acesso 5° Ano - km 648+345 - BR365/MG",
+      "origemProjectWise": {
+        "nome": "Acesso 5° Ano - km 648+345 - BR365/MG",
+        "id": "318658",
+        "guid": "fbbc90d4-3c36-4051-a250-3d4dfe0437d3",
+        "connectedProjectId": "4b2d6840-a43e-4ee6-944b-99e798d105e3",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/4b2d6840-a43e-4ee6-944b-99e798d105e3/ProjectSettings/4b2d6840-a43e-4ee6-944b-99e798d105e3/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "4b2d6840-a43e-4ee6-944b-99e798d105e3",
+      "projectId": "4b2d6840-a43e-4ee6-944b-99e798d105e3",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Thiago Figueiredo",
+        "email": "t_***@ecovias.com.br",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [],
+        "id": "128c5cc1-e6b7-4b46-a92f-7354238c0a8d",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "t_***@ecovias.com.br"
+    },
+    {
+      "nomeProjeto": "Acesso 5° Ano - km 655+320 - BR365/MG",
+      "origemProjectWise": {
+        "nome": "Acesso 5° Ano - km 655+320 - BR365/MG",
+        "id": "319295",
+        "guid": "6169f33e-79b9-43e3-8829-2b5fc658fbf0",
+        "connectedProjectId": "0d27bdb4-97fc-4279-b221-e4da3911acb3",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/0d27bdb4-97fc-4279-b221-e4da3911acb3/ProjectSettings/0d27bdb4-97fc-4279-b221-e4da3911acb3/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "0d27bdb4-97fc-4279-b221-e4da3911acb3",
+      "projectId": "0d27bdb4-97fc-4279-b221-e4da3911acb3",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Thiago Figueiredo",
+        "email": "t_***@ecovias.com.br",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [],
+        "id": "4855dcfc-ef55-4d6b-b079-c9305539096a",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "t_***@ecovias.com.br"
+    },
+    {
+      "nomeProjeto": "Acesso 5° Ano - km 668+288 - BR365/MG",
+      "origemProjectWise": {
+        "nome": "Acesso 5° Ano - km 668+288 - BR365/MG",
+        "id": "320076",
+        "guid": "7dcbbb8f-a148-4628-baa6-4205bf98ce5d",
+        "connectedProjectId": "513a53b5-8ef2-4f05-ac2b-237fb9f36f63",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/513a53b5-8ef2-4f05-ac2b-237fb9f36f63/ProjectSettings/513a53b5-8ef2-4f05-ac2b-237fb9f36f63/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "513a53b5-8ef2-4f05-ac2b-237fb9f36f63",
+      "projectId": "513a53b5-8ef2-4f05-ac2b-237fb9f36f63",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Thiago Figueiredo",
+        "email": "t_***@ecovias.com.br",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [],
+        "id": "b0365836-9326-444c-beb3-55ac030ded23",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "t_***@ecovias.com.br"
+    },
+    {
+      "nomeProjeto": "Acesso 5° Ano - km 694+848 - BR365/MG",
+      "origemProjectWise": {
+        "nome": "Acesso 5° Ano - km 694+848 - BR365/MG",
+        "id": "320857",
+        "guid": "b194188f-b72b-4d4e-9007-a2f555a3bcaf",
+        "connectedProjectId": "069aecc5-06ac-4978-9951-dcbe5d563741",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/069aecc5-06ac-4978-9951-dcbe5d563741/ProjectSettings/069aecc5-06ac-4978-9951-dcbe5d563741/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "069aecc5-06ac-4978-9951-dcbe5d563741",
+      "projectId": "069aecc5-06ac-4978-9951-dcbe5d563741",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Thiago Figueiredo",
+        "email": "t_***@ecovias.com.br",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [],
+        "id": "a2d34326-7e8d-4a16-80c2-71fc0df1d4cb",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "t_***@ecovias.com.br"
+    },
+    {
+      "nomeProjeto": "Acesso 5° Ano - km 697+300 - BR365/MG",
+      "origemProjectWise": {
+        "nome": "Acesso 5° Ano - km 697+300 - BR365/MG",
+        "id": "321638",
+        "guid": "8a777d3e-60b8-45b6-aaec-4704a6a7b7a1",
+        "connectedProjectId": "b6876b6a-c8ad-4c34-bb49-6a88bb1f3a98",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/b6876b6a-c8ad-4c34-bb49-6a88bb1f3a98/ProjectSettings/b6876b6a-c8ad-4c34-bb49-6a88bb1f3a98/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "b6876b6a-c8ad-4c34-bb49-6a88bb1f3a98",
+      "projectId": "b6876b6a-c8ad-4c34-bb49-6a88bb1f3a98",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Thiago Figueiredo",
+        "email": "t_***@ecovias.com.br",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [],
+        "id": "e846801f-a130-47cf-a992-a4526f91d52d",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "t_***@ecovias.com.br"
+    },
+    {
+      "nomeProjeto": "Acesso 5° Ano - km 759+400 - BR365/MG",
+      "origemProjectWise": {
+        "nome": "Acesso 5° Ano - km 759+400 - BR365/MG",
+        "id": "324744",
+        "guid": "e7c52d6c-c055-4d46-8a61-770bd1fa3775",
+        "connectedProjectId": "f61745fa-3979-41a2-809a-632408ae61e1",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/f61745fa-3979-41a2-809a-632408ae61e1/ProjectSettings/f61745fa-3979-41a2-809a-632408ae61e1/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "f61745fa-3979-41a2-809a-632408ae61e1",
+      "projectId": "f61745fa-3979-41a2-809a-632408ae61e1",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Thiago Figueiredo",
+        "email": "t_***@ecovias.com.br",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [],
+        "id": "6eb0a521-b4a5-456c-b13b-f4b5c66c2a68",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "t_***@ecovias.com.br"
+    },
+    {
+      "nomeProjeto": "Acesso 5° Ano - km 772+640 - BR365/MG",
+      "origemProjectWise": {
+        "nome": "Acesso 5° Ano - km 772+640 - BR365/MG",
+        "id": "325722",
+        "guid": "352c3e13-bcaa-446e-8966-ad468bacdd19",
+        "connectedProjectId": "2df1b143-cdab-4d51-afa4-f0fa2dbc596b",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/2df1b143-cdab-4d51-afa4-f0fa2dbc596b/ProjectSettings/2df1b143-cdab-4d51-afa4-f0fa2dbc596b/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "2df1b143-cdab-4d51-afa4-f0fa2dbc596b",
+      "projectId": "2df1b143-cdab-4d51-afa4-f0fa2dbc596b",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Thiago Figueiredo",
+        "email": "t_***@ecovias.com.br",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [],
+        "id": "2c59f9ec-97e3-411d-afd6-18dadd5c41b4",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "t_***@ecovias.com.br"
+    },
+    {
+      "nomeProjeto": "Duplicação TH 13 e 14 - km 735,6 + 753,2 - BR-365/MG",
+      "origemProjectWise": {
+        "nome": "Duplicação TH 13 e 14 - km 735,6 + 753,2 - BR-365/MG",
+        "id": "274303",
+        "guid": "e6337fcb-2004-4c47-aa3b-4805049eca29",
+        "connectedProjectId": "cc6580d9-ed38-4955-a2a0-8def3d82555c",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/cc6580d9-ed38-4955-a2a0-8def3d82555c/ProjectSettings/cc6580d9-ed38-4955-a2a0-8def3d82555c/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "cc6580d9-ed38-4955-a2a0-8def3d82555c",
+      "projectId": "cc6580d9-ed38-4955-a2a0-8def3d82555c",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Thiago Figueiredo",
+        "email": "t_***@ecovias.com.br",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [],
+        "id": "1147da96-6b70-4939-b21f-e2270eb5afe4",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "t_***@ecovias.com.br"
+    },
+    {
+      "nomeProjeto": "Faixas adicionais TH 05 - km 64,700 + 113,200 - BR364/GO",
+      "origemProjectWise": {
+        "nome": "Faixas adicionais TH 05 - km 64,700 + 113,200 - BR364/GO",
+        "id": "272917",
+        "guid": "2b91af27-e9ca-494d-a0e6-1484f1c54160",
+        "connectedProjectId": "4e67c35b-3ec8-4cbf-aaad-cb4cb918f106",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/4e67c35b-3ec8-4cbf-aaad-cb4cb918f106/ProjectSettings/4e67c35b-3ec8-4cbf-aaad-cb4cb918f106/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "4e67c35b-3ec8-4cbf-aaad-cb4cb918f106",
+      "projectId": "4e67c35b-3ec8-4cbf-aaad-cb4cb918f106",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Thiago Figueiredo",
+        "email": "t_***@ecovias.com.br",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [],
+        "id": "854cf9d4-4ce8-4a3c-b81b-d84932b8aa23",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "t_***@ecovias.com.br"
+    }
+  ],
+  "resultados": [
+    {
+      "projectId": "83d6cb36-d44d-4f2e-b40c-c25f36fe3b0c",
+      "nomeProjeto": "Acesso 13° Ano - km 736+555 - BR365/MG",
+      "origemProjectWise": {
+        "nome": "Acesso 13° Ano - km 736+555 - BR365/MG",
+        "id": "322419",
+        "guid": "91c0e663-30b2-4ba7-9afc-10a58993c952",
+        "connectedProjectId": "83d6cb36-d44d-4f2e-b40c-c25f36fe3b0c",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/83d6cb36-d44d-4f2e-b40c-c25f36fe3b0c/ProjectSettings/83d6cb36-d44d-4f2e-b40c-c25f36fe3b0c/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "t_***@ecovias.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/83d6cb36-d44d-4f2e-b40c-c25f36fe3b0c/ProjectSettings/83d6cb36-d44d-4f2e-b40c-c25f36fe3b0c/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/83d6cb36-d44d-4f2e-b40c-c25f36fe3b0c/ProjectSettings/83d6cb36-d44d-4f2e-b40c-c25f36fe3b0c/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "t_***@ecovias.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "d64e60fa-45e1-4070-9a17-fdd92885c90a",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/83d6cb36-d44d-4f2e-b40c-c25f36fe3b0c/ProjectSettings/83d6cb36-d44d-4f2e-b40c-c25f36fe3b0c/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/83d6cb36-d44d-4f2e-b40c-c25f36fe3b0c/ProjectSettings/83d6cb36-d44d-4f2e-b40c-c25f36fe3b0c/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "t_***@ecovias.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "d64e60fa-45e1-4070-9a17-fdd92885c90a",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "f44d925d-1f98-4c6b-bd47-3fd996b20f62",
+      "nomeProjeto": "Acesso 13° Ano - km 736+735 - BR365/MG",
+      "origemProjectWise": {
+        "nome": "Acesso 13° Ano - km 736+735 - BR365/MG",
+        "id": "323203",
+        "guid": "d1c7c559-56e4-45a5-89af-af32660db766",
+        "connectedProjectId": "f44d925d-1f98-4c6b-bd47-3fd996b20f62",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/f44d925d-1f98-4c6b-bd47-3fd996b20f62/ProjectSettings/f44d925d-1f98-4c6b-bd47-3fd996b20f62/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "t_***@ecovias.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/f44d925d-1f98-4c6b-bd47-3fd996b20f62/ProjectSettings/f44d925d-1f98-4c6b-bd47-3fd996b20f62/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/f44d925d-1f98-4c6b-bd47-3fd996b20f62/ProjectSettings/f44d925d-1f98-4c6b-bd47-3fd996b20f62/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "t_***@ecovias.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "807148b2-bb13-4290-93d4-ffd9dc8b40e2",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/f44d925d-1f98-4c6b-bd47-3fd996b20f62/ProjectSettings/f44d925d-1f98-4c6b-bd47-3fd996b20f62/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/f44d925d-1f98-4c6b-bd47-3fd996b20f62/ProjectSettings/f44d925d-1f98-4c6b-bd47-3fd996b20f62/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "t_***@ecovias.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "807148b2-bb13-4290-93d4-ffd9dc8b40e2",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "49a090d3-bcdb-49fe-a806-f78f635c1aa8",
+      "nomeProjeto": "Acesso 13° Ano - km 745+420 - BR365/MG",
+      "origemProjectWise": {
+        "nome": "Acesso 13° Ano - km 745+420 - BR365/MG",
+        "id": "323963",
+        "guid": "adb0ad77-0ede-470b-a673-69f8b77b4c50",
+        "connectedProjectId": "49a090d3-bcdb-49fe-a806-f78f635c1aa8",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/49a090d3-bcdb-49fe-a806-f78f635c1aa8/ProjectSettings/49a090d3-bcdb-49fe-a806-f78f635c1aa8/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "t_***@ecovias.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/49a090d3-bcdb-49fe-a806-f78f635c1aa8/ProjectSettings/49a090d3-bcdb-49fe-a806-f78f635c1aa8/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/49a090d3-bcdb-49fe-a806-f78f635c1aa8/ProjectSettings/49a090d3-bcdb-49fe-a806-f78f635c1aa8/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "t_***@ecovias.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "115cee96-5abe-4e9c-9843-28550f255bdc",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/49a090d3-bcdb-49fe-a806-f78f635c1aa8/ProjectSettings/49a090d3-bcdb-49fe-a806-f78f635c1aa8/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/49a090d3-bcdb-49fe-a806-f78f635c1aa8/ProjectSettings/49a090d3-bcdb-49fe-a806-f78f635c1aa8/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "t_***@ecovias.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "115cee96-5abe-4e9c-9843-28550f255bdc",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "d3194951-2ca2-4d87-801c-71a28593e067",
+      "nomeProjeto": "Acesso 5° Ano - km 167+140 - BR364/GO",
+      "origemProjectWise": {
+        "nome": "Acesso 5° Ano - km 167+140 - BR364/GO",
+        "id": "313954",
+        "guid": "25ba2604-3c1d-4c0d-bd46-d755e31e1d17",
+        "connectedProjectId": "d3194951-2ca2-4d87-801c-71a28593e067",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/d3194951-2ca2-4d87-801c-71a28593e067/ProjectSettings/d3194951-2ca2-4d87-801c-71a28593e067/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "t_***@ecovias.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Participante ja estava com as permissoes e o titulo desejados."
+      }
+    },
+    {
+      "projectId": "fb4620e6-3175-4d5c-8f3f-2cc75616efc1",
+      "nomeProjeto": "Acesso 5° Ano - km 626+050 - BR365/MG",
+      "origemProjectWise": {
+        "nome": "Acesso 5° Ano - km 626+050 - BR365/MG",
+        "id": "314740",
+        "guid": "a89e7d41-06b4-41b0-9f26-e96778d9f708",
+        "connectedProjectId": "fb4620e6-3175-4d5c-8f3f-2cc75616efc1",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/fb4620e6-3175-4d5c-8f3f-2cc75616efc1/ProjectSettings/fb4620e6-3175-4d5c-8f3f-2cc75616efc1/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "t_***@ecovias.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Participante ja estava com as permissoes e o titulo desejados."
+      }
+    },
+    {
+      "projectId": "f97055fa-d039-4657-9981-2053f78dd22a",
+      "nomeProjeto": "Acesso 5° Ano - km 630+312 - BR365/MG",
+      "origemProjectWise": {
+        "nome": "Acesso 5° Ano - km 630+312 - BR365/MG",
+        "id": "315526",
+        "guid": "21600589-c5dd-4909-950f-79d05f0ccda4",
+        "connectedProjectId": "f97055fa-d039-4657-9981-2053f78dd22a",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/f97055fa-d039-4657-9981-2053f78dd22a/ProjectSettings/f97055fa-d039-4657-9981-2053f78dd22a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "t_***@ecovias.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/f97055fa-d039-4657-9981-2053f78dd22a/ProjectSettings/f97055fa-d039-4657-9981-2053f78dd22a/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/f97055fa-d039-4657-9981-2053f78dd22a/ProjectSettings/f97055fa-d039-4657-9981-2053f78dd22a/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "t_***@ecovias.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "be7a8910-db6a-48b6-ad67-a029aed7da9e",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/f97055fa-d039-4657-9981-2053f78dd22a/ProjectSettings/f97055fa-d039-4657-9981-2053f78dd22a/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/f97055fa-d039-4657-9981-2053f78dd22a/ProjectSettings/f97055fa-d039-4657-9981-2053f78dd22a/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "t_***@ecovias.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "be7a8910-db6a-48b6-ad67-a029aed7da9e",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "9c05643c-96a7-4a2d-a393-7a8ab02116c8",
+      "nomeProjeto": "Acesso 5° Ano - km 637+000 - BR365/MG",
+      "origemProjectWise": {
+        "nome": "Acesso 5° Ano - km 637+000 - BR365/MG",
+        "id": "316309",
+        "guid": "9eb0e029-c732-4e91-ba85-ab47efa769ba",
+        "connectedProjectId": "9c05643c-96a7-4a2d-a393-7a8ab02116c8",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/9c05643c-96a7-4a2d-a393-7a8ab02116c8/ProjectSettings/9c05643c-96a7-4a2d-a393-7a8ab02116c8/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "t_***@ecovias.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/9c05643c-96a7-4a2d-a393-7a8ab02116c8/ProjectSettings/9c05643c-96a7-4a2d-a393-7a8ab02116c8/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/9c05643c-96a7-4a2d-a393-7a8ab02116c8/ProjectSettings/9c05643c-96a7-4a2d-a393-7a8ab02116c8/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "t_***@ecovias.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "fa4fb26e-679a-4460-8c71-02e4eb253c01",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/9c05643c-96a7-4a2d-a393-7a8ab02116c8/ProjectSettings/9c05643c-96a7-4a2d-a393-7a8ab02116c8/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/9c05643c-96a7-4a2d-a393-7a8ab02116c8/ProjectSettings/9c05643c-96a7-4a2d-a393-7a8ab02116c8/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "t_***@ecovias.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "fa4fb26e-679a-4460-8c71-02e4eb253c01",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "05905580-d68e-491e-aa54-b7e88e95d509",
+      "nomeProjeto": "Acesso 5° Ano - km 642+340 - BR365/MG",
+      "origemProjectWise": {
+        "nome": "Acesso 5° Ano - km 642+340 - BR365/MG",
+        "id": "317095",
+        "guid": "3241b8dc-46a2-4cc0-b9d9-e80fb5aefd45",
+        "connectedProjectId": "05905580-d68e-491e-aa54-b7e88e95d509",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/05905580-d68e-491e-aa54-b7e88e95d509/ProjectSettings/05905580-d68e-491e-aa54-b7e88e95d509/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "t_***@ecovias.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/05905580-d68e-491e-aa54-b7e88e95d509/ProjectSettings/05905580-d68e-491e-aa54-b7e88e95d509/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/05905580-d68e-491e-aa54-b7e88e95d509/ProjectSettings/05905580-d68e-491e-aa54-b7e88e95d509/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "t_***@ecovias.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "5a24fb94-f28f-4257-a54c-47780f8cd04a",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/05905580-d68e-491e-aa54-b7e88e95d509/ProjectSettings/05905580-d68e-491e-aa54-b7e88e95d509/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/05905580-d68e-491e-aa54-b7e88e95d509/ProjectSettings/05905580-d68e-491e-aa54-b7e88e95d509/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "t_***@ecovias.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "5a24fb94-f28f-4257-a54c-47780f8cd04a",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "08c399be-1af9-4e0e-bf49-0bc6922d534c",
+      "nomeProjeto": "Acesso 5° Ano - km 642+726 - BR365/MG",
+      "origemProjectWise": {
+        "nome": "Acesso 5° Ano - km 642+726 - BR365/MG",
+        "id": "317877",
+        "guid": "7b2c0a51-ee09-4f66-a78f-31b09d47b573",
+        "connectedProjectId": "08c399be-1af9-4e0e-bf49-0bc6922d534c",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/08c399be-1af9-4e0e-bf49-0bc6922d534c/ProjectSettings/08c399be-1af9-4e0e-bf49-0bc6922d534c/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "t_***@ecovias.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/08c399be-1af9-4e0e-bf49-0bc6922d534c/ProjectSettings/08c399be-1af9-4e0e-bf49-0bc6922d534c/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/08c399be-1af9-4e0e-bf49-0bc6922d534c/ProjectSettings/08c399be-1af9-4e0e-bf49-0bc6922d534c/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "t_***@ecovias.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "94c7aaec-6232-4e06-b0db-7d744ebe632a",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/08c399be-1af9-4e0e-bf49-0bc6922d534c/ProjectSettings/08c399be-1af9-4e0e-bf49-0bc6922d534c/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/08c399be-1af9-4e0e-bf49-0bc6922d534c/ProjectSettings/08c399be-1af9-4e0e-bf49-0bc6922d534c/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "t_***@ecovias.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "94c7aaec-6232-4e06-b0db-7d744ebe632a",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "4b2d6840-a43e-4ee6-944b-99e798d105e3",
+      "nomeProjeto": "Acesso 5° Ano - km 648+345 - BR365/MG",
+      "origemProjectWise": {
+        "nome": "Acesso 5° Ano - km 648+345 - BR365/MG",
+        "id": "318658",
+        "guid": "fbbc90d4-3c36-4051-a250-3d4dfe0437d3",
+        "connectedProjectId": "4b2d6840-a43e-4ee6-944b-99e798d105e3",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/4b2d6840-a43e-4ee6-944b-99e798d105e3/ProjectSettings/4b2d6840-a43e-4ee6-944b-99e798d105e3/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "t_***@ecovias.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/4b2d6840-a43e-4ee6-944b-99e798d105e3/ProjectSettings/4b2d6840-a43e-4ee6-944b-99e798d105e3/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/4b2d6840-a43e-4ee6-944b-99e798d105e3/ProjectSettings/4b2d6840-a43e-4ee6-944b-99e798d105e3/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "t_***@ecovias.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "128c5cc1-e6b7-4b46-a92f-7354238c0a8d",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/4b2d6840-a43e-4ee6-944b-99e798d105e3/ProjectSettings/4b2d6840-a43e-4ee6-944b-99e798d105e3/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/4b2d6840-a43e-4ee6-944b-99e798d105e3/ProjectSettings/4b2d6840-a43e-4ee6-944b-99e798d105e3/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "t_***@ecovias.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "128c5cc1-e6b7-4b46-a92f-7354238c0a8d",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "0d27bdb4-97fc-4279-b221-e4da3911acb3",
+      "nomeProjeto": "Acesso 5° Ano - km 655+320 - BR365/MG",
+      "origemProjectWise": {
+        "nome": "Acesso 5° Ano - km 655+320 - BR365/MG",
+        "id": "319295",
+        "guid": "6169f33e-79b9-43e3-8829-2b5fc658fbf0",
+        "connectedProjectId": "0d27bdb4-97fc-4279-b221-e4da3911acb3",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/0d27bdb4-97fc-4279-b221-e4da3911acb3/ProjectSettings/0d27bdb4-97fc-4279-b221-e4da3911acb3/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "t_***@ecovias.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/0d27bdb4-97fc-4279-b221-e4da3911acb3/ProjectSettings/0d27bdb4-97fc-4279-b221-e4da3911acb3/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/0d27bdb4-97fc-4279-b221-e4da3911acb3/ProjectSettings/0d27bdb4-97fc-4279-b221-e4da3911acb3/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "t_***@ecovias.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "4855dcfc-ef55-4d6b-b079-c9305539096a",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/0d27bdb4-97fc-4279-b221-e4da3911acb3/ProjectSettings/0d27bdb4-97fc-4279-b221-e4da3911acb3/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/0d27bdb4-97fc-4279-b221-e4da3911acb3/ProjectSettings/0d27bdb4-97fc-4279-b221-e4da3911acb3/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "t_***@ecovias.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "4855dcfc-ef55-4d6b-b079-c9305539096a",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "513a53b5-8ef2-4f05-ac2b-237fb9f36f63",
+      "nomeProjeto": "Acesso 5° Ano - km 668+288 - BR365/MG",
+      "origemProjectWise": {
+        "nome": "Acesso 5° Ano - km 668+288 - BR365/MG",
+        "id": "320076",
+        "guid": "7dcbbb8f-a148-4628-baa6-4205bf98ce5d",
+        "connectedProjectId": "513a53b5-8ef2-4f05-ac2b-237fb9f36f63",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/513a53b5-8ef2-4f05-ac2b-237fb9f36f63/ProjectSettings/513a53b5-8ef2-4f05-ac2b-237fb9f36f63/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "t_***@ecovias.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/513a53b5-8ef2-4f05-ac2b-237fb9f36f63/ProjectSettings/513a53b5-8ef2-4f05-ac2b-237fb9f36f63/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/513a53b5-8ef2-4f05-ac2b-237fb9f36f63/ProjectSettings/513a53b5-8ef2-4f05-ac2b-237fb9f36f63/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "t_***@ecovias.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "b0365836-9326-444c-beb3-55ac030ded23",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/513a53b5-8ef2-4f05-ac2b-237fb9f36f63/ProjectSettings/513a53b5-8ef2-4f05-ac2b-237fb9f36f63/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/513a53b5-8ef2-4f05-ac2b-237fb9f36f63/ProjectSettings/513a53b5-8ef2-4f05-ac2b-237fb9f36f63/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "t_***@ecovias.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "b0365836-9326-444c-beb3-55ac030ded23",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "069aecc5-06ac-4978-9951-dcbe5d563741",
+      "nomeProjeto": "Acesso 5° Ano - km 694+848 - BR365/MG",
+      "origemProjectWise": {
+        "nome": "Acesso 5° Ano - km 694+848 - BR365/MG",
+        "id": "320857",
+        "guid": "b194188f-b72b-4d4e-9007-a2f555a3bcaf",
+        "connectedProjectId": "069aecc5-06ac-4978-9951-dcbe5d563741",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/069aecc5-06ac-4978-9951-dcbe5d563741/ProjectSettings/069aecc5-06ac-4978-9951-dcbe5d563741/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "t_***@ecovias.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/069aecc5-06ac-4978-9951-dcbe5d563741/ProjectSettings/069aecc5-06ac-4978-9951-dcbe5d563741/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/069aecc5-06ac-4978-9951-dcbe5d563741/ProjectSettings/069aecc5-06ac-4978-9951-dcbe5d563741/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "t_***@ecovias.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "a2d34326-7e8d-4a16-80c2-71fc0df1d4cb",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/069aecc5-06ac-4978-9951-dcbe5d563741/ProjectSettings/069aecc5-06ac-4978-9951-dcbe5d563741/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/069aecc5-06ac-4978-9951-dcbe5d563741/ProjectSettings/069aecc5-06ac-4978-9951-dcbe5d563741/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "t_***@ecovias.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "a2d34326-7e8d-4a16-80c2-71fc0df1d4cb",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "b6876b6a-c8ad-4c34-bb49-6a88bb1f3a98",
+      "nomeProjeto": "Acesso 5° Ano - km 697+300 - BR365/MG",
+      "origemProjectWise": {
+        "nome": "Acesso 5° Ano - km 697+300 - BR365/MG",
+        "id": "321638",
+        "guid": "8a777d3e-60b8-45b6-aaec-4704a6a7b7a1",
+        "connectedProjectId": "b6876b6a-c8ad-4c34-bb49-6a88bb1f3a98",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/b6876b6a-c8ad-4c34-bb49-6a88bb1f3a98/ProjectSettings/b6876b6a-c8ad-4c34-bb49-6a88bb1f3a98/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "t_***@ecovias.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/b6876b6a-c8ad-4c34-bb49-6a88bb1f3a98/ProjectSettings/b6876b6a-c8ad-4c34-bb49-6a88bb1f3a98/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/b6876b6a-c8ad-4c34-bb49-6a88bb1f3a98/ProjectSettings/b6876b6a-c8ad-4c34-bb49-6a88bb1f3a98/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "t_***@ecovias.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "e846801f-a130-47cf-a992-a4526f91d52d",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/b6876b6a-c8ad-4c34-bb49-6a88bb1f3a98/ProjectSettings/b6876b6a-c8ad-4c34-bb49-6a88bb1f3a98/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/b6876b6a-c8ad-4c34-bb49-6a88bb1f3a98/ProjectSettings/b6876b6a-c8ad-4c34-bb49-6a88bb1f3a98/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "t_***@ecovias.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "e846801f-a130-47cf-a992-a4526f91d52d",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "f61745fa-3979-41a2-809a-632408ae61e1",
+      "nomeProjeto": "Acesso 5° Ano - km 759+400 - BR365/MG",
+      "origemProjectWise": {
+        "nome": "Acesso 5° Ano - km 759+400 - BR365/MG",
+        "id": "324744",
+        "guid": "e7c52d6c-c055-4d46-8a61-770bd1fa3775",
+        "connectedProjectId": "f61745fa-3979-41a2-809a-632408ae61e1",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/f61745fa-3979-41a2-809a-632408ae61e1/ProjectSettings/f61745fa-3979-41a2-809a-632408ae61e1/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "t_***@ecovias.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/f61745fa-3979-41a2-809a-632408ae61e1/ProjectSettings/f61745fa-3979-41a2-809a-632408ae61e1/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/f61745fa-3979-41a2-809a-632408ae61e1/ProjectSettings/f61745fa-3979-41a2-809a-632408ae61e1/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "t_***@ecovias.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "6eb0a521-b4a5-456c-b13b-f4b5c66c2a68",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/f61745fa-3979-41a2-809a-632408ae61e1/ProjectSettings/f61745fa-3979-41a2-809a-632408ae61e1/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/f61745fa-3979-41a2-809a-632408ae61e1/ProjectSettings/f61745fa-3979-41a2-809a-632408ae61e1/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "t_***@ecovias.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "6eb0a521-b4a5-456c-b13b-f4b5c66c2a68",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "2df1b143-cdab-4d51-afa4-f0fa2dbc596b",
+      "nomeProjeto": "Acesso 5° Ano - km 772+640 - BR365/MG",
+      "origemProjectWise": {
+        "nome": "Acesso 5° Ano - km 772+640 - BR365/MG",
+        "id": "325722",
+        "guid": "352c3e13-bcaa-446e-8966-ad468bacdd19",
+        "connectedProjectId": "2df1b143-cdab-4d51-afa4-f0fa2dbc596b",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/2df1b143-cdab-4d51-afa4-f0fa2dbc596b/ProjectSettings/2df1b143-cdab-4d51-afa4-f0fa2dbc596b/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "t_***@ecovias.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/2df1b143-cdab-4d51-afa4-f0fa2dbc596b/ProjectSettings/2df1b143-cdab-4d51-afa4-f0fa2dbc596b/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/2df1b143-cdab-4d51-afa4-f0fa2dbc596b/ProjectSettings/2df1b143-cdab-4d51-afa4-f0fa2dbc596b/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "t_***@ecovias.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "2c59f9ec-97e3-411d-afd6-18dadd5c41b4",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/2df1b143-cdab-4d51-afa4-f0fa2dbc596b/ProjectSettings/2df1b143-cdab-4d51-afa4-f0fa2dbc596b/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/2df1b143-cdab-4d51-afa4-f0fa2dbc596b/ProjectSettings/2df1b143-cdab-4d51-afa4-f0fa2dbc596b/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "t_***@ecovias.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "2c59f9ec-97e3-411d-afd6-18dadd5c41b4",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "cc6580d9-ed38-4955-a2a0-8def3d82555c",
+      "nomeProjeto": "Duplicação TH 13 e 14 - km 735,6 + 753,2 - BR-365/MG",
+      "origemProjectWise": {
+        "nome": "Duplicação TH 13 e 14 - km 735,6 + 753,2 - BR-365/MG",
+        "id": "274303",
+        "guid": "e6337fcb-2004-4c47-aa3b-4805049eca29",
+        "connectedProjectId": "cc6580d9-ed38-4955-a2a0-8def3d82555c",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/cc6580d9-ed38-4955-a2a0-8def3d82555c/ProjectSettings/cc6580d9-ed38-4955-a2a0-8def3d82555c/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "t_***@ecovias.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/cc6580d9-ed38-4955-a2a0-8def3d82555c/ProjectSettings/cc6580d9-ed38-4955-a2a0-8def3d82555c/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/cc6580d9-ed38-4955-a2a0-8def3d82555c/ProjectSettings/cc6580d9-ed38-4955-a2a0-8def3d82555c/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "t_***@ecovias.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "1147da96-6b70-4939-b21f-e2270eb5afe4",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/cc6580d9-ed38-4955-a2a0-8def3d82555c/ProjectSettings/cc6580d9-ed38-4955-a2a0-8def3d82555c/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/cc6580d9-ed38-4955-a2a0-8def3d82555c/ProjectSettings/cc6580d9-ed38-4955-a2a0-8def3d82555c/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "t_***@ecovias.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "1147da96-6b70-4939-b21f-e2270eb5afe4",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "4e67c35b-3ec8-4cbf-aaad-cb4cb918f106",
+      "nomeProjeto": "Faixas adicionais TH 05 - km 64,700 + 113,200 - BR364/GO",
+      "origemProjectWise": {
+        "nome": "Faixas adicionais TH 05 - km 64,700 + 113,200 - BR364/GO",
+        "id": "272917",
+        "guid": "2b91af27-e9ca-494d-a0e6-1484f1c54160",
+        "connectedProjectId": "4e67c35b-3ec8-4cbf-aaad-cb4cb918f106",
+        "concessao": "Ecovias Cerrado",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/4e67c35b-3ec8-4cbf-aaad-cb4cb918f106/ProjectSettings/4e67c35b-3ec8-4cbf-aaad-cb4cb918f106/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "t_***@ecovias.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/4e67c35b-3ec8-4cbf-aaad-cb4cb918f106/ProjectSettings/4e67c35b-3ec8-4cbf-aaad-cb4cb918f106/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/4e67c35b-3ec8-4cbf-aaad-cb4cb918f106/ProjectSettings/4e67c35b-3ec8-4cbf-aaad-cb4cb918f106/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "t_***@ecovias.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "854cf9d4-4ce8-4a3c-b81b-d84932b8aa23",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/4e67c35b-3ec8-4cbf-aaad-cb4cb918f106/ProjectSettings/4e67c35b-3ec8-4cbf-aaad-cb4cb918f106/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/4e67c35b-3ec8-4cbf-aaad-cb4cb918f106/ProjectSettings/4e67c35b-3ec8-4cbf-aaad-cb4cb918f106/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "t_***@ecovias.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "854cf9d4-4ce8-4a3c-b81b-d84932b8aa23",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    }
+  ]
+}

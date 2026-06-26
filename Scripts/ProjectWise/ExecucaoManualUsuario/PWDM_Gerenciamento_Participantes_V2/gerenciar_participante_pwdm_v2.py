@@ -29,7 +29,7 @@ URL_PORTAL = "https://pwdm.bentley.com"
 URL_CONNECT = "https://connect.bentley.com"
 ORIGEM_PWDM = "https://pwdm.bentley.com"
 ARQUIVO_SESSAO = Path("session.json")
-PASTA_LOGS = Path("Logs")
+PASTA_LOGS = Path(__file__).resolve().parent / "Logs"
 ARQUIVO_CACHE_EXPORT_CONNECT = PASTA_LOGS / "connect_projects_export_latest.csv"
 PADRAO_ARVORE_PROJECTWISE = "projectwise_arvore_*.json"
 

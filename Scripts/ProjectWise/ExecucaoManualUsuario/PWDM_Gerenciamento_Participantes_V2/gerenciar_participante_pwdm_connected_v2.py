@@ -1,4 +1,6 @@
 import subprocess
+import json
+import traceback
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Optional
@@ -32,8 +34,10 @@ from lote_usuarios_pwdm_v2 import carregar_emails_xlsx
 from projetos_projectwise_pwdm_v2 import carregar_projetos_selecionados_com_diagnostico
 
 
-PASTA_LOGS = Path("Logs")
+PASTA_BASE = Path(__file__).resolve().parent
+PASTA_LOGS = PASTA_BASE / "Logs"
 SCRIPT_SELETOR_PROJECTWISE = Path("pw_selecionar_projetos_para_pwdm_v2.ps1")
+ACOES_NAO_APLICAVEIS = {"ignorar_usuario_ausente", "excluir_participante", "erro_consulta_participantes"}
 
 
 def nome_execucao_connected() -> str:
@@ -83,6 +87,28 @@ def apagar_json_temporario(arquivo: Optional[Path]) -> None:
             print(f"[AVISO] Nao foi possivel remover JSON temporario {arquivo}: {erro}")
 
 
+def salvar_log_erro_execucao(
+    erro: Exception,
+    etapa: str,
+    arquivo_projetos_execucao: Optional[Path],
+) -> None:
+    PASTA_LOGS.mkdir(parents=True, exist_ok=True)
+    arquivo = PASTA_LOGS / f"pwdm_erro_execucao_connected_{nome_execucao_connected()}.json"
+    dados = {
+        "timestamp": datetime.now().isoformat(timespec="seconds"),
+        "etapa": etapa,
+        "erro": str(erro),
+        "tipoErro": type(erro).__name__,
+        "arquivoProjetosExecucao": str(arquivo_projetos_execucao.resolve()) if arquivo_projetos_execucao else "",
+        "traceback": traceback.format_exc(),
+    }
+
+    with arquivo.open("w", encoding="utf-8") as saida:
+        json.dump(dados, saida, indent=2, ensure_ascii=False)
+
+    print(f"[OK] Log de erro: {arquivo.resolve()}")
+
+
 def carregar_projetos_para_fluxo(arquivo: Path) -> list[dict]:
     print(f"\n[INFO] Usando projetos selecionados pelo ProjectWise nesta execucao: {arquivo.resolve()}")
     projetos, ignorados = carregar_projetos_selecionados_com_diagnostico(arquivo)
@@ -100,6 +126,33 @@ def carregar_projetos_para_fluxo(arquivo: Path) -> list[dict]:
             f"PW ID: {origem.get('id')} | ConnectedProjectId: {projeto.get('projectId')}"
         )
     return projetos
+
+
+def montar_operacao_erro_consulta(
+    projeto: dict[str, Any],
+    email: str,
+    acao_usuario: str,
+    titulo: str,
+    permissoes: dict[str, bool],
+    erro: Exception,
+) -> dict[str, Any]:
+    return {
+        "email": email,
+        "nomeProjeto": projeto.get("nome"),
+        "origemProjectWise": projeto.get("origemProjectWise"),
+        "criterioCruzamento": projeto.get("criterioCruzamento"),
+        "connectSpaceId": projeto.get("connectSpaceId"),
+        "projectId": projeto.get("projectId"),
+        "acaoSolicitada": acao_usuario,
+        "acaoEfetiva": "erro_consulta_participantes",
+        "descricaoAcao": "Projeto ignorado: nao foi possivel consultar participantes.",
+        "status": "erro_consulta_participantes",
+        "membro": {},
+        "permissoesUsuarioAtual": {},
+        "titulo": titulo,
+        "permissoes": permissoes,
+        "erroConsultaParticipantes": str(erro),
+    }
 
 
 def abrir_tela_e_buscar_dados_em_aba(pagina_api, connect_space_id: str, project_id: str) -> dict[str, Any]:
@@ -130,6 +183,7 @@ def abrir_tela_e_buscar_dados_em_aba(pagina_api, connect_space_id: str, project_
                 status: response.status,
                 statusText: response.statusText,
                 contentType: response.headers.get("content-type") || "",
+                url: response.url || "",
                 text
             };
         }
@@ -141,16 +195,38 @@ def abrir_tela_e_buscar_dados_em_aba(pagina_api, connect_space_id: str, project_
         raise RuntimeError(
             f"Falha ao buscar participantes em {project_id}: "
             f"HTTP {resultado.get('status')} {resultado.get('statusText')}. "
-            f"Inicio da resposta: {str(resultado.get('text') or '')[:300]}"
+            f"Content-Type: {resultado.get('contentType') or 'sem content-type'}. "
+            f"URL resposta: {resultado.get('url') or endpoint}. "
+            f"Inicio da resposta: {str(resultado.get('text') or '')[:1000]}"
         )
 
     texto = str(resultado.get("text") or "")
+    content_type = str(resultado.get("contentType") or "").lower()
+    if "application/json" not in content_type:
+        raise RuntimeError(
+            f"Resposta inesperada ao buscar participantes em {project_id}: "
+            f"HTTP {resultado.get('status')} {resultado.get('statusText')}; "
+            f"Content-Type: {resultado.get('contentType') or 'sem content-type'}; "
+            f"URL tela: {url_tela}; "
+            f"Endpoint: {endpoint}; "
+            f"URL resposta: {resultado.get('url') or endpoint}; "
+            f"Inicio da resposta: {texto[:1000]}"
+        )
+
     try:
         import json
 
         return json.loads(texto)
     except Exception as erro:
-        raise RuntimeError(f"Resposta inesperada ao buscar participantes em {project_id}.") from erro
+        raise RuntimeError(
+            f"Resposta inesperada ao buscar participantes em {project_id}: "
+            f"HTTP {resultado.get('status')} {resultado.get('statusText')}; "
+            f"Content-Type: {resultado.get('contentType') or 'sem content-type'}; "
+            f"URL tela: {url_tela}; "
+            f"Endpoint: {endpoint}; "
+            f"URL resposta: {resultado.get('url') or endpoint}; "
+            f"Inicio da resposta: {texto[:1000]}"
+        ) from erro
 
 
 def montar_operacoes_com_aba_unica(
@@ -171,7 +247,22 @@ def montar_operacoes_com_aba_unica(
             connect_space_id = projeto["connectSpaceId"]
             project_id = projeto["projectId"]
             print(f"- Projeto {indice}: {projeto['nome']} ({project_id})")
-            dados = abrir_tela_e_buscar_dados_em_aba(pagina_api, connect_space_id, project_id)
+            try:
+                dados = abrir_tela_e_buscar_dados_em_aba(pagina_api, connect_space_id, project_id)
+            except Exception as erro:
+                print(f"  [ERRO] Consulta de participantes falhou; projeto sera ignorado na aplicacao: {erro}")
+                operacoes.append(
+                    montar_operacao_erro_consulta(
+                        projeto,
+                        email,
+                        acao_usuario,
+                        titulo,
+                        permissoes,
+                        erro,
+                    )
+                )
+                continue
+
             usuario = buscar_usuario_no_projeto(dados, email)
             permissoes_atuais = permissoes_usuario_atual(dados)
             acao_efetiva, descricao_acao = determinar_acao_efetiva(acao_usuario, usuario["status"])
@@ -220,7 +311,23 @@ def montar_operacoes_lote_com_aba_unica(
             connect_space_id = projeto["connectSpaceId"]
             project_id = projeto["projectId"]
             print(f"- Projeto {indice}: {projeto['nome']} ({project_id})")
-            dados = abrir_tela_e_buscar_dados_em_aba(pagina_api, connect_space_id, project_id)
+            try:
+                dados = abrir_tela_e_buscar_dados_em_aba(pagina_api, connect_space_id, project_id)
+            except Exception as erro:
+                print(f"  [ERRO] Consulta de participantes falhou; projeto sera ignorado na aplicacao: {erro}")
+                for email in emails:
+                    operacoes.append(
+                        montar_operacao_erro_consulta(
+                            projeto,
+                            email,
+                            acao_usuario,
+                            titulo,
+                            permissoes,
+                            erro,
+                        )
+                    )
+                continue
+
             permissoes_atuais = permissoes_usuario_atual(dados)
 
             for email in emails:
@@ -258,7 +365,7 @@ def confirmar_aplicacao_sn(operacoes: list[dict[str, Any]]) -> bool:
     aplicaveis = [
         op
         for op in operacoes
-        if op.get("acaoEfetiva") not in {"ignorar_usuario_ausente", "excluir_participante"}
+        if op.get("acaoEfetiva") not in ACOES_NAO_APLICAVEIS
     ]
 
     if not aplicaveis:
@@ -407,6 +514,13 @@ def aplicar_operacao_em_aba(pagina_api, op: dict[str, Any], email: str) -> dict[
                 "Exclusao ainda nao foi automatizada. Precisamos capturar e validar o endpoint "
                 "de remocao antes de aplicar uma acao destrutiva."
             ),
+        }
+
+    if acao_efetiva == "erro_consulta_participantes":
+        return {
+            "status": "ignorado_erro_consulta_participantes",
+            "mensagem": op.get("erroConsultaParticipantes")
+            or "Nao foi possivel consultar participantes do projeto.",
         }
 
     if acao_efetiva == "atualizar_participante":
@@ -653,7 +767,7 @@ def exibir_previa_lote(operacoes: list[dict[str, Any]], emails: list[str]) -> No
     aplicaveis = [
         op
         for op in operacoes
-        if op.get("acaoEfetiva") not in {"ignorar_usuario_ausente", "excluir_participante"}
+        if op.get("acaoEfetiva") not in ACOES_NAO_APLICAVEIS
     ]
     print(f"- Usuarios: {len(emails)}")
     print(f"- Projetos: {len(projetos)}")
@@ -668,18 +782,26 @@ def exibir_previa_lote(operacoes: list[dict[str, Any]], emails: list[str]) -> No
 def main() -> None:
     preparar_pasta_logs()
     arquivo_projetos_execucao: Optional[Path] = None
+    preservar_json_projetos = False
+    etapa = "inicio"
 
     with sync_playwright() as playwright:
         browser: Optional[Browser] = None
 
         try:
+            etapa = "selecionar_projetos_projectwise"
             arquivo_projetos_execucao = executar_seletor_projectwise()
+            preservar_json_projetos = True
+            etapa = "carregar_projetos_para_pwdm"
             projetos_selecionados = carregar_projetos_para_fluxo(arquivo_projetos_execucao)
 
+            etapa = "abrir_navegador"
             browser, _context, page = iniciar_navegador(playwright)
+            etapa = "abrir_portal_pwdm"
             abrir_portal(page)
 
             print("\nDados da operacao")
+            etapa = "coletar_dados_operacao"
             modo_usuarios = solicitar_modo_usuarios()
             if modo_usuarios == "lote_xlsx":
                 emails = carregar_emails_lote_interativo()
@@ -703,6 +825,7 @@ def main() -> None:
                 permissoes = solicitar_permissoes()
 
             if modo_usuarios == "lote_xlsx":
+                etapa = "montar_operacoes_lote"
                 operacoes = montar_operacoes_lote_com_aba_unica(
                     page,
                     projetos_selecionados,
@@ -713,6 +836,7 @@ def main() -> None:
                 )
                 exibir_previa_lote(operacoes, emails)
             else:
+                etapa = "montar_operacoes_usuario"
                 operacoes = montar_operacoes_com_aba_unica(
                     page,
                     projetos_selecionados,
@@ -727,8 +851,10 @@ def main() -> None:
 
             if confirmar_aplicacao_sn(operacoes):
                 if modo_usuarios == "lote_xlsx":
+                    etapa = "aplicar_operacoes_lote"
                     resultados = aplicar_operacoes_lote_com_aba_unica(page, operacoes)
                 else:
+                    etapa = "aplicar_operacoes_usuario"
                     resultados = aplicar_operacoes_com_aba_unica(page, operacoes, emails[0])
             else:
                 print("\n[OK] Execucao cancelada pelo usuario. Nenhuma alteracao foi aplicada.")
@@ -750,7 +876,9 @@ def main() -> None:
                     for op in operacoes
                 ]
 
+            etapa = "salvar_log_final"
             salvar_log(operacoes, resultados)
+            preservar_json_projetos = False
             print("\nFinalizado.")
             input("Pressione ENTER para fechar o navegador...")
 
@@ -758,11 +886,17 @@ def main() -> None:
             print("\nExecucao interrompida pelo usuario.")
         except Exception as erro:
             print(f"\n[ERRO] {erro}")
+            salvar_log_erro_execucao(erro, etapa, arquivo_projetos_execucao)
+            if arquivo_projetos_execucao and arquivo_projetos_execucao.exists():
+                print(f"[INFO] JSON de projetos preservado para diagnostico: {arquivo_projetos_execucao.resolve()}")
             input("Pressione ENTER para fechar o navegador...")
         finally:
             if browser:
                 browser.close()
-            apagar_json_temporario(arquivo_projetos_execucao)
+            if preservar_json_projetos:
+                print("[INFO] Mantendo JSON temporario porque a execucao terminou com erro.")
+            else:
+                apagar_json_temporario(arquivo_projetos_execucao)
 
 
 if __name__ == "__main__":
