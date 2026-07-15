@@ -596,3 +596,4 @@
 2026-07-15 17:15:41 | ERROR | Erro ao importar projetos/perfis. Detalhe: Nenhum projeto foi encontrado. Use uma coluna chamada Projeto.
 2026-07-15 17:16:18 | ERROR | Erro ao importar projetos/perfis. Detalhe: Nenhum projeto foi encontrado. Use uma coluna chamada Projeto.
 2026-07-15 17:16:51 | ERROR | Erro ao importar projetos/perfis. Detalhe: Nenhum projeto foi encontrado. Use uma coluna chamada Projeto.
+2026-07-15 17:19:39 | INFO | Resumo final da execução | Total=304 | Sucesso=232 | JaExiste=72 | Erro=0
