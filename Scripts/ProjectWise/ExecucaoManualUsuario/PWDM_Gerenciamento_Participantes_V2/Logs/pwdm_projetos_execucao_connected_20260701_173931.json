@@ -1,0 +1,52 @@
+﻿{
+    "timestamp":  "2026-07-01T17:40:11",
+    "origem":  "ProjectWise",
+    "modoSelecao":  "concessao_projetos_connected_project",
+    "profundidadeProjetos":  0,
+    "concessao":  {
+                      "nome":  "Ecovias Capixaba",
+                      "id":  "292",
+                      "guid":  "921a5148-2e6a-4298-b0cc-617f2c10a302"
+                  },
+    "totalProjetosListados":  38,
+    "totalProjetosSelecionados":  2,
+    "totalProjetosAptosPwdm":  2,
+    "projetos":  [
+                     {
+                         "nome":  "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+                         "nomeTecnico":  "PPD Norte",
+                         "descricao":  "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+                         "concessaoProjectWise":  "Ecovias Capixaba",
+                         "projectWiseId":  "255227",
+                         "projectWiseGuid":  "9e26356f-eafb-4cab-b87d-014d40b80831",
+                         "connectedProjectId":  "e221e732-7d85-4885-82a7-96d09389b8be",
+                         "connectSpaceId":  "e221e732-7d85-4885-82a7-96d09389b8be",
+                         "projectId":  "e221e732-7d85-4885-82a7-96d09389b8be",
+                         "projectWiseWebName":  "",
+                         "projectWiseWebNumber":  "",
+                         "projectWiseWebLink":  "https://connect-projectwisewac.bentley.com/pwlink/?objectId=9e26356f-eafb-4cab-b87d-014d40b80831\u0026objectType=folder\u0026datasource=Bentley.PW--01SSRV305.ECSC.ECORODOVIAS.CORP~3AEcorodovias-01\u0026projectId=e221e732-7d85-4885-82a7-96d09389b8be\u0026workareaid=9e26356f-eafb-4cab-b87d-014d40b80831\u0026app=pwe",
+                         "projectWiseWebViewLink":  "https://connect-projectwisewebview.bentley.com/pwlink?datasource=Bentley.PW--01SSRV305.ECSC.ECORODOVIAS.CORP~3AEcorodovias-01\u0026objectId=9e26356f-eafb-4cab-b87d-014d40b80831\u0026objectType=folder\u0026app=webview",
+                         "urlParticipantesPwdm":  "https://pwdm.bentley.com/e221e732-7d85-4885-82a7-96d09389b8be/ProjectSettings/e221e732-7d85-4885-82a7-96d09389b8be/View#PARTICIPANTS",
+                         "origemSelecao":  "ProjectWise ConnectedProjectId",
+                         "aptoPwdm":  true
+                     },
+                     {
+                         "nome":  "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+                         "nomeTecnico":  "PPD Sul",
+                         "descricao":  "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+                         "concessaoProjectWise":  "Ecovias Capixaba",
+                         "projectWiseId":  "256672",
+                         "projectWiseGuid":  "389e884f-5d2f-4042-a269-496a34745745",
+                         "connectedProjectId":  "3887ad62-2f26-423f-bf8e-801139045ca8",
+                         "connectSpaceId":  "3887ad62-2f26-423f-bf8e-801139045ca8",
+                         "projectId":  "3887ad62-2f26-423f-bf8e-801139045ca8",
+                         "projectWiseWebName":  "",
+                         "projectWiseWebNumber":  "",
+                         "projectWiseWebLink":  "https://connect-projectwisewac.bentley.com/pwlink/?objectId=389e884f-5d2f-4042-a269-496a34745745\u0026objectType=folder\u0026datasource=Bentley.PW--01SSRV305.ECSC.ECORODOVIAS.CORP~3AEcorodovias-01\u0026projectId=3887ad62-2f26-423f-bf8e-801139045ca8\u0026workareaid=389e884f-5d2f-4042-a269-496a34745745\u0026app=pwe",
+                         "projectWiseWebViewLink":  "https://connect-projectwisewebview.bentley.com/pwlink?datasource=Bentley.PW--01SSRV305.ECSC.ECORODOVIAS.CORP~3AEcorodovias-01\u0026objectId=389e884f-5d2f-4042-a269-496a34745745\u0026objectType=folder\u0026app=webview",
+                         "urlParticipantesPwdm":  "https://pwdm.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/View#PARTICIPANTS",
+                         "origemSelecao":  "ProjectWise ConnectedProjectId",
+                         "aptoPwdm":  true
+                     }
+                 ]
+}

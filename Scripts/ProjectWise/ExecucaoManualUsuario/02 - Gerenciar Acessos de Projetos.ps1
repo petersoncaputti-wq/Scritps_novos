@@ -37,7 +37,20 @@ $script:InicializacaoConcluida = $false
 $script:ProjetosCarregados = @()
 $script:CacheGruposPW = $null
 $script:ResumoImportacaoUsuarios = $null
+$script:ResumoImportacaoProjetos = $null
 $script:FiltroExclusaoAvancado = ""
+$script:PerfisPadraoProjeto = @(
+    [PSCustomObject]@{ Rotulo = "Assistente Eng"; Sufixo = "ASSISTENTE ENG" },
+    [PSCustomObject]@{ Rotulo = "Consulta Todas Rev"; Sufixo = "CONSULTA TODAS REV" },
+    [PSCustomObject]@{ Rotulo = "Consulta Ultima Rev"; Sufixo = "CONSULTA ULTIMA REV" },
+    [PSCustomObject]@{ Rotulo = "Eng Consulta Todas Rev"; Sufixo = "ENG CONSULTA TODAS REV" },
+    [PSCustomObject]@{ Rotulo = "Eng Consulta Ultima Rev"; Sufixo = "ENG CONSULTA ULTIMA REV" },
+    [PSCustomObject]@{ Rotulo = "Especialista"; Sufixo = "ESPECIALISTA" },
+    [PSCustomObject]@{ Rotulo = "Gestor Eng"; Sufixo = "GESTOR ENG" },
+    [PSCustomObject]@{ Rotulo = "Gestor Unidade"; Sufixo = "GESTOR UNIDADE" },
+    [PSCustomObject]@{ Rotulo = "Poder Concedente"; Sufixo = "PODER CONCEDENTE" },
+    [PSCustomObject]@{ Rotulo = "Projetista"; Sufixo = "PROJETISTA" }
+)
 
 # ---------------------------------------------------------
 # FUNCOES DE LOG
@@ -1982,6 +1995,364 @@ function Selecionar-AcessosExibidosNaArvore {
     return $totalMarcados
 }
 
+function Normalizar-TextoComparacaoProjeto {
+    param([string]$Texto)
+
+    if ([string]::IsNullOrWhiteSpace($Texto)) {
+        return ""
+    }
+
+    $valor = Remover-AcentosTexto $Texto
+    $valor = $valor.ToLowerInvariant()
+    $valor = $valor -replace '[^\p{L}\p{Nd}]+', ' '
+    $valor = $valor -replace '\s+', ' '
+    return $valor.Trim()
+}
+
+function Obter-ChavesComparacaoProjeto {
+    param([object]$ProjetoData)
+
+    $valores = @(
+        $ProjetoData.ProjetoNome,
+        $ProjetoData.ProjetoNomeTecnico
+    )
+
+    if ($ProjetoData.ProjetoObjeto) {
+        $valores += @(Obter-DescricaoItem -Item $ProjetoData.ProjetoObjeto)
+        $valores += @(Obter-NomeAmigavelItem -Item $ProjetoData.ProjetoObjeto)
+    }
+
+    return @(
+        $valores |
+            ForEach-Object { Normalizar-TextoComparacaoProjeto $_ } |
+            Where-Object { -not [string]::IsNullOrWhiteSpace($_) } |
+            Select-Object -Unique
+    )
+}
+
+function Localizar-ProjetoCarregadoPorNome {
+    param([string]$NomeProjetoPlanilha)
+
+    $alvo = Normalizar-TextoComparacaoProjeto $NomeProjetoPlanilha
+    if ([string]::IsNullOrWhiteSpace($alvo)) {
+        return [PSCustomObject]@{
+            Encontrado = $false
+            Projeto    = $null
+            Motivo     = "Nome vazio"
+            Sugestoes  = @()
+        }
+    }
+
+    foreach ($projetoData in @($script:ProjetosCarregados)) {
+        $chaves = @(Obter-ChavesComparacaoProjeto -ProjetoData $projetoData)
+        if ($chaves -contains $alvo) {
+            return [PSCustomObject]@{
+                Encontrado = $true
+                Projeto    = $projetoData
+                Motivo     = "Exato"
+                Sugestoes  = @()
+            }
+        }
+    }
+
+    foreach ($projetoData in @($script:ProjetosCarregados)) {
+        $chaves = @(Obter-ChavesComparacaoProjeto -ProjetoData $projetoData)
+        foreach ($chave in $chaves) {
+            if ($chave.Contains($alvo) -or $alvo.Contains($chave)) {
+                return [PSCustomObject]@{
+                    Encontrado = $true
+                    Projeto    = $projetoData
+                    Motivo     = "Parcial"
+                    Sugestoes  = @()
+                }
+            }
+        }
+    }
+
+    $termosAlvo = @($alvo -split '\s+' | Where-Object { $_.Length -ge 3 })
+    $sugestoes = @(
+        $script:ProjetosCarregados |
+            ForEach-Object {
+                $projetoData = $_
+                $melhorPontuacao = 0
+                foreach ($chave in @(Obter-ChavesComparacaoProjeto -ProjetoData $projetoData)) {
+                    $pontuacao = 0
+                    foreach ($termo in $termosAlvo) {
+                        if ($chave.Contains($termo)) {
+                            $pontuacao++
+                        }
+                    }
+                    if ($pontuacao -gt $melhorPontuacao) {
+                        $melhorPontuacao = $pontuacao
+                    }
+                }
+
+                if ($melhorPontuacao -gt 0) {
+                    [PSCustomObject]@{
+                        Projeto   = $projetoData
+                        Pontuacao = $melhorPontuacao
+                    }
+                }
+            } |
+            Sort-Object Pontuacao -Descending |
+            Select-Object -First 3
+    )
+
+    return [PSCustomObject]@{
+        Encontrado = $false
+        Projeto    = $null
+        Motivo     = "Nao encontrado"
+        Sugestoes  = @($sugestoes | ForEach-Object { $_.Projeto.ProjetoNome })
+    }
+}
+
+function Obter-SufixoPerfilNomeAcesso {
+    param([string]$NomeAcesso)
+
+    if ([string]::IsNullOrWhiteSpace($NomeAcesso)) {
+        return ""
+    }
+
+    $nome = $NomeAcesso.Trim()
+    $indice = $nome.LastIndexOf('-')
+    if ($indice -ge 0 -and $indice -lt ($nome.Length - 1)) {
+        return Normalizar-TextoComparacaoProjeto ($nome.Substring($indice + 1))
+    }
+
+    return Normalizar-TextoComparacaoProjeto $nome
+}
+
+function Mostrar-ModalSelecaoPerfisProjeto {
+    $dialog = New-Object System.Windows.Forms.Form
+    $dialog.Text = "Selecionar perfis"
+    $dialog.Size = New-Object System.Drawing.Size(430,460)
+    $dialog.StartPosition = "CenterParent"
+    $dialog.FormBorderStyle = [System.Windows.Forms.FormBorderStyle]::FixedDialog
+    $dialog.MaximizeBox = $false
+    $dialog.MinimizeBox = $false
+    $dialog.ShowInTaskbar = $false
+
+    $labelInfo = New-Object System.Windows.Forms.Label
+    $labelInfo.Text = "Selecione os perfis que devem ser marcados nos projetos encontrados:"
+    $labelInfo.Location = New-Object System.Drawing.Point(15,18)
+    $labelInfo.Size = New-Object System.Drawing.Size(380,40)
+    $dialog.Controls.Add($labelInfo)
+
+    $checkedList = New-Object System.Windows.Forms.CheckedListBox
+    $checkedList.Location = New-Object System.Drawing.Point(18,65)
+    $checkedList.Size = New-Object System.Drawing.Size(375,285)
+    $checkedList.CheckOnClick = $true
+    $checkedList.Font = $fontePadrao
+    foreach ($perfil in @($script:PerfisPadraoProjeto)) {
+        [void]$checkedList.Items.Add($perfil.Rotulo)
+    }
+    $dialog.Controls.Add($checkedList)
+
+    $btnOk = New-Object System.Windows.Forms.Button
+    $btnOk.Text = "Aplicar"
+    $btnOk.Location = New-Object System.Drawing.Point(190,370)
+    $btnOk.Size = New-Object System.Drawing.Size(95,30)
+    $btnOk.DialogResult = [System.Windows.Forms.DialogResult]::OK
+    $dialog.Controls.Add($btnOk)
+
+    $btnCancelar = New-Object System.Windows.Forms.Button
+    $btnCancelar.Text = "Cancelar"
+    $btnCancelar.Location = New-Object System.Drawing.Point(298,370)
+    $btnCancelar.Size = New-Object System.Drawing.Size(95,30)
+    $btnCancelar.DialogResult = [System.Windows.Forms.DialogResult]::Cancel
+    $dialog.Controls.Add($btnCancelar)
+
+    $dialog.AcceptButton = $btnOk
+    $dialog.CancelButton = $btnCancelar
+
+    if ($dialog.ShowDialog($form) -ne [System.Windows.Forms.DialogResult]::OK) {
+        return @()
+    }
+
+    $selecionados = @()
+    foreach ($item in $checkedList.CheckedItems) {
+        $perfil = @($script:PerfisPadraoProjeto | Where-Object { $_.Rotulo -eq [string]$item } | Select-Object -First 1)
+        if ($perfil.Count -gt 0) {
+            $selecionados += $perfil[0]
+        }
+    }
+
+    return @($selecionados)
+}
+
+function Limpar-MarcacoesArvoreProjetos {
+    if (-not $script:TreeProjetos) {
+        return
+    }
+
+    foreach ($projetoNode in $script:TreeProjetos.Nodes) {
+        $projetoNode.Checked = $false
+        foreach ($categoriaNode in $projetoNode.Nodes) {
+            $categoriaNode.Checked = $false
+            foreach ($acessoNode in $categoriaNode.Nodes) {
+                $acessoNode.Checked = $false
+            }
+        }
+    }
+}
+
+function Aplicar-PerfisEmProjetosImportados {
+    param(
+        [string[]]$ProjetosPlanilha,
+        [array]$Perfis
+    )
+
+    if (-not $script:ConcessaoSelecionada -or -not $script:ProjetosCarregados -or $script:ProjetosCarregados.Count -eq 0) {
+        throw "Selecione e carregue uma concessao antes de importar a lista de projetos."
+    }
+
+    if (-not $ProjetosPlanilha -or $ProjetosPlanilha.Count -eq 0) {
+        throw "Nenhum projeto foi informado na planilha."
+    }
+
+    if (-not $Perfis -or $Perfis.Count -eq 0) {
+        throw "Nenhum perfil foi selecionado."
+    }
+
+    Limpar-CamposFiltroProjetos
+    Renderizar-ArvoreProjetos -ProjetosData $script:ProjetosCarregados -Filtro ""
+
+    $script:AtualizandoCheckTree = $true
+    $encontrados = New-Object System.Collections.Generic.List[object]
+    $naoEncontrados = New-Object System.Collections.Generic.List[object]
+    $perfisNaoEncontrados = New-Object System.Collections.Generic.List[object]
+    $totalAcessosMarcados = 0
+
+    try {
+        Limpar-MarcacoesArvoreProjetos
+
+        $mapaProjetosImportados = @{}
+        foreach ($nomeProjeto in @($ProjetosPlanilha)) {
+            $resultado = Localizar-ProjetoCarregadoPorNome -NomeProjetoPlanilha $nomeProjeto
+            if (-not $resultado.Encontrado) {
+                $naoEncontrados.Add([PSCustomObject]@{
+                    ProjetoPlanilha = $nomeProjeto
+                    Sugestoes       = @($resultado.Sugestoes)
+                })
+                continue
+            }
+
+            $chaveProjeto = Obter-ChaveProjetoSelecao -ConcessaoNome $resultado.Projeto.ConcessaoNome -ProjetoNome $resultado.Projeto.ProjetoNome
+            if (-not $mapaProjetosImportados.ContainsKey($chaveProjeto)) {
+                $mapaProjetosImportados[$chaveProjeto] = $resultado.Projeto
+                $encontrados.Add([PSCustomObject]@{
+                    ProjetoPlanilha = $nomeProjeto
+                    ProjetoNome     = $resultado.Projeto.ProjetoNome
+                    Motivo          = $resultado.Motivo
+                })
+            }
+        }
+
+        foreach ($projetoNode in $script:TreeProjetos.Nodes) {
+            $tagProjeto = $projetoNode.Tag
+            if ($null -eq $tagProjeto -or $tagProjeto.NodeType -ne 'Project') {
+                continue
+            }
+
+            $chaveProjetoNode = Obter-ChaveProjetoSelecao -ConcessaoNome $tagProjeto.ConcessaoNome -ProjetoNome $tagProjeto.ProjetoNome
+            if (-not $mapaProjetosImportados.ContainsKey($chaveProjetoNode)) {
+                continue
+            }
+
+            foreach ($perfil in @($Perfis)) {
+                $sufixoNormalizado = Normalizar-TextoComparacaoProjeto $perfil.Sufixo
+                $matchesPerfil = New-Object System.Collections.Generic.List[System.Windows.Forms.TreeNode]
+
+                foreach ($categoriaNode in $projetoNode.Nodes) {
+                    foreach ($acessoNode in $categoriaNode.Nodes) {
+                        $tagAcesso = $acessoNode.Tag
+                        if ($null -eq $tagAcesso -or $tagAcesso.NodeType -ne 'Access') {
+                            continue
+                        }
+
+                        if ((Normalizar-Texto $tagAcesso.Tipo) -ne "group") {
+                            continue
+                        }
+
+                        $perfilAcessoNormalizado = Obter-SufixoPerfilNomeAcesso -NomeAcesso $tagAcesso.Nome
+                        if ($perfilAcessoNormalizado -eq $sufixoNormalizado) {
+                            $matchesPerfil.Add($acessoNode)
+                        }
+                    }
+                }
+
+                if ($matchesPerfil.Count -eq 0) {
+                    $perfisNaoEncontrados.Add([PSCustomObject]@{
+                        Projeto = $tagProjeto.ProjetoNome
+                        Perfil  = $perfil.Rotulo
+                    })
+                    continue
+                }
+
+                foreach ($nodePerfil in $matchesPerfil) {
+                    if (-not $nodePerfil.Checked) {
+                        $nodePerfil.Checked = $true
+                        $totalAcessosMarcados++
+                    }
+                }
+            }
+
+            Atualizar-CheckVisualProjeto -ProjetoNode $projetoNode
+        }
+    }
+    finally {
+        $script:AtualizandoCheckTree = $false
+    }
+
+    Atualizar-EstadoInterface
+
+    return [PSCustomObject]@{
+        ProjetosPlanilha       = @($ProjetosPlanilha).Count
+        ProjetosEncontrados    = @($encontrados.ToArray())
+        ProjetosNaoEncontrados = @($naoEncontrados.ToArray())
+        PerfisSelecionados     = @($Perfis)
+        PerfisNaoEncontrados   = @($perfisNaoEncontrados.ToArray())
+        AcessosMarcados        = $totalAcessosMarcados
+    }
+}
+
+function Mostrar-ResumoImportacaoProjetosPerfis {
+    param([object]$Resumo)
+
+    $mensagem = "Importacao de projetos concluida.`r`n`r`n"
+    $mensagem += "Projetos na planilha: $($Resumo.ProjetosPlanilha)`r`n"
+    $mensagem += "Projetos encontrados: $(@($Resumo.ProjetosEncontrados).Count)`r`n"
+    $mensagem += "Projetos nao encontrados: $(@($Resumo.ProjetosNaoEncontrados).Count)`r`n"
+    $mensagem += "Perfis selecionados: $(@($Resumo.PerfisSelecionados).Count)`r`n"
+    $mensagem += "Acessos marcados na arvore: $($Resumo.AcessosMarcados)`r`n"
+    $mensagem += "Pendencias de perfil: $(@($Resumo.PerfisNaoEncontrados).Count)`r`n"
+
+    if (@($Resumo.ProjetosNaoEncontrados).Count -gt 0) {
+        $mensagem += "`r`nProjetos nao encontrados:"
+        foreach ($item in @($Resumo.ProjetosNaoEncontrados | Select-Object -First 8)) {
+            $mensagem += "`r`n- $($item.ProjetoPlanilha)"
+            if (@($item.Sugestoes).Count -gt 0) {
+                $mensagem += " | sugestao: $(@($item.Sugestoes)[0])"
+            }
+        }
+        if (@($Resumo.ProjetosNaoEncontrados).Count -gt 8) {
+            $mensagem += "`r`n- ..."
+        }
+    }
+
+    if (@($Resumo.PerfisNaoEncontrados).Count -gt 0) {
+        $mensagem += "`r`n`r`nPerfis nao encontrados:"
+        foreach ($item in @($Resumo.PerfisNaoEncontrados | Select-Object -First 8)) {
+            $mensagem += "`r`n- $($item.Projeto) | $($item.Perfil)"
+        }
+        if (@($Resumo.PerfisNaoEncontrados).Count -gt 8) {
+            $mensagem += "`r`n- ..."
+        }
+    }
+
+    Show-UiInfo $mensagem
+}
+
 function Obter-ChaveUsuario {
     param([object]$Usuario)
 
@@ -2182,6 +2553,90 @@ function Importar-EmailsUsuarios {
     return $emails.ToArray()
 }
 
+function Selecionar-PlanilhaProjetos {
+    $dialog = New-Object System.Windows.Forms.OpenFileDialog
+    $dialog.InitialDirectory = [Environment]::GetFolderPath("Desktop")
+    $dialog.Filter = "Planilhas Excel (*.xlsx;*.xlsm)|*.xlsx;*.xlsm|Arquivos CSV (*.csv)|*.csv|Todos os arquivos (*.*)|*.*"
+    $dialog.Title = "Selecione a planilha com a lista de projetos"
+
+    if ($dialog.ShowDialog() -eq [System.Windows.Forms.DialogResult]::OK) {
+        return $dialog.FileName
+    }
+
+    throw "Nenhuma planilha de projetos foi selecionada."
+}
+
+function Importar-NomesProjetos {
+    param([string]$CaminhoArquivo)
+
+    if (-not (Test-Path $CaminhoArquivo)) {
+        throw "Arquivo nao encontrado: $CaminhoArquivo"
+    }
+
+    $ext = [System.IO.Path]::GetExtension($CaminhoArquivo).ToLowerInvariant()
+    if ($ext -in @(".xlsx", ".xlsm")) {
+        Import-Module ImportExcel -ErrorAction Stop
+        $dados = @(Import-Excel -Path $CaminhoArquivo)
+    }
+    elseif ($ext -eq ".csv") {
+        $primeiraLinha = Get-Content -Path $CaminhoArquivo -TotalCount 1
+        $qtdPontoVirgula = ([regex]::Matches($primeiraLinha, ';')).Count
+        $qtdVirgula = ([regex]::Matches($primeiraLinha, ',')).Count
+        $delimitador = ','
+        if ($qtdPontoVirgula -gt $qtdVirgula) {
+            $delimitador = ';'
+        }
+
+        $dados = @(Import-Csv -Path $CaminhoArquivo -Delimiter $delimitador)
+    }
+    else {
+        throw "Extensao nao suportada: $ext. Use .xlsx, .xlsm ou .csv."
+    }
+
+    if (-not $dados -or $dados.Count -eq 0) {
+        throw "A planilha selecionada nao possui projetos."
+    }
+
+    $projetos = New-Object System.Collections.Generic.List[string]
+    $projetosUnicos = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
+    $duplicados = New-Object System.Collections.Generic.List[string]
+    $linhasSemProjeto = New-Object System.Collections.Generic.List[int]
+    $numeroLinha = 2
+
+    foreach ($linha in $dados) {
+        $valor = Obter-ValorCampoLinha -Linha $linha -Nomes @("Projeto", "Projetos", "Nome Projeto", "Nome do Projeto", "Project", "ProjectName")
+        if ([string]::IsNullOrWhiteSpace($valor)) {
+            $linhasSemProjeto.Add($numeroLinha)
+            $numeroLinha++
+            continue
+        }
+
+        $nomeProjeto = $valor.Trim()
+        if ($projetosUnicos.Add($nomeProjeto)) {
+            $projetos.Add($nomeProjeto)
+        }
+        else {
+            $duplicados.Add($nomeProjeto)
+        }
+
+        $numeroLinha++
+    }
+
+    if ($projetos.Count -eq 0) {
+        throw "Nenhum projeto foi encontrado. Use uma coluna chamada Projeto."
+    }
+
+    $script:ResumoImportacaoProjetos = [PSCustomObject]@{
+        LinhasPlanilha       = $dados.Count
+        ProjetosUnicos       = $projetos.Count
+        DuplicadosIgnorados  = $duplicados.Count
+        ProjetosDuplicados   = @($duplicados | Select-Object -Unique)
+        LinhasSemProjeto     = @($linhasSemProjeto.ToArray())
+    }
+
+    return $projetos.ToArray()
+}
+
 function Confirmar-E-AdicionarUsuariosPorEmail {
     param(
         [string[]]$Emails,
@@ -2245,6 +2700,7 @@ function Atualizar-EstadoInterface {
     if ($script:ListaUsuariosSelecionados) { $script:ListaUsuariosSelecionados.Enabled = $temLogin -and $script:ModoLoteUsuarios }
 
     $script:BtnLocalizarConcessao.Enabled = $temUsuario
+    if ($script:BtnImportarProjetosPerfis) { $script:BtnImportarProjetosPerfis.Enabled = $temConcessao -and $temArvore }
     $script:BtnConfirmarSelecao.Enabled = $temConcessao -and $temArvore
     $script:BtnResumo.Enabled = $temSelecoes
     $script:BtnExecutar.Enabled = $temSelecoes
@@ -2611,6 +3067,13 @@ $script:BtnLocalizarConcessao.Size = New-Object System.Drawing.Size(150,32)
 $script:BtnLocalizarConcessao.Enabled = $false
 $groupSelecao.Controls.Add($script:BtnLocalizarConcessao)
 
+$script:BtnImportarProjetosPerfis = New-Object System.Windows.Forms.Button
+$script:BtnImportarProjetosPerfis.Text = "Importar projetos"
+$script:BtnImportarProjetosPerfis.Location = New-Object System.Drawing.Point(970,28)
+$script:BtnImportarProjetosPerfis.Size = New-Object System.Drawing.Size(150,32)
+$script:BtnImportarProjetosPerfis.Enabled = $false
+$groupSelecao.Controls.Add($script:BtnImportarProjetosPerfis)
+
 $script:BtnConfirmarSelecao = New-Object System.Windows.Forms.Button
 $script:BtnConfirmarSelecao.Text = "Confirmar seleções"
 $script:BtnConfirmarSelecao.Location = New-Object System.Drawing.Point(970,288)
@@ -2789,6 +3252,10 @@ function Ajustar-LayoutCampos {
         $script:BtnSelecionarExibidos.Left = $groupSelecao.ClientSize.Width - $script:BtnSelecionarExibidos.Width - $margemDireita
     }
 
+    if ($script:BtnImportarProjetosPerfis) {
+        $script:BtnImportarProjetosPerfis.Left = $groupSelecao.ClientSize.Width - $script:BtnImportarProjetosPerfis.Width - $margemDireita
+    }
+
     if ($script:BtnConfirmarSelecao) {
         $script:BtnConfirmarSelecao.Left = $groupSelecao.ClientSize.Width - $script:BtnConfirmarSelecao.Width - $margemDireita
         $script:BtnConfirmarSelecao.Top = $groupSelecao.ClientSize.Height - $script:BtnConfirmarSelecao.Height - 10
@@ -2818,6 +3285,7 @@ $script:BtnRemoverUsuarioSelecionado.Anchor = [System.Windows.Forms.AnchorStyles
 $script:BtnImportarUsuarios.Anchor = [System.Windows.Forms.AnchorStyles]::Top -bor [System.Windows.Forms.AnchorStyles]::Right
 
 $script:BtnLocalizarConcessao.Anchor = [System.Windows.Forms.AnchorStyles]::Top -bor [System.Windows.Forms.AnchorStyles]::Left
+$script:BtnImportarProjetosPerfis.Anchor = [System.Windows.Forms.AnchorStyles]::Top -bor [System.Windows.Forms.AnchorStyles]::Right
 $script:BtnConfirmarSelecao.Anchor = [System.Windows.Forms.AnchorStyles]::Right -bor [System.Windows.Forms.AnchorStyles]::Bottom
 $script:LabelConcessaoAtual.Anchor = [System.Windows.Forms.AnchorStyles]::Top -bor [System.Windows.Forms.AnchorStyles]::Left -bor [System.Windows.Forms.AnchorStyles]::Right
 $script:TextFiltroAcessos.Anchor = [System.Windows.Forms.AnchorStyles]::Top -bor [System.Windows.Forms.AnchorStyles]::Left -bor [System.Windows.Forms.AnchorStyles]::Right
@@ -2910,6 +3378,51 @@ $script:BtnSelecionarExibidos.Add_Click({
     }
     catch {
         Write-Log "Erro ao selecionar acessos exibidos. Detalhe: $($_.Exception.Message)" "ERROR"
+        Show-UiError $_.Exception.Message
+    }
+})
+
+$script:BtnImportarProjetosPerfis.Add_Click({
+    try {
+        if (-not $script:ConcessaoSelecionada -or -not $script:ProjetosCarregados -or $script:ProjetosCarregados.Count -eq 0) {
+            throw "Selecione uma concessao antes de importar a lista de projetos."
+        }
+
+        $caminhoPlanilha = Selecionar-PlanilhaProjetos
+        Write-UiLog "Importando lista de projetos: $caminhoPlanilha"
+
+        $projetosPlanilha = @(Importar-NomesProjetos -CaminhoArquivo $caminhoPlanilha)
+        $resumoImportacao = $script:ResumoImportacaoProjetos
+        if ($resumoImportacao) {
+            Write-UiLog "Linhas na planilha de projetos: $($resumoImportacao.LinhasPlanilha)"
+            Write-UiLog "Projetos unicos importados: $($resumoImportacao.ProjetosUnicos) | Duplicados ignorados: $($resumoImportacao.DuplicadosIgnorados)"
+            if (@($resumoImportacao.LinhasSemProjeto).Count -gt 0) {
+                Write-UiLog "Linhas sem projeto ignoradas: $(@($resumoImportacao.LinhasSemProjeto) -join ', ')"
+            }
+        }
+
+        $perfisSelecionados = @(Mostrar-ModalSelecaoPerfisProjeto)
+        if ($perfisSelecionados.Count -eq 0) {
+            Write-UiLog "Importacao de projetos cancelada: nenhum perfil selecionado."
+            return
+        }
+
+        Write-UiLog "Perfis selecionados: $(@($perfisSelecionados | ForEach-Object { $_.Sufixo }) -join ', ')"
+        $resumo = Aplicar-PerfisEmProjetosImportados -ProjetosPlanilha $projetosPlanilha -Perfis $perfisSelecionados
+
+        Write-UiLog "Projetos encontrados: $(@($resumo.ProjetosEncontrados).Count) de $($resumo.ProjetosPlanilha)"
+        Write-UiLog "Acessos marcados automaticamente: $($resumo.AcessosMarcados)"
+        if (@($resumo.ProjetosNaoEncontrados).Count -gt 0) {
+            Write-UiLog "Projetos nao encontrados: $(@($resumo.ProjetosNaoEncontrados).Count)"
+        }
+        if (@($resumo.PerfisNaoEncontrados).Count -gt 0) {
+            Write-UiLog "Pendencias de perfil: $(@($resumo.PerfisNaoEncontrados).Count)"
+        }
+
+        Mostrar-ResumoImportacaoProjetosPerfis -Resumo $resumo
+    }
+    catch {
+        Write-Log "Erro ao importar projetos/perfis. Detalhe: $($_.Exception.Message)" "ERROR"
         Show-UiError $_.Exception.Message
     }
 })

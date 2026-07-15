@@ -1,0 +1,41 @@
+﻿timestamp,nomeProjeto,projectId,email,acao_solicitada,acao_planejada,situacao_usuario,status,http_status
+2026-07-02T17:15:41,"03.03 - Free Flow P10 - Via Expressa Leste km 33,990 - SP-280",e24a37f3-c2e6-418a-995e-a7a35b86d9ef,ra***@cathenaengenharia.com.br,incluir,atualizar_participante,participante,atualizado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P10 - Via Expressa Leste km 33,990 - SP-280",e24a37f3-c2e6-418a-995e-a7a35b86d9ef,ma***@cathena.com.br,incluir,atualizar_participante,participante,atualizado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P10 - Via Expressa Oeste km 33,990 - SP-280",b47658c0-d4ad-4051-aa37-633b2755696c,ra***@cathenaengenharia.com.br,incluir,adicionar_existente,candidato,erro,
+2026-07-02T17:15:41,"03.03 - Free Flow P10 - Via Expressa Oeste km 33,990 - SP-280",b47658c0-d4ad-4051-aa37-633b2755696c,ma***@cathena.com.br,incluir,adicionar_existente,candidato,erro,
+2026-07-02T17:15:41,"03.03 - Free Flow P11 - Via Expressa Norte-Sul km 34,600 - SP-280",bae44540-ff29-41b0-adcc-ddc6a1d69eda,ra***@cathenaengenharia.com.br,incluir,adicionar_existente,candidato,adicionado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P11 - Via Expressa Norte-Sul km 34,600 - SP-280",bae44540-ff29-41b0-adcc-ddc6a1d69eda,ma***@cathena.com.br,incluir,adicionar_existente,candidato,adicionado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P12 - Via Expressa Norte-Sul km 40,655 - SP-280",cb60e4e7-7084-4854-9b02-ff1e01f20d32,ra***@cathenaengenharia.com.br,incluir,adicionar_existente,candidato,adicionado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P12 - Via Expressa Norte-Sul km 40,655 - SP-280",cb60e4e7-7084-4854-9b02-ff1e01f20d32,ma***@cathena.com.br,incluir,adicionar_existente,candidato,adicionado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P4 - Via Expressa Leste km 24,900 - SP-270",2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1,ra***@cathenaengenharia.com.br,incluir,atualizar_participante,participante,atualizado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P4 - Via Expressa Leste km 24,900 - SP-270",2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1,ma***@cathena.com.br,incluir,atualizar_participante,participante,atualizado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P6 - Marginal Leste km 13,660 - SP-280",0aa4956e-d972-4aca-bf20-a537fa4bad96,ra***@cathenaengenharia.com.br,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-07-02T17:15:41,"03.03 - Free Flow P6 - Marginal Leste km 13,660 - SP-280",0aa4956e-d972-4aca-bf20-a537fa4bad96,ma***@cathena.com.br,incluir,atualizar_participante,participante,atualizado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P6 - Marginal Oeste km 14,420 - SP-280",e6e6bd37-2dc3-4781-9eda-a697cde5268d,ra***@cathenaengenharia.com.br,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-07-02T17:15:41,"03.03 - Free Flow P6 - Marginal Oeste km 14,420 - SP-280",e6e6bd37-2dc3-4781-9eda-a697cde5268d,ma***@cathena.com.br,incluir,atualizar_participante,participante,atualizado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P6 - Via Expressa Leste km 13,680 - SP-280",10cbbcde-0091-44d7-860b-876904640209,ra***@cathenaengenharia.com.br,incluir,atualizar_participante,participante,sem_alteracao,
+2026-07-02T17:15:41,"03.03 - Free Flow P6 - Via Expressa Leste km 13,680 - SP-280",10cbbcde-0091-44d7-860b-876904640209,ma***@cathena.com.br,incluir,atualizar_participante,participante,atualizado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P6 - Via Expressa Leste km 24,900 - SP-275",34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0,ra***@cathenaengenharia.com.br,incluir,atualizar_participante,participante,atualizado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P6 - Via Expressa Leste km 24,900 - SP-275",34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0,ma***@cathena.com.br,incluir,atualizar_participante,participante,atualizado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P6 - Via Expressa Oeste km 14,390 - SP-280",843cfe4c-6dcf-4363-bd72-8ea689505806,ra***@cathenaengenharia.com.br,incluir,atualizar_participante,participante,sem_alteracao,
+2026-07-02T17:15:41,"03.03 - Free Flow P6 - Via Expressa Oeste km 14,390 - SP-280",843cfe4c-6dcf-4363-bd72-8ea689505806,ma***@cathena.com.br,incluir,atualizar_participante,participante,atualizado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P7 - Marginal Leste km 20,970 - SP-280",30cde4d8-73fe-413a-947d-cd3116a0cb2b,ra***@cathenaengenharia.com.br,incluir,atualizar_participante,participante,atualizado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P7 - Marginal Leste km 20,970 - SP-280",30cde4d8-73fe-413a-947d-cd3116a0cb2b,ma***@cathena.com.br,incluir,atualizar_participante,participante,sem_alteracao,
+2026-07-02T17:15:41,"03.03 - Free Flow P7 - Marginal Oeste km 18,050 - SP-280",feb590aa-7b39-49f4-acc8-3002d4dc8003,ra***@cathenaengenharia.com.br,incluir,atualizar_participante,participante,atualizado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P7 - Marginal Oeste km 18,050 - SP-280",feb590aa-7b39-49f4-acc8-3002d4dc8003,ma***@cathena.com.br,incluir,atualizar_participante,participante,atualizado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P7 - Via Expressa Leste km 20,745 - SP-280",17335eae-f523-4c5e-804a-c5ec8cc017d1,ra***@cathenaengenharia.com.br,incluir,atualizar_participante,participante,atualizado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P7 - Via Expressa Leste km 20,745 - SP-280",17335eae-f523-4c5e-804a-c5ec8cc017d1,ma***@cathena.com.br,incluir,atualizar_participante,participante,atualizado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P7 - Via Expressa Oeste km 18,140 - SP-280",b82a2e67-91c6-42b6-86ce-90f5b84e9b32,ra***@cathenaengenharia.com.br,incluir,atualizar_participante,participante,atualizado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P7 - Via Expressa Oeste km 18,140 - SP-280",b82a2e67-91c6-42b6-86ce-90f5b84e9b32,ma***@cathena.com.br,incluir,atualizar_participante,participante,atualizado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P8 - Marginal Leste km 24,040 - SP-280",25739821-e400-43d6-90cf-f4ca361422e5,ra***@cathenaengenharia.com.br,incluir,atualizar_participante,participante,atualizado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P8 - Marginal Leste km 24,040 - SP-280",25739821-e400-43d6-90cf-f4ca361422e5,ma***@cathena.com.br,incluir,atualizar_participante,participante,atualizado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P8 - Marginal Oeste km 23,980 - SP-280",4cbacd61-c55f-4fa0-ac35-6b07631f91c7,ra***@cathenaengenharia.com.br,incluir,atualizar_participante,participante,atualizado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P8 - Marginal Oeste km 23,980 - SP-280",4cbacd61-c55f-4fa0-ac35-6b07631f91c7,ma***@cathena.com.br,incluir,atualizar_participante,participante,atualizado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P8 - Via Expressa Leste km 24,010 - SP-280",6841f1b3-7a77-40a2-9a21-afbce6ce277a,ra***@cathenaengenharia.com.br,incluir,atualizar_participante,participante,atualizado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P8 - Via Expressa Leste km 24,010 - SP-280",6841f1b3-7a77-40a2-9a21-afbce6ce277a,ma***@cathena.com.br,incluir,atualizar_participante,participante,atualizado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P8 - Via Expressa Oeste km 24,010 - SP-280",27f2366e-7ec3-4a08-a22f-ad91ce49d6b0,ra***@cathenaengenharia.com.br,incluir,atualizar_participante,participante,atualizado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P8 - Via Expressa Oeste km 24,010 - SP-280",27f2366e-7ec3-4a08-a22f-ad91ce49d6b0,ma***@cathena.com.br,incluir,atualizar_participante,participante,atualizado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P9 - Via Expressa Leste km 29,210 - SP-280",2144adc7-166a-49c1-8b26-db74a8ff27e5,ra***@cathenaengenharia.com.br,incluir,atualizar_participante,participante,atualizado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P9 - Via Expressa Leste km 29,210 - SP-280",2144adc7-166a-49c1-8b26-db74a8ff27e5,ma***@cathena.com.br,incluir,atualizar_participante,participante,atualizado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P9 - Via Expressa Oeste km 29,340 - SP-280",624cd394-bd20-483f-a325-27ea3518eefe,ra***@cathenaengenharia.com.br,incluir,atualizar_participante,participante,atualizado,200
+2026-07-02T17:15:41,"03.03 - Free Flow P9 - Via Expressa Oeste km 29,340 - SP-280",624cd394-bd20-483f-a325-27ea3518eefe,ma***@cathena.com.br,incluir,atualizar_participante,participante,atualizado,200

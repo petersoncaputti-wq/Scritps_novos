@@ -1,0 +1,4378 @@
+{
+  "timestamp": "2026-07-02T17:15:41",
+  "operacoes": [
+    {
+      "email": "ra***@cathenaengenharia.com.br",
+      "nomeProjeto": "03.03 - Free Flow P10 - Via Expressa Leste km 33,990 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P10 - Via Expressa Leste km 33,990 - SP-280",
+        "id": "423077",
+        "guid": "d8be8575-b4f9-4dae-8939-b26bec5addfd",
+        "connectedProjectId": "e24a37f3-c2e6-418a-995e-a7a35b86d9ef",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e24a37f3-c2e6-418a-995e-a7a35b86d9ef/ProjectSettings/e24a37f3-c2e6-418a-995e-a7a35b86d9ef/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "e24a37f3-c2e6-418a-995e-a7a35b86d9ef",
+      "projectId": "e24a37f3-c2e6-418a-995e-a7a35b86d9ef",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Rafael Louzada",
+        "email": "ra***@cathenaengenharia.com.br",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "53f9525d-997e-474b-8005-0644331887a8",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ma***@cathena.com.br",
+      "nomeProjeto": "03.03 - Free Flow P10 - Via Expressa Leste km 33,990 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P10 - Via Expressa Leste km 33,990 - SP-280",
+        "id": "423077",
+        "guid": "d8be8575-b4f9-4dae-8939-b26bec5addfd",
+        "connectedProjectId": "e24a37f3-c2e6-418a-995e-a7a35b86d9ef",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e24a37f3-c2e6-418a-995e-a7a35b86d9ef/ProjectSettings/e24a37f3-c2e6-418a-995e-a7a35b86d9ef/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "e24a37f3-c2e6-418a-995e-a7a35b86d9ef",
+      "projectId": "e24a37f3-c2e6-418a-995e-a7a35b86d9ef",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Maria Marques",
+        "email": "ma***@cathena.com.br",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "a914c0b9-f45a-473e-a295-d07d702ac80a",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ra***@cathenaengenharia.com.br",
+      "nomeProjeto": "03.03 - Free Flow P10 - Via Expressa Oeste km 33,990 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P10 - Via Expressa Oeste km 33,990 - SP-280",
+        "id": "423671",
+        "guid": "d9403054-4001-4d8a-829f-5855d6c47b36",
+        "connectedProjectId": "b47658c0-d4ad-4051-aa37-633b2755696c",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/b47658c0-d4ad-4051-aa37-633b2755696c/ProjectSettings/b47658c0-d4ad-4051-aa37-633b2755696c/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "b47658c0-d4ad-4051-aa37-633b2755696c",
+      "projectId": "b47658c0-d4ad-4051-aa37-633b2755696c",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_existente",
+      "descricaoAcao": "ADICIONAR participante existente no ProjectWise",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafael Louzada",
+        "email": "ra***@cathenaengenharia.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [
+          "2*9914",
+          "2*9915"
+        ],
+        "id": "7b4337a3-a59e-4de0-b630-2ead3beb8e7b",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ma***@cathena.com.br",
+      "nomeProjeto": "03.03 - Free Flow P10 - Via Expressa Oeste km 33,990 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P10 - Via Expressa Oeste km 33,990 - SP-280",
+        "id": "423671",
+        "guid": "d9403054-4001-4d8a-829f-5855d6c47b36",
+        "connectedProjectId": "b47658c0-d4ad-4051-aa37-633b2755696c",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/b47658c0-d4ad-4051-aa37-633b2755696c/ProjectSettings/b47658c0-d4ad-4051-aa37-633b2755696c/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "b47658c0-d4ad-4051-aa37-633b2755696c",
+      "projectId": "b47658c0-d4ad-4051-aa37-633b2755696c",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_existente",
+      "descricaoAcao": "ADICIONAR participante existente no ProjectWise",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Maria Marques",
+        "email": "ma***@cathena.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [
+          "2*9914",
+          "2*9915"
+        ],
+        "id": "378dbcbf-c645-4533-938e-d72f6e0962a7",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ra***@cathenaengenharia.com.br",
+      "nomeProjeto": "03.03 - Free Flow P11 - Via Expressa Norte-Sul km 34,600 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P11 - Via Expressa Norte-Sul km 34,600 - SP-280",
+        "id": "423100",
+        "guid": "d5abbce3-3ec1-4ae3-86ef-774856790fff",
+        "connectedProjectId": "bae44540-ff29-41b0-adcc-ddc6a1d69eda",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/bae44540-ff29-41b0-adcc-ddc6a1d69eda/ProjectSettings/bae44540-ff29-41b0-adcc-ddc6a1d69eda/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "bae44540-ff29-41b0-adcc-ddc6a1d69eda",
+      "projectId": "bae44540-ff29-41b0-adcc-ddc6a1d69eda",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_existente",
+      "descricaoAcao": "ADICIONAR participante existente no ProjectWise",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafael Louzada",
+        "email": "ra***@cathenaengenharia.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [
+          "2*9714",
+          "2*9715"
+        ],
+        "id": "c19bdad3-7189-4185-b92e-cfdc1b1a98b7",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ma***@cathena.com.br",
+      "nomeProjeto": "03.03 - Free Flow P11 - Via Expressa Norte-Sul km 34,600 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P11 - Via Expressa Norte-Sul km 34,600 - SP-280",
+        "id": "423100",
+        "guid": "d5abbce3-3ec1-4ae3-86ef-774856790fff",
+        "connectedProjectId": "bae44540-ff29-41b0-adcc-ddc6a1d69eda",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/bae44540-ff29-41b0-adcc-ddc6a1d69eda/ProjectSettings/bae44540-ff29-41b0-adcc-ddc6a1d69eda/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "bae44540-ff29-41b0-adcc-ddc6a1d69eda",
+      "projectId": "bae44540-ff29-41b0-adcc-ddc6a1d69eda",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_existente",
+      "descricaoAcao": "ADICIONAR participante existente no ProjectWise",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Maria Marques",
+        "email": "ma***@cathena.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [
+          "2*9714",
+          "2*9715"
+        ],
+        "id": "7932b052-12bd-46c4-bed1-d79c36da10ca",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ra***@cathenaengenharia.com.br",
+      "nomeProjeto": "03.03 - Free Flow P12 - Via Expressa Norte-Sul km 40,655 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P12 - Via Expressa Norte-Sul km 40,655 - SP-280",
+        "id": "423123",
+        "guid": "b2b8c3fb-0b69-41a6-acd5-1a052e72575e",
+        "connectedProjectId": "cb60e4e7-7084-4854-9b02-ff1e01f20d32",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/cb60e4e7-7084-4854-9b02-ff1e01f20d32/ProjectSettings/cb60e4e7-7084-4854-9b02-ff1e01f20d32/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "cb60e4e7-7084-4854-9b02-ff1e01f20d32",
+      "projectId": "cb60e4e7-7084-4854-9b02-ff1e01f20d32",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_existente",
+      "descricaoAcao": "ADICIONAR participante existente no ProjectWise",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafael Louzada",
+        "email": "ra***@cathenaengenharia.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [
+          "2*9724",
+          "2*9725"
+        ],
+        "id": "b7bf5388-0dd4-4f41-80bc-2b6e2d0d3aaa",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ma***@cathena.com.br",
+      "nomeProjeto": "03.03 - Free Flow P12 - Via Expressa Norte-Sul km 40,655 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P12 - Via Expressa Norte-Sul km 40,655 - SP-280",
+        "id": "423123",
+        "guid": "b2b8c3fb-0b69-41a6-acd5-1a052e72575e",
+        "connectedProjectId": "cb60e4e7-7084-4854-9b02-ff1e01f20d32",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/cb60e4e7-7084-4854-9b02-ff1e01f20d32/ProjectSettings/cb60e4e7-7084-4854-9b02-ff1e01f20d32/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "cb60e4e7-7084-4854-9b02-ff1e01f20d32",
+      "projectId": "cb60e4e7-7084-4854-9b02-ff1e01f20d32",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_existente",
+      "descricaoAcao": "ADICIONAR participante existente no ProjectWise",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Maria Marques",
+        "email": "ma***@cathena.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [
+          "2*9724",
+          "2*9725"
+        ],
+        "id": "37ab2892-bed9-4106-908b-6b9c302b0272",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ra***@cathenaengenharia.com.br",
+      "nomeProjeto": "03.03 - Free Flow P4 - Via Expressa Leste km 24,900 - SP-270",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P4 - Via Expressa Leste km 24,900 - SP-270",
+        "id": "422962",
+        "guid": "c8c1ebfd-4b86-4230-97b9-96efa315e68f",
+        "connectedProjectId": "2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1/ProjectSettings/2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1",
+      "projectId": "2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Rafael Louzada",
+        "email": "ra***@cathenaengenharia.com.br",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "70e7cf78-0478-4d56-bcc8-1ab201c8b276",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ma***@cathena.com.br",
+      "nomeProjeto": "03.03 - Free Flow P4 - Via Expressa Leste km 24,900 - SP-270",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P4 - Via Expressa Leste km 24,900 - SP-270",
+        "id": "422962",
+        "guid": "c8c1ebfd-4b86-4230-97b9-96efa315e68f",
+        "connectedProjectId": "2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1/ProjectSettings/2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1",
+      "projectId": "2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Maria Marques",
+        "email": "ma***@cathena.com.br",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "aaa5dd50-34ca-4340-a57f-1a4b22e3fc2d",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ra***@cathenaengenharia.com.br",
+      "nomeProjeto": "03.03 - Free Flow P6 - Marginal Leste km 13,660 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P6 - Marginal Leste km 13,660 - SP-280",
+        "id": "423407",
+        "guid": "4dab4830-a16e-48fa-b137-0db010b99be1",
+        "connectedProjectId": "0aa4956e-d972-4aca-bf20-a537fa4bad96",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/0aa4956e-d972-4aca-bf20-a537fa4bad96/ProjectSettings/0aa4956e-d972-4aca-bf20-a537fa4bad96/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "0aa4956e-d972-4aca-bf20-a537fa4bad96",
+      "projectId": "0aa4956e-d972-4aca-bf20-a537fa4bad96",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ma***@cathena.com.br",
+      "nomeProjeto": "03.03 - Free Flow P6 - Marginal Leste km 13,660 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P6 - Marginal Leste km 13,660 - SP-280",
+        "id": "423407",
+        "guid": "4dab4830-a16e-48fa-b137-0db010b99be1",
+        "connectedProjectId": "0aa4956e-d972-4aca-bf20-a537fa4bad96",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/0aa4956e-d972-4aca-bf20-a537fa4bad96/ProjectSettings/0aa4956e-d972-4aca-bf20-a537fa4bad96/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "0aa4956e-d972-4aca-bf20-a537fa4bad96",
+      "projectId": "0aa4956e-d972-4aca-bf20-a537fa4bad96",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Maria Marques",
+        "email": "ma***@cathena.com.br",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "9e29a81e-6e50-4b61-9d66-6add08e0dfe2",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ra***@cathenaengenharia.com.br",
+      "nomeProjeto": "03.03 - Free Flow P6 - Marginal Oeste km 14,420 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P6 - Marginal Oeste km 14,420 - SP-280",
+        "id": "423340",
+        "guid": "629f5241-f9a2-487f-91b7-8d8225af0929",
+        "connectedProjectId": "e6e6bd37-2dc3-4781-9eda-a697cde5268d",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e6e6bd37-2dc3-4781-9eda-a697cde5268d/ProjectSettings/e6e6bd37-2dc3-4781-9eda-a697cde5268d/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "e6e6bd37-2dc3-4781-9eda-a697cde5268d",
+      "projectId": "e6e6bd37-2dc3-4781-9eda-a697cde5268d",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ma***@cathena.com.br",
+      "nomeProjeto": "03.03 - Free Flow P6 - Marginal Oeste km 14,420 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P6 - Marginal Oeste km 14,420 - SP-280",
+        "id": "423340",
+        "guid": "629f5241-f9a2-487f-91b7-8d8225af0929",
+        "connectedProjectId": "e6e6bd37-2dc3-4781-9eda-a697cde5268d",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e6e6bd37-2dc3-4781-9eda-a697cde5268d/ProjectSettings/e6e6bd37-2dc3-4781-9eda-a697cde5268d/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "e6e6bd37-2dc3-4781-9eda-a697cde5268d",
+      "projectId": "e6e6bd37-2dc3-4781-9eda-a697cde5268d",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Maria Marques",
+        "email": "ma***@cathena.com.br",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "c334581f-5170-42c2-97e6-2c64f580b0b2",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ra***@cathenaengenharia.com.br",
+      "nomeProjeto": "03.03 - Free Flow P6 - Via Expressa Leste km 13,680 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P6 - Via Expressa Leste km 13,680 - SP-280",
+        "id": "423374",
+        "guid": "3f690068-6d06-4dd3-b2e7-cf573ac53753",
+        "connectedProjectId": "10cbbcde-0091-44d7-860b-876904640209",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/10cbbcde-0091-44d7-860b-876904640209/ProjectSettings/10cbbcde-0091-44d7-860b-876904640209/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "10cbbcde-0091-44d7-860b-876904640209",
+      "projectId": "10cbbcde-0091-44d7-860b-876904640209",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Rafael Louzada",
+        "email": "ra***@cathenaengenharia.com.br",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "282c47a4-ca30-4695-affc-aedf99f12047",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ma***@cathena.com.br",
+      "nomeProjeto": "03.03 - Free Flow P6 - Via Expressa Leste km 13,680 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P6 - Via Expressa Leste km 13,680 - SP-280",
+        "id": "423374",
+        "guid": "3f690068-6d06-4dd3-b2e7-cf573ac53753",
+        "connectedProjectId": "10cbbcde-0091-44d7-860b-876904640209",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/10cbbcde-0091-44d7-860b-876904640209/ProjectSettings/10cbbcde-0091-44d7-860b-876904640209/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "10cbbcde-0091-44d7-860b-876904640209",
+      "projectId": "10cbbcde-0091-44d7-860b-876904640209",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Maria Marques",
+        "email": "ma***@cathena.com.br",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "bb229d2c-0e67-43b2-aff1-0471b832400c",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ra***@cathenaengenharia.com.br",
+      "nomeProjeto": "03.03 - Free Flow P6 - Via Expressa Leste km 24,900 - SP-275",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P6 - Via Expressa Leste km 24,900 - SP-275",
+        "id": "422985",
+        "guid": "8c297a42-36ac-481b-8610-93b0fcaed5e4",
+        "connectedProjectId": "34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0/ProjectSettings/34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0",
+      "projectId": "34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Rafael Louzada",
+        "email": "ra***@cathenaengenharia.com.br",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "b25f6657-c5a4-4f0d-aace-6e81b44b5a85",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ma***@cathena.com.br",
+      "nomeProjeto": "03.03 - Free Flow P6 - Via Expressa Leste km 24,900 - SP-275",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P6 - Via Expressa Leste km 24,900 - SP-275",
+        "id": "422985",
+        "guid": "8c297a42-36ac-481b-8610-93b0fcaed5e4",
+        "connectedProjectId": "34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0/ProjectSettings/34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0",
+      "projectId": "34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Maria Marques",
+        "email": "ma***@cathena.com.br",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "fafa6a0d-4e58-4c4c-b2e1-462386b21925",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ra***@cathenaengenharia.com.br",
+      "nomeProjeto": "03.03 - Free Flow P6 - Via Expressa Oeste km 14,390 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P6 - Via Expressa Oeste km 14,390 - SP-280",
+        "id": "423307",
+        "guid": "ea077c54-cedc-4886-b6e5-361d45e8f2df",
+        "connectedProjectId": "843cfe4c-6dcf-4363-bd72-8ea689505806",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/843cfe4c-6dcf-4363-bd72-8ea689505806/ProjectSettings/843cfe4c-6dcf-4363-bd72-8ea689505806/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "843cfe4c-6dcf-4363-bd72-8ea689505806",
+      "projectId": "843cfe4c-6dcf-4363-bd72-8ea689505806",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Rafael Louzada",
+        "email": "ra***@cathenaengenharia.com.br",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "9b44c93e-3f22-457a-8c54-0630097a902c",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ma***@cathena.com.br",
+      "nomeProjeto": "03.03 - Free Flow P6 - Via Expressa Oeste km 14,390 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P6 - Via Expressa Oeste km 14,390 - SP-280",
+        "id": "423307",
+        "guid": "ea077c54-cedc-4886-b6e5-361d45e8f2df",
+        "connectedProjectId": "843cfe4c-6dcf-4363-bd72-8ea689505806",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/843cfe4c-6dcf-4363-bd72-8ea689505806/ProjectSettings/843cfe4c-6dcf-4363-bd72-8ea689505806/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "843cfe4c-6dcf-4363-bd72-8ea689505806",
+      "projectId": "843cfe4c-6dcf-4363-bd72-8ea689505806",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Maria Marques",
+        "email": "ma***@cathena.com.br",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "bd0e829a-2c68-443d-b445-f39c30257005",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ra***@cathenaengenharia.com.br",
+      "nomeProjeto": "03.03 - Free Flow P7 - Marginal Leste km 20,970 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P7 - Marginal Leste km 20,970 - SP-280",
+        "id": "423473",
+        "guid": "19645718-5947-408d-afb5-cc985c950018",
+        "connectedProjectId": "30cde4d8-73fe-413a-947d-cd3116a0cb2b",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/30cde4d8-73fe-413a-947d-cd3116a0cb2b/ProjectSettings/30cde4d8-73fe-413a-947d-cd3116a0cb2b/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "30cde4d8-73fe-413a-947d-cd3116a0cb2b",
+      "projectId": "30cde4d8-73fe-413a-947d-cd3116a0cb2b",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Rafael Louzada",
+        "email": "ra***@cathenaengenharia.com.br",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "1d6ee90f-a526-4c97-89c0-20a089a0d026",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ma***@cathena.com.br",
+      "nomeProjeto": "03.03 - Free Flow P7 - Marginal Leste km 20,970 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P7 - Marginal Leste km 20,970 - SP-280",
+        "id": "423473",
+        "guid": "19645718-5947-408d-afb5-cc985c950018",
+        "connectedProjectId": "30cde4d8-73fe-413a-947d-cd3116a0cb2b",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/30cde4d8-73fe-413a-947d-cd3116a0cb2b/ProjectSettings/30cde4d8-73fe-413a-947d-cd3116a0cb2b/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "30cde4d8-73fe-413a-947d-cd3116a0cb2b",
+      "projectId": "30cde4d8-73fe-413a-947d-cd3116a0cb2b",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Maria Marques",
+        "email": "ma***@cathena.com.br",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "5967eb0e-13ee-4006-baca-8ddce2e2263d",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ra***@cathenaengenharia.com.br",
+      "nomeProjeto": "03.03 - Free Flow P7 - Marginal Oeste km 18,050 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P7 - Marginal Oeste km 18,050 - SP-280",
+        "id": "423008",
+        "guid": "5b49c16a-8099-4ad4-9fb6-7174e50b6718",
+        "connectedProjectId": "feb590aa-7b39-49f4-acc8-3002d4dc8003",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/feb590aa-7b39-49f4-acc8-3002d4dc8003/ProjectSettings/feb590aa-7b39-49f4-acc8-3002d4dc8003/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "feb590aa-7b39-49f4-acc8-3002d4dc8003",
+      "projectId": "feb590aa-7b39-49f4-acc8-3002d4dc8003",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Rafael Louzada",
+        "email": "ra***@cathenaengenharia.com.br",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "58ce550c-c682-48e0-bd8f-86fc0d7892a8",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ma***@cathena.com.br",
+      "nomeProjeto": "03.03 - Free Flow P7 - Marginal Oeste km 18,050 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P7 - Marginal Oeste km 18,050 - SP-280",
+        "id": "423008",
+        "guid": "5b49c16a-8099-4ad4-9fb6-7174e50b6718",
+        "connectedProjectId": "feb590aa-7b39-49f4-acc8-3002d4dc8003",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/feb590aa-7b39-49f4-acc8-3002d4dc8003/ProjectSettings/feb590aa-7b39-49f4-acc8-3002d4dc8003/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "feb590aa-7b39-49f4-acc8-3002d4dc8003",
+      "projectId": "feb590aa-7b39-49f4-acc8-3002d4dc8003",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Maria Marques",
+        "email": "ma***@cathena.com.br",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "d2f863ed-d036-4a1f-a9b3-d7bfd3f27726",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ra***@cathenaengenharia.com.br",
+      "nomeProjeto": "03.03 - Free Flow P7 - Via Expressa Leste km 20,745 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P7 - Via Expressa Leste km 20,745 - SP-280",
+        "id": "423440",
+        "guid": "b41cc2ae-ca95-4fc1-a96b-fa5b074cb900",
+        "connectedProjectId": "17335eae-f523-4c5e-804a-c5ec8cc017d1",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/17335eae-f523-4c5e-804a-c5ec8cc017d1/ProjectSettings/17335eae-f523-4c5e-804a-c5ec8cc017d1/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "17335eae-f523-4c5e-804a-c5ec8cc017d1",
+      "projectId": "17335eae-f523-4c5e-804a-c5ec8cc017d1",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Rafael Louzada",
+        "email": "ra***@cathenaengenharia.com.br",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "a0bc1b08-e84f-4279-94d5-4bec43a58c2f",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ma***@cathena.com.br",
+      "nomeProjeto": "03.03 - Free Flow P7 - Via Expressa Leste km 20,745 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P7 - Via Expressa Leste km 20,745 - SP-280",
+        "id": "423440",
+        "guid": "b41cc2ae-ca95-4fc1-a96b-fa5b074cb900",
+        "connectedProjectId": "17335eae-f523-4c5e-804a-c5ec8cc017d1",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/17335eae-f523-4c5e-804a-c5ec8cc017d1/ProjectSettings/17335eae-f523-4c5e-804a-c5ec8cc017d1/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "17335eae-f523-4c5e-804a-c5ec8cc017d1",
+      "projectId": "17335eae-f523-4c5e-804a-c5ec8cc017d1",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Maria Marques",
+        "email": "ma***@cathena.com.br",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "7c15e204-15a8-480e-ad61-c3ccd03090e4",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ra***@cathenaengenharia.com.br",
+      "nomeProjeto": "03.03 - Free Flow P7 - Via Expressa Oeste km 18,140 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P7 - Via Expressa Oeste km 18,140 - SP-280",
+        "id": "423506",
+        "guid": "34aa45c8-7277-49b6-966f-29d3837b197a",
+        "connectedProjectId": "b82a2e67-91c6-42b6-86ce-90f5b84e9b32",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/b82a2e67-91c6-42b6-86ce-90f5b84e9b32/ProjectSettings/b82a2e67-91c6-42b6-86ce-90f5b84e9b32/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "b82a2e67-91c6-42b6-86ce-90f5b84e9b32",
+      "projectId": "b82a2e67-91c6-42b6-86ce-90f5b84e9b32",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Rafael Louzada",
+        "email": "ra***@cathenaengenharia.com.br",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "85c9573b-32ff-42dc-89b8-e949d4316acf",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ma***@cathena.com.br",
+      "nomeProjeto": "03.03 - Free Flow P7 - Via Expressa Oeste km 18,140 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P7 - Via Expressa Oeste km 18,140 - SP-280",
+        "id": "423506",
+        "guid": "34aa45c8-7277-49b6-966f-29d3837b197a",
+        "connectedProjectId": "b82a2e67-91c6-42b6-86ce-90f5b84e9b32",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/b82a2e67-91c6-42b6-86ce-90f5b84e9b32/ProjectSettings/b82a2e67-91c6-42b6-86ce-90f5b84e9b32/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "b82a2e67-91c6-42b6-86ce-90f5b84e9b32",
+      "projectId": "b82a2e67-91c6-42b6-86ce-90f5b84e9b32",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Maria Marques",
+        "email": "ma***@cathena.com.br",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "4bd3ab36-bf49-4057-9c3d-559a093155b3",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ra***@cathenaengenharia.com.br",
+      "nomeProjeto": "03.03 - Free Flow P8 - Marginal Leste km 24,040 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P8 - Marginal Leste km 24,040 - SP-280",
+        "id": "423031",
+        "guid": "745f5038-e787-47b7-9e60-f63f329e4cea",
+        "connectedProjectId": "25739821-e400-43d6-90cf-f4ca361422e5",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/25739821-e400-43d6-90cf-f4ca361422e5/ProjectSettings/25739821-e400-43d6-90cf-f4ca361422e5/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "25739821-e400-43d6-90cf-f4ca361422e5",
+      "projectId": "25739821-e400-43d6-90cf-f4ca361422e5",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Rafael Louzada",
+        "email": "ra***@cathenaengenharia.com.br",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "543cf897-76bc-4dd6-bfb1-caacbaac134f",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ma***@cathena.com.br",
+      "nomeProjeto": "03.03 - Free Flow P8 - Marginal Leste km 24,040 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P8 - Marginal Leste km 24,040 - SP-280",
+        "id": "423031",
+        "guid": "745f5038-e787-47b7-9e60-f63f329e4cea",
+        "connectedProjectId": "25739821-e400-43d6-90cf-f4ca361422e5",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/25739821-e400-43d6-90cf-f4ca361422e5/ProjectSettings/25739821-e400-43d6-90cf-f4ca361422e5/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "25739821-e400-43d6-90cf-f4ca361422e5",
+      "projectId": "25739821-e400-43d6-90cf-f4ca361422e5",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Maria Marques",
+        "email": "ma***@cathena.com.br",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "a6d1d6d7-2623-4426-ac96-4c550f767926",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ra***@cathenaengenharia.com.br",
+      "nomeProjeto": "03.03 - Free Flow P8 - Marginal Oeste km 23,980 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P8 - Marginal Oeste km 23,980 - SP-280",
+        "id": "423572",
+        "guid": "3cfaec2f-d4bb-41be-9ab5-f783beb5cc82",
+        "connectedProjectId": "4cbacd61-c55f-4fa0-ac35-6b07631f91c7",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/4cbacd61-c55f-4fa0-ac35-6b07631f91c7/ProjectSettings/4cbacd61-c55f-4fa0-ac35-6b07631f91c7/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "4cbacd61-c55f-4fa0-ac35-6b07631f91c7",
+      "projectId": "4cbacd61-c55f-4fa0-ac35-6b07631f91c7",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Rafael Louzada",
+        "email": "ra***@cathenaengenharia.com.br",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "1382d98d-d3c6-44ed-bc5d-bf04cd8ce211",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ma***@cathena.com.br",
+      "nomeProjeto": "03.03 - Free Flow P8 - Marginal Oeste km 23,980 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P8 - Marginal Oeste km 23,980 - SP-280",
+        "id": "423572",
+        "guid": "3cfaec2f-d4bb-41be-9ab5-f783beb5cc82",
+        "connectedProjectId": "4cbacd61-c55f-4fa0-ac35-6b07631f91c7",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/4cbacd61-c55f-4fa0-ac35-6b07631f91c7/ProjectSettings/4cbacd61-c55f-4fa0-ac35-6b07631f91c7/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "4cbacd61-c55f-4fa0-ac35-6b07631f91c7",
+      "projectId": "4cbacd61-c55f-4fa0-ac35-6b07631f91c7",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Maria Marques",
+        "email": "ma***@cathena.com.br",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "a15ad168-58d6-4383-91ac-105e0e9f0d20",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ra***@cathenaengenharia.com.br",
+      "nomeProjeto": "03.03 - Free Flow P8 - Via Expressa Leste km 24,010 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P8 - Via Expressa Leste km 24,010 - SP-280",
+        "id": "423605",
+        "guid": "19261be7-cd4b-4d96-8681-cd4a59256b6c",
+        "connectedProjectId": "6841f1b3-7a77-40a2-9a21-afbce6ce277a",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/6841f1b3-7a77-40a2-9a21-afbce6ce277a/ProjectSettings/6841f1b3-7a77-40a2-9a21-afbce6ce277a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "6841f1b3-7a77-40a2-9a21-afbce6ce277a",
+      "projectId": "6841f1b3-7a77-40a2-9a21-afbce6ce277a",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Rafael Louzada",
+        "email": "ra***@cathenaengenharia.com.br",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "a90ac495-511a-4d44-85fc-b71a20289099",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ma***@cathena.com.br",
+      "nomeProjeto": "03.03 - Free Flow P8 - Via Expressa Leste km 24,010 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P8 - Via Expressa Leste km 24,010 - SP-280",
+        "id": "423605",
+        "guid": "19261be7-cd4b-4d96-8681-cd4a59256b6c",
+        "connectedProjectId": "6841f1b3-7a77-40a2-9a21-afbce6ce277a",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/6841f1b3-7a77-40a2-9a21-afbce6ce277a/ProjectSettings/6841f1b3-7a77-40a2-9a21-afbce6ce277a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "6841f1b3-7a77-40a2-9a21-afbce6ce277a",
+      "projectId": "6841f1b3-7a77-40a2-9a21-afbce6ce277a",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Maria Marques",
+        "email": "ma***@cathena.com.br",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "c49ca57e-f0a8-4db4-89e9-62a3b8905d1c",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ra***@cathenaengenharia.com.br",
+      "nomeProjeto": "03.03 - Free Flow P8 - Via Expressa Oeste km 24,010 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P8 - Via Expressa Oeste km 24,010 - SP-280",
+        "id": "423539",
+        "guid": "2e7919ce-61f2-431d-b414-facfd8af5b86",
+        "connectedProjectId": "27f2366e-7ec3-4a08-a22f-ad91ce49d6b0",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/27f2366e-7ec3-4a08-a22f-ad91ce49d6b0/ProjectSettings/27f2366e-7ec3-4a08-a22f-ad91ce49d6b0/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "27f2366e-7ec3-4a08-a22f-ad91ce49d6b0",
+      "projectId": "27f2366e-7ec3-4a08-a22f-ad91ce49d6b0",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Rafael Louzada",
+        "email": "ra***@cathenaengenharia.com.br",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "5a888071-681b-4336-8f0b-0eab6dfd5649",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ma***@cathena.com.br",
+      "nomeProjeto": "03.03 - Free Flow P8 - Via Expressa Oeste km 24,010 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P8 - Via Expressa Oeste km 24,010 - SP-280",
+        "id": "423539",
+        "guid": "2e7919ce-61f2-431d-b414-facfd8af5b86",
+        "connectedProjectId": "27f2366e-7ec3-4a08-a22f-ad91ce49d6b0",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/27f2366e-7ec3-4a08-a22f-ad91ce49d6b0/ProjectSettings/27f2366e-7ec3-4a08-a22f-ad91ce49d6b0/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "27f2366e-7ec3-4a08-a22f-ad91ce49d6b0",
+      "projectId": "27f2366e-7ec3-4a08-a22f-ad91ce49d6b0",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Maria Marques",
+        "email": "ma***@cathena.com.br",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "9f1f48b4-6117-4eac-91cb-ef2fb73608dd",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ra***@cathenaengenharia.com.br",
+      "nomeProjeto": "03.03 - Free Flow P9 - Via Expressa Leste km 29,210 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P9 - Via Expressa Leste km 29,210 - SP-280",
+        "id": "423054",
+        "guid": "30a2ca56-8bd9-4ab8-b10b-77a39ee73273",
+        "connectedProjectId": "2144adc7-166a-49c1-8b26-db74a8ff27e5",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/2144adc7-166a-49c1-8b26-db74a8ff27e5/ProjectSettings/2144adc7-166a-49c1-8b26-db74a8ff27e5/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "2144adc7-166a-49c1-8b26-db74a8ff27e5",
+      "projectId": "2144adc7-166a-49c1-8b26-db74a8ff27e5",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Rafael Louzada",
+        "email": "ra***@cathenaengenharia.com.br",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "26541725-a8ce-42b1-b8ad-34cf5c02752f",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ma***@cathena.com.br",
+      "nomeProjeto": "03.03 - Free Flow P9 - Via Expressa Leste km 29,210 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P9 - Via Expressa Leste km 29,210 - SP-280",
+        "id": "423054",
+        "guid": "30a2ca56-8bd9-4ab8-b10b-77a39ee73273",
+        "connectedProjectId": "2144adc7-166a-49c1-8b26-db74a8ff27e5",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/2144adc7-166a-49c1-8b26-db74a8ff27e5/ProjectSettings/2144adc7-166a-49c1-8b26-db74a8ff27e5/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "2144adc7-166a-49c1-8b26-db74a8ff27e5",
+      "projectId": "2144adc7-166a-49c1-8b26-db74a8ff27e5",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Maria Marques",
+        "email": "ma***@cathena.com.br",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "1ad2ffe7-f905-4026-a514-87d15e44542e",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ra***@cathenaengenharia.com.br",
+      "nomeProjeto": "03.03 - Free Flow P9 - Via Expressa Oeste km 29,340 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P9 - Via Expressa Oeste km 29,340 - SP-280",
+        "id": "423638",
+        "guid": "2cab500e-33d9-476a-88e7-784ccd8e358a",
+        "connectedProjectId": "624cd394-bd20-483f-a325-27ea3518eefe",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/624cd394-bd20-483f-a325-27ea3518eefe/ProjectSettings/624cd394-bd20-483f-a325-27ea3518eefe/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "624cd394-bd20-483f-a325-27ea3518eefe",
+      "projectId": "624cd394-bd20-483f-a325-27ea3518eefe",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Rafael Louzada",
+        "email": "ra***@cathenaengenharia.com.br",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "fc05729e-4da7-4705-967b-dea121c7e5da",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ma***@cathena.com.br",
+      "nomeProjeto": "03.03 - Free Flow P9 - Via Expressa Oeste km 29,340 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P9 - Via Expressa Oeste km 29,340 - SP-280",
+        "id": "423638",
+        "guid": "2cab500e-33d9-476a-88e7-784ccd8e358a",
+        "connectedProjectId": "624cd394-bd20-483f-a325-27ea3518eefe",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/624cd394-bd20-483f-a325-27ea3518eefe/ProjectSettings/624cd394-bd20-483f-a325-27ea3518eefe/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "624cd394-bd20-483f-a325-27ea3518eefe",
+      "projectId": "624cd394-bd20-483f-a325-27ea3518eefe",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Maria Marques",
+        "email": "ma***@cathena.com.br",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "42327715-2f1b-4085-bf09-6a0a05ab3950",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    }
+  ],
+  "resultados": [
+    {
+      "projectId": "e24a37f3-c2e6-418a-995e-a7a35b86d9ef",
+      "nomeProjeto": "03.03 - Free Flow P10 - Via Expressa Leste km 33,990 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P10 - Via Expressa Leste km 33,990 - SP-280",
+        "id": "423077",
+        "guid": "d8be8575-b4f9-4dae-8939-b26bec5addfd",
+        "connectedProjectId": "e24a37f3-c2e6-418a-995e-a7a35b86d9ef",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e24a37f3-c2e6-418a-995e-a7a35b86d9ef/ProjectSettings/e24a37f3-c2e6-418a-995e-a7a35b86d9ef/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@cathenaengenharia.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/e24a37f3-c2e6-418a-995e-a7a35b86d9ef/ProjectSettings/e24a37f3-c2e6-418a-995e-a7a35b86d9ef/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/e24a37f3-c2e6-418a-995e-a7a35b86d9ef/ProjectSettings/e24a37f3-c2e6-418a-995e-a7a35b86d9ef/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "ra***@cathenaengenharia.com.br",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "53f9525d-997e-474b-8005-0644331887a8",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/e24a37f3-c2e6-418a-995e-a7a35b86d9ef/ProjectSettings/e24a37f3-c2e6-418a-995e-a7a35b86d9ef/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/e24a37f3-c2e6-418a-995e-a7a35b86d9ef/ProjectSettings/e24a37f3-c2e6-418a-995e-a7a35b86d9ef/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "ra***@cathenaengenharia.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "53f9525d-997e-474b-8005-0644331887a8",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "e24a37f3-c2e6-418a-995e-a7a35b86d9ef",
+      "nomeProjeto": "03.03 - Free Flow P10 - Via Expressa Leste km 33,990 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P10 - Via Expressa Leste km 33,990 - SP-280",
+        "id": "423077",
+        "guid": "d8be8575-b4f9-4dae-8939-b26bec5addfd",
+        "connectedProjectId": "e24a37f3-c2e6-418a-995e-a7a35b86d9ef",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e24a37f3-c2e6-418a-995e-a7a35b86d9ef/ProjectSettings/e24a37f3-c2e6-418a-995e-a7a35b86d9ef/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ma***@cathena.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/e24a37f3-c2e6-418a-995e-a7a35b86d9ef/ProjectSettings/e24a37f3-c2e6-418a-995e-a7a35b86d9ef/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/e24a37f3-c2e6-418a-995e-a7a35b86d9ef/ProjectSettings/e24a37f3-c2e6-418a-995e-a7a35b86d9ef/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "ma***@cathena.com.br",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "a914c0b9-f45a-473e-a295-d07d702ac80a",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/e24a37f3-c2e6-418a-995e-a7a35b86d9ef/ProjectSettings/e24a37f3-c2e6-418a-995e-a7a35b86d9ef/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/e24a37f3-c2e6-418a-995e-a7a35b86d9ef/ProjectSettings/e24a37f3-c2e6-418a-995e-a7a35b86d9ef/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "ma***@cathena.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "a914c0b9-f45a-473e-a295-d07d702ac80a",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "b47658c0-d4ad-4051-aa37-633b2755696c",
+      "nomeProjeto": "03.03 - Free Flow P10 - Via Expressa Oeste km 33,990 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P10 - Via Expressa Oeste km 33,990 - SP-280",
+        "id": "423671",
+        "guid": "d9403054-4001-4d8a-829f-5855d6c47b36",
+        "connectedProjectId": "b47658c0-d4ad-4051-aa37-633b2755696c",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/b47658c0-d4ad-4051-aa37-633b2755696c/ProjectSettings/b47658c0-d4ad-4051-aa37-633b2755696c/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@cathenaengenharia.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_existente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "erro",
+        "erro": "POST falhou em https://pwdm.bentley.com/b47658c0-d4ad-4051-aa37-633b2755696c/ProjectSettings/b47658c0-d4ad-4051-aa37-633b2755696c/AddExistingPWParticipant: HTTP 500  - {'type': 'https://tools.ietf.org/html/rfc9110#section-15.6.1', 'title': 'An error occurred', 'status': 500, 'detail': 'Sorry, an error occurred while processing your request.', 'reload': False, 'requestId': '4000a2c3-0002-ee00-b63f-84710c7967bb', 'traceId': '00-f750dac3c37ebd4e4d0373110ab45d2a-0d2c3e8f1dc9d9c0-00'} (pagina=https://pwdm.bentley.com/b47658c0-d4ad-4051-aa37-633b2755696c/ProjectSettings/b47658c0-d4ad-4051-aa37-633b2755696c/View#PARTICIPANTS, resposta=https://pwdm.bentley.com/b47658c0-d4ad-4051-aa37-633b2755696c/ProjectSettings/b47658c0-d4ad-4051-aa37-633b2755696c/AddExistingPWParticipant, token=sim, origem_token=html-view, payload={'participantId': '7b4337a3-a59e-4de0-b630-2ead3beb8e7b', 'roleTitle': 'Membro da equipe', 'isAdmin': False, 'canReviewAnswer': False, 'canReceive': True, 'canIssue': True})"
+      }
+    },
+    {
+      "projectId": "b47658c0-d4ad-4051-aa37-633b2755696c",
+      "nomeProjeto": "03.03 - Free Flow P10 - Via Expressa Oeste km 33,990 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P10 - Via Expressa Oeste km 33,990 - SP-280",
+        "id": "423671",
+        "guid": "d9403054-4001-4d8a-829f-5855d6c47b36",
+        "connectedProjectId": "b47658c0-d4ad-4051-aa37-633b2755696c",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/b47658c0-d4ad-4051-aa37-633b2755696c/ProjectSettings/b47658c0-d4ad-4051-aa37-633b2755696c/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ma***@cathena.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_existente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "erro",
+        "erro": "POST falhou em https://pwdm.bentley.com/b47658c0-d4ad-4051-aa37-633b2755696c/ProjectSettings/b47658c0-d4ad-4051-aa37-633b2755696c/AddExistingPWParticipant: HTTP 500  - {'type': 'https://tools.ietf.org/html/rfc9110#section-15.6.1', 'title': 'An error occurred', 'status': 500, 'detail': 'Sorry, an error occurred while processing your request.', 'reload': False, 'requestId': '4000a2c4-0002-ee00-b63f-84710c7967bb', 'traceId': '00-7f06c9dfe0fa00ad283d10973f27a4a3-bcb685e5db139c06-00'} (pagina=https://pwdm.bentley.com/b47658c0-d4ad-4051-aa37-633b2755696c/ProjectSettings/b47658c0-d4ad-4051-aa37-633b2755696c/View#PARTICIPANTS, resposta=https://pwdm.bentley.com/b47658c0-d4ad-4051-aa37-633b2755696c/ProjectSettings/b47658c0-d4ad-4051-aa37-633b2755696c/AddExistingPWParticipant, token=sim, origem_token=html-view, payload={'participantId': '378dbcbf-c645-4533-938e-d72f6e0962a7', 'roleTitle': 'Membro da equipe', 'isAdmin': False, 'canReviewAnswer': False, 'canReceive': True, 'canIssue': True})"
+      }
+    },
+    {
+      "projectId": "bae44540-ff29-41b0-adcc-ddc6a1d69eda",
+      "nomeProjeto": "03.03 - Free Flow P11 - Via Expressa Norte-Sul km 34,600 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P11 - Via Expressa Norte-Sul km 34,600 - SP-280",
+        "id": "423100",
+        "guid": "d5abbce3-3ec1-4ae3-86ef-774856790fff",
+        "connectedProjectId": "bae44540-ff29-41b0-adcc-ddc6a1d69eda",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/bae44540-ff29-41b0-adcc-ddc6a1d69eda/ProjectSettings/bae44540-ff29-41b0-adcc-ddc6a1d69eda/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@cathenaengenharia.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_existente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "adicionado",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/bae44540-ff29-41b0-adcc-ddc6a1d69eda/ProjectSettings/bae44540-ff29-41b0-adcc-ddc6a1d69eda/AddExistingPWParticipant",
+          "pageUrl": "https://pwdm.bentley.com/bae44540-ff29-41b0-adcc-ddc6a1d69eda/ProjectSettings/bae44540-ff29-41b0-adcc-ddc6a1d69eda/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "status": "OK",
+            "participant": {
+              "fullName": "Rafael Louzada",
+              "email": "ra***@cathenaengenharia.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": true,
+              "isPWExplicitlyAdded": true,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [
+                "2*9714",
+                "2*9715",
+                "8****@cathenaengenharia.com.br"
+              ],
+              "id": "c19bdad3-7189-4185-b92e-cfdc1b1a98b7",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            },
+            "participantSyncId": "8****@cathenaengenharia.com.br"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "bae44540-ff29-41b0-adcc-ddc6a1d69eda",
+      "nomeProjeto": "03.03 - Free Flow P11 - Via Expressa Norte-Sul km 34,600 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P11 - Via Expressa Norte-Sul km 34,600 - SP-280",
+        "id": "423100",
+        "guid": "d5abbce3-3ec1-4ae3-86ef-774856790fff",
+        "connectedProjectId": "bae44540-ff29-41b0-adcc-ddc6a1d69eda",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/bae44540-ff29-41b0-adcc-ddc6a1d69eda/ProjectSettings/bae44540-ff29-41b0-adcc-ddc6a1d69eda/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ma***@cathena.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_existente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "adicionado",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/bae44540-ff29-41b0-adcc-ddc6a1d69eda/ProjectSettings/bae44540-ff29-41b0-adcc-ddc6a1d69eda/AddExistingPWParticipant",
+          "pageUrl": "https://pwdm.bentley.com/bae44540-ff29-41b0-adcc-ddc6a1d69eda/ProjectSettings/bae44540-ff29-41b0-adcc-ddc6a1d69eda/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "status": "OK",
+            "participant": {
+              "fullName": "Maria Marques",
+              "email": "ma***@cathena.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": true,
+              "isPWExplicitlyAdded": true,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [
+                "2*9714",
+                "2*9715",
+                "8****@cathena.com.br"
+              ],
+              "id": "7932b052-12bd-46c4-bed1-d79c36da10ca",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            },
+            "participantSyncId": "8****@cathena.com.br"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "cb60e4e7-7084-4854-9b02-ff1e01f20d32",
+      "nomeProjeto": "03.03 - Free Flow P12 - Via Expressa Norte-Sul km 40,655 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P12 - Via Expressa Norte-Sul km 40,655 - SP-280",
+        "id": "423123",
+        "guid": "b2b8c3fb-0b69-41a6-acd5-1a052e72575e",
+        "connectedProjectId": "cb60e4e7-7084-4854-9b02-ff1e01f20d32",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/cb60e4e7-7084-4854-9b02-ff1e01f20d32/ProjectSettings/cb60e4e7-7084-4854-9b02-ff1e01f20d32/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@cathenaengenharia.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_existente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "adicionado",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/cb60e4e7-7084-4854-9b02-ff1e01f20d32/ProjectSettings/cb60e4e7-7084-4854-9b02-ff1e01f20d32/AddExistingPWParticipant",
+          "pageUrl": "https://pwdm.bentley.com/cb60e4e7-7084-4854-9b02-ff1e01f20d32/ProjectSettings/cb60e4e7-7084-4854-9b02-ff1e01f20d32/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "status": "OK",
+            "participant": {
+              "fullName": "Rafael Louzada",
+              "email": "ra***@cathenaengenharia.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": true,
+              "isPWExplicitlyAdded": true,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [
+                "2*9724",
+                "2*9725",
+                "8****@cathenaengenharia.com.br"
+              ],
+              "id": "b7bf5388-0dd4-4f41-80bc-2b6e2d0d3aaa",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            },
+            "participantSyncId": "8****@cathenaengenharia.com.br"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "cb60e4e7-7084-4854-9b02-ff1e01f20d32",
+      "nomeProjeto": "03.03 - Free Flow P12 - Via Expressa Norte-Sul km 40,655 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P12 - Via Expressa Norte-Sul km 40,655 - SP-280",
+        "id": "423123",
+        "guid": "b2b8c3fb-0b69-41a6-acd5-1a052e72575e",
+        "connectedProjectId": "cb60e4e7-7084-4854-9b02-ff1e01f20d32",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/cb60e4e7-7084-4854-9b02-ff1e01f20d32/ProjectSettings/cb60e4e7-7084-4854-9b02-ff1e01f20d32/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ma***@cathena.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_existente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "adicionado",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/cb60e4e7-7084-4854-9b02-ff1e01f20d32/ProjectSettings/cb60e4e7-7084-4854-9b02-ff1e01f20d32/AddExistingPWParticipant",
+          "pageUrl": "https://pwdm.bentley.com/cb60e4e7-7084-4854-9b02-ff1e01f20d32/ProjectSettings/cb60e4e7-7084-4854-9b02-ff1e01f20d32/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "status": "OK",
+            "participant": {
+              "fullName": "Maria Marques",
+              "email": "ma***@cathena.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": true,
+              "isPWExplicitlyAdded": true,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [
+                "2*9724",
+                "2*9725",
+                "8****@cathena.com.br"
+              ],
+              "id": "37ab2892-bed9-4106-908b-6b9c302b0272",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            },
+            "participantSyncId": "8****@cathena.com.br"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1",
+      "nomeProjeto": "03.03 - Free Flow P4 - Via Expressa Leste km 24,900 - SP-270",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P4 - Via Expressa Leste km 24,900 - SP-270",
+        "id": "422962",
+        "guid": "c8c1ebfd-4b86-4230-97b9-96efa315e68f",
+        "connectedProjectId": "2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1/ProjectSettings/2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@cathenaengenharia.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1/ProjectSettings/2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1/ProjectSettings/2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "ra***@cathenaengenharia.com.br",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "70e7cf78-0478-4d56-bcc8-1ab201c8b276",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1/ProjectSettings/2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1/ProjectSettings/2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "ra***@cathenaengenharia.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "70e7cf78-0478-4d56-bcc8-1ab201c8b276",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1",
+      "nomeProjeto": "03.03 - Free Flow P4 - Via Expressa Leste km 24,900 - SP-270",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P4 - Via Expressa Leste km 24,900 - SP-270",
+        "id": "422962",
+        "guid": "c8c1ebfd-4b86-4230-97b9-96efa315e68f",
+        "connectedProjectId": "2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1/ProjectSettings/2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ma***@cathena.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1/ProjectSettings/2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1/ProjectSettings/2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "ma***@cathena.com.br",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "aaa5dd50-34ca-4340-a57f-1a4b22e3fc2d",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1/ProjectSettings/2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1/ProjectSettings/2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "ma***@cathena.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "aaa5dd50-34ca-4340-a57f-1a4b22e3fc2d",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "0aa4956e-d972-4aca-bf20-a537fa4bad96",
+      "nomeProjeto": "03.03 - Free Flow P6 - Marginal Leste km 13,660 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P6 - Marginal Leste km 13,660 - SP-280",
+        "id": "423407",
+        "guid": "4dab4830-a16e-48fa-b137-0db010b99be1",
+        "connectedProjectId": "0aa4956e-d972-4aca-bf20-a537fa4bad96",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/0aa4956e-d972-4aca-bf20-a537fa4bad96/ProjectSettings/0aa4956e-d972-4aca-bf20-a537fa4bad96/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@cathenaengenharia.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/0aa4956e-d972-4aca-bf20-a537fa4bad96/ProjectSettings/0aa4956e-d972-4aca-bf20-a537fa4bad96/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/0aa4956e-d972-4aca-bf20-a537fa4bad96/ProjectSettings/0aa4956e-d972-4aca-bf20-a537fa4bad96/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Rafael Louzada",
+            "email": "ra***@cathenaengenharia.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "69305f63-bb9c-4be0-8a67-185ef4609c6e",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "0aa4956e-d972-4aca-bf20-a537fa4bad96",
+      "nomeProjeto": "03.03 - Free Flow P6 - Marginal Leste km 13,660 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P6 - Marginal Leste km 13,660 - SP-280",
+        "id": "423407",
+        "guid": "4dab4830-a16e-48fa-b137-0db010b99be1",
+        "connectedProjectId": "0aa4956e-d972-4aca-bf20-a537fa4bad96",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/0aa4956e-d972-4aca-bf20-a537fa4bad96/ProjectSettings/0aa4956e-d972-4aca-bf20-a537fa4bad96/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ma***@cathena.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/0aa4956e-d972-4aca-bf20-a537fa4bad96/ProjectSettings/0aa4956e-d972-4aca-bf20-a537fa4bad96/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/0aa4956e-d972-4aca-bf20-a537fa4bad96/ProjectSettings/0aa4956e-d972-4aca-bf20-a537fa4bad96/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "ma***@cathena.com.br",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "9e29a81e-6e50-4b61-9d66-6add08e0dfe2",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/0aa4956e-d972-4aca-bf20-a537fa4bad96/ProjectSettings/0aa4956e-d972-4aca-bf20-a537fa4bad96/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/0aa4956e-d972-4aca-bf20-a537fa4bad96/ProjectSettings/0aa4956e-d972-4aca-bf20-a537fa4bad96/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "ma***@cathena.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "9e29a81e-6e50-4b61-9d66-6add08e0dfe2",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "e6e6bd37-2dc3-4781-9eda-a697cde5268d",
+      "nomeProjeto": "03.03 - Free Flow P6 - Marginal Oeste km 14,420 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P6 - Marginal Oeste km 14,420 - SP-280",
+        "id": "423340",
+        "guid": "629f5241-f9a2-487f-91b7-8d8225af0929",
+        "connectedProjectId": "e6e6bd37-2dc3-4781-9eda-a697cde5268d",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e6e6bd37-2dc3-4781-9eda-a697cde5268d/ProjectSettings/e6e6bd37-2dc3-4781-9eda-a697cde5268d/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@cathenaengenharia.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/e6e6bd37-2dc3-4781-9eda-a697cde5268d/ProjectSettings/e6e6bd37-2dc3-4781-9eda-a697cde5268d/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/e6e6bd37-2dc3-4781-9eda-a697cde5268d/ProjectSettings/e6e6bd37-2dc3-4781-9eda-a697cde5268d/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Rafael Louzada",
+            "email": "ra***@cathenaengenharia.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "4c1bf248-b189-4965-b0ee-677f6fab38a9",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "e6e6bd37-2dc3-4781-9eda-a697cde5268d",
+      "nomeProjeto": "03.03 - Free Flow P6 - Marginal Oeste km 14,420 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P6 - Marginal Oeste km 14,420 - SP-280",
+        "id": "423340",
+        "guid": "629f5241-f9a2-487f-91b7-8d8225af0929",
+        "connectedProjectId": "e6e6bd37-2dc3-4781-9eda-a697cde5268d",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e6e6bd37-2dc3-4781-9eda-a697cde5268d/ProjectSettings/e6e6bd37-2dc3-4781-9eda-a697cde5268d/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ma***@cathena.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/e6e6bd37-2dc3-4781-9eda-a697cde5268d/ProjectSettings/e6e6bd37-2dc3-4781-9eda-a697cde5268d/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/e6e6bd37-2dc3-4781-9eda-a697cde5268d/ProjectSettings/e6e6bd37-2dc3-4781-9eda-a697cde5268d/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "ma***@cathena.com.br",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "c334581f-5170-42c2-97e6-2c64f580b0b2",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/e6e6bd37-2dc3-4781-9eda-a697cde5268d/ProjectSettings/e6e6bd37-2dc3-4781-9eda-a697cde5268d/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/e6e6bd37-2dc3-4781-9eda-a697cde5268d/ProjectSettings/e6e6bd37-2dc3-4781-9eda-a697cde5268d/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "ma***@cathena.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "c334581f-5170-42c2-97e6-2c64f580b0b2",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "10cbbcde-0091-44d7-860b-876904640209",
+      "nomeProjeto": "03.03 - Free Flow P6 - Via Expressa Leste km 13,680 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P6 - Via Expressa Leste km 13,680 - SP-280",
+        "id": "423374",
+        "guid": "3f690068-6d06-4dd3-b2e7-cf573ac53753",
+        "connectedProjectId": "10cbbcde-0091-44d7-860b-876904640209",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/10cbbcde-0091-44d7-860b-876904640209/ProjectSettings/10cbbcde-0091-44d7-860b-876904640209/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@cathenaengenharia.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Participante ja estava com as permissoes e o titulo desejados."
+      }
+    },
+    {
+      "projectId": "10cbbcde-0091-44d7-860b-876904640209",
+      "nomeProjeto": "03.03 - Free Flow P6 - Via Expressa Leste km 13,680 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P6 - Via Expressa Leste km 13,680 - SP-280",
+        "id": "423374",
+        "guid": "3f690068-6d06-4dd3-b2e7-cf573ac53753",
+        "connectedProjectId": "10cbbcde-0091-44d7-860b-876904640209",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/10cbbcde-0091-44d7-860b-876904640209/ProjectSettings/10cbbcde-0091-44d7-860b-876904640209/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ma***@cathena.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/10cbbcde-0091-44d7-860b-876904640209/ProjectSettings/10cbbcde-0091-44d7-860b-876904640209/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/10cbbcde-0091-44d7-860b-876904640209/ProjectSettings/10cbbcde-0091-44d7-860b-876904640209/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "ma***@cathena.com.br",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "bb229d2c-0e67-43b2-aff1-0471b832400c",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/10cbbcde-0091-44d7-860b-876904640209/ProjectSettings/10cbbcde-0091-44d7-860b-876904640209/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/10cbbcde-0091-44d7-860b-876904640209/ProjectSettings/10cbbcde-0091-44d7-860b-876904640209/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "ma***@cathena.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "bb229d2c-0e67-43b2-aff1-0471b832400c",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0",
+      "nomeProjeto": "03.03 - Free Flow P6 - Via Expressa Leste km 24,900 - SP-275",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P6 - Via Expressa Leste km 24,900 - SP-275",
+        "id": "422985",
+        "guid": "8c297a42-36ac-481b-8610-93b0fcaed5e4",
+        "connectedProjectId": "34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0/ProjectSettings/34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@cathenaengenharia.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0/ProjectSettings/34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0/ProjectSettings/34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "ra***@cathenaengenharia.com.br",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "b25f6657-c5a4-4f0d-aace-6e81b44b5a85",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0/ProjectSettings/34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0/ProjectSettings/34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "ra***@cathenaengenharia.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "b25f6657-c5a4-4f0d-aace-6e81b44b5a85",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0",
+      "nomeProjeto": "03.03 - Free Flow P6 - Via Expressa Leste km 24,900 - SP-275",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P6 - Via Expressa Leste km 24,900 - SP-275",
+        "id": "422985",
+        "guid": "8c297a42-36ac-481b-8610-93b0fcaed5e4",
+        "connectedProjectId": "34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0/ProjectSettings/34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ma***@cathena.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0/ProjectSettings/34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0/ProjectSettings/34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "ma***@cathena.com.br",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "fafa6a0d-4e58-4c4c-b2e1-462386b21925",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0/ProjectSettings/34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0/ProjectSettings/34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "ma***@cathena.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "fafa6a0d-4e58-4c4c-b2e1-462386b21925",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "843cfe4c-6dcf-4363-bd72-8ea689505806",
+      "nomeProjeto": "03.03 - Free Flow P6 - Via Expressa Oeste km 14,390 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P6 - Via Expressa Oeste km 14,390 - SP-280",
+        "id": "423307",
+        "guid": "ea077c54-cedc-4886-b6e5-361d45e8f2df",
+        "connectedProjectId": "843cfe4c-6dcf-4363-bd72-8ea689505806",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/843cfe4c-6dcf-4363-bd72-8ea689505806/ProjectSettings/843cfe4c-6dcf-4363-bd72-8ea689505806/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@cathenaengenharia.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Participante ja estava com as permissoes e o titulo desejados."
+      }
+    },
+    {
+      "projectId": "843cfe4c-6dcf-4363-bd72-8ea689505806",
+      "nomeProjeto": "03.03 - Free Flow P6 - Via Expressa Oeste km 14,390 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P6 - Via Expressa Oeste km 14,390 - SP-280",
+        "id": "423307",
+        "guid": "ea077c54-cedc-4886-b6e5-361d45e8f2df",
+        "connectedProjectId": "843cfe4c-6dcf-4363-bd72-8ea689505806",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/843cfe4c-6dcf-4363-bd72-8ea689505806/ProjectSettings/843cfe4c-6dcf-4363-bd72-8ea689505806/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ma***@cathena.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/843cfe4c-6dcf-4363-bd72-8ea689505806/ProjectSettings/843cfe4c-6dcf-4363-bd72-8ea689505806/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/843cfe4c-6dcf-4363-bd72-8ea689505806/ProjectSettings/843cfe4c-6dcf-4363-bd72-8ea689505806/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "ma***@cathena.com.br",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "bd0e829a-2c68-443d-b445-f39c30257005",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/843cfe4c-6dcf-4363-bd72-8ea689505806/ProjectSettings/843cfe4c-6dcf-4363-bd72-8ea689505806/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/843cfe4c-6dcf-4363-bd72-8ea689505806/ProjectSettings/843cfe4c-6dcf-4363-bd72-8ea689505806/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "ma***@cathena.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "bd0e829a-2c68-443d-b445-f39c30257005",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "30cde4d8-73fe-413a-947d-cd3116a0cb2b",
+      "nomeProjeto": "03.03 - Free Flow P7 - Marginal Leste km 20,970 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P7 - Marginal Leste km 20,970 - SP-280",
+        "id": "423473",
+        "guid": "19645718-5947-408d-afb5-cc985c950018",
+        "connectedProjectId": "30cde4d8-73fe-413a-947d-cd3116a0cb2b",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/30cde4d8-73fe-413a-947d-cd3116a0cb2b/ProjectSettings/30cde4d8-73fe-413a-947d-cd3116a0cb2b/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@cathenaengenharia.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/30cde4d8-73fe-413a-947d-cd3116a0cb2b/ProjectSettings/30cde4d8-73fe-413a-947d-cd3116a0cb2b/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/30cde4d8-73fe-413a-947d-cd3116a0cb2b/ProjectSettings/30cde4d8-73fe-413a-947d-cd3116a0cb2b/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "ra***@cathenaengenharia.com.br",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "1d6ee90f-a526-4c97-89c0-20a089a0d026",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/30cde4d8-73fe-413a-947d-cd3116a0cb2b/ProjectSettings/30cde4d8-73fe-413a-947d-cd3116a0cb2b/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/30cde4d8-73fe-413a-947d-cd3116a0cb2b/ProjectSettings/30cde4d8-73fe-413a-947d-cd3116a0cb2b/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "ra***@cathenaengenharia.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "1d6ee90f-a526-4c97-89c0-20a089a0d026",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "30cde4d8-73fe-413a-947d-cd3116a0cb2b",
+      "nomeProjeto": "03.03 - Free Flow P7 - Marginal Leste km 20,970 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P7 - Marginal Leste km 20,970 - SP-280",
+        "id": "423473",
+        "guid": "19645718-5947-408d-afb5-cc985c950018",
+        "connectedProjectId": "30cde4d8-73fe-413a-947d-cd3116a0cb2b",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/30cde4d8-73fe-413a-947d-cd3116a0cb2b/ProjectSettings/30cde4d8-73fe-413a-947d-cd3116a0cb2b/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ma***@cathena.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Participante ja estava com as permissoes e o titulo desejados."
+      }
+    },
+    {
+      "projectId": "feb590aa-7b39-49f4-acc8-3002d4dc8003",
+      "nomeProjeto": "03.03 - Free Flow P7 - Marginal Oeste km 18,050 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P7 - Marginal Oeste km 18,050 - SP-280",
+        "id": "423008",
+        "guid": "5b49c16a-8099-4ad4-9fb6-7174e50b6718",
+        "connectedProjectId": "feb590aa-7b39-49f4-acc8-3002d4dc8003",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/feb590aa-7b39-49f4-acc8-3002d4dc8003/ProjectSettings/feb590aa-7b39-49f4-acc8-3002d4dc8003/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@cathenaengenharia.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/feb590aa-7b39-49f4-acc8-3002d4dc8003/ProjectSettings/feb590aa-7b39-49f4-acc8-3002d4dc8003/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/feb590aa-7b39-49f4-acc8-3002d4dc8003/ProjectSettings/feb590aa-7b39-49f4-acc8-3002d4dc8003/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "ra***@cathenaengenharia.com.br",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "58ce550c-c682-48e0-bd8f-86fc0d7892a8",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/feb590aa-7b39-49f4-acc8-3002d4dc8003/ProjectSettings/feb590aa-7b39-49f4-acc8-3002d4dc8003/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/feb590aa-7b39-49f4-acc8-3002d4dc8003/ProjectSettings/feb590aa-7b39-49f4-acc8-3002d4dc8003/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "ra***@cathenaengenharia.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "58ce550c-c682-48e0-bd8f-86fc0d7892a8",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "feb590aa-7b39-49f4-acc8-3002d4dc8003",
+      "nomeProjeto": "03.03 - Free Flow P7 - Marginal Oeste km 18,050 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P7 - Marginal Oeste km 18,050 - SP-280",
+        "id": "423008",
+        "guid": "5b49c16a-8099-4ad4-9fb6-7174e50b6718",
+        "connectedProjectId": "feb590aa-7b39-49f4-acc8-3002d4dc8003",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/feb590aa-7b39-49f4-acc8-3002d4dc8003/ProjectSettings/feb590aa-7b39-49f4-acc8-3002d4dc8003/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ma***@cathena.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/feb590aa-7b39-49f4-acc8-3002d4dc8003/ProjectSettings/feb590aa-7b39-49f4-acc8-3002d4dc8003/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/feb590aa-7b39-49f4-acc8-3002d4dc8003/ProjectSettings/feb590aa-7b39-49f4-acc8-3002d4dc8003/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "ma***@cathena.com.br",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "d2f863ed-d036-4a1f-a9b3-d7bfd3f27726",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/feb590aa-7b39-49f4-acc8-3002d4dc8003/ProjectSettings/feb590aa-7b39-49f4-acc8-3002d4dc8003/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/feb590aa-7b39-49f4-acc8-3002d4dc8003/ProjectSettings/feb590aa-7b39-49f4-acc8-3002d4dc8003/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "ma***@cathena.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "d2f863ed-d036-4a1f-a9b3-d7bfd3f27726",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "17335eae-f523-4c5e-804a-c5ec8cc017d1",
+      "nomeProjeto": "03.03 - Free Flow P7 - Via Expressa Leste km 20,745 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P7 - Via Expressa Leste km 20,745 - SP-280",
+        "id": "423440",
+        "guid": "b41cc2ae-ca95-4fc1-a96b-fa5b074cb900",
+        "connectedProjectId": "17335eae-f523-4c5e-804a-c5ec8cc017d1",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/17335eae-f523-4c5e-804a-c5ec8cc017d1/ProjectSettings/17335eae-f523-4c5e-804a-c5ec8cc017d1/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@cathenaengenharia.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/17335eae-f523-4c5e-804a-c5ec8cc017d1/ProjectSettings/17335eae-f523-4c5e-804a-c5ec8cc017d1/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/17335eae-f523-4c5e-804a-c5ec8cc017d1/ProjectSettings/17335eae-f523-4c5e-804a-c5ec8cc017d1/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "ra***@cathenaengenharia.com.br",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "a0bc1b08-e84f-4279-94d5-4bec43a58c2f",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/17335eae-f523-4c5e-804a-c5ec8cc017d1/ProjectSettings/17335eae-f523-4c5e-804a-c5ec8cc017d1/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/17335eae-f523-4c5e-804a-c5ec8cc017d1/ProjectSettings/17335eae-f523-4c5e-804a-c5ec8cc017d1/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "ra***@cathenaengenharia.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "a0bc1b08-e84f-4279-94d5-4bec43a58c2f",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "17335eae-f523-4c5e-804a-c5ec8cc017d1",
+      "nomeProjeto": "03.03 - Free Flow P7 - Via Expressa Leste km 20,745 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P7 - Via Expressa Leste km 20,745 - SP-280",
+        "id": "423440",
+        "guid": "b41cc2ae-ca95-4fc1-a96b-fa5b074cb900",
+        "connectedProjectId": "17335eae-f523-4c5e-804a-c5ec8cc017d1",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/17335eae-f523-4c5e-804a-c5ec8cc017d1/ProjectSettings/17335eae-f523-4c5e-804a-c5ec8cc017d1/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ma***@cathena.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/17335eae-f523-4c5e-804a-c5ec8cc017d1/ProjectSettings/17335eae-f523-4c5e-804a-c5ec8cc017d1/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/17335eae-f523-4c5e-804a-c5ec8cc017d1/ProjectSettings/17335eae-f523-4c5e-804a-c5ec8cc017d1/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "ma***@cathena.com.br",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "7c15e204-15a8-480e-ad61-c3ccd03090e4",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/17335eae-f523-4c5e-804a-c5ec8cc017d1/ProjectSettings/17335eae-f523-4c5e-804a-c5ec8cc017d1/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/17335eae-f523-4c5e-804a-c5ec8cc017d1/ProjectSettings/17335eae-f523-4c5e-804a-c5ec8cc017d1/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "ma***@cathena.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "7c15e204-15a8-480e-ad61-c3ccd03090e4",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "b82a2e67-91c6-42b6-86ce-90f5b84e9b32",
+      "nomeProjeto": "03.03 - Free Flow P7 - Via Expressa Oeste km 18,140 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P7 - Via Expressa Oeste km 18,140 - SP-280",
+        "id": "423506",
+        "guid": "34aa45c8-7277-49b6-966f-29d3837b197a",
+        "connectedProjectId": "b82a2e67-91c6-42b6-86ce-90f5b84e9b32",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/b82a2e67-91c6-42b6-86ce-90f5b84e9b32/ProjectSettings/b82a2e67-91c6-42b6-86ce-90f5b84e9b32/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@cathenaengenharia.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/b82a2e67-91c6-42b6-86ce-90f5b84e9b32/ProjectSettings/b82a2e67-91c6-42b6-86ce-90f5b84e9b32/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/b82a2e67-91c6-42b6-86ce-90f5b84e9b32/ProjectSettings/b82a2e67-91c6-42b6-86ce-90f5b84e9b32/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "ra***@cathenaengenharia.com.br",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "85c9573b-32ff-42dc-89b8-e949d4316acf",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/b82a2e67-91c6-42b6-86ce-90f5b84e9b32/ProjectSettings/b82a2e67-91c6-42b6-86ce-90f5b84e9b32/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/b82a2e67-91c6-42b6-86ce-90f5b84e9b32/ProjectSettings/b82a2e67-91c6-42b6-86ce-90f5b84e9b32/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "ra***@cathenaengenharia.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "85c9573b-32ff-42dc-89b8-e949d4316acf",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "b82a2e67-91c6-42b6-86ce-90f5b84e9b32",
+      "nomeProjeto": "03.03 - Free Flow P7 - Via Expressa Oeste km 18,140 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P7 - Via Expressa Oeste km 18,140 - SP-280",
+        "id": "423506",
+        "guid": "34aa45c8-7277-49b6-966f-29d3837b197a",
+        "connectedProjectId": "b82a2e67-91c6-42b6-86ce-90f5b84e9b32",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/b82a2e67-91c6-42b6-86ce-90f5b84e9b32/ProjectSettings/b82a2e67-91c6-42b6-86ce-90f5b84e9b32/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ma***@cathena.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/b82a2e67-91c6-42b6-86ce-90f5b84e9b32/ProjectSettings/b82a2e67-91c6-42b6-86ce-90f5b84e9b32/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/b82a2e67-91c6-42b6-86ce-90f5b84e9b32/ProjectSettings/b82a2e67-91c6-42b6-86ce-90f5b84e9b32/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "ma***@cathena.com.br",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "4bd3ab36-bf49-4057-9c3d-559a093155b3",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/b82a2e67-91c6-42b6-86ce-90f5b84e9b32/ProjectSettings/b82a2e67-91c6-42b6-86ce-90f5b84e9b32/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/b82a2e67-91c6-42b6-86ce-90f5b84e9b32/ProjectSettings/b82a2e67-91c6-42b6-86ce-90f5b84e9b32/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "ma***@cathena.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "4bd3ab36-bf49-4057-9c3d-559a093155b3",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "25739821-e400-43d6-90cf-f4ca361422e5",
+      "nomeProjeto": "03.03 - Free Flow P8 - Marginal Leste km 24,040 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P8 - Marginal Leste km 24,040 - SP-280",
+        "id": "423031",
+        "guid": "745f5038-e787-47b7-9e60-f63f329e4cea",
+        "connectedProjectId": "25739821-e400-43d6-90cf-f4ca361422e5",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/25739821-e400-43d6-90cf-f4ca361422e5/ProjectSettings/25739821-e400-43d6-90cf-f4ca361422e5/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@cathenaengenharia.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/25739821-e400-43d6-90cf-f4ca361422e5/ProjectSettings/25739821-e400-43d6-90cf-f4ca361422e5/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/25739821-e400-43d6-90cf-f4ca361422e5/ProjectSettings/25739821-e400-43d6-90cf-f4ca361422e5/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "ra***@cathenaengenharia.com.br",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "543cf897-76bc-4dd6-bfb1-caacbaac134f",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/25739821-e400-43d6-90cf-f4ca361422e5/ProjectSettings/25739821-e400-43d6-90cf-f4ca361422e5/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/25739821-e400-43d6-90cf-f4ca361422e5/ProjectSettings/25739821-e400-43d6-90cf-f4ca361422e5/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "ra***@cathenaengenharia.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "543cf897-76bc-4dd6-bfb1-caacbaac134f",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "25739821-e400-43d6-90cf-f4ca361422e5",
+      "nomeProjeto": "03.03 - Free Flow P8 - Marginal Leste km 24,040 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P8 - Marginal Leste km 24,040 - SP-280",
+        "id": "423031",
+        "guid": "745f5038-e787-47b7-9e60-f63f329e4cea",
+        "connectedProjectId": "25739821-e400-43d6-90cf-f4ca361422e5",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/25739821-e400-43d6-90cf-f4ca361422e5/ProjectSettings/25739821-e400-43d6-90cf-f4ca361422e5/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ma***@cathena.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/25739821-e400-43d6-90cf-f4ca361422e5/ProjectSettings/25739821-e400-43d6-90cf-f4ca361422e5/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/25739821-e400-43d6-90cf-f4ca361422e5/ProjectSettings/25739821-e400-43d6-90cf-f4ca361422e5/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "ma***@cathena.com.br",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "a6d1d6d7-2623-4426-ac96-4c550f767926",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/25739821-e400-43d6-90cf-f4ca361422e5/ProjectSettings/25739821-e400-43d6-90cf-f4ca361422e5/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/25739821-e400-43d6-90cf-f4ca361422e5/ProjectSettings/25739821-e400-43d6-90cf-f4ca361422e5/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "ma***@cathena.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "a6d1d6d7-2623-4426-ac96-4c550f767926",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "4cbacd61-c55f-4fa0-ac35-6b07631f91c7",
+      "nomeProjeto": "03.03 - Free Flow P8 - Marginal Oeste km 23,980 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P8 - Marginal Oeste km 23,980 - SP-280",
+        "id": "423572",
+        "guid": "3cfaec2f-d4bb-41be-9ab5-f783beb5cc82",
+        "connectedProjectId": "4cbacd61-c55f-4fa0-ac35-6b07631f91c7",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/4cbacd61-c55f-4fa0-ac35-6b07631f91c7/ProjectSettings/4cbacd61-c55f-4fa0-ac35-6b07631f91c7/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@cathenaengenharia.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/4cbacd61-c55f-4fa0-ac35-6b07631f91c7/ProjectSettings/4cbacd61-c55f-4fa0-ac35-6b07631f91c7/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/4cbacd61-c55f-4fa0-ac35-6b07631f91c7/ProjectSettings/4cbacd61-c55f-4fa0-ac35-6b07631f91c7/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "ra***@cathenaengenharia.com.br",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "1382d98d-d3c6-44ed-bc5d-bf04cd8ce211",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/4cbacd61-c55f-4fa0-ac35-6b07631f91c7/ProjectSettings/4cbacd61-c55f-4fa0-ac35-6b07631f91c7/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/4cbacd61-c55f-4fa0-ac35-6b07631f91c7/ProjectSettings/4cbacd61-c55f-4fa0-ac35-6b07631f91c7/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "ra***@cathenaengenharia.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "1382d98d-d3c6-44ed-bc5d-bf04cd8ce211",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "4cbacd61-c55f-4fa0-ac35-6b07631f91c7",
+      "nomeProjeto": "03.03 - Free Flow P8 - Marginal Oeste km 23,980 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P8 - Marginal Oeste km 23,980 - SP-280",
+        "id": "423572",
+        "guid": "3cfaec2f-d4bb-41be-9ab5-f783beb5cc82",
+        "connectedProjectId": "4cbacd61-c55f-4fa0-ac35-6b07631f91c7",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/4cbacd61-c55f-4fa0-ac35-6b07631f91c7/ProjectSettings/4cbacd61-c55f-4fa0-ac35-6b07631f91c7/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ma***@cathena.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/4cbacd61-c55f-4fa0-ac35-6b07631f91c7/ProjectSettings/4cbacd61-c55f-4fa0-ac35-6b07631f91c7/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/4cbacd61-c55f-4fa0-ac35-6b07631f91c7/ProjectSettings/4cbacd61-c55f-4fa0-ac35-6b07631f91c7/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "ma***@cathena.com.br",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "a15ad168-58d6-4383-91ac-105e0e9f0d20",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/4cbacd61-c55f-4fa0-ac35-6b07631f91c7/ProjectSettings/4cbacd61-c55f-4fa0-ac35-6b07631f91c7/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/4cbacd61-c55f-4fa0-ac35-6b07631f91c7/ProjectSettings/4cbacd61-c55f-4fa0-ac35-6b07631f91c7/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "ma***@cathena.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "a15ad168-58d6-4383-91ac-105e0e9f0d20",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "6841f1b3-7a77-40a2-9a21-afbce6ce277a",
+      "nomeProjeto": "03.03 - Free Flow P8 - Via Expressa Leste km 24,010 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P8 - Via Expressa Leste km 24,010 - SP-280",
+        "id": "423605",
+        "guid": "19261be7-cd4b-4d96-8681-cd4a59256b6c",
+        "connectedProjectId": "6841f1b3-7a77-40a2-9a21-afbce6ce277a",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/6841f1b3-7a77-40a2-9a21-afbce6ce277a/ProjectSettings/6841f1b3-7a77-40a2-9a21-afbce6ce277a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@cathenaengenharia.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/6841f1b3-7a77-40a2-9a21-afbce6ce277a/ProjectSettings/6841f1b3-7a77-40a2-9a21-afbce6ce277a/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/6841f1b3-7a77-40a2-9a21-afbce6ce277a/ProjectSettings/6841f1b3-7a77-40a2-9a21-afbce6ce277a/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "ra***@cathenaengenharia.com.br",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "a90ac495-511a-4d44-85fc-b71a20289099",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/6841f1b3-7a77-40a2-9a21-afbce6ce277a/ProjectSettings/6841f1b3-7a77-40a2-9a21-afbce6ce277a/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/6841f1b3-7a77-40a2-9a21-afbce6ce277a/ProjectSettings/6841f1b3-7a77-40a2-9a21-afbce6ce277a/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "ra***@cathenaengenharia.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "a90ac495-511a-4d44-85fc-b71a20289099",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "6841f1b3-7a77-40a2-9a21-afbce6ce277a",
+      "nomeProjeto": "03.03 - Free Flow P8 - Via Expressa Leste km 24,010 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P8 - Via Expressa Leste km 24,010 - SP-280",
+        "id": "423605",
+        "guid": "19261be7-cd4b-4d96-8681-cd4a59256b6c",
+        "connectedProjectId": "6841f1b3-7a77-40a2-9a21-afbce6ce277a",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/6841f1b3-7a77-40a2-9a21-afbce6ce277a/ProjectSettings/6841f1b3-7a77-40a2-9a21-afbce6ce277a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ma***@cathena.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/6841f1b3-7a77-40a2-9a21-afbce6ce277a/ProjectSettings/6841f1b3-7a77-40a2-9a21-afbce6ce277a/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/6841f1b3-7a77-40a2-9a21-afbce6ce277a/ProjectSettings/6841f1b3-7a77-40a2-9a21-afbce6ce277a/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "ma***@cathena.com.br",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "c49ca57e-f0a8-4db4-89e9-62a3b8905d1c",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/6841f1b3-7a77-40a2-9a21-afbce6ce277a/ProjectSettings/6841f1b3-7a77-40a2-9a21-afbce6ce277a/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/6841f1b3-7a77-40a2-9a21-afbce6ce277a/ProjectSettings/6841f1b3-7a77-40a2-9a21-afbce6ce277a/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "ma***@cathena.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "c49ca57e-f0a8-4db4-89e9-62a3b8905d1c",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "27f2366e-7ec3-4a08-a22f-ad91ce49d6b0",
+      "nomeProjeto": "03.03 - Free Flow P8 - Via Expressa Oeste km 24,010 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P8 - Via Expressa Oeste km 24,010 - SP-280",
+        "id": "423539",
+        "guid": "2e7919ce-61f2-431d-b414-facfd8af5b86",
+        "connectedProjectId": "27f2366e-7ec3-4a08-a22f-ad91ce49d6b0",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/27f2366e-7ec3-4a08-a22f-ad91ce49d6b0/ProjectSettings/27f2366e-7ec3-4a08-a22f-ad91ce49d6b0/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@cathenaengenharia.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/27f2366e-7ec3-4a08-a22f-ad91ce49d6b0/ProjectSettings/27f2366e-7ec3-4a08-a22f-ad91ce49d6b0/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/27f2366e-7ec3-4a08-a22f-ad91ce49d6b0/ProjectSettings/27f2366e-7ec3-4a08-a22f-ad91ce49d6b0/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "ra***@cathenaengenharia.com.br",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "5a888071-681b-4336-8f0b-0eab6dfd5649",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/27f2366e-7ec3-4a08-a22f-ad91ce49d6b0/ProjectSettings/27f2366e-7ec3-4a08-a22f-ad91ce49d6b0/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/27f2366e-7ec3-4a08-a22f-ad91ce49d6b0/ProjectSettings/27f2366e-7ec3-4a08-a22f-ad91ce49d6b0/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "ra***@cathenaengenharia.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "5a888071-681b-4336-8f0b-0eab6dfd5649",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "27f2366e-7ec3-4a08-a22f-ad91ce49d6b0",
+      "nomeProjeto": "03.03 - Free Flow P8 - Via Expressa Oeste km 24,010 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P8 - Via Expressa Oeste km 24,010 - SP-280",
+        "id": "423539",
+        "guid": "2e7919ce-61f2-431d-b414-facfd8af5b86",
+        "connectedProjectId": "27f2366e-7ec3-4a08-a22f-ad91ce49d6b0",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/27f2366e-7ec3-4a08-a22f-ad91ce49d6b0/ProjectSettings/27f2366e-7ec3-4a08-a22f-ad91ce49d6b0/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ma***@cathena.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/27f2366e-7ec3-4a08-a22f-ad91ce49d6b0/ProjectSettings/27f2366e-7ec3-4a08-a22f-ad91ce49d6b0/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/27f2366e-7ec3-4a08-a22f-ad91ce49d6b0/ProjectSettings/27f2366e-7ec3-4a08-a22f-ad91ce49d6b0/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "ma***@cathena.com.br",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "9f1f48b4-6117-4eac-91cb-ef2fb73608dd",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/27f2366e-7ec3-4a08-a22f-ad91ce49d6b0/ProjectSettings/27f2366e-7ec3-4a08-a22f-ad91ce49d6b0/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/27f2366e-7ec3-4a08-a22f-ad91ce49d6b0/ProjectSettings/27f2366e-7ec3-4a08-a22f-ad91ce49d6b0/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "ma***@cathena.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "9f1f48b4-6117-4eac-91cb-ef2fb73608dd",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "2144adc7-166a-49c1-8b26-db74a8ff27e5",
+      "nomeProjeto": "03.03 - Free Flow P9 - Via Expressa Leste km 29,210 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P9 - Via Expressa Leste km 29,210 - SP-280",
+        "id": "423054",
+        "guid": "30a2ca56-8bd9-4ab8-b10b-77a39ee73273",
+        "connectedProjectId": "2144adc7-166a-49c1-8b26-db74a8ff27e5",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/2144adc7-166a-49c1-8b26-db74a8ff27e5/ProjectSettings/2144adc7-166a-49c1-8b26-db74a8ff27e5/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@cathenaengenharia.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/2144adc7-166a-49c1-8b26-db74a8ff27e5/ProjectSettings/2144adc7-166a-49c1-8b26-db74a8ff27e5/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/2144adc7-166a-49c1-8b26-db74a8ff27e5/ProjectSettings/2144adc7-166a-49c1-8b26-db74a8ff27e5/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "ra***@cathenaengenharia.com.br",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "26541725-a8ce-42b1-b8ad-34cf5c02752f",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/2144adc7-166a-49c1-8b26-db74a8ff27e5/ProjectSettings/2144adc7-166a-49c1-8b26-db74a8ff27e5/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/2144adc7-166a-49c1-8b26-db74a8ff27e5/ProjectSettings/2144adc7-166a-49c1-8b26-db74a8ff27e5/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "ra***@cathenaengenharia.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "26541725-a8ce-42b1-b8ad-34cf5c02752f",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "2144adc7-166a-49c1-8b26-db74a8ff27e5",
+      "nomeProjeto": "03.03 - Free Flow P9 - Via Expressa Leste km 29,210 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P9 - Via Expressa Leste km 29,210 - SP-280",
+        "id": "423054",
+        "guid": "30a2ca56-8bd9-4ab8-b10b-77a39ee73273",
+        "connectedProjectId": "2144adc7-166a-49c1-8b26-db74a8ff27e5",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/2144adc7-166a-49c1-8b26-db74a8ff27e5/ProjectSettings/2144adc7-166a-49c1-8b26-db74a8ff27e5/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ma***@cathena.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/2144adc7-166a-49c1-8b26-db74a8ff27e5/ProjectSettings/2144adc7-166a-49c1-8b26-db74a8ff27e5/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/2144adc7-166a-49c1-8b26-db74a8ff27e5/ProjectSettings/2144adc7-166a-49c1-8b26-db74a8ff27e5/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "ma***@cathena.com.br",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "1ad2ffe7-f905-4026-a514-87d15e44542e",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/2144adc7-166a-49c1-8b26-db74a8ff27e5/ProjectSettings/2144adc7-166a-49c1-8b26-db74a8ff27e5/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/2144adc7-166a-49c1-8b26-db74a8ff27e5/ProjectSettings/2144adc7-166a-49c1-8b26-db74a8ff27e5/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "ma***@cathena.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "1ad2ffe7-f905-4026-a514-87d15e44542e",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "624cd394-bd20-483f-a325-27ea3518eefe",
+      "nomeProjeto": "03.03 - Free Flow P9 - Via Expressa Oeste km 29,340 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P9 - Via Expressa Oeste km 29,340 - SP-280",
+        "id": "423638",
+        "guid": "2cab500e-33d9-476a-88e7-784ccd8e358a",
+        "connectedProjectId": "624cd394-bd20-483f-a325-27ea3518eefe",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/624cd394-bd20-483f-a325-27ea3518eefe/ProjectSettings/624cd394-bd20-483f-a325-27ea3518eefe/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@cathenaengenharia.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/624cd394-bd20-483f-a325-27ea3518eefe/ProjectSettings/624cd394-bd20-483f-a325-27ea3518eefe/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/624cd394-bd20-483f-a325-27ea3518eefe/ProjectSettings/624cd394-bd20-483f-a325-27ea3518eefe/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "ra***@cathenaengenharia.com.br",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "fc05729e-4da7-4705-967b-dea121c7e5da",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/624cd394-bd20-483f-a325-27ea3518eefe/ProjectSettings/624cd394-bd20-483f-a325-27ea3518eefe/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/624cd394-bd20-483f-a325-27ea3518eefe/ProjectSettings/624cd394-bd20-483f-a325-27ea3518eefe/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "ra***@cathenaengenharia.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "fc05729e-4da7-4705-967b-dea121c7e5da",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "624cd394-bd20-483f-a325-27ea3518eefe",
+      "nomeProjeto": "03.03 - Free Flow P9 - Via Expressa Oeste km 29,340 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P9 - Via Expressa Oeste km 29,340 - SP-280",
+        "id": "423638",
+        "guid": "2cab500e-33d9-476a-88e7-784ccd8e358a",
+        "connectedProjectId": "624cd394-bd20-483f-a325-27ea3518eefe",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/624cd394-bd20-483f-a325-27ea3518eefe/ProjectSettings/624cd394-bd20-483f-a325-27ea3518eefe/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ma***@cathena.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/624cd394-bd20-483f-a325-27ea3518eefe/ProjectSettings/624cd394-bd20-483f-a325-27ea3518eefe/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/624cd394-bd20-483f-a325-27ea3518eefe/ProjectSettings/624cd394-bd20-483f-a325-27ea3518eefe/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "ma***@cathena.com.br",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "42327715-2f1b-4085-bf09-6a0a05ab3950",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/624cd394-bd20-483f-a325-27ea3518eefe/ProjectSettings/624cd394-bd20-483f-a325-27ea3518eefe/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/624cd394-bd20-483f-a325-27ea3518eefe/ProjectSettings/624cd394-bd20-483f-a325-27ea3518eefe/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "ma***@cathena.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "42327715-2f1b-4085-bf09-6a0a05ab3950",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    }
+  ]
+}

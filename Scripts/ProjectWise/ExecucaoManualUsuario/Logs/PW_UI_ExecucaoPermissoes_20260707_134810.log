@@ -1,0 +1,61 @@
+2026-07-07 13:48:10 | INFO | Aplicacao iniciada.
+2026-07-07 13:48:10 | INFO | Tentando importar modulo do ProjectWise.
+2026-07-07 13:48:10 | INFO | Modulo 'pwps_dab' importado com sucesso.
+2026-07-07 13:48:10 | INFO | Tentando conectar ao datasource do ProjectWise.
+2026-07-07 13:48:10 | INFO | Tentando conexao via 'New-PWLogin'. Parametros: DatasourceName, UserName, Password, UseGui, DoNotCreateWorkingDirectory, BentleyIMS, LoadWRE, NonAdminLogin, Token, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-07-07 13:48:24 | INFO | Conexao realizada via 'New-PWLogin -BentleyIMS'.
+2026-07-07 13:48:24 | INFO | Conexao com ProjectWise realizada com sucesso.
+2026-07-07 13:48:32 | INFO | Buscando usuario pelo email: t_gustavofe@ecorodovias.com.br
+2026-07-07 13:48:32 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-07-07 13:48:32 | INFO | Usuario localizado com correspondencia exata de email.
+2026-07-07 13:48:38 | INFO | Buscando usuario pelo email: T_Daniela.Cunha@ecorodovias.com.br
+2026-07-07 13:48:38 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-07-07 13:48:38 | INFO | Usuario localizado com correspondencia exata de email.
+2026-07-07 13:48:43 | INFO | Buscando usuario pelo email: joao.wanka@appeltda.onmicrosoft.com
+2026-07-07 13:48:43 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-07-07 13:48:43 | INFO | Usuario localizado com correspondencia exata de email.
+2026-07-07 13:48:48 | INFO | Buscando usuario pelo email: manoel.simon@appeltda.onmicrosoft.com
+2026-07-07 13:48:48 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-07-07 13:48:48 | INFO | Usuario localizado com correspondencia exata de email.
+2026-07-07 13:48:55 | INFO | Buscando usuario pelo email: prudencio.wust@appeltda.onmicrosoft.com
+2026-07-07 13:48:55 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-07-07 13:48:55 | INFO | Usuario localizado com correspondencia exata de email.
+2026-07-07 13:49:01 | INFO | Buscando usuario pelo email: miguel.cardoso@appeltda.onmicrosoft.com
+2026-07-07 13:49:01 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-07-07 13:49:01 | INFO | Usuario localizado com correspondencia exata de email.
+2026-07-07 13:49:03 | INFO | Listando pastas da raiz por Root.
+2026-07-07 13:49:04 | INFO | Listando filhos da pasta ID: 56
+2026-07-07 13:49:24 | INFO | Listando filhos da pasta ID: 760
+2026-07-07 13:49:24 | INFO | Listando filhos da pasta ID: 103206
+2026-07-07 13:49:25 | INFO | Iniciando leitura da seguranca do projeto '062-Iluminação' (ID: 387189)
+2026-07-07 13:49:26 | INFO | Get-PWFolderSecurity retornou 14 item(ns).
+2026-07-07 13:49:26 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-07-07 13:49:27 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-07-07 13:49:27 | INFO | Total consolidado de acessos encontrados: 13
+2026-07-07 13:49:27 | INFO | Projeto '062 - Iluminação km 11 - 45 - SP-070' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-07-07 13:49:27 | INFO | Iniciando leitura da seguranca do projeto 'Marginais km 19-29' (ID: 104029)
+2026-07-07 13:49:27 | INFO | Get-PWFolderSecurity retornou 14 item(ns).
+2026-07-07 13:49:27 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-07-07 13:49:27 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-07-07 13:49:27 | INFO | Total consolidado de acessos encontrados: 13
+2026-07-07 13:49:27 | INFO | Projeto 'Retornos e Implantação/Ampliação de Marginais km 19-29' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-07-07 13:49:27 | INFO | Iniciando leitura da seguranca do projeto 'Marginal Taboão' (ID: 103618)
+2026-07-07 13:49:28 | INFO | Get-PWFolderSecurity retornou 14 item(ns).
+2026-07-07 13:49:28 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-07-07 13:49:28 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-07-07 13:49:28 | INFO | Total consolidado de acessos encontrados: 13
+2026-07-07 13:49:28 | INFO | Projeto 'Marginal Taboão km 45-51 + Alças km 36 e 38' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-07-07 13:49:28 | INFO | Iniciando leitura da seguranca do projeto 'Prolon Carvalho Pinto' (ID: 326919)
+2026-07-07 13:49:29 | INFO | Get-PWFolderSecurity retornou 14 item(ns).
+2026-07-07 13:49:29 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-07-07 13:49:29 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-07-07 13:49:29 | INFO | Total consolidado de acessos encontrados: 13
+2026-07-07 13:49:29 | INFO | Projeto 'Prolongamento Carvalho Pinto - km 134 - SP 070' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-07-07 13:49:29 | INFO | Iniciando leitura da seguranca do projeto 'Viaduto Imigrante' (ID: 103207)
+2026-07-07 13:49:29 | INFO | Get-PWFolderSecurity retornou 14 item(ns).
+2026-07-07 13:49:30 | INFO | Get-PWFolderTreeAccessObjects retornou 1 item(ns).
+2026-07-07 13:49:30 | WARN | Cmdlet Get-PWProjectSecurity nao encontrado no ambiente. A leitura seguira apenas com FolderSecurity/TreeAccessObjects.
+2026-07-07 13:49:30 | INFO | Total consolidado de acessos encontrados: 13
+2026-07-07 13:49:30 | INFO | Projeto 'Viaduto Imigrante Nordestino e Monteiro Lobato' carregado para arvore. Groups=11 | UserLists=1 | Outros=1
+2026-07-07 13:50:00 | INFO | Resumo final da execução | Total=6 | Sucesso=6 | JaExiste=0 | Erro=0
+2026-07-07 13:50:54 | INFO | Sessao encerrada com 'Undo-PWLogin'.

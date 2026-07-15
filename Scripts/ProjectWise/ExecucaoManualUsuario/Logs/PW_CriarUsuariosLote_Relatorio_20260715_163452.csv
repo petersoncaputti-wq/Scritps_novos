@@ -1,0 +1,7 @@
+﻿"Linha";"UserName";"Description";"Email";"SecurityProvider";"IMSUser";"Status";"Acao";"Mensagem";"Acessos"
+"2";"Kauane Silva";"Projetista";"kauane.silva@egis-group.com";"";"True";"OK";"JaExistia";"Processado com sucesso.";"Sem grupos/user lists"
+"3";"Jessica Mello";"Projetista";"jessica.mello@egis-group.com";"";"True";"OK";"JaExistia";"Processado com sucesso.";"Sem grupos/user lists"
+"4";"Juliana Batista";"Projetista";"juliana.batista@egis-group.com";"";"True";"OK";"Criado";"Processado com sucesso.";"Sem grupos/user lists"
+"5";"Glicia Oliveira";"Projetista";"glicia.oliveira@egis-group.com";"";"True";"OK";"JaExistia";"Processado com sucesso.";"Sem grupos/user lists"
+"6";"";"";"";"";"True";"INVALIDO";"Validacao";"Name vazio; E-mail vazio";""
+"7";"";"";"";"";"True";"INVALIDO";"Validacao";"Name vazio; E-mail vazio";""

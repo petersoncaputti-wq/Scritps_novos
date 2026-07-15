@@ -1,0 +1,31 @@
+2026-07-01 14:26:18 | INFO | ProjectWise - criacao de usuarios em lote
+2026-07-01 14:26:18 | INFO | Log: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\PW_CriarUsuariosLote_20260701_142618.log
+2026-07-01 14:26:19 | INFO | Abrindo login no ProjectWise...
+2026-07-01 14:26:29 | OK | Login realizado. Usuario atual: Peterson Caputti
+2026-07-01 14:26:41 | INFO | Arquivo de entrada: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Modelo_Criacao_Usuarios_ProjectWise.xlsx
+2026-07-01 14:26:41 | INFO | Registros carregados: 5
+2026-07-01 14:26:42 | OK | Linha 2: usuario criado - Ian Bispo
+2026-07-01 14:26:42 | OK | Linha 3: usuario criado - Matheus Moraes
+2026-07-01 14:26:42 | OK | Linha 4: usuario criado - Leonardo Souza
+2026-07-01 14:26:42 | OK | Linha 5: usuario criado - Leonardo Silva
+2026-07-01 14:26:42 | WARN | Linha 6: invalida - Name vazio; E-mail vazio
+2026-07-01 14:26:46 | WARN | Nenhuma pasta foi selecionada para a extracao. Usando pasta padrao: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\UsuariosPorDescricao_20260701_142618
+2026-07-01 14:26:46 | INFO | Gerando arquivo da lista processada para descricao: Consulta todas ver
+2026-07-01 14:26:47 | OK | Arquivo gerado: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\UsuariosPorDescricao_20260701_142618\Usuarios_Descricao_Consulta todas ver.xlsx
+2026-07-01 14:26:47 | INFO | Sessao ProjectWise encerrada.
+2026-07-01 14:26:47 | INFO | 
+2026-07-01 14:26:47 | INFO | ================ RESUMO FINAL ================
+2026-07-01 14:26:47 | INFO | Total de linhas processadas : 5
+2026-07-01 14:26:47 | OK | Usuarios criados            : 4
+2026-07-01 14:26:47 | OK | Usuarios atualizados        : 0
+2026-07-01 14:26:47 | WARN | Usuarios ja existentes      : 0
+2026-07-01 14:26:47 | INFO | Linhas apenas validadas     : 0
+2026-07-01 14:26:47 | WARN | Linhas invalidas            : 1
+2026-07-01 14:26:47 | OK | Erros de processamento      : 0
+2026-07-01 14:26:47 | OK | Relatorio completo          : C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\PW_CriarUsuariosLote_Relatorio_20260701_142618.csv
+2026-07-01 14:26:47 | OK | Arquivos Excel por descricao:
+2026-07-01 14:26:47 | OK | - C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\UsuariosPorDescricao_20260701_142618\Usuarios_Descricao_Consulta todas ver.xlsx
+2026-07-01 14:26:47 | INFO | 
+2026-07-01 14:26:47 | WARN | Linhas que precisam de atencao:
+2026-07-01 14:26:47 | WARN | - Linha 6 | INVALIDO |  | Name vazio; E-mail vazio
+2026-07-01 14:26:47 | INFO | ==============================================

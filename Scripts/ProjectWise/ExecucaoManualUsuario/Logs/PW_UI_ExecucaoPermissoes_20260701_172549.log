@@ -1,0 +1,26 @@
+2026-07-01 17:25:49 | INFO | Aplicacao iniciada.
+2026-07-01 17:25:49 | INFO | Tentando importar modulo do ProjectWise.
+2026-07-01 17:25:50 | INFO | Modulo 'pwps_dab' importado com sucesso.
+2026-07-01 17:25:50 | INFO | Tentando conectar ao datasource do ProjectWise.
+2026-07-01 17:25:50 | INFO | Tentando conexao via 'New-PWLogin'. Parametros: DatasourceName, UserName, Password, UseGui, DoNotCreateWorkingDirectory, BentleyIMS, LoadWRE, NonAdminLogin, Token, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-07-01 17:26:08 | INFO | Conexao realizada via 'New-PWLogin -BentleyIMS'.
+2026-07-01 17:26:08 | INFO | Conexao com ProjectWise realizada com sucesso.
+2026-07-01 17:26:25 | INFO | Buscando usuario pelo email: daniel2.queiroz@egis-group.com
+2026-07-01 17:26:25 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-07-01 17:26:26 | INFO | Usuario localizado com correspondencia exata de email.
+2026-07-01 17:26:32 | INFO | Buscando usuario pelo email: yukari.aibe@egis-group.com
+2026-07-01 17:26:32 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-07-01 17:26:32 | INFO | Usuario localizado com correspondencia exata de email.
+2026-07-01 17:26:39 | INFO | Buscando usuario pelo email: lais.franca@egis-group.com
+2026-07-01 17:26:39 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-07-01 17:26:39 | ERROR | Erro ao buscar usuario. Detalhe: Nenhum usuario encontrado para o e-mail informado.
+2026-07-01 17:26:51 | INFO | Buscando usuario pelo email: Jessica.mello@egis-group.com
+2026-07-01 17:26:51 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-07-01 17:26:51 | INFO | Usuario localizado com correspondencia exata de email.
+2026-07-01 17:27:00 | INFO | Buscando usuario pelo email: kauane.silva@egis-group.com
+2026-07-01 17:27:00 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-07-01 17:27:00 | INFO | Usuario localizado com correspondencia exata de email.
+2026-07-01 17:27:05 | INFO | Buscando usuario pelo email: gustavo.gomes@egis-group.com
+2026-07-01 17:27:05 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-07-01 17:27:05 | INFO | Usuario localizado com correspondencia exata de email.
+2026-07-01 17:29:45 | INFO | Sessao encerrada com 'Undo-PWLogin'.

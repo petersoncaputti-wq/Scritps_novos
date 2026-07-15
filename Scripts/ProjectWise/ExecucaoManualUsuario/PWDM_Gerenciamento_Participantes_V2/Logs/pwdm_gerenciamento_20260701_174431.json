@@ -1,0 +1,745 @@
+{
+  "timestamp": "2026-07-01T17:44:31",
+  "operacoes": [
+    {
+      "email": "da***@egis-group.com",
+      "nomeProjeto": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+        "id": "255227",
+        "guid": "9e26356f-eafb-4cab-b87d-014d40b80831",
+        "connectedProjectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e221e732-7d85-4885-82a7-96d09389b8be/ProjectSettings/e221e732-7d85-4885-82a7-96d09389b8be/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "e221e732-7d85-4885-82a7-96d09389b8be",
+      "projectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Daniel BESERRA DE QUEIROZ",
+        "email": "da***@egis-group.com",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "03ac50c2-86b5-4a83-a769-da15067e1b76",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "yu***@egis-group.com",
+      "nomeProjeto": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+        "id": "255227",
+        "guid": "9e26356f-eafb-4cab-b87d-014d40b80831",
+        "connectedProjectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e221e732-7d85-4885-82a7-96d09389b8be/ProjectSettings/e221e732-7d85-4885-82a7-96d09389b8be/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "e221e732-7d85-4885-82a7-96d09389b8be",
+      "projectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Yukari BENEDETTI AIBE",
+        "email": "yu***@egis-group.com",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "d7872f7d-a6dc-4a83-a28e-51f8fad3231f",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "la***@egis-group.com",
+      "nomeProjeto": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+        "id": "255227",
+        "guid": "9e26356f-eafb-4cab-b87d-014d40b80831",
+        "connectedProjectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e221e732-7d85-4885-82a7-96d09389b8be/ProjectSettings/e221e732-7d85-4885-82a7-96d09389b8be/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "e221e732-7d85-4885-82a7-96d09389b8be",
+      "projectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Lais DOS SANTOS FRANCA NASCIMENTO",
+        "email": "la***@egis-group.com",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "45dee7a7-3321-4cf7-a683-6f6ba003f7e1",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "je***@egis-group.com",
+      "nomeProjeto": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+        "id": "255227",
+        "guid": "9e26356f-eafb-4cab-b87d-014d40b80831",
+        "connectedProjectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e221e732-7d85-4885-82a7-96d09389b8be/ProjectSettings/e221e732-7d85-4885-82a7-96d09389b8be/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "e221e732-7d85-4885-82a7-96d09389b8be",
+      "projectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Jessica RODRIGUES DE MELLO",
+        "email": "je***@egis-group.com",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "42e9d5b9-078e-4024-9571-08db02331927",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "ka***@egis-group.com",
+      "nomeProjeto": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+        "id": "255227",
+        "guid": "9e26356f-eafb-4cab-b87d-014d40b80831",
+        "connectedProjectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e221e732-7d85-4885-82a7-96d09389b8be/ProjectSettings/e221e732-7d85-4885-82a7-96d09389b8be/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "e221e732-7d85-4885-82a7-96d09389b8be",
+      "projectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Kauane APARECIDA ALCANTARA SILVA",
+        "email": "ka***@egis-group.com",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "6cb86a36-6377-4a54-9a21-d37ce0b27264",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "gu***@egis-group.com",
+      "nomeProjeto": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+        "id": "255227",
+        "guid": "9e26356f-eafb-4cab-b87d-014d40b80831",
+        "connectedProjectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e221e732-7d85-4885-82a7-96d09389b8be/ProjectSettings/e221e732-7d85-4885-82a7-96d09389b8be/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "e221e732-7d85-4885-82a7-96d09389b8be",
+      "projectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Gustavo HENRIQUE NUNES GOMES",
+        "email": "gu***@egis-group.com",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "82c1f5fd-5eeb-4c07-b349-46f7617c6c28",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "da***@egis-group.com",
+      "nomeProjeto": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+        "id": "256672",
+        "guid": "389e884f-5d2f-4042-a269-496a34745745",
+        "connectedProjectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+      "projectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "erro_consulta_participantes",
+      "descricaoAcao": "Projeto ignorado: nao foi possivel consultar participantes.",
+      "status": "erro_consulta_participantes",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "erroConsultaParticipantes": "Resposta inesperada ao buscar participantes em 3887ad62-2f26-423f-bf8e-801139045ca8: HTTP 200 ; Content-Type: text/html; charset=utf-8; URL tela: https://pwdm.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/View#PARTICIPANTS; Endpoint: /3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/UserGroupsAndUsers; URL resposta: https://infrastructurecloud.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/UserGroupsAndUsers; Inicio da resposta: <!doctype html><html><head><meta charset=\"utf-8\"><base href=\"/\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\"><link rel=\"icon\" href=\"./favicon.ico\" type=\"image/x-icon\"><link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" crossorigin><link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700\" rel=\"stylesheet\"><title>Infrastructure Cloud</title></head><body><main role=\"main\" class=\"container\">\n        <div id=\"app\">\n            <input name=\"__RequestVerificationToken\" type=\"hidden\" value=\"CfDJ8L2WHuHsnthGsGk_0SWJUf0c_fcUjn1JxspzhUjl-wd12QC09KALmLpW92SZSr738VAcgBN_OTDayMU0WS44SwNq-8cHz87eLfUL1bl0CAUwLanWbkKdPceIkcgGsISmwzzMHpsVj1FOsBPmq7sMu5o\" />\n            \r\n<div id=\"app\" class=\"container\"></div>\r\n<div id=\"dropdown-portal\"></div>\n        </div>\n        <div id=\"error-warning\" style=\"display: none;\">\n            <div style=\"display: flex;flex-direction: column; flex: 1 1 auto; justify-content: center;align-items: center; height: 100vh;\">\n  "
+    },
+    {
+      "email": "yu***@egis-group.com",
+      "nomeProjeto": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+        "id": "256672",
+        "guid": "389e884f-5d2f-4042-a269-496a34745745",
+        "connectedProjectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+      "projectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "erro_consulta_participantes",
+      "descricaoAcao": "Projeto ignorado: nao foi possivel consultar participantes.",
+      "status": "erro_consulta_participantes",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "erroConsultaParticipantes": "Resposta inesperada ao buscar participantes em 3887ad62-2f26-423f-bf8e-801139045ca8: HTTP 200 ; Content-Type: text/html; charset=utf-8; URL tela: https://pwdm.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/View#PARTICIPANTS; Endpoint: /3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/UserGroupsAndUsers; URL resposta: https://infrastructurecloud.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/UserGroupsAndUsers; Inicio da resposta: <!doctype html><html><head><meta charset=\"utf-8\"><base href=\"/\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\"><link rel=\"icon\" href=\"./favicon.ico\" type=\"image/x-icon\"><link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" crossorigin><link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700\" rel=\"stylesheet\"><title>Infrastructure Cloud</title></head><body><main role=\"main\" class=\"container\">\n        <div id=\"app\">\n            <input name=\"__RequestVerificationToken\" type=\"hidden\" value=\"CfDJ8L2WHuHsnthGsGk_0SWJUf0c_fcUjn1JxspzhUjl-wd12QC09KALmLpW92SZSr738VAcgBN_OTDayMU0WS44SwNq-8cHz87eLfUL1bl0CAUwLanWbkKdPceIkcgGsISmwzzMHpsVj1FOsBPmq7sMu5o\" />\n            \r\n<div id=\"app\" class=\"container\"></div>\r\n<div id=\"dropdown-portal\"></div>\n        </div>\n        <div id=\"error-warning\" style=\"display: none;\">\n            <div style=\"display: flex;flex-direction: column; flex: 1 1 auto; justify-content: center;align-items: center; height: 100vh;\">\n  "
+    },
+    {
+      "email": "la***@egis-group.com",
+      "nomeProjeto": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+        "id": "256672",
+        "guid": "389e884f-5d2f-4042-a269-496a34745745",
+        "connectedProjectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+      "projectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "erro_consulta_participantes",
+      "descricaoAcao": "Projeto ignorado: nao foi possivel consultar participantes.",
+      "status": "erro_consulta_participantes",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "erroConsultaParticipantes": "Resposta inesperada ao buscar participantes em 3887ad62-2f26-423f-bf8e-801139045ca8: HTTP 200 ; Content-Type: text/html; charset=utf-8; URL tela: https://pwdm.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/View#PARTICIPANTS; Endpoint: /3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/UserGroupsAndUsers; URL resposta: https://infrastructurecloud.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/UserGroupsAndUsers; Inicio da resposta: <!doctype html><html><head><meta charset=\"utf-8\"><base href=\"/\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\"><link rel=\"icon\" href=\"./favicon.ico\" type=\"image/x-icon\"><link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" crossorigin><link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700\" rel=\"stylesheet\"><title>Infrastructure Cloud</title></head><body><main role=\"main\" class=\"container\">\n        <div id=\"app\">\n            <input name=\"__RequestVerificationToken\" type=\"hidden\" value=\"CfDJ8L2WHuHsnthGsGk_0SWJUf0c_fcUjn1JxspzhUjl-wd12QC09KALmLpW92SZSr738VAcgBN_OTDayMU0WS44SwNq-8cHz87eLfUL1bl0CAUwLanWbkKdPceIkcgGsISmwzzMHpsVj1FOsBPmq7sMu5o\" />\n            \r\n<div id=\"app\" class=\"container\"></div>\r\n<div id=\"dropdown-portal\"></div>\n        </div>\n        <div id=\"error-warning\" style=\"display: none;\">\n            <div style=\"display: flex;flex-direction: column; flex: 1 1 auto; justify-content: center;align-items: center; height: 100vh;\">\n  "
+    },
+    {
+      "email": "je***@egis-group.com",
+      "nomeProjeto": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+        "id": "256672",
+        "guid": "389e884f-5d2f-4042-a269-496a34745745",
+        "connectedProjectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+      "projectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "erro_consulta_participantes",
+      "descricaoAcao": "Projeto ignorado: nao foi possivel consultar participantes.",
+      "status": "erro_consulta_participantes",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "erroConsultaParticipantes": "Resposta inesperada ao buscar participantes em 3887ad62-2f26-423f-bf8e-801139045ca8: HTTP 200 ; Content-Type: text/html; charset=utf-8; URL tela: https://pwdm.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/View#PARTICIPANTS; Endpoint: /3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/UserGroupsAndUsers; URL resposta: https://infrastructurecloud.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/UserGroupsAndUsers; Inicio da resposta: <!doctype html><html><head><meta charset=\"utf-8\"><base href=\"/\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\"><link rel=\"icon\" href=\"./favicon.ico\" type=\"image/x-icon\"><link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" crossorigin><link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700\" rel=\"stylesheet\"><title>Infrastructure Cloud</title></head><body><main role=\"main\" class=\"container\">\n        <div id=\"app\">\n            <input name=\"__RequestVerificationToken\" type=\"hidden\" value=\"CfDJ8L2WHuHsnthGsGk_0SWJUf0c_fcUjn1JxspzhUjl-wd12QC09KALmLpW92SZSr738VAcgBN_OTDayMU0WS44SwNq-8cHz87eLfUL1bl0CAUwLanWbkKdPceIkcgGsISmwzzMHpsVj1FOsBPmq7sMu5o\" />\n            \r\n<div id=\"app\" class=\"container\"></div>\r\n<div id=\"dropdown-portal\"></div>\n        </div>\n        <div id=\"error-warning\" style=\"display: none;\">\n            <div style=\"display: flex;flex-direction: column; flex: 1 1 auto; justify-content: center;align-items: center; height: 100vh;\">\n  "
+    },
+    {
+      "email": "ka***@egis-group.com",
+      "nomeProjeto": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+        "id": "256672",
+        "guid": "389e884f-5d2f-4042-a269-496a34745745",
+        "connectedProjectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+      "projectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "erro_consulta_participantes",
+      "descricaoAcao": "Projeto ignorado: nao foi possivel consultar participantes.",
+      "status": "erro_consulta_participantes",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "erroConsultaParticipantes": "Resposta inesperada ao buscar participantes em 3887ad62-2f26-423f-bf8e-801139045ca8: HTTP 200 ; Content-Type: text/html; charset=utf-8; URL tela: https://pwdm.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/View#PARTICIPANTS; Endpoint: /3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/UserGroupsAndUsers; URL resposta: https://infrastructurecloud.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/UserGroupsAndUsers; Inicio da resposta: <!doctype html><html><head><meta charset=\"utf-8\"><base href=\"/\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\"><link rel=\"icon\" href=\"./favicon.ico\" type=\"image/x-icon\"><link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" crossorigin><link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700\" rel=\"stylesheet\"><title>Infrastructure Cloud</title></head><body><main role=\"main\" class=\"container\">\n        <div id=\"app\">\n            <input name=\"__RequestVerificationToken\" type=\"hidden\" value=\"CfDJ8L2WHuHsnthGsGk_0SWJUf0c_fcUjn1JxspzhUjl-wd12QC09KALmLpW92SZSr738VAcgBN_OTDayMU0WS44SwNq-8cHz87eLfUL1bl0CAUwLanWbkKdPceIkcgGsISmwzzMHpsVj1FOsBPmq7sMu5o\" />\n            \r\n<div id=\"app\" class=\"container\"></div>\r\n<div id=\"dropdown-portal\"></div>\n        </div>\n        <div id=\"error-warning\" style=\"display: none;\">\n            <div style=\"display: flex;flex-direction: column; flex: 1 1 auto; justify-content: center;align-items: center; height: 100vh;\">\n  "
+    },
+    {
+      "email": "gu***@egis-group.com",
+      "nomeProjeto": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+        "id": "256672",
+        "guid": "389e884f-5d2f-4042-a269-496a34745745",
+        "connectedProjectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+      "projectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "erro_consulta_participantes",
+      "descricaoAcao": "Projeto ignorado: nao foi possivel consultar participantes.",
+      "status": "erro_consulta_participantes",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "erroConsultaParticipantes": "Resposta inesperada ao buscar participantes em 3887ad62-2f26-423f-bf8e-801139045ca8: HTTP 200 ; Content-Type: text/html; charset=utf-8; URL tela: https://pwdm.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/View#PARTICIPANTS; Endpoint: /3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/UserGroupsAndUsers; URL resposta: https://infrastructurecloud.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/UserGroupsAndUsers; Inicio da resposta: <!doctype html><html><head><meta charset=\"utf-8\"><base href=\"/\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\"><link rel=\"icon\" href=\"./favicon.ico\" type=\"image/x-icon\"><link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" crossorigin><link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700\" rel=\"stylesheet\"><title>Infrastructure Cloud</title></head><body><main role=\"main\" class=\"container\">\n        <div id=\"app\">\n            <input name=\"__RequestVerificationToken\" type=\"hidden\" value=\"CfDJ8L2WHuHsnthGsGk_0SWJUf0c_fcUjn1JxspzhUjl-wd12QC09KALmLpW92SZSr738VAcgBN_OTDayMU0WS44SwNq-8cHz87eLfUL1bl0CAUwLanWbkKdPceIkcgGsISmwzzMHpsVj1FOsBPmq7sMu5o\" />\n            \r\n<div id=\"app\" class=\"container\"></div>\r\n<div id=\"dropdown-portal\"></div>\n        </div>\n        <div id=\"error-warning\" style=\"display: none;\">\n            <div style=\"display: flex;flex-direction: column; flex: 1 1 auto; justify-content: center;align-items: center; height: 100vh;\">\n  "
+    }
+  ],
+  "resultados": [
+    {
+      "projectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+      "nomeProjeto": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+        "id": "255227",
+        "guid": "9e26356f-eafb-4cab-b87d-014d40b80831",
+        "connectedProjectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e221e732-7d85-4885-82a7-96d09389b8be/ProjectSettings/e221e732-7d85-4885-82a7-96d09389b8be/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "da***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Participante ja estava com as permissoes e o titulo desejados."
+      }
+    },
+    {
+      "projectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+      "nomeProjeto": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+        "id": "255227",
+        "guid": "9e26356f-eafb-4cab-b87d-014d40b80831",
+        "connectedProjectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e221e732-7d85-4885-82a7-96d09389b8be/ProjectSettings/e221e732-7d85-4885-82a7-96d09389b8be/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "yu***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Participante ja estava com as permissoes e o titulo desejados."
+      }
+    },
+    {
+      "projectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+      "nomeProjeto": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+        "id": "255227",
+        "guid": "9e26356f-eafb-4cab-b87d-014d40b80831",
+        "connectedProjectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e221e732-7d85-4885-82a7-96d09389b8be/ProjectSettings/e221e732-7d85-4885-82a7-96d09389b8be/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "la***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Participante ja estava com as permissoes e o titulo desejados."
+      }
+    },
+    {
+      "projectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+      "nomeProjeto": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+        "id": "255227",
+        "guid": "9e26356f-eafb-4cab-b87d-014d40b80831",
+        "connectedProjectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e221e732-7d85-4885-82a7-96d09389b8be/ProjectSettings/e221e732-7d85-4885-82a7-96d09389b8be/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Participante ja estava com as permissoes e o titulo desejados."
+      }
+    },
+    {
+      "projectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+      "nomeProjeto": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+        "id": "255227",
+        "guid": "9e26356f-eafb-4cab-b87d-014d40b80831",
+        "connectedProjectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e221e732-7d85-4885-82a7-96d09389b8be/ProjectSettings/e221e732-7d85-4885-82a7-96d09389b8be/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ka***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Participante ja estava com as permissoes e o titulo desejados."
+      }
+    },
+    {
+      "projectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+      "nomeProjeto": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+        "id": "255227",
+        "guid": "9e26356f-eafb-4cab-b87d-014d40b80831",
+        "connectedProjectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e221e732-7d85-4885-82a7-96d09389b8be/ProjectSettings/e221e732-7d85-4885-82a7-96d09389b8be/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "gu***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Participante ja estava com as permissoes e o titulo desejados."
+      }
+    },
+    {
+      "projectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+      "nomeProjeto": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+        "id": "256672",
+        "guid": "389e884f-5d2f-4042-a269-496a34745745",
+        "connectedProjectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "da***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "erro_consulta_participantes",
+      "situacao_usuario": "erro_consulta_participantes",
+      "resultado": {
+        "status": "ignorado_erro_consulta_participantes",
+        "mensagem": "Resposta inesperada ao buscar participantes em 3887ad62-2f26-423f-bf8e-801139045ca8: HTTP 200 ; Content-Type: text/html; charset=utf-8; URL tela: https://pwdm.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/View#PARTICIPANTS; Endpoint: /3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/UserGroupsAndUsers; URL resposta: https://infrastructurecloud.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/UserGroupsAndUsers; Inicio da resposta: <!doctype html><html><head><meta charset=\"utf-8\"><base href=\"/\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\"><link rel=\"icon\" href=\"./favicon.ico\" type=\"image/x-icon\"><link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" crossorigin><link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700\" rel=\"stylesheet\"><title>Infrastructure Cloud</title></head><body><main role=\"main\" class=\"container\">\n        <div id=\"app\">\n            <input name=\"__RequestVerificationToken\" type=\"hidden\" value=\"CfDJ8L2WHuHsnthGsGk_0SWJUf0c_fcUjn1JxspzhUjl-wd12QC09KALmLpW92SZSr738VAcgBN_OTDayMU0WS44SwNq-8cHz87eLfUL1bl0CAUwLanWbkKdPceIkcgGsISmwzzMHpsVj1FOsBPmq7sMu5o\" />\n            \r\n<div id=\"app\" class=\"container\"></div>\r\n<div id=\"dropdown-portal\"></div>\n        </div>\n        <div id=\"error-warning\" style=\"display: none;\">\n            <div style=\"display: flex;flex-direction: column; flex: 1 1 auto; justify-content: center;align-items: center; height: 100vh;\">\n  "
+      }
+    },
+    {
+      "projectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+      "nomeProjeto": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+        "id": "256672",
+        "guid": "389e884f-5d2f-4042-a269-496a34745745",
+        "connectedProjectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "yu***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "erro_consulta_participantes",
+      "situacao_usuario": "erro_consulta_participantes",
+      "resultado": {
+        "status": "ignorado_erro_consulta_participantes",
+        "mensagem": "Resposta inesperada ao buscar participantes em 3887ad62-2f26-423f-bf8e-801139045ca8: HTTP 200 ; Content-Type: text/html; charset=utf-8; URL tela: https://pwdm.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/View#PARTICIPANTS; Endpoint: /3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/UserGroupsAndUsers; URL resposta: https://infrastructurecloud.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/UserGroupsAndUsers; Inicio da resposta: <!doctype html><html><head><meta charset=\"utf-8\"><base href=\"/\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\"><link rel=\"icon\" href=\"./favicon.ico\" type=\"image/x-icon\"><link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" crossorigin><link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700\" rel=\"stylesheet\"><title>Infrastructure Cloud</title></head><body><main role=\"main\" class=\"container\">\n        <div id=\"app\">\n            <input name=\"__RequestVerificationToken\" type=\"hidden\" value=\"CfDJ8L2WHuHsnthGsGk_0SWJUf0c_fcUjn1JxspzhUjl-wd12QC09KALmLpW92SZSr738VAcgBN_OTDayMU0WS44SwNq-8cHz87eLfUL1bl0CAUwLanWbkKdPceIkcgGsISmwzzMHpsVj1FOsBPmq7sMu5o\" />\n            \r\n<div id=\"app\" class=\"container\"></div>\r\n<div id=\"dropdown-portal\"></div>\n        </div>\n        <div id=\"error-warning\" style=\"display: none;\">\n            <div style=\"display: flex;flex-direction: column; flex: 1 1 auto; justify-content: center;align-items: center; height: 100vh;\">\n  "
+      }
+    },
+    {
+      "projectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+      "nomeProjeto": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+        "id": "256672",
+        "guid": "389e884f-5d2f-4042-a269-496a34745745",
+        "connectedProjectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "la***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "erro_consulta_participantes",
+      "situacao_usuario": "erro_consulta_participantes",
+      "resultado": {
+        "status": "ignorado_erro_consulta_participantes",
+        "mensagem": "Resposta inesperada ao buscar participantes em 3887ad62-2f26-423f-bf8e-801139045ca8: HTTP 200 ; Content-Type: text/html; charset=utf-8; URL tela: https://pwdm.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/View#PARTICIPANTS; Endpoint: /3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/UserGroupsAndUsers; URL resposta: https://infrastructurecloud.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/UserGroupsAndUsers; Inicio da resposta: <!doctype html><html><head><meta charset=\"utf-8\"><base href=\"/\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\"><link rel=\"icon\" href=\"./favicon.ico\" type=\"image/x-icon\"><link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" crossorigin><link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700\" rel=\"stylesheet\"><title>Infrastructure Cloud</title></head><body><main role=\"main\" class=\"container\">\n        <div id=\"app\">\n            <input name=\"__RequestVerificationToken\" type=\"hidden\" value=\"CfDJ8L2WHuHsnthGsGk_0SWJUf0c_fcUjn1JxspzhUjl-wd12QC09KALmLpW92SZSr738VAcgBN_OTDayMU0WS44SwNq-8cHz87eLfUL1bl0CAUwLanWbkKdPceIkcgGsISmwzzMHpsVj1FOsBPmq7sMu5o\" />\n            \r\n<div id=\"app\" class=\"container\"></div>\r\n<div id=\"dropdown-portal\"></div>\n        </div>\n        <div id=\"error-warning\" style=\"display: none;\">\n            <div style=\"display: flex;flex-direction: column; flex: 1 1 auto; justify-content: center;align-items: center; height: 100vh;\">\n  "
+      }
+    },
+    {
+      "projectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+      "nomeProjeto": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+        "id": "256672",
+        "guid": "389e884f-5d2f-4042-a269-496a34745745",
+        "connectedProjectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "erro_consulta_participantes",
+      "situacao_usuario": "erro_consulta_participantes",
+      "resultado": {
+        "status": "ignorado_erro_consulta_participantes",
+        "mensagem": "Resposta inesperada ao buscar participantes em 3887ad62-2f26-423f-bf8e-801139045ca8: HTTP 200 ; Content-Type: text/html; charset=utf-8; URL tela: https://pwdm.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/View#PARTICIPANTS; Endpoint: /3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/UserGroupsAndUsers; URL resposta: https://infrastructurecloud.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/UserGroupsAndUsers; Inicio da resposta: <!doctype html><html><head><meta charset=\"utf-8\"><base href=\"/\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\"><link rel=\"icon\" href=\"./favicon.ico\" type=\"image/x-icon\"><link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" crossorigin><link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700\" rel=\"stylesheet\"><title>Infrastructure Cloud</title></head><body><main role=\"main\" class=\"container\">\n        <div id=\"app\">\n            <input name=\"__RequestVerificationToken\" type=\"hidden\" value=\"CfDJ8L2WHuHsnthGsGk_0SWJUf0c_fcUjn1JxspzhUjl-wd12QC09KALmLpW92SZSr738VAcgBN_OTDayMU0WS44SwNq-8cHz87eLfUL1bl0CAUwLanWbkKdPceIkcgGsISmwzzMHpsVj1FOsBPmq7sMu5o\" />\n            \r\n<div id=\"app\" class=\"container\"></div>\r\n<div id=\"dropdown-portal\"></div>\n        </div>\n        <div id=\"error-warning\" style=\"display: none;\">\n            <div style=\"display: flex;flex-direction: column; flex: 1 1 auto; justify-content: center;align-items: center; height: 100vh;\">\n  "
+      }
+    },
+    {
+      "projectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+      "nomeProjeto": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+        "id": "256672",
+        "guid": "389e884f-5d2f-4042-a269-496a34745745",
+        "connectedProjectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ka***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "erro_consulta_participantes",
+      "situacao_usuario": "erro_consulta_participantes",
+      "resultado": {
+        "status": "ignorado_erro_consulta_participantes",
+        "mensagem": "Resposta inesperada ao buscar participantes em 3887ad62-2f26-423f-bf8e-801139045ca8: HTTP 200 ; Content-Type: text/html; charset=utf-8; URL tela: https://pwdm.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/View#PARTICIPANTS; Endpoint: /3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/UserGroupsAndUsers; URL resposta: https://infrastructurecloud.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/UserGroupsAndUsers; Inicio da resposta: <!doctype html><html><head><meta charset=\"utf-8\"><base href=\"/\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\"><link rel=\"icon\" href=\"./favicon.ico\" type=\"image/x-icon\"><link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" crossorigin><link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700\" rel=\"stylesheet\"><title>Infrastructure Cloud</title></head><body><main role=\"main\" class=\"container\">\n        <div id=\"app\">\n            <input name=\"__RequestVerificationToken\" type=\"hidden\" value=\"CfDJ8L2WHuHsnthGsGk_0SWJUf0c_fcUjn1JxspzhUjl-wd12QC09KALmLpW92SZSr738VAcgBN_OTDayMU0WS44SwNq-8cHz87eLfUL1bl0CAUwLanWbkKdPceIkcgGsISmwzzMHpsVj1FOsBPmq7sMu5o\" />\n            \r\n<div id=\"app\" class=\"container\"></div>\r\n<div id=\"dropdown-portal\"></div>\n        </div>\n        <div id=\"error-warning\" style=\"display: none;\">\n            <div style=\"display: flex;flex-direction: column; flex: 1 1 auto; justify-content: center;align-items: center; height: 100vh;\">\n  "
+      }
+    },
+    {
+      "projectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+      "nomeProjeto": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+        "id": "256672",
+        "guid": "389e884f-5d2f-4042-a269-496a34745745",
+        "connectedProjectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "gu***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "erro_consulta_participantes",
+      "situacao_usuario": "erro_consulta_participantes",
+      "resultado": {
+        "status": "ignorado_erro_consulta_participantes",
+        "mensagem": "Resposta inesperada ao buscar participantes em 3887ad62-2f26-423f-bf8e-801139045ca8: HTTP 200 ; Content-Type: text/html; charset=utf-8; URL tela: https://pwdm.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/View#PARTICIPANTS; Endpoint: /3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/UserGroupsAndUsers; URL resposta: https://infrastructurecloud.bentley.com/3887ad62-2f26-423f-bf8e-801139045ca8/ProjectSettings/3887ad62-2f26-423f-bf8e-801139045ca8/UserGroupsAndUsers; Inicio da resposta: <!doctype html><html><head><meta charset=\"utf-8\"><base href=\"/\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\"><link rel=\"icon\" href=\"./favicon.ico\" type=\"image/x-icon\"><link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" crossorigin><link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700\" rel=\"stylesheet\"><title>Infrastructure Cloud</title></head><body><main role=\"main\" class=\"container\">\n        <div id=\"app\">\n            <input name=\"__RequestVerificationToken\" type=\"hidden\" value=\"CfDJ8L2WHuHsnthGsGk_0SWJUf0c_fcUjn1JxspzhUjl-wd12QC09KALmLpW92SZSr738VAcgBN_OTDayMU0WS44SwNq-8cHz87eLfUL1bl0CAUwLanWbkKdPceIkcgGsISmwzzMHpsVj1FOsBPmq7sMu5o\" />\n            \r\n<div id=\"app\" class=\"container\"></div>\r\n<div id=\"dropdown-portal\"></div>\n        </div>\n        <div id=\"error-warning\" style=\"display: none;\">\n            <div style=\"display: flex;flex-direction: column; flex: 1 1 auto; justify-content: center;align-items: center; height: 100vh;\">\n  "
+      }
+    }
+  ]
+}

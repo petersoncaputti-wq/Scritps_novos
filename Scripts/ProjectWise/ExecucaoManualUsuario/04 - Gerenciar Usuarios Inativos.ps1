@@ -142,6 +142,52 @@ function Get-ValorSeguroPropriedade {
     return ""
 }
 
+function Get-DataSeguroPropriedade {
+    param(
+        [object]$Objeto,
+        [string[]]$PossiveisNomes
+    )
+
+    if (-not $Objeto) {
+        return $null
+    }
+
+    foreach ($nome in $PossiveisNomes) {
+        $propriedade = $Objeto.PSObject.Properties[$nome]
+        if ($propriedade -and $null -ne $propriedade.Value) {
+            if ($propriedade.Value -is [datetime]) {
+                return $propriedade.Value
+            }
+
+            $data = [datetime]::MinValue
+            if ([datetime]::TryParse([string]$propriedade.Value, [ref]$data)) {
+                return $data
+            }
+        }
+    }
+
+    return $null
+}
+
+function Format-DataProjectWise {
+    param([object]$Valor)
+
+    if ($null -eq $Valor) {
+        return ""
+    }
+
+    if ($Valor -is [datetime]) {
+        return $Valor.ToString("dd/MM/yyyy")
+    }
+
+    $data = [datetime]::MinValue
+    if ([datetime]::TryParse([string]$Valor, [ref]$data)) {
+        return $data.ToString("dd/MM/yyyy")
+    }
+
+    return [string]$Valor
+}
+
 function Get-StatusUsuario {
     param(
         [object]$UltimoAcesso,
@@ -250,6 +296,8 @@ function Exportar-Xlsx {
             "Nome",
             "Email",
             "ID",
+            "Data criacao",
+            "Descricao",
             "Ultimo acesso",
             "Status",
             "Status acesso",
@@ -263,6 +311,8 @@ function Exportar-Xlsx {
         for ($coluna = 0; $coluna -lt $colunas.Count; $coluna++) {
             $worksheet.Cells.Item(1, $coluna + 1).Value2 = $colunas[$coluna]
         }
+
+        $worksheet.Columns.NumberFormat = "@"
 
         for ($linha = 0; $linha -lt $Dados.Count; $linha++) {
             for ($coluna = 0; $coluna -lt $colunas.Count; $coluna++) {
@@ -370,6 +420,7 @@ function Consultar-UsuariosInativos {
         $script:BtnExportar.Enabled = $false
 
         $dataLimiteStatus = (Get-Date).Date.AddDays(-$dias)
+        $dataLimiteNovoUsuario = (Get-Date).Date.AddDays(-30)
         $startDate = $dataLimiteStatus.ToString("yyyy-MM-dd")
         $endDate = (Get-Date).AddDays(1).ToString("yyyy-MM-dd")
 
@@ -412,6 +463,8 @@ function Consultar-UsuariosInativos {
             $nome = Get-ValorSeguroPropriedade -Objeto $usuario -PossiveisNomes @("Name", "UserName", "LoginName")
             $email = Get-ValorSeguroPropriedade -Objeto $usuario -PossiveisNomes @("Email", "EmailAddress")
             $id = Get-ValorSeguroPropriedade -Objeto $usuario -PossiveisNomes @("ID", "Id", "UserID", "UserId")
+            $descricao = Get-ValorSeguroPropriedade -Objeto $usuario -PossiveisNomes @("Description", "Descricao")
+            $dataCriacao = Get-DataSeguroPropriedade -Objeto $usuario -PossiveisNomes @("CreationDate", "CreatedDate", "Created", "CreateDate")
 
             $script:ProgressConsulta.Value = [Math]::Min(100, [int](($contador / $totalUsuarios) * 100))
             $script:LabelResumo.Text = "Processando $contador de $totalUsuarios - $nome"
@@ -432,10 +485,39 @@ function Consultar-UsuariosInativos {
             }
 
             $statusProjectWise = if ($estaDesabilitado) { "Inativo/Desabilitado" } else { "Ativo/Habilitado" }
-            $statusFinal = if ($statusAcesso -eq "Inativo" -or $estaDesabilitado) { "Inativo" } else { "Ativo" }
+            $usuarioNovo = $false
+            if ($null -ne $dataCriacao) {
+                $usuarioNovo = $dataCriacao.Date -ge $dataLimiteNovoUsuario
+            }
+
+            $descricaoEcs = $descricao -match '(?i)ECS'
+            $possuiExcecaoInatividade = -not $estaDesabilitado -and ($usuarioNovo -or $descricaoEcs)
+            $statusFinal = if ($estaDesabilitado) {
+                "Inativo"
+            }
+            elseif ($statusAcesso -eq "Inativo" -and -not $possuiExcecaoInatividade) {
+                "Inativo"
+            }
+            else {
+                "Ativo"
+            }
 
             $elegivelExclusao = "Nao"
             $motivo = ""
+
+            if ($statusAcesso -eq "Inativo" -and $possuiExcecaoInatividade) {
+                $motivosExcecao = @()
+
+                if ($usuarioNovo) {
+                    $motivosExcecao += "usuario criado ha menos de 30 dias"
+                }
+
+                if ($descricaoEcs) {
+                    $motivosExcecao += "descricao contem ECS"
+                }
+
+                $motivo = "Excecao de inatividade: " + ($motivosExcecao -join " e ")
+            }
 
             if ($statusFinal -eq "Inativo" -and $consultaAcesso.Consulta -eq "OK") {
                 $elegivelExclusao = "Sim"
@@ -463,6 +545,8 @@ function Consultar-UsuariosInativos {
                 Nome                 = $nome
                 Email                = $email
                 ID                   = $id
+                "Data criacao"       = Format-DataProjectWise $dataCriacao
+                Descricao            = $descricao
                 "Ultimo acesso"      = $consultaAcesso.UltimoAcesso
                 Status               = $statusFinal
                 "Status acesso"      = $statusAcesso

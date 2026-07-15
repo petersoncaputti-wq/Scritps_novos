@@ -1,0 +1,12 @@
+2026-07-07 12:08:01 | INFO | ProjectWise - criacao de usuarios em lote
+2026-07-07 12:08:01 | INFO | Log: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\PW_CriarUsuariosLote_20260707_120801.log
+2026-07-07 12:08:02 | INFO | Abrindo login no ProjectWise...
+2026-07-07 12:08:27 | OK | Login realizado. Usuario atual: Peterson Caputti
+2026-07-07 12:08:41 | INFO | Arquivo de entrada: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Modelo_Criacao_Usuarios_ProjectWise.xlsx
+2026-07-07 12:08:43 | INFO | Registros carregados: 6
+2026-07-07 12:08:44 | WARN | Linha 2: usuario ja existe - João Wanka (encontrado por Name)
+2026-07-07 12:08:44 | WARN | Linha 3: usuario ja existe - Gustavo Feuser (encontrado por Name)
+2026-07-07 12:08:44 | WARN | Linha 4: usuario ja existe - Manoel Simon (encontrado por Name)
+2026-07-07 12:08:44 | WARN | Linha 5: usuario ja existe - Prudencio Wust (encontrado por Name)
+2026-07-07 12:08:44 | WARN | Linha 6: usuario ja existe - Miguel Cardoso (encontrado por Name)
+2026-07-07 12:08:44 | WARN | Linha 7: usuario ja existe - Daniela Cunha (encontrado por E-mail)
