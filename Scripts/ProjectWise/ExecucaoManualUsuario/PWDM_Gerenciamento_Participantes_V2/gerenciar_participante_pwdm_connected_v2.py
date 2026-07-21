@@ -113,12 +113,12 @@ def carregar_projetos_para_fluxo(arquivo: Path) -> list[dict]:
     print(f"\n[INFO] Usando projetos selecionados pelo ProjectWise nesta execucao: {arquivo.resolve()}")
     projetos, ignorados = carregar_projetos_selecionados_com_diagnostico(arquivo)
     if ignorados:
-        print("\n[AVISO] Projeto(s) ignorado(s) por nao terem ConnectedProjectId valido para PWDM:")
+        print("\n[AVISO] Projeto(s) ignorado(s) por nao terem ConnectedProjectId valido para o ProjectWise Web:")
         for item in ignorados:
             print(f"- {item}")
-        print("Esses projetos nao serao consultados no PWDM nesta execucao.")
+        print("Esses projetos nao serao consultados no gerenciamento de membros nesta execucao.")
 
-    print(f"[OK] {len(projetos)} projeto(s) carregado(s) para PWDM pelo ConnectedProjectId.")
+    print(f"[OK] {len(projetos)} projeto(s) do ProjectWise Web carregado(s) pelo ConnectedProjectId.")
     for indice, projeto in enumerate(projetos, start=1):
         origem = projeto.get("origemProjectWise") or {}
         print(

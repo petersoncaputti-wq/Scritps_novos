@@ -1,16 +1,15 @@
 <#
 .SYNOPSIS
-    Seleciona projetos no ProjectWise e exporta dados prontos para uso no PWDM V2.
+    Seleciona projetos no ProjectWise para gerenciamento de acessos no ProjectWise Web.
 
 .DESCRIPTION
     Script somente leitura. Ele conecta no ProjectWise, lista concessoes, carrega
     somente os projetos da concessao escolhida e exporta um JSON com os IDs do
-    ProjectWise Project/PW Web usados pelo PWDM.
+    ProjectWise Project/PW Web usados pelo gerenciamento de membros RBAC.
 
     O campo principal e ConnectedProjectId.Guid. Quando ele existe, o script monta:
     - connectSpaceId
     - projectId
-    - urlParticipantesPwdm
 
 .EXAMPLE
     powershell.exe -NoProfile -MTA -ExecutionPolicy Bypass -File ".\pw_selecionar_projetos_para_pwdm_v2.ps1"
@@ -23,7 +22,8 @@
 param(
     [string]$Saida,
     [int]$ProfundidadeProjetos = 0,
-    [switch]$TodosProjetos
+    [switch]$TodosProjetos,
+    [string]$PlanilhaProjetos
 )
 
 $ErrorActionPreference = "Stop"
@@ -39,7 +39,6 @@ if ([string]::IsNullOrWhiteSpace($Saida)) {
 
 $NomesPossiveisEngenhariaRaiz = @("Engenharia", "Engineering")
 $NomesPossiveisPastaProjetos = @("Projetos", "Projeto", "Projects", "Project")
-$OrigemPwdm = "https://pwdm.bentley.com"
 $GuidZero = "00000000-0000-0000-0000-000000000000"
 $script:LoginPW = $null
 
@@ -332,6 +331,328 @@ function Ler-SelecaoProjetos {
     }
 }
 
+function Remover-AcentosTexto {
+    param([string]$Texto)
+
+    if ([string]::IsNullOrWhiteSpace($Texto)) {
+        return ""
+    }
+
+    try {
+        $normalizado = $Texto.Normalize([System.Text.NormalizationForm]::FormD)
+        $builder = New-Object System.Text.StringBuilder
+        foreach ($ch in $normalizado.ToCharArray()) {
+            $categoria = [System.Globalization.CharUnicodeInfo]::GetUnicodeCategory($ch)
+            if ($categoria -ne [System.Globalization.UnicodeCategory]::NonSpacingMark) {
+                [void]$builder.Append($ch)
+            }
+        }
+        return $builder.ToString().Normalize([System.Text.NormalizationForm]::FormC)
+    }
+    catch {
+        return $Texto
+    }
+}
+
+function Normalizar-TextoComparacaoProjeto {
+    param([string]$Texto)
+
+    if ([string]::IsNullOrWhiteSpace($Texto)) {
+        return ""
+    }
+
+    $valor = Remover-AcentosTexto $Texto
+    $valor = $valor.ToLowerInvariant()
+    $valor = $valor -replace '[^\p{L}\p{Nd}]+', ' '
+    $valor = $valor -replace '\s+', ' '
+    return $valor.Trim()
+}
+
+function Obter-ValorCampoLinha {
+    param(
+        [object]$Linha,
+        [string[]]$Nomes
+    )
+
+    foreach ($nome in $Nomes) {
+        $prop = $Linha.PSObject.Properties[$nome]
+        if ($prop -and $null -ne $prop.Value) {
+            $valor = $prop.Value.ToString().Trim()
+            if ($valor -ne "") {
+                return $valor
+            }
+        }
+    }
+
+    return ""
+}
+
+function Importar-NomesProjetosPlanilha {
+    param([string]$CaminhoArquivo)
+
+    if ([string]::IsNullOrWhiteSpace($CaminhoArquivo)) {
+        throw "Nenhum caminho de planilha foi informado."
+    }
+
+    $CaminhoArquivo = $CaminhoArquivo.Trim().Trim('"')
+    if (-not (Test-Path -LiteralPath $CaminhoArquivo)) {
+        throw "Arquivo nao encontrado: $CaminhoArquivo"
+    }
+
+    $ext = [System.IO.Path]::GetExtension($CaminhoArquivo).ToLowerInvariant()
+    if ($ext -in @(".xlsx", ".xlsm")) {
+        Import-Module ImportExcel -ErrorAction Stop
+        $dados = @(Import-Excel -Path $CaminhoArquivo)
+    }
+    elseif ($ext -eq ".csv") {
+        $primeiraLinha = Get-Content -LiteralPath $CaminhoArquivo -TotalCount 1
+        $qtdPontoVirgula = ([regex]::Matches($primeiraLinha, ';')).Count
+        $qtdVirgula = ([regex]::Matches($primeiraLinha, ',')).Count
+        $delimitador = if ($qtdPontoVirgula -gt $qtdVirgula) { ';' } else { ',' }
+        $dados = @(Import-Csv -LiteralPath $CaminhoArquivo -Delimiter $delimitador)
+    }
+    else {
+        throw "Extensao nao suportada: $ext. Use .xlsx, .xlsm ou .csv."
+    }
+
+    if (-not $dados -or $dados.Count -eq 0) {
+        throw "A planilha selecionada nao possui projetos."
+    }
+
+    $projetos = New-Object System.Collections.Generic.List[string]
+    $unicos = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
+    $duplicados = New-Object System.Collections.Generic.List[string]
+    $linhasSemProjeto = New-Object System.Collections.Generic.List[int]
+    $numeroLinha = 2
+
+    foreach ($linha in $dados) {
+        $valor = Obter-ValorCampoLinha -Linha $linha -Nomes @("Projeto", "Projetos", "Nome Projeto", "Nome do Projeto", "Project", "ProjectName")
+        if ([string]::IsNullOrWhiteSpace($valor)) {
+            $linhasSemProjeto.Add($numeroLinha)
+            $numeroLinha++
+            continue
+        }
+
+        $nomeProjeto = $valor.Trim()
+        if ($unicos.Add($nomeProjeto)) {
+            $projetos.Add($nomeProjeto)
+        }
+        else {
+            $duplicados.Add($nomeProjeto)
+        }
+
+        $numeroLinha++
+    }
+
+    if ($projetos.Count -eq 0) {
+        throw "Nenhum projeto foi encontrado. Use uma coluna chamada Projeto."
+    }
+
+    return [PSCustomObject]@{
+        Projetos             = @($projetos.ToArray())
+        LinhasPlanilha       = $dados.Count
+        ProjetosUnicos       = $projetos.Count
+        DuplicadosIgnorados  = $duplicados.Count
+        ProjetosDuplicados   = @($duplicados | Select-Object -Unique)
+        LinhasSemProjeto     = @($linhasSemProjeto.ToArray())
+    }
+}
+
+function Obter-ChavesComparacaoProjeto {
+    param([object]$Projeto)
+
+    $valores = @(
+        (Obter-RotuloPasta -Pasta $Projeto),
+        (Obter-NomePasta -Pasta $Projeto),
+        (Obter-DescricaoPasta -Pasta $Projeto),
+        (Obter-IdPasta -Pasta $Projeto),
+        (Obter-GuidPasta -Pasta $Projeto),
+        (Obter-ConnectedProjectId -Projeto $Projeto),
+        (Obter-ProjectWiseWebName -Projeto $Projeto),
+        (Obter-ProjectWiseWebNumber -Projeto $Projeto)
+    )
+
+    return @(
+        $valores |
+            ForEach-Object { Normalizar-TextoComparacaoProjeto $_ } |
+            Where-Object { -not [string]::IsNullOrWhiteSpace($_) } |
+            Select-Object -Unique
+    )
+}
+
+function Localizar-ProjetoPorNomePlanilha {
+    param(
+        [string]$NomeProjetoPlanilha,
+        [array]$Projetos
+    )
+
+    $alvo = Normalizar-TextoComparacaoProjeto $NomeProjetoPlanilha
+    if ([string]::IsNullOrWhiteSpace($alvo)) {
+        return [PSCustomObject]@{ Encontrado = $false; Indice = $null; Motivo = "Nome vazio"; Sugestoes = @() }
+    }
+
+    for ($i = 0; $i -lt $Projetos.Count; $i++) {
+        if (@(Obter-ChavesComparacaoProjeto -Projeto $Projetos[$i]) -contains $alvo) {
+            return [PSCustomObject]@{ Encontrado = $true; Indice = $i; Motivo = "Exato"; Sugestoes = @() }
+        }
+    }
+
+    for ($i = 0; $i -lt $Projetos.Count; $i++) {
+        foreach ($chave in @(Obter-ChavesComparacaoProjeto -Projeto $Projetos[$i])) {
+            if ($chave.Contains($alvo) -or $alvo.Contains($chave)) {
+                return [PSCustomObject]@{ Encontrado = $true; Indice = $i; Motivo = "Parcial"; Sugestoes = @() }
+            }
+        }
+    }
+
+    $termosAlvo = @($alvo -split '\s+' | Where-Object { $_.Length -ge 3 })
+    $sugestoesCalculadas = New-Object System.Collections.Generic.List[object]
+    for ($i = 0; $i -lt $Projetos.Count; $i++) {
+        $melhorPontuacao = 0
+        foreach ($chave in @(Obter-ChavesComparacaoProjeto -Projeto $Projetos[$i])) {
+            $pontuacao = 0
+            foreach ($termo in $termosAlvo) {
+                if ($chave.Contains($termo)) {
+                    $pontuacao++
+                }
+            }
+            if ($pontuacao -gt $melhorPontuacao) {
+                $melhorPontuacao = $pontuacao
+            }
+        }
+        if ($melhorPontuacao -gt 0) {
+            $sugestoesCalculadas.Add([PSCustomObject]@{
+                Nome      = Obter-RotuloPasta -Pasta $Projetos[$i]
+                Pontuacao = $melhorPontuacao
+            })
+        }
+    }
+    $sugestoes = @($sugestoesCalculadas.ToArray() | Sort-Object Pontuacao -Descending | Select-Object -First 3)
+
+    return [PSCustomObject]@{
+        Encontrado = $false
+        Indice     = $null
+        Motivo     = "Nao encontrado"
+        Sugestoes  = @($sugestoes | ForEach-Object { $_.Nome })
+    }
+}
+
+function Ler-CaminhoPlanilhaProjetos {
+    if (-not [string]::IsNullOrWhiteSpace($PlanilhaProjetos)) {
+        return $PlanilhaProjetos
+    }
+
+    $scriptDialog = @'
+Add-Type -AssemblyName System.Windows.Forms
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+$dialog = New-Object System.Windows.Forms.OpenFileDialog
+$dialog.InitialDirectory = [Environment]::GetFolderPath("Desktop")
+$dialog.Filter = "Planilhas Excel (*.xlsx;*.xlsm)|*.xlsx;*.xlsm|Arquivos CSV (*.csv)|*.csv|Todos os arquivos (*.*)|*.*"
+$dialog.Title = "Selecione a planilha com a lista de projetos"
+if ($dialog.ShowDialog() -eq [System.Windows.Forms.DialogResult]::OK) {
+    Write-Output $dialog.FileName
+}
+'@
+
+    try {
+        $bytes = [System.Text.Encoding]::Unicode.GetBytes($scriptDialog)
+        $encoded = [Convert]::ToBase64String($bytes)
+        $saida = @(powershell.exe -NoProfile -STA -ExecutionPolicy Bypass -EncodedCommand $encoded)
+        $caminhoSelecionado = @($saida | Where-Object { -not [string]::IsNullOrWhiteSpace($_) } | Select-Object -First 1)
+        if ($caminhoSelecionado.Count -gt 0 -and -not [string]::IsNullOrWhiteSpace($caminhoSelecionado[0])) {
+            return [string]$caminhoSelecionado[0]
+        }
+    }
+    catch {
+        Write-Warn "Nao foi possivel abrir a janela de selecao: $($_.Exception.Message)"
+    }
+
+    Write-Host ""
+    Write-Host "Nenhuma planilha foi selecionada pela janela." -ForegroundColor Yellow
+    Write-Host "Informe o caminho da planilha com a coluna Projeto." -ForegroundColor Cyan
+    Write-Host "Dica: voce pode arrastar o arquivo para esta janela e pressionar ENTER." -ForegroundColor Cyan
+    return Read-Host "Caminho da planilha"
+}
+
+function Ler-SelecaoProjetosPorPlanilha {
+    param([array]$Projetos)
+
+    $caminho = Ler-CaminhoPlanilhaProjetos
+    $importacao = Importar-NomesProjetosPlanilha -CaminhoArquivo $caminho
+
+    Write-Step "Linhas na planilha de projetos: $($importacao.LinhasPlanilha)"
+    Write-Step "Projetos unicos importados: $($importacao.ProjetosUnicos) | Duplicados ignorados: $($importacao.DuplicadosIgnorados)"
+    if (@($importacao.LinhasSemProjeto).Count -gt 0) {
+        Write-Warn "Linhas sem projeto ignoradas: $(@($importacao.LinhasSemProjeto) -join ', ')"
+    }
+
+    $indices = New-Object System.Collections.Generic.List[int]
+    $naoEncontrados = New-Object System.Collections.Generic.List[object]
+    $vistos = New-Object 'System.Collections.Generic.HashSet[int]'
+
+    foreach ($nomeProjeto in @($importacao.Projetos)) {
+        $resultado = Localizar-ProjetoPorNomePlanilha -NomeProjetoPlanilha $nomeProjeto -Projetos $Projetos
+        if (-not $resultado.Encontrado) {
+            $naoEncontrados.Add([PSCustomObject]@{
+                ProjetoPlanilha = $nomeProjeto
+                Sugestoes       = @($resultado.Sugestoes)
+            })
+            continue
+        }
+
+        $indiceUmBase = [int]$resultado.Indice + 1
+        if ($vistos.Add($indiceUmBase)) {
+            $indices.Add($indiceUmBase)
+            Write-Step "Projeto localizado [$($resultado.Motivo)]: $nomeProjeto -> $(Obter-RotuloPasta -Pasta $Projetos[$resultado.Indice])"
+        }
+    }
+
+    if ($naoEncontrados.Count -gt 0) {
+        Write-Warn "Projetos nao encontrados na concessao carregada: $($naoEncontrados.Count)"
+        foreach ($item in @($naoEncontrados.ToArray() | Select-Object -First 20)) {
+            $msg = "Nao encontrado: $($item.ProjetoPlanilha)"
+            if (@($item.Sugestoes).Count -gt 0) {
+                $msg += " | sugestao: $(@($item.Sugestoes)[0])"
+            }
+            Write-Warn $msg
+        }
+    }
+
+    if ($indices.Count -eq 0) {
+        throw "Nenhum projeto da planilha foi localizado na concessao selecionada."
+    }
+
+    Write-Step "Projetos selecionados pela planilha: $($indices.Count)"
+    return @($indices.ToArray() | Sort-Object)
+}
+
+function Ler-SelecaoProjetosInterativa {
+    param([array]$Projetos)
+
+    if ($TodosProjetos) {
+        return @(1..$Projetos.Count)
+    }
+
+    if (-not [string]::IsNullOrWhiteSpace($PlanilhaProjetos)) {
+        return @(Ler-SelecaoProjetosPorPlanilha -Projetos $Projetos)
+    }
+
+    Write-Host ""
+    Write-Host "Forma de selecao dos projetos:" -ForegroundColor Cyan
+    Write-Host "01. Selecionar manualmente pelos numeros"
+    Write-Host "02. Selecionar por planilha com coluna Projeto"
+    while ($true) {
+        $modo = (Read-Host "Escolha [1/2]").Trim()
+        if ($modo -in @("1", "01")) {
+            return @(Ler-SelecaoProjetos -Total $Projetos.Count)
+        }
+        if ($modo -in @("2", "02")) {
+            return @(Ler-SelecaoProjetosPorPlanilha -Projetos $Projetos)
+        }
+        Write-Warn "Escolha 1 ou 2."
+    }
+}
+
 function Mostrar-Concessoes {
     param([array]$Concessoes)
     Write-Host ""
@@ -347,14 +668,13 @@ function Mostrar-Projetos {
     Write-Host "Projetos da concessao escolhida:" -ForegroundColor Cyan
     for ($i = 0; $i -lt $Projetos.Count; $i++) {
         $projeto = $Projetos[$i]
-        $connectedProjectId = Obter-ConnectedProjectId -Projeto $projeto
-        $marcador = if (Testar-ConnectedProjectIdValido -ConnectedProjectId $connectedProjectId) { "PWDM OK" } else { "sem PWDM/ConnectedProjectId valido" }
-        "{0:000}. {1} | ID PW: {2} | GUID PW: {3} | {4}" -f (
+        # ConnectedProjectId pode exigir uma consulta remota. Ele sera lido
+        # somente para os projetos escolhidos, depois da selecao.
+        "{0:000}. {1} | ID PW: {2} | GUID PW: {3}" -f (
             $i + 1),
             (Obter-RotuloPasta -Pasta $projeto),
             (Obter-IdPasta -Pasta $projeto),
-            (Obter-GuidPasta -Pasta $projeto),
-            $marcador | Write-Host
+            (Obter-GuidPasta -Pasta $projeto) | Write-Host
     }
 }
 
@@ -449,18 +769,14 @@ function Obter-ProjectWiseWebNumber {
     )
 }
 
-function Converter-ProjetoParaPwdm {
+function Converter-ProjetoParaProjectWiseWeb {
     param(
         [object]$Projeto,
         [object]$Concessao
     )
 
     $connectedProjectId = Obter-ConnectedProjectId -Projeto $Projeto
-    $urlParticipantes = ""
-    $aptoPwdm = Testar-ConnectedProjectIdValido -ConnectedProjectId $connectedProjectId
-    if ($aptoPwdm) {
-        $urlParticipantes = "$OrigemPwdm/$connectedProjectId/ProjectSettings/$connectedProjectId/View#PARTICIPANTS"
-    }
+    $aptoProjectWiseWeb = Testar-ConnectedProjectIdValido -ConnectedProjectId $connectedProjectId
 
     return [ordered]@{
         nome = Obter-RotuloPasta -Pasta $Projeto
@@ -476,9 +792,8 @@ function Converter-ProjetoParaPwdm {
         projectWiseWebNumber = Obter-ProjectWiseWebNumber -Projeto $Projeto
         projectWiseWebLink = Obter-ValorSeguroPropriedade -Objeto $Projeto -PossiveisNomes @("ProjectWiseWebLink")
         projectWiseWebViewLink = Obter-ValorSeguroPropriedade -Objeto $Projeto -PossiveisNomes @("ProjectWiseWebViewLink")
-        urlParticipantesPwdm = $urlParticipantes
         origemSelecao = "ProjectWise ConnectedProjectId"
-        aptoPwdm = $aptoPwdm
+        aptoProjectWiseWeb = $aptoProjectWiseWeb
     }
 }
 
@@ -510,16 +825,16 @@ try {
     }
 
     Mostrar-Projetos -Projetos $projetos
-    $indices = Ler-SelecaoProjetos -Total $projetos.Count
+    $indices = Ler-SelecaoProjetosInterativa -Projetos $projetos
     $selecionados = @(
         foreach ($indice in $indices) {
-            Converter-ProjetoParaPwdm -Projeto $projetos[$indice - 1] -Concessao $concessao
+            Converter-ProjetoParaProjectWiseWeb -Projeto $projetos[$indice - 1] -Concessao $concessao
         }
     )
 
-    $semConnectedProject = @($selecionados | Where-Object { -not $_.aptoPwdm })
+    $semConnectedProject = @($selecionados | Where-Object { -not $_.aptoProjectWiseWeb })
     if ($semConnectedProject.Count -gt 0) {
-        Write-Warn "$($semConnectedProject.Count) projeto(s) selecionado(s) nao possuem ConnectedProjectId e nao serao aplicaveis no PWDM sem tratamento adicional."
+        Write-Warn "$($semConnectedProject.Count) projeto(s) selecionado(s) nao possuem ConnectedProjectId e nao podem ser gerenciados no ProjectWise Web."
         foreach ($item in $semConnectedProject) {
             Write-Warn "Sem ConnectedProjectId valido: $($item.nome) | PW ID: $($item.projectWiseId) | ConnectedProjectId: $($item.connectedProjectId)"
         }
@@ -528,7 +843,7 @@ try {
     $dados = [ordered]@{
         timestamp = (Get-Date).ToString("s")
         origem = "ProjectWise"
-        modoSelecao = "concessao_projetos_connected_project"
+        modoSelecao = "concessao_projetos_projectwise_web"
         profundidadeProjetos = $ProfundidadeProjetos
         concessao = [ordered]@{
             nome = $nomeConcessao
@@ -537,7 +852,7 @@ try {
         }
         totalProjetosListados = $projetos.Count
         totalProjetosSelecionados = $selecionados.Count
-        totalProjetosAptosPwdm = @($selecionados | Where-Object { $_.aptoPwdm }).Count
+        totalProjetosAptosProjectWiseWeb = @($selecionados | Where-Object { $_.aptoProjectWiseWeb }).Count
         projetos = @($selecionados)
     }
 
@@ -547,7 +862,7 @@ try {
     Write-Host "[OK] Projetos selecionados exportados." -ForegroundColor Green
     Write-Host "JSON: $Saida"
     Write-Host "Projetos selecionados: $($selecionados.Count)"
-    Write-Host "Projetos aptos PWDM  : $(@($selecionados | Where-Object { $_.aptoPwdm }).Count)"
+    Write-Host "Projetos aptos PW Web: $(@($selecionados | Where-Object { $_.aptoProjectWiseWeb }).Count)"
 }
 finally {
     Encerrar-SessaoProjectWise

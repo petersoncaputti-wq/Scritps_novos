@@ -1,0 +1,1390 @@
+{
+  "timestamp": "2026-07-20T16:32:46",
+  "operacoes": [
+    {
+      "nomeProjeto": "NOP01 - Faixa Adicional SC - km 227+800 - 231+320- SP-310",
+      "origemProjectWise": {
+        "nome": "NOP01 - Faixa Adicional SC - km 227+800 - 231+320- SP-310",
+        "id": "396194",
+        "guid": "0d97e177-e093-4308-a1b6-013b9c8fbac9",
+        "connectedProjectId": "f09802b3-356b-4e7a-a158-8497fd5cf63f",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/f09802b3-356b-4e7a-a158-8497fd5cf63f/ProjectSettings/f09802b3-356b-4e7a-a158-8497fd5cf63f/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "f09802b3-356b-4e7a-a158-8497fd5cf63f",
+      "projectId": "f09802b3-356b-4e7a-a158-8497fd5cf63f",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Isabela Gomes Facioli",
+        "email": "is***@planservi.com.br",
+        "roleLabel": "Projetista",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "c25d40f8-aa57-446b-b2e1-c6c22b45a421",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "is***@planservi.com.br"
+    },
+    {
+      "nomeProjeto": "NOP02 - Faixa Adicional SC - km 227+800 - 230+750 - SP-310",
+      "origemProjectWise": {
+        "nome": "NOP02 - Faixa Adicional SC - km 227+800 - 230+750 - SP-310",
+        "id": "396217",
+        "guid": "65626b30-f42c-4ce4-8442-646c03bcc5b4",
+        "connectedProjectId": "409a27f7-d2db-4895-9228-f397b29172b0",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/409a27f7-d2db-4895-9228-f397b29172b0/ProjectSettings/409a27f7-d2db-4895-9228-f397b29172b0/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "409a27f7-d2db-4895-9228-f397b29172b0",
+      "projectId": "409a27f7-d2db-4895-9228-f397b29172b0",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "is***@planservi.com.br"
+    },
+    {
+      "nomeProjeto": "NOP03 - Melhoria do Dispositivo SC - km 235+000 - SP-310",
+      "origemProjectWise": {
+        "nome": "NOP03 - Melhoria do Dispositivo SC - km 235+000 - SP-310",
+        "id": "397080",
+        "guid": "35833ac7-08d2-47a3-abb7-a2b80c00e9bc",
+        "connectedProjectId": "7ecf51ef-6c25-491d-aebc-1ec55dacb89b",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/7ecf51ef-6c25-491d-aebc-1ec55dacb89b/ProjectSettings/7ecf51ef-6c25-491d-aebc-1ec55dacb89b/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "7ecf51ef-6c25-491d-aebc-1ec55dacb89b",
+      "projectId": "7ecf51ef-6c25-491d-aebc-1ec55dacb89b",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "is***@planservi.com.br"
+    },
+    {
+      "nomeProjeto": "NOP04 - Melhoria do Dispositivo SC - km 236+100 - SP-310",
+      "origemProjectWise": {
+        "nome": "NOP04 - Melhoria do Dispositivo SC - km 236+100 - SP-310",
+        "id": "397103",
+        "guid": "58d167e5-456f-4b3c-ae0a-5fe4e89e60bb",
+        "connectedProjectId": "caf40341-fe8a-4819-aecb-40fab935a96e",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/caf40341-fe8a-4819-aecb-40fab935a96e/ProjectSettings/caf40341-fe8a-4819-aecb-40fab935a96e/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "caf40341-fe8a-4819-aecb-40fab935a96e",
+      "projectId": "caf40341-fe8a-4819-aecb-40fab935a96e",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "is***@planservi.com.br"
+    },
+    {
+      "nomeProjeto": "NOP05 - Implantação de Dispositivo SC - km 238+200 - SP-310",
+      "origemProjectWise": {
+        "nome": "NOP05 - Implantação de Dispositivo SC - km 238+200 - SP-310",
+        "id": "397126",
+        "guid": "fbefd888-6cba-45db-8217-5215f4fef7a6",
+        "connectedProjectId": "f732f120-7b18-4f6e-b8ed-cb272a4c5568",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/f732f120-7b18-4f6e-b8ed-cb272a4c5568/ProjectSettings/f732f120-7b18-4f6e-b8ed-cb272a4c5568/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "f732f120-7b18-4f6e-b8ed-cb272a4c5568",
+      "projectId": "f732f120-7b18-4f6e-b8ed-cb272a4c5568",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "is***@planservi.com.br"
+    },
+    {
+      "nomeProjeto": "NOP06 - Faixa Adicional - km 238+524 - 240+370 - SP-310 Excluir",
+      "origemProjectWise": {
+        "nome": "NOP06 - Faixa Adicional - km 238+524 - 240+370 - SP-310 Excluir",
+        "id": "396240",
+        "guid": "8fb945a2-7e8e-48e8-a009-b807baeae993",
+        "connectedProjectId": "e6d1afaf-9d87-4568-9e5e-03836772b79d",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e6d1afaf-9d87-4568-9e5e-03836772b79d/ProjectSettings/e6d1afaf-9d87-4568-9e5e-03836772b79d/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "e6d1afaf-9d87-4568-9e5e-03836772b79d",
+      "projectId": "e6d1afaf-9d87-4568-9e5e-03836772b79d",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "is***@planservi.com.br"
+    },
+    {
+      "nomeProjeto": "NOP07 - Melhoria do Dispositivo SC - km 240+000 - SP-310",
+      "origemProjectWise": {
+        "nome": "NOP07 - Melhoria do Dispositivo SC - km 240+000 - SP-310",
+        "id": "397149",
+        "guid": "65c0d94f-b525-4a2d-860d-405d344d174f",
+        "connectedProjectId": "94c4704c-51f9-4b37-b300-06dbb7c74798",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/94c4704c-51f9-4b37-b300-06dbb7c74798/ProjectSettings/94c4704c-51f9-4b37-b300-06dbb7c74798/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "94c4704c-51f9-4b37-b300-06dbb7c74798",
+      "projectId": "94c4704c-51f9-4b37-b300-06dbb7c74798",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "is***@planservi.com.br"
+    },
+    {
+      "nomeProjeto": "NOP11 - Ampliação de Dispositivo SJRP - km 432+200 - SP-310",
+      "origemProjectWise": {
+        "nome": "NOP11 - Ampliação de Dispositivo SJRP - km 432+200 - SP-310",
+        "id": "397172",
+        "guid": "8c8de1dc-13d7-46d9-98ee-9c83d6ff8a12",
+        "connectedProjectId": "ec3a0986-a5cb-431d-9b7a-8b29b7821ae7",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/ec3a0986-a5cb-431d-9b7a-8b29b7821ae7/ProjectSettings/ec3a0986-a5cb-431d-9b7a-8b29b7821ae7/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "ec3a0986-a5cb-431d-9b7a-8b29b7821ae7",
+      "projectId": "ec3a0986-a5cb-431d-9b7a-8b29b7821ae7",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "is***@planservi.com.br"
+    },
+    {
+      "nomeProjeto": "NOP12 - Faixa Adicional SJRP- km 451+780 - 454+740 - SP-310",
+      "origemProjectWise": {
+        "nome": "NOP12 - Faixa Adicional SJRP- km 451+780 - 454+740 - SP-310",
+        "id": "396286",
+        "guid": "b130c8f8-d0b7-45d3-9104-d45666fdf1f6",
+        "connectedProjectId": "c15529f9-7d48-41cb-9736-f6c16f1bc425",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/c15529f9-7d48-41cb-9736-f6c16f1bc425/ProjectSettings/c15529f9-7d48-41cb-9736-f6c16f1bc425/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "c15529f9-7d48-41cb-9736-f6c16f1bc425",
+      "projectId": "c15529f9-7d48-41cb-9736-f6c16f1bc425",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "is***@planservi.com.br"
+    },
+    {
+      "nomeProjeto": "NOP13 - Implantação de Viaduto MR - km 448+000 - SP-310",
+      "origemProjectWise": {
+        "nome": "NOP13 - Implantação de Viaduto MR - km 448+000 - SP-310",
+        "id": "396516",
+        "guid": "6150e492-05ac-4f9a-a951-0bb4b8e17c8d",
+        "connectedProjectId": "eb992b2a-1486-4a2f-8ad1-cac93f4c3056",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/eb992b2a-1486-4a2f-8ad1-cac93f4c3056/ProjectSettings/eb992b2a-1486-4a2f-8ad1-cac93f4c3056/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "eb992b2a-1486-4a2f-8ad1-cac93f4c3056",
+      "projectId": "eb992b2a-1486-4a2f-8ad1-cac93f4c3056",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "is***@planservi.com.br"
+    },
+    {
+      "nomeProjeto": "NOP15 - Implantação de Viaduto MR - km 453+180 - SP-310",
+      "origemProjectWise": {
+        "nome": "NOP15 - Implantação de Viaduto MR - km 453+180 - SP-310",
+        "id": "396539",
+        "guid": "2b747411-c476-4520-8d33-4c978a87c678",
+        "connectedProjectId": "e500b7b5-8c47-45fc-8c94-aa7e2952b70e",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e500b7b5-8c47-45fc-8c94-aa7e2952b70e/ProjectSettings/e500b7b5-8c47-45fc-8c94-aa7e2952b70e/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "e500b7b5-8c47-45fc-8c94-aa7e2952b70e",
+      "projectId": "e500b7b5-8c47-45fc-8c94-aa7e2952b70e",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "is***@planservi.com.br"
+    },
+    {
+      "nomeProjeto": "NOP18 - Implantação de Dispositivo PP - km 203+210 - SP-351",
+      "origemProjectWise": {
+        "nome": "NOP18 - Implantação de Dispositivo PP - km 203+210 - SP-351",
+        "id": "397195",
+        "guid": "914bc670-4f89-40e8-b5e4-074b3c11280e",
+        "connectedProjectId": "5493e24d-b87d-4c55-8fd2-aea734f846a3",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/5493e24d-b87d-4c55-8fd2-aea734f846a3/ProjectSettings/5493e24d-b87d-4c55-8fd2-aea734f846a3/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "5493e24d-b87d-4c55-8fd2-aea734f846a3",
+      "projectId": "5493e24d-b87d-4c55-8fd2-aea734f846a3",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "is***@planservi.com.br"
+    },
+    {
+      "nomeProjeto": "NOP20 - Melhoria do dispositivo JT - km 341+000 - SP-326",
+      "origemProjectWise": {
+        "nome": "NOP20 - Melhoria do dispositivo JT - km 341+000 - SP-326",
+        "id": "397218",
+        "guid": "e5898bd5-2be6-4dcc-9a9c-b137ff817c0b",
+        "connectedProjectId": "5474b444-edb6-4c5e-a9c2-8c283d8bfba8",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/5474b444-edb6-4c5e-a9c2-8c283d8bfba8/ProjectSettings/5474b444-edb6-4c5e-a9c2-8c283d8bfba8/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "5474b444-edb6-4c5e-a9c2-8c283d8bfba8",
+      "projectId": "5474b444-edb6-4c5e-a9c2-8c283d8bfba8",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "is***@planservi.com.br"
+    },
+    {
+      "nomeProjeto": "NOP22 - Adequação de Dispositivo BA - km 423+100 - SP-326",
+      "origemProjectWise": {
+        "nome": "NOP22 - Adequação de Dispositivo BA - km 423+100 - SP-326",
+        "id": "397241",
+        "guid": "ae58f104-2101-456f-a230-197ba18a7887",
+        "connectedProjectId": "fb35bafe-0b18-41a1-8bba-0874dd3518c0",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/fb35bafe-0b18-41a1-8bba-0874dd3518c0/ProjectSettings/fb35bafe-0b18-41a1-8bba-0874dd3518c0/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "fb35bafe-0b18-41a1-8bba-0874dd3518c0",
+      "projectId": "fb35bafe-0b18-41a1-8bba-0874dd3518c0",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "is***@planservi.com.br"
+    },
+    {
+      "nomeProjeto": "NOP24 - Implantação de Viaduto CA - km 217+245 - SP-351",
+      "origemProjectWise": {
+        "nome": "NOP24 - Implantação de Viaduto CA - km 217+245 - SP-351",
+        "id": "396562",
+        "guid": "5bb662b7-55f7-4fec-93f1-c0219fe14a47",
+        "connectedProjectId": "b1f7e14a-edc5-4bdb-b77a-f59a5d4edc4e",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/b1f7e14a-edc5-4bdb-b77a-f59a5d4edc4e/ProjectSettings/b1f7e14a-edc5-4bdb-b77a-f59a5d4edc4e/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "b1f7e14a-edc5-4bdb-b77a-f59a5d4edc4e",
+      "projectId": "b1f7e14a-edc5-4bdb-b77a-f59a5d4edc4e",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "is***@planservi.com.br"
+    },
+    {
+      "nomeProjeto": "NOP25 - Dispositivo - km 162+800 - SP-333",
+      "origemProjectWise": {
+        "nome": "NOP25 - Dispositivo - km 162+800 - SP-333",
+        "id": "425834",
+        "guid": "4aa270ff-77b9-4cc6-9503-188598edb787",
+        "connectedProjectId": "68772f46-04a8-4060-ba8f-46571618bfbe",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/68772f46-04a8-4060-ba8f-46571618bfbe/ProjectSettings/68772f46-04a8-4060-ba8f-46571618bfbe/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "68772f46-04a8-4060-ba8f-46571618bfbe",
+      "projectId": "68772f46-04a8-4060-ba8f-46571618bfbe",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "is***@planservi.com.br"
+    },
+    {
+      "nomeProjeto": "NOP8910 - Faixa Adicional SJRP - 425+000 - 432+900 - SP-310",
+      "origemProjectWise": {
+        "nome": "NOP8910 - Faixa Adicional SJRP - 425+000 - 432+900 - SP-310",
+        "id": "396263",
+        "guid": "15dee4f2-08e9-466b-918e-a49c8bbdb073",
+        "connectedProjectId": "f1ff8854-0084-4d9d-98d1-55df1b94e0f7",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/f1ff8854-0084-4d9d-98d1-55df1b94e0f7/ProjectSettings/f1ff8854-0084-4d9d-98d1-55df1b94e0f7/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "f1ff8854-0084-4d9d-98d1-55df1b94e0f7",
+      "projectId": "f1ff8854-0084-4d9d-98d1-55df1b94e0f7",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "is***@planservi.com.br"
+    }
+  ],
+  "resultados": [
+    {
+      "projectId": "f09802b3-356b-4e7a-a158-8497fd5cf63f",
+      "nomeProjeto": "NOP01 - Faixa Adicional SC - km 227+800 - 231+320- SP-310",
+      "origemProjectWise": {
+        "nome": "NOP01 - Faixa Adicional SC - km 227+800 - 231+320- SP-310",
+        "id": "396194",
+        "guid": "0d97e177-e093-4308-a1b6-013b9c8fbac9",
+        "connectedProjectId": "f09802b3-356b-4e7a-a158-8497fd5cf63f",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/f09802b3-356b-4e7a-a158-8497fd5cf63f/ProjectSettings/f09802b3-356b-4e7a-a158-8497fd5cf63f/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "is***@planservi.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "atualizado",
+        "resultado_permissao": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/f09802b3-356b-4e7a-a158-8497fd5cf63f/ProjectSettings/f09802b3-356b-4e7a-a158-8497fd5cf63f/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/f09802b3-356b-4e7a-a158-8497fd5cf63f/ProjectSettings/f09802b3-356b-4e7a-a158-8497fd5cf63f/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "email": "is***@planservi.com.br",
+            "roleLabel": "Projetista",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "c25d40f8-aa57-446b-b2e1-c6c22b45a421",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        },
+        "resultado_titulo": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/f09802b3-356b-4e7a-a158-8497fd5cf63f/ProjectSettings/f09802b3-356b-4e7a-a158-8497fd5cf63f/ProjectParticipants",
+          "pageUrl": "https://pwdm.bentley.com/f09802b3-356b-4e7a-a158-8497fd5cf63f/ProjectSettings/f09802b3-356b-4e7a-a158-8497fd5cf63f/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": [
+            {
+              "email": "is***@planservi.com.br",
+              "roleLabel": "Membro da equipe",
+              "isAdmin": false,
+              "isPWSynced": false,
+              "isPWExplicitlyAdded": false,
+              "canView": true,
+              "canReviewAnswer": false,
+              "canReceive": true,
+              "canIssue": true,
+              "memberOf": [],
+              "id": "c25d40f8-aa57-446b-b2e1-c6c22b45a421",
+              "projectId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "409a27f7-d2db-4895-9228-f397b29172b0",
+      "nomeProjeto": "NOP02 - Faixa Adicional SC - km 227+800 - 230+750 - SP-310",
+      "origemProjectWise": {
+        "nome": "NOP02 - Faixa Adicional SC - km 227+800 - 230+750 - SP-310",
+        "id": "396217",
+        "guid": "65626b30-f42c-4ce4-8442-646c03bcc5b4",
+        "connectedProjectId": "409a27f7-d2db-4895-9228-f397b29172b0",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/409a27f7-d2db-4895-9228-f397b29172b0/ProjectSettings/409a27f7-d2db-4895-9228-f397b29172b0/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "is***@planservi.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/409a27f7-d2db-4895-9228-f397b29172b0/ProjectSettings/409a27f7-d2db-4895-9228-f397b29172b0/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/409a27f7-d2db-4895-9228-f397b29172b0/ProjectSettings/409a27f7-d2db-4895-9228-f397b29172b0/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Isabela Gomes Facioli",
+            "email": "is***@planservi.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "cef5ccc3-a74a-4b54-9cf5-8127dd08ff48",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "7ecf51ef-6c25-491d-aebc-1ec55dacb89b",
+      "nomeProjeto": "NOP03 - Melhoria do Dispositivo SC - km 235+000 - SP-310",
+      "origemProjectWise": {
+        "nome": "NOP03 - Melhoria do Dispositivo SC - km 235+000 - SP-310",
+        "id": "397080",
+        "guid": "35833ac7-08d2-47a3-abb7-a2b80c00e9bc",
+        "connectedProjectId": "7ecf51ef-6c25-491d-aebc-1ec55dacb89b",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/7ecf51ef-6c25-491d-aebc-1ec55dacb89b/ProjectSettings/7ecf51ef-6c25-491d-aebc-1ec55dacb89b/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "is***@planservi.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/7ecf51ef-6c25-491d-aebc-1ec55dacb89b/ProjectSettings/7ecf51ef-6c25-491d-aebc-1ec55dacb89b/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/7ecf51ef-6c25-491d-aebc-1ec55dacb89b/ProjectSettings/7ecf51ef-6c25-491d-aebc-1ec55dacb89b/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Isabela Gomes Facioli",
+            "email": "is***@planservi.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "b8170172-d781-4539-92de-a076732ca501",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "caf40341-fe8a-4819-aecb-40fab935a96e",
+      "nomeProjeto": "NOP04 - Melhoria do Dispositivo SC - km 236+100 - SP-310",
+      "origemProjectWise": {
+        "nome": "NOP04 - Melhoria do Dispositivo SC - km 236+100 - SP-310",
+        "id": "397103",
+        "guid": "58d167e5-456f-4b3c-ae0a-5fe4e89e60bb",
+        "connectedProjectId": "caf40341-fe8a-4819-aecb-40fab935a96e",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/caf40341-fe8a-4819-aecb-40fab935a96e/ProjectSettings/caf40341-fe8a-4819-aecb-40fab935a96e/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "is***@planservi.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/caf40341-fe8a-4819-aecb-40fab935a96e/ProjectSettings/caf40341-fe8a-4819-aecb-40fab935a96e/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/caf40341-fe8a-4819-aecb-40fab935a96e/ProjectSettings/caf40341-fe8a-4819-aecb-40fab935a96e/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Isabela Gomes Facioli",
+            "email": "is***@planservi.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "74927b80-0638-4bec-9a0d-b92e0f487882",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "f732f120-7b18-4f6e-b8ed-cb272a4c5568",
+      "nomeProjeto": "NOP05 - Implantação de Dispositivo SC - km 238+200 - SP-310",
+      "origemProjectWise": {
+        "nome": "NOP05 - Implantação de Dispositivo SC - km 238+200 - SP-310",
+        "id": "397126",
+        "guid": "fbefd888-6cba-45db-8217-5215f4fef7a6",
+        "connectedProjectId": "f732f120-7b18-4f6e-b8ed-cb272a4c5568",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/f732f120-7b18-4f6e-b8ed-cb272a4c5568/ProjectSettings/f732f120-7b18-4f6e-b8ed-cb272a4c5568/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "is***@planservi.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/f732f120-7b18-4f6e-b8ed-cb272a4c5568/ProjectSettings/f732f120-7b18-4f6e-b8ed-cb272a4c5568/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/f732f120-7b18-4f6e-b8ed-cb272a4c5568/ProjectSettings/f732f120-7b18-4f6e-b8ed-cb272a4c5568/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Isabela Gomes Facioli",
+            "email": "is***@planservi.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "3df35121-b7fa-42e1-bd86-1069dca8c617",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "e6d1afaf-9d87-4568-9e5e-03836772b79d",
+      "nomeProjeto": "NOP06 - Faixa Adicional - km 238+524 - 240+370 - SP-310 Excluir",
+      "origemProjectWise": {
+        "nome": "NOP06 - Faixa Adicional - km 238+524 - 240+370 - SP-310 Excluir",
+        "id": "396240",
+        "guid": "8fb945a2-7e8e-48e8-a009-b807baeae993",
+        "connectedProjectId": "e6d1afaf-9d87-4568-9e5e-03836772b79d",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e6d1afaf-9d87-4568-9e5e-03836772b79d/ProjectSettings/e6d1afaf-9d87-4568-9e5e-03836772b79d/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "is***@planservi.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/e6d1afaf-9d87-4568-9e5e-03836772b79d/ProjectSettings/e6d1afaf-9d87-4568-9e5e-03836772b79d/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/e6d1afaf-9d87-4568-9e5e-03836772b79d/ProjectSettings/e6d1afaf-9d87-4568-9e5e-03836772b79d/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Isabela Gomes Facioli",
+            "email": "is***@planservi.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "a106160a-2fbd-4d68-9be2-a18f0f4c78b6",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "94c4704c-51f9-4b37-b300-06dbb7c74798",
+      "nomeProjeto": "NOP07 - Melhoria do Dispositivo SC - km 240+000 - SP-310",
+      "origemProjectWise": {
+        "nome": "NOP07 - Melhoria do Dispositivo SC - km 240+000 - SP-310",
+        "id": "397149",
+        "guid": "65c0d94f-b525-4a2d-860d-405d344d174f",
+        "connectedProjectId": "94c4704c-51f9-4b37-b300-06dbb7c74798",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/94c4704c-51f9-4b37-b300-06dbb7c74798/ProjectSettings/94c4704c-51f9-4b37-b300-06dbb7c74798/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "is***@planservi.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/94c4704c-51f9-4b37-b300-06dbb7c74798/ProjectSettings/94c4704c-51f9-4b37-b300-06dbb7c74798/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/94c4704c-51f9-4b37-b300-06dbb7c74798/ProjectSettings/94c4704c-51f9-4b37-b300-06dbb7c74798/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Isabela Gomes Facioli",
+            "email": "is***@planservi.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "20c2984b-bb98-40fd-88e6-ed095fe74289",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "ec3a0986-a5cb-431d-9b7a-8b29b7821ae7",
+      "nomeProjeto": "NOP11 - Ampliação de Dispositivo SJRP - km 432+200 - SP-310",
+      "origemProjectWise": {
+        "nome": "NOP11 - Ampliação de Dispositivo SJRP - km 432+200 - SP-310",
+        "id": "397172",
+        "guid": "8c8de1dc-13d7-46d9-98ee-9c83d6ff8a12",
+        "connectedProjectId": "ec3a0986-a5cb-431d-9b7a-8b29b7821ae7",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/ec3a0986-a5cb-431d-9b7a-8b29b7821ae7/ProjectSettings/ec3a0986-a5cb-431d-9b7a-8b29b7821ae7/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "is***@planservi.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/ec3a0986-a5cb-431d-9b7a-8b29b7821ae7/ProjectSettings/ec3a0986-a5cb-431d-9b7a-8b29b7821ae7/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/ec3a0986-a5cb-431d-9b7a-8b29b7821ae7/ProjectSettings/ec3a0986-a5cb-431d-9b7a-8b29b7821ae7/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Isabela Gomes Facioli",
+            "email": "is***@planservi.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "0de5f016-8ef9-45f7-9553-7a13fd7dda42",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "c15529f9-7d48-41cb-9736-f6c16f1bc425",
+      "nomeProjeto": "NOP12 - Faixa Adicional SJRP- km 451+780 - 454+740 - SP-310",
+      "origemProjectWise": {
+        "nome": "NOP12 - Faixa Adicional SJRP- km 451+780 - 454+740 - SP-310",
+        "id": "396286",
+        "guid": "b130c8f8-d0b7-45d3-9104-d45666fdf1f6",
+        "connectedProjectId": "c15529f9-7d48-41cb-9736-f6c16f1bc425",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/c15529f9-7d48-41cb-9736-f6c16f1bc425/ProjectSettings/c15529f9-7d48-41cb-9736-f6c16f1bc425/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "is***@planservi.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/c15529f9-7d48-41cb-9736-f6c16f1bc425/ProjectSettings/c15529f9-7d48-41cb-9736-f6c16f1bc425/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/c15529f9-7d48-41cb-9736-f6c16f1bc425/ProjectSettings/c15529f9-7d48-41cb-9736-f6c16f1bc425/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Isabela Gomes Facioli",
+            "email": "is***@planservi.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "05f1b447-05fe-4a74-af1f-49dca4faa991",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "eb992b2a-1486-4a2f-8ad1-cac93f4c3056",
+      "nomeProjeto": "NOP13 - Implantação de Viaduto MR - km 448+000 - SP-310",
+      "origemProjectWise": {
+        "nome": "NOP13 - Implantação de Viaduto MR - km 448+000 - SP-310",
+        "id": "396516",
+        "guid": "6150e492-05ac-4f9a-a951-0bb4b8e17c8d",
+        "connectedProjectId": "eb992b2a-1486-4a2f-8ad1-cac93f4c3056",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/eb992b2a-1486-4a2f-8ad1-cac93f4c3056/ProjectSettings/eb992b2a-1486-4a2f-8ad1-cac93f4c3056/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "is***@planservi.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/eb992b2a-1486-4a2f-8ad1-cac93f4c3056/ProjectSettings/eb992b2a-1486-4a2f-8ad1-cac93f4c3056/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/eb992b2a-1486-4a2f-8ad1-cac93f4c3056/ProjectSettings/eb992b2a-1486-4a2f-8ad1-cac93f4c3056/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Isabela Gomes Facioli",
+            "email": "is***@planservi.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "94dc1957-3d3a-4746-a32b-a5e47643a1f7",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "e500b7b5-8c47-45fc-8c94-aa7e2952b70e",
+      "nomeProjeto": "NOP15 - Implantação de Viaduto MR - km 453+180 - SP-310",
+      "origemProjectWise": {
+        "nome": "NOP15 - Implantação de Viaduto MR - km 453+180 - SP-310",
+        "id": "396539",
+        "guid": "2b747411-c476-4520-8d33-4c978a87c678",
+        "connectedProjectId": "e500b7b5-8c47-45fc-8c94-aa7e2952b70e",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e500b7b5-8c47-45fc-8c94-aa7e2952b70e/ProjectSettings/e500b7b5-8c47-45fc-8c94-aa7e2952b70e/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "is***@planservi.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/e500b7b5-8c47-45fc-8c94-aa7e2952b70e/ProjectSettings/e500b7b5-8c47-45fc-8c94-aa7e2952b70e/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/e500b7b5-8c47-45fc-8c94-aa7e2952b70e/ProjectSettings/e500b7b5-8c47-45fc-8c94-aa7e2952b70e/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Isabela Gomes Facioli",
+            "email": "is***@planservi.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "f5b49629-f116-4ead-a857-b16fda30c573",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "5493e24d-b87d-4c55-8fd2-aea734f846a3",
+      "nomeProjeto": "NOP18 - Implantação de Dispositivo PP - km 203+210 - SP-351",
+      "origemProjectWise": {
+        "nome": "NOP18 - Implantação de Dispositivo PP - km 203+210 - SP-351",
+        "id": "397195",
+        "guid": "914bc670-4f89-40e8-b5e4-074b3c11280e",
+        "connectedProjectId": "5493e24d-b87d-4c55-8fd2-aea734f846a3",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/5493e24d-b87d-4c55-8fd2-aea734f846a3/ProjectSettings/5493e24d-b87d-4c55-8fd2-aea734f846a3/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "is***@planservi.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/5493e24d-b87d-4c55-8fd2-aea734f846a3/ProjectSettings/5493e24d-b87d-4c55-8fd2-aea734f846a3/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/5493e24d-b87d-4c55-8fd2-aea734f846a3/ProjectSettings/5493e24d-b87d-4c55-8fd2-aea734f846a3/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Isabela Gomes Facioli",
+            "email": "is***@planservi.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "19d6f835-af95-4572-8e7e-1d728793472c",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "5474b444-edb6-4c5e-a9c2-8c283d8bfba8",
+      "nomeProjeto": "NOP20 - Melhoria do dispositivo JT - km 341+000 - SP-326",
+      "origemProjectWise": {
+        "nome": "NOP20 - Melhoria do dispositivo JT - km 341+000 - SP-326",
+        "id": "397218",
+        "guid": "e5898bd5-2be6-4dcc-9a9c-b137ff817c0b",
+        "connectedProjectId": "5474b444-edb6-4c5e-a9c2-8c283d8bfba8",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/5474b444-edb6-4c5e-a9c2-8c283d8bfba8/ProjectSettings/5474b444-edb6-4c5e-a9c2-8c283d8bfba8/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "is***@planservi.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/5474b444-edb6-4c5e-a9c2-8c283d8bfba8/ProjectSettings/5474b444-edb6-4c5e-a9c2-8c283d8bfba8/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/5474b444-edb6-4c5e-a9c2-8c283d8bfba8/ProjectSettings/5474b444-edb6-4c5e-a9c2-8c283d8bfba8/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Isabela Gomes Facioli",
+            "email": "is***@planservi.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "7bd7a087-240c-42d6-ae6f-ea162937e1e1",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "fb35bafe-0b18-41a1-8bba-0874dd3518c0",
+      "nomeProjeto": "NOP22 - Adequação de Dispositivo BA - km 423+100 - SP-326",
+      "origemProjectWise": {
+        "nome": "NOP22 - Adequação de Dispositivo BA - km 423+100 - SP-326",
+        "id": "397241",
+        "guid": "ae58f104-2101-456f-a230-197ba18a7887",
+        "connectedProjectId": "fb35bafe-0b18-41a1-8bba-0874dd3518c0",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/fb35bafe-0b18-41a1-8bba-0874dd3518c0/ProjectSettings/fb35bafe-0b18-41a1-8bba-0874dd3518c0/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "is***@planservi.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/fb35bafe-0b18-41a1-8bba-0874dd3518c0/ProjectSettings/fb35bafe-0b18-41a1-8bba-0874dd3518c0/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/fb35bafe-0b18-41a1-8bba-0874dd3518c0/ProjectSettings/fb35bafe-0b18-41a1-8bba-0874dd3518c0/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Isabela Gomes Facioli",
+            "email": "is***@planservi.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "042cc2f7-8f70-4985-813d-e3fd79f86729",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "b1f7e14a-edc5-4bdb-b77a-f59a5d4edc4e",
+      "nomeProjeto": "NOP24 - Implantação de Viaduto CA - km 217+245 - SP-351",
+      "origemProjectWise": {
+        "nome": "NOP24 - Implantação de Viaduto CA - km 217+245 - SP-351",
+        "id": "396562",
+        "guid": "5bb662b7-55f7-4fec-93f1-c0219fe14a47",
+        "connectedProjectId": "b1f7e14a-edc5-4bdb-b77a-f59a5d4edc4e",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/b1f7e14a-edc5-4bdb-b77a-f59a5d4edc4e/ProjectSettings/b1f7e14a-edc5-4bdb-b77a-f59a5d4edc4e/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "is***@planservi.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/b1f7e14a-edc5-4bdb-b77a-f59a5d4edc4e/ProjectSettings/b1f7e14a-edc5-4bdb-b77a-f59a5d4edc4e/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/b1f7e14a-edc5-4bdb-b77a-f59a5d4edc4e/ProjectSettings/b1f7e14a-edc5-4bdb-b77a-f59a5d4edc4e/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Isabela Gomes Facioli",
+            "email": "is***@planservi.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "3003d980-5751-41f7-ad6a-0d9a3ba73d7d",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "68772f46-04a8-4060-ba8f-46571618bfbe",
+      "nomeProjeto": "NOP25 - Dispositivo - km 162+800 - SP-333",
+      "origemProjectWise": {
+        "nome": "NOP25 - Dispositivo - km 162+800 - SP-333",
+        "id": "425834",
+        "guid": "4aa270ff-77b9-4cc6-9503-188598edb787",
+        "connectedProjectId": "68772f46-04a8-4060-ba8f-46571618bfbe",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/68772f46-04a8-4060-ba8f-46571618bfbe/ProjectSettings/68772f46-04a8-4060-ba8f-46571618bfbe/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "is***@planservi.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/68772f46-04a8-4060-ba8f-46571618bfbe/ProjectSettings/68772f46-04a8-4060-ba8f-46571618bfbe/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/68772f46-04a8-4060-ba8f-46571618bfbe/ProjectSettings/68772f46-04a8-4060-ba8f-46571618bfbe/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Isabela Gomes Facioli",
+            "email": "is***@planservi.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "8f8986df-ed1a-4645-aa61-3ee5afd82ec9",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "f1ff8854-0084-4d9d-98d1-55df1b94e0f7",
+      "nomeProjeto": "NOP8910 - Faixa Adicional SJRP - 425+000 - 432+900 - SP-310",
+      "origemProjectWise": {
+        "nome": "NOP8910 - Faixa Adicional SJRP - 425+000 - 432+900 - SP-310",
+        "id": "396263",
+        "guid": "15dee4f2-08e9-466b-918e-a49c8bbdb073",
+        "connectedProjectId": "f1ff8854-0084-4d9d-98d1-55df1b94e0f7",
+        "concessao": "Ecovias Noroeste Paulista",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/f1ff8854-0084-4d9d-98d1-55df1b94e0f7/ProjectSettings/f1ff8854-0084-4d9d-98d1-55df1b94e0f7/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "is***@planservi.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/f1ff8854-0084-4d9d-98d1-55df1b94e0f7/ProjectSettings/f1ff8854-0084-4d9d-98d1-55df1b94e0f7/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/f1ff8854-0084-4d9d-98d1-55df1b94e0f7/ProjectSettings/f1ff8854-0084-4d9d-98d1-55df1b94e0f7/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Isabela Gomes Facioli",
+            "email": "is***@planservi.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "b937b67a-4cbb-4615-b601-d5d954222cab",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    }
+  ]
+}

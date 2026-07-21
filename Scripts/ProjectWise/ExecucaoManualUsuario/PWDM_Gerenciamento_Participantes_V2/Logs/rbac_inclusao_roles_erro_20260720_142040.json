@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-07-20T14:20:40",
+  "etapa": "selecionar_projetos_projectwise",
+  "erro": "Selecao ProjectWise falhou com codigo 3221225786.",
+  "tipoErro": "RuntimeError",
+  "arquivoProjetosExecucao": "",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\peter\\OneDrive - Grupo Ecorodovias\\Área de Trabalho\\Scritps_novos\\Scripts\\ProjectWise\\ExecucaoManualUsuario\\PWDM_Gerenciamento_Participantes_V2\\incluir_usuarios_projetos_roles_pwdm_v2.py\", line 912, in main\n    arquivo_projetos_execucao = executar_seletor_projectwise()\n  File \"C:\\Users\\peter\\OneDrive - Grupo Ecorodovias\\Área de Trabalho\\Scritps_novos\\Scripts\\ProjectWise\\ExecucaoManualUsuario\\PWDM_Gerenciamento_Participantes_V2\\gerenciar_participante_pwdm_connected_v2.py\", line 71, in executar_seletor_projectwise\n    raise RuntimeError(f\"Selecao ProjectWise falhou com codigo {resultado.returncode}.\")\nRuntimeError: Selecao ProjectWise falhou com codigo 3221225786.\n"
+}

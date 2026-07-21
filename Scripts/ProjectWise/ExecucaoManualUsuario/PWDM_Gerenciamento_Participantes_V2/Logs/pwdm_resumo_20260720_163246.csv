@@ -1,0 +1,18 @@
+﻿timestamp,nomeProjeto,projectId,email,acao_solicitada,acao_planejada,situacao_usuario,status,http_status
+2026-07-20T16:32:46,NOP01 - Faixa Adicional SC - km 227+800 - 231+320- SP-310,f09802b3-356b-4e7a-a158-8497fd5cf63f,is***@planservi.com.br,incluir,atualizar_participante,participante,atualizado,200
+2026-07-20T16:32:46,NOP02 - Faixa Adicional SC - km 227+800 - 230+750 - SP-310,409a27f7-d2db-4895-9228-f397b29172b0,is***@planservi.com.br,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-07-20T16:32:46,NOP03 - Melhoria do Dispositivo SC - km 235+000 - SP-310,7ecf51ef-6c25-491d-aebc-1ec55dacb89b,is***@planservi.com.br,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-07-20T16:32:46,NOP04 - Melhoria do Dispositivo SC - km 236+100 - SP-310,caf40341-fe8a-4819-aecb-40fab935a96e,is***@planservi.com.br,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-07-20T16:32:46,NOP05 - Implantação de Dispositivo SC - km 238+200 - SP-310,f732f120-7b18-4f6e-b8ed-cb272a4c5568,is***@planservi.com.br,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-07-20T16:32:46,NOP06 - Faixa Adicional - km 238+524 - 240+370 - SP-310 Excluir,e6d1afaf-9d87-4568-9e5e-03836772b79d,is***@planservi.com.br,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-07-20T16:32:46,NOP07 - Melhoria do Dispositivo SC - km 240+000 - SP-310,94c4704c-51f9-4b37-b300-06dbb7c74798,is***@planservi.com.br,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-07-20T16:32:46,NOP11 - Ampliação de Dispositivo SJRP - km 432+200 - SP-310,ec3a0986-a5cb-431d-9b7a-8b29b7821ae7,is***@planservi.com.br,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-07-20T16:32:46,NOP12 - Faixa Adicional SJRP- km 451+780 - 454+740 - SP-310,c15529f9-7d48-41cb-9736-f6c16f1bc425,is***@planservi.com.br,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-07-20T16:32:46,NOP13 - Implantação de Viaduto MR - km 448+000 - SP-310,eb992b2a-1486-4a2f-8ad1-cac93f4c3056,is***@planservi.com.br,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-07-20T16:32:46,NOP15 - Implantação de Viaduto MR - km 453+180 - SP-310,e500b7b5-8c47-45fc-8c94-aa7e2952b70e,is***@planservi.com.br,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-07-20T16:32:46,NOP18 - Implantação de Dispositivo PP - km 203+210 - SP-351,5493e24d-b87d-4c55-8fd2-aea734f846a3,is***@planservi.com.br,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-07-20T16:32:46,NOP20 - Melhoria do dispositivo JT - km 341+000 - SP-326,5474b444-edb6-4c5e-a9c2-8c283d8bfba8,is***@planservi.com.br,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-07-20T16:32:46,NOP22 - Adequação de Dispositivo BA - km 423+100 - SP-326,fb35bafe-0b18-41a1-8bba-0874dd3518c0,is***@planservi.com.br,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-07-20T16:32:46,NOP24 - Implantação de Viaduto CA - km 217+245 - SP-351,b1f7e14a-edc5-4bdb-b77a-f59a5d4edc4e,is***@planservi.com.br,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-07-20T16:32:46,NOP25 - Dispositivo - km 162+800 - SP-333,68772f46-04a8-4060-ba8f-46571618bfbe,is***@planservi.com.br,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200
+2026-07-20T16:32:46,NOP8910 - Faixa Adicional SJRP - 425+000 - 432+900 - SP-310,f1ff8854-0084-4d9d-98d1-55df1b94e0f7,is***@planservi.com.br,incluir,adicionar_por_email,nao_encontrado,adicionado_por_email,200

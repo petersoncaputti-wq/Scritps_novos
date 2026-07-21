@@ -1,0 +1,655 @@
+{
+  "timestamp": "2026-07-21T10:23:28",
+  "operacoes": [
+    {
+      "email": "ju***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Duplicação SH D1 - km 242 + 247 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH D1 - km 242 + 247 - BR101/ES",
+        "id": "248835",
+        "guid": "3ac231b6-a53b-4ab3-a2e6-7bc88a950419",
+        "connectedProjectId": "02829d40-9e38-4ef4-ac8f-0229db57e1e2",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/02829d40-9e38-4ef4-ac8f-0229db57e1e2/ProjectSettings/02829d40-9e38-4ef4-ac8f-0229db57e1e2/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "02829d40-9e38-4ef4-ac8f-0229db57e1e2",
+      "projectId": "02829d40-9e38-4ef4-ac8f-0229db57e1e2",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "02829d40-9e38-4ef4-ac8f-0229db57e1e2"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "e67eaee1-ad4d-4059-94d0-52584ffffb0e",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "c08c8aa3-2403-4bb2-ad3e-31721b45599c",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "0352787a-9eb6-4f41-9737-776181d2e43e",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "45e1a76e-3325-4bd0-8701-91e9a9d171dd",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ju***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Duplicação SH D2 - km 231,9 + 242 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH D2 - km 231,9 + 242 - BR101/ES",
+        "id": "249616",
+        "guid": "d9b8acf2-eb1b-4b6b-816c-86d8b4dd2255",
+        "connectedProjectId": "059e2f5b-b03f-4868-8f10-916046e97587",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/059e2f5b-b03f-4868-8f10-916046e97587/ProjectSettings/059e2f5b-b03f-4868-8f10-916046e97587/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "059e2f5b-b03f-4868-8f10-916046e97587",
+      "projectId": "059e2f5b-b03f-4868-8f10-916046e97587",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "059e2f5b-b03f-4868-8f10-916046e97587"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "f3206863-d842-44c6-862a-73c180e9cd69",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "1502e307-4e21-4add-829b-7484f5f0db62",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "3f79c590-bae8-4346-a28a-21bab0bd3851",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "759c88ac-572d-4631-bc8f-2cb24e7d0a1c",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ju***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Duplicação SH G1A (ANTT) -  km 357,7 + 373,5 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH G1A (ANTT) -  km 357,7 + 373,5 - BR101/ES",
+        "id": "360783",
+        "guid": "53fed576-5e29-4aad-b430-3cbdb2dd9957",
+        "connectedProjectId": "f8a873e4-d9c0-46f0-a093-f3eb05c28203",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/f8a873e4-d9c0-46f0-a093-f3eb05c28203/ProjectSettings/f8a873e4-d9c0-46f0-a093-f3eb05c28203/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "f8a873e4-d9c0-46f0-a093-f3eb05c28203",
+      "projectId": "f8a873e4-d9c0-46f0-a093-f3eb05c28203",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "f8a873e4-d9c0-46f0-a093-f3eb05c28203"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "b83226f8-c8ca-46b7-b53f-04e3a201386a",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "0407b4ab-f9f4-4b32-a375-00f352a823f9",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "4f9c7e66-0477-40c7-9311-71da1aff48f9",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "ca4e216f-ec20-47c7-b677-7602040abed5",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ju***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Duplicação SH G1A (Obras) -  km 357,7 + 373,5 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH G1A (Obras) -  km 357,7 + 373,5 - BR101/ES",
+        "id": "250397",
+        "guid": "aa2a86af-0f24-444a-a7b7-6a7a2ad96c60",
+        "connectedProjectId": "1f9e5deb-28a4-4cf7-a4a6-754511c9cbc7",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/1f9e5deb-28a4-4cf7-a4a6-754511c9cbc7/ProjectSettings/1f9e5deb-28a4-4cf7-a4a6-754511c9cbc7/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "1f9e5deb-28a4-4cf7-a4a6-754511c9cbc7",
+      "projectId": "1f9e5deb-28a4-4cf7-a4a6-754511c9cbc7",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "1f9e5deb-28a4-4cf7-a4a6-754511c9cbc7"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "6a229e25-e029-46c6-bdb7-2f91123cce4b",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "a074a9c4-b280-4832-96d2-d96bd137e57e",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "6341a1d0-258d-4a08-ae17-b1968d28fb41",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "8189b348-d3b0-447b-985c-e4e6f2c3abb0",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ju***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Duplicação SH G1B - km 380,3 + 396,8 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH G1B - km 380,3 + 396,8 - BR101/ES",
+        "id": "251178",
+        "guid": "11425a55-88f9-4505-80a9-508be98a10a1",
+        "connectedProjectId": "31129f32-46ea-4d0c-858e-52b0e3befebf",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/31129f32-46ea-4d0c-858e-52b0e3befebf/ProjectSettings/31129f32-46ea-4d0c-858e-52b0e3befebf/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "31129f32-46ea-4d0c-858e-52b0e3befebf",
+      "projectId": "31129f32-46ea-4d0c-858e-52b0e3befebf",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "31129f32-46ea-4d0c-858e-52b0e3befebf"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "0a409c07-bd19-4bfa-a650-3a367f2b0e32",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "b5294037-b3d9-42b1-a8b9-07d876217a5e",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "8660a3a8-69a4-40d1-b80b-0344a3d65ab0",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "8e29ecdb-0f15-42b1-8819-cf1029687774",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ju***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Duplicação SH G2 -  km 396,8 + 426,7 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH G2 -  km 396,8 + 426,7 - BR101/ES",
+        "id": "251959",
+        "guid": "3fbd7012-dead-4ec0-8484-f2bf1557d7fc",
+        "connectedProjectId": "6a3b231e-9fda-4347-b2da-48c1c0246203",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/6a3b231e-9fda-4347-b2da-48c1c0246203/ProjectSettings/6a3b231e-9fda-4347-b2da-48c1c0246203/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "6a3b231e-9fda-4347-b2da-48c1c0246203",
+      "projectId": "6a3b231e-9fda-4347-b2da-48c1c0246203",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "6a3b231e-9fda-4347-b2da-48c1c0246203"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "74386e74-4fd5-4690-9c73-5ed5a07ae6cc",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "931eb07e-ac49-48e6-8d50-24da9be721ed",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "66eace33-63cd-476c-85c3-aa19f1648d7e",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        },
+        {
+          "id": "1239979c-ce52-44a3-b5a5-b186411e0ef2",
+          "displayName": "PWDM Approver",
+          "type": "iTwin"
+        }
+      ]
+    }
+  ],
+  "resultados": [
+    {
+      "projectId": "02829d40-9e38-4ef4-ac8f-0229db57e1e2",
+      "nomeProjeto": "Duplicação SH D1 - km 242 + 247 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH D1 - km 242 + 247 - BR101/ES",
+        "id": "248835",
+        "guid": "3ac231b6-a53b-4ab3-a2e6-7bc88a950419",
+        "connectedProjectId": "02829d40-9e38-4ef4-ac8f-0229db57e1e2",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/02829d40-9e38-4ef4-ac8f-0229db57e1e2/ProjectSettings/02829d40-9e38-4ef4-ac8f-0229db57e1e2/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ju***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado",
+        "body": {
+          "members": [
+            {
+              "id": "f0293a68-2fda-4028-b077-8b4082976c47",
+              "email": "ju***@ecorodovias.com.br",
+              "givenName": "Juliana",
+              "surname": "Silva",
+              "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+              "roles": [
+                {
+                  "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+                  "displayName": "Team Member",
+                  "assignedDateTime": "2026-07-21T13:23:24.1424359Z"
+                }
+              ]
+            }
+          ],
+          "invitations": []
+        }
+      }
+    },
+    {
+      "projectId": "059e2f5b-b03f-4868-8f10-916046e97587",
+      "nomeProjeto": "Duplicação SH D2 - km 231,9 + 242 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH D2 - km 231,9 + 242 - BR101/ES",
+        "id": "249616",
+        "guid": "d9b8acf2-eb1b-4b6b-816c-86d8b4dd2255",
+        "connectedProjectId": "059e2f5b-b03f-4868-8f10-916046e97587",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/059e2f5b-b03f-4868-8f10-916046e97587/ProjectSettings/059e2f5b-b03f-4868-8f10-916046e97587/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ju***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado",
+        "body": {
+          "members": [
+            {
+              "id": "f0293a68-2fda-4028-b077-8b4082976c47",
+              "email": "ju***@ecorodovias.com.br",
+              "givenName": "Juliana",
+              "surname": "Silva",
+              "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+              "roles": [
+                {
+                  "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+                  "displayName": "Team Member",
+                  "assignedDateTime": "2026-07-21T13:23:24.6898356Z"
+                }
+              ]
+            }
+          ],
+          "invitations": []
+        }
+      }
+    },
+    {
+      "projectId": "f8a873e4-d9c0-46f0-a093-f3eb05c28203",
+      "nomeProjeto": "Duplicação SH G1A (ANTT) -  km 357,7 + 373,5 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH G1A (ANTT) -  km 357,7 + 373,5 - BR101/ES",
+        "id": "360783",
+        "guid": "53fed576-5e29-4aad-b430-3cbdb2dd9957",
+        "connectedProjectId": "f8a873e4-d9c0-46f0-a093-f3eb05c28203",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/f8a873e4-d9c0-46f0-a093-f3eb05c28203/ProjectSettings/f8a873e4-d9c0-46f0-a093-f3eb05c28203/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ju***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado",
+        "body": {
+          "members": [
+            {
+              "id": "f0293a68-2fda-4028-b077-8b4082976c47",
+              "email": "ju***@ecorodovias.com.br",
+              "givenName": "Juliana",
+              "surname": "Silva",
+              "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+              "roles": [
+                {
+                  "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+                  "displayName": "Team Member",
+                  "assignedDateTime": "2026-07-21T13:23:25.1368637Z"
+                }
+              ]
+            }
+          ],
+          "invitations": []
+        }
+      }
+    },
+    {
+      "projectId": "1f9e5deb-28a4-4cf7-a4a6-754511c9cbc7",
+      "nomeProjeto": "Duplicação SH G1A (Obras) -  km 357,7 + 373,5 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH G1A (Obras) -  km 357,7 + 373,5 - BR101/ES",
+        "id": "250397",
+        "guid": "aa2a86af-0f24-444a-a7b7-6a7a2ad96c60",
+        "connectedProjectId": "1f9e5deb-28a4-4cf7-a4a6-754511c9cbc7",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/1f9e5deb-28a4-4cf7-a4a6-754511c9cbc7/ProjectSettings/1f9e5deb-28a4-4cf7-a4a6-754511c9cbc7/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ju***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado",
+        "body": {
+          "members": [
+            {
+              "id": "f0293a68-2fda-4028-b077-8b4082976c47",
+              "email": "ju***@ecorodovias.com.br",
+              "givenName": "Juliana",
+              "surname": "Silva",
+              "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+              "roles": [
+                {
+                  "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+                  "displayName": "Team Member",
+                  "assignedDateTime": "2026-07-21T13:23:25.6871589Z"
+                }
+              ]
+            }
+          ],
+          "invitations": []
+        }
+      }
+    },
+    {
+      "projectId": "31129f32-46ea-4d0c-858e-52b0e3befebf",
+      "nomeProjeto": "Duplicação SH G1B - km 380,3 + 396,8 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH G1B - km 380,3 + 396,8 - BR101/ES",
+        "id": "251178",
+        "guid": "11425a55-88f9-4505-80a9-508be98a10a1",
+        "connectedProjectId": "31129f32-46ea-4d0c-858e-52b0e3befebf",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/31129f32-46ea-4d0c-858e-52b0e3befebf/ProjectSettings/31129f32-46ea-4d0c-858e-52b0e3befebf/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ju***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado",
+        "body": {
+          "members": [
+            {
+              "id": "f0293a68-2fda-4028-b077-8b4082976c47",
+              "email": "ju***@ecorodovias.com.br",
+              "givenName": "Juliana",
+              "surname": "Silva",
+              "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+              "roles": [
+                {
+                  "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+                  "displayName": "Team Member",
+                  "assignedDateTime": "2026-07-21T13:23:26.1435874Z"
+                }
+              ]
+            }
+          ],
+          "invitations": []
+        }
+      }
+    },
+    {
+      "projectId": "6a3b231e-9fda-4347-b2da-48c1c0246203",
+      "nomeProjeto": "Duplicação SH G2 -  km 396,8 + 426,7 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH G2 -  km 396,8 + 426,7 - BR101/ES",
+        "id": "251959",
+        "guid": "3fbd7012-dead-4ec0-8484-f2bf1557d7fc",
+        "connectedProjectId": "6a3b231e-9fda-4347-b2da-48c1c0246203",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/6a3b231e-9fda-4347-b2da-48c1c0246203/ProjectSettings/6a3b231e-9fda-4347-b2da-48c1c0246203/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ju***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado",
+        "body": {
+          "members": [
+            {
+              "id": "f0293a68-2fda-4028-b077-8b4082976c47",
+              "email": "ju***@ecorodovias.com.br",
+              "givenName": "Juliana",
+              "surname": "Silva",
+              "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+              "roles": [
+                {
+                  "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+                  "displayName": "Team Member",
+                  "assignedDateTime": "2026-07-21T13:23:26.6103185Z"
+                }
+              ]
+            }
+          ],
+          "invitations": []
+        }
+      }
+    }
+  ]
+}

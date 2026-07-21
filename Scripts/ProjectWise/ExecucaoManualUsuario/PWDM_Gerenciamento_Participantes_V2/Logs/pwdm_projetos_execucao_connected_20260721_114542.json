@@ -1,0 +1,33 @@
+﻿{
+    "timestamp":  "2026-07-21T11:48:21",
+    "origem":  "ProjectWise",
+    "modoSelecao":  "concessao_projetos_projectwise_web",
+    "profundidadeProjetos":  0,
+    "concessao":  {
+                      "nome":  "Ecovias Araguaia",
+                      "id":  "297",
+                      "guid":  "0288fac7-80cf-4206-b4b7-daeda55b8ac2"
+                  },
+    "totalProjetosListados":  94,
+    "totalProjetosSelecionados":  1,
+    "totalProjetosAptosProjectWiseWeb":  1,
+    "projetos":  [
+                     {
+                         "nome":  "Adequação a Classe 1A - BR-153/GO/TO e BR-414/GO",
+                         "nomeTecnico":  "Adequação a Classe 1A",
+                         "descricao":  "Adequação a Classe 1A - BR-153/GO/TO e BR-414/GO",
+                         "concessaoProjectWise":  "Ecovias Araguaia",
+                         "projectWiseId":  "426565",
+                         "projectWiseGuid":  "7ac1ec25-e90b-4119-9879-86a7b289207d",
+                         "connectedProjectId":  "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+                         "connectSpaceId":  "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+                         "projectId":  "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+                         "projectWiseWebName":  "",
+                         "projectWiseWebNumber":  "",
+                         "projectWiseWebLink":  "https://connect-projectwisewac.bentley.com/pwlink/?objectId=7ac1ec25-e90b-4119-9879-86a7b289207d\u0026objectType=folder\u0026datasource=Bentley.PW--01SSRV305.ECSC.ECORODOVIAS.CORP~3AEcorodovias-01\u0026projectId=e94d072e-2e24-4e7d-9c47-03d4b92bd12a\u0026workareaid=7ac1ec25-e90b-4119-9879-86a7b289207d\u0026app=pwe",
+                         "projectWiseWebViewLink":  "https://connect-projectwisewebview.bentley.com/pwlink?datasource=Bentley.PW--01SSRV305.ECSC.ECORODOVIAS.CORP~3AEcorodovias-01\u0026objectId=7ac1ec25-e90b-4119-9879-86a7b289207d\u0026objectType=folder\u0026app=webview",
+                         "origemSelecao":  "ProjectWise ConnectedProjectId",
+                         "aptoProjectWiseWeb":  true
+                     }
+                 ]
+}

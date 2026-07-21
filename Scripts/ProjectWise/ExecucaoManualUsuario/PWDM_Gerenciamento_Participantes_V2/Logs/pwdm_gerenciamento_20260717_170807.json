@@ -1,0 +1,1932 @@
+{
+  "timestamp": "2026-07-17T17:08:07",
+  "operacoes": [
+    {
+      "email": "el***@egis-group.com",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Acesso 7° Ano - km 124+420 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Acesso 7° Ano - km 124+420 - BR153/GO",
+        "id": "239311",
+        "guid": "ba5f85ff-e530-4bc5-94a2-ebadfeb49d0e",
+        "connectedProjectId": "d5ec25ff-8e7c-41ce-8308-3d60a9359e6d",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/d5ec25ff-8e7c-41ce-8308-3d60a9359e6d/ProjectSettings/d5ec25ff-8e7c-41ce-8308-3d60a9359e6d/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "d5ec25ff-8e7c-41ce-8308-3d60a9359e6d",
+      "projectId": "d5ec25ff-8e7c-41ce-8308-3d60a9359e6d",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "bf345e73-889d-4309-a0a8-6c4f331444dc",
+        "email": "el***@egis-group.com",
+        "givenName": "Ellen",
+        "surname": "ROSA DE SOUSA COSTA",
+        "organization": "EGIS SA",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-07T15:24:34.493Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "d5ec25ff-8e7c-41ce-8308-3d60a9359e6d"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "031e2375-cbe1-499b-ba6b-a21da7240b81",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "7afeaaec-ca81-4e38-9fae-55885659ccd4",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "81b8eaaa-bd84-435b-8753-8d9770a95b0f",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        },
+        {
+          "id": "e4fd6d42-b12a-4f50-b652-a9fd5cf53d95",
+          "displayName": "PWDM Approver",
+          "type": "iTwin"
+        }
+      ]
+    },
+    {
+      "email": "el***@egis-group.com",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Acesso 7° Ano - km 141+870 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Acesso 7° Ano - km 141+870 - BR153/GO",
+        "id": "240092",
+        "guid": "250875e5-13a0-489f-89e6-da84b71945bc",
+        "connectedProjectId": "ba9771ff-244d-49bc-a170-e31e37cbefac",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/ba9771ff-244d-49bc-a170-e31e37cbefac/ProjectSettings/ba9771ff-244d-49bc-a170-e31e37cbefac/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "ba9771ff-244d-49bc-a170-e31e37cbefac",
+      "projectId": "ba9771ff-244d-49bc-a170-e31e37cbefac",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "bf345e73-889d-4309-a0a8-6c4f331444dc",
+        "email": "el***@egis-group.com",
+        "givenName": "Ellen",
+        "surname": "ROSA DE SOUSA COSTA",
+        "organization": "EGIS SA",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-10T16:05:55.147Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "ba9771ff-244d-49bc-a170-e31e37cbefac"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "7cae9351-5e0e-46b7-97ff-350cd0114eac",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "f6a9778a-4a62-4933-8e3e-b3060e717c4c",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "a002b2f1-cd76-41ed-b6ec-b9a15ffea175",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        },
+        {
+          "id": "d29463c5-7707-4cbc-b012-0b4eef04c238",
+          "displayName": "PWDM Approver",
+          "type": "iTwin"
+        }
+      ]
+    },
+    {
+      "email": "el***@egis-group.com",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Acesso 7° Ano - km 91+280 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Acesso 7° Ano - km 91+280 - BR153/GO",
+        "id": "238530",
+        "guid": "39f5430a-42ab-44f9-8ffd-8ffef6d84a3a",
+        "connectedProjectId": "2deaeffb-787f-4387-8164-3dd5498645e8",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/2deaeffb-787f-4387-8164-3dd5498645e8/ProjectSettings/2deaeffb-787f-4387-8164-3dd5498645e8/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "2deaeffb-787f-4387-8164-3dd5498645e8",
+      "projectId": "2deaeffb-787f-4387-8164-3dd5498645e8",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "bf345e73-889d-4309-a0a8-6c4f331444dc",
+        "email": "el***@egis-group.com",
+        "givenName": "Ellen",
+        "surname": "ROSA DE SOUSA COSTA",
+        "organization": "EGIS SA",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-09T09:36:46.91Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "2deaeffb-787f-4387-8164-3dd5498645e8"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "c98fb062-1051-4d2b-91a2-55a57259e550",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "cbfdd4dc-529f-47ad-8dc3-195156b9f781",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "e4a0d548-4d54-4232-bba5-10a7caf1f1fa",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        },
+        {
+          "id": "fe541a99-4e6a-4435-9318-73e5e51518d5",
+          "displayName": "PWDM Approver",
+          "type": "iTwin"
+        }
+      ]
+    },
+    {
+      "email": "el***@egis-group.com",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Acesso 8° Ano - km 31+50 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Acesso 8° Ano - km 31+50 - BR153/GO",
+        "id": "240874",
+        "guid": "7c8e0377-07b4-491e-9ee0-3506227e304c",
+        "connectedProjectId": "e0346c76-173d-491b-8a6c-fd1a4bc0056c",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e0346c76-173d-491b-8a6c-fd1a4bc0056c/ProjectSettings/e0346c76-173d-491b-8a6c-fd1a4bc0056c/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "e0346c76-173d-491b-8a6c-fd1a4bc0056c",
+      "projectId": "e0346c76-173d-491b-8a6c-fd1a4bc0056c",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "bf345e73-889d-4309-a0a8-6c4f331444dc",
+        "email": "el***@egis-group.com",
+        "givenName": "Ellen",
+        "surname": "ROSA DE SOUSA COSTA",
+        "organization": "EGIS SA",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-07T16:06:28.62Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "e0346c76-173d-491b-8a6c-fd1a4bc0056c"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "d220b764-5bb4-4957-9014-fd2b7017ab8a",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "8f9f3064-b414-409d-bda1-7e72d26b0cd0",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "d3b0f1dc-5dc4-4c1b-acc0-9ed91a263544",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        },
+        {
+          "id": "6cc3cd57-2f97-4e60-8977-6c51c2c1076d",
+          "displayName": "PWDM Approver",
+          "type": "iTwin"
+        }
+      ]
+    },
+    {
+      "email": "el***@egis-group.com",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Acesso 8° Ano - km 72+48 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Acesso 8° Ano - km 72+48 - BR153/GO",
+        "id": "241681",
+        "guid": "7a045a5c-82c9-41cf-bd7c-5d8733e08e06",
+        "connectedProjectId": "fa5efb85-33b4-486f-a89a-3a3da2d36d9d",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/fa5efb85-33b4-486f-a89a-3a3da2d36d9d/ProjectSettings/fa5efb85-33b4-486f-a89a-3a3da2d36d9d/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "fa5efb85-33b4-486f-a89a-3a3da2d36d9d",
+      "projectId": "fa5efb85-33b4-486f-a89a-3a3da2d36d9d",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "bf345e73-889d-4309-a0a8-6c4f331444dc",
+        "email": "el***@egis-group.com",
+        "givenName": "Ellen",
+        "surname": "ROSA DE SOUSA COSTA",
+        "organization": "EGIS SA",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-07T19:05:55.773Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "fa5efb85-33b4-486f-a89a-3a3da2d36d9d"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "0cb96b8a-c417-4999-9bc8-42fa7f8ce0e2",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "07af01a7-8a55-45d3-9b52-fb43950da6a1",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "5f70bc84-b4a0-47a7-b2b0-22db724038ef",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        },
+        {
+          "id": "5134e6bd-2862-4d62-8f92-7c830d8a343e",
+          "displayName": "PWDM Approver",
+          "type": "iTwin"
+        }
+      ]
+    },
+    {
+      "email": "el***@egis-group.com",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Acesso km 435+000 - BR414/GO",
+      "origemProjectWise": {
+        "nome": "Acesso km 435+000 - BR414/GO",
+        "id": "298790",
+        "guid": "1f986bf7-5f5a-4373-93d9-713d7a773427",
+        "connectedProjectId": "ac9087eb-5989-4e7c-953d-ab205aaa6ffd",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/ac9087eb-5989-4e7c-953d-ab205aaa6ffd/ProjectSettings/ac9087eb-5989-4e7c-953d-ab205aaa6ffd/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "ac9087eb-5989-4e7c-953d-ab205aaa6ffd",
+      "projectId": "ac9087eb-5989-4e7c-953d-ab205aaa6ffd",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "ac9087eb-5989-4e7c-953d-ab205aaa6ffd"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "2a13066c-0035-4e96-a604-50d4afe97ba0",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "101fdfa4-4cb1-41dc-85df-8cb876ec7ca2",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "9be6fdb0-7010-4ac7-8956-fdc85d9b555a",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "1785ec39-97eb-4ed4-b4cc-79f984394c19",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "el***@egis-group.com",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Adequação Largura de Faixa Existente 8° Ano - BR080/GO",
+      "origemProjectWise": {
+        "nome": "Adequação Largura de Faixa Existente 8° Ano - BR080/GO",
+        "id": "210381",
+        "guid": "b1a964bf-8654-43ed-812d-cfb78f6ab2d1",
+        "connectedProjectId": "85c7b5a0-066b-45d7-9434-45d5946103f2",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/85c7b5a0-066b-45d7-9434-45d5946103f2/ProjectSettings/85c7b5a0-066b-45d7-9434-45d5946103f2/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "85c7b5a0-066b-45d7-9434-45d5946103f2",
+      "projectId": "85c7b5a0-066b-45d7-9434-45d5946103f2",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "bf345e73-889d-4309-a0a8-6c4f331444dc",
+        "email": "el***@egis-group.com",
+        "givenName": "Ellen",
+        "surname": "ROSA DE SOUSA COSTA",
+        "organization": "EGIS SA",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-10T04:53:51.753Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "85c7b5a0-066b-45d7-9434-45d5946103f2"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "eb5d582f-2c2c-472c-8ec4-ef429bade2e9",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "d235f1f5-aafc-4ef0-9c0a-34561179cc0d",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "d3382bb1-7914-4919-b9b2-aed9911125b6",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "bd021d2c-1195-446e-898f-600659a19a54",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "el***@egis-group.com",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Adequação Largura de Faixa Existente 8° Ano - BR414/GO",
+      "origemProjectWise": {
+        "nome": "Adequação Largura de Faixa Existente 8° Ano - BR414/GO",
+        "id": "209600",
+        "guid": "104b1ce6-19c0-4a13-8ea2-b8158863468e",
+        "connectedProjectId": "75e57cad-c1ee-4ba5-be63-377ccdd4a307",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/75e57cad-c1ee-4ba5-be63-377ccdd4a307/ProjectSettings/75e57cad-c1ee-4ba5-be63-377ccdd4a307/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "75e57cad-c1ee-4ba5-be63-377ccdd4a307",
+      "projectId": "75e57cad-c1ee-4ba5-be63-377ccdd4a307",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "bf345e73-889d-4309-a0a8-6c4f331444dc",
+        "email": "el***@egis-group.com",
+        "givenName": "Ellen",
+        "surname": "ROSA DE SOUSA COSTA",
+        "organization": "EGIS SA",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-10T01:25:03.897Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "75e57cad-c1ee-4ba5-be63-377ccdd4a307"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "0c822ea1-8ce5-4e1c-9f7f-5e24df603000",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "dc3d9d42-9a0d-4001-b556-0537fff6103a",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "7e8aaf74-bbb5-44e8-8f0a-6b2a28691999",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "2a044fe7-5059-4167-936d-4f0a513152bf",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "el***@egis-group.com",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Alças Viadutos - km 432+441 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Alças Viadutos - km 432+441 - BR153/GO",
+        "id": "211162",
+        "guid": "4a0e0d8a-b9d1-4c89-8126-7db266582447",
+        "connectedProjectId": "5b723ffb-0cc7-4f36-8506-8d8caaf76d48",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/5b723ffb-0cc7-4f36-8506-8d8caaf76d48/ProjectSettings/5b723ffb-0cc7-4f36-8506-8d8caaf76d48/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "5b723ffb-0cc7-4f36-8506-8d8caaf76d48",
+      "projectId": "5b723ffb-0cc7-4f36-8506-8d8caaf76d48",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "bf345e73-889d-4309-a0a8-6c4f331444dc",
+        "email": "el***@egis-group.com",
+        "givenName": "Ellen",
+        "surname": "ROSA DE SOUSA COSTA",
+        "organization": "EGIS SA",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-09T19:46:37.873Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "5b723ffb-0cc7-4f36-8506-8d8caaf76d48"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "a21b0cce-ed88-4653-8e52-1df0961bef51",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "3c7e6c37-7348-4cc4-83a5-1d2ad7e213c8",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "8842e533-e018-491a-b47f-daba3c8114f6",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "4dd5b57c-98f9-43ff-bb61-6c43564b6e71",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "el***@egis-group.com",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Ampliações 10° Ano SH 10 - km 71+08 - 107+120 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 10° Ano SH 10 - km 71+08 - 107+120 - BR153/GO",
+        "id": "236186",
+        "guid": "6e455312-32ad-457f-b1d8-073b84f65539",
+        "connectedProjectId": "060f59fd-1281-441a-9c3b-a35d30bf7c7e",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/060f59fd-1281-441a-9c3b-a35d30bf7c7e/ProjectSettings/060f59fd-1281-441a-9c3b-a35d30bf7c7e/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "060f59fd-1281-441a-9c3b-a35d30bf7c7e",
+      "projectId": "060f59fd-1281-441a-9c3b-a35d30bf7c7e",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "bf345e73-889d-4309-a0a8-6c4f331444dc",
+        "email": "el***@egis-group.com",
+        "givenName": "Ellen",
+        "surname": "ROSA DE SOUSA COSTA",
+        "organization": "EGIS SA",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-09T01:15:14.85Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "060f59fd-1281-441a-9c3b-a35d30bf7c7e"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "d010c3f6-61dd-414f-9c16-cdd95210b51a",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "e44e8877-9be9-403a-9e43-cebe2fc2bf1c",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "5f53e24c-b3ea-4932-99f7-e03efa064c7f",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "2206c7a1-2298-4a33-835d-8a007746fefe",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "el***@egis-group.com",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Ampliações 10° Ano SH 12 -  km 124+420 - 141+850 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 10° Ano SH 12 -  km 124+420 - 141+850 - BR153/GO",
+        "id": "236967",
+        "guid": "470e6dd2-a044-47a2-a274-ad0ac2475575",
+        "connectedProjectId": "73e0c8e4-4e61-4db9-b593-fbf6ae1f0f2d",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/73e0c8e4-4e61-4db9-b593-fbf6ae1f0f2d/ProjectSettings/73e0c8e4-4e61-4db9-b593-fbf6ae1f0f2d/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "73e0c8e4-4e61-4db9-b593-fbf6ae1f0f2d",
+      "projectId": "73e0c8e4-4e61-4db9-b593-fbf6ae1f0f2d",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "bf345e73-889d-4309-a0a8-6c4f331444dc",
+        "email": "el***@egis-group.com",
+        "givenName": "Ellen",
+        "surname": "ROSA DE SOUSA COSTA",
+        "organization": "EGIS SA",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-10T00:58:16.95Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "73e0c8e4-4e61-4db9-b593-fbf6ae1f0f2d"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "94629c96-b77f-4e2b-93f3-acfb583277a1",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "4516ec23-171e-4db9-bba2-ed677ca65fa5",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "9604586f-960e-4ac1-bb1d-6ebeb470d6b2",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "d1d776f7-9332-405c-b2d3-5750c2755479",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "el***@egis-group.com",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Ampliações 7° Ano SH 11 - km 107+120 - 124+420 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 7° Ano SH 11 - km 107+120 - 124+420 - BR153/GO",
+        "id": "211943",
+        "guid": "b3f60acc-2528-45c4-b4ef-f8b178c61f7f",
+        "connectedProjectId": "e72f828e-3f3c-43ce-b089-172a4ef2c0a8",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e72f828e-3f3c-43ce-b089-172a4ef2c0a8/ProjectSettings/e72f828e-3f3c-43ce-b089-172a4ef2c0a8/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "e72f828e-3f3c-43ce-b089-172a4ef2c0a8",
+      "projectId": "e72f828e-3f3c-43ce-b089-172a4ef2c0a8",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "bf345e73-889d-4309-a0a8-6c4f331444dc",
+        "email": "el***@egis-group.com",
+        "givenName": "Ellen",
+        "surname": "ROSA DE SOUSA COSTA",
+        "organization": "EGIS SA",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-07T16:33:09.643Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "e72f828e-3f3c-43ce-b089-172a4ef2c0a8"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "f9a2af61-4e99-4ddb-907a-694188082e27",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "467da7d4-f7d3-4654-b3fe-c98d69a4f334",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "a9583bf3-6795-4192-9290-0b96cb86cbec",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "6dde4dab-21d8-4460-997f-182c889e7f4f",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "el***@egis-group.com",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Ampliações 7° Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 7° Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO",
+        "id": "212724",
+        "guid": "f45f01d7-860c-4a54-adf8-25addc65e723",
+        "connectedProjectId": "71cee75d-3a66-4993-9e87-1b93fc0b1a80",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/71cee75d-3a66-4993-9e87-1b93fc0b1a80/ProjectSettings/71cee75d-3a66-4993-9e87-1b93fc0b1a80/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "71cee75d-3a66-4993-9e87-1b93fc0b1a80",
+      "projectId": "71cee75d-3a66-4993-9e87-1b93fc0b1a80",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "bf345e73-889d-4309-a0a8-6c4f331444dc",
+        "email": "el***@egis-group.com",
+        "givenName": "Ellen",
+        "surname": "ROSA DE SOUSA COSTA",
+        "organization": "EGIS SA",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-10T00:29:00.617Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "71cee75d-3a66-4993-9e87-1b93fc0b1a80"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "16d8fde0-a1ed-4363-9c1f-1efd803fdf7f",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "9832b11c-e674-4fcd-9e65-00d7f3a9a1fd",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "ac5018ff-86e9-40e6-802d-00af3bb6e4e4",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "3df2784c-e9bd-4d4f-a624-24ddf689f32f",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "el***@egis-group.com",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Ampliações 8° Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 8° Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO",
+        "id": "213506",
+        "guid": "6ed81c17-fea9-44ea-a9d4-00320ef98314",
+        "connectedProjectId": "7e13aff4-ba0e-4a9b-bf3d-be7b0f4eb876",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/7e13aff4-ba0e-4a9b-bf3d-be7b0f4eb876/ProjectSettings/7e13aff4-ba0e-4a9b-bf3d-be7b0f4eb876/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "7e13aff4-ba0e-4a9b-bf3d-be7b0f4eb876",
+      "projectId": "7e13aff4-ba0e-4a9b-bf3d-be7b0f4eb876",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "bf345e73-889d-4309-a0a8-6c4f331444dc",
+        "email": "el***@egis-group.com",
+        "givenName": "Ellen",
+        "surname": "ROSA DE SOUSA COSTA",
+        "organization": "EGIS SA",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-10T03:13:04.857Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "7e13aff4-ba0e-4a9b-bf3d-be7b0f4eb876"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "0d41952b-c440-431a-b47b-09d7031d3549",
+          "displayName": "Project Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "0486799c-5185-4ef0-a5ee-cc932e542bf1",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "a14b1d41-0589-46c9-847b-b65120fdbf22",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "7a38675b-9004-4564-aa96-49049424965a",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "383d70fe-6b09-4b73-aea2-39965bb9d649",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "el***@egis-group.com",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Ampliações 8° Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 8° Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO",
+        "id": "214287",
+        "guid": "5aedd0da-61b4-4df7-8d92-fe2f3c0a2dcb",
+        "connectedProjectId": "7728f036-853f-42b0-b4cf-6f205110728d",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/7728f036-853f-42b0-b4cf-6f205110728d/ProjectSettings/7728f036-853f-42b0-b4cf-6f205110728d/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "7728f036-853f-42b0-b4cf-6f205110728d",
+      "projectId": "7728f036-853f-42b0-b4cf-6f205110728d",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "bf345e73-889d-4309-a0a8-6c4f331444dc",
+        "email": "el***@egis-group.com",
+        "givenName": "Ellen",
+        "surname": "ROSA DE SOUSA COSTA",
+        "organization": "EGIS SA",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-10T01:39:44.563Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "7728f036-853f-42b0-b4cf-6f205110728d"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "bba6298b-e89d-43f0-9e6e-df5f3ed59882",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "4c0037c7-ff21-452d-89f7-26426c7a915d",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "53e81b3f-ba82-4259-a0d0-43d6bfcb7230",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "6433fbfe-638c-4081-b0e7-66fb3baaf007",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "el***@egis-group.com",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Ampliações 9° Ano SH 30 - km 435+50 - 444+132 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 9° Ano SH 30 - km 435+50 - 444+132 - BR153/GO",
+        "id": "215068",
+        "guid": "e0b5d1be-2977-4d65-9f17-f3cbefa7ca41",
+        "connectedProjectId": "f79aa49d-fd3a-4c08-931d-af7b123e0e82",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/f79aa49d-fd3a-4c08-931d-af7b123e0e82/ProjectSettings/f79aa49d-fd3a-4c08-931d-af7b123e0e82/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "f79aa49d-fd3a-4c08-931d-af7b123e0e82",
+      "projectId": "f79aa49d-fd3a-4c08-931d-af7b123e0e82",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "bf345e73-889d-4309-a0a8-6c4f331444dc",
+        "email": "el***@egis-group.com",
+        "givenName": "Ellen",
+        "surname": "ROSA DE SOUSA COSTA",
+        "organization": "EGIS SA",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-07T18:20:29.197Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "f79aa49d-fd3a-4c08-931d-af7b123e0e82"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "578006ef-873b-4d65-b141-704b7f572ed4",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "36abc442-a84d-46f7-9c30-c57fe1e2d94d",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "fd6b2c13-dc94-4bc8-b7a0-07e966609d00",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "dab799b1-0ce6-45fa-bd0d-3c077d59ba4a",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "el***@egis-group.com",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Ampliações 9° Ano SH 42 - km 395+890 - 409+05 - BR414/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 9° Ano SH 42 - km 395+890 - 409+05 - BR414/GO",
+        "id": "235405",
+        "guid": "56fa70a0-291e-40b8-9d98-08f82ef91a54",
+        "connectedProjectId": "b417ea35-4b6b-4b5c-9d01-51f724833057",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/b417ea35-4b6b-4b5c-9d01-51f724833057/ProjectSettings/b417ea35-4b6b-4b5c-9d01-51f724833057/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "b417ea35-4b6b-4b5c-9d01-51f724833057",
+      "projectId": "b417ea35-4b6b-4b5c-9d01-51f724833057",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "bf345e73-889d-4309-a0a8-6c4f331444dc",
+        "email": "el***@egis-group.com",
+        "givenName": "Ellen",
+        "surname": "ROSA DE SOUSA COSTA",
+        "organization": "EGIS SA",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-10T14:35:54.937Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "b417ea35-4b6b-4b5c-9d01-51f724833057"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "da027f9a-5133-481b-824c-ff48d49b107b",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "4b1e1b5f-c754-43d3-89bd-bcc2f61f3712",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "4c865ce4-3bbd-4654-afab-5fa0ecf41476",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "660ad747-b44c-4d29-856f-88f2e5d58809",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "el***@egis-group.com",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Dispositivo 9°Ano - km 444+122 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Dispositivo 9°Ano - km 444+122 - BR153/GO",
+        "id": "54554",
+        "guid": "32738951-565d-4347-8be6-b321beeded7b",
+        "connectedProjectId": "444d077b-51f0-45f4-9c33-db7463330142",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/444d077b-51f0-45f4-9c33-db7463330142/ProjectSettings/444d077b-51f0-45f4-9c33-db7463330142/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "444d077b-51f0-45f4-9c33-db7463330142",
+      "projectId": "444d077b-51f0-45f4-9c33-db7463330142",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "444d077b-51f0-45f4-9c33-db7463330142"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "653de5e2-4894-4b93-97a4-c58e8d4dca2f",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "6ef0c4ce-3555-453e-95f9-a25fa09ab815",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "14ecb80a-3fe3-4a04-8c3d-2ae1bce4cf6a",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        },
+        {
+          "id": "b8282c2e-dfea-4722-a328-27f4f060fd4b",
+          "displayName": "PWDM Approver",
+          "type": "iTwin"
+        }
+      ]
+    },
+    {
+      "email": "el***@egis-group.com",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Pontos de ônibus 3° e 4° Ano - BR-153",
+      "origemProjectWise": {
+        "nome": "Pontos de ônibus 3° e 4° Ano - BR-153",
+        "id": "370792",
+        "guid": "9e8c04fb-3644-459c-a35c-7e8252ab79f7",
+        "connectedProjectId": "91a83c9e-282f-497b-b343-8905caaaf64e",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/91a83c9e-282f-497b-b343-8905caaaf64e/ProjectSettings/91a83c9e-282f-497b-b343-8905caaaf64e/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "91a83c9e-282f-497b-b343-8905caaaf64e",
+      "projectId": "91a83c9e-282f-497b-b343-8905caaaf64e",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "bf345e73-889d-4309-a0a8-6c4f331444dc",
+        "email": "el***@egis-group.com",
+        "givenName": "Ellen",
+        "surname": "ROSA DE SOUSA COSTA",
+        "organization": "EGIS SA",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-10T07:12:33.36Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "91a83c9e-282f-497b-b343-8905caaaf64e"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "70d7f4ca-ebaa-4301-8e2b-38da859813df",
+          "displayName": "Imodel",
+          "type": "enterprise"
+        },
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "0d41952b-c440-431a-b47b-09d7031d3549",
+          "displayName": "Project Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "d61fee31-5ac8-45cf-b951-e75e8e776acd",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "81432023-ebb1-4eb8-aa72-8d381e539fc7",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "bb77698f-ab26-4e22-b7f6-494ae49ad1fa",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "f3103cc0-7b3e-409b-bd6c-0b1b9257a184",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    }
+  ],
+  "resultados": [
+    {
+      "projectId": "d5ec25ff-8e7c-41ce-8308-3d60a9359e6d",
+      "nomeProjeto": "Acesso 7° Ano - km 124+420 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Acesso 7° Ano - km 124+420 - BR153/GO",
+        "id": "239311",
+        "guid": "ba5f85ff-e530-4bc5-94a2-ebadfeb49d0e",
+        "connectedProjectId": "d5ec25ff-8e7c-41ce-8308-3d60a9359e6d",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/d5ec25ff-8e7c-41ce-8308-3d60a9359e6d/ProjectSettings/d5ec25ff-8e7c-41ce-8308-3d60a9359e6d/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "el***@egis-group.com",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Usuario ja possui a role desejada."
+      }
+    },
+    {
+      "projectId": "ba9771ff-244d-49bc-a170-e31e37cbefac",
+      "nomeProjeto": "Acesso 7° Ano - km 141+870 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Acesso 7° Ano - km 141+870 - BR153/GO",
+        "id": "240092",
+        "guid": "250875e5-13a0-489f-89e6-da84b71945bc",
+        "connectedProjectId": "ba9771ff-244d-49bc-a170-e31e37cbefac",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/ba9771ff-244d-49bc-a170-e31e37cbefac/ProjectSettings/ba9771ff-244d-49bc-a170-e31e37cbefac/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "el***@egis-group.com",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Usuario ja possui a role desejada."
+      }
+    },
+    {
+      "projectId": "2deaeffb-787f-4387-8164-3dd5498645e8",
+      "nomeProjeto": "Acesso 7° Ano - km 91+280 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Acesso 7° Ano - km 91+280 - BR153/GO",
+        "id": "238530",
+        "guid": "39f5430a-42ab-44f9-8ffd-8ffef6d84a3a",
+        "connectedProjectId": "2deaeffb-787f-4387-8164-3dd5498645e8",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/2deaeffb-787f-4387-8164-3dd5498645e8/ProjectSettings/2deaeffb-787f-4387-8164-3dd5498645e8/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "el***@egis-group.com",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Usuario ja possui a role desejada."
+      }
+    },
+    {
+      "projectId": "e0346c76-173d-491b-8a6c-fd1a4bc0056c",
+      "nomeProjeto": "Acesso 8° Ano - km 31+50 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Acesso 8° Ano - km 31+50 - BR153/GO",
+        "id": "240874",
+        "guid": "7c8e0377-07b4-491e-9ee0-3506227e304c",
+        "connectedProjectId": "e0346c76-173d-491b-8a6c-fd1a4bc0056c",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e0346c76-173d-491b-8a6c-fd1a4bc0056c/ProjectSettings/e0346c76-173d-491b-8a6c-fd1a4bc0056c/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "el***@egis-group.com",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Usuario ja possui a role desejada."
+      }
+    },
+    {
+      "projectId": "fa5efb85-33b4-486f-a89a-3a3da2d36d9d",
+      "nomeProjeto": "Acesso 8° Ano - km 72+48 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Acesso 8° Ano - km 72+48 - BR153/GO",
+        "id": "241681",
+        "guid": "7a045a5c-82c9-41cf-bd7c-5d8733e08e06",
+        "connectedProjectId": "fa5efb85-33b4-486f-a89a-3a3da2d36d9d",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/fa5efb85-33b4-486f-a89a-3a3da2d36d9d/ProjectSettings/fa5efb85-33b4-486f-a89a-3a3da2d36d9d/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "el***@egis-group.com",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Usuario ja possui a role desejada."
+      }
+    },
+    {
+      "projectId": "ac9087eb-5989-4e7c-953d-ab205aaa6ffd",
+      "nomeProjeto": "Acesso km 435+000 - BR414/GO",
+      "origemProjectWise": {
+        "nome": "Acesso km 435+000 - BR414/GO",
+        "id": "298790",
+        "guid": "1f986bf7-5f5a-4373-93d9-713d7a773427",
+        "connectedProjectId": "ac9087eb-5989-4e7c-953d-ab205aaa6ffd",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/ac9087eb-5989-4e7c-953d-ab205aaa6ffd/ProjectSettings/ac9087eb-5989-4e7c-953d-ab205aaa6ffd/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "el***@egis-group.com",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado",
+        "body": {
+          "members": [],
+          "invitations": [
+            {
+              "id": "57563e6e-b361-4cd5-8d01-517c7d34837b",
+              "email": "el***@egis-group.com",
+              "invitedByEmail": "t_***@ecorodovias.com.br",
+              "status": "Pending",
+              "createdDate": "2026-07-17T20:08:06.3589813Z",
+              "expirationDate": "2026-07-31T20:08:06.3589813Z",
+              "roles": [
+                {
+                  "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+                  "displayName": "Team Member"
+                }
+              ],
+              "inviterGivenName": "Peterson",
+              "inviterSurname": "Caputti",
+              "projectDisplayName": "BR414-GO - km 435,000",
+              "inviterOrganization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "projectId": "85c7b5a0-066b-45d7-9434-45d5946103f2",
+      "nomeProjeto": "Adequação Largura de Faixa Existente 8° Ano - BR080/GO",
+      "origemProjectWise": {
+        "nome": "Adequação Largura de Faixa Existente 8° Ano - BR080/GO",
+        "id": "210381",
+        "guid": "b1a964bf-8654-43ed-812d-cfb78f6ab2d1",
+        "connectedProjectId": "85c7b5a0-066b-45d7-9434-45d5946103f2",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/85c7b5a0-066b-45d7-9434-45d5946103f2/ProjectSettings/85c7b5a0-066b-45d7-9434-45d5946103f2/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "el***@egis-group.com",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Usuario ja possui a role desejada."
+      }
+    },
+    {
+      "projectId": "75e57cad-c1ee-4ba5-be63-377ccdd4a307",
+      "nomeProjeto": "Adequação Largura de Faixa Existente 8° Ano - BR414/GO",
+      "origemProjectWise": {
+        "nome": "Adequação Largura de Faixa Existente 8° Ano - BR414/GO",
+        "id": "209600",
+        "guid": "104b1ce6-19c0-4a13-8ea2-b8158863468e",
+        "connectedProjectId": "75e57cad-c1ee-4ba5-be63-377ccdd4a307",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/75e57cad-c1ee-4ba5-be63-377ccdd4a307/ProjectSettings/75e57cad-c1ee-4ba5-be63-377ccdd4a307/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "el***@egis-group.com",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Usuario ja possui a role desejada."
+      }
+    },
+    {
+      "projectId": "5b723ffb-0cc7-4f36-8506-8d8caaf76d48",
+      "nomeProjeto": "Alças Viadutos - km 432+441 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Alças Viadutos - km 432+441 - BR153/GO",
+        "id": "211162",
+        "guid": "4a0e0d8a-b9d1-4c89-8126-7db266582447",
+        "connectedProjectId": "5b723ffb-0cc7-4f36-8506-8d8caaf76d48",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/5b723ffb-0cc7-4f36-8506-8d8caaf76d48/ProjectSettings/5b723ffb-0cc7-4f36-8506-8d8caaf76d48/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "el***@egis-group.com",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Usuario ja possui a role desejada."
+      }
+    },
+    {
+      "projectId": "060f59fd-1281-441a-9c3b-a35d30bf7c7e",
+      "nomeProjeto": "Ampliações 10° Ano SH 10 - km 71+08 - 107+120 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 10° Ano SH 10 - km 71+08 - 107+120 - BR153/GO",
+        "id": "236186",
+        "guid": "6e455312-32ad-457f-b1d8-073b84f65539",
+        "connectedProjectId": "060f59fd-1281-441a-9c3b-a35d30bf7c7e",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/060f59fd-1281-441a-9c3b-a35d30bf7c7e/ProjectSettings/060f59fd-1281-441a-9c3b-a35d30bf7c7e/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "el***@egis-group.com",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Usuario ja possui a role desejada."
+      }
+    },
+    {
+      "projectId": "73e0c8e4-4e61-4db9-b593-fbf6ae1f0f2d",
+      "nomeProjeto": "Ampliações 10° Ano SH 12 -  km 124+420 - 141+850 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 10° Ano SH 12 -  km 124+420 - 141+850 - BR153/GO",
+        "id": "236967",
+        "guid": "470e6dd2-a044-47a2-a274-ad0ac2475575",
+        "connectedProjectId": "73e0c8e4-4e61-4db9-b593-fbf6ae1f0f2d",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/73e0c8e4-4e61-4db9-b593-fbf6ae1f0f2d/ProjectSettings/73e0c8e4-4e61-4db9-b593-fbf6ae1f0f2d/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "el***@egis-group.com",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Usuario ja possui a role desejada."
+      }
+    },
+    {
+      "projectId": "e72f828e-3f3c-43ce-b089-172a4ef2c0a8",
+      "nomeProjeto": "Ampliações 7° Ano SH 11 - km 107+120 - 124+420 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 7° Ano SH 11 - km 107+120 - 124+420 - BR153/GO",
+        "id": "211943",
+        "guid": "b3f60acc-2528-45c4-b4ef-f8b178c61f7f",
+        "connectedProjectId": "e72f828e-3f3c-43ce-b089-172a4ef2c0a8",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e72f828e-3f3c-43ce-b089-172a4ef2c0a8/ProjectSettings/e72f828e-3f3c-43ce-b089-172a4ef2c0a8/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "el***@egis-group.com",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Usuario ja possui a role desejada."
+      }
+    },
+    {
+      "projectId": "71cee75d-3a66-4993-9e87-1b93fc0b1a80",
+      "nomeProjeto": "Ampliações 7° Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 7° Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO",
+        "id": "212724",
+        "guid": "f45f01d7-860c-4a54-adf8-25addc65e723",
+        "connectedProjectId": "71cee75d-3a66-4993-9e87-1b93fc0b1a80",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/71cee75d-3a66-4993-9e87-1b93fc0b1a80/ProjectSettings/71cee75d-3a66-4993-9e87-1b93fc0b1a80/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "el***@egis-group.com",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Usuario ja possui a role desejada."
+      }
+    },
+    {
+      "projectId": "7e13aff4-ba0e-4a9b-bf3d-be7b0f4eb876",
+      "nomeProjeto": "Ampliações 8° Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 8° Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO",
+        "id": "213506",
+        "guid": "6ed81c17-fea9-44ea-a9d4-00320ef98314",
+        "connectedProjectId": "7e13aff4-ba0e-4a9b-bf3d-be7b0f4eb876",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/7e13aff4-ba0e-4a9b-bf3d-be7b0f4eb876/ProjectSettings/7e13aff4-ba0e-4a9b-bf3d-be7b0f4eb876/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "el***@egis-group.com",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Usuario ja possui a role desejada."
+      }
+    },
+    {
+      "projectId": "7728f036-853f-42b0-b4cf-6f205110728d",
+      "nomeProjeto": "Ampliações 8° Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 8° Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO",
+        "id": "214287",
+        "guid": "5aedd0da-61b4-4df7-8d92-fe2f3c0a2dcb",
+        "connectedProjectId": "7728f036-853f-42b0-b4cf-6f205110728d",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/7728f036-853f-42b0-b4cf-6f205110728d/ProjectSettings/7728f036-853f-42b0-b4cf-6f205110728d/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "el***@egis-group.com",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Usuario ja possui a role desejada."
+      }
+    },
+    {
+      "projectId": "f79aa49d-fd3a-4c08-931d-af7b123e0e82",
+      "nomeProjeto": "Ampliações 9° Ano SH 30 - km 435+50 - 444+132 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 9° Ano SH 30 - km 435+50 - 444+132 - BR153/GO",
+        "id": "215068",
+        "guid": "e0b5d1be-2977-4d65-9f17-f3cbefa7ca41",
+        "connectedProjectId": "f79aa49d-fd3a-4c08-931d-af7b123e0e82",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/f79aa49d-fd3a-4c08-931d-af7b123e0e82/ProjectSettings/f79aa49d-fd3a-4c08-931d-af7b123e0e82/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "el***@egis-group.com",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Usuario ja possui a role desejada."
+      }
+    },
+    {
+      "projectId": "b417ea35-4b6b-4b5c-9d01-51f724833057",
+      "nomeProjeto": "Ampliações 9° Ano SH 42 - km 395+890 - 409+05 - BR414/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 9° Ano SH 42 - km 395+890 - 409+05 - BR414/GO",
+        "id": "235405",
+        "guid": "56fa70a0-291e-40b8-9d98-08f82ef91a54",
+        "connectedProjectId": "b417ea35-4b6b-4b5c-9d01-51f724833057",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/b417ea35-4b6b-4b5c-9d01-51f724833057/ProjectSettings/b417ea35-4b6b-4b5c-9d01-51f724833057/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "el***@egis-group.com",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Usuario ja possui a role desejada."
+      }
+    },
+    {
+      "projectId": "444d077b-51f0-45f4-9c33-db7463330142",
+      "nomeProjeto": "Dispositivo 9°Ano - km 444+122 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Dispositivo 9°Ano - km 444+122 - BR153/GO",
+        "id": "54554",
+        "guid": "32738951-565d-4347-8be6-b321beeded7b",
+        "connectedProjectId": "444d077b-51f0-45f4-9c33-db7463330142",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/444d077b-51f0-45f4-9c33-db7463330142/ProjectSettings/444d077b-51f0-45f4-9c33-db7463330142/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "el***@egis-group.com",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado",
+        "body": {
+          "members": [],
+          "invitations": [
+            {
+              "id": "d4b54315-7b9b-42d1-ac0f-d966d7a99888",
+              "email": "el***@egis-group.com",
+              "invitedByEmail": "t_***@ecorodovias.com.br",
+              "status": "Pending",
+              "createdDate": "2026-07-17T20:08:06.9595143Z",
+              "expirationDate": "2026-07-31T20:08:06.9595143Z",
+              "roles": [
+                {
+                  "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+                  "displayName": "Team Member"
+                }
+              ],
+              "inviterGivenName": "Peterson",
+              "inviterSurname": "Caputti",
+              "projectDisplayName": "BR153-GO - km 444,122",
+              "inviterOrganization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "projectId": "91a83c9e-282f-497b-b343-8905caaaf64e",
+      "nomeProjeto": "Pontos de ônibus 3° e 4° Ano - BR-153",
+      "origemProjectWise": {
+        "nome": "Pontos de ônibus 3° e 4° Ano - BR-153",
+        "id": "370792",
+        "guid": "9e8c04fb-3644-459c-a35c-7e8252ab79f7",
+        "connectedProjectId": "91a83c9e-282f-497b-b343-8905caaaf64e",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/91a83c9e-282f-497b-b343-8905caaaf64e/ProjectSettings/91a83c9e-282f-497b-b343-8905caaaf64e/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "el***@egis-group.com",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Usuario ja possui a role desejada."
+      }
+    }
+  ]
+}

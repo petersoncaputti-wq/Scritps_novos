@@ -1,0 +1,7 @@
+﻿"Linha";"UserName";"Description";"Email";"SecurityProvider";"IMSUser";"Status";"Acao";"Mensagem";"Acessos"
+"2";"Ivan Morais";"Projetista";"ivan.morais@enprodes.com.br";"";"True";"OK";"Criado";"Processado com sucesso.";"Sem grupos/user lists"
+"3";"Andre Augusto";"Projetista";"andre.augusto@enprodes.com.br";"";"True";"OK";"JaExistia";"Processado com sucesso.";"Sem grupos/user lists"
+"4";"Eduardo Oliviera";"Projetista";"eduardo.oliveira@enprodes.com.br";"";"True";"OK";"Criado";"Processado com sucesso.";"Sem grupos/user lists"
+"5";"Jaine Quadros";"Projetista";"jaine.quadros@enprodes.com.br";"";"True";"OK";"Criado";"Processado com sucesso.";"Sem grupos/user lists"
+"6";"";"";"";"";"True";"INVALIDO";"Validacao";"Name vazio; E-mail vazio";""
+"7";"";"";"";"";"True";"INVALIDO";"Validacao";"Name vazio; E-mail vazio";""

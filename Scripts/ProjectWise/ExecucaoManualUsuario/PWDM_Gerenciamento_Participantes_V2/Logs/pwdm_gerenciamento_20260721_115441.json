@@ -1,0 +1,721 @@
+{
+  "timestamp": "2026-07-21T11:54:41",
+  "operacoes": [
+    {
+      "email": "da***@ecorodovias.com.br",
+      "linhaPlanilha": 2,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Adequação a Classe 1A - BR-153/GO/TO e BR-414/GO",
+      "origemProjectWise": {
+        "nome": "Adequação a Classe 1A - BR-153/GO/TO e BR-414/GO",
+        "id": "426565",
+        "guid": "7ac1ec25-e90b-4119-9879-86a7b289207d",
+        "connectedProjectId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+      "projectId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "1ff60abe-0598-4e00-bde4-a145beeb8a74",
+        "email": "da***@ecorodovias.com.br",
+        "givenName": "Daniela ",
+        "surname": "Noda",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-21T14:12:17.817Z"
+          },
+          {
+            "id": "83bf8663-645b-4fdb-9171-696e0c5f7d45",
+            "displayName": "PWDM Administrator",
+            "assignedDateTime": "2026-07-21T14:12:17.947Z"
+          },
+          {
+            "id": "e4da7384-f16a-4e49-afa4-f76ca3cf46db",
+            "displayName": "PWDM Issuer",
+            "assignedDateTime": "2026-07-21T14:12:17.95Z"
+          },
+          {
+            "id": "74477cc2-af2c-4e9c-9daf-3a53d0f30bc2",
+            "displayName": "PWDM Receiver",
+            "assignedDateTime": "2026-07-21T14:12:17.95Z"
+          },
+          {
+            "id": "f2bddb4d-3916-47bd-a528-12a7bab26f3b",
+            "displayName": "PWDM Approver",
+            "assignedDateTime": "2026-07-21T14:12:17.953Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "83bf8663-645b-4fdb-9171-696e0c5f7d45",
+        "e4da7384-f16a-4e49-afa4-f76ca3cf46db",
+        "74477cc2-af2c-4e9c-9daf-3a53d0f30bc2",
+        "f2bddb4d-3916-47bd-a528-12a7bab26f3b"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "83bf8663-645b-4fdb-9171-696e0c5f7d45",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "f2bddb4d-3916-47bd-a528-12a7bab26f3b",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "e4da7384-f16a-4e49-afa4-f76ca3cf46db",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "74477cc2-af2c-4e9c-9daf-3a53d0f30bc2",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "gu***@ecorodovias.com.br",
+      "linhaPlanilha": 3,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Adequação a Classe 1A - BR-153/GO/TO e BR-414/GO",
+      "origemProjectWise": {
+        "nome": "Adequação a Classe 1A - BR-153/GO/TO e BR-414/GO",
+        "id": "426565",
+        "guid": "7ac1ec25-e90b-4119-9879-86a7b289207d",
+        "connectedProjectId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+      "projectId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "59d99f79-290b-4b6d-ab3c-2180e1964815",
+        "email": "gu***@ecorodovias.com.br",
+        "givenName": "Gustavo",
+        "surname": "Araujo",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-21T14:12:06.127Z"
+          },
+          {
+            "id": "83bf8663-645b-4fdb-9171-696e0c5f7d45",
+            "displayName": "PWDM Administrator",
+            "assignedDateTime": "2026-07-21T14:12:06.27Z"
+          },
+          {
+            "id": "e4da7384-f16a-4e49-afa4-f76ca3cf46db",
+            "displayName": "PWDM Issuer",
+            "assignedDateTime": "2026-07-21T14:12:06.27Z"
+          },
+          {
+            "id": "74477cc2-af2c-4e9c-9daf-3a53d0f30bc2",
+            "displayName": "PWDM Receiver",
+            "assignedDateTime": "2026-07-21T14:12:06.273Z"
+          },
+          {
+            "id": "f2bddb4d-3916-47bd-a528-12a7bab26f3b",
+            "displayName": "PWDM Approver",
+            "assignedDateTime": "2026-07-21T14:12:06.277Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "83bf8663-645b-4fdb-9171-696e0c5f7d45",
+        "e4da7384-f16a-4e49-afa4-f76ca3cf46db",
+        "74477cc2-af2c-4e9c-9daf-3a53d0f30bc2",
+        "f2bddb4d-3916-47bd-a528-12a7bab26f3b"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "83bf8663-645b-4fdb-9171-696e0c5f7d45",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "f2bddb4d-3916-47bd-a528-12a7bab26f3b",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "e4da7384-f16a-4e49-afa4-f76ca3cf46db",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "74477cc2-af2c-4e9c-9daf-3a53d0f30bc2",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ka***@egis-group.com",
+      "linhaPlanilha": 4,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Adequação a Classe 1A - BR-153/GO/TO e BR-414/GO",
+      "origemProjectWise": {
+        "nome": "Adequação a Classe 1A - BR-153/GO/TO e BR-414/GO",
+        "id": "426565",
+        "guid": "7ac1ec25-e90b-4119-9879-86a7b289207d",
+        "connectedProjectId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+      "projectId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "7d28a6ca-7584-4aa4-b8e1-e6968470eb7a",
+        "email": "ka***@egis-group.com",
+        "givenName": "Kauane",
+        "surname": "APARECIDA ALCANTARA SILVA",
+        "organization": "EGIS SA",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-21T14:12:33.683Z"
+          },
+          {
+            "id": "e4da7384-f16a-4e49-afa4-f76ca3cf46db",
+            "displayName": "PWDM Issuer",
+            "assignedDateTime": "2026-07-21T14:12:33.807Z"
+          },
+          {
+            "id": "74477cc2-af2c-4e9c-9daf-3a53d0f30bc2",
+            "displayName": "PWDM Receiver",
+            "assignedDateTime": "2026-07-21T14:12:33.807Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "e4da7384-f16a-4e49-afa4-f76ca3cf46db",
+        "74477cc2-af2c-4e9c-9daf-3a53d0f30bc2"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "83bf8663-645b-4fdb-9171-696e0c5f7d45",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "f2bddb4d-3916-47bd-a528-12a7bab26f3b",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "e4da7384-f16a-4e49-afa4-f76ca3cf46db",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "74477cc2-af2c-4e9c-9daf-3a53d0f30bc2",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "je***@egis-group.com",
+      "linhaPlanilha": 5,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Adequação a Classe 1A - BR-153/GO/TO e BR-414/GO",
+      "origemProjectWise": {
+        "nome": "Adequação a Classe 1A - BR-153/GO/TO e BR-414/GO",
+        "id": "426565",
+        "guid": "7ac1ec25-e90b-4119-9879-86a7b289207d",
+        "connectedProjectId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+      "projectId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "0424e2b0-611a-47d9-9710-480c269fddc4",
+        "email": "je***@egis-group.com",
+        "givenName": "Jessica",
+        "surname": "RODRIGUES DE MELLO",
+        "organization": "EGIS SA",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-21T14:12:43.393Z"
+          },
+          {
+            "id": "e4da7384-f16a-4e49-afa4-f76ca3cf46db",
+            "displayName": "PWDM Issuer",
+            "assignedDateTime": "2026-07-21T14:12:43.553Z"
+          },
+          {
+            "id": "74477cc2-af2c-4e9c-9daf-3a53d0f30bc2",
+            "displayName": "PWDM Receiver",
+            "assignedDateTime": "2026-07-21T14:12:43.557Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "e4da7384-f16a-4e49-afa4-f76ca3cf46db",
+        "74477cc2-af2c-4e9c-9daf-3a53d0f30bc2"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "83bf8663-645b-4fdb-9171-696e0c5f7d45",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "f2bddb4d-3916-47bd-a528-12a7bab26f3b",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "e4da7384-f16a-4e49-afa4-f76ca3cf46db",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "74477cc2-af2c-4e9c-9daf-3a53d0f30bc2",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ju***@egis-group.com",
+      "linhaPlanilha": 6,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Adequação a Classe 1A - BR-153/GO/TO e BR-414/GO",
+      "origemProjectWise": {
+        "nome": "Adequação a Classe 1A - BR-153/GO/TO e BR-414/GO",
+        "id": "426565",
+        "guid": "7ac1ec25-e90b-4119-9879-86a7b289207d",
+        "connectedProjectId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+      "projectId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "4ed699ac-2945-4b03-84ce-935be6ba48b2",
+        "email": "ju***@egis-group.com",
+        "givenName": "Juliana",
+        "surname": "MACIEL BATISTA",
+        "organization": "EGIS SA",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-21T14:12:52.507Z"
+          },
+          {
+            "id": "e4da7384-f16a-4e49-afa4-f76ca3cf46db",
+            "displayName": "PWDM Issuer",
+            "assignedDateTime": "2026-07-21T14:12:52.627Z"
+          },
+          {
+            "id": "74477cc2-af2c-4e9c-9daf-3a53d0f30bc2",
+            "displayName": "PWDM Receiver",
+            "assignedDateTime": "2026-07-21T14:12:52.63Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "e4da7384-f16a-4e49-afa4-f76ca3cf46db",
+        "74477cc2-af2c-4e9c-9daf-3a53d0f30bc2"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "83bf8663-645b-4fdb-9171-696e0c5f7d45",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "f2bddb4d-3916-47bd-a528-12a7bab26f3b",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "e4da7384-f16a-4e49-afa4-f76ca3cf46db",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "74477cc2-af2c-4e9c-9daf-3a53d0f30bc2",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "gl***@egis-group.com",
+      "linhaPlanilha": 7,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Adequação a Classe 1A - BR-153/GO/TO e BR-414/GO",
+      "origemProjectWise": {
+        "nome": "Adequação a Classe 1A - BR-153/GO/TO e BR-414/GO",
+        "id": "426565",
+        "guid": "7ac1ec25-e90b-4119-9879-86a7b289207d",
+        "connectedProjectId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+      "projectId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "232a9412-fe3b-4098-b3a6-5d2673c02465",
+        "email": "gl***@egis-group.com",
+        "givenName": "Glicia",
+        "surname": "KELLY DE OLIVEIRA ALMEIDA",
+        "organization": "EGIS SA",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-21T14:12:58.98Z"
+          },
+          {
+            "id": "e4da7384-f16a-4e49-afa4-f76ca3cf46db",
+            "displayName": "PWDM Issuer",
+            "assignedDateTime": "2026-07-21T14:12:59.103Z"
+          },
+          {
+            "id": "74477cc2-af2c-4e9c-9daf-3a53d0f30bc2",
+            "displayName": "PWDM Receiver",
+            "assignedDateTime": "2026-07-21T14:12:59.107Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "e4da7384-f16a-4e49-afa4-f76ca3cf46db",
+        "74477cc2-af2c-4e9c-9daf-3a53d0f30bc2"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "83bf8663-645b-4fdb-9171-696e0c5f7d45",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "f2bddb4d-3916-47bd-a528-12a7bab26f3b",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "e4da7384-f16a-4e49-afa4-f76ca3cf46db",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "74477cc2-af2c-4e9c-9daf-3a53d0f30bc2",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    }
+  ],
+  "resultados": [
+    {
+      "projectId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+      "nomeProjeto": "Adequação a Classe 1A - BR-153/GO/TO e BR-414/GO",
+      "origemProjectWise": {
+        "nome": "Adequação a Classe 1A - BR-153/GO/TO e BR-414/GO",
+        "id": "426565",
+        "guid": "7ac1ec25-e90b-4119-9879-86a7b289207d",
+        "connectedProjectId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "da***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+      "nomeProjeto": "Adequação a Classe 1A - BR-153/GO/TO e BR-414/GO",
+      "origemProjectWise": {
+        "nome": "Adequação a Classe 1A - BR-153/GO/TO e BR-414/GO",
+        "id": "426565",
+        "guid": "7ac1ec25-e90b-4119-9879-86a7b289207d",
+        "connectedProjectId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "gu***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+      "nomeProjeto": "Adequação a Classe 1A - BR-153/GO/TO e BR-414/GO",
+      "origemProjectWise": {
+        "nome": "Adequação a Classe 1A - BR-153/GO/TO e BR-414/GO",
+        "id": "426565",
+        "guid": "7ac1ec25-e90b-4119-9879-86a7b289207d",
+        "connectedProjectId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ka***@egis-group.com",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+      "nomeProjeto": "Adequação a Classe 1A - BR-153/GO/TO e BR-414/GO",
+      "origemProjectWise": {
+        "nome": "Adequação a Classe 1A - BR-153/GO/TO e BR-414/GO",
+        "id": "426565",
+        "guid": "7ac1ec25-e90b-4119-9879-86a7b289207d",
+        "connectedProjectId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "je***@egis-group.com",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+      "nomeProjeto": "Adequação a Classe 1A - BR-153/GO/TO e BR-414/GO",
+      "origemProjectWise": {
+        "nome": "Adequação a Classe 1A - BR-153/GO/TO e BR-414/GO",
+        "id": "426565",
+        "guid": "7ac1ec25-e90b-4119-9879-86a7b289207d",
+        "connectedProjectId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ju***@egis-group.com",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+      "nomeProjeto": "Adequação a Classe 1A - BR-153/GO/TO e BR-414/GO",
+      "origemProjectWise": {
+        "nome": "Adequação a Classe 1A - BR-153/GO/TO e BR-414/GO",
+        "id": "426565",
+        "guid": "7ac1ec25-e90b-4119-9879-86a7b289207d",
+        "connectedProjectId": "e94d072e-2e24-4e7d-9c47-03d4b92bd12a",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "gl***@egis-group.com",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    }
+  ]
+}

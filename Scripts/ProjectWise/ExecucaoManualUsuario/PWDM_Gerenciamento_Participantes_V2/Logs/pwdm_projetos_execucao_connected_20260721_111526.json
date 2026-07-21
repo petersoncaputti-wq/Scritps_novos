@@ -1,0 +1,34 @@
+﻿{
+    "timestamp":  "2026-07-21T11:21:18",
+    "origem":  "ProjectWise",
+    "modoSelecao":  "concessao_projetos_connected_project",
+    "profundidadeProjetos":  0,
+    "concessao":  {
+                      "nome":  "Ecovias Raposo Castello",
+                      "id":  "28913",
+                      "guid":  "286a5892-8b76-420b-b12e-81d0ca314b59"
+                  },
+    "totalProjetosListados":  62,
+    "totalProjetosSelecionados":  1,
+    "totalProjetosAptosPwdm":  1,
+    "projetos":  [
+                     {
+                         "nome":  "02.02.04 - PMRV - Araçariguama - SP-280",
+                         "nomeTecnico":  "02.02.04 - PMRv",
+                         "descricao":  "02.02.04 - PMRV - Araçariguama - SP-280",
+                         "concessaoProjectWise":  "Ecovias Raposo Castello",
+                         "projectWiseId":  "328185",
+                         "projectWiseGuid":  "f1d7fd3f-dc0d-4543-8852-c92e12592aa1",
+                         "connectedProjectId":  "903aed48-88ea-43af-8664-f61851c6cbbe",
+                         "connectSpaceId":  "903aed48-88ea-43af-8664-f61851c6cbbe",
+                         "projectId":  "903aed48-88ea-43af-8664-f61851c6cbbe",
+                         "projectWiseWebName":  "",
+                         "projectWiseWebNumber":  "",
+                         "projectWiseWebLink":  "https://connect-projectwisewac.bentley.com/pwlink/?objectId=f1d7fd3f-dc0d-4543-8852-c92e12592aa1\u0026objectType=folder\u0026datasource=Bentley.PW--01SSRV305.ECSC.ECORODOVIAS.CORP~3AEcorodovias-01\u0026projectId=903aed48-88ea-43af-8664-f61851c6cbbe\u0026workareaid=f1d7fd3f-dc0d-4543-8852-c92e12592aa1\u0026app=pwe",
+                         "projectWiseWebViewLink":  "https://connect-projectwisewebview.bentley.com/pwlink?datasource=Bentley.PW--01SSRV305.ECSC.ECORODOVIAS.CORP~3AEcorodovias-01\u0026objectId=f1d7fd3f-dc0d-4543-8852-c92e12592aa1\u0026objectType=folder\u0026app=webview",
+                         "urlParticipantesPwdm":  "https://pwdm.bentley.com/903aed48-88ea-43af-8664-f61851c6cbbe/ProjectSettings/903aed48-88ea-43af-8664-f61851c6cbbe/View#PARTICIPANTS",
+                         "origemSelecao":  "ProjectWise ConnectedProjectId",
+                         "aptoPwdm":  true
+                     }
+                 ]
+}

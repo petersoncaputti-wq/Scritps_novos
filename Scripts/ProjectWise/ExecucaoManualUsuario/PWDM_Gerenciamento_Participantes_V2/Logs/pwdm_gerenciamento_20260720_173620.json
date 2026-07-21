@@ -1,0 +1,4601 @@
+{
+  "timestamp": "2026-07-20T17:36:20",
+  "operacoes": [
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "01.01.02 - Duplicação - Cotia-Embu",
+      "origemProjectWise": {
+        "nome": "01.01.02 - Duplicação - Cotia-Embu",
+        "id": "397906",
+        "guid": "caf2f440-5ae7-4d36-9e0d-f19429f3c3cb",
+        "connectedProjectId": "c5621ad1-33a2-47f7-a337-19a60e18c75a",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/c5621ad1-33a2-47f7-a337-19a60e18c75a/ProjectSettings/c5621ad1-33a2-47f7-a337-19a60e18c75a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "c5621ad1-33a2-47f7-a337-19a60e18c75a",
+      "projectId": "c5621ad1-33a2-47f7-a337-19a60e18c75a",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-05-20T18:07:32.733Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "c5621ad1-33a2-47f7-a337-19a60e18c75a"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "30686d68-9626-48d4-b520-2077cb90f26e",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "d86a39c5-dd93-4d89-a6a3-91beca454db1",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "6f0737a0-aa84-42b8-9ba0-aa347ec49b7e",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "d3c703de-8305-4778-9270-0e26dbf43383",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "01.02.04-TH-14-faixa adicional km 32.25 km ao km 41.70 da SP-280",
+      "origemProjectWise": {
+        "nome": "01.02.04-TH-14-faixa adicional km 32.25 km ao km 41.70 da SP-280",
+        "id": "421109",
+        "guid": "25baa5b1-d85e-40b4-be6a-0b1b59f7eff3",
+        "connectedProjectId": "2ef7573e-3e1b-4cb7-b9c8-0780ad5372cc",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/2ef7573e-3e1b-4cb7-b9c8-0780ad5372cc/ProjectSettings/2ef7573e-3e1b-4cb7-b9c8-0780ad5372cc/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "2ef7573e-3e1b-4cb7-b9c8-0780ad5372cc",
+      "projectId": "2ef7573e-3e1b-4cb7-b9c8-0780ad5372cc",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-06-17T18:43:25.647Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "2ef7573e-3e1b-4cb7-b9c8-0780ad5372cc"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "a177fc51-a762-45b7-9c39-1dd86111a7d5",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "81a8d558-1c83-4428-92cb-b8db5fe5f16e",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "cda0ea86-40ec-487d-b501-105db6a49b14",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "d228e9db-9b98-49d6-96d9-006795358257",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "01.02.05-TH-14-faixa adicional  km 41.70 km ao km 54.14 da SP-280",
+      "origemProjectWise": {
+        "nome": "01.02.05-TH-14-faixa adicional  km 41.70 km ao km 54.14 da SP-280",
+        "id": "421142",
+        "guid": "550e5cfb-9b75-46d1-ae3a-1a5837ab6b2d",
+        "connectedProjectId": "26e76980-9ff8-4a1c-b95f-24468c7b9522",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/26e76980-9ff8-4a1c-b95f-24468c7b9522/ProjectSettings/26e76980-9ff8-4a1c-b95f-24468c7b9522/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "26e76980-9ff8-4a1c-b95f-24468c7b9522",
+      "projectId": "26e76980-9ff8-4a1c-b95f-24468c7b9522",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-06-17T18:39:00.717Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "26e76980-9ff8-4a1c-b95f-24468c7b9522"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "95ef55f8-a787-4638-b513-f1e51bc3418c",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "3e6f75e5-60de-4c8d-b6f3-a9a057a3b818",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "7b521e6c-4b14-4039-8acb-3f704b268345",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "403fdbb2-0347-4834-8e3f-bd7c43097fbd",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste",
+        "id": "311855",
+        "guid": "b5813bc9-dba9-495a-abab-24c58304e99a",
+        "connectedProjectId": "bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/ProjectSettings/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66",
+      "projectId": "bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-05-14T13:31:40.44Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "70d7f4ca-ebaa-4301-8e2b-38da859813df",
+          "displayName": "Imodel",
+          "type": "enterprise"
+        },
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "0d41952b-c440-431a-b47b-09d7031d3549",
+          "displayName": "Project Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "c433a0d0-ce38-4336-836e-36bc7f08e350",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "814e5c62-66bf-480e-8542-574397b98318",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "a422d860-16df-4bb1-9319-a3ab6f7e3a37",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "a1842700-acad-4afd-871c-297cba60d5f2",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste",
+      "origemProjectWise": {
+        "nome": "02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste",
+        "id": "312266",
+        "guid": "9a16bedb-b7e4-49cc-bfc2-6b41056adfd7",
+        "connectedProjectId": "3d856c59-1088-4880-9217-cb841410147c",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/3d856c59-1088-4880-9217-cb841410147c/ProjectSettings/3d856c59-1088-4880-9217-cb841410147c/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "3d856c59-1088-4880-9217-cb841410147c",
+      "projectId": "3d856c59-1088-4880-9217-cb841410147c",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-05-13T12:12:03.81Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "3d856c59-1088-4880-9217-cb841410147c"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "01f4f0bc-0423-4526-9db5-4f5515a2bd67",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "1daad2d4-ae46-4ca1-82ef-54d39f4cf11d",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "2252bff7-67a1-47d9-8a24-19c37d4320a6",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "1eb29472-f6df-4ee5-89c6-21bbf17f1c40",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste",
+        "id": "312677",
+        "guid": "77488ef1-35b7-4d76-b8a6-5c89ca48cbde",
+        "connectedProjectId": "ea3b588e-3784-4f4d-aadd-ba905875ad99",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/ea3b588e-3784-4f4d-aadd-ba905875ad99/ProjectSettings/ea3b588e-3784-4f4d-aadd-ba905875ad99/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "ea3b588e-3784-4f4d-aadd-ba905875ad99",
+      "projectId": "ea3b588e-3784-4f4d-aadd-ba905875ad99",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-05-18T17:57:49.213Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "ea3b588e-3784-4f4d-aadd-ba905875ad99"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "95cdf0ec-cce7-4197-831e-0888e6addcbf",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "9ddf1285-b5d5-4c73-bef9-7026920a55a6",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "27f7cc4a-e9cd-4d08-86a4-c6b9c709c7a1",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "bb403469-cf31-4b68-b042-258a2621f523",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste",
+        "id": "313088",
+        "guid": "b013fc3f-989d-41bc-99f1-3ac5a4fe13ba",
+        "connectedProjectId": "ae496c86-d35f-45ed-9421-67432d77d9bd",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/ae496c86-d35f-45ed-9421-67432d77d9bd/ProjectSettings/ae496c86-d35f-45ed-9421-67432d77d9bd/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "ae496c86-d35f-45ed-9421-67432d77d9bd",
+      "projectId": "ae496c86-d35f-45ed-9421-67432d77d9bd",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-05-14T10:30:35.87Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "ae496c86-d35f-45ed-9421-67432d77d9bd"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "70d7f4ca-ebaa-4301-8e2b-38da859813df",
+          "displayName": "Imodel",
+          "type": "enterprise"
+        },
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "0d41952b-c440-431a-b47b-09d7031d3549",
+          "displayName": "Project Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "b1e0fc4f-e04a-4f8f-bcd1-55176388a988",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "a9518ffd-ee7d-4c0e-bdbf-1241552ed3f5",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "2b4c6932-8cf2-409e-80d6-afb39b4ef237",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "2c640d34-8e6d-45f5-88f8-59e9cf28fbcc",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "02.02.02.05 - BSO 5 - (Localização á definir) - SP-280",
+      "origemProjectWise": {
+        "nome": "02.02.02.05 - BSO 5 - (Localização á definir) - SP-280",
+        "id": "313499",
+        "guid": "d4df1966-1475-4057-9b07-ff226f5488f4",
+        "connectedProjectId": "5778dda5-3d2d-402b-bfd9-6f6e7d87a077",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/ProjectSettings/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "5778dda5-3d2d-402b-bfd9-6f6e7d87a077",
+      "projectId": "5778dda5-3d2d-402b-bfd9-6f6e7d87a077",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-05-14T15:18:51.757Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "5778dda5-3d2d-402b-bfd9-6f6e7d87a077"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "de840c0b-bbec-4105-a365-448d692d8d77",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "d0773776-24c5-4791-a2d2-3221b6f3ce40",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "48437269-ee67-4f11-a864-97e8a8941708",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "3f656c5a-e3d1-4bfc-b3ef-dd38647043a8",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "02.02.03 - PPD 1 - km 20 - SP-280 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.03 - PPD 1 - km 20 - SP-280 - Leste",
+        "id": "327363",
+        "guid": "dd212a56-0588-4400-b305-5a4ec3c72a53",
+        "connectedProjectId": "50c209f1-607a-4b28-b9a3-d5c139d8961a",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/50c209f1-607a-4b28-b9a3-d5c139d8961a/ProjectSettings/50c209f1-607a-4b28-b9a3-d5c139d8961a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "50c209f1-607a-4b28-b9a3-d5c139d8961a",
+      "projectId": "50c209f1-607a-4b28-b9a3-d5c139d8961a",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-05-13T16:03:25.443Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "50c209f1-607a-4b28-b9a3-d5c139d8961a"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "70d7f4ca-ebaa-4301-8e2b-38da859813df",
+          "displayName": "Imodel",
+          "type": "enterprise"
+        },
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "0d41952b-c440-431a-b47b-09d7031d3549",
+          "displayName": "Project Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "66e0cef8-7322-4cdc-a5fe-71afe3232bde",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "1e8795af-ddde-410c-a0d1-a623f68b4513",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "a1370046-221c-4379-8865-abc5c20c2f23",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "39f352eb-a7a4-4073-adf7-50aa4a26efec",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "02.02.03 - PPD 2 - km 33 - SP-280 - Oeste",
+      "origemProjectWise": {
+        "nome": "02.02.03 - PPD 2 - km 33 - SP-280 - Oeste",
+        "id": "327774",
+        "guid": "b1c9e711-a1d8-4259-834f-88a16c57ff40",
+        "connectedProjectId": "dbe9beeb-f435-48b6-82d8-7714f491c706",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/dbe9beeb-f435-48b6-82d8-7714f491c706/ProjectSettings/dbe9beeb-f435-48b6-82d8-7714f491c706/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "dbe9beeb-f435-48b6-82d8-7714f491c706",
+      "projectId": "dbe9beeb-f435-48b6-82d8-7714f491c706",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-05-14T19:46:35.53Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "dbe9beeb-f435-48b6-82d8-7714f491c706"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "70d7f4ca-ebaa-4301-8e2b-38da859813df",
+          "displayName": "Imodel",
+          "type": "enterprise"
+        },
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "0d41952b-c440-431a-b47b-09d7031d3549",
+          "displayName": "Project Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "4d0dd8cc-476d-48cf-bc98-8e34404a8082",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "6f650eab-fb9d-41d8-bd4e-c9aa5b0ac43a",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "c23d40e5-cfc8-4f95-87aa-e9ee9a82f46b",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "c153b0fc-505d-4fdb-9f44-2a3a037fb8e5",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "02.02.04 - PMRV - Araçariguama - SP-280",
+      "origemProjectWise": {
+        "nome": "02.02.04 - PMRV - Araçariguama - SP-280",
+        "id": "328185",
+        "guid": "f1d7fd3f-dc0d-4543-8852-c92e12592aa1",
+        "connectedProjectId": "903aed48-88ea-43af-8664-f61851c6cbbe",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/903aed48-88ea-43af-8664-f61851c6cbbe/ProjectSettings/903aed48-88ea-43af-8664-f61851c6cbbe/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "903aed48-88ea-43af-8664-f61851c6cbbe",
+      "projectId": "903aed48-88ea-43af-8664-f61851c6cbbe",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-05-14T04:42:20.497Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "903aed48-88ea-43af-8664-f61851c6cbbe"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "70d7f4ca-ebaa-4301-8e2b-38da859813df",
+          "displayName": "Imodel",
+          "type": "enterprise"
+        },
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "0d41952b-c440-431a-b47b-09d7031d3549",
+          "displayName": "Project Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "9ef49625-8e40-4926-9cca-e4445c429dfd",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "3c1bcece-4d94-4f34-b762-df70eb0310ad",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "828fb1ef-e971-446f-bcc4-289a1ec586c4",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "b0404aba-ccd3-46b2-8020-44833313da80",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "02.05.19 - Dispositivo de Conexão - BR-116",
+      "origemProjectWise": {
+        "nome": "02.05.19 - Dispositivo de Conexão - BR-116",
+        "id": "397749",
+        "guid": "6e6fa8f4-5717-4680-b24b-0aeb19e16344",
+        "connectedProjectId": "6d384fe3-52b8-4123-8966-78e84a9b5b8b",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/6d384fe3-52b8-4123-8966-78e84a9b5b8b/ProjectSettings/6d384fe3-52b8-4123-8966-78e84a9b5b8b/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "6d384fe3-52b8-4123-8966-78e84a9b5b8b",
+      "projectId": "6d384fe3-52b8-4123-8966-78e84a9b5b8b",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-05-22T20:47:28.503Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "6d384fe3-52b8-4123-8966-78e84a9b5b8b"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "979a32e0-c41f-4139-b4a5-437f47ee737e",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "99765e57-df77-4cc3-a8e8-c2ac3e9554eb",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "68e91e49-0b5b-430b-bed3-057d295a2acc",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "8addd0cc-87c7-4416-9138-bab9317dc352",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "02.05.22 - Alça - km 22,20 - SP-280",
+      "origemProjectWise": {
+        "nome": "02.05.22 - Alça - km 22,20 - SP-280",
+        "id": "394768",
+        "guid": "76f7168a-4d31-4f85-ae89-61e4579530b7",
+        "connectedProjectId": "5147867f-9581-43a3-8210-1ba6f12501cc",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/5147867f-9581-43a3-8210-1ba6f12501cc/ProjectSettings/5147867f-9581-43a3-8210-1ba6f12501cc/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "5147867f-9581-43a3-8210-1ba6f12501cc",
+      "projectId": "5147867f-9581-43a3-8210-1ba6f12501cc",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-05-13T16:16:51.787Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "5147867f-9581-43a3-8210-1ba6f12501cc"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "42d7121b-3ff7-4f70-9100-af2796246727",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "bcc5977b-bf79-4b0a-96a5-c9b9c3fe99ec",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "668e31a9-1e9c-418b-8c0e-c2dc35c9dc4f",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "5128de8c-886b-4684-b03a-567ec983ae50",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "02.05.23 - Diamante - km 36,00 SP-280",
+      "origemProjectWise": {
+        "nome": "02.05.23 - Diamante - km 36,00 SP-280",
+        "id": "394559",
+        "guid": "b7224958-5b34-43c0-ab74-cc4a4bf1a9a3",
+        "connectedProjectId": "09ce0a82-239d-40c1-b49e-15caeefec61c",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/09ce0a82-239d-40c1-b49e-15caeefec61c/ProjectSettings/09ce0a82-239d-40c1-b49e-15caeefec61c/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "09ce0a82-239d-40c1-b49e-15caeefec61c",
+      "projectId": "09ce0a82-239d-40c1-b49e-15caeefec61c",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-05-21T03:15:49.9Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "09ce0a82-239d-40c1-b49e-15caeefec61c"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "0aebe4c4-fc99-42f4-bdc1-dd418f01a301",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "3e69dd72-7bc4-4cb1-9a1a-b9d1e5c1643e",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "50f26b70-7c06-4407-b3d4-457046229540",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "b9125bea-3f9a-42f1-96f1-a79d25b9ff48",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "02.05.24 - Trombeta - km 46,62 - SP-280",
+      "origemProjectWise": {
+        "nome": "02.05.24 - Trombeta - km 46,62 - SP-280",
+        "id": "394721",
+        "guid": "0bebf477-b8d7-4a0b-be4c-42155f2a00a5",
+        "connectedProjectId": "895f658a-2417-4c48-b668-45590d1cdbc5",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/895f658a-2417-4c48-b668-45590d1cdbc5/ProjectSettings/895f658a-2417-4c48-b668-45590d1cdbc5/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "895f658a-2417-4c48-b668-45590d1cdbc5",
+      "projectId": "895f658a-2417-4c48-b668-45590d1cdbc5",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-05-22T07:48:09.587Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "895f658a-2417-4c48-b668-45590d1cdbc5"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "ae89af60-02d4-4173-9308-76a236510479",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "4c4bbd4c-8268-418b-8f9c-053834278bca",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "843ba4b9-caf4-4379-afa6-311abf52cf29",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "9fb8aa4b-2310-49ad-a017-7e7f684e67bc",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "02.05.25 - Diamante km 50,9 - SP-280",
+      "origemProjectWise": {
+        "nome": "02.05.25 - Diamante km 50,9 - SP-280",
+        "id": "422939",
+        "guid": "63f58fda-f6e8-4f0b-b109-c24e8b099ea9",
+        "connectedProjectId": "fb0571a5-3f64-4fab-908f-268be93776a6",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/fb0571a5-3f64-4fab-908f-268be93776a6/ProjectSettings/fb0571a5-3f64-4fab-908f-268be93776a6/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "fb0571a5-3f64-4fab-908f-268be93776a6",
+      "projectId": "fb0571a5-3f64-4fab-908f-268be93776a6",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-06-30T21:11:20.693Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "fb0571a5-3f64-4fab-908f-268be93776a6"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "8eeaea26-7165-4025-842e-50684e0bc61a",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "b9154b2b-a252-4454-86ce-07d7bf4c4d00",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "2a58674b-2b92-4bfd-a42b-b83173fcea2f",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "f9a9d062-63e2-4aca-9d57-203c564b124e",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "02.05.26 - Alça - km 22,80 - SP-280",
+      "origemProjectWise": {
+        "nome": "02.05.26 - Alça - km 22,80 - SP-280",
+        "id": "397701",
+        "guid": "07e0ba75-7f8b-4354-88b8-61cf7c99605f",
+        "connectedProjectId": "992ffbe8-8902-497c-8442-74a6c31b6f17",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/992ffbe8-8902-497c-8442-74a6c31b6f17/ProjectSettings/992ffbe8-8902-497c-8442-74a6c31b6f17/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "992ffbe8-8902-497c-8442-74a6c31b6f17",
+      "projectId": "992ffbe8-8902-497c-8442-74a6c31b6f17",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-05-14T06:32:18.18Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "992ffbe8-8902-497c-8442-74a6c31b6f17"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "c6079177-fa44-48f0-80fa-4a803c31acbf",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "7db8ee05-889f-4055-adad-6618d3d2d109",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "7064fe30-7451-45d2-80c6-a0c391108d61",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "3d4a8f6c-9517-446f-90fa-ecd3955a7bfa",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "02.06.11-  Marginal Decrescente - km 30,74 +31,23 - SP-280",
+      "origemProjectWise": {
+        "nome": "02.06.11-  Marginal Decrescente - km 30,74 +31,23 - SP-280",
+        "id": "394745",
+        "guid": "607ad92d-5c02-4f71-87e2-d192deaeffb9",
+        "connectedProjectId": "e2cb9029-c7f8-4dd0-8fbe-7cd34b7082fd",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e2cb9029-c7f8-4dd0-8fbe-7cd34b7082fd/ProjectSettings/e2cb9029-c7f8-4dd0-8fbe-7cd34b7082fd/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "e2cb9029-c7f8-4dd0-8fbe-7cd34b7082fd",
+      "projectId": "e2cb9029-c7f8-4dd0-8fbe-7cd34b7082fd",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-05-18T16:50:07.953Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "e2cb9029-c7f8-4dd0-8fbe-7cd34b7082fd"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "3db478d2-efc3-4549-9197-41d1d92fadb2",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "eb0ceac0-837d-486e-9fc1-e524f1a7bfde",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "d99f90cc-4b76-41d8-8025-a809f5ea36b8",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "e78ad6c3-76d3-42b0-b31e-97f881695c38",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "02.11.01.15 - OAE - km 22,2 - SP-280",
+      "origemProjectWise": {
+        "nome": "02.11.01.15 - OAE - km 22,2 - SP-280",
+        "id": "397034",
+        "guid": "e78f585f-58bc-4c18-852d-1525cf446835",
+        "connectedProjectId": "56cb3120-01b4-4165-9d8f-ba34e33539ae",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/56cb3120-01b4-4165-9d8f-ba34e33539ae/ProjectSettings/56cb3120-01b4-4165-9d8f-ba34e33539ae/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "56cb3120-01b4-4165-9d8f-ba34e33539ae",
+      "projectId": "56cb3120-01b4-4165-9d8f-ba34e33539ae",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-05-13T17:20:08.95Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "56cb3120-01b4-4165-9d8f-ba34e33539ae"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "05fe53a8-6c26-486d-a4cf-ecf1cf5d8cfe",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "a092b2dc-6fdf-401a-9781-868475aedf32",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "efc339f1-17e5-4d42-b286-b57ff11bf57d",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "8701132a-a7cc-4c0b-b1f4-98b5157e97c0",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "02.11.01.17 - OAE - km 22,2 - SP-280",
+      "origemProjectWise": {
+        "nome": "02.11.01.17 - OAE - km 22,2 - SP-280",
+        "id": "397057",
+        "guid": "2b5afe74-fb89-4036-a2bd-2df6a77ab53b",
+        "connectedProjectId": "144c0f05-4a8b-4754-9658-3f1de6031b2d",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/144c0f05-4a8b-4754-9658-3f1de6031b2d/ProjectSettings/144c0f05-4a8b-4754-9658-3f1de6031b2d/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "144c0f05-4a8b-4754-9658-3f1de6031b2d",
+      "projectId": "144c0f05-4a8b-4754-9658-3f1de6031b2d",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-05-13T03:50:00.61Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "144c0f05-4a8b-4754-9658-3f1de6031b2d"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "12206d07-f86e-4ab9-a764-fe359245b0ae",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "335061a5-1bfd-4108-a784-a7695d002026",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "7ac731c0-9467-4cda-bf2d-519d72ee79b6",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "a56edd91-08c4-479b-8936-77bd0ec5245c",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "02.13.01 - Faixa Adic Ponte Rio Tietê Carapicuiba",
+      "origemProjectWise": {
+        "nome": "02.13.01 - Faixa Adic Ponte Rio Tietê Carapicuiba",
+        "id": "397842",
+        "guid": "3f38e5e0-ded0-4b08-b360-324f84df88c5",
+        "connectedProjectId": "7357e987-ec70-4dc6-9d12-ffe08438e439",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/7357e987-ec70-4dc6-9d12-ffe08438e439/ProjectSettings/7357e987-ec70-4dc6-9d12-ffe08438e439/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "7357e987-ec70-4dc6-9d12-ffe08438e439",
+      "projectId": "7357e987-ec70-4dc6-9d12-ffe08438e439",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-05-22T17:09:56.497Z"
+          },
+          {
+            "id": "4debcb92-f261-4858-adf4-485e7c215fc1",
+            "displayName": "PWDM Receiver",
+            "assignedDateTime": "2026-05-22T17:09:56.623Z"
+          },
+          {
+            "id": "6a471946-f022-4d68-aca4-f3cbd941d9e2",
+            "displayName": "PWDM Approver",
+            "assignedDateTime": "2026-05-22T17:09:56.623Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "7357e987-ec70-4dc6-9d12-ffe08438e439"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "4debcb92-f261-4858-adf4-485e7c215fc1",
+        "6a471946-f022-4d68-aca4-f3cbd941d9e2"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "bdc78449-b140-4ecd-87f1-8356904f73a2",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "6a471946-f022-4d68-aca4-f3cbd941d9e2",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "4ef2110c-bd7d-4ecf-b499-4da08eccd7fd",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "4debcb92-f261-4858-adf4-485e7c215fc1",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "03.03 - Free Flow P10 - Via Expressa Leste km 33,990 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P10 - Via Expressa Leste km 33,990 - SP-280",
+        "id": "423077",
+        "guid": "d8be8575-b4f9-4dae-8939-b26bec5addfd",
+        "connectedProjectId": "e24a37f3-c2e6-418a-995e-a7a35b86d9ef",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e24a37f3-c2e6-418a-995e-a7a35b86d9ef/ProjectSettings/e24a37f3-c2e6-418a-995e-a7a35b86d9ef/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "e24a37f3-c2e6-418a-995e-a7a35b86d9ef",
+      "projectId": "e24a37f3-c2e6-418a-995e-a7a35b86d9ef",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-02T19:38:37.59Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "e24a37f3-c2e6-418a-995e-a7a35b86d9ef"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "3bdf9ead-5943-4e3a-8f20-9f8b2e9715ec",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "eebd8988-5dfc-4377-8c54-84d293b15989",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "b8959de2-6d34-440c-9c21-fda0da10b966",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "2fd265c9-0555-4c08-af7e-c33d51b1cdca",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "03.03 - Free Flow P10 - Via Expressa Oeste km 33,990 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P10 - Via Expressa Oeste km 33,990 - SP-280",
+        "id": "423671",
+        "guid": "d9403054-4001-4d8a-829f-5855d6c47b36",
+        "connectedProjectId": "b47658c0-d4ad-4051-aa37-633b2755696c",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/b47658c0-d4ad-4051-aa37-633b2755696c/ProjectSettings/b47658c0-d4ad-4051-aa37-633b2755696c/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "b47658c0-d4ad-4051-aa37-633b2755696c",
+      "projectId": "b47658c0-d4ad-4051-aa37-633b2755696c",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-02T19:44:38.24Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "b47658c0-d4ad-4051-aa37-633b2755696c"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "d0e19171-ccea-47c9-84c4-486e90afcb4e",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "7fc0ae53-21f9-4545-87e0-92384899c3c6",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "46e77f03-7dc8-4a99-8008-7b9d12813dc2",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "14d8b046-bf41-4ed5-946d-a6e4176844ea",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "03.03 - Free Flow P11 - Via Expressa Norte-Sul km 34,600 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P11 - Via Expressa Norte-Sul km 34,600 - SP-280",
+        "id": "423100",
+        "guid": "d5abbce3-3ec1-4ae3-86ef-774856790fff",
+        "connectedProjectId": "bae44540-ff29-41b0-adcc-ddc6a1d69eda",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/bae44540-ff29-41b0-adcc-ddc6a1d69eda/ProjectSettings/bae44540-ff29-41b0-adcc-ddc6a1d69eda/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "bae44540-ff29-41b0-adcc-ddc6a1d69eda",
+      "projectId": "bae44540-ff29-41b0-adcc-ddc6a1d69eda",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-02T19:50:45.18Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "bae44540-ff29-41b0-adcc-ddc6a1d69eda"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "b7c7d905-1bbf-4e6c-89e2-95a78102a9c7",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "7f8d6dec-104a-4a75-89aa-7987cc9ba9fa",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "e5743b35-1a8c-4bf9-9f58-c2068023218e",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "6c3970bb-371c-4e5c-a326-2889a360a541",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "03.03 - Free Flow P12 - Via Expressa Norte-Sul km 40,655 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P12 - Via Expressa Norte-Sul km 40,655 - SP-280",
+        "id": "423123",
+        "guid": "b2b8c3fb-0b69-41a6-acd5-1a052e72575e",
+        "connectedProjectId": "cb60e4e7-7084-4854-9b02-ff1e01f20d32",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/cb60e4e7-7084-4854-9b02-ff1e01f20d32/ProjectSettings/cb60e4e7-7084-4854-9b02-ff1e01f20d32/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "cb60e4e7-7084-4854-9b02-ff1e01f20d32",
+      "projectId": "cb60e4e7-7084-4854-9b02-ff1e01f20d32",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-02T19:55:09.507Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "cb60e4e7-7084-4854-9b02-ff1e01f20d32"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "0f2e3736-6d4f-44aa-a6b7-940ce0321084",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "1c07ba40-b0f9-4739-9154-4c7676f3379e",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "30ac2537-4433-40a1-9a4e-8d286e73257c",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "e65262da-99b2-4f4d-9c8e-ac4153246700",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "03.03 - Free Flow P4 - Via Expressa Leste km 24,900 - SP-270",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P4 - Via Expressa Leste km 24,900 - SP-270",
+        "id": "422962",
+        "guid": "c8c1ebfd-4b86-4230-97b9-96efa315e68f",
+        "connectedProjectId": "2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1/ProjectSettings/2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1",
+      "projectId": "2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-02T17:52:39.057Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "49bf992e-e56f-4700-864f-f1d541eff7a5",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "ef73d6d9-2540-4518-b61e-d874d5209434",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "7e92647b-a731-4285-af64-9e9d8fe8a9b7",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "e8a03552-f885-4674-9a79-fbb065063494",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "03.03 - Free Flow P6 - Marginal Leste km 13,660 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P6 - Marginal Leste km 13,660 - SP-280",
+        "id": "423407",
+        "guid": "4dab4830-a16e-48fa-b137-0db010b99be1",
+        "connectedProjectId": "0aa4956e-d972-4aca-bf20-a537fa4bad96",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/0aa4956e-d972-4aca-bf20-a537fa4bad96/ProjectSettings/0aa4956e-d972-4aca-bf20-a537fa4bad96/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "0aa4956e-d972-4aca-bf20-a537fa4bad96",
+      "projectId": "0aa4956e-d972-4aca-bf20-a537fa4bad96",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-02T17:59:32.663Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "0aa4956e-d972-4aca-bf20-a537fa4bad96"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "3a3031f8-92d5-4b8d-91a6-19fb2465e339",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "57c35440-e05c-40f8-9035-fe4920f7617e",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "5093a1ec-a7ea-4baf-97bc-9d8108cac875",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "0f21f5b5-f436-4277-9839-599c06f07772",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "03.03 - Free Flow P6 - Marginal Oeste km 14,420 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P6 - Marginal Oeste km 14,420 - SP-280",
+        "id": "423340",
+        "guid": "629f5241-f9a2-487f-91b7-8d8225af0929",
+        "connectedProjectId": "e6e6bd37-2dc3-4781-9eda-a697cde5268d",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e6e6bd37-2dc3-4781-9eda-a697cde5268d/ProjectSettings/e6e6bd37-2dc3-4781-9eda-a697cde5268d/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "e6e6bd37-2dc3-4781-9eda-a697cde5268d",
+      "projectId": "e6e6bd37-2dc3-4781-9eda-a697cde5268d",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-02T18:07:28.5Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "e6e6bd37-2dc3-4781-9eda-a697cde5268d"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "5e607c8a-2ddd-434b-ac0e-3cab0954028a",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "00809739-a320-4204-9999-769da7d521bf",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "62526f44-46e5-40c2-8ef6-ccb7bf433533",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "a290834d-7b91-46d8-a196-13e5f33a609d",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "03.03 - Free Flow P6 - Via Expressa Leste km 13,680 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P6 - Via Expressa Leste km 13,680 - SP-280",
+        "id": "423374",
+        "guid": "3f690068-6d06-4dd3-b2e7-cf573ac53753",
+        "connectedProjectId": "10cbbcde-0091-44d7-860b-876904640209",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/10cbbcde-0091-44d7-860b-876904640209/ProjectSettings/10cbbcde-0091-44d7-860b-876904640209/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "10cbbcde-0091-44d7-860b-876904640209",
+      "projectId": "10cbbcde-0091-44d7-860b-876904640209",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-02T18:15:38.077Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "10cbbcde-0091-44d7-860b-876904640209"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "c12e79f6-9dc0-418a-8b7a-a581e16d3a24",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "53d99be1-551b-46ed-8146-59075352f8af",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "e5cc5912-6611-40ce-ad4c-71e4fb783c95",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "f65267e6-3c5a-4d71-bebc-a5cdfb33e70e",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "03.03 - Free Flow P6 - Via Expressa Leste km 24,900 - SP-275",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P6 - Via Expressa Leste km 24,900 - SP-275",
+        "id": "422985",
+        "guid": "8c297a42-36ac-481b-8610-93b0fcaed5e4",
+        "connectedProjectId": "34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0/ProjectSettings/34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0",
+      "projectId": "34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-02T18:25:11.66Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "e1f81356-5e99-4fcd-8065-bf753ae00412",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "e86ad9cf-34fd-4255-b183-8c68b0d08417",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "fcb82458-02f2-4684-8e48-4a8e42fc7e9f",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "ee85873b-71af-4bff-a5c1-355b950d764a",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "03.03 - Free Flow P6 - Via Expressa Oeste km 14,390 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P6 - Via Expressa Oeste km 14,390 - SP-280",
+        "id": "423307",
+        "guid": "ea077c54-cedc-4886-b6e5-361d45e8f2df",
+        "connectedProjectId": "843cfe4c-6dcf-4363-bd72-8ea689505806",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/843cfe4c-6dcf-4363-bd72-8ea689505806/ProjectSettings/843cfe4c-6dcf-4363-bd72-8ea689505806/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "843cfe4c-6dcf-4363-bd72-8ea689505806",
+      "projectId": "843cfe4c-6dcf-4363-bd72-8ea689505806",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-02T18:29:11.037Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "843cfe4c-6dcf-4363-bd72-8ea689505806"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "885e2eca-eedb-402c-be1a-3af70121d69e",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "634b5009-98b7-4996-9be5-9806772ada94",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "0857dbda-712d-457e-bef4-7d27e1aecc4e",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "e44cdec5-9844-4c55-9d80-e1bd0e505a44",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "03.03 - Free Flow P7 - Marginal Leste km 20,970 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P7 - Marginal Leste km 20,970 - SP-280",
+        "id": "423473",
+        "guid": "19645718-5947-408d-afb5-cc985c950018",
+        "connectedProjectId": "30cde4d8-73fe-413a-947d-cd3116a0cb2b",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/30cde4d8-73fe-413a-947d-cd3116a0cb2b/ProjectSettings/30cde4d8-73fe-413a-947d-cd3116a0cb2b/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "30cde4d8-73fe-413a-947d-cd3116a0cb2b",
+      "projectId": "30cde4d8-73fe-413a-947d-cd3116a0cb2b",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-02T18:46:13.237Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "30cde4d8-73fe-413a-947d-cd3116a0cb2b"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "8133651b-81cd-4a96-97c8-0047ba7aefab",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "d215a404-2cfc-4c85-aedd-642697dd1854",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "b81be415-dcb9-4fc9-a446-7c482bb41f65",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "84d3aac2-727d-4132-b535-a85fddf1a885",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "03.03 - Free Flow P7 - Marginal Oeste km 18,050 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P7 - Marginal Oeste km 18,050 - SP-280",
+        "id": "423008",
+        "guid": "5b49c16a-8099-4ad4-9fb6-7174e50b6718",
+        "connectedProjectId": "feb590aa-7b39-49f4-acc8-3002d4dc8003",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/feb590aa-7b39-49f4-acc8-3002d4dc8003/ProjectSettings/feb590aa-7b39-49f4-acc8-3002d4dc8003/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "feb590aa-7b39-49f4-acc8-3002d4dc8003",
+      "projectId": "feb590aa-7b39-49f4-acc8-3002d4dc8003",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-02T18:35:03.083Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "feb590aa-7b39-49f4-acc8-3002d4dc8003"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "bef9773e-a958-4313-b9f7-9f97d49e2a4c",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "fd2b8fd4-f7c1-4313-8eac-d652d3c6eb97",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "3a1d8029-5b82-4165-8330-eda5a8c5db14",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "fdade015-f25f-46e1-a53f-606945ed41c0",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "03.03 - Free Flow P7 - Via Expressa Leste km 20,745 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P7 - Via Expressa Leste km 20,745 - SP-280",
+        "id": "423440",
+        "guid": "b41cc2ae-ca95-4fc1-a96b-fa5b074cb900",
+        "connectedProjectId": "17335eae-f523-4c5e-804a-c5ec8cc017d1",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/17335eae-f523-4c5e-804a-c5ec8cc017d1/ProjectSettings/17335eae-f523-4c5e-804a-c5ec8cc017d1/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "17335eae-f523-4c5e-804a-c5ec8cc017d1",
+      "projectId": "17335eae-f523-4c5e-804a-c5ec8cc017d1",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-02T18:50:43.657Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "17335eae-f523-4c5e-804a-c5ec8cc017d1"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "8e03fd97-4693-4708-9728-1f856cdc123d",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "fa20e18f-360b-48a6-8e97-e54e8e7e4e17",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "995e3e81-feac-41ad-9f78-2a8d3191a253",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "1f1ec327-1595-4faf-a98d-f0dd19c0f26e",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "03.03 - Free Flow P7 - Via Expressa Oeste km 18,140 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P7 - Via Expressa Oeste km 18,140 - SP-280",
+        "id": "423506",
+        "guid": "34aa45c8-7277-49b6-966f-29d3837b197a",
+        "connectedProjectId": "b82a2e67-91c6-42b6-86ce-90f5b84e9b32",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/b82a2e67-91c6-42b6-86ce-90f5b84e9b32/ProjectSettings/b82a2e67-91c6-42b6-86ce-90f5b84e9b32/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "b82a2e67-91c6-42b6-86ce-90f5b84e9b32",
+      "projectId": "b82a2e67-91c6-42b6-86ce-90f5b84e9b32",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-02T18:58:21.973Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "b82a2e67-91c6-42b6-86ce-90f5b84e9b32"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "5ffb205a-bf9e-4c19-920c-b7071e695888",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "5946ed36-529c-4bc1-8c39-65d66fbfb456",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "c2dcc095-492d-4df5-afa6-11171195d8c3",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "80b1ff18-56ab-4ab9-980b-e592fed6a2c5",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "03.03 - Free Flow P8 - Marginal Leste km 24,040 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P8 - Marginal Leste km 24,040 - SP-280",
+        "id": "423031",
+        "guid": "745f5038-e787-47b7-9e60-f63f329e4cea",
+        "connectedProjectId": "25739821-e400-43d6-90cf-f4ca361422e5",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/25739821-e400-43d6-90cf-f4ca361422e5/ProjectSettings/25739821-e400-43d6-90cf-f4ca361422e5/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "25739821-e400-43d6-90cf-f4ca361422e5",
+      "projectId": "25739821-e400-43d6-90cf-f4ca361422e5",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-02T19:04:48.717Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "25739821-e400-43d6-90cf-f4ca361422e5"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "798d546d-980d-490b-af07-9c1c2817e457",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "cbdbbfe1-171a-407b-9ae5-4024621e6969",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "4a783b32-a7ba-44c0-89bf-07d0672914e4",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "0828fe7d-70d1-4636-a6cd-6b251f66f6f7",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "03.03 - Free Flow P8 - Marginal Oeste km 23,980 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P8 - Marginal Oeste km 23,980 - SP-280",
+        "id": "423572",
+        "guid": "3cfaec2f-d4bb-41be-9ab5-f783beb5cc82",
+        "connectedProjectId": "4cbacd61-c55f-4fa0-ac35-6b07631f91c7",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/4cbacd61-c55f-4fa0-ac35-6b07631f91c7/ProjectSettings/4cbacd61-c55f-4fa0-ac35-6b07631f91c7/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "4cbacd61-c55f-4fa0-ac35-6b07631f91c7",
+      "projectId": "4cbacd61-c55f-4fa0-ac35-6b07631f91c7",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-02T19:20:31.577Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "4cbacd61-c55f-4fa0-ac35-6b07631f91c7"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "2c95db35-3c42-4a14-aef4-63865578abdb",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "a770515c-9a69-407c-8160-e6447d56eaff",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "a78957e1-e922-41df-a37d-be08658d3abb",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "f74fcbc1-b659-4c4d-80a3-16bf75980387",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "03.03 - Free Flow P8 - Via Expressa Leste km 24,010 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P8 - Via Expressa Leste km 24,010 - SP-280",
+        "id": "423605",
+        "guid": "19261be7-cd4b-4d96-8681-cd4a59256b6c",
+        "connectedProjectId": "6841f1b3-7a77-40a2-9a21-afbce6ce277a",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/6841f1b3-7a77-40a2-9a21-afbce6ce277a/ProjectSettings/6841f1b3-7a77-40a2-9a21-afbce6ce277a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "6841f1b3-7a77-40a2-9a21-afbce6ce277a",
+      "projectId": "6841f1b3-7a77-40a2-9a21-afbce6ce277a",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-02T19:10:12.313Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "6841f1b3-7a77-40a2-9a21-afbce6ce277a"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "633e2bc6-f8b1-4549-8852-af7c7da48272",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "992836a2-5721-49f8-a6a2-b169062e8422",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "2f54afab-d15d-4ee2-9e0e-c4a77e72717a",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "2775adcb-7fc7-491d-a182-2b5040b297ca",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "03.03 - Free Flow P8 - Via Expressa Oeste km 24,010 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P8 - Via Expressa Oeste km 24,010 - SP-280",
+        "id": "423539",
+        "guid": "2e7919ce-61f2-431d-b414-facfd8af5b86",
+        "connectedProjectId": "27f2366e-7ec3-4a08-a22f-ad91ce49d6b0",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/27f2366e-7ec3-4a08-a22f-ad91ce49d6b0/ProjectSettings/27f2366e-7ec3-4a08-a22f-ad91ce49d6b0/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "27f2366e-7ec3-4a08-a22f-ad91ce49d6b0",
+      "projectId": "27f2366e-7ec3-4a08-a22f-ad91ce49d6b0",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-02T19:14:10.887Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "27f2366e-7ec3-4a08-a22f-ad91ce49d6b0"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "c1d0f18c-8c81-48d3-86bb-f9e71241c5d8",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "522b930c-c68c-41da-a482-d5bd230dc70c",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "91dc87f6-836d-4d90-aaed-b583da24f94a",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "4a4dd6af-bd42-4a6a-8c17-bb4c3b9d9a65",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "03.03 - Free Flow P9 - Via Expressa Leste km 29,210 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P9 - Via Expressa Leste km 29,210 - SP-280",
+        "id": "423054",
+        "guid": "30a2ca56-8bd9-4ab8-b10b-77a39ee73273",
+        "connectedProjectId": "2144adc7-166a-49c1-8b26-db74a8ff27e5",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/2144adc7-166a-49c1-8b26-db74a8ff27e5/ProjectSettings/2144adc7-166a-49c1-8b26-db74a8ff27e5/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "2144adc7-166a-49c1-8b26-db74a8ff27e5",
+      "projectId": "2144adc7-166a-49c1-8b26-db74a8ff27e5",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-02T19:25:50.783Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "2144adc7-166a-49c1-8b26-db74a8ff27e5"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "f3531009-1f92-4ac2-a827-dd678f9f3cf7",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "d5bedb99-4888-4d64-bae0-15ecdbef0340",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "fbf3a211-0c3e-49f5-aec3-61c9d45d9988",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "afd3c923-ddba-4b94-9af8-6c90cde9c968",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "03.03 - Free Flow P9 - Via Expressa Oeste km 29,340 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P9 - Via Expressa Oeste km 29,340 - SP-280",
+        "id": "423638",
+        "guid": "2cab500e-33d9-476a-88e7-784ccd8e358a",
+        "connectedProjectId": "624cd394-bd20-483f-a325-27ea3518eefe",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/624cd394-bd20-483f-a325-27ea3518eefe/ProjectSettings/624cd394-bd20-483f-a325-27ea3518eefe/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "624cd394-bd20-483f-a325-27ea3518eefe",
+      "projectId": "624cd394-bd20-483f-a325-27ea3518eefe",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-07-02T19:32:35.93Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "624cd394-bd20-483f-a325-27ea3518eefe"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "dddb0e53-d5af-4b9d-8e41-3101bd8e641f",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "e4a8d376-302b-458a-9b9f-33688a919b06",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "0d16ee4b-67d8-48f3-b9c1-bd3e756664b1",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "e362b1c0-602f-443e-a92b-036fda0baa93",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "03.11 - HS-WIM 1 - km 20 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.11 - HS-WIM 1 - km 20 - SP-280",
+        "id": "328597",
+        "guid": "8eb542fd-4931-4f16-8e0f-b6bd00cd9c7a",
+        "connectedProjectId": "2d0daf2a-daa7-4b01-ae64-b0de2acc681a",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/ProjectSettings/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "2d0daf2a-daa7-4b01-ae64-b0de2acc681a",
+      "projectId": "2d0daf2a-daa7-4b01-ae64-b0de2acc681a",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-05-13T08:32:56.377Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "2d0daf2a-daa7-4b01-ae64-b0de2acc681a"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "dfd27bb0-1883-409f-b7ec-549c72c08421",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "81d60cba-2ce0-4882-9931-e2e41bf660c1",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "83145bd2-4e61-4f8a-a7e9-640d22d397ef",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "3aadd442-f3ac-4b85-ba16-4b2f946acf66",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "03.11 - HS-WIM 2 - (Localização á definir) - SP-280",
+      "origemProjectWise": {
+        "nome": "03.11 - HS-WIM 2 - (Localização á definir) - SP-280",
+        "id": "329008",
+        "guid": "290c3c2b-873f-48eb-b301-c3bc8ff1586f",
+        "connectedProjectId": "da2a40d3-8844-47a0-880d-1da9c9501096",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/da2a40d3-8844-47a0-880d-1da9c9501096/ProjectSettings/da2a40d3-8844-47a0-880d-1da9c9501096/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "da2a40d3-8844-47a0-880d-1da9c9501096",
+      "projectId": "da2a40d3-8844-47a0-880d-1da9c9501096",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-05-15T20:04:03.3Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "da2a40d3-8844-47a0-880d-1da9c9501096"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "aa6eaa5d-3d63-47d5-b43e-9df40f184eb9",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "1047ff5b-d92a-4134-ae81-1c4233e6f318",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "d5459852-148b-43c1-8ca1-c1d36b9695e0",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "cd5aab86-a019-437e-95fe-93ce6f0cdb7e",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ta***@ecorodovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Projeto Conceitual - Raposo Tavares/ Nova Ligação Embu",
+      "origemProjectWise": {
+        "nome": "Projeto Conceitual - Raposo Tavares/ Nova Ligação Embu",
+        "id": "299566",
+        "guid": "2ea01ce0-850d-4352-b5eb-708fe64a49d6",
+        "connectedProjectId": "57e3ca06-eccf-4cab-b4be-36d7353e3f1e",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/57e3ca06-eccf-4cab-b4be-36d7353e3f1e/ProjectSettings/57e3ca06-eccf-4cab-b4be-36d7353e3f1e/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "57e3ca06-eccf-4cab-b4be-36d7353e3f1e",
+      "projectId": "57e3ca06-eccf-4cab-b4be-36d7353e3f1e",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "92298415-9c22-4484-ae0b-cb4682712639",
+        "email": "ta***@ecorodovias.com.br",
+        "givenName": "Tainara",
+        "surname": "Canuto",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-05-13T17:30:43.68Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "57e3ca06-eccf-4cab-b4be-36d7353e3f1e"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "a62fe606-e8dc-4c98-9e78-5fc7064ba687",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "beb799b4-d74f-404f-be52-1035eeaa972a",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "15c588d6-1e0a-4c4f-939f-b62d31bd0b03",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        },
+        {
+          "id": "6352928d-9518-4b12-9636-1dceb751f736",
+          "displayName": "PWDM Approver",
+          "type": "iTwin"
+        }
+      ]
+    }
+  ],
+  "resultados": [
+    {
+      "projectId": "c5621ad1-33a2-47f7-a337-19a60e18c75a",
+      "nomeProjeto": "01.01.02 - Duplicação - Cotia-Embu",
+      "origemProjectWise": {
+        "nome": "01.01.02 - Duplicação - Cotia-Embu",
+        "id": "397906",
+        "guid": "caf2f440-5ae7-4d36-9e0d-f19429f3c3cb",
+        "connectedProjectId": "c5621ad1-33a2-47f7-a337-19a60e18c75a",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/c5621ad1-33a2-47f7-a337-19a60e18c75a/ProjectSettings/c5621ad1-33a2-47f7-a337-19a60e18c75a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "2ef7573e-3e1b-4cb7-b9c8-0780ad5372cc",
+      "nomeProjeto": "01.02.04-TH-14-faixa adicional km 32.25 km ao km 41.70 da SP-280",
+      "origemProjectWise": {
+        "nome": "01.02.04-TH-14-faixa adicional km 32.25 km ao km 41.70 da SP-280",
+        "id": "421109",
+        "guid": "25baa5b1-d85e-40b4-be6a-0b1b59f7eff3",
+        "connectedProjectId": "2ef7573e-3e1b-4cb7-b9c8-0780ad5372cc",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/2ef7573e-3e1b-4cb7-b9c8-0780ad5372cc/ProjectSettings/2ef7573e-3e1b-4cb7-b9c8-0780ad5372cc/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "26e76980-9ff8-4a1c-b95f-24468c7b9522",
+      "nomeProjeto": "01.02.05-TH-14-faixa adicional  km 41.70 km ao km 54.14 da SP-280",
+      "origemProjectWise": {
+        "nome": "01.02.05-TH-14-faixa adicional  km 41.70 km ao km 54.14 da SP-280",
+        "id": "421142",
+        "guid": "550e5cfb-9b75-46d1-ae3a-1a5837ab6b2d",
+        "connectedProjectId": "26e76980-9ff8-4a1c-b95f-24468c7b9522",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/26e76980-9ff8-4a1c-b95f-24468c7b9522/ProjectSettings/26e76980-9ff8-4a1c-b95f-24468c7b9522/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66",
+      "nomeProjeto": "02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste",
+        "id": "311855",
+        "guid": "b5813bc9-dba9-495a-abab-24c58304e99a",
+        "connectedProjectId": "bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/ProjectSettings/bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "3d856c59-1088-4880-9217-cb841410147c",
+      "nomeProjeto": "02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste",
+      "origemProjectWise": {
+        "nome": "02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste",
+        "id": "312266",
+        "guid": "9a16bedb-b7e4-49cc-bfc2-6b41056adfd7",
+        "connectedProjectId": "3d856c59-1088-4880-9217-cb841410147c",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/3d856c59-1088-4880-9217-cb841410147c/ProjectSettings/3d856c59-1088-4880-9217-cb841410147c/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "ea3b588e-3784-4f4d-aadd-ba905875ad99",
+      "nomeProjeto": "02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste",
+        "id": "312677",
+        "guid": "77488ef1-35b7-4d76-b8a6-5c89ca48cbde",
+        "connectedProjectId": "ea3b588e-3784-4f4d-aadd-ba905875ad99",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/ea3b588e-3784-4f4d-aadd-ba905875ad99/ProjectSettings/ea3b588e-3784-4f4d-aadd-ba905875ad99/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "ae496c86-d35f-45ed-9421-67432d77d9bd",
+      "nomeProjeto": "02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste",
+        "id": "313088",
+        "guid": "b013fc3f-989d-41bc-99f1-3ac5a4fe13ba",
+        "connectedProjectId": "ae496c86-d35f-45ed-9421-67432d77d9bd",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/ae496c86-d35f-45ed-9421-67432d77d9bd/ProjectSettings/ae496c86-d35f-45ed-9421-67432d77d9bd/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "5778dda5-3d2d-402b-bfd9-6f6e7d87a077",
+      "nomeProjeto": "02.02.02.05 - BSO 5 - (Localização á definir) - SP-280",
+      "origemProjectWise": {
+        "nome": "02.02.02.05 - BSO 5 - (Localização á definir) - SP-280",
+        "id": "313499",
+        "guid": "d4df1966-1475-4057-9b07-ff226f5488f4",
+        "connectedProjectId": "5778dda5-3d2d-402b-bfd9-6f6e7d87a077",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/ProjectSettings/5778dda5-3d2d-402b-bfd9-6f6e7d87a077/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "50c209f1-607a-4b28-b9a3-d5c139d8961a",
+      "nomeProjeto": "02.02.03 - PPD 1 - km 20 - SP-280 - Leste",
+      "origemProjectWise": {
+        "nome": "02.02.03 - PPD 1 - km 20 - SP-280 - Leste",
+        "id": "327363",
+        "guid": "dd212a56-0588-4400-b305-5a4ec3c72a53",
+        "connectedProjectId": "50c209f1-607a-4b28-b9a3-d5c139d8961a",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/50c209f1-607a-4b28-b9a3-d5c139d8961a/ProjectSettings/50c209f1-607a-4b28-b9a3-d5c139d8961a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "dbe9beeb-f435-48b6-82d8-7714f491c706",
+      "nomeProjeto": "02.02.03 - PPD 2 - km 33 - SP-280 - Oeste",
+      "origemProjectWise": {
+        "nome": "02.02.03 - PPD 2 - km 33 - SP-280 - Oeste",
+        "id": "327774",
+        "guid": "b1c9e711-a1d8-4259-834f-88a16c57ff40",
+        "connectedProjectId": "dbe9beeb-f435-48b6-82d8-7714f491c706",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/dbe9beeb-f435-48b6-82d8-7714f491c706/ProjectSettings/dbe9beeb-f435-48b6-82d8-7714f491c706/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "903aed48-88ea-43af-8664-f61851c6cbbe",
+      "nomeProjeto": "02.02.04 - PMRV - Araçariguama - SP-280",
+      "origemProjectWise": {
+        "nome": "02.02.04 - PMRV - Araçariguama - SP-280",
+        "id": "328185",
+        "guid": "f1d7fd3f-dc0d-4543-8852-c92e12592aa1",
+        "connectedProjectId": "903aed48-88ea-43af-8664-f61851c6cbbe",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/903aed48-88ea-43af-8664-f61851c6cbbe/ProjectSettings/903aed48-88ea-43af-8664-f61851c6cbbe/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "6d384fe3-52b8-4123-8966-78e84a9b5b8b",
+      "nomeProjeto": "02.05.19 - Dispositivo de Conexão - BR-116",
+      "origemProjectWise": {
+        "nome": "02.05.19 - Dispositivo de Conexão - BR-116",
+        "id": "397749",
+        "guid": "6e6fa8f4-5717-4680-b24b-0aeb19e16344",
+        "connectedProjectId": "6d384fe3-52b8-4123-8966-78e84a9b5b8b",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/6d384fe3-52b8-4123-8966-78e84a9b5b8b/ProjectSettings/6d384fe3-52b8-4123-8966-78e84a9b5b8b/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "5147867f-9581-43a3-8210-1ba6f12501cc",
+      "nomeProjeto": "02.05.22 - Alça - km 22,20 - SP-280",
+      "origemProjectWise": {
+        "nome": "02.05.22 - Alça - km 22,20 - SP-280",
+        "id": "394768",
+        "guid": "76f7168a-4d31-4f85-ae89-61e4579530b7",
+        "connectedProjectId": "5147867f-9581-43a3-8210-1ba6f12501cc",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/5147867f-9581-43a3-8210-1ba6f12501cc/ProjectSettings/5147867f-9581-43a3-8210-1ba6f12501cc/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "09ce0a82-239d-40c1-b49e-15caeefec61c",
+      "nomeProjeto": "02.05.23 - Diamante - km 36,00 SP-280",
+      "origemProjectWise": {
+        "nome": "02.05.23 - Diamante - km 36,00 SP-280",
+        "id": "394559",
+        "guid": "b7224958-5b34-43c0-ab74-cc4a4bf1a9a3",
+        "connectedProjectId": "09ce0a82-239d-40c1-b49e-15caeefec61c",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/09ce0a82-239d-40c1-b49e-15caeefec61c/ProjectSettings/09ce0a82-239d-40c1-b49e-15caeefec61c/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "895f658a-2417-4c48-b668-45590d1cdbc5",
+      "nomeProjeto": "02.05.24 - Trombeta - km 46,62 - SP-280",
+      "origemProjectWise": {
+        "nome": "02.05.24 - Trombeta - km 46,62 - SP-280",
+        "id": "394721",
+        "guid": "0bebf477-b8d7-4a0b-be4c-42155f2a00a5",
+        "connectedProjectId": "895f658a-2417-4c48-b668-45590d1cdbc5",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/895f658a-2417-4c48-b668-45590d1cdbc5/ProjectSettings/895f658a-2417-4c48-b668-45590d1cdbc5/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "fb0571a5-3f64-4fab-908f-268be93776a6",
+      "nomeProjeto": "02.05.25 - Diamante km 50,9 - SP-280",
+      "origemProjectWise": {
+        "nome": "02.05.25 - Diamante km 50,9 - SP-280",
+        "id": "422939",
+        "guid": "63f58fda-f6e8-4f0b-b109-c24e8b099ea9",
+        "connectedProjectId": "fb0571a5-3f64-4fab-908f-268be93776a6",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/fb0571a5-3f64-4fab-908f-268be93776a6/ProjectSettings/fb0571a5-3f64-4fab-908f-268be93776a6/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "992ffbe8-8902-497c-8442-74a6c31b6f17",
+      "nomeProjeto": "02.05.26 - Alça - km 22,80 - SP-280",
+      "origemProjectWise": {
+        "nome": "02.05.26 - Alça - km 22,80 - SP-280",
+        "id": "397701",
+        "guid": "07e0ba75-7f8b-4354-88b8-61cf7c99605f",
+        "connectedProjectId": "992ffbe8-8902-497c-8442-74a6c31b6f17",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/992ffbe8-8902-497c-8442-74a6c31b6f17/ProjectSettings/992ffbe8-8902-497c-8442-74a6c31b6f17/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "e2cb9029-c7f8-4dd0-8fbe-7cd34b7082fd",
+      "nomeProjeto": "02.06.11-  Marginal Decrescente - km 30,74 +31,23 - SP-280",
+      "origemProjectWise": {
+        "nome": "02.06.11-  Marginal Decrescente - km 30,74 +31,23 - SP-280",
+        "id": "394745",
+        "guid": "607ad92d-5c02-4f71-87e2-d192deaeffb9",
+        "connectedProjectId": "e2cb9029-c7f8-4dd0-8fbe-7cd34b7082fd",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e2cb9029-c7f8-4dd0-8fbe-7cd34b7082fd/ProjectSettings/e2cb9029-c7f8-4dd0-8fbe-7cd34b7082fd/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "56cb3120-01b4-4165-9d8f-ba34e33539ae",
+      "nomeProjeto": "02.11.01.15 - OAE - km 22,2 - SP-280",
+      "origemProjectWise": {
+        "nome": "02.11.01.15 - OAE - km 22,2 - SP-280",
+        "id": "397034",
+        "guid": "e78f585f-58bc-4c18-852d-1525cf446835",
+        "connectedProjectId": "56cb3120-01b4-4165-9d8f-ba34e33539ae",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/56cb3120-01b4-4165-9d8f-ba34e33539ae/ProjectSettings/56cb3120-01b4-4165-9d8f-ba34e33539ae/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "144c0f05-4a8b-4754-9658-3f1de6031b2d",
+      "nomeProjeto": "02.11.01.17 - OAE - km 22,2 - SP-280",
+      "origemProjectWise": {
+        "nome": "02.11.01.17 - OAE - km 22,2 - SP-280",
+        "id": "397057",
+        "guid": "2b5afe74-fb89-4036-a2bd-2df6a77ab53b",
+        "connectedProjectId": "144c0f05-4a8b-4754-9658-3f1de6031b2d",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/144c0f05-4a8b-4754-9658-3f1de6031b2d/ProjectSettings/144c0f05-4a8b-4754-9658-3f1de6031b2d/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "7357e987-ec70-4dc6-9d12-ffe08438e439",
+      "nomeProjeto": "02.13.01 - Faixa Adic Ponte Rio Tietê Carapicuiba",
+      "origemProjectWise": {
+        "nome": "02.13.01 - Faixa Adic Ponte Rio Tietê Carapicuiba",
+        "id": "397842",
+        "guid": "3f38e5e0-ded0-4b08-b360-324f84df88c5",
+        "connectedProjectId": "7357e987-ec70-4dc6-9d12-ffe08438e439",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/7357e987-ec70-4dc6-9d12-ffe08438e439/ProjectSettings/7357e987-ec70-4dc6-9d12-ffe08438e439/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "e24a37f3-c2e6-418a-995e-a7a35b86d9ef",
+      "nomeProjeto": "03.03 - Free Flow P10 - Via Expressa Leste km 33,990 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P10 - Via Expressa Leste km 33,990 - SP-280",
+        "id": "423077",
+        "guid": "d8be8575-b4f9-4dae-8939-b26bec5addfd",
+        "connectedProjectId": "e24a37f3-c2e6-418a-995e-a7a35b86d9ef",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e24a37f3-c2e6-418a-995e-a7a35b86d9ef/ProjectSettings/e24a37f3-c2e6-418a-995e-a7a35b86d9ef/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "b47658c0-d4ad-4051-aa37-633b2755696c",
+      "nomeProjeto": "03.03 - Free Flow P10 - Via Expressa Oeste km 33,990 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P10 - Via Expressa Oeste km 33,990 - SP-280",
+        "id": "423671",
+        "guid": "d9403054-4001-4d8a-829f-5855d6c47b36",
+        "connectedProjectId": "b47658c0-d4ad-4051-aa37-633b2755696c",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/b47658c0-d4ad-4051-aa37-633b2755696c/ProjectSettings/b47658c0-d4ad-4051-aa37-633b2755696c/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "bae44540-ff29-41b0-adcc-ddc6a1d69eda",
+      "nomeProjeto": "03.03 - Free Flow P11 - Via Expressa Norte-Sul km 34,600 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P11 - Via Expressa Norte-Sul km 34,600 - SP-280",
+        "id": "423100",
+        "guid": "d5abbce3-3ec1-4ae3-86ef-774856790fff",
+        "connectedProjectId": "bae44540-ff29-41b0-adcc-ddc6a1d69eda",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/bae44540-ff29-41b0-adcc-ddc6a1d69eda/ProjectSettings/bae44540-ff29-41b0-adcc-ddc6a1d69eda/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "cb60e4e7-7084-4854-9b02-ff1e01f20d32",
+      "nomeProjeto": "03.03 - Free Flow P12 - Via Expressa Norte-Sul km 40,655 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P12 - Via Expressa Norte-Sul km 40,655 - SP-280",
+        "id": "423123",
+        "guid": "b2b8c3fb-0b69-41a6-acd5-1a052e72575e",
+        "connectedProjectId": "cb60e4e7-7084-4854-9b02-ff1e01f20d32",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/cb60e4e7-7084-4854-9b02-ff1e01f20d32/ProjectSettings/cb60e4e7-7084-4854-9b02-ff1e01f20d32/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1",
+      "nomeProjeto": "03.03 - Free Flow P4 - Via Expressa Leste km 24,900 - SP-270",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P4 - Via Expressa Leste km 24,900 - SP-270",
+        "id": "422962",
+        "guid": "c8c1ebfd-4b86-4230-97b9-96efa315e68f",
+        "connectedProjectId": "2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1/ProjectSettings/2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "0aa4956e-d972-4aca-bf20-a537fa4bad96",
+      "nomeProjeto": "03.03 - Free Flow P6 - Marginal Leste km 13,660 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P6 - Marginal Leste km 13,660 - SP-280",
+        "id": "423407",
+        "guid": "4dab4830-a16e-48fa-b137-0db010b99be1",
+        "connectedProjectId": "0aa4956e-d972-4aca-bf20-a537fa4bad96",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/0aa4956e-d972-4aca-bf20-a537fa4bad96/ProjectSettings/0aa4956e-d972-4aca-bf20-a537fa4bad96/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "e6e6bd37-2dc3-4781-9eda-a697cde5268d",
+      "nomeProjeto": "03.03 - Free Flow P6 - Marginal Oeste km 14,420 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P6 - Marginal Oeste km 14,420 - SP-280",
+        "id": "423340",
+        "guid": "629f5241-f9a2-487f-91b7-8d8225af0929",
+        "connectedProjectId": "e6e6bd37-2dc3-4781-9eda-a697cde5268d",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/e6e6bd37-2dc3-4781-9eda-a697cde5268d/ProjectSettings/e6e6bd37-2dc3-4781-9eda-a697cde5268d/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "10cbbcde-0091-44d7-860b-876904640209",
+      "nomeProjeto": "03.03 - Free Flow P6 - Via Expressa Leste km 13,680 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P6 - Via Expressa Leste km 13,680 - SP-280",
+        "id": "423374",
+        "guid": "3f690068-6d06-4dd3-b2e7-cf573ac53753",
+        "connectedProjectId": "10cbbcde-0091-44d7-860b-876904640209",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/10cbbcde-0091-44d7-860b-876904640209/ProjectSettings/10cbbcde-0091-44d7-860b-876904640209/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0",
+      "nomeProjeto": "03.03 - Free Flow P6 - Via Expressa Leste km 24,900 - SP-275",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P6 - Via Expressa Leste km 24,900 - SP-275",
+        "id": "422985",
+        "guid": "8c297a42-36ac-481b-8610-93b0fcaed5e4",
+        "connectedProjectId": "34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0/ProjectSettings/34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "843cfe4c-6dcf-4363-bd72-8ea689505806",
+      "nomeProjeto": "03.03 - Free Flow P6 - Via Expressa Oeste km 14,390 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P6 - Via Expressa Oeste km 14,390 - SP-280",
+        "id": "423307",
+        "guid": "ea077c54-cedc-4886-b6e5-361d45e8f2df",
+        "connectedProjectId": "843cfe4c-6dcf-4363-bd72-8ea689505806",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/843cfe4c-6dcf-4363-bd72-8ea689505806/ProjectSettings/843cfe4c-6dcf-4363-bd72-8ea689505806/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "30cde4d8-73fe-413a-947d-cd3116a0cb2b",
+      "nomeProjeto": "03.03 - Free Flow P7 - Marginal Leste km 20,970 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P7 - Marginal Leste km 20,970 - SP-280",
+        "id": "423473",
+        "guid": "19645718-5947-408d-afb5-cc985c950018",
+        "connectedProjectId": "30cde4d8-73fe-413a-947d-cd3116a0cb2b",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/30cde4d8-73fe-413a-947d-cd3116a0cb2b/ProjectSettings/30cde4d8-73fe-413a-947d-cd3116a0cb2b/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "feb590aa-7b39-49f4-acc8-3002d4dc8003",
+      "nomeProjeto": "03.03 - Free Flow P7 - Marginal Oeste km 18,050 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P7 - Marginal Oeste km 18,050 - SP-280",
+        "id": "423008",
+        "guid": "5b49c16a-8099-4ad4-9fb6-7174e50b6718",
+        "connectedProjectId": "feb590aa-7b39-49f4-acc8-3002d4dc8003",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/feb590aa-7b39-49f4-acc8-3002d4dc8003/ProjectSettings/feb590aa-7b39-49f4-acc8-3002d4dc8003/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "17335eae-f523-4c5e-804a-c5ec8cc017d1",
+      "nomeProjeto": "03.03 - Free Flow P7 - Via Expressa Leste km 20,745 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P7 - Via Expressa Leste km 20,745 - SP-280",
+        "id": "423440",
+        "guid": "b41cc2ae-ca95-4fc1-a96b-fa5b074cb900",
+        "connectedProjectId": "17335eae-f523-4c5e-804a-c5ec8cc017d1",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/17335eae-f523-4c5e-804a-c5ec8cc017d1/ProjectSettings/17335eae-f523-4c5e-804a-c5ec8cc017d1/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "b82a2e67-91c6-42b6-86ce-90f5b84e9b32",
+      "nomeProjeto": "03.03 - Free Flow P7 - Via Expressa Oeste km 18,140 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P7 - Via Expressa Oeste km 18,140 - SP-280",
+        "id": "423506",
+        "guid": "34aa45c8-7277-49b6-966f-29d3837b197a",
+        "connectedProjectId": "b82a2e67-91c6-42b6-86ce-90f5b84e9b32",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/b82a2e67-91c6-42b6-86ce-90f5b84e9b32/ProjectSettings/b82a2e67-91c6-42b6-86ce-90f5b84e9b32/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "25739821-e400-43d6-90cf-f4ca361422e5",
+      "nomeProjeto": "03.03 - Free Flow P8 - Marginal Leste km 24,040 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P8 - Marginal Leste km 24,040 - SP-280",
+        "id": "423031",
+        "guid": "745f5038-e787-47b7-9e60-f63f329e4cea",
+        "connectedProjectId": "25739821-e400-43d6-90cf-f4ca361422e5",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/25739821-e400-43d6-90cf-f4ca361422e5/ProjectSettings/25739821-e400-43d6-90cf-f4ca361422e5/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "4cbacd61-c55f-4fa0-ac35-6b07631f91c7",
+      "nomeProjeto": "03.03 - Free Flow P8 - Marginal Oeste km 23,980 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P8 - Marginal Oeste km 23,980 - SP-280",
+        "id": "423572",
+        "guid": "3cfaec2f-d4bb-41be-9ab5-f783beb5cc82",
+        "connectedProjectId": "4cbacd61-c55f-4fa0-ac35-6b07631f91c7",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/4cbacd61-c55f-4fa0-ac35-6b07631f91c7/ProjectSettings/4cbacd61-c55f-4fa0-ac35-6b07631f91c7/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "6841f1b3-7a77-40a2-9a21-afbce6ce277a",
+      "nomeProjeto": "03.03 - Free Flow P8 - Via Expressa Leste km 24,010 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P8 - Via Expressa Leste km 24,010 - SP-280",
+        "id": "423605",
+        "guid": "19261be7-cd4b-4d96-8681-cd4a59256b6c",
+        "connectedProjectId": "6841f1b3-7a77-40a2-9a21-afbce6ce277a",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/6841f1b3-7a77-40a2-9a21-afbce6ce277a/ProjectSettings/6841f1b3-7a77-40a2-9a21-afbce6ce277a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "27f2366e-7ec3-4a08-a22f-ad91ce49d6b0",
+      "nomeProjeto": "03.03 - Free Flow P8 - Via Expressa Oeste km 24,010 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P8 - Via Expressa Oeste km 24,010 - SP-280",
+        "id": "423539",
+        "guid": "2e7919ce-61f2-431d-b414-facfd8af5b86",
+        "connectedProjectId": "27f2366e-7ec3-4a08-a22f-ad91ce49d6b0",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/27f2366e-7ec3-4a08-a22f-ad91ce49d6b0/ProjectSettings/27f2366e-7ec3-4a08-a22f-ad91ce49d6b0/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "2144adc7-166a-49c1-8b26-db74a8ff27e5",
+      "nomeProjeto": "03.03 - Free Flow P9 - Via Expressa Leste km 29,210 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P9 - Via Expressa Leste km 29,210 - SP-280",
+        "id": "423054",
+        "guid": "30a2ca56-8bd9-4ab8-b10b-77a39ee73273",
+        "connectedProjectId": "2144adc7-166a-49c1-8b26-db74a8ff27e5",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/2144adc7-166a-49c1-8b26-db74a8ff27e5/ProjectSettings/2144adc7-166a-49c1-8b26-db74a8ff27e5/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "624cd394-bd20-483f-a325-27ea3518eefe",
+      "nomeProjeto": "03.03 - Free Flow P9 - Via Expressa Oeste km 29,340 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.03 - Free Flow P9 - Via Expressa Oeste km 29,340 - SP-280",
+        "id": "423638",
+        "guid": "2cab500e-33d9-476a-88e7-784ccd8e358a",
+        "connectedProjectId": "624cd394-bd20-483f-a325-27ea3518eefe",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/624cd394-bd20-483f-a325-27ea3518eefe/ProjectSettings/624cd394-bd20-483f-a325-27ea3518eefe/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "2d0daf2a-daa7-4b01-ae64-b0de2acc681a",
+      "nomeProjeto": "03.11 - HS-WIM 1 - km 20 - SP-280",
+      "origemProjectWise": {
+        "nome": "03.11 - HS-WIM 1 - km 20 - SP-280",
+        "id": "328597",
+        "guid": "8eb542fd-4931-4f16-8e0f-b6bd00cd9c7a",
+        "connectedProjectId": "2d0daf2a-daa7-4b01-ae64-b0de2acc681a",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/ProjectSettings/2d0daf2a-daa7-4b01-ae64-b0de2acc681a/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "da2a40d3-8844-47a0-880d-1da9c9501096",
+      "nomeProjeto": "03.11 - HS-WIM 2 - (Localização á definir) - SP-280",
+      "origemProjectWise": {
+        "nome": "03.11 - HS-WIM 2 - (Localização á definir) - SP-280",
+        "id": "329008",
+        "guid": "290c3c2b-873f-48eb-b301-c3bc8ff1586f",
+        "connectedProjectId": "da2a40d3-8844-47a0-880d-1da9c9501096",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/da2a40d3-8844-47a0-880d-1da9c9501096/ProjectSettings/da2a40d3-8844-47a0-880d-1da9c9501096/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    },
+    {
+      "projectId": "57e3ca06-eccf-4cab-b4be-36d7353e3f1e",
+      "nomeProjeto": "Projeto Conceitual - Raposo Tavares/ Nova Ligação Embu",
+      "origemProjectWise": {
+        "nome": "Projeto Conceitual - Raposo Tavares/ Nova Ligação Embu",
+        "id": "299566",
+        "guid": "2ea01ce0-850d-4352-b5eb-708fe64a49d6",
+        "connectedProjectId": "57e3ca06-eccf-4cab-b4be-36d7353e3f1e",
+        "concessao": "Ecovias Raposo Castello",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": "https://pwdm.bentley.com/57e3ca06-eccf-4cab-b4be-36d7353e3f1e/ProjectSettings/57e3ca06-eccf-4cab-b4be-36d7353e3f1e/View#PARTICIPANTS"
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ta***@ecorodovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "cancelado_pelo_usuario",
+        "mensagem": "Usuario nao confirmou a aplicacao final."
+      }
+    }
+  ]
+}
