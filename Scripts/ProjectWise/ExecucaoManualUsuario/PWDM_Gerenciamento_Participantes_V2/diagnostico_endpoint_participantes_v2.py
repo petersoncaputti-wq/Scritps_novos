@@ -66,6 +66,24 @@ def texto_limitado(texto: str, limite: int = 4000) -> str:
 
 def mascarar_texto(texto: str) -> str:
     texto = re.sub(r"[\w.\-+%]+@[\w.\-]+\.[A-Za-z]{2,}", "[email-removido]", texto)
+    # Protege corpos application/x-www-form-urlencoded usados pelos fluxos de login.
+    for campo in (
+        "password",
+        "pass",
+        "pf.pass",
+        "code",
+        "state",
+        "subject",
+        "pf.username",
+        "access_token",
+        "refresh_token",
+        "id_token",
+    ):
+        texto = re.sub(
+            rf"(?i)(?P<prefix>(?:^|[?&]){re.escape(campo)}=)[^&\s]*",
+            rf"\g<prefix>[removido]",
+            texto,
+        )
     texto = re.sub(
         r"(__RequestVerificationToken\"?\s*(?:type=\"hidden\"\s*)?value=\")([^\"]+)",
         r"\1[token-removido]",

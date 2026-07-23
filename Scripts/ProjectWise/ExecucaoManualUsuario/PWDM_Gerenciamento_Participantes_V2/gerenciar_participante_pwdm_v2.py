@@ -18,6 +18,7 @@ from regras_v2 import (
     determinar_acao_efetiva,
     extrair_ids_de_url,
     mascarar_email,
+    montar_id_exclusao_participante,
     normalizar_permissoes,
     normalizar_texto_chave,
     permissoes_iguais,
@@ -112,7 +113,7 @@ def solicitar_acao_usuario() -> str:
     print("\nO que deseja fazer com esse usuario?")
     print("01. Incluir nos projetos selecionados")
     print("02. Alterar permissoes onde ele ja for participante")
-    print("03. Excluir dos projetos selecionados (indisponivel nesta versao)")
+    print("03. Excluir dos projetos selecionados")
 
     while True:
         escolha = input("Acao desejada [1/2/3]: ").strip().lower()
@@ -131,10 +132,6 @@ def solicitar_acao_usuario() -> str:
         if not acao:
             print("[AVISO] Escolha 1, 2 ou 3.")
             continue
-        if acao == "excluir":
-            print("[AVISO] Exclusao ainda nao esta habilitada. Escolha incluir ou alterar.")
-            continue
-
         print(f"[OK] Acao selecionada: {ROTULOS_ACAO_USUARIO[acao]}")
         return acao
 
@@ -1409,7 +1406,7 @@ def exibir_previa(operacoes: list[dict[str, Any]], email: str) -> None:
             print(f"    Titulo : {op['titulo']}")
             print(f"    Perms  : {descricao_permissoes(op['permissoes'])}")
         elif op.get("acaoEfetiva") == "excluir_participante":
-            print("    Obs    : exclusao ainda nao sera aplicada automaticamente.")
+            print("    Obs    : participante sera removido deste projeto.")
 
 
 def contar_operacoes_por_acao(operacoes: list[dict[str, Any]]) -> dict[str, int]:
@@ -1431,7 +1428,7 @@ def confirmar_aplicacao(operacoes: list[dict[str, Any]]) -> bool:
     aplicaveis = [
         op
         for op in operacoes
-        if op.get("acaoEfetiva") not in {"ignorar_usuario_ausente", "excluir_participante"}
+        if op.get("acaoEfetiva") != "ignorar_usuario_ausente"
     ]
 
     if not aplicaveis:
@@ -1441,9 +1438,11 @@ def confirmar_aplicacao(operacoes: list[dict[str, Any]]) -> bool:
     print("\nConfirmacao final:")
     print(f"- Projetos selecionados: {len(operacoes)}")
     print(f"- Operacoes aplicaveis: {len(aplicaveis)}")
-    print("- Para aplicar, digite exatamente: CONFIRMAR")
+    possui_exclusao = any(op.get("acaoEfetiva") == "excluir_participante" for op in aplicaveis)
+    confirmacao_esperada = "CONFIRMAR EXCLUSAO" if possui_exclusao else "CONFIRMAR"
+    print(f"- Para aplicar, digite exatamente: {confirmacao_esperada}")
     resposta = input("Confirmacao: ").strip()
-    return resposta == "CONFIRMAR"
+    return resposta == confirmacao_esperada
 
 
 def url_absoluta_pwdm(endpoint: str) -> str:
@@ -1597,7 +1596,7 @@ def post_json(page: Page, url_tela: str, endpoint: str, payload: dict[str, Any])
         detalhe = resultado.get("body")
         if detalhe is None:
             detalhe = str(resultado.get("text") or "").strip()[:500] or "sem corpo de resposta"
-        payload_log = {chave: ("***" if chave.lower() == "email" else valor) for chave, valor in payload.items()}
+        payload_log = sanitizar_para_log(payload)
         raise RuntimeError(
             f"POST falhou em {url_endpoint}: HTTP {resultado['status']} "
             f"{resultado['statusText']} - {detalhe} "
@@ -1629,9 +1628,11 @@ def sanitizar_para_log(valor: Any, chave: str = "") -> Any:
         return [sanitizar_para_log(item, chave) for item in valor]
 
     if isinstance(valor, str):
-        if EMAIL_REGEX.match(valor):
-            return mascarar_email(valor)
-        return valor
+        return re.sub(
+            r"[\w.\-+%]+@[\w.\-]+\.[A-Za-z]{2,}",
+            lambda match: mascarar_email(match.group(0)),
+            valor,
+        )
 
     return valor
 
@@ -1669,13 +1670,18 @@ def aplicar_operacao(page: Page, op: dict[str, Any], email: str) -> dict[str, An
         }
 
     if acao_efetiva == "excluir_participante":
-        return {
-            "status": "nao_implementado",
-            "mensagem": (
-                "Exclusao ainda nao foi automatizada. Precisamos capturar e validar o endpoint "
-                "de remocao antes de aplicar uma acao destrutiva."
-            ),
+        endpoint = endpoint_participantes(connect_space_id, project_id).replace(
+            "UserGroupsAndUsers",
+            "GenericDeleteItems",
+        )
+        payload = {
+            "className": "Participants",
+            "ids": [montar_id_exclusao_participante(membro, email)],
         }
+        resultado = post_json(page, tela, endpoint, payload)
+        if not isinstance(resultado.get("body"), dict) or resultado["body"].get("isCompleted") is not True:
+            raise RuntimeError("PWDM nao confirmou a exclusao do participante (isCompleted != true).")
+        return {"status": "excluido", "resultado": resultado}
 
     if acao_efetiva == "atualizar_participante":
         if permissoes_iguais(membro, permissoes) and titulo_igual(membro, op["titulo"]):

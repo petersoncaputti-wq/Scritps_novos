@@ -146,6 +146,20 @@ def mascarar_email(valor: str) -> str:
     return f"{prefixo}***@{dominio}"
 
 
+def montar_id_exclusao_participante(membro: dict[str, Any], email: str) -> str:
+    participante_id = str(membro.get("id") or "").strip()
+    email_normalizado = str(email or "").strip().lower()
+
+    if not participante_id:
+        raise ValueError("Participante sem ID; exclusao nao pode ser executada com seguranca.")
+    if ":" in participante_id:
+        raise ValueError("ID de participante invalido para exclusao.")
+    if not EMAIL_REGEX.match(email_normalizado):
+        raise ValueError("E-mail invalido para montar o identificador de exclusao.")
+
+    return f"dm:{participante_id}:{email_normalizado}"
+
+
 def permissoes_iguais(membro: dict[str, Any], permissoes: dict[str, bool]) -> bool:
     return all(bool(membro.get(chave)) == bool(permissoes.get(chave)) for chave in CHAVES_PERMISSOES)
 

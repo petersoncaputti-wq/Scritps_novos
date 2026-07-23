@@ -70,6 +70,21 @@ class RegrasPwdmTests(unittest.TestCase):
     def test_mascarar_email_preserva_dominio(self):
         self.assertEqual(pwdm.mascarar_email("usuario.teste@empresa.com"), "us***@empresa.com")
 
+    def test_montar_id_exclusao_participante(self):
+        identificador = pwdm.montar_id_exclusao_participante(
+            {"id": "11111111-1111-1111-1111-111111111111"},
+            "Usuario.Teste@Empresa.com",
+        )
+
+        self.assertEqual(
+            identificador,
+            "dm:11111111-1111-1111-1111-111111111111:usuario.teste@empresa.com",
+        )
+
+    def test_montar_id_exclusao_exige_id(self):
+        with self.assertRaisesRegex(ValueError, "sem ID"):
+            pwdm.montar_id_exclusao_participante({}, "usuario@empresa.com")
+
     def test_extrair_ids_de_url_participantes(self):
         connect_space_id_esperado = "11111111-1111-1111-1111-111111111111"
         project_id_esperado = "22222222-2222-2222-2222-222222222222"

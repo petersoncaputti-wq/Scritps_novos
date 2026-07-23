@@ -1,0 +1,449 @@
+{
+  "timestamp": "2026-07-22T10:20:59",
+  "operacoes": [
+    {
+      "email": "de***@ecovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "TD-01 - AVCB Túneis - SCI - Km 45+693 - SP-150",
+      "origemProjectWise": {
+        "nome": "TD-01 - AVCB Túneis - SCI - Km 45+693 - SP-150",
+        "id": "368076",
+        "guid": "b3afc110-c294-460c-93e8-17d5bae70379",
+        "connectedProjectId": "cf6c47eb-7d7b-48cb-ae83-0ef18dc18ebb",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "cf6c47eb-7d7b-48cb-ae83-0ef18dc18ebb",
+      "projectId": "cf6c47eb-7d7b-48cb-ae83-0ef18dc18ebb",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "cf6c47eb-7d7b-48cb-ae83-0ef18dc18ebb"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "fd3d875e-be4f-4497-9852-92cd1420b0ef",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "ee421a19-c321-4eb2-b47b-75237951aed0",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "42d64b36-c8f3-4d0b-8687-82b7e11a4057",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "b3dde37e-188c-4eb3-a95b-59718a1af480",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "de***@ecovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "TD-01 - AVCB Túneis -SCI - Km 47+383 - SP-160",
+      "origemProjectWise": {
+        "nome": "TD-01 - AVCB Túneis -SCI - Km 47+383 - SP-160",
+        "id": "355770",
+        "guid": "7cd3a9bb-1dd0-4597-a37f-c59d3cda8778",
+        "connectedProjectId": "d2223bf5-e378-4777-9d57-fbcabbd6c07f",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "d2223bf5-e378-4777-9d57-fbcabbd6c07f",
+      "projectId": "d2223bf5-e378-4777-9d57-fbcabbd6c07f",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "d2223bf5-e378-4777-9d57-fbcabbd6c07f"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "433d613c-b0a2-40d8-aa85-a60550adbf30",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "d7a7b515-3baa-4810-ab3d-c30310e2b0bb",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "9ef2f72a-5b85-49d7-8eea-f9133ab0e195",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "a8fd5462-bf06-4c01-a1ef-1cfd1d7961b7",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "de***@ecovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "TD-02 - AVCB Túneis -SCI - Km 46+758 - SP-150",
+      "origemProjectWise": {
+        "nome": "TD-02 - AVCB Túneis -SCI - Km 46+758 - SP-150",
+        "id": "355803",
+        "guid": "3cae3cde-73d5-45f1-83b5-5fa7cd51ee42",
+        "connectedProjectId": "f08b5745-6aa7-41a2-bcf4-f7eba3f05263",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "f08b5745-6aa7-41a2-bcf4-f7eba3f05263",
+      "projectId": "f08b5745-6aa7-41a2-bcf4-f7eba3f05263",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "f08b5745-6aa7-41a2-bcf4-f7eba3f05263"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "70d7f4ca-ebaa-4301-8e2b-38da859813df",
+          "displayName": "Imodel",
+          "type": "enterprise"
+        },
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "0d41952b-c440-431a-b47b-09d7031d3549",
+          "displayName": "Project Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "0ef35d49-656f-4616-8b08-0fa533676a70",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "ed80b950-f365-4287-92ac-24c14be6cec9",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "a92084c0-944a-4dc7-bc14-804e00dc4816",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "4de74230-af1f-410f-8287-cbe67b494489",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "de***@ecovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Túnel Quilombo - Km 252+980 - SP-055",
+      "origemProjectWise": {
+        "nome": "Túnel Quilombo - Km 252+980 - SP-055",
+        "id": "355869",
+        "guid": "8987796c-91dc-4c60-aedf-39e697f42659",
+        "connectedProjectId": "e066c493-0e3e-4eaf-8b99-0fc946ff7dbc",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "e066c493-0e3e-4eaf-8b99-0fc946ff7dbc",
+      "projectId": "e066c493-0e3e-4eaf-8b99-0fc946ff7dbc",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "e066c493-0e3e-4eaf-8b99-0fc946ff7dbc"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "7e61d94d-3abe-4956-a559-200eb7907c76",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "b584d5bd-63d0-4dc9-806a-969bc59864d1",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "6b0394e6-8ab6-49e3-8893-0bf9faf2748a",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "b2647421-7373-4d7c-8cab-6cf12e3c43c2",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    }
+  ],
+  "resultados": [
+    {
+      "projectId": "cf6c47eb-7d7b-48cb-ae83-0ef18dc18ebb",
+      "nomeProjeto": "TD-01 - AVCB Túneis - SCI - Km 45+693 - SP-150",
+      "origemProjectWise": {
+        "nome": "TD-01 - AVCB Túneis - SCI - Km 45+693 - SP-150",
+        "id": "368076",
+        "guid": "b3afc110-c294-460c-93e8-17d5bae70379",
+        "connectedProjectId": "cf6c47eb-7d7b-48cb-ae83-0ef18dc18ebb",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "de***@ecovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado",
+        "body": {
+          "members": [
+            {
+              "id": "944b0113-98ec-4408-ad25-3a78189b28e7",
+              "email": "De***@ecovias.com.br",
+              "givenName": "Denise",
+              "surname": "Vallone",
+              "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+              "roles": [
+                {
+                  "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+                  "displayName": "Team Member",
+                  "assignedDateTime": "2026-07-22T13:20:54.7939811Z"
+                }
+              ]
+            }
+          ],
+          "invitations": []
+        }
+      }
+    },
+    {
+      "projectId": "d2223bf5-e378-4777-9d57-fbcabbd6c07f",
+      "nomeProjeto": "TD-01 - AVCB Túneis -SCI - Km 47+383 - SP-160",
+      "origemProjectWise": {
+        "nome": "TD-01 - AVCB Túneis -SCI - Km 47+383 - SP-160",
+        "id": "355770",
+        "guid": "7cd3a9bb-1dd0-4597-a37f-c59d3cda8778",
+        "connectedProjectId": "d2223bf5-e378-4777-9d57-fbcabbd6c07f",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "de***@ecovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado",
+        "body": {
+          "members": [
+            {
+              "id": "944b0113-98ec-4408-ad25-3a78189b28e7",
+              "email": "De***@ecovias.com.br",
+              "givenName": "Denise",
+              "surname": "Vallone",
+              "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+              "roles": [
+                {
+                  "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+                  "displayName": "Team Member",
+                  "assignedDateTime": "2026-07-22T13:20:55.5409597Z"
+                }
+              ]
+            }
+          ],
+          "invitations": []
+        }
+      }
+    },
+    {
+      "projectId": "f08b5745-6aa7-41a2-bcf4-f7eba3f05263",
+      "nomeProjeto": "TD-02 - AVCB Túneis -SCI - Km 46+758 - SP-150",
+      "origemProjectWise": {
+        "nome": "TD-02 - AVCB Túneis -SCI - Km 46+758 - SP-150",
+        "id": "355803",
+        "guid": "3cae3cde-73d5-45f1-83b5-5fa7cd51ee42",
+        "connectedProjectId": "f08b5745-6aa7-41a2-bcf4-f7eba3f05263",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "de***@ecovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado",
+        "body": {
+          "members": [
+            {
+              "id": "944b0113-98ec-4408-ad25-3a78189b28e7",
+              "email": "De***@ecovias.com.br",
+              "givenName": "Denise",
+              "surname": "Vallone",
+              "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+              "roles": [
+                {
+                  "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+                  "displayName": "Team Member",
+                  "assignedDateTime": "2026-07-22T13:20:56.1843575Z"
+                }
+              ]
+            }
+          ],
+          "invitations": []
+        }
+      }
+    },
+    {
+      "projectId": "e066c493-0e3e-4eaf-8b99-0fc946ff7dbc",
+      "nomeProjeto": "Túnel Quilombo - Km 252+980 - SP-055",
+      "origemProjectWise": {
+        "nome": "Túnel Quilombo - Km 252+980 - SP-055",
+        "id": "355869",
+        "guid": "8987796c-91dc-4c60-aedf-39e697f42659",
+        "connectedProjectId": "e066c493-0e3e-4eaf-8b99-0fc946ff7dbc",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "de***@ecovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado",
+        "body": {
+          "members": [
+            {
+              "id": "944b0113-98ec-4408-ad25-3a78189b28e7",
+              "email": "De***@ecovias.com.br",
+              "givenName": "Denise",
+              "surname": "Vallone",
+              "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+              "roles": [
+                {
+                  "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+                  "displayName": "Team Member",
+                  "assignedDateTime": "2026-07-22T13:20:56.7697678Z"
+                }
+              ]
+            }
+          ],
+          "invitations": []
+        }
+      }
+    }
+  ]
+}

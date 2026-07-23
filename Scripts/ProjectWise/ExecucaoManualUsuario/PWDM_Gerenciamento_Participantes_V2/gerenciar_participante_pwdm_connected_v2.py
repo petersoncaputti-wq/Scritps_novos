@@ -17,10 +17,12 @@ from gerenciar_participante_pwdm_v2 import (
     iniciar_navegador,
     buscar_usuario_no_projeto,
     normalizar_permissoes,
+    montar_id_exclusao_participante,
     obter_token_verificacao,
     permissoes_iguais,
     permissoes_usuario_atual,
     preparar_pasta_logs,
+    sanitizar_para_log,
     salvar_log,
     solicitar_acao_usuario,
     solicitar_email,
@@ -37,7 +39,7 @@ from projetos_projectwise_pwdm_v2 import carregar_projetos_selecionados_com_diag
 PASTA_BASE = Path(__file__).resolve().parent
 PASTA_LOGS = PASTA_BASE / "Logs"
 SCRIPT_SELETOR_PROJECTWISE = Path("pw_selecionar_projetos_para_pwdm_v2.ps1")
-ACOES_NAO_APLICAVEIS = {"ignorar_usuario_ausente", "excluir_participante", "erro_consulta_participantes"}
+ACOES_NAO_APLICAVEIS = {"ignorar_usuario_ausente", "erro_consulta_participantes"}
 
 
 def nome_execucao_connected() -> str:
@@ -380,6 +382,12 @@ def confirmar_aplicacao_sn(operacoes: list[dict[str, Any]]) -> bool:
     print(f"- Projetos selecionados: {len(projetos) or len(operacoes)}")
     print(f"- Operacoes planejadas: {len(operacoes)}")
     print(f"- Operacoes aplicaveis: {len(aplicaveis)}")
+    possui_exclusao = any(op.get("acaoEfetiva") == "excluir_participante" for op in aplicaveis)
+    if possui_exclusao:
+        print("- Esta operacao remove participantes dos projetos selecionados.")
+        print("- Para aplicar, digite exatamente: CONFIRMAR EXCLUSAO")
+        return input("Confirmacao: ").strip() == "CONFIRMAR EXCLUSAO"
+
     print("- Responda S para aplicar ou N para cancelar.")
 
     while True:
@@ -476,7 +484,7 @@ def post_json_em_aba(pagina_api, url_tela: str, endpoint: str, payload: dict[str
         detalhe = resultado.get("body")
         if detalhe is None:
             detalhe = str(resultado.get("text") or "").strip()[:500] or "sem corpo de resposta"
-        payload_log = {chave: ("***" if chave.lower() == "email" else valor) for chave, valor in payload.items()}
+        payload_log = sanitizar_para_log(payload)
         raise RuntimeError(
             f"POST falhou em {url_endpoint}: HTTP {resultado['status']} "
             f"{resultado['statusText']} - {detalhe} "
@@ -508,13 +516,18 @@ def aplicar_operacao_em_aba(pagina_api, op: dict[str, Any], email: str) -> dict[
         }
 
     if acao_efetiva == "excluir_participante":
-        return {
-            "status": "nao_implementado",
-            "mensagem": (
-                "Exclusao ainda nao foi automatizada. Precisamos capturar e validar o endpoint "
-                "de remocao antes de aplicar uma acao destrutiva."
-            ),
+        endpoint = endpoint_participantes(connect_space_id, project_id).replace(
+            "UserGroupsAndUsers",
+            "GenericDeleteItems",
+        )
+        payload = {
+            "className": "Participants",
+            "ids": [montar_id_exclusao_participante(membro, email)],
         }
+        resultado = post_json_em_aba(pagina_api, tela, endpoint, payload)
+        if not isinstance(resultado.get("body"), dict) or resultado["body"].get("isCompleted") is not True:
+            raise RuntimeError("PWDM nao confirmou a exclusao do participante (isCompleted != true).")
+        return {"status": "excluido", "resultado": resultado}
 
     if acao_efetiva == "erro_consulta_participantes":
         return {
@@ -814,10 +827,7 @@ def main() -> None:
             acao_usuario = solicitar_acao_usuario()
 
             if acao_usuario == "excluir":
-                print(
-                    "\n[AVISO] A exclusao sera listada na previa, mas ainda nao sera aplicada. "
-                    "Precisamos capturar e validar o endpoint correto antes de remover participantes."
-                )
+                print("\n[AVISO] A exclusao remove participantes diretamente dos projetos selecionados.")
                 titulo = ""
                 permissoes = normalizar_permissoes({chave: False for chave in CHAVES_PERMISSOES})
             else:

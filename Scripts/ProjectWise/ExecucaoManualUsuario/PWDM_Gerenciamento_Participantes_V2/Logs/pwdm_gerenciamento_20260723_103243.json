@@ -1,0 +1,481 @@
+{
+  "timestamp": "2026-07-23T10:32:43",
+  "operacoes": [
+    {
+      "nomeProjeto": "Ciclovia de Linhares - km 138,794 +144,750 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Ciclovia de Linhares - km 138,794 +144,750 - BR101/ES",
+        "id": "244929",
+        "guid": "35e2ef7f-fd6d-4647-b746-33aeb0cc389a",
+        "connectedProjectId": "fb7e0380-e5ad-4201-93a1-f8e0dd7530ad",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "fb7e0380-e5ad-4201-93a1-f8e0dd7530ad",
+      "projectId": "fb7e0380-e5ad-4201-93a1-f8e0dd7530ad",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "it***@novaengevix.com.br"
+    },
+    {
+      "nomeProjeto": "Contorno de Fundão - km 227 + 232 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Contorno de Fundão - km 227 + 232 - BR101/ES",
+        "id": "242586",
+        "guid": "c11fc2f3-edb1-46a8-bbd6-562d8a34f778",
+        "connectedProjectId": "b33b8577-c8b6-4f2a-8636-1cb79fe8e847",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "b33b8577-c8b6-4f2a-8636-1cb79fe8e847",
+      "projectId": "b33b8577-c8b6-4f2a-8636-1cb79fe8e847",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "it***@novaengevix.com.br"
+    },
+    {
+      "nomeProjeto": "Contorno de Ibiraçu - km 212 + 215 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Contorno de Ibiraçu - km 212 + 215 - BR101/ES",
+        "id": "244148",
+        "guid": "bedc1db0-b65c-47a1-bbff-a45fb31ab049",
+        "connectedProjectId": "2972c1b9-4938-4819-88ee-8aa0399e1519",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "2972c1b9-4938-4819-88ee-8aa0399e1519",
+      "projectId": "2972c1b9-4938-4819-88ee-8aa0399e1519",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "it***@novaengevix.com.br"
+    },
+    {
+      "nomeProjeto": "Contorno de Vitória Dispositivo 1 - km 284,710 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Contorno de Vitória Dispositivo 1 - km 284,710 - BR101/ES",
+        "id": "243367",
+        "guid": "c36a4880-8681-4256-85cf-957ef97f1108",
+        "connectedProjectId": "c26b2400-4294-4331-a490-1aeb0a2e325c",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "c26b2400-4294-4331-a490-1aeb0a2e325c",
+      "projectId": "c26b2400-4294-4331-a490-1aeb0a2e325c",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "it***@novaengevix.com.br"
+    },
+    {
+      "nomeProjeto": "Contorno de Vitória Dispositivo 2 - km 287,730 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Contorno de Vitória Dispositivo 2 - km 287,730 - BR101/ES",
+        "id": "332794",
+        "guid": "f4e339b2-264c-4cd8-a455-46ca7715ecfe",
+        "connectedProjectId": "b763c0cf-7622-4a0b-9f0e-ac40e56d8056",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "b763c0cf-7622-4a0b-9f0e-ac40e56d8056",
+      "projectId": "b763c0cf-7622-4a0b-9f0e-ac40e56d8056",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "it***@novaengevix.com.br"
+    },
+    {
+      "nomeProjeto": "Marginais de Vitória - km 278,200 - 291,500 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Marginais de Vitória - km 278,200 - 291,500 - BR101/ES",
+        "id": "247272",
+        "guid": "c14cce9b-0a2a-46db-b1ba-fa612294448d",
+        "connectedProjectId": "a386e50a-e792-49cc-a8f1-c85d8c98a0fb",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "a386e50a-e792-49cc-a8f1-c85d8c98a0fb",
+      "projectId": "a386e50a-e792-49cc-a8f1-c85d8c98a0fb",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "it***@novaengevix.com.br"
+    }
+  ],
+  "resultados": [
+    {
+      "projectId": "fb7e0380-e5ad-4201-93a1-f8e0dd7530ad",
+      "nomeProjeto": "Ciclovia de Linhares - km 138,794 +144,750 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Ciclovia de Linhares - km 138,794 +144,750 - BR101/ES",
+        "id": "244929",
+        "guid": "35e2ef7f-fd6d-4647-b746-33aeb0cc389a",
+        "connectedProjectId": "fb7e0380-e5ad-4201-93a1-f8e0dd7530ad",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "it***@novaengevix.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/fb7e0380-e5ad-4201-93a1-f8e0dd7530ad/ProjectSettings/fb7e0380-e5ad-4201-93a1-f8e0dd7530ad/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/fb7e0380-e5ad-4201-93a1-f8e0dd7530ad/ProjectSettings/fb7e0380-e5ad-4201-93a1-f8e0dd7530ad/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Italo Souza",
+            "email": "it***@novaengevix.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "edfa7a53-359d-4e65-ac5f-566d70e61c23",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "b33b8577-c8b6-4f2a-8636-1cb79fe8e847",
+      "nomeProjeto": "Contorno de Fundão - km 227 + 232 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Contorno de Fundão - km 227 + 232 - BR101/ES",
+        "id": "242586",
+        "guid": "c11fc2f3-edb1-46a8-bbd6-562d8a34f778",
+        "connectedProjectId": "b33b8577-c8b6-4f2a-8636-1cb79fe8e847",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "it***@novaengevix.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/b33b8577-c8b6-4f2a-8636-1cb79fe8e847/ProjectSettings/b33b8577-c8b6-4f2a-8636-1cb79fe8e847/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/b33b8577-c8b6-4f2a-8636-1cb79fe8e847/ProjectSettings/b33b8577-c8b6-4f2a-8636-1cb79fe8e847/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Italo Souza",
+            "email": "it***@novaengevix.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "4570e2df-7d00-4a28-bbab-1484c9b840ca",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "2972c1b9-4938-4819-88ee-8aa0399e1519",
+      "nomeProjeto": "Contorno de Ibiraçu - km 212 + 215 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Contorno de Ibiraçu - km 212 + 215 - BR101/ES",
+        "id": "244148",
+        "guid": "bedc1db0-b65c-47a1-bbff-a45fb31ab049",
+        "connectedProjectId": "2972c1b9-4938-4819-88ee-8aa0399e1519",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "it***@novaengevix.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/2972c1b9-4938-4819-88ee-8aa0399e1519/ProjectSettings/2972c1b9-4938-4819-88ee-8aa0399e1519/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/2972c1b9-4938-4819-88ee-8aa0399e1519/ProjectSettings/2972c1b9-4938-4819-88ee-8aa0399e1519/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Italo Souza",
+            "email": "it***@novaengevix.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "29104eb6-2909-4abb-a9a4-e919c10bcb32",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "c26b2400-4294-4331-a490-1aeb0a2e325c",
+      "nomeProjeto": "Contorno de Vitória Dispositivo 1 - km 284,710 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Contorno de Vitória Dispositivo 1 - km 284,710 - BR101/ES",
+        "id": "243367",
+        "guid": "c36a4880-8681-4256-85cf-957ef97f1108",
+        "connectedProjectId": "c26b2400-4294-4331-a490-1aeb0a2e325c",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "it***@novaengevix.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/c26b2400-4294-4331-a490-1aeb0a2e325c/ProjectSettings/c26b2400-4294-4331-a490-1aeb0a2e325c/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/c26b2400-4294-4331-a490-1aeb0a2e325c/ProjectSettings/c26b2400-4294-4331-a490-1aeb0a2e325c/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Italo Souza",
+            "email": "it***@novaengevix.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "44a0596c-f03e-449d-802f-7e65bc22d757",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "b763c0cf-7622-4a0b-9f0e-ac40e56d8056",
+      "nomeProjeto": "Contorno de Vitória Dispositivo 2 - km 287,730 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Contorno de Vitória Dispositivo 2 - km 287,730 - BR101/ES",
+        "id": "332794",
+        "guid": "f4e339b2-264c-4cd8-a455-46ca7715ecfe",
+        "connectedProjectId": "b763c0cf-7622-4a0b-9f0e-ac40e56d8056",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "it***@novaengevix.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/b763c0cf-7622-4a0b-9f0e-ac40e56d8056/ProjectSettings/b763c0cf-7622-4a0b-9f0e-ac40e56d8056/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/b763c0cf-7622-4a0b-9f0e-ac40e56d8056/ProjectSettings/b763c0cf-7622-4a0b-9f0e-ac40e56d8056/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Italo Souza",
+            "email": "it***@novaengevix.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "32235ba8-448e-4708-97da-bd8d76fcc907",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "a386e50a-e792-49cc-a8f1-c85d8c98a0fb",
+      "nomeProjeto": "Marginais de Vitória - km 278,200 - 291,500 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Marginais de Vitória - km 278,200 - 291,500 - BR101/ES",
+        "id": "247272",
+        "guid": "c14cce9b-0a2a-46db-b1ba-fa612294448d",
+        "connectedProjectId": "a386e50a-e792-49cc-a8f1-c85d8c98a0fb",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "it***@novaengevix.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/a386e50a-e792-49cc-a8f1-c85d8c98a0fb/ProjectSettings/a386e50a-e792-49cc-a8f1-c85d8c98a0fb/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/a386e50a-e792-49cc-a8f1-c85d8c98a0fb/ProjectSettings/a386e50a-e792-49cc-a8f1-c85d8c98a0fb/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Italo Souza",
+            "email": "it***@novaengevix.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "b4ab14f8-ab30-4ccc-92e0-e4396b6d6ba4",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    }
+  ]
+}
