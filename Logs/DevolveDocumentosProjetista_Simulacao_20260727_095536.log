@@ -1,0 +1,61 @@
+﻿**********************
+Início da transcrição do Windows PowerShell
+Hora de início: 20260727095536
+Nome de Usuário: CAPUTTI_TECH\peter
+Executar como Usuário: CAPUTTI_TECH\peter
+Nome da Configuração: 
+Computador: CAPUTTI_TECH (Microsoft Windows NT 10.0.26200.0)
+Aplicativo Host: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\peter\AppData\Local\Programs\Microsoft VS Code\1b6a188127\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+ID do Processo: 12652
+PSVersion: 5.1.26100.8894
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8894
+BuildVersion: 10.0.26100.8894
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+[2026-07-27 09:55:36.941] [INFO] Início da simulação. Nenhuma operação de gravação será executada.
+[2026-07-27 09:55:36.945] [INFO] Datasource: 01SSRV305.ECSC.ECORODOVIAS.CORP:ecorodovias-pw-01
+[2026-07-27 09:55:36.946] [INFO] Usuário: admin
+[2026-07-27 09:55:36.946] [INFO] Pesquisa: Scripts\Docs_projetista
+[2026-07-27 09:55:36.948] [INFO] Limite local: 50 documento(s)
+[2026-07-27 09:55:36.948] [INFO] Arquivo de log: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Logs\DevolveDocumentosProjetista_Simulacao_20260727_095536.log
+[2026-07-27 09:55:36.950] [INFO] Iniciando login lógico no ProjectWise.
+[2026-07-27 09:55:43.321] [INFO] Login no ProjectWise concluído.
+[2026-07-27 09:55:43.324] [INFO] Iniciando consulta da pesquisa 'Scripts\Docs_projetista'.
+[2026-07-27 09:56:46.931] [ERRO] Exceção ao chamar "ToString" com "1" argumento(s): "A cadeia de caracteres de entrada não estava em um formato correto."
+[2026-07-27 09:56:46.949] [ERRO] 
+
+PSMessageDetails      : 
+Exception             : System.Management.Automation.MethodInvocationException: Exceção ao chamar "ToString" com "1" argumento(s): 
+                        "A cadeia de caracteres de entrada não estava em um formato correto." ---> System.FormatException: A cadeia 
+                        de caracteres de entrada não estava em um formato correto.
+                           em System.Globalization.TimeSpanFormat.FormatCustomized(TimeSpan value, String format, 
+                        DateTimeFormatInfo dtfi)
+                           em System.Globalization.TimeSpanFormat.Format(TimeSpan value, String format, IFormatProvider 
+                        formatProvider)
+                           em CallSite.Target(Closure , CallSite , Object , String )
+                           --- Fim do rastreamento de pilha de exceções internas ---
+                           em System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, 
+                        Exception exception)
+                           em System.Management.Automation.Interpreter.ActionCallInstruction`2.Run(InterpretedFrame frame)
+                           em System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+                           em System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+TargetObject          : 
+CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+FullyQualifiedErrorId : FormatException
+ErrorDetails          : 
+InvocationInfo        : System.Management.Automation.InvocationInfo
+ScriptStackTrace      : em <ScriptBlock>, C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de 
+                        Trabalho\Scritps_novos\DevolveDocumentosProjetista.Simulacao.ps1: linha 180
+                        em <ScriptBlock>, <Nenhum arquivo>: linha 1
+PipelineIterationInfo : {}
+[2026-07-27 09:56:46.950] [INFO] Encerrando login no ProjectWise.
+[2026-07-27 09:56:47.026] [INFO] Logout concluído.
+[2026-07-27 09:56:47.026] [INFO] Fim da execução. Log: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Logs\DevolveDocumentosProjetista_Simulacao_20260727_095536.log
+**********************
+Fim da transcrição do Windows PowerShell
+Hora de término: 20260727095647
+**********************

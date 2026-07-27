@@ -1,0 +1,1303 @@
+{
+  "timestamp": "2026-07-23T16:47:32",
+  "operacoes": [
+    {
+      "email": "ar***@ecorodovias.com.br;",
+      "linhaPlanilha": 2,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Acostamentos do SH8 - km 002 - 043 - LMG-754",
+      "origemProjectWise": {
+        "nome": "Acostamentos do SH8 - km 002 - 043 - LMG-754",
+        "id": "56668",
+        "guid": "cbfbf3a7-a85f-4169-956f-dafc03b6ffc3",
+        "connectedProjectId": "37a9de6b-acb9-4865-932b-9dccabbf088d",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "37a9de6b-acb9-4865-932b-9dccabbf088d",
+      "projectId": "37a9de6b-acb9-4865-932b-9dccabbf088d",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "37a9de6b-acb9-4865-932b-9dccabbf088d"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "0dde393a-83cc-4ad7-9507-aedb0fa2ff4a",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "1befeecd-2f65-4d80-9aa7-4622afd43f4f",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "f04263b1-543b-4919-a002-936fa530c6b1",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "e9df4fe2-8330-456e-9c33-395be8aa4c10",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ar***@ecorodovias.com.br;",
+      "linhaPlanilha": 2,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Contorno de Montes Claros - Trecho D - (km á definir)",
+      "origemProjectWise": {
+        "nome": "Contorno de Montes Claros - Trecho D - (km á definir)",
+        "id": "349667",
+        "guid": "198d3a41-5654-4f9b-9e08-d8532175f812",
+        "connectedProjectId": "1548950c-a812-45cd-8fb2-23e67a15e16d",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "1548950c-a812-45cd-8fb2-23e67a15e16d",
+      "projectId": "1548950c-a812-45cd-8fb2-23e67a15e16d",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "1548950c-a812-45cd-8fb2-23e67a15e16d"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "fd7f6d21-4a1d-4ab6-ade9-cbe8a50c3544",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "20955e61-b40b-41e2-b4e4-c06866136304",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "bfec6be8-0bde-47ca-9f7a-a906bada0426",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "0de51116-1523-4f8c-9b4a-3d989c0c223a",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ar***@ecorodovias.com.br;",
+      "linhaPlanilha": 2,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Faixas Adicionais SH 4 - km 473+870 - 473+310 - BR135/MG",
+      "origemProjectWise": {
+        "nome": "Faixas Adicionais SH 4 - km 473+870 - 473+310 - BR135/MG",
+        "id": "354473",
+        "guid": "81eb50d2-794d-47db-9293-0dc82aad312c",
+        "connectedProjectId": "d37b0639-cef1-483e-a8c9-bdc73e7ce11e",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "d37b0639-cef1-483e-a8c9-bdc73e7ce11e",
+      "projectId": "d37b0639-cef1-483e-a8c9-bdc73e7ce11e",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "erro_preparacao_rbac",
+      "status": "erro_preparacao_rbac",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "erro": "Buscar roles do iTwin d37b0639-cef1-483e-a8c9-bdc73e7ce11e: HTTP 404  - {'error': {'code': 'ItwinNotFound', 'message': 'Requested iTwin is not available.'}}"
+    },
+    {
+      "email": "ar***@ecorodovias.com.br;",
+      "linhaPlanilha": 2,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Faixas Adicionais SH 5 - km 427+300 - 427+900 - BR135/MG",
+      "origemProjectWise": {
+        "nome": "Faixas Adicionais SH 5 - km 427+300 - 427+900 - BR135/MG",
+        "id": "354509",
+        "guid": "a03ed348-1870-4bc1-85d1-ba63998be182",
+        "connectedProjectId": "382e5b41-5005-46d7-88a4-f94fae8b970f",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "382e5b41-5005-46d7-88a4-f94fae8b970f",
+      "projectId": "382e5b41-5005-46d7-88a4-f94fae8b970f",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "erro_preparacao_rbac",
+      "status": "erro_preparacao_rbac",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "erro": "Buscar roles do iTwin 382e5b41-5005-46d7-88a4-f94fae8b970f: HTTP 404  - {'error': {'code': 'ItwinNotFound', 'message': 'Requested iTwin is not available.'}}"
+    },
+    {
+      "email": "ar***@ecorodovias.com.br;",
+      "linhaPlanilha": 2,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Retorno Operacional -  km 386+387 - BR135/MG",
+      "origemProjectWise": {
+        "nome": "Retorno Operacional -  km 386+387 - BR135/MG",
+        "id": "172831",
+        "guid": "cf157a75-3036-4a0a-8dfe-9e8c716db8ab",
+        "connectedProjectId": "4b098581-0648-4f58-9616-faca39194654",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "4b098581-0648-4f58-9616-faca39194654",
+      "projectId": "4b098581-0648-4f58-9616-faca39194654",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "erro_preparacao_rbac",
+      "status": "erro_preparacao_rbac",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "erro": "Buscar roles do iTwin 4b098581-0648-4f58-9616-faca39194654: HTTP 404  - {'error': {'code': 'ItwinNotFound', 'message': 'Requested iTwin is not available.'}}"
+    },
+    {
+      "email": "be***@ecorodovias.com.br;",
+      "linhaPlanilha": 3,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Acostamentos do SH8 - km 002 - 043 - LMG-754",
+      "origemProjectWise": {
+        "nome": "Acostamentos do SH8 - km 002 - 043 - LMG-754",
+        "id": "56668",
+        "guid": "cbfbf3a7-a85f-4169-956f-dafc03b6ffc3",
+        "connectedProjectId": "37a9de6b-acb9-4865-932b-9dccabbf088d",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "37a9de6b-acb9-4865-932b-9dccabbf088d",
+      "projectId": "37a9de6b-acb9-4865-932b-9dccabbf088d",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "37a9de6b-acb9-4865-932b-9dccabbf088d"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "0dde393a-83cc-4ad7-9507-aedb0fa2ff4a",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "1befeecd-2f65-4d80-9aa7-4622afd43f4f",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "f04263b1-543b-4919-a002-936fa530c6b1",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "e9df4fe2-8330-456e-9c33-395be8aa4c10",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "be***@ecorodovias.com.br;",
+      "linhaPlanilha": 3,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Contorno de Montes Claros - Trecho D - (km á definir)",
+      "origemProjectWise": {
+        "nome": "Contorno de Montes Claros - Trecho D - (km á definir)",
+        "id": "349667",
+        "guid": "198d3a41-5654-4f9b-9e08-d8532175f812",
+        "connectedProjectId": "1548950c-a812-45cd-8fb2-23e67a15e16d",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "1548950c-a812-45cd-8fb2-23e67a15e16d",
+      "projectId": "1548950c-a812-45cd-8fb2-23e67a15e16d",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "1548950c-a812-45cd-8fb2-23e67a15e16d"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "fd7f6d21-4a1d-4ab6-ade9-cbe8a50c3544",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "20955e61-b40b-41e2-b4e4-c06866136304",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "bfec6be8-0bde-47ca-9f7a-a906bada0426",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "0de51116-1523-4f8c-9b4a-3d989c0c223a",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "be***@ecorodovias.com.br;",
+      "linhaPlanilha": 3,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Faixas Adicionais SH 4 - km 473+870 - 473+310 - BR135/MG",
+      "origemProjectWise": {
+        "nome": "Faixas Adicionais SH 4 - km 473+870 - 473+310 - BR135/MG",
+        "id": "354473",
+        "guid": "81eb50d2-794d-47db-9293-0dc82aad312c",
+        "connectedProjectId": "d37b0639-cef1-483e-a8c9-bdc73e7ce11e",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "d37b0639-cef1-483e-a8c9-bdc73e7ce11e",
+      "projectId": "d37b0639-cef1-483e-a8c9-bdc73e7ce11e",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "erro_preparacao_rbac",
+      "status": "erro_preparacao_rbac",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "erro": "Buscar roles do iTwin d37b0639-cef1-483e-a8c9-bdc73e7ce11e: HTTP 404  - {'error': {'code': 'ItwinNotFound', 'message': 'Requested iTwin is not available.'}}"
+    },
+    {
+      "email": "be***@ecorodovias.com.br;",
+      "linhaPlanilha": 3,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Faixas Adicionais SH 5 - km 427+300 - 427+900 - BR135/MG",
+      "origemProjectWise": {
+        "nome": "Faixas Adicionais SH 5 - km 427+300 - 427+900 - BR135/MG",
+        "id": "354509",
+        "guid": "a03ed348-1870-4bc1-85d1-ba63998be182",
+        "connectedProjectId": "382e5b41-5005-46d7-88a4-f94fae8b970f",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "382e5b41-5005-46d7-88a4-f94fae8b970f",
+      "projectId": "382e5b41-5005-46d7-88a4-f94fae8b970f",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "erro_preparacao_rbac",
+      "status": "erro_preparacao_rbac",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "erro": "Buscar roles do iTwin 382e5b41-5005-46d7-88a4-f94fae8b970f: HTTP 404  - {'error': {'code': 'ItwinNotFound', 'message': 'Requested iTwin is not available.'}}"
+    },
+    {
+      "email": "be***@ecorodovias.com.br;",
+      "linhaPlanilha": 3,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Retorno Operacional -  km 386+387 - BR135/MG",
+      "origemProjectWise": {
+        "nome": "Retorno Operacional -  km 386+387 - BR135/MG",
+        "id": "172831",
+        "guid": "cf157a75-3036-4a0a-8dfe-9e8c716db8ab",
+        "connectedProjectId": "4b098581-0648-4f58-9616-faca39194654",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "4b098581-0648-4f58-9616-faca39194654",
+      "projectId": "4b098581-0648-4f58-9616-faca39194654",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "erro_preparacao_rbac",
+      "status": "erro_preparacao_rbac",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "erro": "Buscar roles do iTwin 4b098581-0648-4f58-9616-faca39194654: HTTP 404  - {'error': {'code': 'ItwinNotFound', 'message': 'Requested iTwin is not available.'}}"
+    },
+    {
+      "email": "br***@ecorodovias.com.br;",
+      "linhaPlanilha": 4,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Acostamentos do SH8 - km 002 - 043 - LMG-754",
+      "origemProjectWise": {
+        "nome": "Acostamentos do SH8 - km 002 - 043 - LMG-754",
+        "id": "56668",
+        "guid": "cbfbf3a7-a85f-4169-956f-dafc03b6ffc3",
+        "connectedProjectId": "37a9de6b-acb9-4865-932b-9dccabbf088d",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "37a9de6b-acb9-4865-932b-9dccabbf088d",
+      "projectId": "37a9de6b-acb9-4865-932b-9dccabbf088d",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "37a9de6b-acb9-4865-932b-9dccabbf088d"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "0dde393a-83cc-4ad7-9507-aedb0fa2ff4a",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "1befeecd-2f65-4d80-9aa7-4622afd43f4f",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "f04263b1-543b-4919-a002-936fa530c6b1",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "e9df4fe2-8330-456e-9c33-395be8aa4c10",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "br***@ecorodovias.com.br;",
+      "linhaPlanilha": 4,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Contorno de Montes Claros - Trecho D - (km á definir)",
+      "origemProjectWise": {
+        "nome": "Contorno de Montes Claros - Trecho D - (km á definir)",
+        "id": "349667",
+        "guid": "198d3a41-5654-4f9b-9e08-d8532175f812",
+        "connectedProjectId": "1548950c-a812-45cd-8fb2-23e67a15e16d",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "1548950c-a812-45cd-8fb2-23e67a15e16d",
+      "projectId": "1548950c-a812-45cd-8fb2-23e67a15e16d",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "1548950c-a812-45cd-8fb2-23e67a15e16d"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "fd7f6d21-4a1d-4ab6-ade9-cbe8a50c3544",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "20955e61-b40b-41e2-b4e4-c06866136304",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "bfec6be8-0bde-47ca-9f7a-a906bada0426",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "0de51116-1523-4f8c-9b4a-3d989c0c223a",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "br***@ecorodovias.com.br;",
+      "linhaPlanilha": 4,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Faixas Adicionais SH 4 - km 473+870 - 473+310 - BR135/MG",
+      "origemProjectWise": {
+        "nome": "Faixas Adicionais SH 4 - km 473+870 - 473+310 - BR135/MG",
+        "id": "354473",
+        "guid": "81eb50d2-794d-47db-9293-0dc82aad312c",
+        "connectedProjectId": "d37b0639-cef1-483e-a8c9-bdc73e7ce11e",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "d37b0639-cef1-483e-a8c9-bdc73e7ce11e",
+      "projectId": "d37b0639-cef1-483e-a8c9-bdc73e7ce11e",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "erro_preparacao_rbac",
+      "status": "erro_preparacao_rbac",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "erro": "Buscar roles do iTwin d37b0639-cef1-483e-a8c9-bdc73e7ce11e: HTTP 404  - {'error': {'code': 'ItwinNotFound', 'message': 'Requested iTwin is not available.'}}"
+    },
+    {
+      "email": "br***@ecorodovias.com.br;",
+      "linhaPlanilha": 4,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Faixas Adicionais SH 5 - km 427+300 - 427+900 - BR135/MG",
+      "origemProjectWise": {
+        "nome": "Faixas Adicionais SH 5 - km 427+300 - 427+900 - BR135/MG",
+        "id": "354509",
+        "guid": "a03ed348-1870-4bc1-85d1-ba63998be182",
+        "connectedProjectId": "382e5b41-5005-46d7-88a4-f94fae8b970f",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "382e5b41-5005-46d7-88a4-f94fae8b970f",
+      "projectId": "382e5b41-5005-46d7-88a4-f94fae8b970f",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "erro_preparacao_rbac",
+      "status": "erro_preparacao_rbac",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "erro": "Buscar roles do iTwin 382e5b41-5005-46d7-88a4-f94fae8b970f: HTTP 404  - {'error': {'code': 'ItwinNotFound', 'message': 'Requested iTwin is not available.'}}"
+    },
+    {
+      "email": "br***@ecorodovias.com.br;",
+      "linhaPlanilha": 4,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Retorno Operacional -  km 386+387 - BR135/MG",
+      "origemProjectWise": {
+        "nome": "Retorno Operacional -  km 386+387 - BR135/MG",
+        "id": "172831",
+        "guid": "cf157a75-3036-4a0a-8dfe-9e8c716db8ab",
+        "connectedProjectId": "4b098581-0648-4f58-9616-faca39194654",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "4b098581-0648-4f58-9616-faca39194654",
+      "projectId": "4b098581-0648-4f58-9616-faca39194654",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "erro_preparacao_rbac",
+      "status": "erro_preparacao_rbac",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "erro": "Buscar roles do iTwin 4b098581-0648-4f58-9616-faca39194654: HTTP 404  - {'error': {'code': 'ItwinNotFound', 'message': 'Requested iTwin is not available.'}}"
+    },
+    {
+      "email": "ma***@ecorodovias.com.br;",
+      "linhaPlanilha": 5,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Acostamentos do SH8 - km 002 - 043 - LMG-754",
+      "origemProjectWise": {
+        "nome": "Acostamentos do SH8 - km 002 - 043 - LMG-754",
+        "id": "56668",
+        "guid": "cbfbf3a7-a85f-4169-956f-dafc03b6ffc3",
+        "connectedProjectId": "37a9de6b-acb9-4865-932b-9dccabbf088d",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "37a9de6b-acb9-4865-932b-9dccabbf088d",
+      "projectId": "37a9de6b-acb9-4865-932b-9dccabbf088d",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "37a9de6b-acb9-4865-932b-9dccabbf088d"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "0dde393a-83cc-4ad7-9507-aedb0fa2ff4a",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "1befeecd-2f65-4d80-9aa7-4622afd43f4f",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "f04263b1-543b-4919-a002-936fa530c6b1",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "e9df4fe2-8330-456e-9c33-395be8aa4c10",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ma***@ecorodovias.com.br;",
+      "linhaPlanilha": 5,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Contorno de Montes Claros - Trecho D - (km á definir)",
+      "origemProjectWise": {
+        "nome": "Contorno de Montes Claros - Trecho D - (km á definir)",
+        "id": "349667",
+        "guid": "198d3a41-5654-4f9b-9e08-d8532175f812",
+        "connectedProjectId": "1548950c-a812-45cd-8fb2-23e67a15e16d",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "1548950c-a812-45cd-8fb2-23e67a15e16d",
+      "projectId": "1548950c-a812-45cd-8fb2-23e67a15e16d",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "1548950c-a812-45cd-8fb2-23e67a15e16d"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "fd7f6d21-4a1d-4ab6-ade9-cbe8a50c3544",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "20955e61-b40b-41e2-b4e4-c06866136304",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "bfec6be8-0bde-47ca-9f7a-a906bada0426",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "0de51116-1523-4f8c-9b4a-3d989c0c223a",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "ma***@ecorodovias.com.br;",
+      "linhaPlanilha": 5,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Faixas Adicionais SH 4 - km 473+870 - 473+310 - BR135/MG",
+      "origemProjectWise": {
+        "nome": "Faixas Adicionais SH 4 - km 473+870 - 473+310 - BR135/MG",
+        "id": "354473",
+        "guid": "81eb50d2-794d-47db-9293-0dc82aad312c",
+        "connectedProjectId": "d37b0639-cef1-483e-a8c9-bdc73e7ce11e",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "d37b0639-cef1-483e-a8c9-bdc73e7ce11e",
+      "projectId": "d37b0639-cef1-483e-a8c9-bdc73e7ce11e",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "erro_preparacao_rbac",
+      "status": "erro_preparacao_rbac",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "erro": "Buscar roles do iTwin d37b0639-cef1-483e-a8c9-bdc73e7ce11e: HTTP 404  - {'error': {'code': 'ItwinNotFound', 'message': 'Requested iTwin is not available.'}}"
+    },
+    {
+      "email": "ma***@ecorodovias.com.br;",
+      "linhaPlanilha": 5,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Faixas Adicionais SH 5 - km 427+300 - 427+900 - BR135/MG",
+      "origemProjectWise": {
+        "nome": "Faixas Adicionais SH 5 - km 427+300 - 427+900 - BR135/MG",
+        "id": "354509",
+        "guid": "a03ed348-1870-4bc1-85d1-ba63998be182",
+        "connectedProjectId": "382e5b41-5005-46d7-88a4-f94fae8b970f",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "382e5b41-5005-46d7-88a4-f94fae8b970f",
+      "projectId": "382e5b41-5005-46d7-88a4-f94fae8b970f",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "erro_preparacao_rbac",
+      "status": "erro_preparacao_rbac",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "erro": "Buscar roles do iTwin 382e5b41-5005-46d7-88a4-f94fae8b970f: HTTP 404  - {'error': {'code': 'ItwinNotFound', 'message': 'Requested iTwin is not available.'}}"
+    },
+    {
+      "email": "ma***@ecorodovias.com.br;",
+      "linhaPlanilha": 5,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Retorno Operacional -  km 386+387 - BR135/MG",
+      "origemProjectWise": {
+        "nome": "Retorno Operacional -  km 386+387 - BR135/MG",
+        "id": "172831",
+        "guid": "cf157a75-3036-4a0a-8dfe-9e8c716db8ab",
+        "connectedProjectId": "4b098581-0648-4f58-9616-faca39194654",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "4b098581-0648-4f58-9616-faca39194654",
+      "projectId": "4b098581-0648-4f58-9616-faca39194654",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "erro_preparacao_rbac",
+      "status": "erro_preparacao_rbac",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "erro": "Buscar roles do iTwin 4b098581-0648-4f58-9616-faca39194654: HTTP 404  - {'error': {'code': 'ItwinNotFound', 'message': 'Requested iTwin is not available.'}}"
+    }
+  ],
+  "resultados": [
+    {
+      "projectId": "37a9de6b-acb9-4865-932b-9dccabbf088d",
+      "nomeProjeto": "Acostamentos do SH8 - km 002 - 043 - LMG-754",
+      "origemProjectWise": {
+        "nome": "Acostamentos do SH8 - km 002 - 043 - LMG-754",
+        "id": "56668",
+        "guid": "cbfbf3a7-a85f-4169-956f-dafc03b6ffc3",
+        "connectedProjectId": "37a9de6b-acb9-4865-932b-9dccabbf088d",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ar***@ecorodovias.com.br;",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "erro",
+        "erro": "Adicionar usuario ar***@ecorodovias.com.br; em 37a9de6b-acb9-4865-932b-9dccabbf088d: HTTP 422  - {'error': {'code': 'InvalidiTwinsMemberRequest', 'message': 'Request body or query is invalid.', 'details': [{'code': 'MissingRequiredProperty', 'message': 'Required property is missing.', 'target': 'members[0].email'}]}}"
+      }
+    },
+    {
+      "projectId": "1548950c-a812-45cd-8fb2-23e67a15e16d",
+      "nomeProjeto": "Contorno de Montes Claros - Trecho D - (km á definir)",
+      "origemProjectWise": {
+        "nome": "Contorno de Montes Claros - Trecho D - (km á definir)",
+        "id": "349667",
+        "guid": "198d3a41-5654-4f9b-9e08-d8532175f812",
+        "connectedProjectId": "1548950c-a812-45cd-8fb2-23e67a15e16d",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ar***@ecorodovias.com.br;",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "erro",
+        "erro": "Adicionar usuario ar***@ecorodovias.com.br; em 1548950c-a812-45cd-8fb2-23e67a15e16d: HTTP 422  - {'error': {'code': 'InvalidiTwinsMemberRequest', 'message': 'Request body or query is invalid.', 'details': [{'code': 'MissingRequiredProperty', 'message': 'Required property is missing.', 'target': 'members[0].email'}]}}"
+      }
+    },
+    {
+      "projectId": "d37b0639-cef1-483e-a8c9-bdc73e7ce11e",
+      "nomeProjeto": "Faixas Adicionais SH 4 - km 473+870 - 473+310 - BR135/MG",
+      "origemProjectWise": {
+        "nome": "Faixas Adicionais SH 4 - km 473+870 - 473+310 - BR135/MG",
+        "id": "354473",
+        "guid": "81eb50d2-794d-47db-9293-0dc82aad312c",
+        "connectedProjectId": "d37b0639-cef1-483e-a8c9-bdc73e7ce11e",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ar***@ecorodovias.com.br;",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "erro_preparacao_rbac",
+      "situacao_usuario": "erro_preparacao_rbac",
+      "resultado": {
+        "status": "ignorado_erro_preparacao",
+        "mensagem": "Buscar roles do iTwin d37b0639-cef1-483e-a8c9-bdc73e7ce11e: HTTP 404  - {'error': {'code': 'ItwinNotFound', 'message': 'Requested iTwin is not available.'}}"
+      }
+    },
+    {
+      "projectId": "382e5b41-5005-46d7-88a4-f94fae8b970f",
+      "nomeProjeto": "Faixas Adicionais SH 5 - km 427+300 - 427+900 - BR135/MG",
+      "origemProjectWise": {
+        "nome": "Faixas Adicionais SH 5 - km 427+300 - 427+900 - BR135/MG",
+        "id": "354509",
+        "guid": "a03ed348-1870-4bc1-85d1-ba63998be182",
+        "connectedProjectId": "382e5b41-5005-46d7-88a4-f94fae8b970f",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ar***@ecorodovias.com.br;",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "erro_preparacao_rbac",
+      "situacao_usuario": "erro_preparacao_rbac",
+      "resultado": {
+        "status": "ignorado_erro_preparacao",
+        "mensagem": "Buscar roles do iTwin 382e5b41-5005-46d7-88a4-f94fae8b970f: HTTP 404  - {'error': {'code': 'ItwinNotFound', 'message': 'Requested iTwin is not available.'}}"
+      }
+    },
+    {
+      "projectId": "4b098581-0648-4f58-9616-faca39194654",
+      "nomeProjeto": "Retorno Operacional -  km 386+387 - BR135/MG",
+      "origemProjectWise": {
+        "nome": "Retorno Operacional -  km 386+387 - BR135/MG",
+        "id": "172831",
+        "guid": "cf157a75-3036-4a0a-8dfe-9e8c716db8ab",
+        "connectedProjectId": "4b098581-0648-4f58-9616-faca39194654",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ar***@ecorodovias.com.br;",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "erro_preparacao_rbac",
+      "situacao_usuario": "erro_preparacao_rbac",
+      "resultado": {
+        "status": "ignorado_erro_preparacao",
+        "mensagem": "Buscar roles do iTwin 4b098581-0648-4f58-9616-faca39194654: HTTP 404  - {'error': {'code': 'ItwinNotFound', 'message': 'Requested iTwin is not available.'}}"
+      }
+    },
+    {
+      "projectId": "37a9de6b-acb9-4865-932b-9dccabbf088d",
+      "nomeProjeto": "Acostamentos do SH8 - km 002 - 043 - LMG-754",
+      "origemProjectWise": {
+        "nome": "Acostamentos do SH8 - km 002 - 043 - LMG-754",
+        "id": "56668",
+        "guid": "cbfbf3a7-a85f-4169-956f-dafc03b6ffc3",
+        "connectedProjectId": "37a9de6b-acb9-4865-932b-9dccabbf088d",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "be***@ecorodovias.com.br;",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "erro",
+        "erro": "Adicionar usuario be***@ecorodovias.com.br; em 37a9de6b-acb9-4865-932b-9dccabbf088d: HTTP 422  - {'error': {'code': 'InvalidiTwinsMemberRequest', 'message': 'Request body or query is invalid.', 'details': [{'code': 'MissingRequiredProperty', 'message': 'Required property is missing.', 'target': 'members[0].email'}]}}"
+      }
+    },
+    {
+      "projectId": "1548950c-a812-45cd-8fb2-23e67a15e16d",
+      "nomeProjeto": "Contorno de Montes Claros - Trecho D - (km á definir)",
+      "origemProjectWise": {
+        "nome": "Contorno de Montes Claros - Trecho D - (km á definir)",
+        "id": "349667",
+        "guid": "198d3a41-5654-4f9b-9e08-d8532175f812",
+        "connectedProjectId": "1548950c-a812-45cd-8fb2-23e67a15e16d",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "be***@ecorodovias.com.br;",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "erro",
+        "erro": "Adicionar usuario be***@ecorodovias.com.br; em 1548950c-a812-45cd-8fb2-23e67a15e16d: HTTP 422  - {'error': {'code': 'InvalidiTwinsMemberRequest', 'message': 'Request body or query is invalid.', 'details': [{'code': 'MissingRequiredProperty', 'message': 'Required property is missing.', 'target': 'members[0].email'}]}}"
+      }
+    },
+    {
+      "projectId": "d37b0639-cef1-483e-a8c9-bdc73e7ce11e",
+      "nomeProjeto": "Faixas Adicionais SH 4 - km 473+870 - 473+310 - BR135/MG",
+      "origemProjectWise": {
+        "nome": "Faixas Adicionais SH 4 - km 473+870 - 473+310 - BR135/MG",
+        "id": "354473",
+        "guid": "81eb50d2-794d-47db-9293-0dc82aad312c",
+        "connectedProjectId": "d37b0639-cef1-483e-a8c9-bdc73e7ce11e",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "be***@ecorodovias.com.br;",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "erro_preparacao_rbac",
+      "situacao_usuario": "erro_preparacao_rbac",
+      "resultado": {
+        "status": "ignorado_erro_preparacao",
+        "mensagem": "Buscar roles do iTwin d37b0639-cef1-483e-a8c9-bdc73e7ce11e: HTTP 404  - {'error': {'code': 'ItwinNotFound', 'message': 'Requested iTwin is not available.'}}"
+      }
+    },
+    {
+      "projectId": "382e5b41-5005-46d7-88a4-f94fae8b970f",
+      "nomeProjeto": "Faixas Adicionais SH 5 - km 427+300 - 427+900 - BR135/MG",
+      "origemProjectWise": {
+        "nome": "Faixas Adicionais SH 5 - km 427+300 - 427+900 - BR135/MG",
+        "id": "354509",
+        "guid": "a03ed348-1870-4bc1-85d1-ba63998be182",
+        "connectedProjectId": "382e5b41-5005-46d7-88a4-f94fae8b970f",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "be***@ecorodovias.com.br;",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "erro_preparacao_rbac",
+      "situacao_usuario": "erro_preparacao_rbac",
+      "resultado": {
+        "status": "ignorado_erro_preparacao",
+        "mensagem": "Buscar roles do iTwin 382e5b41-5005-46d7-88a4-f94fae8b970f: HTTP 404  - {'error': {'code': 'ItwinNotFound', 'message': 'Requested iTwin is not available.'}}"
+      }
+    },
+    {
+      "projectId": "4b098581-0648-4f58-9616-faca39194654",
+      "nomeProjeto": "Retorno Operacional -  km 386+387 - BR135/MG",
+      "origemProjectWise": {
+        "nome": "Retorno Operacional -  km 386+387 - BR135/MG",
+        "id": "172831",
+        "guid": "cf157a75-3036-4a0a-8dfe-9e8c716db8ab",
+        "connectedProjectId": "4b098581-0648-4f58-9616-faca39194654",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "be***@ecorodovias.com.br;",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "erro_preparacao_rbac",
+      "situacao_usuario": "erro_preparacao_rbac",
+      "resultado": {
+        "status": "ignorado_erro_preparacao",
+        "mensagem": "Buscar roles do iTwin 4b098581-0648-4f58-9616-faca39194654: HTTP 404  - {'error': {'code': 'ItwinNotFound', 'message': 'Requested iTwin is not available.'}}"
+      }
+    },
+    {
+      "projectId": "37a9de6b-acb9-4865-932b-9dccabbf088d",
+      "nomeProjeto": "Acostamentos do SH8 - km 002 - 043 - LMG-754",
+      "origemProjectWise": {
+        "nome": "Acostamentos do SH8 - km 002 - 043 - LMG-754",
+        "id": "56668",
+        "guid": "cbfbf3a7-a85f-4169-956f-dafc03b6ffc3",
+        "connectedProjectId": "37a9de6b-acb9-4865-932b-9dccabbf088d",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "br***@ecorodovias.com.br;",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "erro",
+        "erro": "Adicionar usuario br***@ecorodovias.com.br; em 37a9de6b-acb9-4865-932b-9dccabbf088d: HTTP 422  - {'error': {'code': 'InvalidiTwinsMemberRequest', 'message': 'Request body or query is invalid.', 'details': [{'code': 'MissingRequiredProperty', 'message': 'Required property is missing.', 'target': 'members[0].email'}]}}"
+      }
+    },
+    {
+      "projectId": "1548950c-a812-45cd-8fb2-23e67a15e16d",
+      "nomeProjeto": "Contorno de Montes Claros - Trecho D - (km á definir)",
+      "origemProjectWise": {
+        "nome": "Contorno de Montes Claros - Trecho D - (km á definir)",
+        "id": "349667",
+        "guid": "198d3a41-5654-4f9b-9e08-d8532175f812",
+        "connectedProjectId": "1548950c-a812-45cd-8fb2-23e67a15e16d",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "br***@ecorodovias.com.br;",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "erro",
+        "erro": "Adicionar usuario br***@ecorodovias.com.br; em 1548950c-a812-45cd-8fb2-23e67a15e16d: HTTP 422  - {'error': {'code': 'InvalidiTwinsMemberRequest', 'message': 'Request body or query is invalid.', 'details': [{'code': 'MissingRequiredProperty', 'message': 'Required property is missing.', 'target': 'members[0].email'}]}}"
+      }
+    },
+    {
+      "projectId": "d37b0639-cef1-483e-a8c9-bdc73e7ce11e",
+      "nomeProjeto": "Faixas Adicionais SH 4 - km 473+870 - 473+310 - BR135/MG",
+      "origemProjectWise": {
+        "nome": "Faixas Adicionais SH 4 - km 473+870 - 473+310 - BR135/MG",
+        "id": "354473",
+        "guid": "81eb50d2-794d-47db-9293-0dc82aad312c",
+        "connectedProjectId": "d37b0639-cef1-483e-a8c9-bdc73e7ce11e",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "br***@ecorodovias.com.br;",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "erro_preparacao_rbac",
+      "situacao_usuario": "erro_preparacao_rbac",
+      "resultado": {
+        "status": "ignorado_erro_preparacao",
+        "mensagem": "Buscar roles do iTwin d37b0639-cef1-483e-a8c9-bdc73e7ce11e: HTTP 404  - {'error': {'code': 'ItwinNotFound', 'message': 'Requested iTwin is not available.'}}"
+      }
+    },
+    {
+      "projectId": "382e5b41-5005-46d7-88a4-f94fae8b970f",
+      "nomeProjeto": "Faixas Adicionais SH 5 - km 427+300 - 427+900 - BR135/MG",
+      "origemProjectWise": {
+        "nome": "Faixas Adicionais SH 5 - km 427+300 - 427+900 - BR135/MG",
+        "id": "354509",
+        "guid": "a03ed348-1870-4bc1-85d1-ba63998be182",
+        "connectedProjectId": "382e5b41-5005-46d7-88a4-f94fae8b970f",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "br***@ecorodovias.com.br;",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "erro_preparacao_rbac",
+      "situacao_usuario": "erro_preparacao_rbac",
+      "resultado": {
+        "status": "ignorado_erro_preparacao",
+        "mensagem": "Buscar roles do iTwin 382e5b41-5005-46d7-88a4-f94fae8b970f: HTTP 404  - {'error': {'code': 'ItwinNotFound', 'message': 'Requested iTwin is not available.'}}"
+      }
+    },
+    {
+      "projectId": "4b098581-0648-4f58-9616-faca39194654",
+      "nomeProjeto": "Retorno Operacional -  km 386+387 - BR135/MG",
+      "origemProjectWise": {
+        "nome": "Retorno Operacional -  km 386+387 - BR135/MG",
+        "id": "172831",
+        "guid": "cf157a75-3036-4a0a-8dfe-9e8c716db8ab",
+        "connectedProjectId": "4b098581-0648-4f58-9616-faca39194654",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "br***@ecorodovias.com.br;",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "erro_preparacao_rbac",
+      "situacao_usuario": "erro_preparacao_rbac",
+      "resultado": {
+        "status": "ignorado_erro_preparacao",
+        "mensagem": "Buscar roles do iTwin 4b098581-0648-4f58-9616-faca39194654: HTTP 404  - {'error': {'code': 'ItwinNotFound', 'message': 'Requested iTwin is not available.'}}"
+      }
+    },
+    {
+      "projectId": "37a9de6b-acb9-4865-932b-9dccabbf088d",
+      "nomeProjeto": "Acostamentos do SH8 - km 002 - 043 - LMG-754",
+      "origemProjectWise": {
+        "nome": "Acostamentos do SH8 - km 002 - 043 - LMG-754",
+        "id": "56668",
+        "guid": "cbfbf3a7-a85f-4169-956f-dafc03b6ffc3",
+        "connectedProjectId": "37a9de6b-acb9-4865-932b-9dccabbf088d",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ma***@ecorodovias.com.br;",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "erro",
+        "erro": "Adicionar usuario ma***@ecorodovias.com.br; em 37a9de6b-acb9-4865-932b-9dccabbf088d: HTTP 422  - {'error': {'code': 'InvalidiTwinsMemberRequest', 'message': 'Request body or query is invalid.', 'details': [{'code': 'MissingRequiredProperty', 'message': 'Required property is missing.', 'target': 'members[0].email'}]}}"
+      }
+    },
+    {
+      "projectId": "1548950c-a812-45cd-8fb2-23e67a15e16d",
+      "nomeProjeto": "Contorno de Montes Claros - Trecho D - (km á definir)",
+      "origemProjectWise": {
+        "nome": "Contorno de Montes Claros - Trecho D - (km á definir)",
+        "id": "349667",
+        "guid": "198d3a41-5654-4f9b-9e08-d8532175f812",
+        "connectedProjectId": "1548950c-a812-45cd-8fb2-23e67a15e16d",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ma***@ecorodovias.com.br;",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "erro",
+        "erro": "Adicionar usuario ma***@ecorodovias.com.br; em 1548950c-a812-45cd-8fb2-23e67a15e16d: HTTP 422  - {'error': {'code': 'InvalidiTwinsMemberRequest', 'message': 'Request body or query is invalid.', 'details': [{'code': 'MissingRequiredProperty', 'message': 'Required property is missing.', 'target': 'members[0].email'}]}}"
+      }
+    },
+    {
+      "projectId": "d37b0639-cef1-483e-a8c9-bdc73e7ce11e",
+      "nomeProjeto": "Faixas Adicionais SH 4 - km 473+870 - 473+310 - BR135/MG",
+      "origemProjectWise": {
+        "nome": "Faixas Adicionais SH 4 - km 473+870 - 473+310 - BR135/MG",
+        "id": "354473",
+        "guid": "81eb50d2-794d-47db-9293-0dc82aad312c",
+        "connectedProjectId": "d37b0639-cef1-483e-a8c9-bdc73e7ce11e",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ma***@ecorodovias.com.br;",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "erro_preparacao_rbac",
+      "situacao_usuario": "erro_preparacao_rbac",
+      "resultado": {
+        "status": "ignorado_erro_preparacao",
+        "mensagem": "Buscar roles do iTwin d37b0639-cef1-483e-a8c9-bdc73e7ce11e: HTTP 404  - {'error': {'code': 'ItwinNotFound', 'message': 'Requested iTwin is not available.'}}"
+      }
+    },
+    {
+      "projectId": "382e5b41-5005-46d7-88a4-f94fae8b970f",
+      "nomeProjeto": "Faixas Adicionais SH 5 - km 427+300 - 427+900 - BR135/MG",
+      "origemProjectWise": {
+        "nome": "Faixas Adicionais SH 5 - km 427+300 - 427+900 - BR135/MG",
+        "id": "354509",
+        "guid": "a03ed348-1870-4bc1-85d1-ba63998be182",
+        "connectedProjectId": "382e5b41-5005-46d7-88a4-f94fae8b970f",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ma***@ecorodovias.com.br;",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "erro_preparacao_rbac",
+      "situacao_usuario": "erro_preparacao_rbac",
+      "resultado": {
+        "status": "ignorado_erro_preparacao",
+        "mensagem": "Buscar roles do iTwin 382e5b41-5005-46d7-88a4-f94fae8b970f: HTTP 404  - {'error': {'code': 'ItwinNotFound', 'message': 'Requested iTwin is not available.'}}"
+      }
+    },
+    {
+      "projectId": "4b098581-0648-4f58-9616-faca39194654",
+      "nomeProjeto": "Retorno Operacional -  km 386+387 - BR135/MG",
+      "origemProjectWise": {
+        "nome": "Retorno Operacional -  km 386+387 - BR135/MG",
+        "id": "172831",
+        "guid": "cf157a75-3036-4a0a-8dfe-9e8c716db8ab",
+        "connectedProjectId": "4b098581-0648-4f58-9616-faca39194654",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ma***@ecorodovias.com.br;",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "erro_preparacao_rbac",
+      "situacao_usuario": "erro_preparacao_rbac",
+      "resultado": {
+        "status": "ignorado_erro_preparacao",
+        "mensagem": "Buscar roles do iTwin 4b098581-0648-4f58-9616-faca39194654: HTTP 404  - {'error': {'code': 'ItwinNotFound', 'message': 'Requested iTwin is not available.'}}"
+      }
+    }
+  ]
+}

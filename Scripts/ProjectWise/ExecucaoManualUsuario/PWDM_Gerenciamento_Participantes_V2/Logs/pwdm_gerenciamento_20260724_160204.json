@@ -1,0 +1,119 @@
+{
+  "timestamp": "2026-07-24T16:02:04",
+  "operacoes": [
+    {
+      "email": "he***@ecovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Retorno Operacional -  km 386+387 - BR135/MG",
+      "origemProjectWise": {
+        "nome": "Retorno Operacional -  km 386+387 - BR135/MG",
+        "id": "172831",
+        "guid": "cf157a75-3036-4a0a-8dfe-9e8c716db8ab",
+        "connectedProjectId": "4b098581-0648-4f58-9616-faca39194654",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "4b098581-0648-4f58-9616-faca39194654",
+      "projectId": "4b098581-0648-4f58-9616-faca39194654",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "4b098581-0648-4f58-9616-faca39194654"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "47bb3fda-bf29-4b63-a7c6-7684b5244572",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "0ffc79fd-eb39-4217-9450-d0fdf61b5374",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "168e70b9-a40f-4eaa-bea0-955aef136c5c",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "c4e767dc-0791-466e-ac94-38a09f61422e",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    }
+  ],
+  "resultados": [
+    {
+      "projectId": "4b098581-0648-4f58-9616-faca39194654",
+      "nomeProjeto": "Retorno Operacional -  km 386+387 - BR135/MG",
+      "origemProjectWise": {
+        "nome": "Retorno Operacional -  km 386+387 - BR135/MG",
+        "id": "172831",
+        "guid": "cf157a75-3036-4a0a-8dfe-9e8c716db8ab",
+        "connectedProjectId": "4b098581-0648-4f58-9616-faca39194654",
+        "concessao": "Ecovias Norte Minas",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "he***@ecovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado",
+        "body": {
+          "members": [],
+          "invitations": [
+            {
+              "id": "fc6853d1-0778-4ff7-ba79-e94392602451",
+              "email": "he***@ecovias.com.br",
+              "invitedByEmail": "t_***@ecorodovias.com.br",
+              "status": "Pending",
+              "createdDate": "2026-07-24T19:02:04.288498Z",
+              "expirationDate": "2026-08-07T19:02:04.288498Z",
+              "roles": [
+                {
+                  "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+                  "displayName": "Team Member"
+                }
+              ],
+              "inviterGivenName": "Peterson",
+              "inviterSurname": "Caputti",
+              "projectDisplayName": "BR135-MG - km 386,387",
+              "inviterOrganization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

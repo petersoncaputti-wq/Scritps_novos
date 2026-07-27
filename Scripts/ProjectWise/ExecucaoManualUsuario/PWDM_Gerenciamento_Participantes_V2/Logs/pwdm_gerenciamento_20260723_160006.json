@@ -1,0 +1,3999 @@
+{
+  "timestamp": "2026-07-23T16:00:06",
+  "operacoes": [
+    {
+      "nomeProjeto": "105 - Estação Elevatória - km 64 - SP-150",
+      "origemProjectWise": {
+        "nome": "105 - Estação Elevatória - km 64 - SP-150",
+        "id": "358826",
+        "guid": "74cd674c-bdd2-406a-8218-4ac4973521bc",
+        "connectedProjectId": "09c8f33a-acc0-4b0d-ae18-2c4180ccb683",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "09c8f33a-acc0-4b0d-ae18-2c4180ccb683",
+      "projectId": "09c8f33a-acc0-4b0d-ae18-2c4180ccb683",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Custom",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "af26e853-3d68-4eb3-a749-aa8dd9ecb860",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "126 - Iluminação km 0 - 8 SPA- 248-055 km 0 ao 8",
+      "origemProjectWise": {
+        "nome": "126 - Iluminação km 0 - 8 SPA- 248-055 km 0 ao 8",
+        "id": "395240",
+        "guid": "f106e2a7-e5d7-422f-b81a-f75ca50a3050",
+        "connectedProjectId": "2b27a49d-a388-4e52-ae35-ff728cadc0b8",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "2b27a49d-a388-4e52-ae35-ff728cadc0b8",
+      "projectId": "2b27a49d-a388-4e52-ae35-ff728cadc0b8",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "a5e463b2-4b31-493b-ac19-22085c8883ab",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "132 - Curva do S - Dispositivos - Km 291 - SP-055",
+      "origemProjectWise": {
+        "nome": "132 - Curva do S - Dispositivos - Km 291 - SP-055",
+        "id": "296000",
+        "guid": "79752a7a-6fa8-4534-a687-8af789ff3847",
+        "connectedProjectId": "d8c84018-23b7-4435-afa5-a93278e4c7f3",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "d8c84018-23b7-4435-afa5-a93278e4c7f3",
+      "projectId": "d8c84018-23b7-4435-afa5-a93278e4c7f3",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "excluir_participante",
+      "descricaoAcao": "EXCLUIR participante",
+      "status": "participante",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [],
+        "id": "4e97562f-daa8-41e2-8237-af3298a69141",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "133-Marg. Hidromar-3ª Pista-km 264 ao 265-SP-055",
+      "origemProjectWise": {
+        "nome": "133-Marg. Hidromar-3ª Pista-km 264 ao 265-SP-055",
+        "id": "398253",
+        "guid": "9bc4f17a-a792-48b3-8a62-f46c0d352383",
+        "connectedProjectId": "1fb6b5c2-303e-4fe1-89c9-bde78a06e1ab",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "1fb6b5c2-303e-4fe1-89c9-bde78a06e1ab",
+      "projectId": "1fb6b5c2-303e-4fe1-89c9-bde78a06e1ab",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "2c137353-d63e-4c54-880f-a1b8cfebf102",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "137 - Curva 1 - km 41+700 - SP-150",
+      "origemProjectWise": {
+        "nome": "137 - Curva 1 - km 41+700 - SP-150",
+        "id": "358892",
+        "guid": "dc8f2d1f-2dac-42fd-a433-72ff86707447",
+        "connectedProjectId": "dc6a23a1-b569-44ed-a183-18d340f3b240",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "dc6a23a1-b569-44ed-a183-18d340f3b240",
+      "projectId": "dc6a23a1-b569-44ed-a183-18d340f3b240",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": false,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "f8040293-b553-4478-bd13-21553762540e",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "137 - Curva 2 - km 44+580 - SP-150",
+      "origemProjectWise": {
+        "nome": "137 - Curva 2 - km 44+580 - SP-150",
+        "id": "358925",
+        "guid": "404bc031-28ab-4025-83ec-62f8c8eacf2c",
+        "connectedProjectId": "a4df6902-713f-46f3-9869-d1dfe7a13441",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "a4df6902-713f-46f3-9869-d1dfe7a13441",
+      "projectId": "a4df6902-713f-46f3-9869-d1dfe7a13441",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": false,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "fb7c1863-d62a-4df0-a4be-863386bee2f2",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "137 - Curva 3 - km 46+920 - SP-150",
+      "origemProjectWise": {
+        "nome": "137 - Curva 3 - km 46+920 - SP-150",
+        "id": "358958",
+        "guid": "23fb921a-7025-4db5-85e3-903644791604",
+        "connectedProjectId": "2d83d988-ed83-4fe9-b5d5-0a57ec726e07",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "2d83d988-ed83-4fe9-b5d5-0a57ec726e07",
+      "projectId": "2d83d988-ed83-4fe9-b5d5-0a57ec726e07",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": false,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "6a2a2a9b-9740-4216-8141-31c8687d0f23",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "137 - Curva 4 - km 44+410 - SP-150",
+      "origemProjectWise": {
+        "nome": "137 - Curva 4 - km 44+410 - SP-150",
+        "id": "358991",
+        "guid": "1c770898-eb9c-4d8d-8726-82907ad22cd4",
+        "connectedProjectId": "7ba7cb29-1a56-4245-9bc2-879698bac18c",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "7ba7cb29-1a56-4245-9bc2-879698bac18c",
+      "projectId": "7ba7cb29-1a56-4245-9bc2-879698bac18c",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": false,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "788f1a88-a8ce-4330-bb50-6c7d91188296",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "137 - Curva 5 - km 43+260 - SP-150",
+      "origemProjectWise": {
+        "nome": "137 - Curva 5 - km 43+260 - SP-150",
+        "id": "359024",
+        "guid": "9ee110f8-d2a5-45c9-989d-07e1f7caf91e",
+        "connectedProjectId": "471bbafa-e501-4cf4-b730-1f3d1d42bf51",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "471bbafa-e501-4cf4-b730-1f3d1d42bf51",
+      "projectId": "471bbafa-e501-4cf4-b730-1f3d1d42bf51",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": false,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "cf3d2f46-8200-4df6-95bb-d165a07bfd77",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "137 - Curva 6 - km 41+730 - SP-150",
+      "origemProjectWise": {
+        "nome": "137 - Curva 6 - km 41+730 - SP-150",
+        "id": "359057",
+        "guid": "480121da-b1b0-456d-977a-e651b4d01a0b",
+        "connectedProjectId": "591bb5af-6517-4cc7-9aa9-77302c35a024",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "591bb5af-6517-4cc7-9aa9-77302c35a024",
+      "projectId": "591bb5af-6517-4cc7-9aa9-77302c35a024",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": false,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "0e6998dd-9587-47e1-a32a-a0b13a2cc020",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "140 - ANPC - Dispositivo 1 - km 16 - SP-150",
+      "origemProjectWise": {
+        "nome": "140 - ANPC - Dispositivo 1 - km 16 - SP-150",
+        "id": "102795",
+        "guid": "9e305947-abd7-407d-b526-8c74ad03702c",
+        "connectedProjectId": "f5e8427e-328c-482c-a5a5-a10441946254",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "f5e8427e-328c-482c-a5a5-a10441946254",
+      "projectId": "f5e8427e-328c-482c-a5a5-a10441946254",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "c65b6c2f-3696-4553-939d-8f7e4501a16a",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "140 - ANPC - Dispositivo 2 - km 18 - SP-150",
+      "origemProjectWise": {
+        "nome": "140 - ANPC - Dispositivo 2 - km 18 - SP-150",
+        "id": "345859",
+        "guid": "253335ef-35ec-47bc-9dae-bbe124a4c65d",
+        "connectedProjectId": "a17ecee6-46ea-4d36-9dc8-1b5a6e810d6a",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "a17ecee6-46ea-4d36-9dc8-1b5a6e810d6a",
+      "projectId": "a17ecee6-46ea-4d36-9dc8-1b5a6e810d6a",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "05ce6dba-5e73-4470-968c-727cf54f9ee3",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "140 - ANPC - Iluminação e EPS - km 12 - 24 - SP-160",
+      "origemProjectWise": {
+        "nome": "140 - ANPC - Iluminação e EPS - km 12 - 24 - SP-160",
+        "id": "298379",
+        "guid": "9800e560-835e-459a-8791-d5162f0e6ea0",
+        "connectedProjectId": "2d716fb2-cd01-4f63-8168-3e3dee515436",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "2d716fb2-cd01-4f63-8168-3e3dee515436",
+      "projectId": "2d716fb2-cd01-4f63-8168-3e3dee515436",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "excluir_participante",
+      "descricaoAcao": "EXCLUIR participante",
+      "status": "participante",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [],
+        "id": "fb72f6b7-63ee-4d56-9385-425a89e61cca",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "147 - Porto de Santos  - FIPS km 64 - SP - 150",
+      "origemProjectWise": {
+        "nome": "147 - Porto de Santos  - FIPS km 64 - SP - 150",
+        "id": "394974",
+        "guid": "46dd7f4d-58f3-4e70-9c9e-df884b0fc5f9",
+        "connectedProjectId": "4d436160-39c8-4c79-9421-ce62a731c2fa",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "4d436160-39c8-4c79-9421-ce62a731c2fa",
+      "projectId": "4d436160-39c8-4c79-9421-ce62a731c2fa",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "45657887-b8c0-449b-a0a7-c8320b559e66",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "ADC - km 40,8 Sul - SP-160",
+      "origemProjectWise": {
+        "nome": "ADC - km 40,8 Sul - SP-160",
+        "id": "343227",
+        "guid": "63eb5beb-72d6-4eb3-bc33-ed2b61b77dc5",
+        "connectedProjectId": "0cf3e9cc-b12c-4689-ae75-6d93831b8316",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "0cf3e9cc-b12c-4689-ae75-6d93831b8316",
+      "projectId": "0cf3e9cc-b12c-4689-ae75-6d93831b8316",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "excluir_participante",
+      "descricaoAcao": "EXCLUIR participante",
+      "status": "participante",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": true,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": true,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [
+          "1*7",
+          "2*1710"
+        ],
+        "id": "430502d9-6107-4e82-9885-e810b08219a9",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "ANPC - Área de Escape - km 45+46 - SP-150",
+      "origemProjectWise": {
+        "nome": "ANPC - Área de Escape - km 45+46 - SP-150",
+        "id": "356474",
+        "guid": "bfda9028-f15b-4504-aed1-7a244362ed6a",
+        "connectedProjectId": "b249b5a0-49d5-4b25-ac15-99728a44c3ef",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "b249b5a0-49d5-4b25-ac15-99728a44c3ef",
+      "projectId": "b249b5a0-49d5-4b25-ac15-99728a44c3ef",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "ANPC - BSO (Com SAU) - km 47+750 - SP-150",
+      "origemProjectWise": {
+        "nome": "ANPC - BSO (Com SAU) - km 47+750 - SP-150",
+        "id": "356507",
+        "guid": "17f6a41f-092c-4921-9bc2-2dc78d6baa71",
+        "connectedProjectId": "0c8135f9-084a-4d36-ba6e-804fcbec13db",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "0c8135f9-084a-4d36-ba6e-804fcbec13db",
+      "projectId": "0c8135f9-084a-4d36-ba6e-804fcbec13db",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "36c9be4c-313b-4826-b326-974ca7427f18",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "ANPC - Dispositivo de Segurança 1 - Km 12 - 24 - SP-160",
+      "origemProjectWise": {
+        "nome": "ANPC - Dispositivo de Segurança 1 - Km 12 - 24 - SP-160",
+        "id": "299988",
+        "guid": "dc96022a-edaf-4ae0-afac-089de8eac1ef",
+        "connectedProjectId": "154d99be-0277-4267-81ed-601590f1c7a0",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "154d99be-0277-4267-81ed-601590f1c7a0",
+      "projectId": "154d99be-0277-4267-81ed-601590f1c7a0",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "excluir_participante",
+      "descricaoAcao": "EXCLUIR participante",
+      "status": "participante",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [],
+        "id": "dd88406f-8a52-4f11-99fd-2a893b73472a",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "Ciclovia - km 41,8 - 44,5 Norte - SP-160",
+      "origemProjectWise": {
+        "nome": "Ciclovia - km 41,8 - 44,5 Norte - SP-160",
+        "id": "342816",
+        "guid": "0a65fab5-8b58-429d-bf5e-c874dce0bca8",
+        "connectedProjectId": "2e2a2032-7461-42cd-bcb0-dd64830b7575",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "2e2a2032-7461-42cd-bcb0-dd64830b7575",
+      "projectId": "2e2a2032-7461-42cd-bcb0-dd64830b7575",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "excluir_participante",
+      "descricaoAcao": "EXCLUIR participante",
+      "status": "participante",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": true,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": true,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [
+          "1*7",
+          "2*1710"
+        ],
+        "id": "73f6ef10-d797-44bc-81ca-1614d882d1ea",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "Ciclovia Trecho 1 - km 59 - 65 - SP-160",
+      "origemProjectWise": {
+        "nome": "Ciclovia Trecho 1 - km 59 - 65 - SP-160",
+        "id": "100224",
+        "guid": "49f757bc-db4c-406d-87f0-9d8b2631518e",
+        "connectedProjectId": "37be3cb0-d764-4196-9bb1-e3a72766ef41",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "37be3cb0-d764-4196-9bb1-e3a72766ef41",
+      "projectId": "37be3cb0-d764-4196-9bb1-e3a72766ef41",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "5de529cd-d0a7-4c8f-8988-5196f8dc1b5e",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "Ciclovia Trecho 2 - km 56 - 60 - SP-150",
+      "origemProjectWise": {
+        "nome": "Ciclovia Trecho 2 - km 56 - 60 - SP-150",
+        "id": "347096",
+        "guid": "a2b4485b-5eef-464e-8982-a14f6f538e34",
+        "connectedProjectId": "da8149cb-3f4c-4cde-8f5b-b07de18d39c0",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "da8149cb-3f4c-4cde-8f5b-b07de18d39c0",
+      "projectId": "da8149cb-3f4c-4cde-8f5b-b07de18d39c0",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "77428b92-dd82-432f-9f41-c7db40695a86",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "Ciclovia Trecho 3 - km 0 - 2 - SPI-059",
+      "origemProjectWise": {
+        "nome": "Ciclovia Trecho 3 - km 0 - 2 - SPI-059",
+        "id": "347507",
+        "guid": "c7b27484-7fbb-4e0d-b5a3-5520ccfe05d4",
+        "connectedProjectId": "1c979e59-1f0d-45a8-9747-252608d88d03",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "1c979e59-1f0d-45a8-9747-252608d88d03",
+      "projectId": "1c979e59-1f0d-45a8-9747-252608d88d03",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "d9a093a0-4177-44d9-a151-5be7c21a785d",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "Correção 6 Curvas Trecho Serra- km 40 - 54 - SP-150",
+      "origemProjectWise": {
+        "nome": "Correção 6 Curvas Trecho Serra- km 40 - 54 - SP-150",
+        "id": "101056",
+        "guid": "724def6d-13cb-4054-9a64-482ffe2f470f",
+        "connectedProjectId": "e95ce456-e5dc-42f4-87e6-4f87b14f4dea",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "e95ce456-e5dc-42f4-87e6-4f87b14f4dea",
+      "projectId": "e95ce456-e5dc-42f4-87e6-4f87b14f4dea",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "a59fd1b9-a27e-422b-9d8a-baf9c669447b",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "Estação de bombeamento - km 42+43 - SP-160",
+      "origemProjectWise": {
+        "nome": "Estação de bombeamento - km 42+43 - SP-160",
+        "id": "345282",
+        "guid": "6947276b-917b-4631-b62a-710693841668",
+        "connectedProjectId": "00fe5a66-e657-405b-87f2-db780c7489cb",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "00fe5a66-e657-405b-87f2-db780c7489cb",
+      "projectId": "00fe5a66-e657-405b-87f2-db780c7489cb",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "excluir_participante",
+      "descricaoAcao": "EXCLUIR participante",
+      "status": "participante",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": true,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": true,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [
+          "1*7",
+          "2*1710"
+        ],
+        "id": "5f4ece76-359f-4009-82c0-d507f7475606",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "HS-WIM - km 264,50 Oeste - SP-160",
+      "origemProjectWise": {
+        "nome": "HS-WIM - km 264,50 Oeste - SP-160",
+        "id": "344871",
+        "guid": "a7148e49-bb0f-4794-b5af-74c84a12d558",
+        "connectedProjectId": "e699f6ae-bab8-4b1c-9ae4-64d025a315bb",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "e699f6ae-bab8-4b1c-9ae4-64d025a315bb",
+      "projectId": "e699f6ae-bab8-4b1c-9ae4-64d025a315bb",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "excluir_participante",
+      "descricaoAcao": "EXCLUIR participante",
+      "status": "participante",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": true,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": true,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [
+          "1*7",
+          "2*1710"
+        ],
+        "id": "37a9ed29-d676-47e7-a21f-c311a66cc042",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "HS-WIM - km 265,50 Leste - SP-160",
+      "origemProjectWise": {
+        "nome": "HS-WIM - km 265,50 Leste - SP-160",
+        "id": "344460",
+        "guid": "f9edd262-a2cc-4333-9dc7-bdad389f38b2",
+        "connectedProjectId": "00d1d3f1-8028-41cc-b514-7b0f010030f4",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "00d1d3f1-8028-41cc-b514-7b0f010030f4",
+      "projectId": "00d1d3f1-8028-41cc-b514-7b0f010030f4",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "excluir_participante",
+      "descricaoAcao": "EXCLUIR participante",
+      "status": "participante",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": true,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": true,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [
+          "1*7",
+          "2*1710"
+        ],
+        "id": "738f010b-a228-4ecc-8e30-994f46758326",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "Ligação Alemoa - km 64 - SP-150",
+      "origemProjectWise": {
+        "nome": "Ligação Alemoa - km 64 - SP-150",
+        "id": "98767",
+        "guid": "ef45aa98-b7cb-4dc8-bf8b-e6a5a0a570f4",
+        "connectedProjectId": "b0139e6d-3f9e-4c06-abfc-08e9196e8880",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "b0139e6d-3f9e-4c06-abfc-08e9196e8880",
+      "projectId": "b0139e6d-3f9e-4c06-abfc-08e9196e8880",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "fe7244b8-c143-48ed-bbea-bc50b0e8a84d",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "Ligação Alemoa 3ª Faixa - km 59+000 - 61+000 - SP-150",
+      "origemProjectWise": {
+        "nome": "Ligação Alemoa 3ª Faixa - km 59+000 - 61+000 - SP-150",
+        "id": "359090",
+        "guid": "de8002ba-e960-41de-8def-c1b25d7db599",
+        "connectedProjectId": "06a67993-1673-405f-9f21-6bb85164a4d0",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "06a67993-1673-405f-9f21-6bb85164a4d0",
+      "projectId": "06a67993-1673-405f-9f21-6bb85164a4d0",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Custom",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "bb86a004-d453-48a9-8301-50ad59662277",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "Ligação Alemoa Dispositivo - km 61+000 - SP-150",
+      "origemProjectWise": {
+        "nome": "Ligação Alemoa Dispositivo - km 61+000 - SP-150",
+        "id": "359189",
+        "guid": "966a7368-28e5-4ea8-ae3d-e599a82d0df2",
+        "connectedProjectId": "27a47986-c8c5-4d28-a5b0-40c0eb5ca947",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "27a47986-c8c5-4d28-a5b0-40c0eb5ca947",
+      "projectId": "27a47986-c8c5-4d28-a5b0-40c0eb5ca947",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Custom",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "fde36f07-cbdb-48a8-b48a-24c1495c5d39",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "Ligação Alemoa Passarela - km 60+520 - SP-150",
+      "origemProjectWise": {
+        "nome": "Ligação Alemoa Passarela - km 60+520 - SP-150",
+        "id": "359156",
+        "guid": "866153b9-7391-47d4-a7e8-6a23c5e2f9c0",
+        "connectedProjectId": "821d027e-081e-4fd3-a4fe-03998754f437",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "821d027e-081e-4fd3-a4fe-03998754f437",
+      "projectId": "821d027e-081e-4fd3-a4fe-03998754f437",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "4824c239-1083-4394-9e25-c950aa58570b",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "Ligação Alemoa Rotatória - km 62+000 - SP-150",
+      "origemProjectWise": {
+        "nome": "Ligação Alemoa Rotatória - km 62+000 - SP-150",
+        "id": "359123",
+        "guid": "e609047e-f88e-42bc-b1d1-fd4cf61ce4e1",
+        "connectedProjectId": "084e75e5-787e-45b7-af55-615fe1d9e516",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "084e75e5-787e-45b7-af55-615fe1d9e516",
+      "projectId": "084e75e5-787e-45b7-af55-615fe1d9e516",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "23edc5be-6a96-49bc-be9c-d1d00c5b7c7d",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "Ligação Planalto - Baixada - Corpo de Bombeiro - SP-160",
+      "origemProjectWise": {
+        "nome": "Ligação Planalto - Baixada - Corpo de Bombeiro - SP-160",
+        "id": "359222",
+        "guid": "c5b83cb6-1b74-46d2-9b17-4e7d53dd362a",
+        "connectedProjectId": "cf0b3a97-2e42-42b8-b87e-946b946784ff",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "cf0b3a97-2e42-42b8-b87e-946b946784ff",
+      "projectId": "cf0b3a97-2e42-42b8-b87e-946b946784ff",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "excluir_participante",
+      "descricaoAcao": "EXCLUIR participante",
+      "status": "participante",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Gestor GDN",
+        "isAdmin": true,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": true,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "0e56ce9d-fbac-438e-b76f-8ed4ff23f252",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "Ligação Planalto - Baixada - SP-160",
+      "origemProjectWise": {
+        "nome": "Ligação Planalto - Baixada - SP-160",
+        "id": "49632",
+        "guid": "7193a721-f986-4208-bd7b-ec54c7afe404",
+        "connectedProjectId": "3e12ff93-12b8-4619-99ca-56863dae2993",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "3e12ff93-12b8-4619-99ca-56863dae2993",
+      "projectId": "3e12ff93-12b8-4619-99ca-56863dae2993",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "excluir_participante",
+      "descricaoAcao": "EXCLUIR participante",
+      "status": "participante",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": true,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": true,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [
+          "2*1710",
+          "8*ra***@ecorodovias.com.br"
+        ],
+        "id": "8353f5ed-242c-4882-91a9-67418ddb469b",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "Marginal Hidromar - Km 263 + 268 - SP-055",
+      "origemProjectWise": {
+        "nome": "Marginal Hidromar - Km 263 + 268 - SP-055",
+        "id": "334483",
+        "guid": "7083ea1a-283f-4e2f-96fd-c9129e149ce0",
+        "connectedProjectId": "d4505d2c-0c52-4184-80c2-aa2092e86fb4",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "d4505d2c-0c52-4184-80c2-aa2092e86fb4",
+      "projectId": "d4505d2c-0c52-4184-80c2-aa2092e86fb4",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "7dca1be7-dce8-4b02-a7b7-885d6b9a84ca",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "PMRv + Retorno - km 43,25 Sul - SP-160",
+      "origemProjectWise": {
+        "nome": "PMRv + Retorno - km 43,25 Sul - SP-160",
+        "id": "344049",
+        "guid": "5e9fb403-ca39-4507-b2bb-09cf4c04a800",
+        "connectedProjectId": "e7e9f4b2-0b4e-4bd3-a37c-d1d7592732d2",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "e7e9f4b2-0b4e-4bd3-a37c-d1d7592732d2",
+      "projectId": "e7e9f4b2-0b4e-4bd3-a37c-d1d7592732d2",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "excluir_participante",
+      "descricaoAcao": "EXCLUIR participante",
+      "status": "participante",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": true,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": true,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [
+          "1*7",
+          "2*1710"
+        ],
+        "id": "482dbf16-54d8-46d0-af02-28a92734a2c7",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "SAU - km 40,8 Sul - SP-160",
+      "origemProjectWise": {
+        "nome": "SAU - km 40,8 Sul - SP-160",
+        "id": "343638",
+        "guid": "2251172e-8e72-460a-9e1a-f5dede7d24f5",
+        "connectedProjectId": "98551f27-827d-4c88-8393-56d6cbe0057f",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "98551f27-827d-4c88-8393-56d6cbe0057f",
+      "projectId": "98551f27-827d-4c88-8393-56d6cbe0057f",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "excluir_participante",
+      "descricaoAcao": "EXCLUIR participante",
+      "status": "participante",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": true,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": true,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [
+          "1*7",
+          "2*1710"
+        ],
+        "id": "fd530b1f-1213-4ca4-9cdc-bdd66773fd92",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "TA-01 - AVCB Túneis -SCI - Km 45+468 - SP-150",
+      "origemProjectWise": {
+        "nome": "TA-01 - AVCB Túneis -SCI - Km 45+468 - SP-150",
+        "id": "355373",
+        "guid": "cb2b54e4-db9a-4b37-9d37-233b0128e63d",
+        "connectedProjectId": "57d536c7-f0e4-4bef-8edb-22d11a83dcb8",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "57d536c7-f0e4-4bef-8edb-22d11a83dcb8",
+      "projectId": "57d536c7-f0e4-4bef-8edb-22d11a83dcb8",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Custom",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "72044a91-4003-44e1-98f0-c5a25ae3c8a5",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "TA-01 - AVCB Túneis -SCI - Km 46+410 - SP-160",
+      "origemProjectWise": {
+        "nome": "TA-01 - AVCB Túneis -SCI - Km 46+410 - SP-160",
+        "id": "355902",
+        "guid": "94822f60-cece-463d-b68e-49e45e311f0d",
+        "connectedProjectId": "5c4f59d4-84b0-4c60-ace9-c370842ad6a9",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "5c4f59d4-84b0-4c60-ace9-c370842ad6a9",
+      "projectId": "5c4f59d4-84b0-4c60-ace9-c370842ad6a9",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Custom",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "f7db7018-79ce-4da8-99e6-ff877f76e019",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "TA-02 - AVCB Túneis -SCI - Km 46+462 - SP-150",
+      "origemProjectWise": {
+        "nome": "TA-02 - AVCB Túneis -SCI - Km 46+462 - SP-150",
+        "id": "355406",
+        "guid": "f41fedc4-d2ef-40d1-b4a9-a2d40ad53cb1",
+        "connectedProjectId": "a497b314-0eb8-4c1f-92d3-042951edd6fa",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "a497b314-0eb8-4c1f-92d3-042951edd6fa",
+      "projectId": "a497b314-0eb8-4c1f-92d3-042951edd6fa",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "84454915-5873-4cfa-9ad9-0df33b7c6c95",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "TA-02 - AVCB Túneis -SCI - Km 46+893 - SP-160",
+      "origemProjectWise": {
+        "nome": "TA-02 - AVCB Túneis -SCI - Km 46+893 - SP-160",
+        "id": "355935",
+        "guid": "f0f2d3a1-1598-488d-8f5a-c7f0b4982504",
+        "connectedProjectId": "c20d76b1-c8e1-4a30-8285-d56ec6e75dc1",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "c20d76b1-c8e1-4a30-8285-d56ec6e75dc1",
+      "projectId": "c20d76b1-c8e1-4a30-8285-d56ec6e75dc1",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Custom",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "90478193-11bc-4e03-8e36-32dd54e7b02f",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "TA-03 - AVCB Túneis -SCI - Km 47+828 - SP-150",
+      "origemProjectWise": {
+        "nome": "TA-03 - AVCB Túneis -SCI - Km 47+828 - SP-150",
+        "id": "355836",
+        "guid": "7ef2417c-a43d-4afa-8668-86f576a14cca",
+        "connectedProjectId": "1772add2-8d2c-41d0-8185-0060849bf145",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "1772add2-8d2c-41d0-8185-0060849bf145",
+      "projectId": "1772add2-8d2c-41d0-8185-0060849bf145",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Custom",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "3b1bad82-8929-4822-b5d3-94329b6ea801",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "TA-04 - AVCB Túneis -SCI - Km 47+793 - SP-160",
+      "origemProjectWise": {
+        "nome": "TA-04 - AVCB Túneis -SCI - Km 47+793 - SP-160",
+        "id": "355439",
+        "guid": "b18261d7-d289-437b-bd5a-d6392f29b979",
+        "connectedProjectId": "680fd3b2-b1e1-47b0-95e7-ae0d21e41608",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "680fd3b2-b1e1-47b0-95e7-ae0d21e41608",
+      "projectId": "680fd3b2-b1e1-47b0-95e7-ae0d21e41608",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Custom",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "bb574683-5c1e-4598-82b7-621ba7599c46",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "TA-05 - AVCB Túneis -SCI - Km 48+366 - SP-160",
+      "origemProjectWise": {
+        "nome": "TA-05 - AVCB Túneis -SCI - Km 48+366 - SP-160",
+        "id": "355472",
+        "guid": "c15595b0-baab-443f-ab07-34f4520c07ac",
+        "connectedProjectId": "dfdbe123-7000-4b06-93cb-db272fcee773",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "dfdbe123-7000-4b06-93cb-db272fcee773",
+      "projectId": "dfdbe123-7000-4b06-93cb-db272fcee773",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Custom",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "9e72efd6-5184-48c4-b053-5e241af5c7cf",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "TA-06 - AVCB Túneis -SCI - Km 48+816 - SP-160",
+      "origemProjectWise": {
+        "nome": "TA-06 - AVCB Túneis -SCI - Km 48+816 - SP-160",
+        "id": "355505",
+        "guid": "59c46343-c976-45aa-970b-d728fe012e71",
+        "connectedProjectId": "f40fbcaf-6a37-43b9-a457-75f45232329e",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "f40fbcaf-6a37-43b9-a457-75f45232329e",
+      "projectId": "f40fbcaf-6a37-43b9-a457-75f45232329e",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Custom",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "1e448114-693d-4037-b2af-63121754a117",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "TA-07 - AVCB Túneis -SCI - Km 49+336 - SP-160",
+      "origemProjectWise": {
+        "nome": "TA-07 - AVCB Túneis -SCI - Km 49+336 - SP-160",
+        "id": "355538",
+        "guid": "66fde11a-2f99-4549-aa58-c15c0a807079",
+        "connectedProjectId": "539616a1-fdb8-46d5-9119-6ddc1d0899c5",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "539616a1-fdb8-46d5-9119-6ddc1d0899c5",
+      "projectId": "539616a1-fdb8-46d5-9119-6ddc1d0899c5",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Custom",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "9e80887c-37d0-4ba9-a65c-97786f769d30",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "TA-09 - AVCB Túneis -SCI - Km 50+473 - SP-160",
+      "origemProjectWise": {
+        "nome": "TA-09 - AVCB Túneis -SCI - Km 50+473 - SP-160",
+        "id": "355571",
+        "guid": "bf8b149b-0e85-4caa-817d-0151b19ca618",
+        "connectedProjectId": "fd786fcc-27c3-4b05-8729-b1b390ff9e72",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "fd786fcc-27c3-4b05-8729-b1b390ff9e72",
+      "projectId": "fd786fcc-27c3-4b05-8729-b1b390ff9e72",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Custom",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "c6976152-a3c0-4211-b9ac-c585a318eaec",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "TA-10/11 - AVCB Túneis -SCI - Km 51+495 - SP-160",
+      "origemProjectWise": {
+        "nome": "TA-10/11 - AVCB Túneis -SCI - Km 51+495 - SP-160",
+        "id": "355604",
+        "guid": "e118d5b5-adea-464b-81bf-41c6dab86ae1",
+        "connectedProjectId": "1a8d0d75-b994-4f3a-8833-b7c5dbb516c6",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "1a8d0d75-b994-4f3a-8833-b7c5dbb516c6",
+      "projectId": "1a8d0d75-b994-4f3a-8833-b7c5dbb516c6",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Custom",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "02ef57fc-03e7-49b7-962a-b34f20e2cd58",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "TA-12 - AVCB Túneis -SCI - Km 52+842 - SP-160",
+      "origemProjectWise": {
+        "nome": "TA-12 - AVCB Túneis -SCI - Km 52+842 - SP-160",
+        "id": "355637",
+        "guid": "a5a6aa79-6de9-4411-b512-6d5a1a28701e",
+        "connectedProjectId": "2777d738-1ce2-4dba-9a38-1ad596943ff9",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "2777d738-1ce2-4dba-9a38-1ad596943ff9",
+      "projectId": "2777d738-1ce2-4dba-9a38-1ad596943ff9",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Custom",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "ed1df5ae-709b-4d2a-9628-c99148a2b8c5",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "TA-13 - AVCB Túneis -SCI - Km 53+511 - SP-160",
+      "origemProjectWise": {
+        "nome": "TA-13 - AVCB Túneis -SCI - Km 53+511 - SP-160",
+        "id": "355671",
+        "guid": "6925b4d2-eb18-4e7f-bafd-0b48be908826",
+        "connectedProjectId": "6e9e3599-ff4d-4e1d-ad94-e29c63c663f5",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "6e9e3599-ff4d-4e1d-ad94-e29c63c663f5",
+      "projectId": "6e9e3599-ff4d-4e1d-ad94-e29c63c663f5",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Custom",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "4322f96e-efd0-4965-abba-8fe09a81cb41",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "TA-14 - AVCB Túneis -SCI - Km 54+339 - SP-160",
+      "origemProjectWise": {
+        "nome": "TA-14 - AVCB Túneis -SCI - Km 54+339 - SP-160",
+        "id": "355704",
+        "guid": "39a8f05f-0d15-4b0c-aa81-858bc866b903",
+        "connectedProjectId": "711ad7f7-468d-4744-bf69-4c2306e259ef",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "711ad7f7-468d-4744-bf69-4c2306e259ef",
+      "projectId": "711ad7f7-468d-4744-bf69-4c2306e259ef",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Custom",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "8f8a94fc-76b5-4b2b-ad02-627cadab1480",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "TD-00 - AVCB Túneis - SCI - Km 47+383 - SP-160",
+      "origemProjectWise": {
+        "nome": "TD-00 - AVCB Túneis - SCI - Km 47+383 - SP-160",
+        "id": "368109",
+        "guid": "9072cafc-55f2-4cb6-b93e-d0c91e8c3449",
+        "connectedProjectId": "0a617e00-1144-40cb-9007-9c64fab34af6",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "0a617e00-1144-40cb-9007-9c64fab34af6",
+      "projectId": "0a617e00-1144-40cb-9007-9c64fab34af6",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Custom",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "445f0321-cb70-4487-b12a-ad33d8d763e8",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "TD-01 - AVCB Túneis - SCI - Km 45+693 - SP-150",
+      "origemProjectWise": {
+        "nome": "TD-01 - AVCB Túneis - SCI - Km 45+693 - SP-150",
+        "id": "368076",
+        "guid": "b3afc110-c294-460c-93e8-17d5bae70379",
+        "connectedProjectId": "cf6c47eb-7d7b-48cb-ae83-0ef18dc18ebb",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "cf6c47eb-7d7b-48cb-ae83-0ef18dc18ebb",
+      "projectId": "cf6c47eb-7d7b-48cb-ae83-0ef18dc18ebb",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Customizada",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "b3c1a984-36a0-435d-a50e-d0d27da7b600",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "TD-01 - AVCB Túneis -SCI - Km 47+383 - SP-160",
+      "origemProjectWise": {
+        "nome": "TD-01 - AVCB Túneis -SCI - Km 47+383 - SP-160",
+        "id": "355770",
+        "guid": "7cd3a9bb-1dd0-4597-a37f-c59d3cda8778",
+        "connectedProjectId": "d2223bf5-e378-4777-9d57-fbcabbd6c07f",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "d2223bf5-e378-4777-9d57-fbcabbd6c07f",
+      "projectId": "d2223bf5-e378-4777-9d57-fbcabbd6c07f",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Custom",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "0108dd23-6114-4bad-95c3-5c1e59438359",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "TD-02 - AVCB Túneis -SCI - Km 46+758 - SP-150",
+      "origemProjectWise": {
+        "nome": "TD-02 - AVCB Túneis -SCI - Km 46+758 - SP-150",
+        "id": "355803",
+        "guid": "3cae3cde-73d5-45f1-83b5-5fa7cd51ee42",
+        "connectedProjectId": "f08b5745-6aa7-41a2-bcf4-f7eba3f05263",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "f08b5745-6aa7-41a2-bcf4-f7eba3f05263",
+      "projectId": "f08b5745-6aa7-41a2-bcf4-f7eba3f05263",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Custom",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "3fcc5620-1c38-4aa9-ae60-90c0d3d67762",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    },
+    {
+      "nomeProjeto": "Túnel Quilombo - Km 252+980 - SP-055",
+      "origemProjectWise": {
+        "nome": "Túnel Quilombo - Km 252+980 - SP-055",
+        "id": "355869",
+        "guid": "8987796c-91dc-4c60-aedf-39e697f42659",
+        "connectedProjectId": "e066c493-0e3e-4eaf-8b99-0fc946ff7dbc",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "e066c493-0e3e-4eaf-8b99-0fc946ff7dbc",
+      "projectId": "e066c493-0e3e-4eaf-8b99-0fc946ff7dbc",
+      "acaoSolicitada": "excluir",
+      "acaoEfetiva": "ignorar_usuario_ausente",
+      "descricaoAcao": "IGNORAR: usuario nao esta nos participantes do projeto",
+      "status": "candidato",
+      "membro": {
+        "fullName": "Rafaela Sakurai",
+        "email": "ra***@ecorodovias.com.br",
+        "roleLabel": "Custom",
+        "isAdmin": false,
+        "isPWSynced": true,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": false,
+        "canIssue": false,
+        "memberOf": [
+          "2*1710"
+        ],
+        "id": "1d228795-3745-478a-91c2-2f6d5279856c",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "",
+      "permissoes": {
+        "canView": false,
+        "canReceive": false,
+        "canIssue": false,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      },
+      "email": "ra***@ecorodovias.com.br"
+    }
+  ],
+  "resultados": [
+    {
+      "projectId": "09c8f33a-acc0-4b0d-ae18-2c4180ccb683",
+      "nomeProjeto": "105 - Estação Elevatória - km 64 - SP-150",
+      "origemProjectWise": {
+        "nome": "105 - Estação Elevatória - km 64 - SP-150",
+        "id": "358826",
+        "guid": "74cd674c-bdd2-406a-8218-4ac4973521bc",
+        "connectedProjectId": "09c8f33a-acc0-4b0d-ae18-2c4180ccb683",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "2b27a49d-a388-4e52-ae35-ff728cadc0b8",
+      "nomeProjeto": "126 - Iluminação km 0 - 8 SPA- 248-055 km 0 ao 8",
+      "origemProjectWise": {
+        "nome": "126 - Iluminação km 0 - 8 SPA- 248-055 km 0 ao 8",
+        "id": "395240",
+        "guid": "f106e2a7-e5d7-422f-b81a-f75ca50a3050",
+        "connectedProjectId": "2b27a49d-a388-4e52-ae35-ff728cadc0b8",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "d8c84018-23b7-4435-afa5-a93278e4c7f3",
+      "nomeProjeto": "132 - Curva do S - Dispositivos - Km 291 - SP-055",
+      "origemProjectWise": {
+        "nome": "132 - Curva do S - Dispositivos - Km 291 - SP-055",
+        "id": "296000",
+        "guid": "79752a7a-6fa8-4534-a687-8af789ff3847",
+        "connectedProjectId": "d8c84018-23b7-4435-afa5-a93278e4c7f3",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "excluir_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "excluido",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/d8c84018-23b7-4435-afa5-a93278e4c7f3/ProjectSettings/d8c84018-23b7-4435-afa5-a93278e4c7f3/GenericDeleteItems",
+          "pageUrl": "https://pwdm.bentley.com/d8c84018-23b7-4435-afa5-a93278e4c7f3/ProjectSettings/d8c84018-23b7-4435-afa5-a93278e4c7f3/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "isCompleted": true
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "1fb6b5c2-303e-4fe1-89c9-bde78a06e1ab",
+      "nomeProjeto": "133-Marg. Hidromar-3ª Pista-km 264 ao 265-SP-055",
+      "origemProjectWise": {
+        "nome": "133-Marg. Hidromar-3ª Pista-km 264 ao 265-SP-055",
+        "id": "398253",
+        "guid": "9bc4f17a-a792-48b3-8a62-f46c0d352383",
+        "connectedProjectId": "1fb6b5c2-303e-4fe1-89c9-bde78a06e1ab",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "dc6a23a1-b569-44ed-a183-18d340f3b240",
+      "nomeProjeto": "137 - Curva 1 - km 41+700 - SP-150",
+      "origemProjectWise": {
+        "nome": "137 - Curva 1 - km 41+700 - SP-150",
+        "id": "358892",
+        "guid": "dc8f2d1f-2dac-42fd-a433-72ff86707447",
+        "connectedProjectId": "dc6a23a1-b569-44ed-a183-18d340f3b240",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "a4df6902-713f-46f3-9869-d1dfe7a13441",
+      "nomeProjeto": "137 - Curva 2 - km 44+580 - SP-150",
+      "origemProjectWise": {
+        "nome": "137 - Curva 2 - km 44+580 - SP-150",
+        "id": "358925",
+        "guid": "404bc031-28ab-4025-83ec-62f8c8eacf2c",
+        "connectedProjectId": "a4df6902-713f-46f3-9869-d1dfe7a13441",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "2d83d988-ed83-4fe9-b5d5-0a57ec726e07",
+      "nomeProjeto": "137 - Curva 3 - km 46+920 - SP-150",
+      "origemProjectWise": {
+        "nome": "137 - Curva 3 - km 46+920 - SP-150",
+        "id": "358958",
+        "guid": "23fb921a-7025-4db5-85e3-903644791604",
+        "connectedProjectId": "2d83d988-ed83-4fe9-b5d5-0a57ec726e07",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "7ba7cb29-1a56-4245-9bc2-879698bac18c",
+      "nomeProjeto": "137 - Curva 4 - km 44+410 - SP-150",
+      "origemProjectWise": {
+        "nome": "137 - Curva 4 - km 44+410 - SP-150",
+        "id": "358991",
+        "guid": "1c770898-eb9c-4d8d-8726-82907ad22cd4",
+        "connectedProjectId": "7ba7cb29-1a56-4245-9bc2-879698bac18c",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "471bbafa-e501-4cf4-b730-1f3d1d42bf51",
+      "nomeProjeto": "137 - Curva 5 - km 43+260 - SP-150",
+      "origemProjectWise": {
+        "nome": "137 - Curva 5 - km 43+260 - SP-150",
+        "id": "359024",
+        "guid": "9ee110f8-d2a5-45c9-989d-07e1f7caf91e",
+        "connectedProjectId": "471bbafa-e501-4cf4-b730-1f3d1d42bf51",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "591bb5af-6517-4cc7-9aa9-77302c35a024",
+      "nomeProjeto": "137 - Curva 6 - km 41+730 - SP-150",
+      "origemProjectWise": {
+        "nome": "137 - Curva 6 - km 41+730 - SP-150",
+        "id": "359057",
+        "guid": "480121da-b1b0-456d-977a-e651b4d01a0b",
+        "connectedProjectId": "591bb5af-6517-4cc7-9aa9-77302c35a024",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "f5e8427e-328c-482c-a5a5-a10441946254",
+      "nomeProjeto": "140 - ANPC - Dispositivo 1 - km 16 - SP-150",
+      "origemProjectWise": {
+        "nome": "140 - ANPC - Dispositivo 1 - km 16 - SP-150",
+        "id": "102795",
+        "guid": "9e305947-abd7-407d-b526-8c74ad03702c",
+        "connectedProjectId": "f5e8427e-328c-482c-a5a5-a10441946254",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "a17ecee6-46ea-4d36-9dc8-1b5a6e810d6a",
+      "nomeProjeto": "140 - ANPC - Dispositivo 2 - km 18 - SP-150",
+      "origemProjectWise": {
+        "nome": "140 - ANPC - Dispositivo 2 - km 18 - SP-150",
+        "id": "345859",
+        "guid": "253335ef-35ec-47bc-9dae-bbe124a4c65d",
+        "connectedProjectId": "a17ecee6-46ea-4d36-9dc8-1b5a6e810d6a",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "2d716fb2-cd01-4f63-8168-3e3dee515436",
+      "nomeProjeto": "140 - ANPC - Iluminação e EPS - km 12 - 24 - SP-160",
+      "origemProjectWise": {
+        "nome": "140 - ANPC - Iluminação e EPS - km 12 - 24 - SP-160",
+        "id": "298379",
+        "guid": "9800e560-835e-459a-8791-d5162f0e6ea0",
+        "connectedProjectId": "2d716fb2-cd01-4f63-8168-3e3dee515436",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "excluir_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "excluido",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/2d716fb2-cd01-4f63-8168-3e3dee515436/ProjectSettings/2d716fb2-cd01-4f63-8168-3e3dee515436/GenericDeleteItems",
+          "pageUrl": "https://pwdm.bentley.com/2d716fb2-cd01-4f63-8168-3e3dee515436/ProjectSettings/2d716fb2-cd01-4f63-8168-3e3dee515436/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "isCompleted": true
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "4d436160-39c8-4c79-9421-ce62a731c2fa",
+      "nomeProjeto": "147 - Porto de Santos  - FIPS km 64 - SP - 150",
+      "origemProjectWise": {
+        "nome": "147 - Porto de Santos  - FIPS km 64 - SP - 150",
+        "id": "394974",
+        "guid": "46dd7f4d-58f3-4e70-9c9e-df884b0fc5f9",
+        "connectedProjectId": "4d436160-39c8-4c79-9421-ce62a731c2fa",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "0cf3e9cc-b12c-4689-ae75-6d93831b8316",
+      "nomeProjeto": "ADC - km 40,8 Sul - SP-160",
+      "origemProjectWise": {
+        "nome": "ADC - km 40,8 Sul - SP-160",
+        "id": "343227",
+        "guid": "63eb5beb-72d6-4eb3-bc33-ed2b61b77dc5",
+        "connectedProjectId": "0cf3e9cc-b12c-4689-ae75-6d93831b8316",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "excluir_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "excluido",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/0cf3e9cc-b12c-4689-ae75-6d93831b8316/ProjectSettings/0cf3e9cc-b12c-4689-ae75-6d93831b8316/GenericDeleteItems",
+          "pageUrl": "https://pwdm.bentley.com/0cf3e9cc-b12c-4689-ae75-6d93831b8316/ProjectSettings/0cf3e9cc-b12c-4689-ae75-6d93831b8316/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "isCompleted": true
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "b249b5a0-49d5-4b25-ac15-99728a44c3ef",
+      "nomeProjeto": "ANPC - Área de Escape - km 45+46 - SP-150",
+      "origemProjectWise": {
+        "nome": "ANPC - Área de Escape - km 45+46 - SP-150",
+        "id": "356474",
+        "guid": "bfda9028-f15b-4504-aed1-7a244362ed6a",
+        "connectedProjectId": "b249b5a0-49d5-4b25-ac15-99728a44c3ef",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "0c8135f9-084a-4d36-ba6e-804fcbec13db",
+      "nomeProjeto": "ANPC - BSO (Com SAU) - km 47+750 - SP-150",
+      "origemProjectWise": {
+        "nome": "ANPC - BSO (Com SAU) - km 47+750 - SP-150",
+        "id": "356507",
+        "guid": "17f6a41f-092c-4921-9bc2-2dc78d6baa71",
+        "connectedProjectId": "0c8135f9-084a-4d36-ba6e-804fcbec13db",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "154d99be-0277-4267-81ed-601590f1c7a0",
+      "nomeProjeto": "ANPC - Dispositivo de Segurança 1 - Km 12 - 24 - SP-160",
+      "origemProjectWise": {
+        "nome": "ANPC - Dispositivo de Segurança 1 - Km 12 - 24 - SP-160",
+        "id": "299988",
+        "guid": "dc96022a-edaf-4ae0-afac-089de8eac1ef",
+        "connectedProjectId": "154d99be-0277-4267-81ed-601590f1c7a0",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "excluir_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "excluido",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/154d99be-0277-4267-81ed-601590f1c7a0/ProjectSettings/154d99be-0277-4267-81ed-601590f1c7a0/GenericDeleteItems",
+          "pageUrl": "https://pwdm.bentley.com/154d99be-0277-4267-81ed-601590f1c7a0/ProjectSettings/154d99be-0277-4267-81ed-601590f1c7a0/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "isCompleted": true
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "2e2a2032-7461-42cd-bcb0-dd64830b7575",
+      "nomeProjeto": "Ciclovia - km 41,8 - 44,5 Norte - SP-160",
+      "origemProjectWise": {
+        "nome": "Ciclovia - km 41,8 - 44,5 Norte - SP-160",
+        "id": "342816",
+        "guid": "0a65fab5-8b58-429d-bf5e-c874dce0bca8",
+        "connectedProjectId": "2e2a2032-7461-42cd-bcb0-dd64830b7575",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "excluir_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "excluido",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/2e2a2032-7461-42cd-bcb0-dd64830b7575/ProjectSettings/2e2a2032-7461-42cd-bcb0-dd64830b7575/GenericDeleteItems",
+          "pageUrl": "https://pwdm.bentley.com/2e2a2032-7461-42cd-bcb0-dd64830b7575/ProjectSettings/2e2a2032-7461-42cd-bcb0-dd64830b7575/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "isCompleted": true
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "37be3cb0-d764-4196-9bb1-e3a72766ef41",
+      "nomeProjeto": "Ciclovia Trecho 1 - km 59 - 65 - SP-160",
+      "origemProjectWise": {
+        "nome": "Ciclovia Trecho 1 - km 59 - 65 - SP-160",
+        "id": "100224",
+        "guid": "49f757bc-db4c-406d-87f0-9d8b2631518e",
+        "connectedProjectId": "37be3cb0-d764-4196-9bb1-e3a72766ef41",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "da8149cb-3f4c-4cde-8f5b-b07de18d39c0",
+      "nomeProjeto": "Ciclovia Trecho 2 - km 56 - 60 - SP-150",
+      "origemProjectWise": {
+        "nome": "Ciclovia Trecho 2 - km 56 - 60 - SP-150",
+        "id": "347096",
+        "guid": "a2b4485b-5eef-464e-8982-a14f6f538e34",
+        "connectedProjectId": "da8149cb-3f4c-4cde-8f5b-b07de18d39c0",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "1c979e59-1f0d-45a8-9747-252608d88d03",
+      "nomeProjeto": "Ciclovia Trecho 3 - km 0 - 2 - SPI-059",
+      "origemProjectWise": {
+        "nome": "Ciclovia Trecho 3 - km 0 - 2 - SPI-059",
+        "id": "347507",
+        "guid": "c7b27484-7fbb-4e0d-b5a3-5520ccfe05d4",
+        "connectedProjectId": "1c979e59-1f0d-45a8-9747-252608d88d03",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "e95ce456-e5dc-42f4-87e6-4f87b14f4dea",
+      "nomeProjeto": "Correção 6 Curvas Trecho Serra- km 40 - 54 - SP-150",
+      "origemProjectWise": {
+        "nome": "Correção 6 Curvas Trecho Serra- km 40 - 54 - SP-150",
+        "id": "101056",
+        "guid": "724def6d-13cb-4054-9a64-482ffe2f470f",
+        "connectedProjectId": "e95ce456-e5dc-42f4-87e6-4f87b14f4dea",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "00fe5a66-e657-405b-87f2-db780c7489cb",
+      "nomeProjeto": "Estação de bombeamento - km 42+43 - SP-160",
+      "origemProjectWise": {
+        "nome": "Estação de bombeamento - km 42+43 - SP-160",
+        "id": "345282",
+        "guid": "6947276b-917b-4631-b62a-710693841668",
+        "connectedProjectId": "00fe5a66-e657-405b-87f2-db780c7489cb",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "excluir_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "excluido",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/00fe5a66-e657-405b-87f2-db780c7489cb/ProjectSettings/00fe5a66-e657-405b-87f2-db780c7489cb/GenericDeleteItems",
+          "pageUrl": "https://pwdm.bentley.com/00fe5a66-e657-405b-87f2-db780c7489cb/ProjectSettings/00fe5a66-e657-405b-87f2-db780c7489cb/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "isCompleted": true
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "e699f6ae-bab8-4b1c-9ae4-64d025a315bb",
+      "nomeProjeto": "HS-WIM - km 264,50 Oeste - SP-160",
+      "origemProjectWise": {
+        "nome": "HS-WIM - km 264,50 Oeste - SP-160",
+        "id": "344871",
+        "guid": "a7148e49-bb0f-4794-b5af-74c84a12d558",
+        "connectedProjectId": "e699f6ae-bab8-4b1c-9ae4-64d025a315bb",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "excluir_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "excluido",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/e699f6ae-bab8-4b1c-9ae4-64d025a315bb/ProjectSettings/e699f6ae-bab8-4b1c-9ae4-64d025a315bb/GenericDeleteItems",
+          "pageUrl": "https://pwdm.bentley.com/e699f6ae-bab8-4b1c-9ae4-64d025a315bb/ProjectSettings/e699f6ae-bab8-4b1c-9ae4-64d025a315bb/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "isCompleted": true
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "00d1d3f1-8028-41cc-b514-7b0f010030f4",
+      "nomeProjeto": "HS-WIM - km 265,50 Leste - SP-160",
+      "origemProjectWise": {
+        "nome": "HS-WIM - km 265,50 Leste - SP-160",
+        "id": "344460",
+        "guid": "f9edd262-a2cc-4333-9dc7-bdad389f38b2",
+        "connectedProjectId": "00d1d3f1-8028-41cc-b514-7b0f010030f4",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "excluir_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "excluido",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/00d1d3f1-8028-41cc-b514-7b0f010030f4/ProjectSettings/00d1d3f1-8028-41cc-b514-7b0f010030f4/GenericDeleteItems",
+          "pageUrl": "https://pwdm.bentley.com/00d1d3f1-8028-41cc-b514-7b0f010030f4/ProjectSettings/00d1d3f1-8028-41cc-b514-7b0f010030f4/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "isCompleted": true
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "b0139e6d-3f9e-4c06-abfc-08e9196e8880",
+      "nomeProjeto": "Ligação Alemoa - km 64 - SP-150",
+      "origemProjectWise": {
+        "nome": "Ligação Alemoa - km 64 - SP-150",
+        "id": "98767",
+        "guid": "ef45aa98-b7cb-4dc8-bf8b-e6a5a0a570f4",
+        "connectedProjectId": "b0139e6d-3f9e-4c06-abfc-08e9196e8880",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "06a67993-1673-405f-9f21-6bb85164a4d0",
+      "nomeProjeto": "Ligação Alemoa 3ª Faixa - km 59+000 - 61+000 - SP-150",
+      "origemProjectWise": {
+        "nome": "Ligação Alemoa 3ª Faixa - km 59+000 - 61+000 - SP-150",
+        "id": "359090",
+        "guid": "de8002ba-e960-41de-8def-c1b25d7db599",
+        "connectedProjectId": "06a67993-1673-405f-9f21-6bb85164a4d0",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "27a47986-c8c5-4d28-a5b0-40c0eb5ca947",
+      "nomeProjeto": "Ligação Alemoa Dispositivo - km 61+000 - SP-150",
+      "origemProjectWise": {
+        "nome": "Ligação Alemoa Dispositivo - km 61+000 - SP-150",
+        "id": "359189",
+        "guid": "966a7368-28e5-4ea8-ae3d-e599a82d0df2",
+        "connectedProjectId": "27a47986-c8c5-4d28-a5b0-40c0eb5ca947",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "821d027e-081e-4fd3-a4fe-03998754f437",
+      "nomeProjeto": "Ligação Alemoa Passarela - km 60+520 - SP-150",
+      "origemProjectWise": {
+        "nome": "Ligação Alemoa Passarela - km 60+520 - SP-150",
+        "id": "359156",
+        "guid": "866153b9-7391-47d4-a7e8-6a23c5e2f9c0",
+        "connectedProjectId": "821d027e-081e-4fd3-a4fe-03998754f437",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "084e75e5-787e-45b7-af55-615fe1d9e516",
+      "nomeProjeto": "Ligação Alemoa Rotatória - km 62+000 - SP-150",
+      "origemProjectWise": {
+        "nome": "Ligação Alemoa Rotatória - km 62+000 - SP-150",
+        "id": "359123",
+        "guid": "e609047e-f88e-42bc-b1d1-fd4cf61ce4e1",
+        "connectedProjectId": "084e75e5-787e-45b7-af55-615fe1d9e516",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "cf0b3a97-2e42-42b8-b87e-946b946784ff",
+      "nomeProjeto": "Ligação Planalto - Baixada - Corpo de Bombeiro - SP-160",
+      "origemProjectWise": {
+        "nome": "Ligação Planalto - Baixada - Corpo de Bombeiro - SP-160",
+        "id": "359222",
+        "guid": "c5b83cb6-1b74-46d2-9b17-4e7d53dd362a",
+        "connectedProjectId": "cf0b3a97-2e42-42b8-b87e-946b946784ff",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "excluir_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "excluido",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/cf0b3a97-2e42-42b8-b87e-946b946784ff/ProjectSettings/cf0b3a97-2e42-42b8-b87e-946b946784ff/GenericDeleteItems",
+          "pageUrl": "https://pwdm.bentley.com/cf0b3a97-2e42-42b8-b87e-946b946784ff/ProjectSettings/cf0b3a97-2e42-42b8-b87e-946b946784ff/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "isCompleted": true
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "3e12ff93-12b8-4619-99ca-56863dae2993",
+      "nomeProjeto": "Ligação Planalto - Baixada - SP-160",
+      "origemProjectWise": {
+        "nome": "Ligação Planalto - Baixada - SP-160",
+        "id": "49632",
+        "guid": "7193a721-f986-4208-bd7b-ec54c7afe404",
+        "connectedProjectId": "3e12ff93-12b8-4619-99ca-56863dae2993",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "excluir_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "excluido",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/3e12ff93-12b8-4619-99ca-56863dae2993/ProjectSettings/3e12ff93-12b8-4619-99ca-56863dae2993/GenericDeleteItems",
+          "pageUrl": "https://pwdm.bentley.com/3e12ff93-12b8-4619-99ca-56863dae2993/ProjectSettings/3e12ff93-12b8-4619-99ca-56863dae2993/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "isCompleted": true
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "d4505d2c-0c52-4184-80c2-aa2092e86fb4",
+      "nomeProjeto": "Marginal Hidromar - Km 263 + 268 - SP-055",
+      "origemProjectWise": {
+        "nome": "Marginal Hidromar - Km 263 + 268 - SP-055",
+        "id": "334483",
+        "guid": "7083ea1a-283f-4e2f-96fd-c9129e149ce0",
+        "connectedProjectId": "d4505d2c-0c52-4184-80c2-aa2092e86fb4",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "e7e9f4b2-0b4e-4bd3-a37c-d1d7592732d2",
+      "nomeProjeto": "PMRv + Retorno - km 43,25 Sul - SP-160",
+      "origemProjectWise": {
+        "nome": "PMRv + Retorno - km 43,25 Sul - SP-160",
+        "id": "344049",
+        "guid": "5e9fb403-ca39-4507-b2bb-09cf4c04a800",
+        "connectedProjectId": "e7e9f4b2-0b4e-4bd3-a37c-d1d7592732d2",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "excluir_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "excluido",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/e7e9f4b2-0b4e-4bd3-a37c-d1d7592732d2/ProjectSettings/e7e9f4b2-0b4e-4bd3-a37c-d1d7592732d2/GenericDeleteItems",
+          "pageUrl": "https://pwdm.bentley.com/e7e9f4b2-0b4e-4bd3-a37c-d1d7592732d2/ProjectSettings/e7e9f4b2-0b4e-4bd3-a37c-d1d7592732d2/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "isCompleted": true
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "98551f27-827d-4c88-8393-56d6cbe0057f",
+      "nomeProjeto": "SAU - km 40,8 Sul - SP-160",
+      "origemProjectWise": {
+        "nome": "SAU - km 40,8 Sul - SP-160",
+        "id": "343638",
+        "guid": "2251172e-8e72-460a-9e1a-f5dede7d24f5",
+        "connectedProjectId": "98551f27-827d-4c88-8393-56d6cbe0057f",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "excluir_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "excluido",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/98551f27-827d-4c88-8393-56d6cbe0057f/ProjectSettings/98551f27-827d-4c88-8393-56d6cbe0057f/GenericDeleteItems",
+          "pageUrl": "https://pwdm.bentley.com/98551f27-827d-4c88-8393-56d6cbe0057f/ProjectSettings/98551f27-827d-4c88-8393-56d6cbe0057f/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "isCompleted": true
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "57d536c7-f0e4-4bef-8edb-22d11a83dcb8",
+      "nomeProjeto": "TA-01 - AVCB Túneis -SCI - Km 45+468 - SP-150",
+      "origemProjectWise": {
+        "nome": "TA-01 - AVCB Túneis -SCI - Km 45+468 - SP-150",
+        "id": "355373",
+        "guid": "cb2b54e4-db9a-4b37-9d37-233b0128e63d",
+        "connectedProjectId": "57d536c7-f0e4-4bef-8edb-22d11a83dcb8",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "5c4f59d4-84b0-4c60-ace9-c370842ad6a9",
+      "nomeProjeto": "TA-01 - AVCB Túneis -SCI - Km 46+410 - SP-160",
+      "origemProjectWise": {
+        "nome": "TA-01 - AVCB Túneis -SCI - Km 46+410 - SP-160",
+        "id": "355902",
+        "guid": "94822f60-cece-463d-b68e-49e45e311f0d",
+        "connectedProjectId": "5c4f59d4-84b0-4c60-ace9-c370842ad6a9",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "a497b314-0eb8-4c1f-92d3-042951edd6fa",
+      "nomeProjeto": "TA-02 - AVCB Túneis -SCI - Km 46+462 - SP-150",
+      "origemProjectWise": {
+        "nome": "TA-02 - AVCB Túneis -SCI - Km 46+462 - SP-150",
+        "id": "355406",
+        "guid": "f41fedc4-d2ef-40d1-b4a9-a2d40ad53cb1",
+        "connectedProjectId": "a497b314-0eb8-4c1f-92d3-042951edd6fa",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "c20d76b1-c8e1-4a30-8285-d56ec6e75dc1",
+      "nomeProjeto": "TA-02 - AVCB Túneis -SCI - Km 46+893 - SP-160",
+      "origemProjectWise": {
+        "nome": "TA-02 - AVCB Túneis -SCI - Km 46+893 - SP-160",
+        "id": "355935",
+        "guid": "f0f2d3a1-1598-488d-8f5a-c7f0b4982504",
+        "connectedProjectId": "c20d76b1-c8e1-4a30-8285-d56ec6e75dc1",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "1772add2-8d2c-41d0-8185-0060849bf145",
+      "nomeProjeto": "TA-03 - AVCB Túneis -SCI - Km 47+828 - SP-150",
+      "origemProjectWise": {
+        "nome": "TA-03 - AVCB Túneis -SCI - Km 47+828 - SP-150",
+        "id": "355836",
+        "guid": "7ef2417c-a43d-4afa-8668-86f576a14cca",
+        "connectedProjectId": "1772add2-8d2c-41d0-8185-0060849bf145",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "680fd3b2-b1e1-47b0-95e7-ae0d21e41608",
+      "nomeProjeto": "TA-04 - AVCB Túneis -SCI - Km 47+793 - SP-160",
+      "origemProjectWise": {
+        "nome": "TA-04 - AVCB Túneis -SCI - Km 47+793 - SP-160",
+        "id": "355439",
+        "guid": "b18261d7-d289-437b-bd5a-d6392f29b979",
+        "connectedProjectId": "680fd3b2-b1e1-47b0-95e7-ae0d21e41608",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "dfdbe123-7000-4b06-93cb-db272fcee773",
+      "nomeProjeto": "TA-05 - AVCB Túneis -SCI - Km 48+366 - SP-160",
+      "origemProjectWise": {
+        "nome": "TA-05 - AVCB Túneis -SCI - Km 48+366 - SP-160",
+        "id": "355472",
+        "guid": "c15595b0-baab-443f-ab07-34f4520c07ac",
+        "connectedProjectId": "dfdbe123-7000-4b06-93cb-db272fcee773",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "f40fbcaf-6a37-43b9-a457-75f45232329e",
+      "nomeProjeto": "TA-06 - AVCB Túneis -SCI - Km 48+816 - SP-160",
+      "origemProjectWise": {
+        "nome": "TA-06 - AVCB Túneis -SCI - Km 48+816 - SP-160",
+        "id": "355505",
+        "guid": "59c46343-c976-45aa-970b-d728fe012e71",
+        "connectedProjectId": "f40fbcaf-6a37-43b9-a457-75f45232329e",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "539616a1-fdb8-46d5-9119-6ddc1d0899c5",
+      "nomeProjeto": "TA-07 - AVCB Túneis -SCI - Km 49+336 - SP-160",
+      "origemProjectWise": {
+        "nome": "TA-07 - AVCB Túneis -SCI - Km 49+336 - SP-160",
+        "id": "355538",
+        "guid": "66fde11a-2f99-4549-aa58-c15c0a807079",
+        "connectedProjectId": "539616a1-fdb8-46d5-9119-6ddc1d0899c5",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "fd786fcc-27c3-4b05-8729-b1b390ff9e72",
+      "nomeProjeto": "TA-09 - AVCB Túneis -SCI - Km 50+473 - SP-160",
+      "origemProjectWise": {
+        "nome": "TA-09 - AVCB Túneis -SCI - Km 50+473 - SP-160",
+        "id": "355571",
+        "guid": "bf8b149b-0e85-4caa-817d-0151b19ca618",
+        "connectedProjectId": "fd786fcc-27c3-4b05-8729-b1b390ff9e72",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "1a8d0d75-b994-4f3a-8833-b7c5dbb516c6",
+      "nomeProjeto": "TA-10/11 - AVCB Túneis -SCI - Km 51+495 - SP-160",
+      "origemProjectWise": {
+        "nome": "TA-10/11 - AVCB Túneis -SCI - Km 51+495 - SP-160",
+        "id": "355604",
+        "guid": "e118d5b5-adea-464b-81bf-41c6dab86ae1",
+        "connectedProjectId": "1a8d0d75-b994-4f3a-8833-b7c5dbb516c6",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "2777d738-1ce2-4dba-9a38-1ad596943ff9",
+      "nomeProjeto": "TA-12 - AVCB Túneis -SCI - Km 52+842 - SP-160",
+      "origemProjectWise": {
+        "nome": "TA-12 - AVCB Túneis -SCI - Km 52+842 - SP-160",
+        "id": "355637",
+        "guid": "a5a6aa79-6de9-4411-b512-6d5a1a28701e",
+        "connectedProjectId": "2777d738-1ce2-4dba-9a38-1ad596943ff9",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "6e9e3599-ff4d-4e1d-ad94-e29c63c663f5",
+      "nomeProjeto": "TA-13 - AVCB Túneis -SCI - Km 53+511 - SP-160",
+      "origemProjectWise": {
+        "nome": "TA-13 - AVCB Túneis -SCI - Km 53+511 - SP-160",
+        "id": "355671",
+        "guid": "6925b4d2-eb18-4e7f-bafd-0b48be908826",
+        "connectedProjectId": "6e9e3599-ff4d-4e1d-ad94-e29c63c663f5",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "711ad7f7-468d-4744-bf69-4c2306e259ef",
+      "nomeProjeto": "TA-14 - AVCB Túneis -SCI - Km 54+339 - SP-160",
+      "origemProjectWise": {
+        "nome": "TA-14 - AVCB Túneis -SCI - Km 54+339 - SP-160",
+        "id": "355704",
+        "guid": "39a8f05f-0d15-4b0c-aa81-858bc866b903",
+        "connectedProjectId": "711ad7f7-468d-4744-bf69-4c2306e259ef",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "0a617e00-1144-40cb-9007-9c64fab34af6",
+      "nomeProjeto": "TD-00 - AVCB Túneis - SCI - Km 47+383 - SP-160",
+      "origemProjectWise": {
+        "nome": "TD-00 - AVCB Túneis - SCI - Km 47+383 - SP-160",
+        "id": "368109",
+        "guid": "9072cafc-55f2-4cb6-b93e-d0c91e8c3449",
+        "connectedProjectId": "0a617e00-1144-40cb-9007-9c64fab34af6",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "cf6c47eb-7d7b-48cb-ae83-0ef18dc18ebb",
+      "nomeProjeto": "TD-01 - AVCB Túneis - SCI - Km 45+693 - SP-150",
+      "origemProjectWise": {
+        "nome": "TD-01 - AVCB Túneis - SCI - Km 45+693 - SP-150",
+        "id": "368076",
+        "guid": "b3afc110-c294-460c-93e8-17d5bae70379",
+        "connectedProjectId": "cf6c47eb-7d7b-48cb-ae83-0ef18dc18ebb",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "d2223bf5-e378-4777-9d57-fbcabbd6c07f",
+      "nomeProjeto": "TD-01 - AVCB Túneis -SCI - Km 47+383 - SP-160",
+      "origemProjectWise": {
+        "nome": "TD-01 - AVCB Túneis -SCI - Km 47+383 - SP-160",
+        "id": "355770",
+        "guid": "7cd3a9bb-1dd0-4597-a37f-c59d3cda8778",
+        "connectedProjectId": "d2223bf5-e378-4777-9d57-fbcabbd6c07f",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "f08b5745-6aa7-41a2-bcf4-f7eba3f05263",
+      "nomeProjeto": "TD-02 - AVCB Túneis -SCI - Km 46+758 - SP-150",
+      "origemProjectWise": {
+        "nome": "TD-02 - AVCB Túneis -SCI - Km 46+758 - SP-150",
+        "id": "355803",
+        "guid": "3cae3cde-73d5-45f1-83b5-5fa7cd51ee42",
+        "connectedProjectId": "f08b5745-6aa7-41a2-bcf4-f7eba3f05263",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    },
+    {
+      "projectId": "e066c493-0e3e-4eaf-8b99-0fc946ff7dbc",
+      "nomeProjeto": "Túnel Quilombo - Km 252+980 - SP-055",
+      "origemProjectWise": {
+        "nome": "Túnel Quilombo - Km 252+980 - SP-055",
+        "id": "355869",
+        "guid": "8987796c-91dc-4c60-aedf-39e697f42659",
+        "connectedProjectId": "e066c493-0e3e-4eaf-8b99-0fc946ff7dbc",
+        "concessao": "Ecovias Imigrantes",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "ra***@ecorodovias.com.br",
+      "acao_solicitada": "excluir",
+      "acao_planejada": "ignorar_usuario_ausente",
+      "situacao_usuario": "candidato",
+      "resultado": {
+        "status": "ignorado",
+        "mensagem": "Usuario nao esta como participante direto neste projeto."
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+﻿timestamp,nomeProjeto,projectId,email,acao_solicitada,acao_planejada,situacao_usuario,status,http_status
+2026-07-23T16:00:06,105 - Estação Elevatória - km 64 - SP-150,09c8f33a-acc0-4b0d-ae18-2c4180ccb683,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,126 - Iluminação km 0 - 8 SPA- 248-055 km 0 ao 8,2b27a49d-a388-4e52-ae35-ff728cadc0b8,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,132 - Curva do S - Dispositivos - Km 291 - SP-055,d8c84018-23b7-4435-afa5-a93278e4c7f3,ra***@ecorodovias.com.br,excluir,excluir_participante,participante,excluido,200
+2026-07-23T16:00:06,133-Marg. Hidromar-3ª Pista-km 264 ao 265-SP-055,1fb6b5c2-303e-4fe1-89c9-bde78a06e1ab,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,137 - Curva 1 - km 41+700 - SP-150,dc6a23a1-b569-44ed-a183-18d340f3b240,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,137 - Curva 2 - km 44+580 - SP-150,a4df6902-713f-46f3-9869-d1dfe7a13441,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,137 - Curva 3 - km 46+920 - SP-150,2d83d988-ed83-4fe9-b5d5-0a57ec726e07,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,137 - Curva 4 - km 44+410 - SP-150,7ba7cb29-1a56-4245-9bc2-879698bac18c,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,137 - Curva 5 - km 43+260 - SP-150,471bbafa-e501-4cf4-b730-1f3d1d42bf51,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,137 - Curva 6 - km 41+730 - SP-150,591bb5af-6517-4cc7-9aa9-77302c35a024,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,140 - ANPC - Dispositivo 1 - km 16 - SP-150,f5e8427e-328c-482c-a5a5-a10441946254,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,140 - ANPC - Dispositivo 2 - km 18 - SP-150,a17ecee6-46ea-4d36-9dc8-1b5a6e810d6a,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,140 - ANPC - Iluminação e EPS - km 12 - 24 - SP-160,2d716fb2-cd01-4f63-8168-3e3dee515436,ra***@ecorodovias.com.br,excluir,excluir_participante,participante,excluido,200
+2026-07-23T16:00:06,147 - Porto de Santos  - FIPS km 64 - SP - 150,4d436160-39c8-4c79-9421-ce62a731c2fa,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,"ADC - km 40,8 Sul - SP-160",0cf3e9cc-b12c-4689-ae75-6d93831b8316,ra***@ecorodovias.com.br,excluir,excluir_participante,participante,excluido,200
+2026-07-23T16:00:06,ANPC - Área de Escape - km 45+46 - SP-150,b249b5a0-49d5-4b25-ac15-99728a44c3ef,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,nao_encontrado,ignorado,
+2026-07-23T16:00:06,ANPC - BSO (Com SAU) - km 47+750 - SP-150,0c8135f9-084a-4d36-ba6e-804fcbec13db,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,ANPC - Dispositivo de Segurança 1 - Km 12 - 24 - SP-160,154d99be-0277-4267-81ed-601590f1c7a0,ra***@ecorodovias.com.br,excluir,excluir_participante,participante,excluido,200
+2026-07-23T16:00:06,"Ciclovia - km 41,8 - 44,5 Norte - SP-160",2e2a2032-7461-42cd-bcb0-dd64830b7575,ra***@ecorodovias.com.br,excluir,excluir_participante,participante,excluido,200
+2026-07-23T16:00:06,Ciclovia Trecho 1 - km 59 - 65 - SP-160,37be3cb0-d764-4196-9bb1-e3a72766ef41,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,Ciclovia Trecho 2 - km 56 - 60 - SP-150,da8149cb-3f4c-4cde-8f5b-b07de18d39c0,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,Ciclovia Trecho 3 - km 0 - 2 - SPI-059,1c979e59-1f0d-45a8-9747-252608d88d03,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,Correção 6 Curvas Trecho Serra- km 40 - 54 - SP-150,e95ce456-e5dc-42f4-87e6-4f87b14f4dea,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,Estação de bombeamento - km 42+43 - SP-160,00fe5a66-e657-405b-87f2-db780c7489cb,ra***@ecorodovias.com.br,excluir,excluir_participante,participante,excluido,200
+2026-07-23T16:00:06,"HS-WIM - km 264,50 Oeste - SP-160",e699f6ae-bab8-4b1c-9ae4-64d025a315bb,ra***@ecorodovias.com.br,excluir,excluir_participante,participante,excluido,200
+2026-07-23T16:00:06,"HS-WIM - km 265,50 Leste - SP-160",00d1d3f1-8028-41cc-b514-7b0f010030f4,ra***@ecorodovias.com.br,excluir,excluir_participante,participante,excluido,200
+2026-07-23T16:00:06,Ligação Alemoa - km 64 - SP-150,b0139e6d-3f9e-4c06-abfc-08e9196e8880,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,Ligação Alemoa 3ª Faixa - km 59+000 - 61+000 - SP-150,06a67993-1673-405f-9f21-6bb85164a4d0,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,Ligação Alemoa Dispositivo - km 61+000 - SP-150,27a47986-c8c5-4d28-a5b0-40c0eb5ca947,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,Ligação Alemoa Passarela - km 60+520 - SP-150,821d027e-081e-4fd3-a4fe-03998754f437,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,Ligação Alemoa Rotatória - km 62+000 - SP-150,084e75e5-787e-45b7-af55-615fe1d9e516,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,Ligação Planalto - Baixada - Corpo de Bombeiro - SP-160,cf0b3a97-2e42-42b8-b87e-946b946784ff,ra***@ecorodovias.com.br,excluir,excluir_participante,participante,excluido,200
+2026-07-23T16:00:06,Ligação Planalto - Baixada - SP-160,3e12ff93-12b8-4619-99ca-56863dae2993,ra***@ecorodovias.com.br,excluir,excluir_participante,participante,excluido,200
+2026-07-23T16:00:06,Marginal Hidromar - Km 263 + 268 - SP-055,d4505d2c-0c52-4184-80c2-aa2092e86fb4,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,"PMRv + Retorno - km 43,25 Sul - SP-160",e7e9f4b2-0b4e-4bd3-a37c-d1d7592732d2,ra***@ecorodovias.com.br,excluir,excluir_participante,participante,excluido,200
+2026-07-23T16:00:06,"SAU - km 40,8 Sul - SP-160",98551f27-827d-4c88-8393-56d6cbe0057f,ra***@ecorodovias.com.br,excluir,excluir_participante,participante,excluido,200
+2026-07-23T16:00:06,TA-01 - AVCB Túneis -SCI - Km 45+468 - SP-150,57d536c7-f0e4-4bef-8edb-22d11a83dcb8,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,TA-01 - AVCB Túneis -SCI - Km 46+410 - SP-160,5c4f59d4-84b0-4c60-ace9-c370842ad6a9,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,TA-02 - AVCB Túneis -SCI - Km 46+462 - SP-150,a497b314-0eb8-4c1f-92d3-042951edd6fa,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,TA-02 - AVCB Túneis -SCI - Km 46+893 - SP-160,c20d76b1-c8e1-4a30-8285-d56ec6e75dc1,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,TA-03 - AVCB Túneis -SCI - Km 47+828 - SP-150,1772add2-8d2c-41d0-8185-0060849bf145,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,TA-04 - AVCB Túneis -SCI - Km 47+793 - SP-160,680fd3b2-b1e1-47b0-95e7-ae0d21e41608,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,TA-05 - AVCB Túneis -SCI - Km 48+366 - SP-160,dfdbe123-7000-4b06-93cb-db272fcee773,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,TA-06 - AVCB Túneis -SCI - Km 48+816 - SP-160,f40fbcaf-6a37-43b9-a457-75f45232329e,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,TA-07 - AVCB Túneis -SCI - Km 49+336 - SP-160,539616a1-fdb8-46d5-9119-6ddc1d0899c5,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,TA-09 - AVCB Túneis -SCI - Km 50+473 - SP-160,fd786fcc-27c3-4b05-8729-b1b390ff9e72,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,TA-10/11 - AVCB Túneis -SCI - Km 51+495 - SP-160,1a8d0d75-b994-4f3a-8833-b7c5dbb516c6,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,TA-12 - AVCB Túneis -SCI - Km 52+842 - SP-160,2777d738-1ce2-4dba-9a38-1ad596943ff9,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,TA-13 - AVCB Túneis -SCI - Km 53+511 - SP-160,6e9e3599-ff4d-4e1d-ad94-e29c63c663f5,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,TA-14 - AVCB Túneis -SCI - Km 54+339 - SP-160,711ad7f7-468d-4744-bf69-4c2306e259ef,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,TD-00 - AVCB Túneis - SCI - Km 47+383 - SP-160,0a617e00-1144-40cb-9007-9c64fab34af6,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,TD-01 - AVCB Túneis - SCI - Km 45+693 - SP-150,cf6c47eb-7d7b-48cb-ae83-0ef18dc18ebb,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,TD-01 - AVCB Túneis -SCI - Km 47+383 - SP-160,d2223bf5-e378-4777-9d57-fbcabbd6c07f,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,TD-02 - AVCB Túneis -SCI - Km 46+758 - SP-150,f08b5745-6aa7-41a2-bcf4-f7eba3f05263,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,
+2026-07-23T16:00:06,Túnel Quilombo - Km 252+980 - SP-055,e066c493-0e3e-4eaf-8b99-0fc946ff7dbc,ra***@ecorodovias.com.br,excluir,ignorar_usuario_ausente,candidato,ignorado,

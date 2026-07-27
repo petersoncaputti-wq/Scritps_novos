@@ -1,0 +1,27 @@
+﻿**********************
+Início da transcrição do Windows PowerShell
+Hora de início: 20260727095334
+Nome de Usuário: CAPUTTI_TECH\peter
+Executar como Usuário: CAPUTTI_TECH\peter
+Nome da Configuração: 
+Computador: CAPUTTI_TECH (Microsoft Windows NT 10.0.26200.0)
+Aplicativo Host: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\peter\AppData\Local\Programs\Microsoft VS Code\1b6a188127\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+ID do Processo: 13252
+PSVersion: 5.1.26100.8894
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8894
+BuildVersion: 10.0.26100.8894
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+[2026-07-27 09:53:34.582] [INFO] Início da simulação. Nenhuma operação de gravação será executada.
+[2026-07-27 09:53:34.587] [INFO] Datasource: 01SSRV305.ECSC.ECORODOVIAS.CORP:ecorodovias-pw-01
+[2026-07-27 09:53:34.588] [INFO] Usuário: admin
+[2026-07-27 09:53:34.589] [INFO] Pesquisa: Scripts\Docs_projetista
+[2026-07-27 09:53:34.590] [INFO] Limite local: 50 documento(s)
+[2026-07-27 09:53:34.590] [INFO] Arquivo de log: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Logs\DevolveDocumentosProjetista_Simulacao_20260727_095334.log
+[2026-07-27 09:53:34.591] [INFO] Iniciando login lógico no ProjectWise.
+[2026-07-27 09:53:40.747] [INFO] Login no ProjectWise concluído.
+[2026-07-27 09:53:40.751] [INFO] Iniciando consulta da pesquisa 'Scripts\Docs_projetista'.

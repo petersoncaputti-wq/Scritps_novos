@@ -1,0 +1,74 @@
+﻿**********************
+Início da transcrição do Windows PowerShell
+Hora de início: 20260727140658
+Nome de Usuário: CAPUTTI_TECH\peter
+Executar como Usuário: CAPUTTI_TECH\peter
+Nome da Configuração: 
+Computador: CAPUTTI_TECH (Microsoft Windows NT 10.0.26200.0)
+Aplicativo Host: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command try { [Console]::OutputEncoding=[System.Text.Encoding]::UTF8 } catch {}
+& '.\DevolveDocumentosProjetista.Simulacao.ps1' -UnidadeFiltro 'ECVI' -ProjetoFiltro 'ADC Sul' -Executar -ConfirmarExecucao 'CRIAR GRD'
+ID do Processo: 20580
+PSVersion: 5.1.26100.8894
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8894
+BuildVersion: 10.0.26100.8894
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+[2026-07-27 14:06:58.751] [INFO] Início da simulação. Nenhuma operação de gravação será executada.
+[2026-07-27 14:06:58.759] [INFO] Datasource: 01SSRV305.ECSC.ECORODOVIAS.CORP:ecorodovias-pw-01
+[2026-07-27 14:06:58.760] [INFO] Usuário: admin
+[2026-07-27 14:06:58.761] [INFO] Consulta direta por estado(s): Emitido pela Engenharia
+[2026-07-27 14:06:58.762] [INFO] Versões anteriores: incluídas (-GetVersionsToo).
+[2026-07-27 14:06:58.765] [INFO] Filtro de Unidade: ECVI
+[2026-07-27 14:06:58.766] [INFO] Filtro de Projeto: ADC Sul
+[2026-07-27 14:06:58.766] [INFO] Limite local: nenhum; todos os resultados da pesquisa serão analisados.
+[2026-07-27 14:06:58.767] [INFO] Diretório local dos Excels: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\SaidaSimulacao\20260727_140658
+[2026-07-27 14:06:58.768] [INFO] Arquivo de log: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Logs\DevolveDocumentosProjetista_Simulacao_20260727_140658.log
+[2026-07-27 14:06:58.774] [INFO] Modo: EXECUÇÃO REAL.
+[2026-07-27 14:06:58.775] [INFO] Iniciando login lógico no ProjectWise.
+[2026-07-27 14:07:05.223] [INFO] Login no ProjectWise concluído.
+[2026-07-27 14:07:05.223] [INFO] Iniciando consulta direta no ProjectWise.
+[2026-07-27 14:07:15.065] [INFO] Tempo total da consulta: 00:00:09.
+[2026-07-27 14:07:15.069] [INFO] Consulta concluída. Itens recebidos pelo simulador: 54189.
+[2026-07-27 14:07:15.830] [INFO] Documentos após os filtros locais: 431.
+[2026-07-27 14:07:15.832] [INFO] Agrupando documentos por PoderConcedente, Unidade e Projeto.
+[2026-07-27 14:07:15.858] [INFO] Total de grupos encontrados: 1.
+[2026-07-27 14:07:15.873] [INFO] Analisando grupo 'GRD-COM-ECVI-ADC Sul' (ARTESP) com 431 documento(s).
+[2026-07-27 14:07:16.082] [AVISO] Estrutura ausente para 'GRD-COM-ECVI-ADC Sul'. Seriam criadas: Engenharia\Ecovias Imigrantes\Projetos\ADC Sul\0 - Documentos Gerais; Engenharia\Ecovias Imigrantes\Projetos\ADC Sul\0 - Documentos Gerais\Documentos com unidade; Engenharia\Ecovias Imigrantes\Projetos\ADC Sul\0 - Documentos Gerais\Documentos com unidade\GRD-COM-ECVI-ADC Sul-0000001
+[2026-07-27 14:07:16.083] [INFO] Grupo 'GRD-COM-ECVI-ADC Sul': GRD prevista 'GRD-COM-ECVI-ADC Sul-0000001'; destino 'Engenharia\Ecovias Imigrantes\Projetos\ADC Sul\0 - Documentos Gerais\Documentos com unidade\GRD-COM-ECVI-ADC Sul-0000001'. Nenhuma pasta receberá ambiente.
+[2026-07-27 14:07:17.185] [INFO] Excel local gerado para 'GRD-COM-ECVI-ADC Sul': C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\SaidaSimulacao\20260727_140658\ARTESP\GRD-COM-ECVI-ADC Sul-0000001.xlsx
+[2026-07-27 14:07:17.218] [INFO] Criando pasta sem ambiente: Engenharia\Ecovias Imigrantes\Projetos\ADC Sul\0 - Documentos Gerais
+[2026-07-27 14:07:17.531] [INFO] Pasta criada: Engenharia\Ecovias Imigrantes\Projetos\ADC Sul\0 - Documentos Gerais (ProjectID=427735).
+[2026-07-27 14:07:17.571] [INFO] Criando pasta sem ambiente: Engenharia\Ecovias Imigrantes\Projetos\ADC Sul\0 - Documentos Gerais\Documentos com unidade
+[2026-07-27 14:07:17.833] [INFO] Pasta criada: Engenharia\Ecovias Imigrantes\Projetos\ADC Sul\0 - Documentos Gerais\Documentos com unidade (ProjectID=427736).
+[2026-07-27 14:07:17.875] [INFO] Criando pasta sem ambiente: Engenharia\Ecovias Imigrantes\Projetos\ADC Sul\0 - Documentos Gerais\Documentos com unidade\GRD-COM-ECVI-ADC Sul-0000001
+[2026-07-27 14:07:18.240] [INFO] Pasta criada: Engenharia\Ecovias Imigrantes\Projetos\ADC Sul\0 - Documentos Gerais\Documentos com unidade\GRD-COM-ECVI-ADC Sul-0000001 (ProjectID=427737).
+[2026-07-27 14:07:18.465] [INFO] Importando Excel na pasta final: GRD-COM-ECVI-ADC Sul-0000001.xlsx
+[2026-07-27 14:07:18.946] [INFO] Excel importado com sucesso: DocumentID=1; caminho=Engenharia\Ecovias Imigrantes\Projetos\ADC Sul\0 - Documentos Gerais\Documentos com unidade\GRD-COM-ECVI-ADC Sul-0000001\GRD-COM-ECVI-ADC Sul-0000001.xlsx
+
+[2026-07-27 14:07:18.950] [INFO] EXECUÇÃO REAL CONCLUÍDA — estrutura e planilha criadas no ProjectWise.
+[2026-07-27 14:07:18.952] [INFO] Documentos considerados: 431 (pesquisa completa).
+
+Grupo                PoderConcedente GRDPrevista                  Documentos ExcelLocal
+-----                --------------- -----------                  ---------- ----------
+GRD-COM-ECVI-ADC Sul ARTESP          GRD-COM-ECVI-ADC Sul-0000001        431 C:\Users\peter\OneDrive - Grupo Ecorodo...
+
+
+
+Resumo:
+
+Grupo                PoderConcedente GRDPrevista                  Documentos DestinoPrevisto
+-----                --------------- -----------                  ---------- ---------------
+GRD-COM-ECVI-ADC Sul ARTESP          GRD-COM-ECVI-ADC Sul-0000001        431 Engenharia\Ecovias Imigrantes\Projetos\...
+
+
+[2026-07-27 14:07:18.967] [INFO] Encerrando login no ProjectWise.
+[2026-07-27 14:07:19.060] [INFO] Logout concluído.
+[2026-07-27 14:07:19.062] [INFO] Fim da execução. Log: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Logs\DevolveDocumentosProjetista_Simulacao_20260727_140658.log
+**********************
+Fim da transcrição do Windows PowerShell
+Hora de término: 20260727140719
+**********************

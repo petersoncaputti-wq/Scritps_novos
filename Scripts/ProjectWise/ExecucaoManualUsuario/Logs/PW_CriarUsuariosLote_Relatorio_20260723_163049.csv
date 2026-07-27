@@ -1,0 +1,7 @@
+﻿"Linha";"UserName";"Description";"Email";"SecurityProvider";"IMSUser";"Status";"Acao";"Mensagem";"Acessos"
+"2";"Maria Izabel Bonafé Fujimori";"Gestor Unidade";"Maria.I.Fujimori@ecorodovias.com.br;";"";"True";"OK";"Criado";"Processado com sucesso.";"Sem grupos/user lists"
+"3";"Beatriz Souza Carrato";"Gestor Unidade";"beatriz.carrato@ecorodovias.com.br;";"";"True";"OK";"JaExistia";"Processado com sucesso.";"Sem grupos/user lists"
+"4";"Arthur Enrico Milare De Macedo";"Gestor Unidade";"arthur.macedo@ecorodovias.com.br;";"";"True";"OK";"JaExistia";"Processado com sucesso.";"Sem grupos/user lists"
+"5";"Bruno Nardelli";"Gestor Unidade";"bruno.n.camargo@ecorodovias.com.br;";"";"True";"OK";"Criado";"Processado com sucesso.";"Sem grupos/user lists"
+"6";"";"";"";"";"True";"INVALIDO";"Validacao";"Name vazio; E-mail vazio";""
+"7";"";"";"";"";"True";"INVALIDO";"Validacao";"Name vazio; E-mail vazio";""

@@ -1,0 +1,35 @@
+﻿**********************
+Início da transcrição do Windows PowerShell
+Hora de início: 20260727094445
+Nome de Usuário: CAPUTTI_TECH\peter
+Executar como Usuário: CAPUTTI_TECH\peter
+Nome da Configuração: 
+Computador: CAPUTTI_TECH (Microsoft Windows NT 10.0.26200.0)
+Aplicativo Host: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command try { [Console]::OutputEncoding=[System.Text.Encoding]::UTF8 } catch {}
+$path=(Resolve-Path -LiteralPath '.\DevolveDocumentosProjetista.Simulacao.ps1').Path; $content=[System.IO.File]::ReadAllText($path); [System.IO.File]::WriteAllText($path,$content,[System.Text.UTF8Encoding]::new($true)); $bytes=[System.IO.File]::ReadAllBytes($path); 'BOM UTF-8: {0:X2} {1:X2} {2:X2}' -f $bytes[0],$bytes[1],$bytes[2]; & '.\DevolveDocumentosProjetista.Simulacao.ps1' -SomenteTestarLogin
+ID do Processo: 1388
+PSVersion: 5.1.26100.8894
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8894
+BuildVersion: 10.0.26100.8894
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+[2026-07-27 09:44:45.444] [INFO] Início da simulação. Nenhuma operação de gravação será executada.
+[2026-07-27 09:44:45.448] [INFO] Datasource: 01SSRV305.ECSC.ECORODOVIAS.CORP:ecorodovias-pw-01
+[2026-07-27 09:44:45.450] [INFO] Usuário: admin
+[2026-07-27 09:44:45.451] [INFO] Pesquisa: Scripts\Docs_projetista
+[2026-07-27 09:44:45.452] [INFO] Limite local: 50 documento(s)
+[2026-07-27 09:44:45.452] [INFO] Arquivo de log: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Logs\DevolveDocumentosProjetista_Simulacao_20260727_094445.log
+[2026-07-27 09:44:45.453] [INFO] Iniciando login lógico no ProjectWise.
+[2026-07-27 09:44:51.983] [INFO] Login no ProjectWise concluído.
+[2026-07-27 09:44:51.986] [INFO] Teste de login concluído. A pesquisa não será executada.
+[2026-07-27 09:44:51.987] [INFO] Encerrando login no ProjectWise.
+[2026-07-27 09:44:52.083] [INFO] Logout concluído.
+[2026-07-27 09:44:52.084] [INFO] Fim da execução. Log: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Logs\DevolveDocumentosProjetista_Simulacao_20260727_094445.log
+**********************
+Fim da transcrição do Windows PowerShell
+Hora de término: 20260727094452
+**********************

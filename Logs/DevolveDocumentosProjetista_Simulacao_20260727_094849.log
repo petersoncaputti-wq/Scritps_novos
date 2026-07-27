@@ -1,0 +1,32 @@
+﻿**********************
+Início da transcrição do Windows PowerShell
+Hora de início: 20260727094849
+Nome de Usuário: CAPUTTI_TECH\peter
+Executar como Usuário: CAPUTTI_TECH\peter
+Nome da Configuração: 
+Computador: CAPUTTI_TECH (Microsoft Windows NT 10.0.26200.0)
+Aplicativo Host: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\peter\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\peter\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\peter\AppData\Roaming\Code\logs\20260727T084531\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\peter\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-1812-820512.json' -FeatureFlags @() 
+ID do Processo: 27448
+PSVersion: 5.1.26100.8894
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8894
+BuildVersion: 10.0.26100.8894
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+[2026-07-27 09:48:49.359] [INFO] Início da simulação. Nenhuma operação de gravação será executada.
+[2026-07-27 09:48:49.361] [INFO] Datasource: 01SSRV305.ECSC.ECORODOVIAS.CORP:ecorodovias-pw-01
+[2026-07-27 09:48:49.361] [INFO] Usuário: admin
+[2026-07-27 09:48:49.362] [INFO] Pesquisa: Scripts\Docs_projetista
+[2026-07-27 09:48:49.363] [INFO] Limite local: 50 documento(s)
+[2026-07-27 09:48:49.363] [INFO] Arquivo de log: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Logs\DevolveDocumentosProjetista_Simulacao_20260727_094849.log
+[2026-07-27 09:48:49.364] [INFO] Iniciando login lógico no ProjectWise.
+[2026-07-27 09:48:56.167] [INFO] Login no ProjectWise concluído.
+[2026-07-27 09:48:56.171] [INFO] Iniciando consulta da pesquisa 'Scripts\Docs_projetista'.
