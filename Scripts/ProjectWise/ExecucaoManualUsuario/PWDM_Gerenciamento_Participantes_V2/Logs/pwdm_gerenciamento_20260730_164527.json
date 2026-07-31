@@ -1,0 +1,2574 @@
+{
+  "timestamp": "2026-07-30T16:45:27",
+  "operacoes": [
+    {
+      "email": "jo***@ecovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Alteamento de Greide - km 163 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Alteamento de Greide - km 163 - BR101/ES",
+        "id": "245710",
+        "guid": "cb1c86c5-f3b8-446d-b026-7bcbc62988b5",
+        "connectedProjectId": "51c13f2f-3ee2-4822-b711-0a1e4191a31a",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "51c13f2f-3ee2-4822-b711-0a1e4191a31a",
+      "projectId": "51c13f2f-3ee2-4822-b711-0a1e4191a31a",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "51c13f2f-3ee2-4822-b711-0a1e4191a31a"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "cb27a1de-a68f-4fe4-b2e0-79592308af5d",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "f7364e49-f7c6-4e12-85bb-fdded58d08f1",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "47d2ba27-b197-4691-814e-01b54ae058ad",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "42c9e38d-e0d5-436c-a5eb-b8b68ff1cd7f",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "jo***@ecovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Ciclovia de Linhares - km 138,794 +144,750 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Ciclovia de Linhares - km 138,794 +144,750 - BR101/ES",
+        "id": "244929",
+        "guid": "35e2ef7f-fd6d-4647-b746-33aeb0cc389a",
+        "connectedProjectId": "fb7e0380-e5ad-4201-93a1-f8e0dd7530ad",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "fb7e0380-e5ad-4201-93a1-f8e0dd7530ad",
+      "projectId": "fb7e0380-e5ad-4201-93a1-f8e0dd7530ad",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "fb7e0380-e5ad-4201-93a1-f8e0dd7530ad"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "6c4a308a-16d3-4b5c-bb56-e0774bcc63a8",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "5c4d5aca-f558-4563-9055-fe17214e60ca",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "31bfd51a-803b-4410-8efa-68e9f6000594",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "961966e6-cb76-458f-ba16-da0489481bf2",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "jo***@ecovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Contorno de Fundão - km 227 + 232 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Contorno de Fundão - km 227 + 232 - BR101/ES",
+        "id": "242586",
+        "guid": "c11fc2f3-edb1-46a8-bbd6-562d8a34f778",
+        "connectedProjectId": "b33b8577-c8b6-4f2a-8636-1cb79fe8e847",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "b33b8577-c8b6-4f2a-8636-1cb79fe8e847",
+      "projectId": "b33b8577-c8b6-4f2a-8636-1cb79fe8e847",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "b33b8577-c8b6-4f2a-8636-1cb79fe8e847"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "cded4ef3-c82c-420e-8bc9-5ac611572f9f",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "66dae75e-8872-47fd-8f15-8c60b03eecf3",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "ab65ff79-bf70-42c0-a8d4-2708ceef98d1",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "40880ae5-688d-43be-aa42-e6de20755d3e",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "jo***@ecovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Contorno de Ibiraçu - km 212 + 215 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Contorno de Ibiraçu - km 212 + 215 - BR101/ES",
+        "id": "244148",
+        "guid": "bedc1db0-b65c-47a1-bbff-a45fb31ab049",
+        "connectedProjectId": "2972c1b9-4938-4819-88ee-8aa0399e1519",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "2972c1b9-4938-4819-88ee-8aa0399e1519",
+      "projectId": "2972c1b9-4938-4819-88ee-8aa0399e1519",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "2972c1b9-4938-4819-88ee-8aa0399e1519"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "70d7f4ca-ebaa-4301-8e2b-38da859813df",
+          "displayName": "Imodel",
+          "type": "enterprise"
+        },
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "9a07160a-a0eb-4fd4-8e79-9d59c887d43c",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "e0f3f4b1-c15d-48f3-ad67-c3dc6246aaaf",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "0b6ea509-ec03-462c-bbba-8b7106c82a51",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "d03425c1-4304-4636-a3da-4486689be425",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "jo***@ecovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Contorno de Vitória Dispositivo 1 - km 284,710 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Contorno de Vitória Dispositivo 1 - km 284,710 - BR101/ES",
+        "id": "243367",
+        "guid": "c36a4880-8681-4256-85cf-957ef97f1108",
+        "connectedProjectId": "c26b2400-4294-4331-a490-1aeb0a2e325c",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "c26b2400-4294-4331-a490-1aeb0a2e325c",
+      "projectId": "c26b2400-4294-4331-a490-1aeb0a2e325c",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "175735ea-3116-499f-a776-4634bcd6dcbd",
+        "email": "jo***@ecovias.com.br",
+        "givenName": "João",
+        "surname": "Moraes",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-03-04T14:38:33.54Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "c26b2400-4294-4331-a490-1aeb0a2e325c"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "8af6e088-6bfd-44f2-adb4-cfcddb3bb988",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "3194e50c-11c0-4478-ba86-08f21df3c71c",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "3295d1bf-c27f-47aa-b638-eaed4224e80e",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "2d974162-b199-4f9d-96e8-7e6a4348bf15",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "jo***@ecovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Contorno de Vitória Dispositivo 2 - km 287,730 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Contorno de Vitória Dispositivo 2 - km 287,730 - BR101/ES",
+        "id": "332794",
+        "guid": "f4e339b2-264c-4cd8-a455-46ca7715ecfe",
+        "connectedProjectId": "b763c0cf-7622-4a0b-9f0e-ac40e56d8056",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "b763c0cf-7622-4a0b-9f0e-ac40e56d8056",
+      "projectId": "b763c0cf-7622-4a0b-9f0e-ac40e56d8056",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "175735ea-3116-499f-a776-4634bcd6dcbd",
+        "email": "jo***@ecovias.com.br",
+        "givenName": "João",
+        "surname": "Moraes",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-03-06T15:47:03.723Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "b763c0cf-7622-4a0b-9f0e-ac40e56d8056"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "c7b1d42a-8157-4ced-ad5c-8e825eade9d5",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "45918ec8-6ec9-4510-9fa5-2c17a24b095c",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "6043dea5-deaa-4924-9dc6-b833d1941c8c",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "3c6ff59d-04d1-4af9-a3eb-0637f765ba37",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "jo***@ecovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Contorno de Vitória Marginais - km 278,900 + 291,000 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Contorno de Vitória Marginais - km 278,900 + 291,000 - BR101/ES",
+        "id": "333576",
+        "guid": "647876ab-ac2a-4c19-b1c1-5dfeeffb38ca",
+        "connectedProjectId": "b83f14cb-2c8b-4cc8-af10-f75eaa6a1a59",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "b83f14cb-2c8b-4cc8-af10-f75eaa6a1a59",
+      "projectId": "b83f14cb-2c8b-4cc8-af10-f75eaa6a1a59",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "b83f14cb-2c8b-4cc8-af10-f75eaa6a1a59"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "70d7f4ca-ebaa-4301-8e2b-38da859813df",
+          "displayName": "Imodel",
+          "type": "enterprise"
+        },
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "02f78ff9-89fa-42a0-bdc3-ec9f5637b6cf",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "5e7756bc-fe04-4d78-9a62-2c24a345a70f",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "64d79423-a36d-4b36-9038-c703c9320af1",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "e880602b-455e-4b6a-9ea0-97982b1f8eb7",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "jo***@ecovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Duplicação SH C - km 203,6 + 222,9 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH C - km 203,6 + 222,9 - BR101/ES",
+        "id": "248054",
+        "guid": "9b021995-fdbc-48e7-a9dc-e90b3cb03ee7",
+        "connectedProjectId": "b2a0d093-b73f-4a35-80a5-72482941a2d2",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "b2a0d093-b73f-4a35-80a5-72482941a2d2",
+      "projectId": "b2a0d093-b73f-4a35-80a5-72482941a2d2",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "b2a0d093-b73f-4a35-80a5-72482941a2d2"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "1c8b5710-6a9f-4f23-b500-c6382246b058",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "c47484a7-0410-451e-ab62-a4fe51791bb4",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "a0e5205e-7f01-40a4-84df-c7decd1911dd",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "3aad5311-56eb-4c73-a406-c6d164616ed7",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "jo***@ecovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Duplicação SH C (Contorno de Fundão) - km 222,9 + 227 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH C (Contorno de Fundão) - km 222,9 + 227 - BR101/ES",
+        "id": "351230",
+        "guid": "46971796-c534-4541-a3a4-2c73b01b23c2",
+        "connectedProjectId": "0c26eb3d-651b-4635-a704-fc336bbdd5fb",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "0c26eb3d-651b-4635-a704-fc336bbdd5fb",
+      "projectId": "0c26eb3d-651b-4635-a704-fc336bbdd5fb",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "0c26eb3d-651b-4635-a704-fc336bbdd5fb"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "c7218a79-592f-4448-9292-6a74cec0e748",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "3f458f4a-2909-4213-8743-b3f223213bc2",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "67d3f8d5-7048-49b0-9a81-fa95e752dc9f",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "f0be1f2c-c1eb-4ef4-ba8b-2cdf6882858f",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "jo***@ecovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Duplicação SH C (Contorno de Ibiraçu) - km 210,9 + 212 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH C (Contorno de Ibiraçu) - km 210,9 + 212 - BR101/ES",
+        "id": "350448",
+        "guid": "898c3cfc-ac08-4d92-8649-c4d3d8e4d9c5",
+        "connectedProjectId": "fc3fe767-6888-4b53-b265-340717d202a4",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "fc3fe767-6888-4b53-b265-340717d202a4",
+      "projectId": "fc3fe767-6888-4b53-b265-340717d202a4",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "fc3fe767-6888-4b53-b265-340717d202a4"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "70d7f4ca-ebaa-4301-8e2b-38da859813df",
+          "displayName": "Imodel",
+          "type": "enterprise"
+        },
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "c3d30f9c-9bb6-4907-bad4-05ce40c4b61a",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "71459d82-38a0-48bf-9add-b895aba70440",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "8cfb1b20-c7ed-4829-bd35-98929cb589b1",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "dd3df7f9-f2a4-43c8-bb66-47cc9aca9825",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "jo***@ecovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Duplicação SH D1 - km 242 + 247 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH D1 - km 242 + 247 - BR101/ES",
+        "id": "248835",
+        "guid": "3ac231b6-a53b-4ab3-a2e6-7bc88a950419",
+        "connectedProjectId": "02829d40-9e38-4ef4-ac8f-0229db57e1e2",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "02829d40-9e38-4ef4-ac8f-0229db57e1e2",
+      "projectId": "02829d40-9e38-4ef4-ac8f-0229db57e1e2",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "02829d40-9e38-4ef4-ac8f-0229db57e1e2"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "e67eaee1-ad4d-4059-94d0-52584ffffb0e",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "c08c8aa3-2403-4bb2-ad3e-31721b45599c",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "0352787a-9eb6-4f41-9737-776181d2e43e",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "45e1a76e-3325-4bd0-8701-91e9a9d171dd",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "jo***@ecovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Duplicação SH D2 - km 231,9 + 242 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH D2 - km 231,9 + 242 - BR101/ES",
+        "id": "249616",
+        "guid": "d9b8acf2-eb1b-4b6b-816c-86d8b4dd2255",
+        "connectedProjectId": "059e2f5b-b03f-4868-8f10-916046e97587",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "059e2f5b-b03f-4868-8f10-916046e97587",
+      "projectId": "059e2f5b-b03f-4868-8f10-916046e97587",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "059e2f5b-b03f-4868-8f10-916046e97587"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "f3206863-d842-44c6-862a-73c180e9cd69",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "1502e307-4e21-4add-829b-7484f5f0db62",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "3f79c590-bae8-4346-a28a-21bab0bd3851",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "759c88ac-572d-4631-bc8f-2cb24e7d0a1c",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "jo***@ecovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Duplicação SH F - km 308,1 + 359,2 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH F - km 308,1 + 359,2 - BR101/ES",
+        "id": "259324",
+        "guid": "376db00a-ddaa-4cfa-8520-7e72238f8224",
+        "connectedProjectId": "6f431584-c23f-4726-a37e-92547004f897",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "6f431584-c23f-4726-a37e-92547004f897",
+      "projectId": "6f431584-c23f-4726-a37e-92547004f897",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "6f431584-c23f-4726-a37e-92547004f897"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "4b956ee2-aba0-489a-aea5-1c33fa263673",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "c829eb41-bcb3-4e52-9262-87fe07b6c595",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "2bae8eea-8fbc-405b-85a8-d081ce39dfb0",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        },
+        {
+          "id": "e2b58dc8-c7ad-4ff3-9265-adb66227e1eb",
+          "displayName": "PWDM Approver",
+          "type": "iTwin"
+        }
+      ]
+    },
+    {
+      "email": "jo***@ecovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Duplicação SH G1A (ANTT) -  km 357,7 + 373,5 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH G1A (ANTT) -  km 357,7 + 373,5 - BR101/ES",
+        "id": "360783",
+        "guid": "53fed576-5e29-4aad-b430-3cbdb2dd9957",
+        "connectedProjectId": "f8a873e4-d9c0-46f0-a093-f3eb05c28203",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "f8a873e4-d9c0-46f0-a093-f3eb05c28203",
+      "projectId": "f8a873e4-d9c0-46f0-a093-f3eb05c28203",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "175735ea-3116-499f-a776-4634bcd6dcbd",
+        "email": "jo***@ecovias.com.br",
+        "givenName": "João",
+        "surname": "Moraes",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-03-13T04:16:47.663Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "f8a873e4-d9c0-46f0-a093-f3eb05c28203"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "b83226f8-c8ca-46b7-b53f-04e3a201386a",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "0407b4ab-f9f4-4b32-a375-00f352a823f9",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "4f9c7e66-0477-40c7-9311-71da1aff48f9",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "ca4e216f-ec20-47c7-b677-7602040abed5",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "jo***@ecovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Duplicação SH G1A (Obras) -  km 357,7 + 373,5 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH G1A (Obras) -  km 357,7 + 373,5 - BR101/ES",
+        "id": "250397",
+        "guid": "aa2a86af-0f24-444a-a7b7-6a7a2ad96c60",
+        "connectedProjectId": "1f9e5deb-28a4-4cf7-a4a6-754511c9cbc7",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "1f9e5deb-28a4-4cf7-a4a6-754511c9cbc7",
+      "projectId": "1f9e5deb-28a4-4cf7-a4a6-754511c9cbc7",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "175735ea-3116-499f-a776-4634bcd6dcbd",
+        "email": "jo***@ecovias.com.br",
+        "givenName": "João",
+        "surname": "Moraes",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-03-10T17:52:05.22Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "1f9e5deb-28a4-4cf7-a4a6-754511c9cbc7"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "6a229e25-e029-46c6-bdb7-2f91123cce4b",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "a074a9c4-b280-4832-96d2-d96bd137e57e",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "6341a1d0-258d-4a08-ae17-b1968d28fb41",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "8189b348-d3b0-447b-985c-e4e6f2c3abb0",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "jo***@ecovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Duplicação SH G1B - km 380,3 + 396,8 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH G1B - km 380,3 + 396,8 - BR101/ES",
+        "id": "251178",
+        "guid": "11425a55-88f9-4505-80a9-508be98a10a1",
+        "connectedProjectId": "31129f32-46ea-4d0c-858e-52b0e3befebf",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "31129f32-46ea-4d0c-858e-52b0e3befebf",
+      "projectId": "31129f32-46ea-4d0c-858e-52b0e3befebf",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "175735ea-3116-499f-a776-4634bcd6dcbd",
+        "email": "jo***@ecovias.com.br",
+        "givenName": "João",
+        "surname": "Moraes",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-03-05T11:50:19.613Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "31129f32-46ea-4d0c-858e-52b0e3befebf"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "0a409c07-bd19-4bfa-a650-3a367f2b0e32",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "b5294037-b3d9-42b1-a8b9-07d876217a5e",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "8660a3a8-69a4-40d1-b80b-0344a3d65ab0",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "8e29ecdb-0f15-42b1-8819-cf1029687774",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "jo***@ecovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Duplicação SH G2 -  km 396,8 + 426,7 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH G2 -  km 396,8 + 426,7 - BR101/ES",
+        "id": "251959",
+        "guid": "3fbd7012-dead-4ec0-8484-f2bf1557d7fc",
+        "connectedProjectId": "6a3b231e-9fda-4347-b2da-48c1c0246203",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "6a3b231e-9fda-4347-b2da-48c1c0246203",
+      "projectId": "6a3b231e-9fda-4347-b2da-48c1c0246203",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "175735ea-3116-499f-a776-4634bcd6dcbd",
+        "email": "jo***@ecovias.com.br",
+        "givenName": "João",
+        "surname": "Moraes",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-06-14T05:05:35.07Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "6a3b231e-9fda-4347-b2da-48c1c0246203"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "74386e74-4fd5-4690-9c73-5ed5a07ae6cc",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "931eb07e-ac49-48e6-8d50-24da9be721ed",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "66eace33-63cd-476c-85c3-aa19f1648d7e",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        },
+        {
+          "id": "1239979c-ce52-44a3-b5a5-b186411e0ef2",
+          "displayName": "PWDM Approver",
+          "type": "iTwin"
+        }
+      ]
+    },
+    {
+      "email": "jo***@ecovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "HS-WIM - Ibiraçu - km 224 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "HS-WIM - Ibiraçu - km 224 - BR101/ES",
+        "id": "258071",
+        "guid": "1081a941-2eb9-42a6-8fc7-b70f8f549d76",
+        "connectedProjectId": "054785a1-382d-4ae9-a8f2-26e259ce68a9",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "054785a1-382d-4ae9-a8f2-26e259ce68a9",
+      "projectId": "054785a1-382d-4ae9-a8f2-26e259ce68a9",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "054785a1-382d-4ae9-a8f2-26e259ce68a9"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "70d7f4ca-ebaa-4301-8e2b-38da859813df",
+          "displayName": "Imodel",
+          "type": "enterprise"
+        },
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "5d67fdcf-6018-4a62-aaa0-2c35bcdf4842",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "27b26a1b-02aa-4cb5-9364-35023b0c3e51",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "fbf2a3b7-ac74-4826-b760-0601a465c245",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "bd19fb34-b38d-4943-9613-71840c8d37ec",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "jo***@ecovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Marginais de Viana -  km 291,5 + 304,8 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Marginais de Viana -  km 291,5 + 304,8 - BR101/ES",
+        "id": "252740",
+        "guid": "f0fad2a7-e275-4519-b0ad-f58f11e1bf7e",
+        "connectedProjectId": "9556b93e-cf07-4104-999d-72439ee92322",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "9556b93e-cf07-4104-999d-72439ee92322",
+      "projectId": "9556b93e-cf07-4104-999d-72439ee92322",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "175735ea-3116-499f-a776-4634bcd6dcbd",
+        "email": "jo***@ecovias.com.br",
+        "givenName": "João",
+        "surname": "Moraes",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-03-06T08:14:18.7Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "9556b93e-cf07-4104-999d-72439ee92322"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "b344e6ec-fa58-4cdf-a65f-515b31274619",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "0d718d29-a8a3-4784-96d3-1f64184f2f09",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "a81b1bb3-c734-4951-a2dd-1134344abac4",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "e7bac76f-c53f-4db9-a79f-c45c4d469015",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "jo***@ecovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Marginais de Vitória - km 278,200 - 291,500 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Marginais de Vitória - km 278,200 - 291,500 - BR101/ES",
+        "id": "247272",
+        "guid": "c14cce9b-0a2a-46db-b1ba-fa612294448d",
+        "connectedProjectId": "a386e50a-e792-49cc-a8f1-c85d8c98a0fb",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "a386e50a-e792-49cc-a8f1-c85d8c98a0fb",
+      "projectId": "a386e50a-e792-49cc-a8f1-c85d8c98a0fb",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "175735ea-3116-499f-a776-4634bcd6dcbd",
+        "email": "jo***@ecovias.com.br",
+        "givenName": "João",
+        "surname": "Moraes",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-06-14T14:50:45.77Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "a386e50a-e792-49cc-a8f1-c85d8c98a0fb"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "774d1602-ccd0-45ee-a5b5-9d0a67f7d4af",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "b57a293e-8056-4cb6-a9a7-c000628687d6",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "7aa87809-b415-46fa-93c1-af0617e76a39",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "6a7c411a-85c6-49c3-901a-92b7cc48c522",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "jo***@ecovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Passarelas - km 6 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Passarelas - km 6 - BR101/ES",
+        "id": "246491",
+        "guid": "128d0bb8-c2df-47a7-b103-dae3db3b5598",
+        "connectedProjectId": "0eae41f5-6047-4f8e-ae3d-b6878e1060e8",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "0eae41f5-6047-4f8e-ae3d-b6878e1060e8",
+      "projectId": "0eae41f5-6047-4f8e-ae3d-b6878e1060e8",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "0eae41f5-6047-4f8e-ae3d-b6878e1060e8"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "1f863f0c-fda4-4c83-9a62-485d01767164",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "efc390d7-8423-43ca-878b-04feb80c7ab5",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "fe1af937-6abe-4ff5-aa18-c865131e758e",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "83c1c5af-0c1c-4f20-9343-896311f8def5",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "jo***@ecovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Pedro Canário (km 15 + 17) / Linhares (km 146 + 150) / Timbuí (km 237 + 239) - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Pedro Canário (km 15 + 17) / Linhares (km 146 + 150) / Timbuí (km 237 + 239) - BR101/ES",
+        "id": "253973",
+        "guid": "4299f4a8-2dfb-4bdc-a2fb-431eece8f295",
+        "connectedProjectId": "b80dc7a9-285f-470f-9efa-36c4d3c239f4",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "b80dc7a9-285f-470f-9efa-36c4d3c239f4",
+      "projectId": "b80dc7a9-285f-470f-9efa-36c4d3c239f4",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "b80dc7a9-285f-470f-9efa-36c4d3c239f4"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "ee6d9e4f-ace0-4f60-b780-488ab2d3f688",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "31784562-1f40-464e-9cd0-8f7de0fc6783",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "21071ef5-9877-43b8-a03f-e2047890b980",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "84a685f1-7832-4558-992b-99b420358467",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    },
+    {
+      "email": "jo***@ecovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+        "id": "255227",
+        "guid": "9e26356f-eafb-4cab-b87d-014d40b80831",
+        "connectedProjectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "e221e732-7d85-4885-82a7-96d09389b8be",
+      "projectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "175735ea-3116-499f-a776-4634bcd6dcbd",
+        "email": "jo***@ecovias.com.br",
+        "givenName": "João",
+        "surname": "Moraes",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-03-04T22:05:15.24Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "e221e732-7d85-4885-82a7-96d09389b8be"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "70d7f4ca-ebaa-4301-8e2b-38da859813df",
+          "displayName": "Imodel",
+          "type": "enterprise"
+        },
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "1a0f39a9-4ce9-4b2c-a958-f22f4abc2adf",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "5ea8c9a5-513d-44d8-ad6e-79acb576f8e2",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "9093ecaa-aeb0-4725-84c7-25eecaff0643",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        },
+        {
+          "id": "450a10c5-1f43-4f5e-805c-66a43d622a16",
+          "displayName": "PWDM Approver",
+          "type": "iTwin"
+        }
+      ]
+    },
+    {
+      "email": "jo***@ecovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+        "id": "256672",
+        "guid": "389e884f-5d2f-4042-a269-496a34745745",
+        "connectedProjectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+      "projectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "sem_alteracao",
+      "status": "participante",
+      "membro": {
+        "id": "175735ea-3116-499f-a776-4634bcd6dcbd",
+        "email": "jo***@ecovias.com.br",
+        "givenName": "João",
+        "surname": "Moraes",
+        "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+        "roles": [
+          {
+            "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+            "displayName": "Team Member",
+            "assignedDateTime": "2026-06-13T17:48:15.08Z"
+          }
+        ]
+      },
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "3887ad62-2f26-423f-bf8e-801139045ca8"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "da279419-30c6-44ee-bba8-235a0eefb952",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "cbbd1fe9-2e62-454d-bb5e-f72c19e0ff54",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "a477754b-a02a-49d9-8f7c-8b9d8d469bc5",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        },
+        {
+          "id": "1c092164-41e5-403f-8a4f-7a1691efa8cd",
+          "displayName": "PWDM Approver",
+          "type": "iTwin"
+        }
+      ]
+    }
+  ],
+  "resultados": [
+    {
+      "projectId": "51c13f2f-3ee2-4822-b711-0a1e4191a31a",
+      "nomeProjeto": "Alteamento de Greide - km 163 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Alteamento de Greide - km 163 - BR101/ES",
+        "id": "245710",
+        "guid": "cb1c86c5-f3b8-446d-b026-7bcbc62988b5",
+        "connectedProjectId": "51c13f2f-3ee2-4822-b711-0a1e4191a31a",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "jo***@ecovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado",
+        "body": {
+          "members": [
+            {
+              "id": "175735ea-3116-499f-a776-4634bcd6dcbd",
+              "email": "jo***@ecovias.com.br",
+              "givenName": "João",
+              "surname": "Moraes",
+              "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+              "roles": [
+                {
+                  "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+                  "displayName": "Team Member",
+                  "assignedDateTime": "2026-07-30T19:45:21.3691107Z"
+                }
+              ]
+            }
+          ],
+          "invitations": []
+        }
+      }
+    },
+    {
+      "projectId": "fb7e0380-e5ad-4201-93a1-f8e0dd7530ad",
+      "nomeProjeto": "Ciclovia de Linhares - km 138,794 +144,750 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Ciclovia de Linhares - km 138,794 +144,750 - BR101/ES",
+        "id": "244929",
+        "guid": "35e2ef7f-fd6d-4647-b746-33aeb0cc389a",
+        "connectedProjectId": "fb7e0380-e5ad-4201-93a1-f8e0dd7530ad",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "jo***@ecovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado",
+        "body": {
+          "members": [
+            {
+              "id": "175735ea-3116-499f-a776-4634bcd6dcbd",
+              "email": "jo***@ecovias.com.br",
+              "givenName": "João",
+              "surname": "Moraes",
+              "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+              "roles": [
+                {
+                  "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+                  "displayName": "Team Member",
+                  "assignedDateTime": "2026-07-30T19:45:21.7592765Z"
+                }
+              ]
+            }
+          ],
+          "invitations": []
+        }
+      }
+    },
+    {
+      "projectId": "b33b8577-c8b6-4f2a-8636-1cb79fe8e847",
+      "nomeProjeto": "Contorno de Fundão - km 227 + 232 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Contorno de Fundão - km 227 + 232 - BR101/ES",
+        "id": "242586",
+        "guid": "c11fc2f3-edb1-46a8-bbd6-562d8a34f778",
+        "connectedProjectId": "b33b8577-c8b6-4f2a-8636-1cb79fe8e847",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "jo***@ecovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado",
+        "body": {
+          "members": [
+            {
+              "id": "175735ea-3116-499f-a776-4634bcd6dcbd",
+              "email": "jo***@ecovias.com.br",
+              "givenName": "João",
+              "surname": "Moraes",
+              "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+              "roles": [
+                {
+                  "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+                  "displayName": "Team Member",
+                  "assignedDateTime": "2026-07-30T19:45:22.2570414Z"
+                }
+              ]
+            }
+          ],
+          "invitations": []
+        }
+      }
+    },
+    {
+      "projectId": "2972c1b9-4938-4819-88ee-8aa0399e1519",
+      "nomeProjeto": "Contorno de Ibiraçu - km 212 + 215 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Contorno de Ibiraçu - km 212 + 215 - BR101/ES",
+        "id": "244148",
+        "guid": "bedc1db0-b65c-47a1-bbff-a45fb31ab049",
+        "connectedProjectId": "2972c1b9-4938-4819-88ee-8aa0399e1519",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "jo***@ecovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado",
+        "body": {
+          "members": [
+            {
+              "id": "175735ea-3116-499f-a776-4634bcd6dcbd",
+              "email": "jo***@ecovias.com.br",
+              "givenName": "João",
+              "surname": "Moraes",
+              "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+              "roles": [
+                {
+                  "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+                  "displayName": "Team Member",
+                  "assignedDateTime": "2026-07-30T19:45:22.8046748Z"
+                }
+              ]
+            }
+          ],
+          "invitations": []
+        }
+      }
+    },
+    {
+      "projectId": "c26b2400-4294-4331-a490-1aeb0a2e325c",
+      "nomeProjeto": "Contorno de Vitória Dispositivo 1 - km 284,710 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Contorno de Vitória Dispositivo 1 - km 284,710 - BR101/ES",
+        "id": "243367",
+        "guid": "c36a4880-8681-4256-85cf-957ef97f1108",
+        "connectedProjectId": "c26b2400-4294-4331-a490-1aeb0a2e325c",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "jo***@ecovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Usuario ja possui a role desejada."
+      }
+    },
+    {
+      "projectId": "b763c0cf-7622-4a0b-9f0e-ac40e56d8056",
+      "nomeProjeto": "Contorno de Vitória Dispositivo 2 - km 287,730 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Contorno de Vitória Dispositivo 2 - km 287,730 - BR101/ES",
+        "id": "332794",
+        "guid": "f4e339b2-264c-4cd8-a455-46ca7715ecfe",
+        "connectedProjectId": "b763c0cf-7622-4a0b-9f0e-ac40e56d8056",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "jo***@ecovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Usuario ja possui a role desejada."
+      }
+    },
+    {
+      "projectId": "b83f14cb-2c8b-4cc8-af10-f75eaa6a1a59",
+      "nomeProjeto": "Contorno de Vitória Marginais - km 278,900 + 291,000 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Contorno de Vitória Marginais - km 278,900 + 291,000 - BR101/ES",
+        "id": "333576",
+        "guid": "647876ab-ac2a-4c19-b1c1-5dfeeffb38ca",
+        "connectedProjectId": "b83f14cb-2c8b-4cc8-af10-f75eaa6a1a59",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "jo***@ecovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado",
+        "body": {
+          "members": [
+            {
+              "id": "175735ea-3116-499f-a776-4634bcd6dcbd",
+              "email": "jo***@ecovias.com.br",
+              "givenName": "João",
+              "surname": "Moraes",
+              "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+              "roles": [
+                {
+                  "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+                  "displayName": "Team Member",
+                  "assignedDateTime": "2026-07-30T19:45:23.1880381Z"
+                }
+              ]
+            }
+          ],
+          "invitations": []
+        }
+      }
+    },
+    {
+      "projectId": "b2a0d093-b73f-4a35-80a5-72482941a2d2",
+      "nomeProjeto": "Duplicação SH C - km 203,6 + 222,9 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH C - km 203,6 + 222,9 - BR101/ES",
+        "id": "248054",
+        "guid": "9b021995-fdbc-48e7-a9dc-e90b3cb03ee7",
+        "connectedProjectId": "b2a0d093-b73f-4a35-80a5-72482941a2d2",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "jo***@ecovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado",
+        "body": {
+          "members": [
+            {
+              "id": "175735ea-3116-499f-a776-4634bcd6dcbd",
+              "email": "jo***@ecovias.com.br",
+              "givenName": "João",
+              "surname": "Moraes",
+              "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+              "roles": [
+                {
+                  "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+                  "displayName": "Team Member",
+                  "assignedDateTime": "2026-07-30T19:45:23.6362312Z"
+                }
+              ]
+            }
+          ],
+          "invitations": []
+        }
+      }
+    },
+    {
+      "projectId": "0c26eb3d-651b-4635-a704-fc336bbdd5fb",
+      "nomeProjeto": "Duplicação SH C (Contorno de Fundão) - km 222,9 + 227 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH C (Contorno de Fundão) - km 222,9 + 227 - BR101/ES",
+        "id": "351230",
+        "guid": "46971796-c534-4541-a3a4-2c73b01b23c2",
+        "connectedProjectId": "0c26eb3d-651b-4635-a704-fc336bbdd5fb",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "jo***@ecovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado",
+        "body": {
+          "members": [
+            {
+              "id": "175735ea-3116-499f-a776-4634bcd6dcbd",
+              "email": "jo***@ecovias.com.br",
+              "givenName": "João",
+              "surname": "Moraes",
+              "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+              "roles": [
+                {
+                  "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+                  "displayName": "Team Member",
+                  "assignedDateTime": "2026-07-30T19:45:24.0074154Z"
+                }
+              ]
+            }
+          ],
+          "invitations": []
+        }
+      }
+    },
+    {
+      "projectId": "fc3fe767-6888-4b53-b265-340717d202a4",
+      "nomeProjeto": "Duplicação SH C (Contorno de Ibiraçu) - km 210,9 + 212 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH C (Contorno de Ibiraçu) - km 210,9 + 212 - BR101/ES",
+        "id": "350448",
+        "guid": "898c3cfc-ac08-4d92-8649-c4d3d8e4d9c5",
+        "connectedProjectId": "fc3fe767-6888-4b53-b265-340717d202a4",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "jo***@ecovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado",
+        "body": {
+          "members": [
+            {
+              "id": "175735ea-3116-499f-a776-4634bcd6dcbd",
+              "email": "jo***@ecovias.com.br",
+              "givenName": "João",
+              "surname": "Moraes",
+              "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+              "roles": [
+                {
+                  "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+                  "displayName": "Team Member",
+                  "assignedDateTime": "2026-07-30T19:45:24.3841898Z"
+                }
+              ]
+            }
+          ],
+          "invitations": []
+        }
+      }
+    },
+    {
+      "projectId": "02829d40-9e38-4ef4-ac8f-0229db57e1e2",
+      "nomeProjeto": "Duplicação SH D1 - km 242 + 247 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH D1 - km 242 + 247 - BR101/ES",
+        "id": "248835",
+        "guid": "3ac231b6-a53b-4ab3-a2e6-7bc88a950419",
+        "connectedProjectId": "02829d40-9e38-4ef4-ac8f-0229db57e1e2",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "jo***@ecovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado",
+        "body": {
+          "members": [
+            {
+              "id": "175735ea-3116-499f-a776-4634bcd6dcbd",
+              "email": "jo***@ecovias.com.br",
+              "givenName": "João",
+              "surname": "Moraes",
+              "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+              "roles": [
+                {
+                  "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+                  "displayName": "Team Member",
+                  "assignedDateTime": "2026-07-30T19:45:24.8651622Z"
+                }
+              ]
+            }
+          ],
+          "invitations": []
+        }
+      }
+    },
+    {
+      "projectId": "059e2f5b-b03f-4868-8f10-916046e97587",
+      "nomeProjeto": "Duplicação SH D2 - km 231,9 + 242 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH D2 - km 231,9 + 242 - BR101/ES",
+        "id": "249616",
+        "guid": "d9b8acf2-eb1b-4b6b-816c-86d8b4dd2255",
+        "connectedProjectId": "059e2f5b-b03f-4868-8f10-916046e97587",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "jo***@ecovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado",
+        "body": {
+          "members": [
+            {
+              "id": "175735ea-3116-499f-a776-4634bcd6dcbd",
+              "email": "jo***@ecovias.com.br",
+              "givenName": "João",
+              "surname": "Moraes",
+              "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+              "roles": [
+                {
+                  "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+                  "displayName": "Team Member",
+                  "assignedDateTime": "2026-07-30T19:45:25.2432244Z"
+                }
+              ]
+            }
+          ],
+          "invitations": []
+        }
+      }
+    },
+    {
+      "projectId": "6f431584-c23f-4726-a37e-92547004f897",
+      "nomeProjeto": "Duplicação SH F - km 308,1 + 359,2 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH F - km 308,1 + 359,2 - BR101/ES",
+        "id": "259324",
+        "guid": "376db00a-ddaa-4cfa-8520-7e72238f8224",
+        "connectedProjectId": "6f431584-c23f-4726-a37e-92547004f897",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "jo***@ecovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado",
+        "body": {
+          "members": [
+            {
+              "id": "175735ea-3116-499f-a776-4634bcd6dcbd",
+              "email": "jo***@ecovias.com.br",
+              "givenName": "João",
+              "surname": "Moraes",
+              "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+              "roles": [
+                {
+                  "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+                  "displayName": "Team Member",
+                  "assignedDateTime": "2026-07-30T19:45:25.8120557Z"
+                }
+              ]
+            }
+          ],
+          "invitations": []
+        }
+      }
+    },
+    {
+      "projectId": "f8a873e4-d9c0-46f0-a093-f3eb05c28203",
+      "nomeProjeto": "Duplicação SH G1A (ANTT) -  km 357,7 + 373,5 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH G1A (ANTT) -  km 357,7 + 373,5 - BR101/ES",
+        "id": "360783",
+        "guid": "53fed576-5e29-4aad-b430-3cbdb2dd9957",
+        "connectedProjectId": "f8a873e4-d9c0-46f0-a093-f3eb05c28203",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "jo***@ecovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Usuario ja possui a role desejada."
+      }
+    },
+    {
+      "projectId": "1f9e5deb-28a4-4cf7-a4a6-754511c9cbc7",
+      "nomeProjeto": "Duplicação SH G1A (Obras) -  km 357,7 + 373,5 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH G1A (Obras) -  km 357,7 + 373,5 - BR101/ES",
+        "id": "250397",
+        "guid": "aa2a86af-0f24-444a-a7b7-6a7a2ad96c60",
+        "connectedProjectId": "1f9e5deb-28a4-4cf7-a4a6-754511c9cbc7",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "jo***@ecovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Usuario ja possui a role desejada."
+      }
+    },
+    {
+      "projectId": "31129f32-46ea-4d0c-858e-52b0e3befebf",
+      "nomeProjeto": "Duplicação SH G1B - km 380,3 + 396,8 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH G1B - km 380,3 + 396,8 - BR101/ES",
+        "id": "251178",
+        "guid": "11425a55-88f9-4505-80a9-508be98a10a1",
+        "connectedProjectId": "31129f32-46ea-4d0c-858e-52b0e3befebf",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "jo***@ecovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Usuario ja possui a role desejada."
+      }
+    },
+    {
+      "projectId": "6a3b231e-9fda-4347-b2da-48c1c0246203",
+      "nomeProjeto": "Duplicação SH G2 -  km 396,8 + 426,7 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Duplicação SH G2 -  km 396,8 + 426,7 - BR101/ES",
+        "id": "251959",
+        "guid": "3fbd7012-dead-4ec0-8484-f2bf1557d7fc",
+        "connectedProjectId": "6a3b231e-9fda-4347-b2da-48c1c0246203",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "jo***@ecovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Usuario ja possui a role desejada."
+      }
+    },
+    {
+      "projectId": "054785a1-382d-4ae9-a8f2-26e259ce68a9",
+      "nomeProjeto": "HS-WIM - Ibiraçu - km 224 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "HS-WIM - Ibiraçu - km 224 - BR101/ES",
+        "id": "258071",
+        "guid": "1081a941-2eb9-42a6-8fc7-b70f8f549d76",
+        "connectedProjectId": "054785a1-382d-4ae9-a8f2-26e259ce68a9",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "jo***@ecovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado",
+        "body": {
+          "members": [
+            {
+              "id": "175735ea-3116-499f-a776-4634bcd6dcbd",
+              "email": "jo***@ecovias.com.br",
+              "givenName": "João",
+              "surname": "Moraes",
+              "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+              "roles": [
+                {
+                  "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+                  "displayName": "Team Member",
+                  "assignedDateTime": "2026-07-30T19:45:26.1810506Z"
+                }
+              ]
+            }
+          ],
+          "invitations": []
+        }
+      }
+    },
+    {
+      "projectId": "9556b93e-cf07-4104-999d-72439ee92322",
+      "nomeProjeto": "Marginais de Viana -  km 291,5 + 304,8 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Marginais de Viana -  km 291,5 + 304,8 - BR101/ES",
+        "id": "252740",
+        "guid": "f0fad2a7-e275-4519-b0ad-f58f11e1bf7e",
+        "connectedProjectId": "9556b93e-cf07-4104-999d-72439ee92322",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "jo***@ecovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Usuario ja possui a role desejada."
+      }
+    },
+    {
+      "projectId": "a386e50a-e792-49cc-a8f1-c85d8c98a0fb",
+      "nomeProjeto": "Marginais de Vitória - km 278,200 - 291,500 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Marginais de Vitória - km 278,200 - 291,500 - BR101/ES",
+        "id": "247272",
+        "guid": "c14cce9b-0a2a-46db-b1ba-fa612294448d",
+        "connectedProjectId": "a386e50a-e792-49cc-a8f1-c85d8c98a0fb",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "jo***@ecovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Usuario ja possui a role desejada."
+      }
+    },
+    {
+      "projectId": "0eae41f5-6047-4f8e-ae3d-b6878e1060e8",
+      "nomeProjeto": "Passarelas - km 6 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Passarelas - km 6 - BR101/ES",
+        "id": "246491",
+        "guid": "128d0bb8-c2df-47a7-b103-dae3db3b5598",
+        "connectedProjectId": "0eae41f5-6047-4f8e-ae3d-b6878e1060e8",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "jo***@ecovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado",
+        "body": {
+          "members": [
+            {
+              "id": "175735ea-3116-499f-a776-4634bcd6dcbd",
+              "email": "jo***@ecovias.com.br",
+              "givenName": "João",
+              "surname": "Moraes",
+              "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+              "roles": [
+                {
+                  "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+                  "displayName": "Team Member",
+                  "assignedDateTime": "2026-07-30T19:45:26.5604219Z"
+                }
+              ]
+            }
+          ],
+          "invitations": []
+        }
+      }
+    },
+    {
+      "projectId": "b80dc7a9-285f-470f-9efa-36c4d3c239f4",
+      "nomeProjeto": "Pedro Canário (km 15 + 17) / Linhares (km 146 + 150) / Timbuí (km 237 + 239) - BR101/ES",
+      "origemProjectWise": {
+        "nome": "Pedro Canário (km 15 + 17) / Linhares (km 146 + 150) / Timbuí (km 237 + 239) - BR101/ES",
+        "id": "253973",
+        "guid": "4299f4a8-2dfb-4bdc-a2fb-431eece8f295",
+        "connectedProjectId": "b80dc7a9-285f-470f-9efa-36c4d3c239f4",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "jo***@ecovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado",
+        "body": {
+          "members": [
+            {
+              "id": "175735ea-3116-499f-a776-4634bcd6dcbd",
+              "email": "jo***@ecovias.com.br",
+              "givenName": "João",
+              "surname": "Moraes",
+              "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+              "roles": [
+                {
+                  "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+                  "displayName": "Team Member",
+                  "assignedDateTime": "2026-07-30T19:45:26.9984164Z"
+                }
+              ]
+            }
+          ],
+          "invitations": []
+        }
+      }
+    },
+    {
+      "projectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+      "nomeProjeto": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Norte - Linhares - km 169+900 - BR101/ES",
+        "id": "255227",
+        "guid": "9e26356f-eafb-4cab-b87d-014d40b80831",
+        "connectedProjectId": "e221e732-7d85-4885-82a7-96d09389b8be",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "jo***@ecovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Usuario ja possui a role desejada."
+      }
+    },
+    {
+      "projectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+      "nomeProjeto": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+      "origemProjectWise": {
+        "nome": "PPD Trecho Sul - Serra - km 425+300 - BR101/ES",
+        "id": "256672",
+        "guid": "389e884f-5d2f-4042-a269-496a34745745",
+        "connectedProjectId": "3887ad62-2f26-423f-bf8e-801139045ca8",
+        "concessao": "Ecovias Capixaba",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "jo***@ecovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "sem_alteracao",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Usuario ja possui a role desejada."
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+﻿"Linha";"UserName";"Description";"Email";"SecurityProvider";"IMSUser";"Status";"Acao";"Mensagem";"Acessos"
+"2";"Leonardo Malheiro";"Projetista";"lmalheiro@projetainfraestrutura.com.br";"";"True";"OK";"Criado";"Processado com sucesso.";"Sem grupos/user lists"
+"3";"Tamara Magalhães Fernandes";"Projetista";"tfernandes@projetainfraestrutura.com.br";"";"True";"OK";"Criado";"Processado com sucesso.";"Sem grupos/user lists"
+"4";"";"";"";"";"True";"INVALIDO";"Validacao";"Name vazio; E-mail vazio";""
+"5";"";"";"";"";"True";"INVALIDO";"Validacao";"Name vazio; E-mail vazio";""
+"6";"";"";"";"";"True";"INVALIDO";"Validacao";"Name vazio; E-mail vazio";""
+"7";"";"";"";"";"True";"INVALIDO";"Validacao";"Name vazio; E-mail vazio";""

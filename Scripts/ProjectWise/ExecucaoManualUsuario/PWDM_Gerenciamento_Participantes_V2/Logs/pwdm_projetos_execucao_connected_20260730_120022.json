@@ -1,0 +1,33 @@
+﻿{
+    "timestamp":  "2026-07-30T12:01:39",
+    "origem":  "ProjectWise",
+    "modoSelecao":  "concessao_projetos_projectwise_web",
+    "profundidadeProjetos":  0,
+    "concessao":  {
+                      "nome":  "Ecovias Araguaia",
+                      "id":  "297",
+                      "guid":  "0288fac7-80cf-4206-b4b7-daeda55b8ac2"
+                  },
+    "totalProjetosListados":  97,
+    "totalProjetosSelecionados":  1,
+    "totalProjetosAptosProjectWiseWeb":  1,
+    "projetos":  [
+                     {
+                         "nome":  "Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO",
+                         "nomeTecnico":  "Ampliações 4°Ano SH 14",
+                         "descricao":  "Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO",
+                         "concessaoProjectWise":  "Ecovias Araguaia",
+                         "projectWiseId":  "63697",
+                         "projectWiseGuid":  "63c44249-3825-47ab-8f9f-014778a9b9b0",
+                         "connectedProjectId":  "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+                         "connectSpaceId":  "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+                         "projectId":  "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+                         "projectWiseWebName":  "",
+                         "projectWiseWebNumber":  "",
+                         "projectWiseWebLink":  "https://connect-projectwisewac.bentley.com/pwlink/?objectId=63c44249-3825-47ab-8f9f-014778a9b9b0\u0026objectType=folder\u0026datasource=Bentley.PW--01SSRV305.ECSC.ECORODOVIAS.CORP~3AEcorodovias-01\u0026projectId=df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c\u0026workareaid=63c44249-3825-47ab-8f9f-014778a9b9b0\u0026app=pwe",
+                         "projectWiseWebViewLink":  "https://connect-projectwisewebview.bentley.com/pwlink?datasource=Bentley.PW--01SSRV305.ECSC.ECORODOVIAS.CORP~3AEcorodovias-01\u0026objectId=63c44249-3825-47ab-8f9f-014778a9b9b0\u0026objectType=folder\u0026app=webview",
+                         "origemSelecao":  "ProjectWise ConnectedProjectId",
+                         "aptoProjectWiseWeb":  true
+                     }
+                 ]
+}

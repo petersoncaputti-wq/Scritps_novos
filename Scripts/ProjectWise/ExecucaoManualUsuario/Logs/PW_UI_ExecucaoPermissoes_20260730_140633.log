@@ -1,0 +1,14 @@
+2026-07-30 14:06:33 | INFO | Aplicacao iniciada.
+2026-07-30 14:06:33 | INFO | Tentando importar modulo do ProjectWise.
+2026-07-30 14:06:34 | INFO | Modulo 'pwps_dab' importado com sucesso.
+2026-07-30 14:06:34 | INFO | Tentando conectar ao datasource do ProjectWise.
+2026-07-30 14:06:34 | INFO | Tentando conexao via 'New-PWLogin'. Parametros: DatasourceName, UserName, Password, UseGui, DoNotCreateWorkingDirectory, BentleyIMS, LoadWRE, NonAdminLogin, Token, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-07-30 14:06:55 | INFO | Conexao realizada via 'New-PWLogin -BentleyIMS'.
+2026-07-30 14:06:55 | INFO | Conexao com ProjectWise realizada com sucesso.
+2026-07-30 14:07:05 | INFO | Buscando usuario pelo email: Adriana.Rodrigues@ecorodovias.com.br
+2026-07-30 14:07:05 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-07-30 14:07:05 | INFO | Usuario localizado com correspondencia exata de email.
+2026-07-30 14:07:07 | INFO | Buscando usuario pelo email: Bruno.A.Costa@ecorodovias.com.br
+2026-07-30 14:07:07 | INFO | Parametros encontrados no cmdlet: UserName, UserId, SecProvider, Email, Identity, Disabled, Enabled, LastLogin, LoginInfo, Verbose, Debug, ErrorAction, WarningAction, InformationAction, ErrorVariable, WarningVariable, InformationVariable, OutVariable, OutBuffer, PipelineVariable
+2026-07-30 14:07:07 | ERROR | Erro ao importar usuarios. Detalhe: Nenhum usuario encontrado para o e-mail informado.
+2026-07-30 14:07:14 | INFO | Sessao encerrada com 'Undo-PWLogin'.

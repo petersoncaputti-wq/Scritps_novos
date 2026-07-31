@@ -1,0 +1,535 @@
+{
+  "timestamp": "2026-07-30T12:33:28",
+  "operacoes": [
+    {
+      "email": "al***@vilasa.com.br",
+      "nomeProjeto": "Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO",
+        "id": "63697",
+        "guid": "63c44249-3825-47ab-8f9f-014778a9b9b0",
+        "connectedProjectId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+      "projectId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "al***@tamaferterraplenagem.com.br",
+      "nomeProjeto": "Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO",
+        "id": "63697",
+        "guid": "63c44249-3825-47ab-8f9f-014778a9b9b0",
+        "connectedProjectId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+      "projectId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "el***@vilasa.com.br",
+      "nomeProjeto": "Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO",
+        "id": "63697",
+        "guid": "63c44249-3825-47ab-8f9f-014778a9b9b0",
+        "connectedProjectId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+      "projectId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "pl***@vilasa.com.br",
+      "nomeProjeto": "Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO",
+        "id": "63697",
+        "guid": "63c44249-3825-47ab-8f9f-014778a9b9b0",
+        "connectedProjectId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+      "projectId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "pr***@tamaferterraplenagem.com.br;",
+      "nomeProjeto": "Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO",
+        "id": "63697",
+        "guid": "63c44249-3825-47ab-8f9f-014778a9b9b0",
+        "connectedProjectId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+      "projectId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "st***@vilasa.com.br",
+      "nomeProjeto": "Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO",
+        "id": "63697",
+        "guid": "63c44249-3825-47ab-8f9f-014778a9b9b0",
+        "connectedProjectId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+      "projectId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "st***@vilasa.com.br",
+      "nomeProjeto": "Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO",
+        "id": "63697",
+        "guid": "63c44249-3825-47ab-8f9f-014778a9b9b0",
+        "connectedProjectId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+      "projectId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "adicionar_por_email",
+      "descricaoAcao": "ADICIONAR por e-mail validado",
+      "status": "nao_encontrado",
+      "membro": {},
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    }
+  ],
+  "resultados": [
+    {
+      "projectId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+      "nomeProjeto": "Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO",
+        "id": "63697",
+        "guid": "63c44249-3825-47ab-8f9f-014778a9b9b0",
+        "connectedProjectId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "al***@vilasa.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c/ProjectSettings/df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c/ProjectSettings/df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Alexandre Lemos",
+            "email": "al***@vilasa.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "d04c3865-170b-4c65-82bf-787118a308dd",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+      "nomeProjeto": "Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO",
+        "id": "63697",
+        "guid": "63c44249-3825-47ab-8f9f-014778a9b9b0",
+        "connectedProjectId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "al***@tamaferterraplenagem.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c/ProjectSettings/df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c/ProjectSettings/df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Alisson T",
+            "email": "al***@tamaferterraplenagem.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "f8ec8363-2157-44e0-8379-63eda27c8313",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+      "nomeProjeto": "Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO",
+        "id": "63697",
+        "guid": "63c44249-3825-47ab-8f9f-014778a9b9b0",
+        "connectedProjectId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "el***@vilasa.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c/ProjectSettings/df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c/ProjectSettings/df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Eliza Moura",
+            "email": "el***@vilasa.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "bb3470bf-a188-4f7f-939e-a8fa1ba6d304",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+      "nomeProjeto": "Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO",
+        "id": "63697",
+        "guid": "63c44249-3825-47ab-8f9f-014778a9b9b0",
+        "connectedProjectId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "pl***@vilasa.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c/ProjectSettings/df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c/ProjectSettings/df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Gleydson Leite da Cruz",
+            "email": "pl***@vilasa.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "047eb545-1e34-438f-b53d-45f19d09600a",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+      "nomeProjeto": "Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO",
+        "id": "63697",
+        "guid": "63c44249-3825-47ab-8f9f-014778a9b9b0",
+        "connectedProjectId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "pr***@tamaferterraplenagem.com.br;",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "erro",
+        "erro": "POST falhou em https://pwdm.bentley.com/df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c/ProjectSettings/df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c/ProjectParticipant: HTTP 500  - {'type': 'https://tools.ietf.org/html/rfc9110#section-15.5.4', 'title': 'An error occurred', 'status': 403, 'detail': 'Failed to register email pr***@tamaferterraplenagem.com.br;.', 'reload': False, 'requestId': '0HNN68CNGPGSM:00000016', 'traceId': '00-ddc14339c362673c455599c07c68a1c5-f9e6e6bc8a204875-00'} (pagina=https://pwdm.bentley.com/df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c/ProjectSettings/df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c/View#PARTICIPANTS, resposta=https://pwdm.bentley.com/df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c/ProjectSettings/df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c/ProjectParticipant, token=sim, origem_token=html-view, payload={'email': 'pr***@tamaferterraplenagem.com.br;', 'roleTitle': 'Membro da equipe', 'isAdmin': False, 'canReviewAnswer': False, 'canReceive': True, 'canIssue': True})"
+      }
+    },
+    {
+      "projectId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+      "nomeProjeto": "Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO",
+        "id": "63697",
+        "guid": "63c44249-3825-47ab-8f9f-014778a9b9b0",
+        "connectedProjectId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "st***@vilasa.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c/ProjectSettings/df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c/ProjectSettings/df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "Raimundo Brito",
+            "email": "st***@vilasa.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "a384df67-1b6b-4f6a-ab31-427506e3ffc8",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    },
+    {
+      "projectId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+      "nomeProjeto": "Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 4° Ano SH 14 - km 176+030 - 199+430 - BR153/GO",
+        "id": "63697",
+        "guid": "63c44249-3825-47ab-8f9f-014778a9b9b0",
+        "connectedProjectId": "df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "st***@vilasa.com.br",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "adicionar_por_email",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado_por_email",
+        "resultado": {
+          "ok": true,
+          "status": 200,
+          "statusText": "",
+          "contentType": "application/json; charset=utf-8",
+          "responseUrl": "https://pwdm.bentley.com/df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c/ProjectSettings/df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c/ProjectParticipant",
+          "pageUrl": "https://pwdm.bentley.com/df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c/ProjectSettings/df8da846-2c0f-4d8f-ba60-1e2b1d08cc7c/View#PARTICIPANTS",
+          "tokenFound": true,
+          "tokenSource": "html-view",
+          "body": {
+            "fullName": "FirstName LastName",
+            "email": "st***@vilasa.com.br",
+            "roleLabel": "Membro da equipe",
+            "isAdmin": false,
+            "isPWSynced": false,
+            "isPWExplicitlyAdded": false,
+            "canView": true,
+            "canReviewAnswer": false,
+            "canReceive": true,
+            "canIssue": true,
+            "memberOf": [],
+            "id": "fe31969b-4d34-4a12-8278-c531deb5912a",
+            "projectId": "00000000-0000-0000-0000-000000000000"
+          },
+          "text": "[omitido]"
+        }
+      }
+    }
+  ]
+}

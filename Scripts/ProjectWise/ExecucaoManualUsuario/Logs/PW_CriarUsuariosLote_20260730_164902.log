@@ -1,0 +1,34 @@
+2026-07-30 16:49:02 | INFO | ProjectWise - criacao de usuarios em lote
+2026-07-30 16:49:02 | INFO | Log: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\PW_CriarUsuariosLote_20260730_164902.log
+2026-07-30 16:49:02 | INFO | Abrindo login no ProjectWise...
+2026-07-30 16:49:11 | OK | Login realizado. Usuario atual: Peterson Caputti
+2026-07-30 16:49:22 | INFO | Arquivo de entrada: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Modelo_Criacao_Usuarios_ProjectWise.xlsx
+2026-07-30 16:49:23 | INFO | Registros carregados: 6
+2026-07-30 16:49:24 | OK | Linha 2: usuario criado - Leonardo Malheiro
+2026-07-30 16:49:24 | OK | Linha 3: usuario criado - Tamara Magalhães Fernandes
+2026-07-30 16:49:24 | WARN | Linha 4: invalida - Name vazio; E-mail vazio
+2026-07-30 16:49:24 | WARN | Linha 5: invalida - Name vazio; E-mail vazio
+2026-07-30 16:49:24 | WARN | Linha 6: invalida - Name vazio; E-mail vazio
+2026-07-30 16:49:24 | WARN | Linha 7: invalida - Name vazio; E-mail vazio
+2026-07-30 16:49:28 | INFO | Gerando arquivo da lista processada para descricao: Projetista
+2026-07-30 16:49:28 | OK | Arquivo gerado: C:\Users\peter\OneDrive\Desktop\UsuariosPorDescricao_20260730_164902\Usuarios_Descricao_Projetista.xlsx
+2026-07-30 16:49:29 | INFO | Sessao ProjectWise encerrada.
+2026-07-30 16:49:29 | INFO | 
+2026-07-30 16:49:29 | INFO | ================ RESUMO FINAL ================
+2026-07-30 16:49:29 | INFO | Total de linhas processadas : 6
+2026-07-30 16:49:29 | OK | Usuarios criados            : 2
+2026-07-30 16:49:29 | OK | Usuarios atualizados        : 0
+2026-07-30 16:49:29 | WARN | Usuarios ja existentes      : 0
+2026-07-30 16:49:29 | INFO | Linhas apenas validadas     : 0
+2026-07-30 16:49:29 | WARN | Linhas invalidas            : 4
+2026-07-30 16:49:29 | OK | Erros de processamento      : 0
+2026-07-30 16:49:29 | OK | Relatorio completo          : C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\PW_CriarUsuariosLote_Relatorio_20260730_164902.csv
+2026-07-30 16:49:29 | OK | Arquivos Excel por descricao:
+2026-07-30 16:49:29 | OK | - C:\Users\peter\OneDrive\Desktop\UsuariosPorDescricao_20260730_164902\Usuarios_Descricao_Projetista.xlsx
+2026-07-30 16:49:29 | INFO | 
+2026-07-30 16:49:29 | WARN | Linhas que precisam de atencao:
+2026-07-30 16:49:29 | WARN | - Linha 4 | INVALIDO |  | Name vazio; E-mail vazio
+2026-07-30 16:49:29 | WARN | - Linha 5 | INVALIDO |  | Name vazio; E-mail vazio
+2026-07-30 16:49:29 | WARN | - Linha 6 | INVALIDO |  | Name vazio; E-mail vazio
+2026-07-30 16:49:29 | WARN | - Linha 7 | INVALIDO |  | Name vazio; E-mail vazio
+2026-07-30 16:49:29 | INFO | ==============================================

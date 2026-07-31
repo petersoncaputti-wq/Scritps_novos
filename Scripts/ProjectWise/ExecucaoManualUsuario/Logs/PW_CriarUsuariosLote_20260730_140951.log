@@ -1,0 +1,44 @@
+2026-07-30 14:09:51 | INFO | ProjectWise - criacao de usuarios em lote
+2026-07-30 14:09:51 | INFO | Log: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\PW_CriarUsuariosLote_20260730_140951.log
+2026-07-30 14:09:52 | INFO | Abrindo login no ProjectWise...
+2026-07-30 14:10:07 | OK | Login realizado. Usuario atual: Peterson Caputti
+2026-07-30 14:10:20 | INFO | Arquivo de entrada: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Modelo_Criacao_Usuarios_ProjectWise.xlsx
+2026-07-30 14:10:20 | INFO | Registros carregados: 11
+2026-07-30 14:10:21 | WARN | Linha 2: usuario ja existe - Adriana Rodrigues (encontrado por E-mail)
+2026-07-30 14:10:21 | WARN | Linha 3: usuario ja existe - Isadora Pereira (encontrado por E-mail)
+2026-07-30 14:10:22 | WARN | Linha 4: usuario ja existe - Patricia Souza (encontrado por E-mail)
+2026-07-30 14:10:22 | WARN | Linha 5: usuario ja existe - Juliana Cazuriaga (encontrado por E-mail)
+2026-07-30 14:10:23 | WARN | Linha 6: usuario ja existe - Gustavo Polizel (encontrado por Name)
+2026-07-30 14:10:23 | WARN | Linha 7: usuario ja existe - Eduardo Moura (encontrado por E-mail)
+2026-07-30 14:10:25 | OK | Linha 8: usuario criado - Bruno Costa
+2026-07-30 14:10:26 | OK | Linha 9: usuario criado - Thiago Neres
+2026-07-30 14:10:27 | OK | Linha 10: usuario criado - karoline Lucas
+2026-07-30 14:10:27 | WARN | Linha 11: usuario ja existe - Caios Goes (encontrado por E-mail)
+2026-07-30 14:10:27 | WARN | Linha 12: usuario ja existe - Waleska Costa (encontrado por E-mail)
+2026-07-30 14:10:31 | WARN | Nenhuma pasta foi selecionada para a extracao. Usando pasta padrao: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\UsuariosPorDescricao_20260730_140951
+2026-07-30 14:10:31 | INFO | Gerando arquivo da lista processada para descricao: Especialista
+2026-07-30 14:10:31 | OK | Arquivo gerado: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\UsuariosPorDescricao_20260730_140951\Usuarios_Descricao_Especialista.xlsx
+2026-07-30 14:10:33 | INFO | Sessao ProjectWise encerrada.
+2026-07-30 14:10:33 | INFO | 
+2026-07-30 14:10:33 | INFO | ================ RESUMO FINAL ================
+2026-07-30 14:10:33 | INFO | Total de linhas processadas : 11
+2026-07-30 14:10:33 | OK | Usuarios criados            : 3
+2026-07-30 14:10:33 | OK | Usuarios atualizados        : 0
+2026-07-30 14:10:33 | WARN | Usuarios ja existentes      : 8
+2026-07-30 14:10:33 | INFO | Linhas apenas validadas     : 0
+2026-07-30 14:10:33 | OK | Linhas invalidas            : 0
+2026-07-30 14:10:33 | OK | Erros de processamento      : 0
+2026-07-30 14:10:33 | OK | Relatorio completo          : C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\PW_CriarUsuariosLote_Relatorio_20260730_140951.csv
+2026-07-30 14:10:33 | OK | Arquivos Excel por descricao:
+2026-07-30 14:10:33 | OK | - C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Logs\UsuariosPorDescricao_20260730_140951\Usuarios_Descricao_Especialista.xlsx
+2026-07-30 14:10:33 | INFO | 
+2026-07-30 14:10:33 | WARN | Usuarios que ja existiam e nao foram recriados:
+2026-07-30 14:10:33 | WARN | - Linha 2 | Especialista | Adriana Rodrigues | Adriana.Rodrigues@ecorodovias.com.br
+2026-07-30 14:10:33 | WARN | - Linha 3 | Especialista | Isadora Pereira | Isadora.Pereira@ecorodovias.com.br
+2026-07-30 14:10:33 | WARN | - Linha 4 | Especialista | Patricia Souza | Patricia.Souza@ecorodovias.com.br
+2026-07-30 14:10:33 | WARN | - Linha 5 | Especialista | Juliana Cazuriaga | Juliana.Cazuriaga@ecorodovias.com.br
+2026-07-30 14:10:33 | WARN | - Linha 6 | Especialista | Gustavo Polizel | Gustavo.Polizel@ecorodovias.com.br
+2026-07-30 14:10:33 | WARN | - Linha 7 | Especialista | Eduardo Moura | Eduardo.L.Moura@ecorodovias.com.br
+2026-07-30 14:10:33 | WARN | - Linha 11 | Especialista | Caios Goes | Caio.Goes@ecorodovias.com.br
+2026-07-30 14:10:33 | WARN | - Linha 12 | Especialista | Waleska Costa | Waleska.Costa@ecorodovias.com.br
+2026-07-30 14:10:33 | INFO | ==============================================

@@ -1,6 +1,0 @@
-﻿"Linha";"UserName";"Description";"Email";"SecurityProvider";"IMSUser";"Status";"Acao";"Mensagem";"Acessos"
-"2";"Ian Bispo";"Consulta todas ver";"ian.bispo@iccr153.com.br";"";"True";"OK";"Criado";"Processado com sucesso.";"Sem grupos/user lists"
-"3";"Matheus Moraes";"Consulta todas ver";"matheus.moraes@iccr153.com.br";"";"True";"OK";"Criado";"Processado com sucesso.";"Sem grupos/user lists"
-"4";"Leonardo Souza";"Consulta todas ver";"leonardo.souza@vilasa.com.br";"";"True";"OK";"Criado";"Processado com sucesso.";"Sem grupos/user lists"
-"5";"Leonardo Silva";"Consulta todas ver";"leonardo.silva@vilasa.com.br";"";"True";"OK";"Criado";"Processado com sucesso.";"Sem grupos/user lists"
-"6";"";"";"";"";"True";"INVALIDO";"Validacao";"Name vazio; E-mail vazio";""

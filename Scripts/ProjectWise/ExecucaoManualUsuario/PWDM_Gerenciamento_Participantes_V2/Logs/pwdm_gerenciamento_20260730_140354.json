@@ -1,0 +1,114 @@
+{
+  "timestamp": "2026-07-30T14:03:54",
+  "operacoes": [
+    {
+      "email": "le***@egis-group.com",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Ampliações 6° Ano SH 16 e 17 - km 212+450 - 274+940 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 6° Ano SH 16 e 17 - km 212+450 - 274+940 - BR153/GO",
+        "id": "72290",
+        "guid": "4b979af2-c1f8-43f6-84bc-146d7ce6af12",
+        "connectedProjectId": "a59cdfbd-96bf-444e-aac8-aa85f4f23526",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "a59cdfbd-96bf-444e-aac8-aa85f4f23526",
+      "projectId": "a59cdfbd-96bf-444e-aac8-aa85f4f23526",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "a59cdfbd-96bf-444e-aac8-aa85f4f23526"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "16999468-a149-42d0-af1a-1d06a52e0027",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "3f333f8d-cbe2-4b9e-99a9-b97a6d2f0201",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "d8216132-656f-419d-b1ff-194c1320fdb4",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "30a2b9c5-cc62-4ddb-9ec4-53c7369278e0",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    }
+  ],
+  "resultados": [
+    {
+      "projectId": "a59cdfbd-96bf-444e-aac8-aa85f4f23526",
+      "nomeProjeto": "Ampliações 6° Ano SH 16 e 17 - km 212+450 - 274+940 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Ampliações 6° Ano SH 16 e 17 - km 212+450 - 274+940 - BR153/GO",
+        "id": "72290",
+        "guid": "4b979af2-c1f8-43f6-84bc-146d7ce6af12",
+        "connectedProjectId": "a59cdfbd-96bf-444e-aac8-aa85f4f23526",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "le***@egis-group.com",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado",
+        "body": {
+          "members": [],
+          "invitations": [
+            {
+              "id": "23f14bc1-98aa-467f-8492-861958159780",
+              "email": "le***@egis-group.com",
+              "invitedByEmail": "t_***@ecorodovias.com.br",
+              "status": "Pending",
+              "createdDate": "2026-07-30T17:03:54.0278685Z",
+              "expirationDate": "2026-08-13T17:03:54.0278685Z",
+              "roles": [
+                {
+                  "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+                  "displayName": "Team Member"
+                }
+              ],
+              "inviterGivenName": "Peterson",
+              "inviterSurname": "Caputti",
+              "projectDisplayName": "BR153-GO - km 212,450 - 274,940",
+              "inviterOrganization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

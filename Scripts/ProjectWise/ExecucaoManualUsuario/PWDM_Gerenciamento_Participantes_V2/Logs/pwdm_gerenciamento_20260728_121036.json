@@ -1,0 +1,115 @@
+{
+  "timestamp": "2026-07-28T12:10:36",
+  "operacoes": [
+    {
+      "email": "t_***@ecovias.com.br",
+      "linhaPlanilha": 0,
+      "projetoInformado": "todos",
+      "nomeProjeto": "Ampliações 4°Ano SH 4* - km 721+905 - 760+644 - BR153/TO",
+      "origemProjectWise": {
+        "nome": "Ampliações 4°Ano SH 4* - km 721+905 - 760+644 - BR153/TO",
+        "id": "66041",
+        "guid": "ba894ec2-4eac-4138-804a-815bc9862bc8",
+        "connectedProjectId": "533e03e7-e1f6-4030-a52d-90b0ffcf3a35",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "533e03e7-e1f6-4030-a52d-90b0ffcf3a35",
+      "projectId": "533e03e7-e1f6-4030-a52d-90b0ffcf3a35",
+      "acaoSolicitada": "incluir_rbac",
+      "acaoEfetiva": "adicionar_usuario",
+      "status": "nao_encontrado",
+      "membro": {},
+      "roleInformada": "Team Member",
+      "roleResolvida": {
+        "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+        "displayName": "Team Member",
+        "description": "",
+        "permissions": [],
+        "type": "enterprise",
+        "iTwinId": "533e03e7-e1f6-4030-a52d-90b0ffcf3a35"
+      },
+      "roleIdsDesejados": [
+        "014d6992-913a-41d7-a27f-da0e66fd083a"
+      ],
+      "rolesDisponiveis": [
+        {
+          "id": "ccee6641-1f4e-4519-826d-bc3a2d371d5d",
+          "displayName": "iTwin owner",
+          "type": "enterprise"
+        },
+        {
+          "id": "0d0db857-41ea-4061-9ab2-d8e539b8668a",
+          "displayName": "PWDM Administrator",
+          "type": "enterprise"
+        },
+        {
+          "id": "4981870e-5c5b-44e1-851e-e88cbf8147e3",
+          "displayName": "PWDM Approver",
+          "type": "enterprise"
+        },
+        {
+          "id": "f75ddcdf-0d43-4ad3-942d-a0b90cd371da",
+          "displayName": "PWDM Issuer",
+          "type": "enterprise"
+        },
+        {
+          "id": "85c852c1-34df-4a76-bdbb-f4879dda5e1f",
+          "displayName": "PWDM Receiver",
+          "type": "enterprise"
+        },
+        {
+          "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+          "displayName": "Team Member",
+          "type": "enterprise"
+        }
+      ]
+    }
+  ],
+  "resultados": [
+    {
+      "projectId": "533e03e7-e1f6-4030-a52d-90b0ffcf3a35",
+      "nomeProjeto": "Ampliações 4°Ano SH 4* - km 721+905 - 760+644 - BR153/TO",
+      "origemProjectWise": {
+        "nome": "Ampliações 4°Ano SH 4* - km 721+905 - 760+644 - BR153/TO",
+        "id": "66041",
+        "guid": "ba894ec2-4eac-4138-804a-815bc9862bc8",
+        "connectedProjectId": "533e03e7-e1f6-4030-a52d-90b0ffcf3a35",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "t_***@ecovias.com.br",
+      "acao_solicitada": "incluir_rbac",
+      "acao_planejada": "adicionar_usuario",
+      "situacao_usuario": "nao_encontrado",
+      "resultado": {
+        "status": "adicionado",
+        "body": {
+          "members": [
+            {
+              "id": "f29d9d00-ffce-40cf-95a7-24bfa2897ec0",
+              "email": "t_***@ecovias.com.br",
+              "givenName": "Lucas",
+              "surname": "Naves",
+              "organization": "ECORODOVIAS CONCESSÕES E SERVIÇOS S",
+              "roles": [
+                {
+                  "id": "014d6992-913a-41d7-a27f-da0e66fd083a",
+                  "displayName": "Team Member",
+                  "assignedDateTime": "2026-07-28T15:10:35.8280205Z"
+                }
+              ]
+            }
+          ],
+          "invitations": []
+        }
+      }
+    }
+  ]
+}
