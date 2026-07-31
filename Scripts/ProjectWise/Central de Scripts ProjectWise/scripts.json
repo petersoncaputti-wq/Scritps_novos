@@ -1,0 +1,125 @@
+{
+  "versao": 2,
+  "scripts": [
+    {
+      "id": "criar-usuarios",
+      "ordem": 10,
+      "nome": "Criar usuários em lote",
+      "categoria": "Usuários",
+      "descricao": "Valida uma planilha e cria usuários Bentley IMS no ProjectWise.",
+      "arquivo": "..\\ExecucaoManualUsuario\\03 - Criar Usuarios ProjectWise em Lote.ps1",
+      "tipo": "powershell",
+      "modo": "em_migracao",
+      "risco": "alto",
+      "dependencias": ["module:PWPS_DAB", "module:ImportExcel"]
+    },
+    {
+      "id": "gerenciar-acessos",
+      "ordem": 20,
+      "nome": "Gerenciar acessos de projetos",
+      "categoria": "Projetos e acessos",
+      "descricao": "Consulta e altera acessos de usuários, grupos e listas em projetos.",
+      "arquivo": "..\\ExecucaoManualUsuario\\02 - Gerenciar Acessos de Projetos.ps1",
+      "tipo": "powershell",
+      "modo": "integrado",
+      "risco": "alto",
+      "dependencias": ["module:PWPS_DAB", "module:ImportExcel"]
+    },
+    {
+      "id": "incluir-usuarios-web",
+      "ordem": 30,
+      "nome": "Incluir usuários em projetos PW Web",
+      "categoria": "PW Web / PWDM",
+      "descricao": "Inclui usuários e funções em projetos PW Web a partir de uma planilha.",
+      "arquivo": "..\\ExecucaoManualUsuario\\13 - Incluir Usuarios em Projetos PW Web por Planilha.ps1",
+      "tipo": "powershell",
+      "modo": "integrado",
+      "risco": "alto",
+      "dependencias": ["command:python"]
+    },
+    {
+      "id": "criar-projetos",
+      "ordem": 60,
+      "nome": "Criar projetos no ProjectWise",
+      "categoria": "Projetos e acessos",
+      "descricao": "Cria projetos no ProjectWise manualmente ou a partir de uma planilha.",
+      "arquivo": "..\\ExecucaoManualUsuario\\01 - Criar Projetos no ProjectWise.ps1",
+      "tipo": "powershell",
+      "modo": "integrado",
+      "risco": "alto",
+      "dependencias": ["module:PWPS_DAB", "module:ImportExcel"]
+    },
+    {
+      "id": "participantes-pwdm",
+      "ordem": 40,
+      "nome": "Gerenciar participantes PWDM",
+      "categoria": "PW Web / PWDM",
+      "descricao": "Executa o fluxo conectado para gerenciamento de participantes PWDM.",
+      "arquivo": "..\\ExecucaoManualUsuario\\05 - Executar Gerenciamento de Participantes PWDM.bat",
+      "tipo": "batch",
+      "modo": "integrado",
+      "risco": "alto",
+      "dependencias": ["command:python"]
+    },
+    {
+      "id": "usuarios-inativos",
+      "ordem": 50,
+      "nome": "Gerenciar usuários inativos",
+      "categoria": "Usuários",
+      "descricao": "Gera relatório e permite desativar ou excluir usuários inativos.",
+      "arquivo": "..\\ExecucaoManualUsuario\\04 - Gerenciar Usuarios Inativos.ps1",
+      "tipo": "powershell",
+      "modo": "integrado",
+      "risco": "critico",
+      "dependencias": ["module:PWPS_DAB"]
+    },
+    {
+      "id": "buscas-salvas",
+      "ordem": 70,
+      "nome": "Criar buscas salvas",
+      "categoria": "Projetos e acessos",
+      "descricao": "Cria buscas salvas padronizadas nos projetos selecionados.",
+      "arquivo": "..\\ExecucaoManualUsuario\\06 - Criar Buscas Salvas em Projetos.ps1",
+      "tipo": "powershell",
+      "modo": "integrado",
+      "risco": "alto",
+      "dependencias": ["module:PWPS_DAB"]
+    },
+    {
+      "id": "entrada-documentos",
+      "ordem": 80,
+      "nome": "Script Entrada de Documentos",
+      "categoria": "Rotinas do servidor",
+      "descricao": "Executa manualmente a validação de documentos e a criação das pastas de disciplina.",
+      "arquivo": "Rotinas\\08-EntradaDocumentos\\Executar.EntradaDocumentos.ps1",
+      "tipo": "powershell",
+      "modo": "integrado",
+      "risco": "alto",
+      "dependencias": ["module:PWPS_DAB"]
+    },
+    {
+      "id": "movimenta-documentos-validos",
+      "ordem": 90,
+      "nome": "Movimenta Documentos Válidos",
+      "categoria": "Rotinas do servidor",
+      "descricao": "Executa manualmente o processamento dos documentos validados para as pastas de disciplina.",
+      "arquivo": "Rotinas\\09-MovimentaDocumentosValidos\\Executar.MovimentaDocumentosValidos.ps1",
+      "tipo": "powershell",
+      "modo": "integrado",
+      "risco": "critico",
+      "dependencias": ["module:PWPS_DAB"]
+    },
+    {
+      "id": "gera-grd-unidade",
+      "ordem": 100,
+      "nome": "Gera GRD para Unidade",
+      "categoria": "Rotinas do servidor",
+      "descricao": "Executa manualmente a geração semanal das GRDs de documentos para as unidades.",
+      "arquivo": "Rotinas\\10-GeraGRDUnidade\\Executar.GeraGRDUnidade.ps1",
+      "tipo": "powershell",
+      "modo": "integrado",
+      "risco": "critico",
+      "dependencias": ["module:PWPS_DAB", "module:ImportExcel"]
+    }
+  ]
+}

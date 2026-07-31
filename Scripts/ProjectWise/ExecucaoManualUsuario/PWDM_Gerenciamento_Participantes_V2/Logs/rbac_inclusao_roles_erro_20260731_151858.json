@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-07-31T15:18:58",
+  "etapa": "coletar_usuarios",
+  "erro": "EOF when reading a line",
+  "tipoErro": "EOFError",
+  "arquivoProjetosExecucao": "C:\\Users\\peter\\OneDrive - Grupo Ecorodovias\\Área de Trabalho\\Scritps_novos\\Scripts\\ProjectWise\\ExecucaoManualUsuario\\PWDM_Gerenciamento_Participantes_V2\\Logs\\pwdm_projetos_execucao_connected_20260731_151736.json",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\peter\\OneDrive - Grupo Ecorodovias\\Área de Trabalho\\Scritps_novos\\Scripts\\ProjectWise\\ExecucaoManualUsuario\\PWDM_Gerenciamento_Participantes_V2\\incluir_usuarios_projetos_roles_pwdm_v2.py\", line 1018, in main\n    modo_usuarios = solicitar_modo_usuarios()\n  File \"C:\\Users\\peter\\OneDrive - Grupo Ecorodovias\\Área de Trabalho\\Scritps_novos\\Scripts\\ProjectWise\\ExecucaoManualUsuario\\PWDM_Gerenciamento_Participantes_V2\\incluir_usuarios_projetos_roles_pwdm_v2.py\", line 191, in solicitar_modo_usuarios\n    resposta = input(\"Escolha [1/2]: \").strip()\n               ~~~~~^^^^^^^^^^^^^^^^^^^\nEOFError: EOF when reading a line\n"
+}

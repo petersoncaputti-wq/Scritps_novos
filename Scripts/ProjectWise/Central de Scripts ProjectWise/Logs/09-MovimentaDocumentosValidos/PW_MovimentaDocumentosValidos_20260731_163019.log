@@ -1,0 +1,17 @@
+﻿Iniciando rotina: 09 - Movimenta Documentos Válidos...
+Movimenta Documentos Válidos - execução manual
+Este fluxo copia documentos para as pastas de disciplina, trata versões anteriores e altera estados no ProjectWise.
+Código operacional: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoAutomaticaServidor\MovimentaDocumentosValidos_v3.ps1
+
+[1/1] Processando os documentos válidos...
+Security Protocol now set to TLS 1.2
+PWPS_DAB Version is 24.0.2.0
+This is a 64-bit process.
+.Net Framework version OK (at least 4.8)
+True
+Busca documentos validados: 0,18s
+Nenhum documento validado encontrado.
+True
+
+[OK] Fluxo Movimenta Documentos Válidos finalizado em 00:00:09.
+Processo finalizado com código 0.

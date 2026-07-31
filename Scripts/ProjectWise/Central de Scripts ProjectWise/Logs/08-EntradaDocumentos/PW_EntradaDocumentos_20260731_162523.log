@@ -1,0 +1,865 @@
+﻿Iniciando rotina: 08 - Script Entrada de Documentos...
+Script Entrada de Documentos - execução manual
+Este fluxo altera estados de documentos e pode criar pastas no ProjectWise.
+Etapa 1: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoAutomaticaServidor\ValidaDocumentos.ps1
+Etapa 2: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoAutomaticaServidor\CriaPastaDisciplina.ps1
+
+[1/2] Validando os documentos recebidos...
+Security Protocol now set to TLS 1.2
+PWPS_DAB Version is 24.0.2.0
+This is a 64-bit process.
+.Net Framework version OK (at least 4.8)
+True
+
+
+DocumentGUID                   : 3a545c30-217c-48ee-b3c0-10d14703c64b
+ProjectGUID                    : d1be2d12-1aae-4bae-8e7b-6a0c45aa7a01
+ProjectGUIDString              : d1be2d12-1aae-4bae-8e7b-6a0c45aa7a01
+ProjectID                      : 430808
+DocumentID                     : 1
+Name                           : ECA-153GO-429-438-ACA-FUN-DE-A2-002-R00a.kmz
+Description                    : 
+FileName                       : ECA-153GO-429-438-ACA-FUN-DE-A2-002-R00a.kmz
+Version                        : 00
+VersionSequence                : 0
+OriginalNumber                 : 0
+FileSize                       : 11239504
+DocumentStatus                 : Checked In
+DocumentOutTo                  : 
+DocumentOutToName              : 
+DocumentCheckOutDate           : 01/01/0001 00:00:00
+Workflow                       : Workflow - Transferencia
+WorkflowState                  : Em análise pelo Sistema
+DocumentUpdater                : Bentley.ProjectWise.PowerShell.Common.User
+StatusChangeDate               : 31/07/2026 16:20:50
+DocumentUpdaterName            : William Vieira Emenegildo
+DocumentUpdateDate             : 31/07/2026 16:23:16
+FileUpdater                    : Bentley.ProjectWise.PowerShell.Common.User
+FileUpdaterName                : William Vieira Emenegildo
+FileUpdateDate                 : 31/07/2026 16:20:41
+DocumentCreator                : Bentley.ProjectWise.PowerShell.Common.User
+DocumentCreatorName            : William Vieira Emenegildo
+CreateDate                     : 31/07/2026 16:09:10
+DocumentGUIDString             : 3a545c30-217c-48ee-b3c0-10d14703c64b
+DocumentURN                    : pw://01SSRV305.ECSC.ECORODOVIAS.CORP:ecorodovias-pw-01/Documents/D{3a545c30-217c-48ee-
+                                 b3c0-10d14703c64b}
+FullPath                       : Engenharia\Ecovias Araguaia\Projetos\Ampliações 8°Ano SH 29 e 30\Area de 
+                                 Transferencia\Entrada\GRD-Ampliações 8 Ano SH 29 e 
+                                 30-0000008\ECA-153GO-429-438-ACA-FUN-DE-A2-002-R00a.kmz
+FolderPath                     : Engenharia\Ecovias Araguaia\Projetos\Ampliações 8°Ano SH 29 e 30\Area de 
+                                 Transferencia\Entrada\GRD-Ampliações 8 Ano SH 29 e 30-0000008
+OldVersion                     : 00
+WorkflowId                     : 4
+StateId                        : 18
+ApplicationId                  : 270
+ApplicationName                : Google Earth
+CheckedOutLocalFileName        : 
+CopiedOutLocalFileName         : 
+IsAbstract                     : False
+IsSet                          : False
+DocumentOwnerType              : User
+DocumentOwnerName              : William Vieira Emenegildo
+FullPathToStorageAreaFile      : 
+Status                         : I
+MIMEType                       : unknown
+StorageName                    : Storage
+StorageId                      : 1
+ProjectWiseWebViewLink         : https://connect-projectwisewebview.bentley.com/pwlink?datasource=Bentley.PW--01SSRV305
+                                 .ECSC.ECORODOVIAS.CORP~3Aecorodovias-pw-01&objectId=3a545c30-217c-48ee-b3c0-10d14703c6
+                                 4b&objectType=doc&app=webview
+ProjectWiseWebLink             : https://connect-projectwisewac.bentley.com/pwlink/?objectId=3a545c30-217c-48ee-b3c0-10
+                                 d14703c64b&objectType=doc&datasource=Bentley.PW--01SSRV305.ECSC.ECORODOVIAS.CORP~3Aeco
+                                 rodovias-pw-01&projectId=7728f036-853f-42b0-b4cf-6f205110728d&workareaid=5aedd0da-61b4
+                                 -4df7-8d92-fe2f3c0a2dcb&app=pwe
+WebServicesGatewayDownloadLink : Set WSG URL with Set-PWWebServicesGatewayURL
+OldName                        : ECA-153GO-429-438-ACA-FUN-DE-A2-002-R00a.kmz
+OldFileName                    : ECA-153GO-429-438-ACA-FUN-DE-A2-002-R00a.kmz
+OldDescription                 : 
+OldFullPath                    : 
+AttributeRecordCount           : 1
+Attributes                     : {System.Collections.Generic.SortedList`2[System.String,System.String]}
+NestedReferenceCount           : 0
+CustomAttributes               : {Disciplina, Revisao, LadoDesc, Unidade2...}
+
+DocumentGUID                   : 7f556d71-2e5c-47cd-a8e3-458780f3d35e
+ProjectGUID                    : d1be2d12-1aae-4bae-8e7b-6a0c45aa7a01
+ProjectGUIDString              : d1be2d12-1aae-4bae-8e7b-6a0c45aa7a01
+ProjectID                      : 430808
+DocumentID                     : 2
+Name                           : ECA-153GO-429-438-ACA-FUN-DE-A2-002-R00a.dwg
+Description                    : 
+FileName                       : ECA-153GO-429-438-ACA-FUN-DE-A2-002-R00a.dwg
+Version                        : 00
+VersionSequence                : 0
+OriginalNumber                 : 0
+FileSize                       : 295171389
+DocumentStatus                 : Checked In
+DocumentOutTo                  : 
+DocumentOutToName              : 
+DocumentCheckOutDate           : 01/01/0001 00:00:00
+Workflow                       : Workflow - Transferencia
+WorkflowState                  : Em análise pelo Sistema
+DocumentUpdater                : Bentley.ProjectWise.PowerShell.Common.User
+StatusChangeDate               : 31/07/2026 16:22:15
+DocumentUpdaterName            : William Vieira Emenegildo
+DocumentUpdateDate             : 31/07/2026 16:23:16
+FileUpdater                    : Bentley.ProjectWise.PowerShell.Common.User
+FileUpdaterName                : William Vieira Emenegildo
+FileUpdateDate                 : 31/07/2026 16:09:51
+DocumentCreator                : Bentley.ProjectWise.PowerShell.Common.User
+DocumentCreatorName            : William Vieira Emenegildo
+CreateDate                     : 31/07/2026 16:09:13
+DocumentGUIDString             : 7f556d71-2e5c-47cd-a8e3-458780f3d35e
+DocumentURN                    : pw://01SSRV305.ECSC.ECORODOVIAS.CORP:ecorodovias-pw-01/Documents/D{7f556d71-2e5c-47cd-
+                                 a8e3-458780f3d35e}
+FullPath                       : Engenharia\Ecovias Araguaia\Projetos\Ampliações 8°Ano SH 29 e 30\Area de 
+                                 Transferencia\Entrada\GRD-Ampliações 8 Ano SH 29 e 
+                                 30-0000008\ECA-153GO-429-438-ACA-FUN-DE-A2-002-R00a.dwg
+FolderPath                     : Engenharia\Ecovias Araguaia\Projetos\Ampliações 8°Ano SH 29 e 30\Area de 
+                                 Transferencia\Entrada\GRD-Ampliações 8 Ano SH 29 e 30-0000008
+OldVersion                     : 00
+WorkflowId                     : 4
+StateId                        : 18
+ApplicationId                  : 2
+ApplicationName                : AutoCAD
+CheckedOutLocalFileName        : 
+CopiedOutLocalFileName         : 
+IsAbstract                     : False
+IsSet                          : False
+DocumentOwnerType              : User
+DocumentOwnerName              : William Vieira Emenegildo
+FullPathToStorageAreaFile      : 
+Status                         : I
+MIMEType                       : image/vnd.dwg
+StorageName                    : Storage
+StorageId                      : 1
+ProjectWiseWebViewLink         : https://connect-projectwisewebview.bentley.com/pwlink?datasource=Bentley.PW--01SSRV305
+                                 .ECSC.ECORODOVIAS.CORP~3Aecorodovias-pw-01&objectId=7f556d71-2e5c-47cd-a8e3-458780f3d3
+                                 5e&objectType=doc&app=webview
+ProjectWiseWebLink             : https://connect-projectwisewac.bentley.com/pwlink/?objectId=7f556d71-2e5c-47cd-a8e3-45
+                                 8780f3d35e&objectType=doc&datasource=Bentley.PW--01SSRV305.ECSC.ECORODOVIAS.CORP~3Aeco
+                                 rodovias-pw-01&projectId=7728f036-853f-42b0-b4cf-6f205110728d&workareaid=5aedd0da-61b4
+                                 -4df7-8d92-fe2f3c0a2dcb&app=pwe
+WebServicesGatewayDownloadLink : Set WSG URL with Set-PWWebServicesGatewayURL
+OldName                        : ECA-153GO-429-438-ACA-FUN-DE-A2-002-R00a.dwg
+OldFileName                    : ECA-153GO-429-438-ACA-FUN-DE-A2-002-R00a.dwg
+OldDescription                 : 
+OldFullPath                    : 
+AttributeRecordCount           : 1
+Attributes                     : {System.Collections.Generic.SortedList`2[System.String,System.String]}
+NestedReferenceCount           : 0
+CustomAttributes               : {Disciplina, Revisao, LadoDesc, Unidade2...}
+
+DocumentGUID                   : 7d30696a-ae99-4f3f-8111-5f1d4181b769
+ProjectGUID                    : d1be2d12-1aae-4bae-8e7b-6a0c45aa7a01
+ProjectGUIDString              : d1be2d12-1aae-4bae-8e7b-6a0c45aa7a01
+ProjectID                      : 430808
+DocumentID                     : 3
+Name                           : ECA-153GO-429-438-ACA-FUN-DE-A2-002-R00a.pdf
+Description                    : 
+FileName                       : ECA-153GO-429-438-ACA-FUN-DE-A2-002-R00a.pdf
+Version                        : 00
+VersionSequence                : 0
+OriginalNumber                 : 0
+FileSize                       : 13124343
+DocumentStatus                 : Checked In
+DocumentOutTo                  : 
+DocumentOutToName              : 
+DocumentCheckOutDate           : 01/01/0001 00:00:00
+Workflow                       : Workflow - Transferencia
+WorkflowState                  : Em análise pelo Sistema
+DocumentUpdater                : Bentley.ProjectWise.PowerShell.Common.User
+StatusChangeDate               : 31/07/2026 16:23:12
+DocumentUpdaterName            : William Vieira Emenegildo
+DocumentUpdateDate             : 31/07/2026 16:23:16
+FileUpdater                    : Bentley.ProjectWise.PowerShell.Common.User
+FileUpdaterName                : William Vieira Emenegildo
+FileUpdateDate                 : 31/07/2026 16:20:42
+DocumentCreator                : Bentley.ProjectWise.PowerShell.Common.User
+DocumentCreatorName            : William Vieira Emenegildo
+CreateDate                     : 31/07/2026 16:09:52
+DocumentGUIDString             : 7d30696a-ae99-4f3f-8111-5f1d4181b769
+DocumentURN                    : pw://01SSRV305.ECSC.ECORODOVIAS.CORP:ecorodovias-pw-01/Documents/D{7d30696a-ae99-4f3f-
+                                 8111-5f1d4181b769}
+FullPath                       : Engenharia\Ecovias Araguaia\Projetos\Ampliações 8°Ano SH 29 e 30\Area de 
+                                 Transferencia\Entrada\GRD-Ampliações 8 Ano SH 29 e 
+                                 30-0000008\ECA-153GO-429-438-ACA-FUN-DE-A2-002-R00a.pdf
+FolderPath                     : Engenharia\Ecovias Araguaia\Projetos\Ampliações 8°Ano SH 29 e 30\Area de 
+                                 Transferencia\Entrada\GRD-Ampliações 8 Ano SH 29 e 30-0000008
+OldVersion                     : 00
+WorkflowId                     : 4
+StateId                        : 18
+ApplicationId                  : 64
+ApplicationName                : Acrobat PDF
+CheckedOutLocalFileName        : 
+CopiedOutLocalFileName         : 
+IsAbstract                     : False
+IsSet                          : False
+DocumentOwnerType              : User
+DocumentOwnerName              : William Vieira Emenegildo
+FullPathToStorageAreaFile      : 
+Status                         : I
+MIMEType                       : application/pdf
+StorageName                    : Storage
+StorageId                      : 1
+ProjectWiseWebViewLink         : https://connect-projectwisewebview.bentley.com/pwlink?datasource=Bentley.PW--01SSRV305
+                                 .ECSC.ECORODOVIAS.CORP~3Aecorodovias-pw-01&objectId=7d30696a-ae99-4f3f-8111-5f1d4181b7
+                                 69&objectType=doc&app=webview
+ProjectWiseWebLink             : https://connect-projectwisewac.bentley.com/pwlink/?objectId=7d30696a-ae99-4f3f-8111-5f
+                                 1d4181b769&objectType=doc&datasource=Bentley.PW--01SSRV305.ECSC.ECORODOVIAS.CORP~3Aeco
+                                 rodovias-pw-01&projectId=7728f036-853f-42b0-b4cf-6f205110728d&workareaid=5aedd0da-61b4
+                                 -4df7-8d92-fe2f3c0a2dcb&app=pwe
+WebServicesGatewayDownloadLink : Set WSG URL with Set-PWWebServicesGatewayURL
+OldName                        : ECA-153GO-429-438-ACA-FUN-DE-A2-002-R00a.pdf
+OldFileName                    : ECA-153GO-429-438-ACA-FUN-DE-A2-002-R00a.pdf
+OldDescription                 : 
+OldFullPath                    : 
+AttributeRecordCount           : 1
+Attributes                     : {System.Collections.Generic.SortedList`2[System.String,System.String]}
+NestedReferenceCount           : 0
+CustomAttributes               : {Disciplina, Revisao, LadoDesc, Unidade2...}
+
+DocumentGUID                   : 7b75186b-1420-409c-97e0-7921dd525651
+ProjectGUID                    : d1be2d12-1aae-4bae-8e7b-6a0c45aa7a01
+ProjectGUIDString              : d1be2d12-1aae-4bae-8e7b-6a0c45aa7a01
+ProjectID                      : 430808
+DocumentID                     : 4
+Name                           : ECA-153GO-429-438-ACA-FUN-DE-A2-003-R00a.kmz
+Description                    : 
+FileName                       : ECA-153GO-429-438-ACA-FUN-DE-A2-003-R00a.kmz
+Version                        : 00
+VersionSequence                : 0
+OriginalNumber                 : 0
+FileSize                       : 9324372
+DocumentStatus                 : Checked In
+DocumentOutTo                  : 
+DocumentOutToName              : 
+DocumentCheckOutDate           : 01/01/0001 00:00:00
+Workflow                       : Workflow - Transferencia
+WorkflowState                  : Em análise pelo Sistema
+DocumentUpdater                : Bentley.ProjectWise.PowerShell.Common.User
+StatusChangeDate               : 31/07/2026 16:20:54
+DocumentUpdaterName            : William Vieira Emenegildo
+DocumentUpdateDate             : 31/07/2026 16:23:16
+FileUpdater                    : Bentley.ProjectWise.PowerShell.Common.User
+FileUpdaterName                : William Vieira Emenegildo
+FileUpdateDate                 : 31/07/2026 16:20:42
+DocumentCreator                : Bentley.ProjectWise.PowerShell.Common.User
+DocumentCreatorName            : William Vieira Emenegildo
+CreateDate                     : 31/07/2026 16:09:57
+DocumentGUIDString             : 7b75186b-1420-409c-97e0-7921dd525651
+DocumentURN                    : pw://01SSRV305.ECSC.ECORODOVIAS.CORP:ecorodovias-pw-01/Documents/D{7b75186b-1420-409c-
+                                 97e0-7921dd525651}
+FullPath                       : Engenharia\Ecovias Araguaia\Projetos\Ampliações 8°Ano SH 29 e 30\Area de 
+                                 Transferencia\Entrada\GRD-Ampliações 8 Ano SH 29 e 
+                                 30-0000008\ECA-153GO-429-438-ACA-FUN-DE-A2-003-R00a.kmz
+FolderPath                     : Engenharia\Ecovias Araguaia\Projetos\Ampliações 8°Ano SH 29 e 30\Area de 
+                                 Transferencia\Entrada\GRD-Ampliações 8 Ano SH 29 e 30-0000008
+OldVersion                     : 00
+WorkflowId                     : 4
+StateId                        : 18
+ApplicationId                  : 270
+ApplicationName                : Google Earth
+CheckedOutLocalFileName        : 
+CopiedOutLocalFileName         : 
+IsAbstract                     : False
+IsSet                          : False
+DocumentOwnerType              : User
+DocumentOwnerName              : William Vieira Emenegildo
+FullPathToStorageAreaFile      : 
+Status                         : I
+MIMEType                       : unknown
+StorageName                    : Storage
+StorageId                      : 1
+ProjectWiseWebViewLink         : https://connect-projectwisewebview.bentley.com/pwlink?datasource=Bentley.PW--01SSRV305
+                                 .ECSC.ECORODOVIAS.CORP~3Aecorodovias-pw-01&objectId=7b75186b-1420-409c-97e0-7921dd5256
+                                 51&objectType=doc&app=webview
+ProjectWiseWebLink             : https://connect-projectwisewac.bentley.com/pwlink/?objectId=7b75186b-1420-409c-97e0-79
+                                 21dd525651&objectType=doc&datasource=Bentley.PW--01SSRV305.ECSC.ECORODOVIAS.CORP~3Aeco
+                                 rodovias-pw-01&projectId=7728f036-853f-42b0-b4cf-6f205110728d&workareaid=5aedd0da-61b4
+                                 -4df7-8d92-fe2f3c0a2dcb&app=pwe
+WebServicesGatewayDownloadLink : Set WSG URL with Set-PWWebServicesGatewayURL
+OldName                        : ECA-153GO-429-438-ACA-FUN-DE-A2-003-R00a.kmz
+OldFileName                    : ECA-153GO-429-438-ACA-FUN-DE-A2-003-R00a.kmz
+OldDescription                 : 
+OldFullPath                    : 
+AttributeRecordCount           : 1
+Attributes                     : {System.Collections.Generic.SortedList`2[System.String,System.String]}
+NestedReferenceCount           : 0
+CustomAttributes               : {Disciplina, Revisao, LadoDesc, Unidade2...}
+
+DocumentGUID                   : e6531242-cd12-4aa1-80a9-59d468fa1d9a
+ProjectGUID                    : d1be2d12-1aae-4bae-8e7b-6a0c45aa7a01
+ProjectGUIDString              : d1be2d12-1aae-4bae-8e7b-6a0c45aa7a01
+ProjectID                      : 430808
+DocumentID                     : 5
+Name                           : ECA-153GO-429-438-ACA-FUN-DE-A2-003-R00a.pdf
+Description                    : 
+FileName                       : ECA-153GO-429-438-ACA-FUN-DE-A2-003-R00a.pdf
+Version                        : 00
+VersionSequence                : 0
+OriginalNumber                 : 0
+FileSize                       : 12764889
+DocumentStatus                 : Checked In
+DocumentOutTo                  : 
+DocumentOutToName              : 
+DocumentCheckOutDate           : 01/01/0001 00:00:00
+Workflow                       : Workflow - Transferencia
+WorkflowState                  : Em análise pelo Sistema
+DocumentUpdater                : Bentley.ProjectWise.PowerShell.Common.User
+StatusChangeDate               : 31/07/2026 16:20:57
+DocumentUpdaterName            : William Vieira Emenegildo
+DocumentUpdateDate             : 31/07/2026 16:23:16
+FileUpdater                    : Bentley.ProjectWise.PowerShell.Common.User
+FileUpdaterName                : William Vieira Emenegildo
+FileUpdateDate                 : 31/07/2026 16:20:42
+DocumentCreator                : Bentley.ProjectWise.PowerShell.Common.User
+DocumentCreatorName            : William Vieira Emenegildo
+CreateDate                     : 31/07/2026 16:09:59
+DocumentGUIDString             : e6531242-cd12-4aa1-80a9-59d468fa1d9a
+DocumentURN                    : pw://01SSRV305.ECSC.ECORODOVIAS.CORP:ecorodovias-pw-01/Documents/D{e6531242-cd12-4aa1-
+                                 80a9-59d468fa1d9a}
+FullPath                       : Engenharia\Ecovias Araguaia\Projetos\Ampliações 8°Ano SH 29 e 30\Area de 
+                                 Transferencia\Entrada\GRD-Ampliações 8 Ano SH 29 e 
+                                 30-0000008\ECA-153GO-429-438-ACA-FUN-DE-A2-003-R00a.pdf
+FolderPath                     : Engenharia\Ecovias Araguaia\Projetos\Ampliações 8°Ano SH 29 e 30\Area de 
+                                 Transferencia\Entrada\GRD-Ampliações 8 Ano SH 29 e 30-0000008
+OldVersion                     : 00
+WorkflowId                     : 4
+StateId                        : 18
+ApplicationId                  : 64
+ApplicationName                : Acrobat PDF
+CheckedOutLocalFileName        : 
+CopiedOutLocalFileName         : 
+IsAbstract                     : False
+IsSet                          : False
+DocumentOwnerType              : User
+DocumentOwnerName              : William Vieira Emenegildo
+FullPathToStorageAreaFile      : 
+Status                         : I
+MIMEType                       : application/pdf
+StorageName                    : Storage
+StorageId                      : 1
+ProjectWiseWebViewLink         : https://connect-projectwisewebview.bentley.com/pwlink?datasource=Bentley.PW--01SSRV305
+                                 .ECSC.ECORODOVIAS.CORP~3Aecorodovias-pw-01&objectId=e6531242-cd12-4aa1-80a9-59d468fa1d
+                                 9a&objectType=doc&app=webview
+ProjectWiseWebLink             : https://connect-projectwisewac.bentley.com/pwlink/?objectId=e6531242-cd12-4aa1-80a9-59
+                                 d468fa1d9a&objectType=doc&datasource=Bentley.PW--01SSRV305.ECSC.ECORODOVIAS.CORP~3Aeco
+                                 rodovias-pw-01&projectId=7728f036-853f-42b0-b4cf-6f205110728d&workareaid=5aedd0da-61b4
+                                 -4df7-8d92-fe2f3c0a2dcb&app=pwe
+WebServicesGatewayDownloadLink : Set WSG URL with Set-PWWebServicesGatewayURL
+OldName                        : ECA-153GO-429-438-ACA-FUN-DE-A2-003-R00a.pdf
+OldFileName                    : ECA-153GO-429-438-ACA-FUN-DE-A2-003-R00a.pdf
+OldDescription                 : 
+OldFullPath                    : 
+AttributeRecordCount           : 1
+Attributes                     : {System.Collections.Generic.SortedList`2[System.String,System.String]}
+NestedReferenceCount           : 0
+CustomAttributes               : {Disciplina, Revisao, LadoDesc, Unidade2...}
+
+DocumentGUID                   : e30971f1-a7f2-43d8-991a-32d6de92a719
+ProjectGUID                    : d1be2d12-1aae-4bae-8e7b-6a0c45aa7a01
+ProjectGUIDString              : d1be2d12-1aae-4bae-8e7b-6a0c45aa7a01
+ProjectID                      : 430808
+DocumentID                     : 6
+Name                           : ECA-153GO-429-438-ACA-FUN-DE-A2-003-R00a.dwg
+Description                    : 
+FileName                       : ECA-153GO-429-438-ACA-FUN-DE-A2-003-R00a.dwg
+Version                        : 00
+VersionSequence                : 0
+OriginalNumber                 : 0
+FileSize                       : 248084702
+DocumentStatus                 : Checked In
+DocumentOutTo                  : 
+DocumentOutToName              : 
+DocumentCheckOutDate           : 01/01/0001 00:00:00
+Workflow                       : Workflow - Transferencia
+WorkflowState                  : Em análise pelo Sistema
+DocumentUpdater                : Bentley.ProjectWise.PowerShell.Common.User
+StatusChangeDate               : 31/07/2026 16:21:43
+DocumentUpdaterName            : William Vieira Emenegildo
+DocumentUpdateDate             : 31/07/2026 16:23:16
+FileUpdater                    : Bentley.ProjectWise.PowerShell.Common.User
+FileUpdaterName                : William Vieira Emenegildo
+FileUpdateDate                 : 31/07/2026 16:20:45
+DocumentCreator                : Bentley.ProjectWise.PowerShell.Common.User
+DocumentCreatorName            : William Vieira Emenegildo
+CreateDate                     : 31/07/2026 16:10:01
+DocumentGUIDString             : e30971f1-a7f2-43d8-991a-32d6de92a719
+DocumentURN                    : pw://01SSRV305.ECSC.ECORODOVIAS.CORP:ecorodovias-pw-01/Documents/D{e30971f1-a7f2-43d8-
+                                 991a-32d6de92a719}
+FullPath                       : Engenharia\Ecovias Araguaia\Projetos\Ampliações 8°Ano SH 29 e 30\Area de 
+                                 Transferencia\Entrada\GRD-Ampliações 8 Ano SH 29 e 
+                                 30-0000008\ECA-153GO-429-438-ACA-FUN-DE-A2-003-R00a.dwg
+FolderPath                     : Engenharia\Ecovias Araguaia\Projetos\Ampliações 8°Ano SH 29 e 30\Area de 
+                                 Transferencia\Entrada\GRD-Ampliações 8 Ano SH 29 e 30-0000008
+OldVersion                     : 00
+WorkflowId                     : 4
+StateId                        : 18
+ApplicationId                  : 2
+ApplicationName                : AutoCAD
+CheckedOutLocalFileName        : 
+CopiedOutLocalFileName         : 
+IsAbstract                     : False
+IsSet                          : False
+DocumentOwnerType              : User
+DocumentOwnerName              : William Vieira Emenegildo
+FullPathToStorageAreaFile      : 
+Status                         : I
+MIMEType                       : image/vnd.dwg
+StorageName                    : Storage
+StorageId                      : 1
+ProjectWiseWebViewLink         : https://connect-projectwisewebview.bentley.com/pwlink?datasource=Bentley.PW--01SSRV305
+                                 .ECSC.ECORODOVIAS.CORP~3Aecorodovias-pw-01&objectId=e30971f1-a7f2-43d8-991a-32d6de92a7
+                                 19&objectType=doc&app=webview
+ProjectWiseWebLink             : https://connect-projectwisewac.bentley.com/pwlink/?objectId=e30971f1-a7f2-43d8-991a-32
+                                 d6de92a719&objectType=doc&datasource=Bentley.PW--01SSRV305.ECSC.ECORODOVIAS.CORP~3Aeco
+                                 rodovias-pw-01&projectId=7728f036-853f-42b0-b4cf-6f205110728d&workareaid=5aedd0da-61b4
+                                 -4df7-8d92-fe2f3c0a2dcb&app=pwe
+WebServicesGatewayDownloadLink : Set WSG URL with Set-PWWebServicesGatewayURL
+OldName                        : ECA-153GO-429-438-ACA-FUN-DE-A2-003-R00a.dwg
+OldFileName                    : ECA-153GO-429-438-ACA-FUN-DE-A2-003-R00a.dwg
+OldDescription                 : 
+OldFullPath                    : 
+AttributeRecordCount           : 1
+Attributes                     : {System.Collections.Generic.SortedList`2[System.String,System.String]}
+NestedReferenceCount           : 0
+CustomAttributes               : {Disciplina, Revisao, LadoDesc, Unidade2...}
+
+DocumentGUID                   : 1a6a83bc-fa69-4c07-a77f-1d83499d8b94
+ProjectGUID                    : 370142ff-f7c8-4e11-9d15-0657db575d94
+ProjectGUIDString              : 370142ff-f7c8-4e11-9d15-0657db575d94
+ProjectID                      : 430810
+DocumentID                     : 1
+Name                           : NS-SP0000310-451.455-231-P01-001-R00a.dwg
+Description                    : 
+FileName                       : NS-SP0000310-451.455-231-P01-001-R00a.dwg
+Version                        : 00
+VersionSequence                : 0
+OriginalNumber                 : 0
+FileSize                       : 2473330
+DocumentStatus                 : Checked In
+DocumentOutTo                  : 
+DocumentOutToName              : 
+DocumentCheckOutDate           : 01/01/0001 00:00:00
+Workflow                       : Workflow - Transferencia
+WorkflowState                  : Em análise pelo Sistema
+DocumentUpdater                : Bentley.ProjectWise.PowerShell.Common.User
+StatusChangeDate               : 31/07/2026 16:23:43
+DocumentUpdaterName            : Rodrigo Lopes Medrado
+DocumentUpdateDate             : 31/07/2026 16:24:34
+FileUpdater                    : Bentley.ProjectWise.PowerShell.Common.User
+FileUpdaterName                : Rodrigo Lopes Medrado
+FileUpdateDate                 : 31/07/2026 16:23:06
+DocumentCreator                : Bentley.ProjectWise.PowerShell.Common.User
+DocumentCreatorName            : Rodrigo Lopes Medrado
+CreateDate                     : 31/07/2026 16:23:05
+DocumentGUIDString             : 1a6a83bc-fa69-4c07-a77f-1d83499d8b94
+DocumentURN                    : pw://01SSRV305.ECSC.ECORODOVIAS.CORP:ecorodovias-pw-01/Documents/D{1a6a83bc-fa69-4c07-
+                                 a77f-1d83499d8b94}
+FullPath                       : Engenharia\Ecovias Noroeste Paulista\Projetos\NOP12 - Faixa Adicional RP\Area de 
+                                 Transferencia\Entrada\GRD-NOP12 - Faixa Adicional SJRP-0000008 - 
+                                 B\NS-SP0000310-451.455-231-P01-001-R00a.dwg
+FolderPath                     : Engenharia\Ecovias Noroeste Paulista\Projetos\NOP12 - Faixa Adicional RP\Area de 
+                                 Transferencia\Entrada\GRD-NOP12 - Faixa Adicional SJRP-0000008 - B
+OldVersion                     : 00
+WorkflowId                     : 4
+StateId                        : 18
+ApplicationId                  : 2
+ApplicationName                : AutoCAD
+CheckedOutLocalFileName        : 
+CopiedOutLocalFileName         : 
+IsAbstract                     : False
+IsSet                          : False
+DocumentOwnerType              : User
+DocumentOwnerName              : Rodrigo Lopes Medrado
+FullPathToStorageAreaFile      : 
+Status                         : I
+MIMEType                       : image/vnd.dwg
+StorageName                    : Storage
+StorageId                      : 1
+ProjectWiseWebViewLink         : https://connect-projectwisewebview.bentley.com/pwlink?datasource=Bentley.PW--01SSRV305
+                                 .ECSC.ECORODOVIAS.CORP~3Aecorodovias-pw-01&objectId=1a6a83bc-fa69-4c07-a77f-1d83499d8b
+                                 94&objectType=doc&app=webview
+ProjectWiseWebLink             : https://connect-projectwisewac.bentley.com/pwlink/?objectId=1a6a83bc-fa69-4c07-a77f-1d
+                                 83499d8b94&objectType=doc&datasource=Bentley.PW--01SSRV305.ECSC.ECORODOVIAS.CORP~3Aeco
+                                 rodovias-pw-01&projectId=c15529f9-7d48-41cb-9736-f6c16f1bc425&workareaid=b130c8f8-d0b7
+                                 -45d3-9104-d45666fdf1f6&app=pwe
+WebServicesGatewayDownloadLink : Set WSG URL with Set-PWWebServicesGatewayURL
+OldName                        : NS-SP0000310-451.455-231-P01-001-R00a.dwg
+OldFileName                    : NS-SP0000310-451.455-231-P01-001-R00a.dwg
+OldDescription                 : 
+OldFullPath                    : 
+AttributeRecordCount           : 1
+Attributes                     : {System.Collections.Generic.SortedList`2[System.String,System.String]}
+NestedReferenceCount           : 0
+CustomAttributes               : {Disciplina, Revisao, LadoDesc, Unidade2...}
+
+DocumentGUID                   : 419a1fa5-7f1c-4e86-b8c7-ab4e70946d90
+ProjectGUID                    : 370142ff-f7c8-4e11-9d15-0657db575d94
+ProjectGUIDString              : 370142ff-f7c8-4e11-9d15-0657db575d94
+ProjectID                      : 430810
+DocumentID                     : 2
+Name                           : NS-SP0000310-451.455-231-P01-001-R00a.docx
+Description                    : 
+FileName                       : NS-SP0000310-451.455-231-P01-001-R00a.docx
+Version                        : 00
+VersionSequence                : 0
+OriginalNumber                 : 0
+FileSize                       : 936012
+DocumentStatus                 : Checked In
+DocumentOutTo                  : 
+DocumentOutToName              : 
+DocumentCheckOutDate           : 01/01/0001 00:00:00
+Workflow                       : Workflow - Transferencia
+WorkflowState                  : Em análise pelo Sistema
+DocumentUpdater                : Bentley.ProjectWise.PowerShell.Common.User
+StatusChangeDate               : 31/07/2026 16:23:46
+DocumentUpdaterName            : Rodrigo Lopes Medrado
+DocumentUpdateDate             : 31/07/2026 16:24:34
+FileUpdater                    : Bentley.ProjectWise.PowerShell.Common.User
+FileUpdaterName                : Rodrigo Lopes Medrado
+FileUpdateDate                 : 31/07/2026 16:23:07
+DocumentCreator                : Bentley.ProjectWise.PowerShell.Common.User
+DocumentCreatorName            : Rodrigo Lopes Medrado
+CreateDate                     : 31/07/2026 16:23:07
+DocumentGUIDString             : 419a1fa5-7f1c-4e86-b8c7-ab4e70946d90
+DocumentURN                    : pw://01SSRV305.ECSC.ECORODOVIAS.CORP:ecorodovias-pw-01/Documents/D{419a1fa5-7f1c-4e86-
+                                 b8c7-ab4e70946d90}
+FullPath                       : Engenharia\Ecovias Noroeste Paulista\Projetos\NOP12 - Faixa Adicional RP\Area de 
+                                 Transferencia\Entrada\GRD-NOP12 - Faixa Adicional SJRP-0000008 - 
+                                 B\NS-SP0000310-451.455-231-P01-001-R00a.docx
+FolderPath                     : Engenharia\Ecovias Noroeste Paulista\Projetos\NOP12 - Faixa Adicional RP\Area de 
+                                 Transferencia\Entrada\GRD-NOP12 - Faixa Adicional SJRP-0000008 - B
+OldVersion                     : 00
+WorkflowId                     : 4
+StateId                        : 18
+ApplicationId                  : 50
+ApplicationName                : Microsoft Word
+CheckedOutLocalFileName        : 
+CopiedOutLocalFileName         : 
+IsAbstract                     : False
+IsSet                          : False
+DocumentOwnerType              : User
+DocumentOwnerName              : Rodrigo Lopes Medrado
+FullPathToStorageAreaFile      : 
+Status                         : I
+MIMEType                       : application/vnd.openxmlformats-officedocument.wordprocessingml.document
+StorageName                    : Storage
+StorageId                      : 1
+ProjectWiseWebViewLink         : https://connect-projectwisewebview.bentley.com/pwlink?datasource=Bentley.PW--01SSRV305
+                                 .ECSC.ECORODOVIAS.CORP~3Aecorodovias-pw-01&objectId=419a1fa5-7f1c-4e86-b8c7-ab4e70946d
+                                 90&objectType=doc&app=webview
+ProjectWiseWebLink             : https://connect-projectwisewac.bentley.com/pwlink/?objectId=419a1fa5-7f1c-4e86-b8c7-ab
+                                 4e70946d90&objectType=doc&datasource=Bentley.PW--01SSRV305.ECSC.ECORODOVIAS.CORP~3Aeco
+                                 rodovias-pw-01&projectId=c15529f9-7d48-41cb-9736-f6c16f1bc425&workareaid=b130c8f8-d0b7
+                                 -45d3-9104-d45666fdf1f6&app=pwe
+WebServicesGatewayDownloadLink : Set WSG URL with Set-PWWebServicesGatewayURL
+OldName                        : NS-SP0000310-451.455-231-P01-001-R00a.docx
+OldFileName                    : NS-SP0000310-451.455-231-P01-001-R00a.docx
+OldDescription                 : 
+OldFullPath                    : 
+AttributeRecordCount           : 1
+Attributes                     : {System.Collections.Generic.SortedList`2[System.String,System.String]}
+NestedReferenceCount           : 0
+CustomAttributes               : {Disciplina, Revisao, LadoDesc, Unidade2...}
+
+DocumentGUID                   : 344a7b4c-014e-4da4-9edd-b108776df017
+ProjectGUID                    : 370142ff-f7c8-4e11-9d15-0657db575d94
+ProjectGUIDString              : 370142ff-f7c8-4e11-9d15-0657db575d94
+ProjectID                      : 430810
+DocumentID                     : 3
+Name                           : NS-SP0000310-451.455-131-P01-001-R00a.docx
+Description                    : 
+FileName                       : NS-SP0000310-451.455-131-P01-001-R00a.docx
+Version                        : 00
+VersionSequence                : 0
+OriginalNumber                 : 0
+FileSize                       : 935936
+DocumentStatus                 : Checked In
+DocumentOutTo                  : 
+DocumentOutToName              : 
+DocumentCheckOutDate           : 01/01/0001 00:00:00
+Workflow                       : Workflow - Transferencia
+WorkflowState                  : Em análise pelo Sistema
+DocumentUpdater                : Bentley.ProjectWise.PowerShell.Common.User
+StatusChangeDate               : 31/07/2026 16:23:47
+DocumentUpdaterName            : Rodrigo Lopes Medrado
+DocumentUpdateDate             : 31/07/2026 16:24:33
+FileUpdater                    : Bentley.ProjectWise.PowerShell.Common.User
+FileUpdaterName                : Rodrigo Lopes Medrado
+FileUpdateDate                 : 31/07/2026 16:23:08
+DocumentCreator                : Bentley.ProjectWise.PowerShell.Common.User
+DocumentCreatorName            : Rodrigo Lopes Medrado
+CreateDate                     : 31/07/2026 16:23:08
+DocumentGUIDString             : 344a7b4c-014e-4da4-9edd-b108776df017
+DocumentURN                    : pw://01SSRV305.ECSC.ECORODOVIAS.CORP:ecorodovias-pw-01/Documents/D{344a7b4c-014e-4da4-
+                                 9edd-b108776df017}
+FullPath                       : Engenharia\Ecovias Noroeste Paulista\Projetos\NOP12 - Faixa Adicional RP\Area de 
+                                 Transferencia\Entrada\GRD-NOP12 - Faixa Adicional SJRP-0000008 - 
+                                 B\NS-SP0000310-451.455-131-P01-001-R00a.docx
+FolderPath                     : Engenharia\Ecovias Noroeste Paulista\Projetos\NOP12 - Faixa Adicional RP\Area de 
+                                 Transferencia\Entrada\GRD-NOP12 - Faixa Adicional SJRP-0000008 - B
+OldVersion                     : 00
+WorkflowId                     : 4
+StateId                        : 18
+ApplicationId                  : 50
+ApplicationName                : Microsoft Word
+CheckedOutLocalFileName        : 
+CopiedOutLocalFileName         : 
+IsAbstract                     : False
+IsSet                          : False
+DocumentOwnerType              : User
+DocumentOwnerName              : Rodrigo Lopes Medrado
+FullPathToStorageAreaFile      : 
+Status                         : I
+MIMEType                       : application/vnd.openxmlformats-officedocument.wordprocessingml.document
+StorageName                    : Storage
+StorageId                      : 1
+ProjectWiseWebViewLink         : https://connect-projectwisewebview.bentley.com/pwlink?datasource=Bentley.PW--01SSRV305
+                                 .ECSC.ECORODOVIAS.CORP~3Aecorodovias-pw-01&objectId=344a7b4c-014e-4da4-9edd-b108776df0
+                                 17&objectType=doc&app=webview
+ProjectWiseWebLink             : https://connect-projectwisewac.bentley.com/pwlink/?objectId=344a7b4c-014e-4da4-9edd-b1
+                                 08776df017&objectType=doc&datasource=Bentley.PW--01SSRV305.ECSC.ECORODOVIAS.CORP~3Aeco
+                                 rodovias-pw-01&projectId=c15529f9-7d48-41cb-9736-f6c16f1bc425&workareaid=b130c8f8-d0b7
+                                 -45d3-9104-d45666fdf1f6&app=pwe
+WebServicesGatewayDownloadLink : Set WSG URL with Set-PWWebServicesGatewayURL
+OldName                        : NS-SP0000310-451.455-131-P01-001-R00a.docx
+OldFileName                    : NS-SP0000310-451.455-131-P01-001-R00a.docx
+OldDescription                 : 
+OldFullPath                    : 
+AttributeRecordCount           : 1
+Attributes                     : {System.Collections.Generic.SortedList`2[System.String,System.String]}
+NestedReferenceCount           : 0
+CustomAttributes               : {Disciplina, Revisao, LadoDesc, Unidade2...}
+
+DocumentGUID                   : dac4f13f-6250-457e-bb59-008b78499631
+ProjectGUID                    : 370142ff-f7c8-4e11-9d15-0657db575d94
+ProjectGUIDString              : 370142ff-f7c8-4e11-9d15-0657db575d94
+ProjectID                      : 430810
+DocumentID                     : 4
+Name                           : NS-SP0000310-451.455-131-P01-001-R00a.dwg
+Description                    : 
+FileName                       : NS-SP0000310-451.455-131-P01-001-R00a.dwg
+Version                        : 00
+VersionSequence                : 0
+OriginalNumber                 : 0
+FileSize                       : 3293855
+DocumentStatus                 : Checked In
+DocumentOutTo                  : 
+DocumentOutToName              : 
+DocumentCheckOutDate           : 01/01/0001 00:00:00
+Workflow                       : Workflow - Transferencia
+WorkflowState                  : Em análise pelo Sistema
+DocumentUpdater                : Bentley.ProjectWise.PowerShell.Common.User
+StatusChangeDate               : 31/07/2026 16:23:51
+DocumentUpdaterName            : Rodrigo Lopes Medrado
+DocumentUpdateDate             : 31/07/2026 16:24:33
+FileUpdater                    : Bentley.ProjectWise.PowerShell.Common.User
+FileUpdaterName                : Rodrigo Lopes Medrado
+FileUpdateDate                 : 31/07/2026 16:23:09
+DocumentCreator                : Bentley.ProjectWise.PowerShell.Common.User
+DocumentCreatorName            : Rodrigo Lopes Medrado
+CreateDate                     : 31/07/2026 16:23:09
+DocumentGUIDString             : dac4f13f-6250-457e-bb59-008b78499631
+DocumentURN                    : pw://01SSRV305.ECSC.ECORODOVIAS.CORP:ecorodovias-pw-01/Documents/D{dac4f13f-6250-457e-
+                                 bb59-008b78499631}
+FullPath                       : Engenharia\Ecovias Noroeste Paulista\Projetos\NOP12 - Faixa Adicional RP\Area de 
+                                 Transferencia\Entrada\GRD-NOP12 - Faixa Adicional SJRP-0000008 - 
+                                 B\NS-SP0000310-451.455-131-P01-001-R00a.dwg
+FolderPath                     : Engenharia\Ecovias Noroeste Paulista\Projetos\NOP12 - Faixa Adicional RP\Area de 
+                                 Transferencia\Entrada\GRD-NOP12 - Faixa Adicional SJRP-0000008 - B
+OldVersion                     : 00
+WorkflowId                     : 4
+StateId                        : 18
+ApplicationId                  : 2
+ApplicationName                : AutoCAD
+CheckedOutLocalFileName        : 
+CopiedOutLocalFileName         : 
+IsAbstract                     : False
+IsSet                          : False
+DocumentOwnerType              : User
+DocumentOwnerName              : Rodrigo Lopes Medrado
+FullPathToStorageAreaFile      : 
+Status                         : I
+MIMEType                       : image/vnd.dwg
+StorageName                    : Storage
+StorageId                      : 1
+ProjectWiseWebViewLink         : https://connect-projectwisewebview.bentley.com/pwlink?datasource=Bentley.PW--01SSRV305
+                                 .ECSC.ECORODOVIAS.CORP~3Aecorodovias-pw-01&objectId=dac4f13f-6250-457e-bb59-008b784996
+                                 31&objectType=doc&app=webview
+ProjectWiseWebLink             : https://connect-projectwisewac.bentley.com/pwlink/?objectId=dac4f13f-6250-457e-bb59-00
+                                 8b78499631&objectType=doc&datasource=Bentley.PW--01SSRV305.ECSC.ECORODOVIAS.CORP~3Aeco
+                                 rodovias-pw-01&projectId=c15529f9-7d48-41cb-9736-f6c16f1bc425&workareaid=b130c8f8-d0b7
+                                 -45d3-9104-d45666fdf1f6&app=pwe
+WebServicesGatewayDownloadLink : Set WSG URL with Set-PWWebServicesGatewayURL
+OldName                        : NS-SP0000310-451.455-131-P01-001-R00a.dwg
+OldFileName                    : NS-SP0000310-451.455-131-P01-001-R00a.dwg
+OldDescription                 : 
+OldFullPath                    : 
+AttributeRecordCount           : 1
+Attributes                     : {System.Collections.Generic.SortedList`2[System.String,System.String]}
+NestedReferenceCount           : 0
+CustomAttributes               : {Disciplina, Revisao, LadoDesc, Unidade2...}
+
+DocumentGUID                   : 5ad530ce-e3b6-4992-a1b1-31a2acd33c0f
+ProjectGUID                    : 370142ff-f7c8-4e11-9d15-0657db575d94
+ProjectGUIDString              : 370142ff-f7c8-4e11-9d15-0657db575d94
+ProjectID                      : 430810
+DocumentID                     : 5
+Name                           : NS-SP0000310-451.455-131-P01-001-R00a.pdf
+Description                    : 
+FileName                       : NS-SP0000310-451.455-131-P01-001-R00a.pdf
+Version                        : 00
+VersionSequence                : 0
+OriginalNumber                 : 0
+FileSize                       : 38374758
+DocumentStatus                 : Checked In
+DocumentOutTo                  : 
+DocumentOutToName              : 
+DocumentCheckOutDate           : 01/01/0001 00:00:00
+Workflow                       : Workflow - Transferencia
+WorkflowState                  : Em análise pelo Sistema
+DocumentUpdater                : Bentley.ProjectWise.PowerShell.Common.User
+StatusChangeDate               : 31/07/2026 16:23:58
+DocumentUpdaterName            : Rodrigo Lopes Medrado
+DocumentUpdateDate             : 31/07/2026 16:24:33
+FileUpdater                    : Bentley.ProjectWise.PowerShell.Common.User
+FileUpdaterName                : Rodrigo Lopes Medrado
+FileUpdateDate                 : 31/07/2026 16:23:25
+DocumentCreator                : Bentley.ProjectWise.PowerShell.Common.User
+DocumentCreatorName            : Rodrigo Lopes Medrado
+CreateDate                     : 31/07/2026 16:23:10
+DocumentGUIDString             : 5ad530ce-e3b6-4992-a1b1-31a2acd33c0f
+DocumentURN                    : pw://01SSRV305.ECSC.ECORODOVIAS.CORP:ecorodovias-pw-01/Documents/D{5ad530ce-e3b6-4992-
+                                 a1b1-31a2acd33c0f}
+FullPath                       : Engenharia\Ecovias Noroeste Paulista\Projetos\NOP12 - Faixa Adicional RP\Area de 
+                                 Transferencia\Entrada\GRD-NOP12 - Faixa Adicional SJRP-0000008 - 
+                                 B\NS-SP0000310-451.455-131-P01-001-R00a.pdf
+FolderPath                     : Engenharia\Ecovias Noroeste Paulista\Projetos\NOP12 - Faixa Adicional RP\Area de 
+                                 Transferencia\Entrada\GRD-NOP12 - Faixa Adicional SJRP-0000008 - B
+OldVersion                     : 00
+WorkflowId                     : 4
+StateId                        : 18
+ApplicationId                  : 64
+ApplicationName                : Acrobat PDF
+CheckedOutLocalFileName        : 
+CopiedOutLocalFileName         : 
+IsAbstract                     : False
+IsSet                          : False
+DocumentOwnerType              : User
+DocumentOwnerName              : Rodrigo Lopes Medrado
+FullPathToStorageAreaFile      : 
+Status                         : I
+MIMEType                       : application/pdf
+StorageName                    : Storage
+StorageId                      : 1
+ProjectWiseWebViewLink         : https://connect-projectwisewebview.bentley.com/pwlink?datasource=Bentley.PW--01SSRV305
+                                 .ECSC.ECORODOVIAS.CORP~3Aecorodovias-pw-01&objectId=5ad530ce-e3b6-4992-a1b1-31a2acd33c
+                                 0f&objectType=doc&app=webview
+ProjectWiseWebLink             : https://connect-projectwisewac.bentley.com/pwlink/?objectId=5ad530ce-e3b6-4992-a1b1-31
+                                 a2acd33c0f&objectType=doc&datasource=Bentley.PW--01SSRV305.ECSC.ECORODOVIAS.CORP~3Aeco
+                                 rodovias-pw-01&projectId=c15529f9-7d48-41cb-9736-f6c16f1bc425&workareaid=b130c8f8-d0b7
+                                 -45d3-9104-d45666fdf1f6&app=pwe
+WebServicesGatewayDownloadLink : Set WSG URL with Set-PWWebServicesGatewayURL
+OldName                        : NS-SP0000310-451.455-131-P01-001-R00a.pdf
+OldFileName                    : NS-SP0000310-451.455-131-P01-001-R00a.pdf
+OldDescription                 : 
+OldFullPath                    : 
+AttributeRecordCount           : 1
+Attributes                     : {System.Collections.Generic.SortedList`2[System.String,System.String]}
+NestedReferenceCount           : 0
+CustomAttributes               : {Disciplina, Revisao, LadoDesc, Unidade2...}
+
+DocumentGUID                   : 8c60275e-0d9e-47b5-b073-52a2c35caefd
+ProjectGUID                    : 370142ff-f7c8-4e11-9d15-0657db575d94
+ProjectGUIDString              : 370142ff-f7c8-4e11-9d15-0657db575d94
+ProjectID                      : 430810
+DocumentID                     : 6
+Name                           : NS-SP0000310-451.455-231-P01-001-R00a.pdf
+Description                    : 
+FileName                       : NS-SP0000310-451.455-231-P01-001-R00a.pdf
+Version                        : 00
+VersionSequence                : 0
+OriginalNumber                 : 0
+FileSize                       : 27338356
+DocumentStatus                 : Checked In
+DocumentOutTo                  : 
+DocumentOutToName              : 
+DocumentCheckOutDate           : 01/01/0001 00:00:00
+Workflow                       : Workflow - Transferencia
+WorkflowState                  : Em análise pelo Sistema
+DocumentUpdater                : Bentley.ProjectWise.PowerShell.Common.User
+StatusChangeDate               : 31/07/2026 16:24:03
+DocumentUpdaterName            : Rodrigo Lopes Medrado
+DocumentUpdateDate             : 31/07/2026 16:24:34
+FileUpdater                    : Bentley.ProjectWise.PowerShell.Common.User
+FileUpdaterName                : Rodrigo Lopes Medrado
+FileUpdateDate                 : 31/07/2026 16:23:31
+DocumentCreator                : Bentley.ProjectWise.PowerShell.Common.User
+DocumentCreatorName            : Rodrigo Lopes Medrado
+CreateDate                     : 31/07/2026 16:23:26
+DocumentGUIDString             : 8c60275e-0d9e-47b5-b073-52a2c35caefd
+DocumentURN                    : pw://01SSRV305.ECSC.ECORODOVIAS.CORP:ecorodovias-pw-01/Documents/D{8c60275e-0d9e-47b5-
+                                 b073-52a2c35caefd}
+FullPath                       : Engenharia\Ecovias Noroeste Paulista\Projetos\NOP12 - Faixa Adicional RP\Area de 
+                                 Transferencia\Entrada\GRD-NOP12 - Faixa Adicional SJRP-0000008 - 
+                                 B\NS-SP0000310-451.455-231-P01-001-R00a.pdf
+FolderPath                     : Engenharia\Ecovias Noroeste Paulista\Projetos\NOP12 - Faixa Adicional RP\Area de 
+                                 Transferencia\Entrada\GRD-NOP12 - Faixa Adicional SJRP-0000008 - B
+OldVersion                     : 00
+WorkflowId                     : 4
+StateId                        : 18
+ApplicationId                  : 64
+ApplicationName                : Acrobat PDF
+CheckedOutLocalFileName        : 
+CopiedOutLocalFileName         : 
+IsAbstract                     : False
+IsSet                          : False
+DocumentOwnerType              : User
+DocumentOwnerName              : Rodrigo Lopes Medrado
+FullPathToStorageAreaFile      : 
+Status                         : I
+MIMEType                       : application/pdf
+StorageName                    : Storage
+StorageId                      : 1
+ProjectWiseWebViewLink         : https://connect-projectwisewebview.bentley.com/pwlink?datasource=Bentley.PW--01SSRV305
+                                 .ECSC.ECORODOVIAS.CORP~3Aecorodovias-pw-01&objectId=8c60275e-0d9e-47b5-b073-52a2c35cae
+                                 fd&objectType=doc&app=webview
+ProjectWiseWebLink             : https://connect-projectwisewac.bentley.com/pwlink/?objectId=8c60275e-0d9e-47b5-b073-52
+                                 a2c35caefd&objectType=doc&datasource=Bentley.PW--01SSRV305.ECSC.ECORODOVIAS.CORP~3Aeco
+                                 rodovias-pw-01&projectId=c15529f9-7d48-41cb-9736-f6c16f1bc425&workareaid=b130c8f8-d0b7
+                                 -45d3-9104-d45666fdf1f6&app=pwe
+WebServicesGatewayDownloadLink : Set WSG URL with Set-PWWebServicesGatewayURL
+OldName                        : NS-SP0000310-451.455-231-P01-001-R00a.pdf
+OldFileName                    : NS-SP0000310-451.455-231-P01-001-R00a.pdf
+OldDescription                 : 
+OldFullPath                    : 
+AttributeRecordCount           : 1
+Attributes                     : {System.Collections.Generic.SortedList`2[System.String,System.String]}
+NestedReferenceCount           : 0
+CustomAttributes               : {Disciplina, Revisao, LadoDesc, Unidade2...}
+
+True
+[OK] Validação de documentos concluída.
+
+[2/2] Criando ou garantindo as pastas de disciplina...
+OK: Pastas garantidas (AT e UN) -> Engenharia\Ecovias Araguaia\Projetos\Ampliações 8°Ano SH 29 e 30\1 - Area de Trabalho\01 - Funcional\Caderno de premissas
+OK: Pastas garantidas (AT e UN) -> Engenharia\Ecovias Araguaia\Projetos\Ampliações 8°Ano SH 29 e 30\1 - Area de Trabalho\01 - Funcional\Caderno de premissas
+OK: Pastas garantidas (AT e UN) -> Engenharia\Ecovias Araguaia\Projetos\Ampliações 8°Ano SH 29 e 30\1 - Area de Trabalho\01 - Funcional\Caderno de premissas
+OK: Pastas garantidas (AT e UN) -> Engenharia\Ecovias Araguaia\Projetos\Ampliações 8°Ano SH 29 e 30\1 - Area de Trabalho\01 - Funcional\Caderno de premissas
+OK: Pastas garantidas (AT e UN) -> Engenharia\Ecovias Araguaia\Projetos\Ampliações 8°Ano SH 29 e 30\1 - Area de Trabalho\01 - Funcional\Caderno de premissas
+OK: Pastas garantidas (AT e UN) -> Engenharia\Ecovias Araguaia\Projetos\Ampliações 8°Ano SH 29 e 30\1 - Area de Trabalho\01 - Funcional\Caderno de premissas
+OK: Pastas garantidas (AT e UN) -> Engenharia\Ecovias Noroeste Paulista\Projetos\NOP12 - Faixa Adicional RP\1 - Area de Trabalho\06 - Executivo\Terraplenagem
+OK: Pastas garantidas (AT e UN) -> Engenharia\Ecovias Noroeste Paulista\Projetos\NOP12 - Faixa Adicional RP\1 - Area de Trabalho\06 - Executivo\Terraplenagem
+OK: Pastas garantidas (AT e UN) -> Engenharia\Ecovias Noroeste Paulista\Projetos\NOP12 - Faixa Adicional RP\1 - Area de Trabalho\06 - Executivo\Terraplenagem
+OK: Pastas garantidas (AT e UN) -> Engenharia\Ecovias Noroeste Paulista\Projetos\NOP12 - Faixa Adicional RP\1 - Area de Trabalho\06 - Executivo\Terraplenagem
+OK: Pastas garantidas (AT e UN) -> Engenharia\Ecovias Noroeste Paulista\Projetos\NOP12 - Faixa Adicional RP\1 - Area de Trabalho\06 - Executivo\Terraplenagem
+OK: Pastas garantidas (AT e UN) -> Engenharia\Ecovias Noroeste Paulista\Projetos\NOP12 - Faixa Adicional RP\1 - Area de Trabalho\06 - Executivo\Terraplenagem
+True
+[OK] Criação de pastas concluída.
+
+[OK] Fluxo Entrada de Documentos finalizado em 00:00:47.
+
+
+Processo finalizado com código 0.

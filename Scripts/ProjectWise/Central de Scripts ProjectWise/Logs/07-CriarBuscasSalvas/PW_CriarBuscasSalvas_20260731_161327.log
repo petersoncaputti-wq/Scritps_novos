@@ -1,0 +1,39 @@
+﻿Iniciando rotina: 07 - Criar buscas salvas...
+PowerShell aberto em modo STA. Reabrindo automaticamente em modo MTA...
+
+Buscas disponiveis para criar:
+[1] [PADRAO] Em análise da Assistente
+[2] [PADRAO] Em análise da Engenharia
+[3] [PADRAO] Em análise Especifica
+[4] [PADRAO] Enviado para a Unidade
+[5] [PADRAO] Não Validada pelo Sistema
+[6] [OPCIONAL] Enviado ao Poder Concedente
+[7] [OPCIONAL] Emitido pela Engenharia
+> p
+p
+Security Protocol now set to TLS 1.2
+PWPS_DAB Version is 24.0.2.0
+This is a 64-bit process.
+.Net Framework version OK (at least 4.8)
+AVISO: Os nomes de alguns comandos importados do módulo 'pwps_dab' incluem verbos não aprovados que podem os tornar 
+menos detectáveis. Para localizar os comandos com verbos não aprovados, execute novamente o comando Import-Module com o
+ parâmetro Verbose. Para obter uma lista de verbos aprovados, digite Get-Verb.
+16:13:48 | Conectando via GUI...
+[AVISO] Cancelamento solicitado pelo operador.
+Processo finalizado com código -1.
+16:14:00 | Listando filhos: Engenharia
+
+Concessoes encontradas:
+[1] Ecovias Araguaia
+[2] Ecovias Capixaba
+[3] Ecovias Cerrado
+[4] Ecovias Imigrantes
+[5] Ecovias Leste Paulista
+[6] Ecovias Minas Goiás
+[7] Ecovias Noroeste Paulista
+[8] Ecovias Norte Minas
+[9] Ecovias Ponte
+[10] Ecovias Raposo Castello
+[11] Ecovias Rio Minas
+[12] Ecovias Sul
+[13] Z - Templates

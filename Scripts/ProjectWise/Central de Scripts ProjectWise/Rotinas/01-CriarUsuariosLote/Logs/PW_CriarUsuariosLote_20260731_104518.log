@@ -1,0 +1,81 @@
+2026-07-31 10:45:18 | INFO | ProjectWise - criação de usuários em lote
+2026-07-31 10:45:18 | INFO | Execução iniciada pela Central de Scripts ProjectWise.
+2026-07-31 10:45:18 | INFO | Log: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\Central de Scripts ProjectWise\Rotinas\01-CriarUsuariosLote\Logs\PW_CriarUsuariosLote_20260731_104518.log
+2026-07-31 10:45:18 | INFO | Abrindo a autenticação do ProjectWise...
+2026-07-31 10:45:29 | OK | Autenticação realizada. Usuário atual: Peterson Caputti
+2026-07-31 10:45:29 | INFO | Arquivo de entrada: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Modelo_Criacao_Usuarios_ProjectWise.xlsx
+2026-07-31 10:45:29 | INFO | Registros carregados: 28
+2026-07-31 10:45:29 | WARN | Linha 2: usuário já existente - Wesley Mezine (localizado por Name)
+2026-07-31 10:45:29 | WARN | Linha 3: usuário já existente - Leonardo Botelho (localizado por Name)
+2026-07-31 10:45:29 | WARN | Linha 4: usuário já existente - Bruna Rocha (localizado por Name)
+2026-07-31 10:45:29 | WARN | Linha 5: usuário já existente - Letícia Silva (localizado por Name)
+2026-07-31 10:45:30 | WARN | Linha 6: usuário já existente - Daniele Spitz (localizado por Name)
+2026-07-31 10:45:30 | WARN | Linha 7: usuário já existente - José Milton (localizado por Name)
+2026-07-31 10:45:30 | WARN | Linha 8: usuário já existente - João Paulo (localizado por Name)
+2026-07-31 10:45:30 | WARN | Linha 9: usuário já existente - Aline Santos (localizado por E-mail)
+2026-07-31 10:45:30 | WARN | Linha 10: usuário já existente - Leandro Okamoto (localizado por Name)
+2026-07-31 10:45:30 | WARN | Linha 11: usuário já existente - Cláudia Campos (localizado por E-mail)
+2026-07-31 10:45:30 | WARN | Linha 12: usuário já existente - Matheus Santos (localizado por Name)
+2026-07-31 10:45:30 | WARN | Linha 13: usuário já existente - Maria Eduarda Nunes (localizado por Name)
+2026-07-31 10:45:30 | WARN | Linha 14: usuário já existente - Leticia Coelho (localizado por Name)
+2026-07-31 10:45:30 | WARN | Linha 15: usuário já existente - Samara Capitol/Pietro (localizado por E-mail)
+2026-07-31 10:45:30 | WARN | Linha 16: usuário já existente - Pietro Sa (localizado por E-mail)
+2026-07-31 10:45:30 | WARN | Linha 17: usuário já existente - Larissa Macedo (localizado por Name)
+2026-07-31 10:45:30 | WARN | Linha 18: usuário já existente - Renata Saqueti (localizado por Name)
+2026-07-31 10:45:30 | WARN | Linha 19: usuário já existente - Luciano Moura (localizado por Name)
+2026-07-31 10:45:30 | WARN | Linha 20: usuário já existente - José Vinícius (localizado por E-mail)
+2026-07-31 10:45:30 | WARN | Linha 21: usuário já existente - Beatriz Goncalves (localizado por E-mail)
+2026-07-31 10:45:30 | WARN | Linha 22: usuário já existente - Raíssa Farias (localizado por E-mail)
+2026-07-31 10:45:30 | WARN | Linha 23: usuário já existente - Ellen Costa (localizado por Name)
+2026-07-31 10:45:30 | WARN | Linha 24: usuário já existente - Ronaldo Silva (localizado por Name)
+2026-07-31 10:45:30 | WARN | Linha 25: usuário já existente - Célio Araujo (localizado por Name)
+2026-07-31 10:45:30 | WARN | Linha 26: usuário já existente - Hermes Vinicius (localizado por Name)
+2026-07-31 10:45:30 | WARN | Linha 27: usuário já existente - Ana Alice (localizado por Name)
+2026-07-31 10:45:30 | WARN | Linha 28: usuário já existente - Anne Oliveira (localizado por Name)
+2026-07-31 10:45:30 | WARN | Linha 29: usuário já existente - Lucas Stevam (localizado por Name)
+2026-07-31 10:45:30 | INFO | Gerando arquivo da lista processada para a descrição: Projetista
+2026-07-31 10:45:30 | OK | Arquivo gerado: C:\Users\peter\OneDrive\Desktop\Relatórios ProjectWise\UsuariosPorDescricao_20260731_104518\Usuarios_Descricao_Projetista.xlsx
+2026-07-31 10:45:31 | INFO | Sessão do ProjectWise encerrada.
+2026-07-31 10:45:31 | INFO | 
+2026-07-31 10:45:31 | INFO | ================ RESUMO FINAL ================
+2026-07-31 10:45:31 | INFO | Total de linhas processadas : 28
+2026-07-31 10:45:31 | OK | Usuários criados            : 0
+2026-07-31 10:45:31 | OK | Usuários atualizados        : 0
+2026-07-31 10:45:31 | WARN | Usuários já existentes      : 28
+2026-07-31 10:45:31 | INFO | Linhas apenas validadas     : 0
+2026-07-31 10:45:31 | OK | Linhas inválidas            : 0
+2026-07-31 10:45:31 | OK | Erros de processamento      : 0
+2026-07-31 10:45:31 | OK | Relatório completo          : C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\Central de Scripts ProjectWise\Rotinas\01-CriarUsuariosLote\Logs\PW_CriarUsuariosLote_Relatorio_20260731_104518.csv
+2026-07-31 10:45:31 | OK | Arquivos Excel por descrição:
+2026-07-31 10:45:31 | OK | - C:\Users\peter\OneDrive\Desktop\Relatórios ProjectWise\UsuariosPorDescricao_20260731_104518\Usuarios_Descricao_Projetista.xlsx
+2026-07-31 10:45:31 | INFO | 
+2026-07-31 10:45:31 | WARN | Usuários que já existiam e não foram recriados:
+2026-07-31 10:45:31 | WARN | - Linha 2 | Projetista | Wesley Mezine | wesley.mezine@egis-group.com
+2026-07-31 10:45:31 | WARN | - Linha 3 | Projetista | Leonardo Botelho | leonardo.botelho@egis-group.com
+2026-07-31 10:45:31 | WARN | - Linha 4 | Projetista | Bruna Rocha | bruna.rocha@egis-group.com
+2026-07-31 10:45:31 | WARN | - Linha 5 | Projetista | Letícia Silva | leticia.silva@egis-group.com
+2026-07-31 10:45:31 | WARN | - Linha 6 | Projetista | Daniele Spitz | Daniele.SPITZ@egis-group.com
+2026-07-31 10:45:31 | WARN | - Linha 7 | Projetista | José Milton | Jose.JUNIOR@egis-group.com
+2026-07-31 10:45:31 | WARN | - Linha 8 | Projetista | João Paulo | joao.carvalho@egis-group.com
+2026-07-31 10:45:31 | WARN | - Linha 9 | Projetista | Aline Santos | aline.baldo@egis-group.com
+2026-07-31 10:45:31 | WARN | - Linha 10 | Projetista | Leandro Okamoto | Leandro.OKAMOTO@egis-group.com
+2026-07-31 10:45:31 | WARN | - Linha 11 | Projetista | Cláudia Campos | claudia.campos@egis-group.com
+2026-07-31 10:45:31 | WARN | - Linha 12 | Projetista | Matheus Santos | matheus.santos@egis-group.com
+2026-07-31 10:45:31 | WARN | - Linha 13 | Projetista | Maria Eduarda Nunes | Maria.NUNES@egis-group.com
+2026-07-31 10:45:31 | WARN | - Linha 14 | Projetista | Leticia Coelho | Leticia.COELHO@egis-group.com
+2026-07-31 10:45:31 | WARN | - Linha 15 | Projetista | Samara Capitol/Pietro | samara.silva@egis-group.com
+2026-07-31 10:45:31 | WARN | - Linha 16 | Projetista | Pietro Sa | pietro.sa@egis-group.com
+2026-07-31 10:45:31 | WARN | - Linha 17 | Projetista | Larissa Macedo | larissa.macedo@egis-group.com
+2026-07-31 10:45:31 | WARN | - Linha 18 | Projetista | Renata Saqueti | Renata.SAQUETI@egis-group.com
+2026-07-31 10:45:31 | WARN | - Linha 19 | Projetista | Luciano Moura | luciano.moura@egis-group.com
+2026-07-31 10:45:31 | WARN | - Linha 20 | Projetista | José Vinícius | jose.martins@egis-group.com
+2026-07-31 10:45:31 | WARN | - Linha 21 | Projetista | Beatriz Goncalves | Beatriz.GONCALVES@egis-group.com
+2026-07-31 10:45:31 | WARN | - Linha 22 | Projetista | Raíssa Farias | raissa.farias@egis-group.com
+2026-07-31 10:45:31 | WARN | - Linha 23 | Projetista | Ellen Costa | Ellen.COSTA@egis-group.com
+2026-07-31 10:45:31 | WARN | - Linha 24 | Projetista | Ronaldo Silva | ronaldo.silva@egis-group.com
+2026-07-31 10:45:31 | WARN | - Linha 25 | Projetista | Célio Araujo | celio.araujo@egis-group.com
+2026-07-31 10:45:31 | WARN | - Linha 26 | Projetista | Hermes Vinicius | hermes.almeida@egis-group.com
+2026-07-31 10:45:31 | WARN | - Linha 27 | Projetista | Ana Alice | ana.barbosa@egis-group.com
+2026-07-31 10:45:31 | WARN | - Linha 28 | Projetista | Anne Oliveira | anne.oliveira@egis-group.com
+2026-07-31 10:45:31 | WARN | - Linha 29 | Projetista | Lucas Stevam | lucas.camargo@egis-group.com
+2026-07-31 10:45:31 | INFO | ==============================================

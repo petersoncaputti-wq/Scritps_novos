@@ -1,0 +1,121 @@
+﻿Iniciando rotina: 06 - Criar projetos no ProjectWise...
+Carregando funcoes de criacao de projeto:  C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\Funcoes\CriarProjeto.ps1
+Security Protocol now set to TLS 1.2
+PWPS_DAB Version is 24.0.2.0
+This is a 64-bit process.
+.Net Framework version OK (at least 4.8)
+--------------------------------------------------
+Nome Concessao       : [Ecovias Noroeste Paulista]
+Sigla Concessao      : [RC]
+Nome Projeto         : [02.14.01.01- Ciclovias]
+Descricao            : [02.14.01.03 - Ciclovias - km 29 - SP-310]
+Projetista           : [Projeta]
+Gestor Engenharia    : [Lilian Bon]
+Assistente Engenharia: [Rodrigo Medrado]
+Poder Concedente     : [ARTESP]
+TH                   : []
+--------------------------------------------------
+Projeto [02.14.01.01- Ciclovias] ja existe. A criacao de pastas sera ignorada; grupos, user lists e acessos serao processados.
+
+===== INICIO DA CRIACAO DO PROJETO =====
+PoderConcedente          : [ARTESP]
+NomeConcessao            : [Ecovias Noroeste Paulista]
+SiglaConcessao           : [RC]
+Projeto                  : [02.14.01.01- Ciclovias]
+Descricao                : [02.14.01.03 - Ciclovias - km 29 - SP-310]
+Projetista               : [Projeta]
+GestorEngenharia         : [Lilian Bon]
+AssistenteEngenharia     : [Rodrigo Medrado]
+========================================
+
+Projeto ja existe no datasource: ENGENHARIA\Ecovias Noroeste Paulista\Projetos\02.14.01.01- Ciclovias
+Pulando criacao de pastas do projeto existente [02.14.01.01- Ciclovias]. Serao processados user lists, grupos e acessos.
+User list ja existe: RC
+User list ja existe: RC-02.14.01.01- Ciclovias
+User list [RC-02.14.01.01- Ciclovias] vinculada a [RC].
+User list ja existe: RC-02.14.01.01- Ciclovias-ENGENHARIA
+User list [RC-02.14.01.01- Ciclovias-ENGENHARIA] vinculada a [RC-02.14.01.01- Ciclovias].
+User list ja existe: RC-02.14.01.01- Ciclovias-ENGENHARIA-ASSISTENTE ENG
+User list [RC-02.14.01.01- Ciclovias-ENGENHARIA-ASSISTENTE ENG] vinculada a [RC-02.14.01.01- Ciclovias-ENGENHARIA].
+User list ja existe: RC-02.14.01.01- Ciclovias-ENGENHARIA-CONSULTA
+User list [RC-02.14.01.01- Ciclovias-ENGENHARIA-CONSULTA] vinculada a [RC-02.14.01.01- Ciclovias-ENGENHARIA].
+User list ja existe: RC-02.14.01.01- Ciclovias-ENGENHARIA-CONSULTA-TODAS REV
+User list [RC-02.14.01.01- Ciclovias-ENGENHARIA-CONSULTA-TODAS REV] vinculada a [RC-02.14.01.01- Ciclovias-ENGENHARIA-CONSULTA].
+User list ja existe: RC-02.14.01.01- Ciclovias-ENGENHARIA-ESPECIALISTA
+User list [RC-02.14.01.01- Ciclovias-ENGENHARIA-ESPECIALISTA] vinculada a [RC-02.14.01.01- Ciclovias-ENGENHARIA].
+User list ja existe: RC-02.14.01.01- Ciclovias-ENGENHARIA-GESTOR ENG
+User list [RC-02.14.01.01- Ciclovias-ENGENHARIA-GESTOR ENG] vinculada a [RC-02.14.01.01- Ciclovias-ENGENHARIA].
+User list ja existe: RC-02.14.01.01- Ciclovias-ENGENHARIA-PROJETISTA
+User list [RC-02.14.01.01- Ciclovias-ENGENHARIA-PROJETISTA] vinculada a [RC-02.14.01.01- Ciclovias-ENGENHARIA].
+User list ja existe: RC-02.14.01.01- Ciclovias-UNIDADE
+User list [RC-02.14.01.01- Ciclovias-UNIDADE] vinculada a [RC-02.14.01.01- Ciclovias].
+User list ja existe: RC-02.14.01.01- Ciclovias-UNIDADE-CONSULTA
+User list [RC-02.14.01.01- Ciclovias-UNIDADE-CONSULTA] vinculada a [RC-02.14.01.01- Ciclovias-UNIDADE].
+User list ja existe: RC-02.14.01.01- Ciclovias-UNIDADE-CONSULTA-TODAS REV
+User list [RC-02.14.01.01- Ciclovias-UNIDADE-CONSULTA-TODAS REV] vinculada a [RC-02.14.01.01- Ciclovias-UNIDADE-CONSULTA].
+User list ja existe: RC-02.14.01.01- Ciclovias-UNIDADE-Lider Unidade
+User list [RC-02.14.01.01- Ciclovias-UNIDADE-Lider Unidade] vinculada a [RC-02.14.01.01- Ciclovias-UNIDADE].
+User list ja existe: RC-02.14.01.01- Ciclovias-UNIDADE-Poder Concedente
+User list [RC-02.14.01.01- Ciclovias-UNIDADE-Poder Concedente] vinculada a [RC-02.14.01.01- Ciclovias-UNIDADE].
+User list ja existe: RC-02.14.01.01- Ciclovias-UNIDADE-GESTOR ENG
+User list [RC-02.14.01.01- Ciclovias-UNIDADE-GESTOR ENG] vinculada a [RC-02.14.01.01- Ciclovias-UNIDADE].
+User list ja existe: RC-02.14.01.01- Ciclovias-LD
+User list [RC-02.14.01.01- Ciclovias-LD] vinculada a [RC-02.14.01.01- Ciclovias].
+User list ja existe: RC-02.14.01.01- Ciclovias-LD-CONSULTA
+User list [RC-02.14.01.01- Ciclovias-LD-CONSULTA] vinculada a [RC-02.14.01.01- Ciclovias-LD].
+User list ja existe: RC-02.14.01.01- Ciclovias-LD-EDICAO
+User list [RC-02.14.01.01- Ciclovias-LD-EDICAO] vinculada a [RC-02.14.01.01- Ciclovias-LD].
+User list ja existe: RC-02.14.01.01- Ciclovias-GRD
+User list [RC-02.14.01.01- Ciclovias-GRD] vinculada a [RC-02.14.01.01- Ciclovias].
+User list ja existe: RC-02.14.01.01- Ciclovias-GRD-CONSULTA
+User list [RC-02.14.01.01- Ciclovias-GRD-CONSULTA] vinculada a [RC-02.14.01.01- Ciclovias-GRD].
+User list ja existe: RC-02.14.01.01- Ciclovias-GRD-EDICAO
+User list [RC-02.14.01.01- Ciclovias-GRD-EDICAO] vinculada a [RC-02.14.01.01- Ciclovias-GRD].
+Grupo ja existe: Engenharia GPR
+Grupo [Engenharia GPR] vinculado a user list [RC-02.14.01.01- Ciclovias-ENGENHARIA-GESTOR ENG].
+Grupo [Engenharia GPR] vinculado a user list [RC-02.14.01.01- Ciclovias-ENGENHARIA-CONSULTA-TODAS REV].
+Grupo [Engenharia GPR] vinculado a user list [RC-02.14.01.01- Ciclovias-UNIDADE-CONSULTA-TODAS REV].
+Grupo [Engenharia GPR] vinculado a user list [RC-02.14.01.01- Ciclovias-UNIDADE-GESTOR ENG].
+Grupo [Engenharia GPR] vinculado a user list [RC-02.14.01.01- Ciclovias-GRD-CONSULTA].
+Grupo [Engenharia GPR] vinculado a user list [RC-02.14.01.01- Ciclovias-LD-CONSULTA].
+Grupo ja existe: RC-ENGENHARIA UNIDADE
+Grupo [RC-ENGENHARIA UNIDADE] vinculado a user list [RC-02.14.01.01- Ciclovias-UNIDADE-CONSULTA-TODAS REV].
+Grupo [RC-ENGENHARIA UNIDADE] vinculado a user list [RC-02.14.01.01- Ciclovias-UNIDADE-Lider Unidade].
+Grupo ja existe: RC-02.14.01.01- Ciclovias-ASSISTENTE ENG
+Grupo [RC-02.14.01.01- Ciclovias-ASSISTENTE ENG] vinculado a user list [RC-02.14.01.01- Ciclovias-ENGENHARIA-ASSISTENTE ENG].
+Grupo [RC-02.14.01.01- Ciclovias-ASSISTENTE ENG] vinculado a user list [RC-02.14.01.01- Ciclovias-ENGENHARIA-CONSULTA-TODAS REV].
+Grupo [RC-02.14.01.01- Ciclovias-ASSISTENTE ENG] vinculado a user list [RC-02.14.01.01- Ciclovias-UNIDADE-CONSULTA-TODAS REV].
+Grupo [RC-02.14.01.01- Ciclovias-ASSISTENTE ENG] vinculado a user list [RC-02.14.01.01- Ciclovias-UNIDADE-Lider Unidade].
+Grupo [RC-02.14.01.01- Ciclovias-ASSISTENTE ENG] vinculado a user list [RC-02.14.01.01- Ciclovias-GRD-EDICAO].
+Grupo [RC-02.14.01.01- Ciclovias-ASSISTENTE ENG] vinculado a user list [RC-02.14.01.01- Ciclovias-LD-EDICAO].
+Grupo ja existe: RC-02.14.01.01- Ciclovias-GESTOR ENG
+Grupo [RC-02.14.01.01- Ciclovias-GESTOR ENG] vinculado a user list [RC-02.14.01.01- Ciclovias-ENGENHARIA-GESTOR ENG].
+Grupo [RC-02.14.01.01- Ciclovias-GESTOR ENG] vinculado a user list [RC-02.14.01.01- Ciclovias-ENGENHARIA-CONSULTA-TODAS REV].
+Grupo [RC-02.14.01.01- Ciclovias-GESTOR ENG] vinculado a user list [RC-02.14.01.01- Ciclovias-UNIDADE-CONSULTA-TODAS REV].
+Grupo [RC-02.14.01.01- Ciclovias-GESTOR ENG] vinculado a user list [RC-02.14.01.01- Ciclovias-UNIDADE-GESTOR ENG].
+Grupo [RC-02.14.01.01- Ciclovias-GESTOR ENG] vinculado a user list [RC-02.14.01.01- Ciclovias-GRD-CONSULTA].
+Grupo [RC-02.14.01.01- Ciclovias-GESTOR ENG] vinculado a user list [RC-02.14.01.01- Ciclovias-LD-CONSULTA].
+Grupo ja existe: RC-02.14.01.01- Ciclovias-ESPECIALISTA
+Grupo [RC-02.14.01.01- Ciclovias-ESPECIALISTA] vinculado a user list [RC-02.14.01.01- Ciclovias-ENGENHARIA-ESPECIALISTA].
+Grupo [RC-02.14.01.01- Ciclovias-ESPECIALISTA] vinculado a user list [RC-02.14.01.01- Ciclovias-ENGENHARIA-CONSULTA-TODAS REV].
+Grupo [RC-02.14.01.01- Ciclovias-ESPECIALISTA] vinculado a user list [RC-02.14.01.01- Ciclovias-GRD-CONSULTA].
+Grupo [RC-02.14.01.01- Ciclovias-ESPECIALISTA] vinculado a user list [RC-02.14.01.01- Ciclovias-LD-CONSULTA].
+Grupo ja existe: RC-02.14.01.01- Ciclovias-PROJETISTA
+Grupo [RC-02.14.01.01- Ciclovias-PROJETISTA] vinculado a user list [RC-02.14.01.01- Ciclovias-GRD-CONSULTA].
+Grupo ja existe: RC-02.14.01.01- Ciclovias-ENG CONSULTA ULTIMA REV
+Grupo [RC-02.14.01.01- Ciclovias-ENG CONSULTA ULTIMA REV] vinculado a user list [RC-02.14.01.01- Ciclovias-ENGENHARIA-CONSULTA].
+Grupo ja existe: RC-02.14.01.01- Ciclovias-ENG CONSULTA TODAS REV
+Grupo [RC-02.14.01.01- Ciclovias-ENG CONSULTA TODAS REV] vinculado a user list [RC-02.14.01.01- Ciclovias-ENGENHARIA-CONSULTA-TODAS REV].
+Grupo ja existe: RC-02.14.01.01- Ciclovias-CONSULTA ULTIMA REV
+Grupo [RC-02.14.01.01- Ciclovias-CONSULTA ULTIMA REV] vinculado a user list [RC-02.14.01.01- Ciclovias-UNIDADE-CONSULTA].
+Grupo ja existe: RC-02.14.01.01- Ciclovias-CONSULTA TODAS REV
+Grupo [RC-02.14.01.01- Ciclovias-CONSULTA TODAS REV] vinculado a user list [RC-02.14.01.01- Ciclovias-UNIDADE-CONSULTA-TODAS REV].
+Grupo ja existe: RC-02.14.01.01- Ciclovias-GESTOR UNIDADE
+Grupo [RC-02.14.01.01- Ciclovias-GESTOR UNIDADE] vinculado a user list [RC-02.14.01.01- Ciclovias-UNIDADE-CONSULTA-TODAS REV].
+Grupo [RC-02.14.01.01- Ciclovias-GESTOR UNIDADE] vinculado a user list [RC-02.14.01.01- Ciclovias-UNIDADE-Lider Unidade].
+Grupo ja existe: RC-02.14.01.01- Ciclovias-PODER CONCEDENTE
+Grupo [RC-02.14.01.01- Ciclovias-PODER CONCEDENTE] vinculado a user list [RC-02.14.01.01- Ciclovias-UNIDADE-Poder Concedente].
+Projeto [02.14.01.01- Ciclovias] da concessão [Ecovias Noroeste Paulista] criado com sucesso.
+OK
+True
+Processo finalizado com código 0.

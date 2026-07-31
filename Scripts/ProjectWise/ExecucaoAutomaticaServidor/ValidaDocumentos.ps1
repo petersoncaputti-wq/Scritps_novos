@@ -59,7 +59,7 @@ function ValidaSeDocumentoEditavelPossuiPDFEmitido {
         $extensoesSemPDF += '.ifcZIP', '.bcf', '.bcfzip', 
         '.xml', '.landxml', '.rvt', '.ifc', '.nwd', '.ndw',
         '.dwg', '.npd', '.npl', '.ndx', '.npa', '.nlm', '.nma',
-        '.3ds', '.fbx', '.las', '.laz', '.xyz', '.nwc', '.nwf', '.zip'
+        '.3ds', '.las', '.laz', '.xyz', '.nwc', '.zip', '.fbx', '.nwf'
     }
    
     if ($ext -and ($extensoesSemPDF -contains $ext)) {

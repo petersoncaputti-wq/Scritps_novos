@@ -1,0 +1,25 @@
+﻿Iniciando rotina: 07 - Criar buscas salvas...
+PowerShell aberto em modo STA. Reabrindo automaticamente em modo MTA...
+
+Buscas disponiveis para criar:
+[1] [PADRAO] Em análise da Assistente
+[2] [PADRAO] Em análise da Engenharia
+[3] [PADRAO] Em análise Especifica
+[4] [PADRAO] Enviado para a Unidade
+[5] [PADRAO] Não Validada pelo Sistema
+[6] [OPCIONAL] Enviado ao Poder Concedente
+[7] [OPCIONAL] Emitido pela Engenharia
+> 0
+0
+16:00:39 | AVISO | Opcao invalida. Use P para padrao, T para todas, ou numeros como: 1,3,5 ou 2-6.
+[AVISO] Cancelamento solicitado pelo operador.
+Processo finalizado com código -1.
+
+ERRO NA EXECUCAO DO SCRIPT
+Não é possível chamar um método em uma expressão de valor nulo.
+
+Linha: 558
+        $entrada = (Read-Host $Message).Trim()
+
+
+[ERRO] #< CLIXML

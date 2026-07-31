@@ -1,0 +1,49 @@
+2026-07-31 10:44:47 | INFO | ProjectWise - criação de usuários em lote
+2026-07-31 10:44:47 | INFO | Execução iniciada pela Central de Scripts ProjectWise.
+2026-07-31 10:44:47 | INFO | Log: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\Central de Scripts ProjectWise\Rotinas\01-CriarUsuariosLote\Logs\PW_CriarUsuariosLote_20260731_104447.log
+2026-07-31 10:44:48 | INFO | Modo 'Somente validar': a autenticação no ProjectWise não será realizada.
+2026-07-31 10:44:48 | INFO | Arquivo de entrada: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Modelo_Criacao_Usuarios_ProjectWise.xlsx
+2026-07-31 10:44:48 | INFO | Registros carregados: 28
+2026-07-31 10:44:48 | OK | Linha 2: válida - Wesley Mezine
+2026-07-31 10:44:48 | OK | Linha 3: válida - Leonardo Botelho
+2026-07-31 10:44:48 | OK | Linha 4: válida - Bruna Rocha
+2026-07-31 10:44:48 | OK | Linha 5: válida - Letícia Silva
+2026-07-31 10:44:48 | OK | Linha 6: válida - Daniele Spitz
+2026-07-31 10:44:48 | OK | Linha 7: válida - José Milton
+2026-07-31 10:44:48 | OK | Linha 8: válida - João Paulo
+2026-07-31 10:44:48 | OK | Linha 9: válida - Aline Santos
+2026-07-31 10:44:48 | OK | Linha 10: válida - Leandro Okamoto
+2026-07-31 10:44:48 | OK | Linha 11: válida - Cláudia Campos
+2026-07-31 10:44:48 | OK | Linha 12: válida - Matheus Santos
+2026-07-31 10:44:48 | OK | Linha 13: válida - Maria Eduarda Nunes
+2026-07-31 10:44:48 | OK | Linha 14: válida - Leticia Coelho
+2026-07-31 10:44:48 | OK | Linha 15: válida - Samara Capitol/Pietro
+2026-07-31 10:44:48 | OK | Linha 16: válida - Pietro Sa
+2026-07-31 10:44:48 | OK | Linha 17: válida - Larissa Macedo
+2026-07-31 10:44:48 | OK | Linha 18: válida - Renata Saqueti
+2026-07-31 10:44:48 | OK | Linha 19: válida - Luciano Moura
+2026-07-31 10:44:48 | OK | Linha 20: válida - José Vinícius
+2026-07-31 10:44:48 | OK | Linha 21: válida - Beatriz Goncalves
+2026-07-31 10:44:48 | OK | Linha 22: válida - Raíssa Farias
+2026-07-31 10:44:48 | OK | Linha 23: válida - Ellen Costa
+2026-07-31 10:44:48 | OK | Linha 24: válida - Ronaldo Silva
+2026-07-31 10:44:48 | OK | Linha 25: válida - Célio Araujo
+2026-07-31 10:44:48 | OK | Linha 26: válida - Hermes Vinicius
+2026-07-31 10:44:48 | OK | Linha 27: válida - Ana Alice
+2026-07-31 10:44:48 | OK | Linha 28: válida - Anne Oliveira
+2026-07-31 10:44:48 | OK | Linha 29: válida - Lucas Stevam
+2026-07-31 10:44:48 | INFO | Gerando arquivo da lista processada para a descrição: Projetista
+2026-07-31 10:44:49 | OK | Arquivo gerado: C:\Users\peter\OneDrive\Desktop\Relatórios ProjectWise\UsuariosPorDescricao_20260731_104447\Usuarios_Descricao_Projetista.xlsx
+2026-07-31 10:44:49 | INFO | 
+2026-07-31 10:44:49 | INFO | ================ RESUMO FINAL ================
+2026-07-31 10:44:49 | INFO | Total de linhas processadas : 28
+2026-07-31 10:44:49 | OK | Usuários criados            : 0
+2026-07-31 10:44:49 | OK | Usuários atualizados        : 0
+2026-07-31 10:44:49 | WARN | Usuários já existentes      : 0
+2026-07-31 10:44:49 | INFO | Linhas apenas validadas     : 28
+2026-07-31 10:44:49 | OK | Linhas inválidas            : 0
+2026-07-31 10:44:49 | OK | Erros de processamento      : 0
+2026-07-31 10:44:49 | OK | Relatório completo          : C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\Central de Scripts ProjectWise\Rotinas\01-CriarUsuariosLote\Logs\PW_CriarUsuariosLote_Relatorio_20260731_104447.csv
+2026-07-31 10:44:49 | OK | Arquivos Excel por descrição:
+2026-07-31 10:44:49 | OK | - C:\Users\peter\OneDrive\Desktop\Relatórios ProjectWise\UsuariosPorDescricao_20260731_104447\Usuarios_Descricao_Projetista.xlsx
+2026-07-31 10:44:49 | INFO | ==============================================

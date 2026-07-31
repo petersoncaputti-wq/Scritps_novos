@@ -1,0 +1,33 @@
+﻿Iniciando rotina de inclusão de usuários em projetos PW Web...
+
+[0/9] Selecionando concessao/projetos no ProjectWise...
+Uma janela/login do ProjectWise pode ser aberta se a sessao ainda nao estiver ativa.
+15:21:16 | Importando modulo ProjectWise...
+Security Protocol now set to TLS 1.2
+PWPS_DAB Version is 24.0.2.0
+This is a 64-bit process.
+.Net Framework version OK (at least 4.8)
+AVISO: Os nomes de alguns comandos importados do m�dulo 'pwps_dab' incluem verbos n�o aprovados que podem os tornar 
+menos detect�veis. Para localizar os comandos com verbos n�o aprovados, execute novamente o comando Import-Module com o
+ par�metro Verbose. Para obter uma lista de verbos aprovados, digite Get-Verb.
+15:21:17 | Tentando conexao via New-PWLogin...
+15:21:28 | Conexao ProjectWise OK.
+15:21:28 | Listando filhos: Engenharia
+15:21:29 | Encontrado(s) 13 filho(s) em 0.9 s: Engenharia
+
+Concessoes disponiveis:
+01. Ecovias Araguaia
+02. Ecovias Capixaba
+03. Ecovias Cerrado
+04. Ecovias Imigrantes
+05. Ecovias Leste Paulista
+06. Ecovias Minas Goi�s
+07. Ecovias Noroeste Paulista
+08. Ecovias Norte Minas
+09. Ecovias Ponte
+10. Ecovias Raposo Castello
+11. Ecovias Rio Minas
+12. Ecovias Sul
+13. Z - Templates
+[AVISO] Cancelamento solicitado pelo operador.
+Processo finalizado com código -1.

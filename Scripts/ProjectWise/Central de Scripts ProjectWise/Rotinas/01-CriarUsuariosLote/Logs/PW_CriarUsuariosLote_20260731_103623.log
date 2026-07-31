@@ -1,0 +1,29 @@
+2026-07-31 10:36:23 | INFO | ProjectWise - criação de usuários em lote
+2026-07-31 10:36:23 | INFO | Execução iniciada pela Central de Scripts ProjectWise.
+2026-07-31 10:36:23 | INFO | Log: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\Central de Scripts ProjectWise\Rotinas\01-CriarUsuariosLote\Logs\PW_CriarUsuariosLote_20260731_103623.log
+2026-07-31 10:36:23 | INFO | Modo 'Somente validar': a autenticação no ProjectWise não será realizada.
+2026-07-31 10:36:23 | INFO | Arquivo de entrada: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\Central de Scripts ProjectWise\Rotinas\01-CriarUsuariosLote\Tests\usuarios_validacao.csv
+2026-07-31 10:36:23 | INFO | Registros carregados: 2
+2026-07-31 10:36:24 | OK | Linha 2: válida - usuario.teste.visual
+2026-07-31 10:36:24 | WARN | Linha 3: inválida - Nome de usuário vazio; E-mail em formato inválido
+2026-07-31 10:36:24 | INFO | Gerando arquivo da lista processada para a descrição: Teste Migracao
+2026-07-31 10:36:24 | OK | Arquivo gerado: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\Central de Scripts ProjectWise\Rotinas\01-CriarUsuariosLote\Tests\UsuariosPorDescricao_20260731_103623\Usuarios_Descricao_Teste Migracao.xlsx
+2026-07-31 10:36:24 | INFO | Gerando arquivo da lista processada para a descrição: Registro Invalido
+2026-07-31 10:36:24 | OK | Arquivo gerado: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\Central de Scripts ProjectWise\Rotinas\01-CriarUsuariosLote\Tests\UsuariosPorDescricao_20260731_103623\Usuarios_Descricao_Registro Invalido.xlsx
+2026-07-31 10:36:24 | INFO | 
+2026-07-31 10:36:24 | INFO | ================ RESUMO FINAL ================
+2026-07-31 10:36:24 | INFO | Total de linhas processadas : 2
+2026-07-31 10:36:24 | OK | Usuários criados            : 0
+2026-07-31 10:36:24 | OK | Usuários atualizados        : 0
+2026-07-31 10:36:24 | WARN | Usuários já existentes      : 0
+2026-07-31 10:36:24 | INFO | Linhas apenas validadas     : 1
+2026-07-31 10:36:24 | WARN | Linhas inválidas            : 1
+2026-07-31 10:36:24 | OK | Erros de processamento      : 0
+2026-07-31 10:36:24 | OK | Relatório completo          : C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\Central de Scripts ProjectWise\Rotinas\01-CriarUsuariosLote\Logs\PW_CriarUsuariosLote_Relatorio_20260731_103623.csv
+2026-07-31 10:36:24 | OK | Arquivos Excel por descrição:
+2026-07-31 10:36:24 | OK | - C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\Central de Scripts ProjectWise\Rotinas\01-CriarUsuariosLote\Tests\UsuariosPorDescricao_20260731_103623\Usuarios_Descricao_Teste Migracao.xlsx
+2026-07-31 10:36:24 | OK | - C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\Central de Scripts ProjectWise\Rotinas\01-CriarUsuariosLote\Tests\UsuariosPorDescricao_20260731_103623\Usuarios_Descricao_Registro Invalido.xlsx
+2026-07-31 10:36:24 | INFO | 
+2026-07-31 10:36:24 | WARN | Linhas que precisam de atenção:
+2026-07-31 10:36:24 | WARN | - Linha 3 | INVALIDO |  | Nome de usuário vazio; E-mail em formato inválido
+2026-07-31 10:36:24 | INFO | ==============================================

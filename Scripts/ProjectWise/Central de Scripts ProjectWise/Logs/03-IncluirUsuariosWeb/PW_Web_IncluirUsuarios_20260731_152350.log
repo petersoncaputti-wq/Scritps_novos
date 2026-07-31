@@ -1,0 +1,1576 @@
+﻿Iniciando rotina de inclusão de usuários em projetos PW Web...
+
+[0/9] Selecionando concessao/projetos no ProjectWise...
+Uma janela/login do ProjectWise pode ser aberta se a sessao ainda nao estiver ativa.
+15:23:51 | Importando modulo ProjectWise...
+Security Protocol now set to TLS 1.2
+PWPS_DAB Version is 24.0.2.0
+This is a 64-bit process.
+.Net Framework version OK (at least 4.8)
+AVISO: Os nomes de alguns comandos importados do m�dulo 'pwps_dab' incluem verbos n�o aprovados que podem os tornar 
+menos detect�veis. Para localizar os comandos com verbos n�o aprovados, execute novamente o comando Import-Module com o
+ par�metro Verbose. Para obter uma lista de verbos aprovados, digite Get-Verb.
+15:23:52 | Tentando conexao via New-PWLogin...
+15:24:01 | Conexao ProjectWise OK.
+15:24:01 | Listando filhos: Engenharia
+15:24:02 | Encontrado(s) 13 filho(s) em 0.7 s: Engenharia
+
+Concessoes disponiveis:
+01. Ecovias Araguaia
+02. Ecovias Capixaba
+03. Ecovias Cerrado
+04. Ecovias Imigrantes
+05. Ecovias Leste Paulista
+06. Ecovias Minas Goi�s
+07. Ecovias Noroeste Paulista
+08. Ecovias Norte Minas
+09. Ecovias Ponte
+10. Ecovias Raposo Castello
+11. Ecovias Rio Minas
+12. Ecovias Sul
+13. Z - Templates
+> 01
+01
+15:24:07 | Carregando projetos somente da concessao 'Ecovias Araguaia'...
+15:24:07 | Listando filhos: Ecovias Araguaia
+15:24:07 | Encontrado(s) 3 filho(s) em 0.2 s: Ecovias Araguaia
+15:24:07 | Listando filhos: Projetos
+15:24:13 | Encontrado(s) 97 filho(s) em 6.1 s: Projetos
+
+Projetos da concessao escolhida:
+001. Acesso 3� Ano - km 321+900 - BR153/GO | ID PW: 58230 | GUID PW: 7cf8e412-d262-4ac7-a7a2-c65cf3180033
+002. Acesso 3� Ano - km 355+900 - BR153/GO | ID PW: 59011 | GUID PW: 256863f4-b3fb-48d2-9e3b-a583db808b81
+003. Acesso 3� Ano - km 375+800 - BR414/GO | ID PW: 59792 | GUID PW: 5400458a-e725-4ff4-aa93-3271e4bb3f1c
+004. Acesso 3� Ano - km 397+050 - BR153/GO | ID PW: 60573 | GUID PW: c1f48812-de9d-4c93-854d-1e76b1fec3be
+005. Acesso 4� Ano - km 274+950 - BR153/GO | ID PW: 61354 | GUID PW: b43d6fc5-218f-423c-8646-ff9717d59a31
+006. Acesso 4� Ano - km 303+820 - BR153/GO | ID PW: 62135 | GUID PW: 7780642b-1001-416a-989d-834be45faaca
+007. Acesso 5� Ano - km 188+210 - BR153/GO | ID PW: 66822 | GUID PW: 512cd8f5-7df0-4451-8263-9fd2ed385fc8
+008. Acesso 5� Ano - km 188+550 - BR153/GO | ID PW: 67603 | GUID PW: a4b95171-f5f8-46bb-8c60-c05726c7e668
+009. Acesso 5� Ano - km 265+320 - BR153/GO | ID PW: 68384 | GUID PW: af2bb061-b69d-4fc5-a57f-0d712cd125c5
+010. Acesso 6� Ano - km 158+630 - BR153/GO | ID PW: 237749 | GUID PW: 0bdd44aa-1329-4a0f-8d71-21952f55c327
+011. Acesso 6� Ano - km 693+000 - BR153/TO | ID PW: 71509 | GUID PW: d0f3b26f-b4e6-430c-90b6-5e29af337d23
+012. Acesso 7� Ano - km 124+420 - BR153/GO | ID PW: 239311 | GUID PW: ba5f85ff-e530-4bc5-94a2-ebadfeb49d0e
+013. Acesso 7� Ano - km 141+870 - BR153/GO | ID PW: 240092 | GUID PW: 250875e5-13a0-489f-89e6-da84b71945bc
+014. Acesso 7� Ano - km 91+280 - BR153/GO | ID PW: 238530 | GUID PW: 39f5430a-42ab-44f9-8ffd-8ffef6d84a3a
+015. Acesso 8� Ano - km 31+50 - BR153/GO | ID PW: 240874 | GUID PW: 7c8e0377-07b4-491e-9ee0-3506227e304c
+016. Acesso 8� Ano - km 72+48 - BR153/GO | ID PW: 241681 | GUID PW: 7a045a5c-82c9-41cf-bd7c-5d8733e08e06
+017. Acesso km 435+000 - BR414/GO | ID PW: 298790 | GUID PW: 1f986bf7-5f5a-4373-93d9-713d7a773427
+018. Adequa��o a Classe 1A - BR-153/GO/TO e BR-414/GO | ID PW: 426565 | GUID PW: 7ac1ec25-e90b-4119-9879-86a7b289207d
+019. Adequa��o Dispositivo Alian�a - km 623+800 - BR-153/TO | ID PW: 429731 | GUID PW: 94312857-da54-44b1-9574-f0ad68fb4499
+020. Adequa��o Largura de Faixa Existente - Atendimento classe 1A | ID PW: 395024 | GUID PW: d9329a73-d108-4861-99de-3bae06759412
+021. Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO | ID PW: 210381 | GUID PW: b1a964bf-8654-43ed-812d-cfb78f6ab2d1
+022. Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO | ID PW: 209600 | GUID PW: 104b1ce6-19c0-4a13-8ea2-b8158863468e
+023. Agulha 11 - km 672+200 - BR153/TO | ID PW: 330034 | GUID PW: 8c964b44-2c53-4627-86e1-be88ab6915b7
+024. Agulha 12, 14 e 15 - km 671+672 - BR153/TO | ID PW: 331602 | GUID PW: c666273e-d5f2-45db-9402-6616a292c78b
+025. Agulha 13 - km 675+400 - BR153/TO | ID PW: 330821 | GUID PW: 37ec2781-e975-48c9-92cc-e8717539b11d
+026. Al�as Viadutos - km 432+441 - BR153/GO | ID PW: 211162 | GUID PW: 4a0e0d8a-b9d1-4c89-8126-7db266582447
+027. Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO | ID PW: 236186 | GUID PW: 6e455312-32ad-457f-b1d8-073b84f65539
+028. Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO | ID PW: 236967 | GUID PW: 470e6dd2-a044-47a2-a274-ad0ac2475575
+029. Amplia��es 20� Ano SH 1 - km 624+300 - 663+000 - BR153/TO | ID PW: 75414 | GUID PW: d865fb41-0a43-4c4f-b77d-b8a8e43a2ee8
+030. Amplia��es 23� Ano SH 6 - km 800+000 - 802+531 - BR153/TO | ID PW: 74633 | GUID PW: 5e1f8ffe-bbdd-4866-9349-8818c86c4ef8
+031. Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO | ID PW: 306343 | GUID PW: c41a6d63-70f7-421f-96eb-410f47107c6d
+032. Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO | ID PW: 76195 | GUID PW: 73691cc7-a3ae-4559-9ec0-535ec38e851c
+033. Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO | ID PW: 100581 | GUID PW: b03069ef-976a-4eec-926a-3b4a2dc69539
+034. Amplia��es 4� Ano SH 14 - km 176+030 - 199+430 - BR153/GO | ID PW: 63697 | GUID PW: 63c44249-3825-47ab-8f9f-014778a9b9b0
+035. Amplia��es 4� Ano SH 20 e 21 - km 288+500 - 319+240 - BR153/GO | ID PW: 64479 | GUID PW: de50fa28-aa9d-41e9-80ed-d7495ae56d98
+036. Amplia��es 4� Ano SH 5* e 6* - km 797+300 - 800+000 - BR153/TO | ID PW: 62916 | GUID PW: 850759f7-9a2e-49ca-937b-31098d645dcc
+037. Amplia��es 4�Ano SH 3* e 4*- km 720+800 - 724+000 - BR153/TO | ID PW: 65260 | GUID PW: c251cc76-ad8f-44f6-8504-a5a60de02ec6
+038. Amplia��es 4�Ano SH 4* - km 721+905 - 760+644 - BR153/TO | ID PW: 66041 | GUID PW: ba894ec2-4eac-4138-804a-815bc9862bc8
+039. Amplia��es 5�Ano SH 18 e 19 - km 274+940 - 288+500 - BR153/GO | ID PW: 69165 | GUID PW: 63d690a2-5d7b-462f-adee-923fde9f99bd
+040. Amplia��es 5�Ano SH 2 - km 677+000 - 701+900 - BR153/TO | ID PW: 69946 | GUID PW: 6e45a9c1-87c7-4f81-ace9-e24dd21ed992
+041. Amplia��es 5�Ano SH 22 - km 319+240 - 321+850 - BR153/GO | ID PW: 70727 | GUID PW: c66637da-6407-4d2b-88e3-98eff86f4e47
+042. Amplia��es 6� Ano SH 16 e 17 - km 212+450 - 274+940 - BR153/GO | ID PW: 72290 | GUID PW: 4b979af2-c1f8-43f6-84bc-146d7ce6af12
+043. Amplia��es 6� Ano SH 23 - km 321+850 - 357+290 - BR153/GO | ID PW: 73071 | GUID PW: b68073e2-d795-4606-b7c1-743ee2cbd779
+044. Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO | ID PW: 211943 | GUID PW: b3f60acc-2528-45c4-b4ef-f8b178c61f7f
+045. Amplia��es 7� Ano SH 15 - km 199+430 - 212+450 - BR153/GO | ID PW: 73852 | GUID PW: 802a6d8c-0e84-4b09-b421-6c06733a1d84
+046. Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO | ID PW: 212724 | GUID PW: f45f01d7-860c-4a54-adf8-25addc65e723
+047. Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO | ID PW: 213506 | GUID PW: 6ed81c17-fea9-44ea-a9d4-00320ef98314
+048. Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO | ID PW: 214287 | GUID PW: 5aedd0da-61b4-4df7-8d92-fe2f3c0a2dcb
+049. Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO | ID PW: 215068 | GUID PW: e0b5d1be-2977-4d65-9f17-f3cbefa7ca41
+050. Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO | ID PW: 235405 | GUID PW: 56fa70a0-291e-40b8-9d98-08f82ef91a54
+051. BSO 08 (com SAU) - km 129+880 Sul - BR153/GO | ID PW: 278540 | GUID PW: e055f591-2673-479e-b1b2-a908ecdab25a
+052. BSO 09 (sem SAU) - km 087+040 Norte - BR153/GO | ID PW: 279321 | GUID PW: ffa50f53-2c27-432c-8c5a-d62e4c5eb8bb
+053. BSO 1 (sem SAU) - An�polis - km 422+420 Norte - BR153/GO | ID PW: 269955 | GUID PW: dd170a1d-d938-4de9-8b4d-3dcd694a118b
+054. BSO 10 (sem SAU) - km 046+870 Sul - BR153/GO | ID PW: 280102 | GUID PW: 02330e8e-4f0c-45ea-8cd0-8c40e781ef58
+055. BSO 11 (com SAU) - km 409+260 Norte - BR153/GO | ID PW: 280883 | GUID PW: cfa7690f-8a73-418d-a47c-05e4575789a4
+056. BSO 12 (com SAU) - km 765+220 Sul - BR153/TO | ID PW: 281664 | GUID PW: 4b1da656-3e25-4efd-8e38-7ed5ec98728d
+057. BSO 13 (sem SAU) - km 717+200 Norte - BR153/TO | ID PW: 282445 | GUID PW: 2895db99-a4ef-475a-938a-eb9de484c8d9
+058. BSO 14 (sem SAU) - km 677+200 Sul - BR153/TO | ID PW: 283230 | GUID PW: 3b911238-3ba4-4731-8346-89f06fe0ccab
+059. BSO 15 (com SAU) -  km 637+500 Norte - BR153/TO | ID PW: 284011 | GUID PW: d6cdfe42-fc4c-4395-9002-85e30d77d863
+060. BSO 16 (sem SAU) - km 409+260 Norte - BR414/GO | ID PW: 284792 | GUID PW: 270f5c52-5b25-4ca7-adca-61a6555971a3
+061. BSO 17 (com SAU) - km 360+120 Sul - BR414/GO | ID PW: 285573 | GUID PW: 564907d2-8778-43e5-ad98-d669dfdede1d
+062. BSO 18 (com SAU) - km 305+460 Norte - BR414/GO | ID PW: 286354 | GUID PW: 57e0fb2e-9f7e-4df6-b096-57df606357cf
+063. BSO 19 (sem SAU) - km 141+950 Sul - BR080/GO | ID PW: 287135 | GUID PW: 01c77873-8787-4a84-bf03-955377f4df67
+064. BSO 2 (sem SAU) - S�o Francisco de Goi�s - km 380+080 Sul - BR153/GO | ID PW: 271731 | GUID PW: 89a8777a-058e-4ea0-8887-fe43a2626c65
+065. BSO 3 (com SAU) - Jaragu� - km 342+000 Norte - BR153/GO | ID PW: 273475 | GUID PW: 470c8916-68e5-48f6-ae78-4a96a0c0b8f9
+066. BSO 4 (com SAU) - Rialma - km 295+280 Sul - BR153/GO | ID PW: 275236 | GUID PW: 0c539cdc-bf09-4984-b0c3-7be8cbeafb20
+067. BSO 5 (sem SAU) - S�o Luiz do Norte - km 256+660 Norte - BR153/GO | ID PW: 276197 | GUID PW: 03ef1a83-62ff-4044-ab69-aec28a2c7a3f
+068. BSO 6 (sem SAU) - Urua�u - km 212+760 Sul - BR153/GO | ID PW: 276978 | GUID PW: 20b89ca2-745f-44ba-8d99-fe5ac7476fcc
+069. BSO 7 (com SAU) - Campinorte - km 170+980 Norte - BR153/GO | ID PW: 277759 | GUID PW: 6db3ec68-f6d9-4c09-8845-d6f479719540
+070. Dispositivo 9�Ano - km 444+122 - BR153/GO | ID PW: 54554 | GUID PW: 32738951-565d-4347-8be6-b321beeded7b
+071. HS-WIM Abadi�nia - km 432+174 - BR414/GO | ID PW: 292616 | GUID PW: 81994027-ed2b-467c-8b23-9ce830fef765
+072. HS-WIM Campinorte - km 169+067 - BR153/GO | ID PW: 291834 | GUID PW: 50d70157-3839-4d62-a9fb-1584196d438c
+073. Marginais Norte e Sul - km 676+500 a km 678+500 - BR-153/TO | ID PW: 429657 | GUID PW: 7345bb67-f556-4dbf-9890-9c51bfddcab2
+074. Marginal Norte - km 667 ao km 671 - BR-153/TO | ID PW: 429694 | GUID PW: ff74fb6b-0ea7-4655-b589-63781983632e
+075. Marginal sul - km 671 - 677 - BR153/TO | ID PW: 310242 | GUID PW: 6f7ff13b-94db-4eed-8ec0-fd9e27a26d80
+076. Passarela 1 Urua�u 4� Ano - km 197+800 - BR153/GO | ID PW: 334989 | GUID PW: d3ca8424-039f-43dd-9765-822188ff182f
+077. Passarela 2 Urua�u 4� Ano - Km 198+430 - BR153/GO | ID PW: 335770 | GUID PW: 94dc0a1d-b8ae-4909-82f3-27ae03074633
+078. Passarela 3 Alvorada 4� Ano - Km 759+700 - BR153/GO | ID PW: 336554 | GUID PW: 652d2c20-c942-476b-967b-9bff17f6643f
+079. Passarela 4 Alian�a 4� Ano - km 623+500 - BR153/TO | ID PW: 347970 | GUID PW: 9ab4ac31-8096-4e54-8fe0-e762f5df8e0a
+080. Pontos de �nibus 3� e 4� Ano - BR-153 | ID PW: 370792 | GUID PW: 9e8c04fb-3644-459c-a35c-7e8252ab79f7
+081. Posto de Pesagem - km 168+000 - BR153/GO | ID PW: 289478 | GUID PW: fe0b0ca2-8167-4587-bd7b-10c16b0f285f
+082. Posto de Pesagem - km 171+000 - BR153/GO | ID PW: 290259 | GUID PW: 43b59a3d-081f-46d2-a2e4-094e69564de6
+083. Posto de Pesagem - km 431+300 - BR414/GO | ID PW: 291040 | GUID PW: fc4eb885-ab20-4d0c-9e22-ada67ebb1137
+084. PPD Talism� - km 801+020 Norte - BR153/TO | ID PW: 287916 | GUID PW: 28b8d9ea-f834-43ed-86b8-2349480baf05
+085. PPD Urua�u - km 210+900 Sul - BR153/GO | ID PW: 288697 | GUID PW: 9430a7a3-8167-4fe4-8fcf-d008754d3af6
+086. Pra�a de Ped�gio Alian�a do Tocantins - km 640+000 - BR153/TO | ID PW: 253195 | GUID PW: e73d5728-2181-440b-ac9e-2ae8a9d593f6
+087. Pra�a de Ped�gio Alvorada - km 745+555 - BR153/TO | ID PW: 255070 | GUID PW: 0fa87f82-e466-4a06-a02b-4d057c02961a
+088. Pra�a de Ped�gio Campinorte - km 182+040 - BR153/GO | ID PW: 260616 | GUID PW: 0d07ceba-13d2-4bf8-8621-36e0dce26e04
+089. Pra�a de Ped�gio Corumb� de Goi�s - km 404+080 - BR414/GO | ID PW: 268129 | GUID PW: 7fa99e55-c01c-46ff-a310-5b97fff68a34
+090. Pra�a de Ped�gio Estrela do Norte -  km 116+120 - BR153/GO | ID PW: 258782 | GUID PW: e12afe19-65e0-486e-a6b1-f7339d26d976
+091. Pra�a de Ped�gio Hidrolina - km 233+400 - BR153/GO | ID PW: 262525 | GUID PW: c7258118-4d09-407b-aae9-4fe33945a3a4
+092. Pra�a de Ped�gio Jaragu� - km 367+500 - BR153/GO | ID PW: 264434 | GUID PW: cf631504-074f-495d-b087-7e8d38c456ab
+093. Pra�a de Ped�gio Porangatu - km 012+500 - BR153/GO | ID PW: 256892 | GUID PW: 0b722e46-c3fb-424d-b98d-bfcbf082fb3b
+094. Pra�a de Ped�gio Santa Rita do Novo Destino - km 155+500 - BR080/GO | ID PW: 266226 | GUID PW: b2c66bb7-82a7-4814-8c54-676f7edb2a87
+095. Retorno em U - km 668 - BR-153/TO | ID PW: 361738 | GUID PW: 724c26e7-2ad7-481e-b6a2-c399828a7b0a
+096. Retornos em U 20� Ano - km 624+500 - 624+700 - BR153/TO | ID PW: 307124 | GUID PW: 5ea6a395-d999-462f-8319-d220c4e75f63
+097. Retornos em U 24� Ano - km 1+238 - BR153/GO | ID PW: 208819 | GUID PW: 7291b067-95db-4d91-a87a-487dd9f6c82d
+
+Forma de selecao dos projetos:
+01. Selecionar manualmente pelos numeros
+02. Selecionar por planilha com coluna Projeto
+> 02
+02
+[ERRO] #< CLIXML
+[ERRO] <Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04"><Obj S="progress" RefId="0"><TN RefId="0"><T>System.Management.Automation.PSCustomObject</T><T>System.Object</T></TN><MS><I64 N="SourceId">1</I64><PR N="Record"><AV>Preparando [ERRO] m�dulos para primeiro uso.</AV><AI>0</AI><Nil /><PI>-1</PI><PC>-1</PC><T>Completed</T><SR>-1</SR><SD> </SD></PR></MS></Obj></Objs>15:24:27 | Linhas na planilha de projetos: 22
+15:24:27 | Projetos unicos importados: 22 | Duplicados ignorados: 0
+15:24:28 | Projeto localizado [Exato]: Dispositivo 9�Ano - km 444+122 - BR153/GO -> Dispositivo 9�Ano - km 444+122 - BR153/GO
+15:24:28 | Projeto localizado [Exato]: Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO -> Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO
+15:24:28 | Projeto localizado [Exato]: Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO -> Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO
+15:24:28 | Projeto localizado [Exato]: Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO -> Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO
+15:24:28 | Projeto localizado [Exato]: Al�as Viadutos - km 432+441 - BR153/GO -> Al�as Viadutos - km 432+441 - BR153/GO
+15:24:28 | Projeto localizado [Exato]: Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO -> Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO
+15:24:28 | Projeto localizado [Exato]: Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO -> Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO
+15:24:29 | Projeto localizado [Exato]: Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO -> Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO
+15:24:29 | Projeto localizado [Exato]: Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO -> Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO
+15:24:29 | Projeto localizado [Exato]: Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO -> Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO
+15:24:29 | Projeto localizado [Exato]: Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO -> Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO
+15:24:29 | Projeto localizado [Exato]: Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO -> Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO
+15:24:29 | Projeto localizado [Exato]: Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO -> Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO
+15:24:30 | Projeto localizado [Exato]: Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO -> Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO
+15:24:30 | Projeto localizado [Exato]: Acesso 7� Ano - km 91+280 - BR153/GO -> Acesso 7� Ano - km 91+280 - BR153/GO
+15:24:30 | Projeto localizado [Exato]: Acesso 7� Ano - km 124+420 - BR153/GO -> Acesso 7� Ano - km 124+420 - BR153/GO
+15:24:30 | Projeto localizado [Exato]: Acesso 7� Ano - km 141+870 - BR153/GO -> Acesso 7� Ano - km 141+870 - BR153/GO
+15:24:30 | Projeto localizado [Exato]: Acesso 8� Ano - km 31+50 - BR153/GO -> Acesso 8� Ano - km 31+50 - BR153/GO
+15:24:30 | Projeto localizado [Exato]: Acesso 8� Ano - km 72+48 - BR153/GO -> Acesso 8� Ano - km 72+48 - BR153/GO
+15:24:30 | Projeto localizado [Exato]: Acesso km 435+000 - BR414/GO -> Acesso km 435+000 - BR414/GO
+15:24:30 | Projeto localizado [Exato]: Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO -> Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO
+15:24:31 | Projeto localizado [Exato]: Pontos de �nibus 3� e 4� Ano - BR-153 -> Pontos de �nibus 3� e 4� Ano - BR-153
+15:24:31 | Projetos selecionados pela planilha: 22
+
+[OK] Projetos selecionados exportados.
+JSON: C:\Users\peter\OneDrive - Grupo Ecorodovias\�rea de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\PWDM_Gerenciamento_Participantes_V2\Logs\pwdm_projetos_execucao_connected_20260731_152351.json
+Projetos selecionados: 22
+Projetos aptos PW Web: 22
+True
+
+[INFO] Usando projetos selecionados pelo ProjectWise nesta execucao: C:\Users\peter\OneDrive - Grupo Ecorodovias\�rea de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\PWDM_Gerenciamento_Participantes_V2\Logs\pwdm_projetos_execucao_connected_20260731_152351.json
+[OK] 22 projeto(s) do ProjectWise Web carregado(s) pelo ConnectedProjectId.
+001. Acesso 7� Ano - km 124+420 - BR153/GO | PW ID: 239311 | ConnectedProjectId: d5ec25ff-8e7c-41ce-8308-3d60a9359e6d
+002. Acesso 7� Ano - km 141+870 - BR153/GO | PW ID: 240092 | ConnectedProjectId: ba9771ff-244d-49bc-a170-e31e37cbefac
+003. Acesso 7� Ano - km 91+280 - BR153/GO | PW ID: 238530 | ConnectedProjectId: 2deaeffb-787f-4387-8164-3dd5498645e8
+004. Acesso 8� Ano - km 31+50 - BR153/GO | PW ID: 240874 | ConnectedProjectId: e0346c76-173d-491b-8a6c-fd1a4bc0056c
+005. Acesso 8� Ano - km 72+48 - BR153/GO | PW ID: 241681 | ConnectedProjectId: fa5efb85-33b4-486f-a89a-3a3da2d36d9d
+006. Acesso km 435+000 - BR414/GO | PW ID: 298790 | ConnectedProjectId: ac9087eb-5989-4e7c-953d-ab205aaa6ffd
+007. Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO | PW ID: 210381 | ConnectedProjectId: 85c7b5a0-066b-45d7-9434-45d5946103f2
+008. Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO | PW ID: 209600 | ConnectedProjectId: 75e57cad-c1ee-4ba5-be63-377ccdd4a307
+009. Al�as Viadutos - km 432+441 - BR153/GO | PW ID: 211162 | ConnectedProjectId: 5b723ffb-0cc7-4f36-8506-8d8caaf76d48
+010. Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO | PW ID: 236186 | ConnectedProjectId: 060f59fd-1281-441a-9c3b-a35d30bf7c7e
+011. Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO | PW ID: 236967 | ConnectedProjectId: 73e0c8e4-4e61-4db9-b593-fbf6ae1f0f2d
+012. Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO | PW ID: 306343 | ConnectedProjectId: 5bfae34e-dd1a-49ab-8955-d2e2032bde5c
+013. Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO | PW ID: 76195 | ConnectedProjectId: 922466d5-864b-4292-8b7f-090a6ce7d2d8
+014. Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO | PW ID: 100581 | ConnectedProjectId: 310d5d46-0966-4077-b7bd-eeddc8ecae4a
+015. Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO | PW ID: 211943 | ConnectedProjectId: e72f828e-3f3c-43ce-b089-172a4ef2c0a8
+016. Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO | PW ID: 212724 | ConnectedProjectId: 71cee75d-3a66-4993-9e87-1b93fc0b1a80
+017. Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO | PW ID: 213506 | ConnectedProjectId: 7e13aff4-ba0e-4a9b-bf3d-be7b0f4eb876
+018. Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO | PW ID: 214287 | ConnectedProjectId: 7728f036-853f-42b0-b4cf-6f205110728d
+019. Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO | PW ID: 215068 | ConnectedProjectId: f79aa49d-fd3a-4c08-931d-af7b123e0e82
+020. Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO | PW ID: 235405 | ConnectedProjectId: b417ea35-4b6b-4b5c-9d01-51f724833057
+021. Dispositivo 9�Ano - km 444+122 - BR153/GO | PW ID: 54554 | ConnectedProjectId: 444d077b-51f0-45f4-9c33-db7463330142
+022. Pontos de �nibus 3� e 4� Ano - BR-153 | PW ID: 370792 | ConnectedProjectId: 91a83c9e-282f-497b-b343-8905caaaf64e
+
+Modo de usuarios
+01. Usuario unico
+02. Lote por planilha .xlsx
+Escolha [1/2]: > 02
+
+[OK] Planilha importada: C:\Users\peter\Downloads\Solicitacao_UsuariosCDE.xlsx
+- Aba: UsuariosCDE
+- Linhas validas: 28
+- Linhas invalidas ignoradas: 0
+- Projeto: sem coluna de projeto, os usuarios serao aplicados a todos os projetos selecionados.
+- Role: sera selecionada no RBAC para as linhas sem coluna/valor de role.
+[1/9] Abrindo navegador visual...
+[2/9] Acessando tela de membros RBAC: https://connect-rbacportal.bentley.com/Manage/d5ec25ff-8e7c-41ce-8308-3d60a9359e6d/users
+
+Se necessario, faca login manualmente no navegador.
+Quando estiver autenticado e a tela carregar, pressione ENTER no terminal...> [CONTINUAR]
+  [INFO] Roles extraidas dos membros existentes: 6
+
+Role RBAC para linhas sem role informada
+Escolha pelo numero abaixo. ENTER usa Team Member.
+01. iTwin owner (enterprise)
+02. PWDM Administrator (enterprise)
+03. PWDM Approver (enterprise)
+04. PWDM Issuer (enterprise)
+05. PWDM Receiver (enterprise)
+06. Team Member (enterprise) [padrao]
+Numero ou nome da role: > 06
+[OK] Role selecionada para linhas sem role: Team Member
+
+[7/9] Lendo roles e membros nos projetos selecionados...
+- Linha 2 (1/28): wesley.mezine@egis-group.com -> 22 projeto(s) [todos]
+  Consultando roles: Acesso 7� Ano - km 124+420 - BR153/GO (d5ec25ff-8e7c-41ce-8308-3d60a9359e6d)
+  Consultando membros: Acesso 7� Ano - km 124+420 - BR153/GO (d5ec25ff-8e7c-41ce-8308-3d60a9359e6d)
+  Consultando convites: Acesso 7� Ano - km 124+420 - BR153/GO (d5ec25ff-8e7c-41ce-8308-3d60a9359e6d)
+  Consultando roles: Acesso 7� Ano - km 141+870 - BR153/GO (ba9771ff-244d-49bc-a170-e31e37cbefac)
+  Consultando membros: Acesso 7� Ano - km 141+870 - BR153/GO (ba9771ff-244d-49bc-a170-e31e37cbefac)
+  Consultando convites: Acesso 7� Ano - km 141+870 - BR153/GO (ba9771ff-244d-49bc-a170-e31e37cbefac)
+  Consultando roles: Acesso 7� Ano - km 91+280 - BR153/GO (2deaeffb-787f-4387-8164-3dd5498645e8)
+  Consultando membros: Acesso 7� Ano - km 91+280 - BR153/GO (2deaeffb-787f-4387-8164-3dd5498645e8)
+  Consultando convites: Acesso 7� Ano - km 91+280 - BR153/GO (2deaeffb-787f-4387-8164-3dd5498645e8)
+  Consultando roles: Acesso 8� Ano - km 31+50 - BR153/GO (e0346c76-173d-491b-8a6c-fd1a4bc0056c)
+  Consultando membros: Acesso 8� Ano - km 31+50 - BR153/GO (e0346c76-173d-491b-8a6c-fd1a4bc0056c)
+  Consultando convites: Acesso 8� Ano - km 31+50 - BR153/GO (e0346c76-173d-491b-8a6c-fd1a4bc0056c)
+  Consultando roles: Acesso 8� Ano - km 72+48 - BR153/GO (fa5efb85-33b4-486f-a89a-3a3da2d36d9d)
+  Consultando membros: Acesso 8� Ano - km 72+48 - BR153/GO (fa5efb85-33b4-486f-a89a-3a3da2d36d9d)
+  Consultando convites: Acesso 8� Ano - km 72+48 - BR153/GO (fa5efb85-33b4-486f-a89a-3a3da2d36d9d)
+  Consultando roles: Acesso km 435+000 - BR414/GO (ac9087eb-5989-4e7c-953d-ab205aaa6ffd)
+  Consultando membros: Acesso km 435+000 - BR414/GO (ac9087eb-5989-4e7c-953d-ab205aaa6ffd)
+  Consultando convites: Acesso km 435+000 - BR414/GO (ac9087eb-5989-4e7c-953d-ab205aaa6ffd)
+  Consultando roles: Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO (85c7b5a0-066b-45d7-9434-45d5946103f2)
+  Consultando membros: Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO (85c7b5a0-066b-45d7-9434-45d5946103f2)
+  Consultando convites: Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO (85c7b5a0-066b-45d7-9434-45d5946103f2)
+  Consultando roles: Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO (75e57cad-c1ee-4ba5-be63-377ccdd4a307)
+  Consultando membros: Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO (75e57cad-c1ee-4ba5-be63-377ccdd4a307)
+  Consultando convites: Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO (75e57cad-c1ee-4ba5-be63-377ccdd4a307)
+  Consultando roles: Al�as Viadutos - km 432+441 - BR153/GO (5b723ffb-0cc7-4f36-8506-8d8caaf76d48)
+  Consultando membros: Al�as Viadutos - km 432+441 - BR153/GO (5b723ffb-0cc7-4f36-8506-8d8caaf76d48)
+  Consultando convites: Al�as Viadutos - km 432+441 - BR153/GO (5b723ffb-0cc7-4f36-8506-8d8caaf76d48)
+  Consultando roles: Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO (060f59fd-1281-441a-9c3b-a35d30bf7c7e)
+  Consultando membros: Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO (060f59fd-1281-441a-9c3b-a35d30bf7c7e)
+  Consultando convites: Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO (060f59fd-1281-441a-9c3b-a35d30bf7c7e)
+  Consultando roles: Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO (73e0c8e4-4e61-4db9-b593-fbf6ae1f0f2d)
+  Consultando membros: Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO (73e0c8e4-4e61-4db9-b593-fbf6ae1f0f2d)
+  Consultando convites: Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO (73e0c8e4-4e61-4db9-b593-fbf6ae1f0f2d)
+  Consultando roles: Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO (5bfae34e-dd1a-49ab-8955-d2e2032bde5c)
+  Consultando membros: Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO (5bfae34e-dd1a-49ab-8955-d2e2032bde5c)
+  Consultando convites: Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO (5bfae34e-dd1a-49ab-8955-d2e2032bde5c)
+  Consultando roles: Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO (922466d5-864b-4292-8b7f-090a6ce7d2d8)
+  Consultando membros: Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO (922466d5-864b-4292-8b7f-090a6ce7d2d8)
+  Consultando convites: Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO (922466d5-864b-4292-8b7f-090a6ce7d2d8)
+  Consultando roles: Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO (310d5d46-0966-4077-b7bd-eeddc8ecae4a)
+  Consultando membros: Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO (310d5d46-0966-4077-b7bd-eeddc8ecae4a)
+  Consultando convites: Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO (310d5d46-0966-4077-b7bd-eeddc8ecae4a)
+  Consultando roles: Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO (e72f828e-3f3c-43ce-b089-172a4ef2c0a8)
+  Consultando membros: Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO (e72f828e-3f3c-43ce-b089-172a4ef2c0a8)
+  Consultando convites: Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO (e72f828e-3f3c-43ce-b089-172a4ef2c0a8)
+  Consultando roles: Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO (71cee75d-3a66-4993-9e87-1b93fc0b1a80)
+  Consultando membros: Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO (71cee75d-3a66-4993-9e87-1b93fc0b1a80)
+  Consultando convites: Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO (71cee75d-3a66-4993-9e87-1b93fc0b1a80)
+  Consultando roles: Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO (7e13aff4-ba0e-4a9b-bf3d-be7b0f4eb876)
+  Consultando membros: Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO (7e13aff4-ba0e-4a9b-bf3d-be7b0f4eb876)
+  Consultando convites: Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO (7e13aff4-ba0e-4a9b-bf3d-be7b0f4eb876)
+  Consultando roles: Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO (7728f036-853f-42b0-b4cf-6f205110728d)
+  Consultando membros: Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO (7728f036-853f-42b0-b4cf-6f205110728d)
+  Consultando convites: Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO (7728f036-853f-42b0-b4cf-6f205110728d)
+  Consultando roles: Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO (f79aa49d-fd3a-4c08-931d-af7b123e0e82)
+  Consultando membros: Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO (f79aa49d-fd3a-4c08-931d-af7b123e0e82)
+  Consultando convites: Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO (f79aa49d-fd3a-4c08-931d-af7b123e0e82)
+  Consultando roles: Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO (b417ea35-4b6b-4b5c-9d01-51f724833057)
+  Consultando membros: Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO (b417ea35-4b6b-4b5c-9d01-51f724833057)
+  Consultando convites: Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO (b417ea35-4b6b-4b5c-9d01-51f724833057)
+  Consultando roles: Dispositivo 9�Ano - km 444+122 - BR153/GO (444d077b-51f0-45f4-9c33-db7463330142)
+  Consultando membros: Dispositivo 9�Ano - km 444+122 - BR153/GO (444d077b-51f0-45f4-9c33-db7463330142)
+  Consultando convites: Dispositivo 9�Ano - km 444+122 - BR153/GO (444d077b-51f0-45f4-9c33-db7463330142)
+  Consultando roles: Pontos de �nibus 3� e 4� Ano - BR-153 (91a83c9e-282f-497b-b343-8905caaaf64e)
+  Consultando membros: Pontos de �nibus 3� e 4� Ano - BR-153 (91a83c9e-282f-497b-b343-8905caaaf64e)
+  Consultando convites: Pontos de �nibus 3� e 4� Ano - BR-153 (91a83c9e-282f-497b-b343-8905caaaf64e)
+- Linha 3 (2/28): leonardo.botelho@egis-group.com -> 22 projeto(s) [todos]
+- Linha 4 (3/28): bruna.rocha@egis-group.com -> 22 projeto(s) [todos]
+- Linha 5 (4/28): leticia.silva@egis-group.com -> 22 projeto(s) [todos]
+- Linha 6 (5/28): daniele.spitz@egis-group.com -> 22 projeto(s) [todos]
+- Linha 7 (6/28): jose.junior@egis-group.com -> 22 projeto(s) [todos]
+- Linha 8 (7/28): joao.carvalho@egis-group.com -> 22 projeto(s) [todos]
+- Linha 9 (8/28): aline.baldo@egis-group.com -> 22 projeto(s) [todos]
+- Linha 10 (9/28): leandro.okamoto@egis-group.com -> 22 projeto(s) [todos]
+- Linha 11 (10/28): claudia.campos@egis-group.com -> 22 projeto(s) [todos]
+- Linha 12 (11/28): matheus.santos@egis-group.com -> 22 projeto(s) [todos]
+- Linha 13 (12/28): maria.nunes@egis-group.com -> 22 projeto(s) [todos]
+- Linha 14 (13/28): leticia.coelho@egis-group.com -> 22 projeto(s) [todos]
+- Linha 15 (14/28): samara.silva@egis-group.com -> 22 projeto(s) [todos]
+- Linha 16 (15/28): pietro.sa@egis-group.com -> 22 projeto(s) [todos]
+- Linha 17 (16/28): larissa.macedo@egis-group.com -> 22 projeto(s) [todos]
+- Linha 18 (17/28): renata.saqueti@egis-group.com -> 22 projeto(s) [todos]
+- Linha 19 (18/28): luciano.moura@egis-group.com -> 22 projeto(s) [todos]
+- Linha 20 (19/28): jose.martins@egis-group.com -> 22 projeto(s) [todos]
+- Linha 21 (20/28): beatriz.goncalves@egis-group.com -> 22 projeto(s) [todos]
+- Linha 22 (21/28): raissa.farias@egis-group.com -> 22 projeto(s) [todos]
+- Linha 23 (22/28): ellen.costa@egis-group.com -> 22 projeto(s) [todos]
+- Linha 24 (23/28): ronaldo.silva@egis-group.com -> 22 projeto(s) [todos]
+- Linha 25 (24/28): celio.araujo@egis-group.com -> 22 projeto(s) [todos]
+- Linha 26 (25/28): hermes.almeida@egis-group.com -> 22 projeto(s) [todos]
+- Linha 27 (26/28): ana.barbosa@egis-group.com -> 22 projeto(s) [todos]
+- Linha 28 (27/28): anne.oliveira@egis-group.com -> 22 projeto(s) [todos]
+- Linha 29 (28/28): lucas.camargo@egis-group.com -> 22 projeto(s) [todos]
+
+[8/9] Previa consolidada RBAC:
+- Usuarios: 28
+- Projetos: 22
+- Operacoes planejadas: 616
+- Operacoes aplicaveis: 0
+001. Linha 2 | wesley.mezine@egis-group.com | Acesso 7� Ano - km 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+002. Linha 2 | wesley.mezine@egis-group.com | Acesso 7� Ano - km 141+870 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+003. Linha 2 | wesley.mezine@egis-group.com | Acesso 7� Ano - km 91+280 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+004. Linha 2 | wesley.mezine@egis-group.com | Acesso 8� Ano - km 31+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+005. Linha 2 | wesley.mezine@egis-group.com | Acesso 8� Ano - km 72+48 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+006. Linha 2 | wesley.mezine@egis-group.com | Acesso km 435+000 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+007. Linha 2 | wesley.mezine@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO | sem_alteracao
+     Role: Team Member [enterprise]
+008. Linha 2 | wesley.mezine@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+009. Linha 2 | wesley.mezine@egis-group.com | Al�as Viadutos - km 432+441 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+010. Linha 2 | wesley.mezine@egis-group.com | Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+011. Linha 2 | wesley.mezine@egis-group.com | Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+012. Linha 2 | wesley.mezine@egis-group.com | Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+013. Linha 2 | wesley.mezine@egis-group.com | Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+014. Linha 2 | wesley.mezine@egis-group.com | Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+015. Linha 2 | wesley.mezine@egis-group.com | Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+016. Linha 2 | wesley.mezine@egis-group.com | Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+017. Linha 2 | wesley.mezine@egis-group.com | Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+018. Linha 2 | wesley.mezine@egis-group.com | Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+019. Linha 2 | wesley.mezine@egis-group.com | Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+020. Linha 2 | wesley.mezine@egis-group.com | Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+021. Linha 2 | wesley.mezine@egis-group.com | Dispositivo 9�Ano - km 444+122 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+022. Linha 2 | wesley.mezine@egis-group.com | Pontos de �nibus 3� e 4� Ano - BR-153 | sem_alteracao
+     Role: Team Member [enterprise]
+023. Linha 3 | leonardo.botelho@egis-group.com | Acesso 7� Ano - km 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+024. Linha 3 | leonardo.botelho@egis-group.com | Acesso 7� Ano - km 141+870 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+025. Linha 3 | leonardo.botelho@egis-group.com | Acesso 7� Ano - km 91+280 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+026. Linha 3 | leonardo.botelho@egis-group.com | Acesso 8� Ano - km 31+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+027. Linha 3 | leonardo.botelho@egis-group.com | Acesso 8� Ano - km 72+48 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+028. Linha 3 | leonardo.botelho@egis-group.com | Acesso km 435+000 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+029. Linha 3 | leonardo.botelho@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO | sem_alteracao
+     Role: Team Member [enterprise]
+030. Linha 3 | leonardo.botelho@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+031. Linha 3 | leonardo.botelho@egis-group.com | Al�as Viadutos - km 432+441 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+032. Linha 3 | leonardo.botelho@egis-group.com | Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+033. Linha 3 | leonardo.botelho@egis-group.com | Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+034. Linha 3 | leonardo.botelho@egis-group.com | Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+035. Linha 3 | leonardo.botelho@egis-group.com | Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+036. Linha 3 | leonardo.botelho@egis-group.com | Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+037. Linha 3 | leonardo.botelho@egis-group.com | Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+038. Linha 3 | leonardo.botelho@egis-group.com | Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+039. Linha 3 | leonardo.botelho@egis-group.com | Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+040. Linha 3 | leonardo.botelho@egis-group.com | Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+041. Linha 3 | leonardo.botelho@egis-group.com | Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+042. Linha 3 | leonardo.botelho@egis-group.com | Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+043. Linha 3 | leonardo.botelho@egis-group.com | Dispositivo 9�Ano - km 444+122 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+044. Linha 3 | leonardo.botelho@egis-group.com | Pontos de �nibus 3� e 4� Ano - BR-153 | sem_alteracao
+     Role: Team Member [enterprise]
+045. Linha 4 | bruna.rocha@egis-group.com | Acesso 7� Ano - km 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+046. Linha 4 | bruna.rocha@egis-group.com | Acesso 7� Ano - km 141+870 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+047. Linha 4 | bruna.rocha@egis-group.com | Acesso 7� Ano - km 91+280 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+048. Linha 4 | bruna.rocha@egis-group.com | Acesso 8� Ano - km 31+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+049. Linha 4 | bruna.rocha@egis-group.com | Acesso 8� Ano - km 72+48 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+050. Linha 4 | bruna.rocha@egis-group.com | Acesso km 435+000 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+051. Linha 4 | bruna.rocha@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO | sem_alteracao
+     Role: Team Member [enterprise]
+052. Linha 4 | bruna.rocha@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+053. Linha 4 | bruna.rocha@egis-group.com | Al�as Viadutos - km 432+441 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+054. Linha 4 | bruna.rocha@egis-group.com | Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+055. Linha 4 | bruna.rocha@egis-group.com | Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+056. Linha 4 | bruna.rocha@egis-group.com | Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+057. Linha 4 | bruna.rocha@egis-group.com | Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+058. Linha 4 | bruna.rocha@egis-group.com | Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+059. Linha 4 | bruna.rocha@egis-group.com | Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+060. Linha 4 | bruna.rocha@egis-group.com | Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+061. Linha 4 | bruna.rocha@egis-group.com | Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+062. Linha 4 | bruna.rocha@egis-group.com | Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+063. Linha 4 | bruna.rocha@egis-group.com | Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+064. Linha 4 | bruna.rocha@egis-group.com | Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+065. Linha 4 | bruna.rocha@egis-group.com | Dispositivo 9�Ano - km 444+122 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+066. Linha 4 | bruna.rocha@egis-group.com | Pontos de �nibus 3� e 4� Ano - BR-153 | sem_alteracao
+     Role: Team Member [enterprise]
+067. Linha 5 | leticia.silva@egis-group.com | Acesso 7� Ano - km 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+068. Linha 5 | leticia.silva@egis-group.com | Acesso 7� Ano - km 141+870 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+069. Linha 5 | leticia.silva@egis-group.com | Acesso 7� Ano - km 91+280 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+070. Linha 5 | leticia.silva@egis-group.com | Acesso 8� Ano - km 31+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+071. Linha 5 | leticia.silva@egis-group.com | Acesso 8� Ano - km 72+48 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+072. Linha 5 | leticia.silva@egis-group.com | Acesso km 435+000 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+073. Linha 5 | leticia.silva@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO | sem_alteracao
+     Role: Team Member [enterprise]
+074. Linha 5 | leticia.silva@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+075. Linha 5 | leticia.silva@egis-group.com | Al�as Viadutos - km 432+441 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+076. Linha 5 | leticia.silva@egis-group.com | Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+077. Linha 5 | leticia.silva@egis-group.com | Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+078. Linha 5 | leticia.silva@egis-group.com | Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+079. Linha 5 | leticia.silva@egis-group.com | Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+080. Linha 5 | leticia.silva@egis-group.com | Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+081. Linha 5 | leticia.silva@egis-group.com | Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+082. Linha 5 | leticia.silva@egis-group.com | Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+083. Linha 5 | leticia.silva@egis-group.com | Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+084. Linha 5 | leticia.silva@egis-group.com | Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+085. Linha 5 | leticia.silva@egis-group.com | Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+086. Linha 5 | leticia.silva@egis-group.com | Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+087. Linha 5 | leticia.silva@egis-group.com | Dispositivo 9�Ano - km 444+122 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+088. Linha 5 | leticia.silva@egis-group.com | Pontos de �nibus 3� e 4� Ano - BR-153 | sem_alteracao
+     Role: Team Member [enterprise]
+089. Linha 6 | daniele.spitz@egis-group.com | Acesso 7� Ano - km 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+090. Linha 6 | daniele.spitz@egis-group.com | Acesso 7� Ano - km 141+870 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+091. Linha 6 | daniele.spitz@egis-group.com | Acesso 7� Ano - km 91+280 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+092. Linha 6 | daniele.spitz@egis-group.com | Acesso 8� Ano - km 31+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+093. Linha 6 | daniele.spitz@egis-group.com | Acesso 8� Ano - km 72+48 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+094. Linha 6 | daniele.spitz@egis-group.com | Acesso km 435+000 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+095. Linha 6 | daniele.spitz@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO | sem_alteracao
+     Role: Team Member [enterprise]
+096. Linha 6 | daniele.spitz@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+097. Linha 6 | daniele.spitz@egis-group.com | Al�as Viadutos - km 432+441 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+098. Linha 6 | daniele.spitz@egis-group.com | Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+099. Linha 6 | daniele.spitz@egis-group.com | Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+100. Linha 6 | daniele.spitz@egis-group.com | Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+101. Linha 6 | daniele.spitz@egis-group.com | Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+102. Linha 6 | daniele.spitz@egis-group.com | Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+103. Linha 6 | daniele.spitz@egis-group.com | Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+104. Linha 6 | daniele.spitz@egis-group.com | Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+105. Linha 6 | daniele.spitz@egis-group.com | Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+106. Linha 6 | daniele.spitz@egis-group.com | Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+107. Linha 6 | daniele.spitz@egis-group.com | Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+108. Linha 6 | daniele.spitz@egis-group.com | Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+109. Linha 6 | daniele.spitz@egis-group.com | Dispositivo 9�Ano - km 444+122 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+110. Linha 6 | daniele.spitz@egis-group.com | Pontos de �nibus 3� e 4� Ano - BR-153 | sem_alteracao
+     Role: Team Member [enterprise]
+111. Linha 7 | jose.junior@egis-group.com | Acesso 7� Ano - km 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+112. Linha 7 | jose.junior@egis-group.com | Acesso 7� Ano - km 141+870 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+113. Linha 7 | jose.junior@egis-group.com | Acesso 7� Ano - km 91+280 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+114. Linha 7 | jose.junior@egis-group.com | Acesso 8� Ano - km 31+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+115. Linha 7 | jose.junior@egis-group.com | Acesso 8� Ano - km 72+48 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+116. Linha 7 | jose.junior@egis-group.com | Acesso km 435+000 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+117. Linha 7 | jose.junior@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO | sem_alteracao
+     Role: Team Member [enterprise]
+118. Linha 7 | jose.junior@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+119. Linha 7 | jose.junior@egis-group.com | Al�as Viadutos - km 432+441 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+120. Linha 7 | jose.junior@egis-group.com | Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+121. Linha 7 | jose.junior@egis-group.com | Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+122. Linha 7 | jose.junior@egis-group.com | Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+123. Linha 7 | jose.junior@egis-group.com | Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+124. Linha 7 | jose.junior@egis-group.com | Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+125. Linha 7 | jose.junior@egis-group.com | Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+126. Linha 7 | jose.junior@egis-group.com | Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+127. Linha 7 | jose.junior@egis-group.com | Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+128. Linha 7 | jose.junior@egis-group.com | Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+129. Linha 7 | jose.junior@egis-group.com | Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+130. Linha 7 | jose.junior@egis-group.com | Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+131. Linha 7 | jose.junior@egis-group.com | Dispositivo 9�Ano - km 444+122 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+132. Linha 7 | jose.junior@egis-group.com | Pontos de �nibus 3� e 4� Ano - BR-153 | sem_alteracao
+     Role: Team Member [enterprise]
+133. Linha 8 | joao.carvalho@egis-group.com | Acesso 7� Ano - km 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+134. Linha 8 | joao.carvalho@egis-group.com | Acesso 7� Ano - km 141+870 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+135. Linha 8 | joao.carvalho@egis-group.com | Acesso 7� Ano - km 91+280 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+136. Linha 8 | joao.carvalho@egis-group.com | Acesso 8� Ano - km 31+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+137. Linha 8 | joao.carvalho@egis-group.com | Acesso 8� Ano - km 72+48 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+138. Linha 8 | joao.carvalho@egis-group.com | Acesso km 435+000 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+139. Linha 8 | joao.carvalho@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO | sem_alteracao
+     Role: Team Member [enterprise]
+140. Linha 8 | joao.carvalho@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+141. Linha 8 | joao.carvalho@egis-group.com | Al�as Viadutos - km 432+441 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+142. Linha 8 | joao.carvalho@egis-group.com | Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+143. Linha 8 | joao.carvalho@egis-group.com | Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+144. Linha 8 | joao.carvalho@egis-group.com | Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+145. Linha 8 | joao.carvalho@egis-group.com | Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+146. Linha 8 | joao.carvalho@egis-group.com | Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+147. Linha 8 | joao.carvalho@egis-group.com | Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+148. Linha 8 | joao.carvalho@egis-group.com | Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+149. Linha 8 | joao.carvalho@egis-group.com | Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+150. Linha 8 | joao.carvalho@egis-group.com | Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+151. Linha 8 | joao.carvalho@egis-group.com | Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+152. Linha 8 | joao.carvalho@egis-group.com | Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+153. Linha 8 | joao.carvalho@egis-group.com | Dispositivo 9�Ano - km 444+122 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+154. Linha 8 | joao.carvalho@egis-group.com | Pontos de �nibus 3� e 4� Ano - BR-153 | sem_alteracao
+     Role: Team Member [enterprise]
+155. Linha 9 | aline.baldo@egis-group.com | Acesso 7� Ano - km 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+156. Linha 9 | aline.baldo@egis-group.com | Acesso 7� Ano - km 141+870 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+157. Linha 9 | aline.baldo@egis-group.com | Acesso 7� Ano - km 91+280 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+158. Linha 9 | aline.baldo@egis-group.com | Acesso 8� Ano - km 31+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+159. Linha 9 | aline.baldo@egis-group.com | Acesso 8� Ano - km 72+48 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+160. Linha 9 | aline.baldo@egis-group.com | Acesso km 435+000 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+161. Linha 9 | aline.baldo@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO | sem_alteracao
+     Role: Team Member [enterprise]
+162. Linha 9 | aline.baldo@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+163. Linha 9 | aline.baldo@egis-group.com | Al�as Viadutos - km 432+441 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+164. Linha 9 | aline.baldo@egis-group.com | Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+165. Linha 9 | aline.baldo@egis-group.com | Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+166. Linha 9 | aline.baldo@egis-group.com | Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+167. Linha 9 | aline.baldo@egis-group.com | Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+168. Linha 9 | aline.baldo@egis-group.com | Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+169. Linha 9 | aline.baldo@egis-group.com | Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+170. Linha 9 | aline.baldo@egis-group.com | Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+171. Linha 9 | aline.baldo@egis-group.com | Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+172. Linha 9 | aline.baldo@egis-group.com | Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+173. Linha 9 | aline.baldo@egis-group.com | Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+174. Linha 9 | aline.baldo@egis-group.com | Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+175. Linha 9 | aline.baldo@egis-group.com | Dispositivo 9�Ano - km 444+122 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+176. Linha 9 | aline.baldo@egis-group.com | Pontos de �nibus 3� e 4� Ano - BR-153 | sem_alteracao
+     Role: Team Member [enterprise]
+177. Linha 10 | leandro.okamoto@egis-group.com | Acesso 7� Ano - km 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+178. Linha 10 | leandro.okamoto@egis-group.com | Acesso 7� Ano - km 141+870 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+179. Linha 10 | leandro.okamoto@egis-group.com | Acesso 7� Ano - km 91+280 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+180. Linha 10 | leandro.okamoto@egis-group.com | Acesso 8� Ano - km 31+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+181. Linha 10 | leandro.okamoto@egis-group.com | Acesso 8� Ano - km 72+48 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+182. Linha 10 | leandro.okamoto@egis-group.com | Acesso km 435+000 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+183. Linha 10 | leandro.okamoto@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO | sem_alteracao
+     Role: Team Member [enterprise]
+184. Linha 10 | leandro.okamoto@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+185. Linha 10 | leandro.okamoto@egis-group.com | Al�as Viadutos - km 432+441 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+186. Linha 10 | leandro.okamoto@egis-group.com | Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+187. Linha 10 | leandro.okamoto@egis-group.com | Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+188. Linha 10 | leandro.okamoto@egis-group.com | Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+189. Linha 10 | leandro.okamoto@egis-group.com | Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+190. Linha 10 | leandro.okamoto@egis-group.com | Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+191. Linha 10 | leandro.okamoto@egis-group.com | Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+192. Linha 10 | leandro.okamoto@egis-group.com | Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+193. Linha 10 | leandro.okamoto@egis-group.com | Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+194. Linha 10 | leandro.okamoto@egis-group.com | Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+195. Linha 10 | leandro.okamoto@egis-group.com | Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+196. Linha 10 | leandro.okamoto@egis-group.com | Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+197. Linha 10 | leandro.okamoto@egis-group.com | Dispositivo 9�Ano - km 444+122 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+198. Linha 10 | leandro.okamoto@egis-group.com | Pontos de �nibus 3� e 4� Ano - BR-153 | sem_alteracao
+     Role: Team Member [enterprise]
+199. Linha 11 | claudia.campos@egis-group.com | Acesso 7� Ano - km 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+200. Linha 11 | claudia.campos@egis-group.com | Acesso 7� Ano - km 141+870 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+201. Linha 11 | claudia.campos@egis-group.com | Acesso 7� Ano - km 91+280 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+202. Linha 11 | claudia.campos@egis-group.com | Acesso 8� Ano - km 31+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+203. Linha 11 | claudia.campos@egis-group.com | Acesso 8� Ano - km 72+48 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+204. Linha 11 | claudia.campos@egis-group.com | Acesso km 435+000 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+205. Linha 11 | claudia.campos@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO | sem_alteracao
+     Role: Team Member [enterprise]
+206. Linha 11 | claudia.campos@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+207. Linha 11 | claudia.campos@egis-group.com | Al�as Viadutos - km 432+441 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+208. Linha 11 | claudia.campos@egis-group.com | Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+209. Linha 11 | claudia.campos@egis-group.com | Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+210. Linha 11 | claudia.campos@egis-group.com | Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+211. Linha 11 | claudia.campos@egis-group.com | Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+212. Linha 11 | claudia.campos@egis-group.com | Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+213. Linha 11 | claudia.campos@egis-group.com | Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+214. Linha 11 | claudia.campos@egis-group.com | Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+215. Linha 11 | claudia.campos@egis-group.com | Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+216. Linha 11 | claudia.campos@egis-group.com | Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+217. Linha 11 | claudia.campos@egis-group.com | Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+218. Linha 11 | claudia.campos@egis-group.com | Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+219. Linha 11 | claudia.campos@egis-group.com | Dispositivo 9�Ano - km 444+122 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+220. Linha 11 | claudia.campos@egis-group.com | Pontos de �nibus 3� e 4� Ano - BR-153 | sem_alteracao
+     Role: Team Member [enterprise]
+221. Linha 12 | matheus.santos@egis-group.com | Acesso 7� Ano - km 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+222. Linha 12 | matheus.santos@egis-group.com | Acesso 7� Ano - km 141+870 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+223. Linha 12 | matheus.santos@egis-group.com | Acesso 7� Ano - km 91+280 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+224. Linha 12 | matheus.santos@egis-group.com | Acesso 8� Ano - km 31+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+225. Linha 12 | matheus.santos@egis-group.com | Acesso 8� Ano - km 72+48 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+226. Linha 12 | matheus.santos@egis-group.com | Acesso km 435+000 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+227. Linha 12 | matheus.santos@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO | sem_alteracao
+     Role: Team Member [enterprise]
+228. Linha 12 | matheus.santos@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+229. Linha 12 | matheus.santos@egis-group.com | Al�as Viadutos - km 432+441 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+230. Linha 12 | matheus.santos@egis-group.com | Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+231. Linha 12 | matheus.santos@egis-group.com | Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+232. Linha 12 | matheus.santos@egis-group.com | Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+233. Linha 12 | matheus.santos@egis-group.com | Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+234. Linha 12 | matheus.santos@egis-group.com | Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+235. Linha 12 | matheus.santos@egis-group.com | Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+236. Linha 12 | matheus.santos@egis-group.com | Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+237. Linha 12 | matheus.santos@egis-group.com | Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+238. Linha 12 | matheus.santos@egis-group.com | Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+239. Linha 12 | matheus.santos@egis-group.com | Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+240. Linha 12 | matheus.santos@egis-group.com | Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+241. Linha 12 | matheus.santos@egis-group.com | Dispositivo 9�Ano - km 444+122 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+242. Linha 12 | matheus.santos@egis-group.com | Pontos de �nibus 3� e 4� Ano - BR-153 | sem_alteracao
+     Role: Team Member [enterprise]
+243. Linha 13 | maria.nunes@egis-group.com | Acesso 7� Ano - km 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+244. Linha 13 | maria.nunes@egis-group.com | Acesso 7� Ano - km 141+870 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+245. Linha 13 | maria.nunes@egis-group.com | Acesso 7� Ano - km 91+280 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+246. Linha 13 | maria.nunes@egis-group.com | Acesso 8� Ano - km 31+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+247. Linha 13 | maria.nunes@egis-group.com | Acesso 8� Ano - km 72+48 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+248. Linha 13 | maria.nunes@egis-group.com | Acesso km 435+000 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+249. Linha 13 | maria.nunes@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO | sem_alteracao
+     Role: Team Member [enterprise]
+250. Linha 13 | maria.nunes@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+251. Linha 13 | maria.nunes@egis-group.com | Al�as Viadutos - km 432+441 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+252. Linha 13 | maria.nunes@egis-group.com | Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+253. Linha 13 | maria.nunes@egis-group.com | Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+254. Linha 13 | maria.nunes@egis-group.com | Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+255. Linha 13 | maria.nunes@egis-group.com | Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+256. Linha 13 | maria.nunes@egis-group.com | Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+257. Linha 13 | maria.nunes@egis-group.com | Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+258. Linha 13 | maria.nunes@egis-group.com | Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+259. Linha 13 | maria.nunes@egis-group.com | Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+260. Linha 13 | maria.nunes@egis-group.com | Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+261. Linha 13 | maria.nunes@egis-group.com | Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+262. Linha 13 | maria.nunes@egis-group.com | Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+263. Linha 13 | maria.nunes@egis-group.com | Dispositivo 9�Ano - km 444+122 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+264. Linha 13 | maria.nunes@egis-group.com | Pontos de �nibus 3� e 4� Ano - BR-153 | sem_alteracao
+     Role: Team Member [enterprise]
+265. Linha 14 | leticia.coelho@egis-group.com | Acesso 7� Ano - km 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+266. Linha 14 | leticia.coelho@egis-group.com | Acesso 7� Ano - km 141+870 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+267. Linha 14 | leticia.coelho@egis-group.com | Acesso 7� Ano - km 91+280 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+268. Linha 14 | leticia.coelho@egis-group.com | Acesso 8� Ano - km 31+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+269. Linha 14 | leticia.coelho@egis-group.com | Acesso 8� Ano - km 72+48 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+270. Linha 14 | leticia.coelho@egis-group.com | Acesso km 435+000 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+271. Linha 14 | leticia.coelho@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO | sem_alteracao
+     Role: Team Member [enterprise]
+272. Linha 14 | leticia.coelho@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+273. Linha 14 | leticia.coelho@egis-group.com | Al�as Viadutos - km 432+441 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+274. Linha 14 | leticia.coelho@egis-group.com | Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+275. Linha 14 | leticia.coelho@egis-group.com | Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+276. Linha 14 | leticia.coelho@egis-group.com | Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+277. Linha 14 | leticia.coelho@egis-group.com | Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+278. Linha 14 | leticia.coelho@egis-group.com | Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+279. Linha 14 | leticia.coelho@egis-group.com | Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+280. Linha 14 | leticia.coelho@egis-group.com | Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+281. Linha 14 | leticia.coelho@egis-group.com | Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+282. Linha 14 | leticia.coelho@egis-group.com | Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+283. Linha 14 | leticia.coelho@egis-group.com | Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+284. Linha 14 | leticia.coelho@egis-group.com | Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+285. Linha 14 | leticia.coelho@egis-group.com | Dispositivo 9�Ano - km 444+122 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+286. Linha 14 | leticia.coelho@egis-group.com | Pontos de �nibus 3� e 4� Ano - BR-153 | sem_alteracao
+     Role: Team Member [enterprise]
+287. Linha 15 | samara.silva@egis-group.com | Acesso 7� Ano - km 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+288. Linha 15 | samara.silva@egis-group.com | Acesso 7� Ano - km 141+870 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+289. Linha 15 | samara.silva@egis-group.com | Acesso 7� Ano - km 91+280 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+290. Linha 15 | samara.silva@egis-group.com | Acesso 8� Ano - km 31+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+291. Linha 15 | samara.silva@egis-group.com | Acesso 8� Ano - km 72+48 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+292. Linha 15 | samara.silva@egis-group.com | Acesso km 435+000 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+293. Linha 15 | samara.silva@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO | sem_alteracao
+     Role: Team Member [enterprise]
+294. Linha 15 | samara.silva@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+295. Linha 15 | samara.silva@egis-group.com | Al�as Viadutos - km 432+441 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+296. Linha 15 | samara.silva@egis-group.com | Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+297. Linha 15 | samara.silva@egis-group.com | Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+298. Linha 15 | samara.silva@egis-group.com | Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+299. Linha 15 | samara.silva@egis-group.com | Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+300. Linha 15 | samara.silva@egis-group.com | Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+301. Linha 15 | samara.silva@egis-group.com | Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+302. Linha 15 | samara.silva@egis-group.com | Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+303. Linha 15 | samara.silva@egis-group.com | Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+304. Linha 15 | samara.silva@egis-group.com | Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+305. Linha 15 | samara.silva@egis-group.com | Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+306. Linha 15 | samara.silva@egis-group.com | Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+307. Linha 15 | samara.silva@egis-group.com | Dispositivo 9�Ano - km 444+122 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+308. Linha 15 | samara.silva@egis-group.com | Pontos de �nibus 3� e 4� Ano - BR-153 | sem_alteracao
+     Role: Team Member [enterprise]
+309. Linha 16 | pietro.sa@egis-group.com | Acesso 7� Ano - km 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+310. Linha 16 | pietro.sa@egis-group.com | Acesso 7� Ano - km 141+870 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+311. Linha 16 | pietro.sa@egis-group.com | Acesso 7� Ano - km 91+280 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+312. Linha 16 | pietro.sa@egis-group.com | Acesso 8� Ano - km 31+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+313. Linha 16 | pietro.sa@egis-group.com | Acesso 8� Ano - km 72+48 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+314. Linha 16 | pietro.sa@egis-group.com | Acesso km 435+000 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+315. Linha 16 | pietro.sa@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO | sem_alteracao
+     Role: Team Member [enterprise]
+316. Linha 16 | pietro.sa@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+317. Linha 16 | pietro.sa@egis-group.com | Al�as Viadutos - km 432+441 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+318. Linha 16 | pietro.sa@egis-group.com | Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+319. Linha 16 | pietro.sa@egis-group.com | Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+320. Linha 16 | pietro.sa@egis-group.com | Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+321. Linha 16 | pietro.sa@egis-group.com | Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+322. Linha 16 | pietro.sa@egis-group.com | Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+323. Linha 16 | pietro.sa@egis-group.com | Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+324. Linha 16 | pietro.sa@egis-group.com | Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+325. Linha 16 | pietro.sa@egis-group.com | Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+326. Linha 16 | pietro.sa@egis-group.com | Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+327. Linha 16 | pietro.sa@egis-group.com | Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+328. Linha 16 | pietro.sa@egis-group.com | Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+329. Linha 16 | pietro.sa@egis-group.com | Dispositivo 9�Ano - km 444+122 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+330. Linha 16 | pietro.sa@egis-group.com | Pontos de �nibus 3� e 4� Ano - BR-153 | sem_alteracao
+     Role: Team Member [enterprise]
+331. Linha 17 | larissa.macedo@egis-group.com | Acesso 7� Ano - km 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+332. Linha 17 | larissa.macedo@egis-group.com | Acesso 7� Ano - km 141+870 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+333. Linha 17 | larissa.macedo@egis-group.com | Acesso 7� Ano - km 91+280 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+334. Linha 17 | larissa.macedo@egis-group.com | Acesso 8� Ano - km 31+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+335. Linha 17 | larissa.macedo@egis-group.com | Acesso 8� Ano - km 72+48 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+336. Linha 17 | larissa.macedo@egis-group.com | Acesso km 435+000 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+337. Linha 17 | larissa.macedo@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO | sem_alteracao
+     Role: Team Member [enterprise]
+338. Linha 17 | larissa.macedo@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+339. Linha 17 | larissa.macedo@egis-group.com | Al�as Viadutos - km 432+441 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+340. Linha 17 | larissa.macedo@egis-group.com | Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+341. Linha 17 | larissa.macedo@egis-group.com | Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+342. Linha 17 | larissa.macedo@egis-group.com | Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+343. Linha 17 | larissa.macedo@egis-group.com | Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+344. Linha 17 | larissa.macedo@egis-group.com | Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+345. Linha 17 | larissa.macedo@egis-group.com | Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+346. Linha 17 | larissa.macedo@egis-group.com | Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+347. Linha 17 | larissa.macedo@egis-group.com | Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+348. Linha 17 | larissa.macedo@egis-group.com | Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+349. Linha 17 | larissa.macedo@egis-group.com | Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+350. Linha 17 | larissa.macedo@egis-group.com | Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+351. Linha 17 | larissa.macedo@egis-group.com | Dispositivo 9�Ano - km 444+122 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+352. Linha 17 | larissa.macedo@egis-group.com | Pontos de �nibus 3� e 4� Ano - BR-153 | sem_alteracao
+     Role: Team Member [enterprise]
+353. Linha 18 | renata.saqueti@egis-group.com | Acesso 7� Ano - km 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+354. Linha 18 | renata.saqueti@egis-group.com | Acesso 7� Ano - km 141+870 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+355. Linha 18 | renata.saqueti@egis-group.com | Acesso 7� Ano - km 91+280 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+356. Linha 18 | renata.saqueti@egis-group.com | Acesso 8� Ano - km 31+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+357. Linha 18 | renata.saqueti@egis-group.com | Acesso 8� Ano - km 72+48 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+358. Linha 18 | renata.saqueti@egis-group.com | Acesso km 435+000 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+359. Linha 18 | renata.saqueti@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO | sem_alteracao
+     Role: Team Member [enterprise]
+360. Linha 18 | renata.saqueti@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+361. Linha 18 | renata.saqueti@egis-group.com | Al�as Viadutos - km 432+441 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+362. Linha 18 | renata.saqueti@egis-group.com | Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+363. Linha 18 | renata.saqueti@egis-group.com | Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+364. Linha 18 | renata.saqueti@egis-group.com | Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+365. Linha 18 | renata.saqueti@egis-group.com | Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+366. Linha 18 | renata.saqueti@egis-group.com | Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+367. Linha 18 | renata.saqueti@egis-group.com | Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+368. Linha 18 | renata.saqueti@egis-group.com | Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+369. Linha 18 | renata.saqueti@egis-group.com | Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+370. Linha 18 | renata.saqueti@egis-group.com | Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+371. Linha 18 | renata.saqueti@egis-group.com | Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+372. Linha 18 | renata.saqueti@egis-group.com | Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+373. Linha 18 | renata.saqueti@egis-group.com | Dispositivo 9�Ano - km 444+122 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+374. Linha 18 | renata.saqueti@egis-group.com | Pontos de �nibus 3� e 4� Ano - BR-153 | sem_alteracao
+     Role: Team Member [enterprise]
+375. Linha 19 | luciano.moura@egis-group.com | Acesso 7� Ano - km 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+376. Linha 19 | luciano.moura@egis-group.com | Acesso 7� Ano - km 141+870 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+377. Linha 19 | luciano.moura@egis-group.com | Acesso 7� Ano - km 91+280 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+378. Linha 19 | luciano.moura@egis-group.com | Acesso 8� Ano - km 31+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+379. Linha 19 | luciano.moura@egis-group.com | Acesso 8� Ano - km 72+48 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+380. Linha 19 | luciano.moura@egis-group.com | Acesso km 435+000 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+381. Linha 19 | luciano.moura@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO | sem_alteracao
+     Role: Team Member [enterprise]
+382. Linha 19 | luciano.moura@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+383. Linha 19 | luciano.moura@egis-group.com | Al�as Viadutos - km 432+441 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+384. Linha 19 | luciano.moura@egis-group.com | Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+385. Linha 19 | luciano.moura@egis-group.com | Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+386. Linha 19 | luciano.moura@egis-group.com | Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+387. Linha 19 | luciano.moura@egis-group.com | Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+388. Linha 19 | luciano.moura@egis-group.com | Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+389. Linha 19 | luciano.moura@egis-group.com | Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+390. Linha 19 | luciano.moura@egis-group.com | Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+391. Linha 19 | luciano.moura@egis-group.com | Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+392. Linha 19 | luciano.moura@egis-group.com | Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+393. Linha 19 | luciano.moura@egis-group.com | Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+394. Linha 19 | luciano.moura@egis-group.com | Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+395. Linha 19 | luciano.moura@egis-group.com | Dispositivo 9�Ano - km 444+122 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+396. Linha 19 | luciano.moura@egis-group.com | Pontos de �nibus 3� e 4� Ano - BR-153 | sem_alteracao
+     Role: Team Member [enterprise]
+397. Linha 20 | jose.martins@egis-group.com | Acesso 7� Ano - km 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+398. Linha 20 | jose.martins@egis-group.com | Acesso 7� Ano - km 141+870 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+399. Linha 20 | jose.martins@egis-group.com | Acesso 7� Ano - km 91+280 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+400. Linha 20 | jose.martins@egis-group.com | Acesso 8� Ano - km 31+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+401. Linha 20 | jose.martins@egis-group.com | Acesso 8� Ano - km 72+48 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+402. Linha 20 | jose.martins@egis-group.com | Acesso km 435+000 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+403. Linha 20 | jose.martins@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO | sem_alteracao
+     Role: Team Member [enterprise]
+404. Linha 20 | jose.martins@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+405. Linha 20 | jose.martins@egis-group.com | Al�as Viadutos - km 432+441 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+406. Linha 20 | jose.martins@egis-group.com | Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+407. Linha 20 | jose.martins@egis-group.com | Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+408. Linha 20 | jose.martins@egis-group.com | Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+409. Linha 20 | jose.martins@egis-group.com | Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+410. Linha 20 | jose.martins@egis-group.com | Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+411. Linha 20 | jose.martins@egis-group.com | Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+412. Linha 20 | jose.martins@egis-group.com | Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+413. Linha 20 | jose.martins@egis-group.com | Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+414. Linha 20 | jose.martins@egis-group.com | Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+415. Linha 20 | jose.martins@egis-group.com | Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+416. Linha 20 | jose.martins@egis-group.com | Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+417. Linha 20 | jose.martins@egis-group.com | Dispositivo 9�Ano - km 444+122 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+418. Linha 20 | jose.martins@egis-group.com | Pontos de �nibus 3� e 4� Ano - BR-153 | sem_alteracao
+     Role: Team Member [enterprise]
+419. Linha 21 | beatriz.goncalves@egis-group.com | Acesso 7� Ano - km 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+420. Linha 21 | beatriz.goncalves@egis-group.com | Acesso 7� Ano - km 141+870 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+421. Linha 21 | beatriz.goncalves@egis-group.com | Acesso 7� Ano - km 91+280 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+422. Linha 21 | beatriz.goncalves@egis-group.com | Acesso 8� Ano - km 31+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+423. Linha 21 | beatriz.goncalves@egis-group.com | Acesso 8� Ano - km 72+48 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+424. Linha 21 | beatriz.goncalves@egis-group.com | Acesso km 435+000 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+425. Linha 21 | beatriz.goncalves@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO | sem_alteracao
+     Role: Team Member [enterprise]
+426. Linha 21 | beatriz.goncalves@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+427. Linha 21 | beatriz.goncalves@egis-group.com | Al�as Viadutos - km 432+441 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+428. Linha 21 | beatriz.goncalves@egis-group.com | Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+429. Linha 21 | beatriz.goncalves@egis-group.com | Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+430. Linha 21 | beatriz.goncalves@egis-group.com | Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+431. Linha 21 | beatriz.goncalves@egis-group.com | Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+432. Linha 21 | beatriz.goncalves@egis-group.com | Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+433. Linha 21 | beatriz.goncalves@egis-group.com | Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+434. Linha 21 | beatriz.goncalves@egis-group.com | Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+435. Linha 21 | beatriz.goncalves@egis-group.com | Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+436. Linha 21 | beatriz.goncalves@egis-group.com | Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+437. Linha 21 | beatriz.goncalves@egis-group.com | Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+438. Linha 21 | beatriz.goncalves@egis-group.com | Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+439. Linha 21 | beatriz.goncalves@egis-group.com | Dispositivo 9�Ano - km 444+122 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+440. Linha 21 | beatriz.goncalves@egis-group.com | Pontos de �nibus 3� e 4� Ano - BR-153 | sem_alteracao
+     Role: Team Member [enterprise]
+441. Linha 22 | raissa.farias@egis-group.com | Acesso 7� Ano - km 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+442. Linha 22 | raissa.farias@egis-group.com | Acesso 7� Ano - km 141+870 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+443. Linha 22 | raissa.farias@egis-group.com | Acesso 7� Ano - km 91+280 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+444. Linha 22 | raissa.farias@egis-group.com | Acesso 8� Ano - km 31+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+445. Linha 22 | raissa.farias@egis-group.com | Acesso 8� Ano - km 72+48 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+446. Linha 22 | raissa.farias@egis-group.com | Acesso km 435+000 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+447. Linha 22 | raissa.farias@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO | sem_alteracao
+     Role: Team Member [enterprise]
+448. Linha 22 | raissa.farias@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+449. Linha 22 | raissa.farias@egis-group.com | Al�as Viadutos - km 432+441 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+450. Linha 22 | raissa.farias@egis-group.com | Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+451. Linha 22 | raissa.farias@egis-group.com | Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+452. Linha 22 | raissa.farias@egis-group.com | Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+453. Linha 22 | raissa.farias@egis-group.com | Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+454. Linha 22 | raissa.farias@egis-group.com | Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+455. Linha 22 | raissa.farias@egis-group.com | Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+456. Linha 22 | raissa.farias@egis-group.com | Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+457. Linha 22 | raissa.farias@egis-group.com | Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+458. Linha 22 | raissa.farias@egis-group.com | Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+459. Linha 22 | raissa.farias@egis-group.com | Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+460. Linha 22 | raissa.farias@egis-group.com | Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+461. Linha 22 | raissa.farias@egis-group.com | Dispositivo 9�Ano - km 444+122 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+462. Linha 22 | raissa.farias@egis-group.com | Pontos de �nibus 3� e 4� Ano - BR-153 | sem_alteracao
+     Role: Team Member [enterprise]
+463. Linha 23 | ellen.costa@egis-group.com | Acesso 7� Ano - km 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+464. Linha 23 | ellen.costa@egis-group.com | Acesso 7� Ano - km 141+870 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+465. Linha 23 | ellen.costa@egis-group.com | Acesso 7� Ano - km 91+280 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+466. Linha 23 | ellen.costa@egis-group.com | Acesso 8� Ano - km 31+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+467. Linha 23 | ellen.costa@egis-group.com | Acesso 8� Ano - km 72+48 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+468. Linha 23 | ellen.costa@egis-group.com | Acesso km 435+000 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+469. Linha 23 | ellen.costa@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO | sem_alteracao
+     Role: Team Member [enterprise]
+470. Linha 23 | ellen.costa@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+471. Linha 23 | ellen.costa@egis-group.com | Al�as Viadutos - km 432+441 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+472. Linha 23 | ellen.costa@egis-group.com | Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+473. Linha 23 | ellen.costa@egis-group.com | Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+474. Linha 23 | ellen.costa@egis-group.com | Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+475. Linha 23 | ellen.costa@egis-group.com | Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+476. Linha 23 | ellen.costa@egis-group.com | Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+477. Linha 23 | ellen.costa@egis-group.com | Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+478. Linha 23 | ellen.costa@egis-group.com | Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+479. Linha 23 | ellen.costa@egis-group.com | Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+480. Linha 23 | ellen.costa@egis-group.com | Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+481. Linha 23 | ellen.costa@egis-group.com | Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+482. Linha 23 | ellen.costa@egis-group.com | Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+483. Linha 23 | ellen.costa@egis-group.com | Dispositivo 9�Ano - km 444+122 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+484. Linha 23 | ellen.costa@egis-group.com | Pontos de �nibus 3� e 4� Ano - BR-153 | sem_alteracao
+     Role: Team Member [enterprise]
+485. Linha 24 | ronaldo.silva@egis-group.com | Acesso 7� Ano - km 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+486. Linha 24 | ronaldo.silva@egis-group.com | Acesso 7� Ano - km 141+870 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+487. Linha 24 | ronaldo.silva@egis-group.com | Acesso 7� Ano - km 91+280 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+488. Linha 24 | ronaldo.silva@egis-group.com | Acesso 8� Ano - km 31+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+489. Linha 24 | ronaldo.silva@egis-group.com | Acesso 8� Ano - km 72+48 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+490. Linha 24 | ronaldo.silva@egis-group.com | Acesso km 435+000 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+491. Linha 24 | ronaldo.silva@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO | sem_alteracao
+     Role: Team Member [enterprise]
+492. Linha 24 | ronaldo.silva@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+493. Linha 24 | ronaldo.silva@egis-group.com | Al�as Viadutos - km 432+441 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+494. Linha 24 | ronaldo.silva@egis-group.com | Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+495. Linha 24 | ronaldo.silva@egis-group.com | Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+496. Linha 24 | ronaldo.silva@egis-group.com | Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+497. Linha 24 | ronaldo.silva@egis-group.com | Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+498. Linha 24 | ronaldo.silva@egis-group.com | Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+499. Linha 24 | ronaldo.silva@egis-group.com | Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+500. Linha 24 | ronaldo.silva@egis-group.com | Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+501. Linha 24 | ronaldo.silva@egis-group.com | Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+502. Linha 24 | ronaldo.silva@egis-group.com | Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+503. Linha 24 | ronaldo.silva@egis-group.com | Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+504. Linha 24 | ronaldo.silva@egis-group.com | Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+505. Linha 24 | ronaldo.silva@egis-group.com | Dispositivo 9�Ano - km 444+122 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+506. Linha 24 | ronaldo.silva@egis-group.com | Pontos de �nibus 3� e 4� Ano - BR-153 | sem_alteracao
+     Role: Team Member [enterprise]
+507. Linha 25 | celio.araujo@egis-group.com | Acesso 7� Ano - km 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+508. Linha 25 | celio.araujo@egis-group.com | Acesso 7� Ano - km 141+870 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+509. Linha 25 | celio.araujo@egis-group.com | Acesso 7� Ano - km 91+280 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+510. Linha 25 | celio.araujo@egis-group.com | Acesso 8� Ano - km 31+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+511. Linha 25 | celio.araujo@egis-group.com | Acesso 8� Ano - km 72+48 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+512. Linha 25 | celio.araujo@egis-group.com | Acesso km 435+000 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+513. Linha 25 | celio.araujo@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO | sem_alteracao
+     Role: Team Member [enterprise]
+514. Linha 25 | celio.araujo@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+515. Linha 25 | celio.araujo@egis-group.com | Al�as Viadutos - km 432+441 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+516. Linha 25 | celio.araujo@egis-group.com | Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+517. Linha 25 | celio.araujo@egis-group.com | Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+518. Linha 25 | celio.araujo@egis-group.com | Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+519. Linha 25 | celio.araujo@egis-group.com | Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+520. Linha 25 | celio.araujo@egis-group.com | Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+521. Linha 25 | celio.araujo@egis-group.com | Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+522. Linha 25 | celio.araujo@egis-group.com | Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+523. Linha 25 | celio.araujo@egis-group.com | Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+524. Linha 25 | celio.araujo@egis-group.com | Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+525. Linha 25 | celio.araujo@egis-group.com | Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+526. Linha 25 | celio.araujo@egis-group.com | Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+527. Linha 25 | celio.araujo@egis-group.com | Dispositivo 9�Ano - km 444+122 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+528. Linha 25 | celio.araujo@egis-group.com | Pontos de �nibus 3� e 4� Ano - BR-153 | sem_alteracao
+     Role: Team Member [enterprise]
+529. Linha 26 | hermes.almeida@egis-group.com | Acesso 7� Ano - km 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+530. Linha 26 | hermes.almeida@egis-group.com | Acesso 7� Ano - km 141+870 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+531. Linha 26 | hermes.almeida@egis-group.com | Acesso 7� Ano - km 91+280 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+532. Linha 26 | hermes.almeida@egis-group.com | Acesso 8� Ano - km 31+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+533. Linha 26 | hermes.almeida@egis-group.com | Acesso 8� Ano - km 72+48 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+534. Linha 26 | hermes.almeida@egis-group.com | Acesso km 435+000 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+535. Linha 26 | hermes.almeida@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO | sem_alteracao
+     Role: Team Member [enterprise]
+536. Linha 26 | hermes.almeida@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+537. Linha 26 | hermes.almeida@egis-group.com | Al�as Viadutos - km 432+441 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+538. Linha 26 | hermes.almeida@egis-group.com | Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+539. Linha 26 | hermes.almeida@egis-group.com | Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+540. Linha 26 | hermes.almeida@egis-group.com | Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+541. Linha 26 | hermes.almeida@egis-group.com | Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+542. Linha 26 | hermes.almeida@egis-group.com | Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+543. Linha 26 | hermes.almeida@egis-group.com | Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+544. Linha 26 | hermes.almeida@egis-group.com | Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+545. Linha 26 | hermes.almeida@egis-group.com | Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+546. Linha 26 | hermes.almeida@egis-group.com | Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+547. Linha 26 | hermes.almeida@egis-group.com | Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+548. Linha 26 | hermes.almeida@egis-group.com | Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+549. Linha 26 | hermes.almeida@egis-group.com | Dispositivo 9�Ano - km 444+122 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+550. Linha 26 | hermes.almeida@egis-group.com | Pontos de �nibus 3� e 4� Ano - BR-153 | sem_alteracao
+     Role: Team Member [enterprise]
+551. Linha 27 | ana.barbosa@egis-group.com | Acesso 7� Ano - km 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+552. Linha 27 | ana.barbosa@egis-group.com | Acesso 7� Ano - km 141+870 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+553. Linha 27 | ana.barbosa@egis-group.com | Acesso 7� Ano - km 91+280 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+554. Linha 27 | ana.barbosa@egis-group.com | Acesso 8� Ano - km 31+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+555. Linha 27 | ana.barbosa@egis-group.com | Acesso 8� Ano - km 72+48 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+556. Linha 27 | ana.barbosa@egis-group.com | Acesso km 435+000 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+557. Linha 27 | ana.barbosa@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO | sem_alteracao
+     Role: Team Member [enterprise]
+558. Linha 27 | ana.barbosa@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+559. Linha 27 | ana.barbosa@egis-group.com | Al�as Viadutos - km 432+441 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+560. Linha 27 | ana.barbosa@egis-group.com | Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+561. Linha 27 | ana.barbosa@egis-group.com | Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+562. Linha 27 | ana.barbosa@egis-group.com | Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+563. Linha 27 | ana.barbosa@egis-group.com | Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+564. Linha 27 | ana.barbosa@egis-group.com | Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+565. Linha 27 | ana.barbosa@egis-group.com | Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+566. Linha 27 | ana.barbosa@egis-group.com | Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+567. Linha 27 | ana.barbosa@egis-group.com | Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+568. Linha 27 | ana.barbosa@egis-group.com | Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+569. Linha 27 | ana.barbosa@egis-group.com | Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+570. Linha 27 | ana.barbosa@egis-group.com | Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+571. Linha 27 | ana.barbosa@egis-group.com | Dispositivo 9�Ano - km 444+122 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+572. Linha 27 | ana.barbosa@egis-group.com | Pontos de �nibus 3� e 4� Ano - BR-153 | sem_alteracao
+     Role: Team Member [enterprise]
+573. Linha 28 | anne.oliveira@egis-group.com | Acesso 7� Ano - km 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+574. Linha 28 | anne.oliveira@egis-group.com | Acesso 7� Ano - km 141+870 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+575. Linha 28 | anne.oliveira@egis-group.com | Acesso 7� Ano - km 91+280 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+576. Linha 28 | anne.oliveira@egis-group.com | Acesso 8� Ano - km 31+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+577. Linha 28 | anne.oliveira@egis-group.com | Acesso 8� Ano - km 72+48 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+578. Linha 28 | anne.oliveira@egis-group.com | Acesso km 435+000 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+579. Linha 28 | anne.oliveira@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO | sem_alteracao
+     Role: Team Member [enterprise]
+580. Linha 28 | anne.oliveira@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+581. Linha 28 | anne.oliveira@egis-group.com | Al�as Viadutos - km 432+441 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+582. Linha 28 | anne.oliveira@egis-group.com | Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+583. Linha 28 | anne.oliveira@egis-group.com | Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+584. Linha 28 | anne.oliveira@egis-group.com | Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+585. Linha 28 | anne.oliveira@egis-group.com | Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+586. Linha 28 | anne.oliveira@egis-group.com | Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+587. Linha 28 | anne.oliveira@egis-group.com | Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+588. Linha 28 | anne.oliveira@egis-group.com | Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+589. Linha 28 | anne.oliveira@egis-group.com | Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+590. Linha 28 | anne.oliveira@egis-group.com | Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+591. Linha 28 | anne.oliveira@egis-group.com | Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+592. Linha 28 | anne.oliveira@egis-group.com | Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+593. Linha 28 | anne.oliveira@egis-group.com | Dispositivo 9�Ano - km 444+122 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+594. Linha 28 | anne.oliveira@egis-group.com | Pontos de �nibus 3� e 4� Ano - BR-153 | sem_alteracao
+     Role: Team Member [enterprise]
+595. Linha 29 | lucas.camargo@egis-group.com | Acesso 7� Ano - km 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+596. Linha 29 | lucas.camargo@egis-group.com | Acesso 7� Ano - km 141+870 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+597. Linha 29 | lucas.camargo@egis-group.com | Acesso 7� Ano - km 91+280 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+598. Linha 29 | lucas.camargo@egis-group.com | Acesso 8� Ano - km 31+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+599. Linha 29 | lucas.camargo@egis-group.com | Acesso 8� Ano - km 72+48 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+600. Linha 29 | lucas.camargo@egis-group.com | Acesso km 435+000 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+601. Linha 29 | lucas.camargo@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR080/GO | sem_alteracao
+     Role: Team Member [enterprise]
+602. Linha 29 | lucas.camargo@egis-group.com | Adequa��o Largura de Faixa Existente 8� Ano - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+603. Linha 29 | lucas.camargo@egis-group.com | Al�as Viadutos - km 432+441 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+604. Linha 29 | lucas.camargo@egis-group.com | Amplia��es 10� Ano SH 10 - km 71+08 - 107+120 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+605. Linha 29 | lucas.camargo@egis-group.com | Amplia��es 10� Ano SH 12 -  km 124+420 - 141+850 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+606. Linha 29 | lucas.camargo@egis-group.com | Amplia��es 3� Ano SH 1* - km 622+700 - 624+300 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+607. Linha 29 | lucas.camargo@egis-group.com | Amplia��es 3� Ano SH 1,5 - km 663+000 - 671+190 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+608. Linha 29 | lucas.camargo@egis-group.com | Amplia��es 3� Ano SH 2* - km 671+190 - 677+000 - BR153/TO | sem_alteracao
+     Role: Team Member [enterprise]
+609. Linha 29 | lucas.camargo@egis-group.com | Amplia��es 7� Ano SH 11 - km 107+120 - 124+420 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+610. Linha 29 | lucas.camargo@egis-group.com | Amplia��es 7� Ano SH 24 a 26 - km 357+292 - 377+170 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+611. Linha 29 | lucas.camargo@egis-group.com | Amplia��es 8� Ano SH 27 e 28 - km 377+170 - 420+530 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+612. Linha 29 | lucas.camargo@egis-group.com | Amplia��es 8� Ano SH 29 a 30 - km 429+725 - 438+50 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+613. Linha 29 | lucas.camargo@egis-group.com | Amplia��es 9� Ano SH 30 - km 435+50 - 444+132 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+614. Linha 29 | lucas.camargo@egis-group.com | Amplia��es 9� Ano SH 42 - km 395+890 - 409+05 - BR414/GO | sem_alteracao
+     Role: Team Member [enterprise]
+615. Linha 29 | lucas.camargo@egis-group.com | Dispositivo 9�Ano - km 444+122 - BR153/GO | sem_alteracao
+     Role: Team Member [enterprise]
+616. Linha 29 | lucas.camargo@egis-group.com | Pontos de �nibus 3� e 4� Ano - BR-153 | sem_alteracao
+     Role: Team Member [enterprise]
+
+[INFO] Nenhuma operacao aplicavel foi encontrada para executar no RBAC.
+
+[OK] Execucao cancelada pelo usuario. Nenhuma alteracao foi aplicada.
+
+Salvando log...
+[OK] Log: C:\Users\peter\OneDrive - Grupo Ecorodovias\�rea de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\PWDM_Gerenciamento_Participantes_V2\Logs\pwdm_gerenciamento_20260731_152636.json
+[OK] Resumo CSV: C:\Users\peter\OneDrive - Grupo Ecorodovias\�rea de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\PWDM_Gerenciamento_Participantes_V2\Logs\pwdm_resumo_20260731_152636.csv
+
+Finalizado.
+Pressione ENTER para fechar o navegador...> [CONTINUAR]
+[INFO] JSON temporario removido: C:\Users\peter\OneDrive - Grupo Ecorodovias\�rea de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\PWDM_Gerenciamento_Participantes_V2\Logs\pwdm_projetos_execucao_connected_20260731_152351.json
+Processo finalizado com código 0.

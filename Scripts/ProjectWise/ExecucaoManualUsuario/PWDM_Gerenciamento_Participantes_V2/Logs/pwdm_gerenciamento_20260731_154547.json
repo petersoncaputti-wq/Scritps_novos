@@ -1,0 +1,619 @@
+{
+  "timestamp": "2026-07-31T15:45:47",
+  "operacoes": [
+    {
+      "email": "we***@egis-group.com",
+      "nomeProjeto": "Adequação Largura de Faixa Existente 8° Ano - BR080/GO",
+      "origemProjectWise": {
+        "nome": "Adequação Largura de Faixa Existente 8° Ano - BR080/GO",
+        "id": "210381",
+        "guid": "b1a964bf-8654-43ed-812d-cfb78f6ab2d1",
+        "connectedProjectId": "85c7b5a0-066b-45d7-9434-45d5946103f2",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "85c7b5a0-066b-45d7-9434-45d5946103f2",
+      "projectId": "85c7b5a0-066b-45d7-9434-45d5946103f2",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Wesley ANDERSEN MEZINE",
+        "email": "we***@egis-group.com",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "1f130ae4-d6bd-45bd-9fcc-cbef7dd63f06",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "le***@egis-group.com",
+      "nomeProjeto": "Adequação Largura de Faixa Existente 8° Ano - BR080/GO",
+      "origemProjectWise": {
+        "nome": "Adequação Largura de Faixa Existente 8° Ano - BR080/GO",
+        "id": "210381",
+        "guid": "b1a964bf-8654-43ed-812d-cfb78f6ab2d1",
+        "connectedProjectId": "85c7b5a0-066b-45d7-9434-45d5946103f2",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "85c7b5a0-066b-45d7-9434-45d5946103f2",
+      "projectId": "85c7b5a0-066b-45d7-9434-45d5946103f2",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Leonardo COELHO BOTELHO",
+        "email": "le***@egis-group.com",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "102faef1-d273-4c5f-b7e6-ef1dba42468c",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "br***@egis-group.com",
+      "nomeProjeto": "Adequação Largura de Faixa Existente 8° Ano - BR080/GO",
+      "origemProjectWise": {
+        "nome": "Adequação Largura de Faixa Existente 8° Ano - BR080/GO",
+        "id": "210381",
+        "guid": "b1a964bf-8654-43ed-812d-cfb78f6ab2d1",
+        "connectedProjectId": "85c7b5a0-066b-45d7-9434-45d5946103f2",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "85c7b5a0-066b-45d7-9434-45d5946103f2",
+      "projectId": "85c7b5a0-066b-45d7-9434-45d5946103f2",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Bruna OLIVEIRA SPARANO ROCHA",
+        "email": "br***@egis-group.com",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "3945f90a-6ee6-4c9c-871b-b3a5feffe783",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "we***@egis-group.com",
+      "nomeProjeto": "Ampliações 3° Ano SH 2* - km 671+190 - 677+000 - BR153/TO",
+      "origemProjectWise": {
+        "nome": "Ampliações 3° Ano SH 2* - km 671+190 - 677+000 - BR153/TO",
+        "id": "100581",
+        "guid": "b03069ef-976a-4eec-926a-3b4a2dc69539",
+        "connectedProjectId": "310d5d46-0966-4077-b7bd-eeddc8ecae4a",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "310d5d46-0966-4077-b7bd-eeddc8ecae4a",
+      "projectId": "310d5d46-0966-4077-b7bd-eeddc8ecae4a",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Wesley ANDERSEN MEZINE",
+        "email": "we***@egis-group.com",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "7ed70908-6c36-4876-8b4c-0354d2da2206",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "le***@egis-group.com",
+      "nomeProjeto": "Ampliações 3° Ano SH 2* - km 671+190 - 677+000 - BR153/TO",
+      "origemProjectWise": {
+        "nome": "Ampliações 3° Ano SH 2* - km 671+190 - 677+000 - BR153/TO",
+        "id": "100581",
+        "guid": "b03069ef-976a-4eec-926a-3b4a2dc69539",
+        "connectedProjectId": "310d5d46-0966-4077-b7bd-eeddc8ecae4a",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "310d5d46-0966-4077-b7bd-eeddc8ecae4a",
+      "projectId": "310d5d46-0966-4077-b7bd-eeddc8ecae4a",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Leonardo COELHO BOTELHO",
+        "email": "le***@egis-group.com",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "b49c8eb1-10ab-4308-8e26-7fd94d550849",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "br***@egis-group.com",
+      "nomeProjeto": "Ampliações 3° Ano SH 2* - km 671+190 - 677+000 - BR153/TO",
+      "origemProjectWise": {
+        "nome": "Ampliações 3° Ano SH 2* - km 671+190 - 677+000 - BR153/TO",
+        "id": "100581",
+        "guid": "b03069ef-976a-4eec-926a-3b4a2dc69539",
+        "connectedProjectId": "310d5d46-0966-4077-b7bd-eeddc8ecae4a",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "310d5d46-0966-4077-b7bd-eeddc8ecae4a",
+      "projectId": "310d5d46-0966-4077-b7bd-eeddc8ecae4a",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Bruna OLIVEIRA SPARANO ROCHA",
+        "email": "br***@egis-group.com",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "46360623-3a2a-4914-9788-7856c89f78e2",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "we***@egis-group.com",
+      "nomeProjeto": "Dispositivo 9°Ano - km 444+122 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Dispositivo 9°Ano - km 444+122 - BR153/GO",
+        "id": "54554",
+        "guid": "32738951-565d-4347-8be6-b321beeded7b",
+        "connectedProjectId": "444d077b-51f0-45f4-9c33-db7463330142",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "444d077b-51f0-45f4-9c33-db7463330142",
+      "projectId": "444d077b-51f0-45f4-9c33-db7463330142",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Wesley ANDERSEN MEZINE",
+        "email": "we***@egis-group.com",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "58106071-e36c-4efc-a744-5196ec8ff7d6",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "le***@egis-group.com",
+      "nomeProjeto": "Dispositivo 9°Ano - km 444+122 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Dispositivo 9°Ano - km 444+122 - BR153/GO",
+        "id": "54554",
+        "guid": "32738951-565d-4347-8be6-b321beeded7b",
+        "connectedProjectId": "444d077b-51f0-45f4-9c33-db7463330142",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "444d077b-51f0-45f4-9c33-db7463330142",
+      "projectId": "444d077b-51f0-45f4-9c33-db7463330142",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Leonardo COELHO BOTELHO",
+        "email": "le***@egis-group.com",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "62f8fea6-f5da-4515-aea0-262b9e7df38e",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    },
+    {
+      "email": "br***@egis-group.com",
+      "nomeProjeto": "Dispositivo 9°Ano - km 444+122 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Dispositivo 9°Ano - km 444+122 - BR153/GO",
+        "id": "54554",
+        "guid": "32738951-565d-4347-8be6-b321beeded7b",
+        "connectedProjectId": "444d077b-51f0-45f4-9c33-db7463330142",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "connectSpaceId": "444d077b-51f0-45f4-9c33-db7463330142",
+      "projectId": "444d077b-51f0-45f4-9c33-db7463330142",
+      "acaoSolicitada": "incluir",
+      "acaoEfetiva": "atualizar_participante",
+      "descricaoAcao": "ATUALIZAR participante ja existente",
+      "status": "participante",
+      "membro": {
+        "fullName": "Bruna OLIVEIRA SPARANO ROCHA",
+        "email": "br***@egis-group.com",
+        "roleLabel": "Membro da equipe",
+        "isAdmin": false,
+        "isPWSynced": false,
+        "isPWExplicitlyAdded": false,
+        "canView": true,
+        "canReviewAnswer": false,
+        "canReceive": true,
+        "canIssue": true,
+        "memberOf": [],
+        "id": "3e868794-55f7-4012-b81a-96f8df074e13",
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "permissoesUsuarioAtual": {},
+      "titulo": "Membro da equipe",
+      "permissoes": {
+        "canView": true,
+        "canReceive": true,
+        "canIssue": true,
+        "canReviewAnswer": false,
+        "isAdmin": false
+      }
+    }
+  ],
+  "resultados": [
+    {
+      "projectId": "85c7b5a0-066b-45d7-9434-45d5946103f2",
+      "nomeProjeto": "Adequação Largura de Faixa Existente 8° Ano - BR080/GO",
+      "origemProjectWise": {
+        "nome": "Adequação Largura de Faixa Existente 8° Ano - BR080/GO",
+        "id": "210381",
+        "guid": "b1a964bf-8654-43ed-812d-cfb78f6ab2d1",
+        "connectedProjectId": "85c7b5a0-066b-45d7-9434-45d5946103f2",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "we***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Participante ja estava com as permissoes e o titulo desejados."
+      }
+    },
+    {
+      "projectId": "85c7b5a0-066b-45d7-9434-45d5946103f2",
+      "nomeProjeto": "Adequação Largura de Faixa Existente 8° Ano - BR080/GO",
+      "origemProjectWise": {
+        "nome": "Adequação Largura de Faixa Existente 8° Ano - BR080/GO",
+        "id": "210381",
+        "guid": "b1a964bf-8654-43ed-812d-cfb78f6ab2d1",
+        "connectedProjectId": "85c7b5a0-066b-45d7-9434-45d5946103f2",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "le***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Participante ja estava com as permissoes e o titulo desejados."
+      }
+    },
+    {
+      "projectId": "85c7b5a0-066b-45d7-9434-45d5946103f2",
+      "nomeProjeto": "Adequação Largura de Faixa Existente 8° Ano - BR080/GO",
+      "origemProjectWise": {
+        "nome": "Adequação Largura de Faixa Existente 8° Ano - BR080/GO",
+        "id": "210381",
+        "guid": "b1a964bf-8654-43ed-812d-cfb78f6ab2d1",
+        "connectedProjectId": "85c7b5a0-066b-45d7-9434-45d5946103f2",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "br***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Participante ja estava com as permissoes e o titulo desejados."
+      }
+    },
+    {
+      "projectId": "310d5d46-0966-4077-b7bd-eeddc8ecae4a",
+      "nomeProjeto": "Ampliações 3° Ano SH 2* - km 671+190 - 677+000 - BR153/TO",
+      "origemProjectWise": {
+        "nome": "Ampliações 3° Ano SH 2* - km 671+190 - 677+000 - BR153/TO",
+        "id": "100581",
+        "guid": "b03069ef-976a-4eec-926a-3b4a2dc69539",
+        "connectedProjectId": "310d5d46-0966-4077-b7bd-eeddc8ecae4a",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "we***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Participante ja estava com as permissoes e o titulo desejados."
+      }
+    },
+    {
+      "projectId": "310d5d46-0966-4077-b7bd-eeddc8ecae4a",
+      "nomeProjeto": "Ampliações 3° Ano SH 2* - km 671+190 - 677+000 - BR153/TO",
+      "origemProjectWise": {
+        "nome": "Ampliações 3° Ano SH 2* - km 671+190 - 677+000 - BR153/TO",
+        "id": "100581",
+        "guid": "b03069ef-976a-4eec-926a-3b4a2dc69539",
+        "connectedProjectId": "310d5d46-0966-4077-b7bd-eeddc8ecae4a",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "le***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Participante ja estava com as permissoes e o titulo desejados."
+      }
+    },
+    {
+      "projectId": "310d5d46-0966-4077-b7bd-eeddc8ecae4a",
+      "nomeProjeto": "Ampliações 3° Ano SH 2* - km 671+190 - 677+000 - BR153/TO",
+      "origemProjectWise": {
+        "nome": "Ampliações 3° Ano SH 2* - km 671+190 - 677+000 - BR153/TO",
+        "id": "100581",
+        "guid": "b03069ef-976a-4eec-926a-3b4a2dc69539",
+        "connectedProjectId": "310d5d46-0966-4077-b7bd-eeddc8ecae4a",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "br***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Participante ja estava com as permissoes e o titulo desejados."
+      }
+    },
+    {
+      "projectId": "444d077b-51f0-45f4-9c33-db7463330142",
+      "nomeProjeto": "Dispositivo 9°Ano - km 444+122 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Dispositivo 9°Ano - km 444+122 - BR153/GO",
+        "id": "54554",
+        "guid": "32738951-565d-4347-8be6-b321beeded7b",
+        "connectedProjectId": "444d077b-51f0-45f4-9c33-db7463330142",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "we***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Participante ja estava com as permissoes e o titulo desejados."
+      }
+    },
+    {
+      "projectId": "444d077b-51f0-45f4-9c33-db7463330142",
+      "nomeProjeto": "Dispositivo 9°Ano - km 444+122 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Dispositivo 9°Ano - km 444+122 - BR153/GO",
+        "id": "54554",
+        "guid": "32738951-565d-4347-8be6-b321beeded7b",
+        "connectedProjectId": "444d077b-51f0-45f4-9c33-db7463330142",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "le***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Participante ja estava com as permissoes e o titulo desejados."
+      }
+    },
+    {
+      "projectId": "444d077b-51f0-45f4-9c33-db7463330142",
+      "nomeProjeto": "Dispositivo 9°Ano - km 444+122 - BR153/GO",
+      "origemProjectWise": {
+        "nome": "Dispositivo 9°Ano - km 444+122 - BR153/GO",
+        "id": "54554",
+        "guid": "32738951-565d-4347-8be6-b321beeded7b",
+        "connectedProjectId": "444d077b-51f0-45f4-9c33-db7463330142",
+        "concessao": "Ecovias Araguaia",
+        "projectWiseWebName": "",
+        "projectWiseWebNumber": "",
+        "urlParticipantesPwdm": ""
+      },
+      "criterioCruzamento": "ProjectWise ConnectedProjectId",
+      "email": "br***@egis-group.com",
+      "acao_solicitada": "incluir",
+      "acao_planejada": "atualizar_participante",
+      "situacao_usuario": "participante",
+      "resultado": {
+        "status": "sem_alteracao",
+        "mensagem": "Participante ja estava com as permissoes e o titulo desejados."
+      }
+    }
+  ]
+}
