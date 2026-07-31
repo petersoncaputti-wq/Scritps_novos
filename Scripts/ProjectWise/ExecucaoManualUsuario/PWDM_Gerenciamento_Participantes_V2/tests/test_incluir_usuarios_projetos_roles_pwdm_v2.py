@@ -9,10 +9,15 @@ sys.path.insert(0, str(PASTA_SCRIPT))
 
 from incluir_usuarios_projetos_roles_pwdm_v2 import (  # noqa: E402
     LinhaInclusao,
+    aplicar_operacao_rbac,
+    buscar_convites_rbac,
+    buscar_usuarios_rbac,
     carregar_linhas_inclusao_xlsx,
     extrair_id_usuario,
     extrair_role_ids_usuario,
     extrair_roles_de_membros,
+    localizar_convite_por_email,
+    localizar_usuario_por_email,
     normalizar_role,
     resolver_role,
     resolver_projetos_linha,
@@ -20,7 +25,143 @@ from incluir_usuarios_projetos_roles_pwdm_v2 import (  # noqa: E402
 )
 
 
+class PaginaRbacFake:
+    def __init__(self, respostas):
+        self.respostas = list(respostas)
+        self.chamadas = []
+
+    def wait_for_load_state(self, _state, timeout=None):
+        return None
+
+    def evaluate(self, _script, argumentos):
+        self.chamadas.append(argumentos)
+        return self.respostas.pop(0)
+
+
 class IncluirUsuariosProjetosRolesTests(unittest.TestCase):
+    def test_buscar_usuarios_rbac_percorre_todas_as_paginas(self):
+        pagina = PaginaRbacFake(
+            [
+                {
+                    "ok": True,
+                    "status": 200,
+                    "body": {
+                        "members": [{"email": f"usuario{i}@empresa.com"} for i in range(100)],
+                        "_links": {"next": {"href": "pagina-2"}},
+                    },
+                },
+                {
+                    "ok": True,
+                    "status": 200,
+                    "body": {"members": [{"email": "ultimo@empresa.com"}], "_links": {}},
+                },
+            ]
+        )
+
+        usuarios = buscar_usuarios_rbac(pagina, "itwin-1")
+
+        self.assertEqual(len(usuarios), 101)
+        self.assertIn("$top=100&$skip=0", pagina.chamadas[0]["path"])
+        self.assertIn("$top=100&$skip=100", pagina.chamadas[1]["path"])
+
+    def test_buscar_convites_e_localizar_email_normalizado(self):
+        pagina = PaginaRbacFake(
+            [
+                {
+                    "ok": True,
+                    "status": 200,
+                    "body": {
+                        "invitations": [
+                            {"id": "convite-1", "email": " Usuario@Empresa.COM ", "roles": []}
+                        ],
+                        "_links": {},
+                    },
+                }
+            ]
+        )
+
+        convites = buscar_convites_rbac(pagina, "itwin-1")
+
+        self.assertEqual(localizar_convite_por_email(convites, "usuario@empresa.com")["id"], "convite-1")
+        self.assertIn("/members/invitations?", pagina.chamadas[0]["path"])
+
+    def test_localizar_usuario_normaliza_espacos_e_caixa(self):
+        usuarios = [{"id": "user-1", "email": " Usuario@Empresa.COM "}]
+
+        usuario = localizar_usuario_por_email(usuarios, "usuario@empresa.com")
+
+        self.assertEqual(usuario["id"], "user-1")
+
+    def test_team_member_exists_reconsulta_e_atualiza_role(self):
+        pagina = PaginaRbacFake(
+            [
+                {
+                    "ok": False,
+                    "status": 409,
+                    "body": {"error": {"code": "TeamMemberExists"}},
+                },
+                {
+                    "ok": True,
+                    "status": 200,
+                    "body": {
+                        "members": [
+                            {
+                                "id": "user-1",
+                                "email": "usuario@empresa.com",
+                                "roles": [{"id": "role-antiga"}],
+                            }
+                        ],
+                        "_links": {},
+                    },
+                },
+                {"ok": True, "status": 200, "body": {"member": {"id": "user-1"}}},
+            ]
+        )
+        operacao = {
+            "acaoEfetiva": "adicionar_usuario",
+            "projectId": "itwin-1",
+            "email": "usuario@empresa.com",
+            "roleResolvida": {"id": "role-nova"},
+        }
+
+        resultado = aplicar_operacao_rbac(pagina, operacao)
+
+        self.assertEqual(resultado["status"], "roles_atualizadas_apos_conflito")
+        self.assertEqual(pagina.chamadas[2]["method"], "PATCH")
+        self.assertEqual(pagina.chamadas[2]["payload"]["roleIds"], ["role-antiga", "role-nova"])
+
+    def test_team_member_exists_com_convite_e_role_vira_sem_alteracao(self):
+        pagina = PaginaRbacFake(
+            [
+                {"ok": False, "status": 409, "body": {"error": {"code": "TeamMemberExists"}}},
+                {"ok": True, "status": 200, "body": {"members": [], "_links": {}}},
+                {
+                    "ok": True,
+                    "status": 200,
+                    "body": {
+                        "invitations": [
+                            {
+                                "id": "convite-1",
+                                "email": "usuario@empresa.com",
+                                "roles": [{"id": "role-nova"}],
+                            }
+                        ],
+                        "_links": {},
+                    },
+                },
+            ]
+        )
+        operacao = {
+            "acaoEfetiva": "adicionar_usuario",
+            "projectId": "itwin-1",
+            "email": "usuario@empresa.com",
+            "roleResolvida": {"id": "role-nova"},
+        }
+
+        resultado = aplicar_operacao_rbac(pagina, operacao)
+
+        self.assertEqual(resultado["status"], "sem_alteracao")
+
     def test_carregar_linhas_inclusao_xlsx_com_role(self):
         from openpyxl import Workbook
 

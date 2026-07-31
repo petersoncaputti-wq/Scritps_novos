@@ -65,7 +65,7 @@ def normalizar_cabecalho(valor: Any) -> str:
 
 
 def normalizar_email(valor: Any) -> str:
-    return str(valor or "").strip().lower()
+    return str(valor or "").strip().casefold()
 
 
 def valor_bool(valor: Any) -> Optional[bool]:
@@ -420,6 +420,35 @@ def lista_de_resposta(body: Any, chave: str) -> list[dict[str, Any]]:
     return []
 
 
+def buscar_lista_rbac_paginada(
+    page: Page,
+    path: str,
+    chave: str,
+    contexto: str,
+    tamanho_pagina: int = 100,
+) -> list[dict[str, Any]]:
+    """Busca todas as paginas de uma colecao RBAC baseada em $top/$skip."""
+    itens: list[dict[str, Any]] = []
+    skip = 0
+
+    while True:
+        separador = "&" if "?" in path else "?"
+        path_paginado = f"{path}{separador}$top={tamanho_pagina}&$skip={skip}"
+        body = exigir_rbac_ok(rbac_api(page, "GET", path_paginado), contexto)
+        pagina = lista_de_resposta(body, chave)
+        itens.extend(pagina)
+
+        links = body.get("_links") if isinstance(body, dict) else None
+        next_link = links.get("next") if isinstance(links, dict) else None
+        next_href = next_link.get("href") if isinstance(next_link, dict) else next_link
+        if not next_href or len(pagina) < tamanho_pagina:
+            break
+
+        skip += tamanho_pagina
+
+    return itens
+
+
 def normalizar_role(role: dict[str, Any], tipo: str, itwin_id: str) -> dict[str, Any]:
     return {
         "id": str(role.get("id") or role.get("roleId") or ""),
@@ -642,15 +671,36 @@ def preencher_roles_pendentes(page: Page, projeto_referencia_id: str, linhas: li
 
 
 def buscar_usuarios_rbac(page: Page, itwin_id: str) -> list[dict[str, Any]]:
-    body = exigir_rbac_ok(rbac_api(page, "GET", f"/{itwin_id}/members/users"), f"Buscar usuarios {itwin_id}")
-    return lista_de_resposta(body, "members") or lista_de_resposta(body, "users")
+    return buscar_lista_rbac_paginada(
+        page,
+        f"/{itwin_id}/members/users",
+        "members",
+        f"Buscar usuarios {itwin_id}",
+    )
+
+
+def buscar_convites_rbac(page: Page, itwin_id: str) -> list[dict[str, Any]]:
+    return buscar_lista_rbac_paginada(
+        page,
+        f"/{itwin_id}/members/invitations",
+        "invitations",
+        f"Buscar convites {itwin_id}",
+    )
 
 
 def localizar_usuario_por_email(usuarios: list[dict[str, Any]], email: str) -> Optional[dict[str, Any]]:
-    email_chave = email.lower()
+    email_chave = normalizar_email(email)
     for usuario in usuarios:
-        if str(usuario.get("email") or "").lower() == email_chave:
+        if normalizar_email(usuario.get("email")) == email_chave:
             return usuario
+    return None
+
+
+def localizar_convite_por_email(convites: list[dict[str, Any]], email: str) -> Optional[dict[str, Any]]:
+    email_chave = normalizar_email(email)
+    for convite in convites:
+        if normalizar_email(convite.get("email")) == email_chave:
+            return convite
     return None
 
 
@@ -684,6 +734,7 @@ def montar_operacoes_rbac(page: Page, projetos: list[dict[str, Any]], linhas: li
     operacoes: list[dict[str, Any]] = []
     cache_roles: dict[str, list[dict[str, Any]]] = {}
     cache_usuarios: dict[str, list[dict[str, Any]]] = {}
+    cache_convites: dict[str, list[dict[str, Any]]] = {}
 
     for indice, linha in enumerate(linhas, start=1):
         projetos_linha, criterio = resolver_projetos_linha(linha, projetos)
@@ -704,15 +755,22 @@ def montar_operacoes_rbac(page: Page, projetos: list[dict[str, Any]], linhas: li
                     roles_membros = extrair_roles_de_membros(cache_usuarios[itwin_id], itwin_id)
                     if roles_membros:
                         cache_roles[itwin_id] = deduplicar_roles(cache_roles[itwin_id] + roles_membros)
+                if itwin_id not in cache_convites:
+                    print(f"  Consultando convites: {projeto['nome']} ({itwin_id})")
+                    cache_convites[itwin_id] = buscar_convites_rbac(page, itwin_id)
 
                 role = resolver_role(linha.role, cache_roles[itwin_id])
                 usuario = localizar_usuario_por_email(cache_usuarios[itwin_id], linha.email)
-                role_ids_atuais = extrair_role_ids_usuario(usuario or {})
+                convite = localizar_convite_por_email(cache_convites[itwin_id], linha.email) if not usuario else None
+                registro_atual = usuario or convite or {}
+                role_ids_atuais = extrair_role_ids_usuario(registro_atual)
                 role_ids_desejados = list(dict.fromkeys(role_ids_atuais + [role["id"]]))
-                status = "participante" if usuario else "nao_encontrado"
+                status = "participante" if usuario else "convite_pendente" if convite else "nao_encontrado"
                 acao = "atualizar_roles" if usuario else "adicionar_usuario"
-                if usuario and role["id"] in role_ids_atuais:
+                if registro_atual and role["id"] in role_ids_atuais:
                     acao = "sem_alteracao"
+                elif convite:
+                    acao = "erro_convite_role_divergente"
 
                 operacoes.append(
                     {
@@ -728,6 +786,7 @@ def montar_operacoes_rbac(page: Page, projetos: list[dict[str, Any]], linhas: li
                         "acaoEfetiva": acao,
                         "status": status,
                         "membro": usuario or {},
+                        "convite": convite or {},
                         "roleInformada": linha.role,
                         "roleResolvida": role,
                         "roleIdsDesejados": role_ids_desejados,
@@ -816,15 +875,55 @@ def aplicar_operacao_rbac(page: Page, op: dict[str, Any]) -> dict[str, Any]:
         return {"status": "sem_alteracao", "mensagem": "Usuario ja possui a role desejada."}
     if acao == "erro_preparacao_rbac":
         return {"status": "ignorado_erro_preparacao", "mensagem": op.get("erro")}
+    if acao == "erro_convite_role_divergente":
+        return {
+            "status": "erro",
+            "erro": "Convite pendente encontrado sem a role desejada; requer revisao manual do convite.",
+        }
     if acao == "adicionar_usuario":
         payload = {
             "members": [{"email": email, "roleIds": [op["roleResolvida"]["id"]]}],
             "customMessage": "",
         }
-        body = exigir_rbac_ok(
-            rbac_api(page, "POST", f"/{itwin_id}/members/users", payload),
-            f"Adicionar usuario {email} em {itwin_id}",
-        )
+        resposta = rbac_api(page, "POST", f"/{itwin_id}/members/users", payload)
+        if not resposta.get("ok") and resposta.get("status") == 409:
+            detalhe = resposta.get("body")
+            erro_api = detalhe.get("error") if isinstance(detalhe, dict) else None
+            codigo = erro_api.get("code") if isinstance(erro_api, dict) else None
+            if codigo == "TeamMemberExists":
+                usuarios = buscar_usuarios_rbac(page, itwin_id)
+                usuario = localizar_usuario_por_email(usuarios, email)
+                if usuario:
+                    role_ids_atuais = extrair_role_ids_usuario(usuario)
+                    role_id = op["roleResolvida"]["id"]
+                    if role_id in role_ids_atuais:
+                        return {
+                            "status": "sem_alteracao",
+                            "mensagem": "Usuario localizado apos conflito e ja possui a role desejada.",
+                        }
+                    user_id = extrair_id_usuario(usuario)
+                    if not user_id:
+                        raise RuntimeError(f"Usuario localizado apos conflito sem id: {email}")
+                    role_ids = list(dict.fromkeys(role_ids_atuais + [role_id]))
+                    body = exigir_rbac_ok(
+                        rbac_api(page, "PATCH", f"/{itwin_id}/members/users/{user_id}", {"roleIds": role_ids}),
+                        f"Atualizar roles apos conflito de {email} em {itwin_id}",
+                    )
+                    return {"status": "roles_atualizadas_apos_conflito", "body": body}
+
+                convites = buscar_convites_rbac(page, itwin_id)
+                convite = localizar_convite_por_email(convites, email)
+                if convite:
+                    role_id = op["roleResolvida"]["id"]
+                    if role_id in extrair_role_ids_usuario(convite):
+                        return {
+                            "status": "sem_alteracao",
+                            "mensagem": "Convite pendente localizado apos conflito e ja possui a role desejada.",
+                        }
+                    raise RuntimeError(
+                        f"Convite pendente de {email} existe em {itwin_id}, mas nao possui a role desejada."
+                    )
+        body = exigir_rbac_ok(resposta, f"Adicionar usuario {email} em {itwin_id}")
         return {"status": "adicionado", "body": body}
     if acao == "atualizar_roles":
         usuario = op.get("membro") or {}
