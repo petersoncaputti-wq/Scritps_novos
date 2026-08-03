@@ -390,6 +390,8 @@ namespace CentralScripts {
             $psi.RedirectStandardError = $true
             $psi.StandardOutputEncoding = [Text.Encoding]::UTF8
             $psi.StandardErrorEncoding = [Text.Encoding]::UTF8
+            $psi.EnvironmentVariables['PYTHONIOENCODING'] = 'utf-8:replace'
+            $psi.EnvironmentVariables['PYTHONUTF8'] = '1'
             $process = New-Object System.Diagnostics.Process
             $process.StartInfo = $psi
             if (-not $process.Start()) { throw 'O processo Python não foi iniciado.' }

@@ -1,0 +1,9 @@
+﻿2026-08-03 09:52:53 | ABERTO | Catálogo com 10 rotinas
+2026-08-03 09:54:25 | PAINEL INTEGRADO | criar-usuarios
+2026-08-03 09:54:35 | INÍCIO ROTINA INTEGRADA | criar-usuarios | PID 23616 | C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Modelo_Criacao_Usuarios_ProjectWise.xlsx
+2026-08-03 09:54:42 | FIM ROTINA INTEGRADA | criar-usuarios | Código 0 | Relatório: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\Central de Scripts ProjectWise\Rotinas\01-CriarUsuariosLote\Logs\PW_CriarUsuariosLote_Relatorio_20260803_095436.csv
+2026-08-03 09:54:45 | INÍCIO ROTINA INTEGRADA | criar-usuarios | PID 3744 | C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Modelo_Criacao_Usuarios_ProjectWise.xlsx
+2026-08-03 09:55:02 | EXPORTAÇÃO CONCLUÍDA | criar-usuarios | C:\Users\peter\OneDrive\Desktop\UsuariosPorDescricao_20260803_095501 | 1 arquivo(s)
+2026-08-03 09:55:04 | FIM ROTINA INTEGRADA | criar-usuarios | Código 0 | Relatório: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\Central de Scripts ProjectWise\Rotinas\01-CriarUsuariosLote\Logs\PW_CriarUsuariosLote_Relatorio_20260803_095445.csv
+2026-08-03 09:55:12 | PAINEL INTEGRADO | gerenciar-acessos
+2026-08-03 10:01:43 | PAINEL INTEGRADO | incluir-usuarios-web

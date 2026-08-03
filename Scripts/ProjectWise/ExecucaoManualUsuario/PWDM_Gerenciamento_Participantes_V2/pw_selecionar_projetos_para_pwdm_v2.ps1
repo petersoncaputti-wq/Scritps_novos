@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Seleciona projetos no ProjectWise para gerenciamento de acessos no ProjectWise Web.
 
@@ -27,6 +27,14 @@ param(
 )
 
 $ErrorActionPreference = "Stop"
+$script:Utf8SemBom = New-Object System.Text.UTF8Encoding($false)
+$OutputEncoding = $script:Utf8SemBom
+try {
+    [Console]::OutputEncoding = $script:Utf8SemBom
+}
+catch {
+    # A execução continua caso o host não disponibilize um console configurável.
+}
 
 $PastaLogs = Join-Path $PSScriptRoot "Logs"
 if (-not (Test-Path -LiteralPath $PastaLogs)) {

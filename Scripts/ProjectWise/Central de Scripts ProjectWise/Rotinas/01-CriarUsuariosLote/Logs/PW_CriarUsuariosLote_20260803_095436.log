@@ -1,0 +1,19 @@
+2026-08-03 09:54:36 | INFO | ProjectWise - criação de usuários em lote
+2026-08-03 09:54:36 | INFO | Execução iniciada pela Central de Scripts ProjectWise.
+2026-08-03 09:54:36 | INFO | Log: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\Central de Scripts ProjectWise\Rotinas\01-CriarUsuariosLote\Logs\PW_CriarUsuariosLote_20260803_095436.log
+2026-08-03 09:54:36 | INFO | Modo 'Somente validar': a autenticação no ProjectWise não será realizada.
+2026-08-03 09:54:36 | INFO | Arquivo de entrada: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Modelo_Criacao_Usuarios_ProjectWise.xlsx
+2026-08-03 09:54:38 | INFO | Registros carregados: 2
+2026-08-03 09:54:38 | OK | Linha 2: válida - Esdras Emerson Pascoal Ferreira
+2026-08-03 09:54:38 | OK | Linha 3: válida - Thaissa Soares Silva
+2026-08-03 09:54:38 | INFO | 
+2026-08-03 09:54:38 | INFO | ================ RESUMO FINAL ================
+2026-08-03 09:54:38 | INFO | Total de linhas processadas : 2
+2026-08-03 09:54:38 | OK | Usuários criados            : 0
+2026-08-03 09:54:38 | OK | Usuários atualizados        : 0
+2026-08-03 09:54:38 | WARN | Usuários já existentes      : 0
+2026-08-03 09:54:38 | INFO | Linhas apenas validadas     : 2
+2026-08-03 09:54:38 | OK | Linhas inválidas            : 0
+2026-08-03 09:54:38 | OK | Erros de processamento      : 0
+2026-08-03 09:54:38 | OK | Relatório completo          : C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\Central de Scripts ProjectWise\Rotinas\01-CriarUsuariosLote\Logs\PW_CriarUsuariosLote_Relatorio_20260803_095436.csv
+2026-08-03 09:54:38 | INFO | ==============================================

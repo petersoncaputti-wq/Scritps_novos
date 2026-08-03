@@ -1,0 +1,1332 @@
+﻿Iniciando rotina: 03 - Incluir usuários em projetos PW Web...
+
+[0/9] Selecionando concessao/projetos no ProjectWise...
+Uma janela/login do ProjectWise pode ser aberta se a sessao ainda nao estiver ativa.
+10:01:51 | Importando modulo ProjectWise...
+Security Protocol now set to TLS 1.2
+PWPS_DAB Version is 24.0.2.0
+This is a 64-bit process.
+.Net Framework version OK (at least 4.8)
+AVISO: Os nomes de alguns comandos importados do m�dulo 'pwps_dab' incluem verbos n�o aprovados que podem os tornar 
+menos detect�veis. Para localizar os comandos com verbos n�o aprovados, execute novamente o comando Import-Module com o
+ par�metro Verbose. Para obter uma lista de verbos aprovados, digite Get-Verb.
+10:01:51 | Tentando conexao via New-PWLogin...
+10:02:01 | Conexao ProjectWise OK.
+10:02:01 | Listando filhos: Engenharia
+10:02:02 | Encontrado(s) 13 filho(s) em 1.3 s: Engenharia
+
+Concessoes disponiveis:
+01. Ecovias Araguaia
+02. Ecovias Capixaba
+03. Ecovias Cerrado
+04. Ecovias Imigrantes
+05. Ecovias Leste Paulista
+06. Ecovias Minas Goi�s
+07. Ecovias Noroeste Paulista
+08. Ecovias Norte Minas
+09. Ecovias Ponte
+10. Ecovias Raposo Castello
+11. Ecovias Rio Minas
+12. Ecovias Sul
+13. Z - Templates
+> 07
+07
+10:02:12 | Carregando projetos somente da concessao 'Ecovias Noroeste Paulista'...
+10:02:12 | Listando filhos: Ecovias Noroeste Paulista
+10:02:12 | Encontrado(s) 2 filho(s) em 0.4 s: Ecovias Noroeste Paulista
+10:02:12 | Listando filhos: Projetos
+10:02:29 | Encontrado(s) 159 filho(s) em 16.6 s: Projetos
+
+Projetos da concessao escolhida:
+001. 01.01.01.01 - Duplica��o TH 39 - km 157,6 + 159,6 - SP-333 | ID PW: 131175 | GUID PW: 35abea2f-dc92-49dd-90fe-989388404cca
+002. 01.01.01.02 - Duplica��o TH 40 - km 159,6 + 173,5 - SP-333 | ID PW: 131586 | GUID PW: 901a2304-3845-4591-976b-cd83086d573a
+003. 01.01.01.03 - Duplica��o TH 41 - km 173,5 + 182,2 - SP-333 | ID PW: 131997 | GUID PW: f2198ebe-7324-4845-b26f-e0ad1ce70249
+004. 01.01.01.04 - Duplica��o TH 42 - km 182,2 + 212,5 - SP-333 | ID PW: 132408 | GUID PW: 9db68b65-2717-4593-ab86-45f260dc1d71
+005. 01.01.01.05 - Duplica��o TH 44- km 155,6 + 156,2 - SP-351 | ID PW: 132819 | GUID PW: 0a31e02b-0148-4b02-b4ca-ec6aa48223d7
+006. 01.01.01.06 - Duplica��o TH 45 - km 157,3 + 166,3 - SP-351 | ID PW: 133230 | GUID PW: 19c187ab-7302-4135-80da-2114446bf47b
+007. 01.01.01.07 - Duplica��o TH 46 - km 166,3 + 186,0 - SP-351 | ID PW: 133641 | GUID PW: 91b13a6b-44a9-462b-903a-10f4e3945a11
+008. 01.01.01.08 - Duplica��o TH 47 - km 186,0 + 193,8 - SP-351 | ID PW: 134052 | GUID PW: 6049e04c-5d9d-4603-a5b0-fde865c23277
+009. 01.01.01.09 - Duplica��o TH 48 - km 193,8 + 210,8 - SP-351 | ID PW: 134463 | GUID PW: 0519141b-9ac6-4597-8e98-8eb0fd0201b7
+010. 01.01.02.01 - Faixas Adicionais TH 02 - km 241,8 + 267,7 - SP-310 | ID PW: 176586 | GUID PW: 3e95a503-6fba-4fcb-94ad-1c8ded7f6703
+011. 01.01.02.02 - Faixas Adicionais TH 03 - km 267,7 + 282,4 - SP-310 | ID PW: 176998 | GUID PW: fef73a10-40e9-4c91-a77c-c1f9deb777e0
+012. 01.01.02.03 - Faixas Adicionais TH 04 - km 282,4 + 293,0 - SP-310 | ID PW: 177410 | GUID PW: 6fd2894b-7036-4986-9569-8010c60a6c6d
+013. 01.01.02.04 - Faixas Adicionais TH-09 - 320,4 + 321,6 - SP-310 | ID PW: 177822 | GUID PW: 476606cb-2b99-4754-bdbe-54ba2d5f59d3
+014. 01.02.01.01 - OAE / OACs TH 40 - km 159,6 + 173,5 - SP-333 | ID PW: 178234 | GUID PW: 5988e519-63de-430d-9a85-74ade6206933
+015. 01.02.01.02 - OAE / OACs TH 41 - km 173,5 + 182,2 - SP-333 | ID PW: 178646 | GUID PW: 295be4ca-e2bc-4265-a4e6-28d553b07f51
+016. 01.02.01.03 - OAE / OACs TH 42 - km 182,2 + 212,5 - SP-333 | ID PW: 179058 | GUID PW: f122c695-f99c-4f86-86d8-882350a1420a
+017. 01.02.01.04 - OAE / OACs TH 45 - km 157,3 +166,3 - SP-351 | ID PW: 179470 | GUID PW: 1246f894-d361-46ed-8e6b-aaa564072734
+018. 01.02.01.05 - OAE / OACs TH-46 - km 166,3 + 186,0 - SP-351 | ID PW: 179882 | GUID PW: a45aaaa8-b42c-4deb-851d-1c3c8f4a197e
+019. 01.02.01.06 - OAE / OACs TH-47 - km 186,0 + 193,8 - SP-351 | ID PW: 394084 | GUID PW: 2e8bca5c-f6e6-42ff-9a90-5182a4667f38
+020. 01.02.01.07 - OAE / OACs TH 48 - km 193,8 + 210,8 - SP-351 | ID PW: 180706 | GUID PW: de71e435-e88d-4e90-865f-64525dee5c30
+021. 01.02.02.01 - Amplia��es TH 02 - km 241,8 + 267,7 - SP-310 | ID PW: 181118 | GUID PW: a0901c57-7d29-4afb-86e6-095123bb5d4d
+022. 01.02.02.02 - Amplia��es OAE / OAC TH 03  - km 267,7 + 282,4 - SP-310 | ID PW: 181530 | GUID PW: cd746af6-fa10-4277-9800-60c997cb878f
+023. 01.02.02.03 - OAE / OACs TH 04 - km 282,4 + 293,0 - SP-310 | ID PW: 181942 | GUID PW: 1521c372-90f6-47e3-b148-ded1bb2c859a
+024. 01.03.01 - Interven��es TH 16 - km 425,000 + 454,300 - SP-310 | ID PW: 48324 | GUID PW: 24883606-7a5c-46b1-8005-81fe1aea2772
+025. 01.03.02 - Interven��es TH 01 - km 227,800 + 242,500 - SP-310 | ID PW: 48735 | GUID PW: 0882bd0c-fe47-4e06-b512-51bef763d96d
+026. 01.03.03 - Duplica��o TH 36/37/38 -  km 144,000 + 158,000 - SP-333 | ID PW: 130763 | GUID PW: 2b650c6e-dbb9-4c60-b1c8-ad605c2ea4df
+027. 01.03.04 - Viaduto TH 16 - km 439+700 - SP-310 | ID PW: 49146 | GUID PW: 0c3152e4-668d-4ec5-9887-f771e9ef7e52
+028. 02.01.01.01 - Adequa��o de OAEs SP-310 | ID PW: 182359 | GUID PW: 46d27c67-6498-48b5-be9b-9e3414f53bf1
+029. 02.01.01.02 - Adequa��o de OAEs SP-323 | ID PW: 182771 | GUID PW: 4549afca-ea05-4ba3-94da-b3c4cd693d65
+030. 02.01.01.03 - Adequa��o de OAEs SP-326 | ID PW: 183183 | GUID PW: a2814cf6-ecb9-4379-b307-5b18ed39d9ff
+031. 02.01.01.04 - Adequa��es de OAEs SP-333 | ID PW: 183595 | GUID PW: fa02903d-a15d-4fc0-bceb-cffcc92c8c42
+032. 02.01.01.05 - Adequa��es de OAEs SP-351 | ID PW: 184007 | GUID PW: d28d3282-8d04-48de-91c5-4f62e61c07a3
+033. 02.02.01.01 - Dispositivo - km 301+308,42 - SP-310 | ID PW: 184419 | GUID PW: 2499193e-08f6-471c-95f5-8cf18a1d2135
+034. 02.02.01.01.01 - Dispositivo TH 07 - km 304,7 - SP-310 | ID PW: 130352 | GUID PW: c4c99fbb-8af5-4006-87bd-c58514932e25
+035. 02.02.01.02.01 - Dispositivo TH 18 - km 13,3 - SP-323 | ID PW: 173642 | GUID PW: 4442ed90-0c35-4c95-9b27-ca1b43b22e20
+036. 02.02.01.02.02 - Dispositivo TH 19 - km 15,2 - SP-323 | ID PW: 174053 | GUID PW: 57a61569-e9f6-4dc8-b384-ad7e295c62cd
+037. 02.02.01.03.01 - Dispositivo TH 20 - km 20,4 - SP-323 | ID PW: 174464 | GUID PW: 79bc17fe-a53c-43d3-affe-73d5a9de24cc
+038. 02.02.01.04.01 - Dispositivo TH 21 - km 25,5 - SP-323 | ID PW: 186071 | GUID PW: db7b83c2-9923-4f45-a91e-b115911e4b1a
+039. 02.02.01.04.02 - Dispositivo TH 21 - km 26,1 - SP-323 | ID PW: 186483 | GUID PW: 324b86b3-6cc1-49ba-8915-e8e8fcfae723
+040. 02.02.01.05.01 - Dispositivo TH 22 - km 33,0 - SP-323 | ID PW: 187307 | GUID PW: 024a666b-fb1d-47b0-9b49-ff6135f94379
+041. 02.02.01.06.01 - Dispositivo TH 24 - km 40,6 - SP-323 | ID PW: 188131 | GUID PW: 3694c507-b296-486b-8874-3b0e5a26b88f
+042. 02.02.01.07.01 - Dispositivo TH 40 - km 159,8 - SP-333 | ID PW: 188955 | GUID PW: 33370a64-6459-4303-9983-43c9f8594197
+043. 02.02.01.08.01 - Dispositivo TH 40 - km 168,3 - SP-333 | ID PW: 189779 | GUID PW: fcb660c2-e4ca-4b74-84c6-9619f86e8399
+044. 02.02.01.08.02 - Dispositivo TH 40 - km 173,4 - SP-333 | ID PW: 190191 | GUID PW: 369b1ba0-cb58-431b-9daf-0c678efecf5a
+045. 02.02.01.09.01 - Dispositivo TH 41 - km 179,9 - SP 333 | ID PW: 191015 | GUID PW: 4071216e-6617-49e0-b865-a64263781572
+046. 02.02.01.10.01 - Dispositivo TH 42 - km 190,0 - SP 333 | ID PW: 191839 | GUID PW: d4a4d420-37a9-423b-a74d-7c8869381ec8
+047. 02.02.01.11.01 - Dispositivo TH 42 - km 203,4 - SP 333 | ID PW: 192663 | GUID PW: ace197ff-a77c-4293-9073-fc9504476f26
+048. 02.02.01.12.01 - Dispositivo TH 44 - km 158,3 - SP-351 | ID PW: 176108 | GUID PW: cc6dbf8e-b2a2-4247-a20a-6174f7ac7800
+049. 02.02.01.13.01 - Dispositivo TH 45 - km 158,3 - SP-351 | ID PW: 193900 | GUID PW: 2ce89dfd-e386-4b6f-b750-8788f7dd78ad
+050. 02.02.01.14.01 - Dispositivo TH 45 - km 163,5 - SP-351 | ID PW: 194724 | GUID PW: a4441539-026a-47ad-b0d9-a2c415e9fc95
+051. 02.02.01.15.01 - Dispositivo TH 46 - km 167,4 - SP-351 | ID PW: 195548 | GUID PW: 26c71d56-d3d0-4416-af1e-4cc2a37f118e
+052. 02.02.01.15.02 - Dispositivo TH 46 - km 174,6 - SP-351 | ID PW: 195960 | GUID PW: 1f3bb802-067a-48ba-a959-e372a905ad7b
+053. 02.02.01.16.01 - Dispositivo TH 46 - km 185,5 - SP-351 | ID PW: 196784 | GUID PW: 706e7669-69fc-48e6-9f7b-be6b4655244f
+054. 02.02.01.17.01 - Dispositivo TH 48 - km 193,9 - SP-351 | ID PW: 197608 | GUID PW: 581f3dd0-be5d-46ed-b654-7ec2889206c6
+055. 02.02.01.17.02 - Dispositivo TH 48 - km 196,2 - SP-351 | ID PW: 198020 | GUID PW: c3e0bb75-e1a8-4a71-b628-a9cfe8ff5328
+056. 02.02.01.18.01 - Dispositivo TH 48 - km 206,9 - SP 351 | ID PW: 198844 | GUID PW: 08991309-64b8-4b97-946c-c3b7edd6d127
+057. 02.02.02.01.01 - Amplia��o Dispositivo TH 03 - km 268,3 - SP-310 | ID PW: 200080 | GUID PW: fb82326d-3092-4883-9dca-13aec4ba4160
+058. 02.02.02.01.02 - Amplia��o Dispositivo TH 03 - km 271,6 - SP-310 | ID PW: 200492 | GUID PW: 9a648293-c9de-4c23-9020-6e269958e23a
+059. 02.02.02.02.01 - Amplia��o Dispositivo TH 04 - km 293,5 - SP 310 | ID PW: 201316 | GUID PW: cd4024a5-d997-4f88-89bc-f5439d4c731f
+060. 02.02.02.03.01 - Amplia��o Dispositivo TH 06 - km 296,5 - SP-310 | ID PW: 129941 | GUID PW: 954d239f-824e-4fad-8ef2-7837b88d4ec1
+061. 02.02.02.04.01 - Amplia��o Dispositivo TH 30  - km 379,0 - SP-326 | ID PW: 202553 | GUID PW: 580fb8ff-e2bb-4a89-aed2-4ab0bef869de
+062. 02.02.02.05.01 - Amplia��o Dispositivo TH 39  - km 157,6 - SP-333 | ID PW: 203377 | GUID PW: 9169a13e-8ad4-4024-9c60-d8ef9044aadb
+063. 02.02.02.05.01 - Dispositivo TH 39 -  km 157,5 - SP-333 | ID PW: 174875 | GUID PW: 210e41e0-dfbc-48d1-bb60-c03fb3968a4c
+064. 02.02.02.06.01 - Amplia��o Dispositivo TH 41 - km 182,2 - SP-333 | ID PW: 204201 | GUID PW: f260e23e-1416-4bb9-8443-e254a7fe8bc8
+065. 02.02.02.07.01 - Amplia��o Dispositivo TH 42 - km 209,3 - SP-333 | ID PW: 205025 | GUID PW: d2c0ed0d-3f93-4de5-bbae-1f932255c030
+066. 02.02.02.07.02 - Amplia��o Dispositivo TH 42 - km 212,6 - SP-333 | ID PW: 205437 | GUID PW: 9644f709-c508-44f5-869e-e7b53f7c4fc5
+067. 02.02.02.08.01 - Amplia��o Dispositivo TH 43 - km 151,5 - SP-351 | ID PW: 175286 | GUID PW: 822d36ae-0dd9-4293-ac4a-ea11498cc557
+068. 02.02.02.09.01 - Amplia��o Dispositivo TH 44 - km 155,7 - SP-351 | ID PW: 175697 | GUID PW: 0a9f3463-db9c-43da-9ee9-2a4c6d177090
+069. 02.02.02.10 - Amplia��o Dispositivo - km 177,75 - SP-351 | ID PW: 206675 | GUID PW: b0a8f4a2-f8fa-4037-9a05-2d34fba3360b
+070. 02.02.02.10.01 - Amplia��o Dispositivo TH 46 - km 182,8 - SP-351 | ID PW: 207087 | GUID PW: dde7029d-1a44-4187-ada0-5872276e9c6b
+071. 02.02.02.11.01 - Dispositivo TH 48 - km 194,5 - SP-351 | ID PW: 207911 | GUID PW: 53732d27-d5b7-4411-874f-32a9dc0522c2
+072. 02.04.03.01.01 - Acostamento TH 51 - km 0,000 + 0,450 - SPA-276 310 | ID PW: 163629 | GUID PW: 938c07f3-1603-4d37-aea9-36dfa6cf5504
+073. 02.04.03.01.02 - Acostamento TH 52 - Km 0,000 + 0,090 - SPA-119  333 | ID PW: 164040 | GUID PW: c96b480f-8e5f-4a2e-8923-eb625d965502
+074. 02.04.03.02.01 - Acostamentos - km 227,800 + 454,300 - SP-310 | ID PW: 293433 | GUID PW: 520aa25a-c6fd-4668-a1a5-c6d17400aa7f
+075. 02.04.03.02.02 - Acostamentos - km 0,000 + 44,100 - SP-323 | ID PW: 293844 | GUID PW: 610dc74b-2120-436a-bf30-16481beaea9a
+076. 02.04.03.02.03 - Acostamentos - km 293 ao 427 - SP-326 | ID PW: 294255 | GUID PW: dd0678b0-4c72-4f6f-9903-f5d46d50539c
+077. 02.04.03.02.04 - Acostamentos - km 83,020 + 212,450 - SP-333 | ID PW: 294666 | GUID PW: 92286da2-8cab-4da6-b90e-91e7917de0a1
+078. 02.04.03.02.05 - Acostamentos - km 151,530 + 218,020 - SP-351 | ID PW: 295077 | GUID PW: c96a62b9-f65b-4050-8b5b-1632b9e50a94
+079. 02.06.02.06 - BSO 1 - km 009+470 - SP-323 | ID PW: 45849 | GUID PW: bb6aff0b-2e40-4957-a423-8b68fe8bc172
+080. 02.06.02.07 - BSO 2 - km 036+800 - SP-323 | ID PW: 46260 | GUID PW: 1af6594f-be01-4cab-9f1b-850221ed8e47
+081. 02.06.02.11 - BSO 3 - km 391+200 - SP-326 | ID PW: 46671 | GUID PW: 43144424-38cb-4344-879e-2931e01f1b1e
+082. 02.06.02.12 - BSO 4 - km 409+200 - SP-326 | ID PW: 47082 | GUID PW: 1c16683a-f166-499d-8511-024a51ed68d9
+083. 02.06.02.16 - BSO 5 - km 161+750 - SP-351 | ID PW: 47493 | GUID PW: 50d00f34-20e4-40e3-9ee4-a0bffad3e245
+084. 02.06.02.17 - BSO 6 - km 198+000 - SP-351 | ID PW: 47904 | GUID PW: ad16f29d-8aac-4e78-becb-58290528aba8
+085. 02.10.01.01 - Marginal TH 31 - km 420,290 + 424,800 - SP-326 | ID PW: 51751 | GUID PW: 11c39758-cd32-4f26-8088-7f54010f34ee
+086. 02.11.01.01 - ADC Ibat� - km 252 - SP-310 | ID PW: 168238 | GUID PW: 48ba5235-bc6e-416a-860e-fc05b585c827
+087. 02.11.01.01 - ADC Mat�o - km 291 - SP-310 | ID PW: 168649 | GUID PW: 9d86ca88-2c7e-4bec-bb44-507f02b3cc42
+088. 02.11.01.01 - ADC Uch�a - km 407 - SP-310 | ID PW: 169060 | GUID PW: 5d398677-f468-4c65-aa85-d618df07b6a1
+089. 02.12.01.02 - PMRv Canil SJRP - km 443,000 + 443,000 - SP-310 | ID PW: 353557 | GUID PW: 8ae3857c-5499-4499-b0dd-f1c9f22248ae
+090. 02.12.01.02 - PMRv SJRP - km 443,000 + 443,000 - SP-310 | ID PW: 308506 | GUID PW: db05feb7-7786-4b61-8f98-6cba41e0facb
+091. 02.12.02.02 - PMRV Araraquara - km 273+400 - SP-310 | ID PW: 305332 | GUID PW: 4d059a21-445e-484e-8c7f-458a8b67f90b
+092. 02.13.02 - Ponto de �nibus - km 84+300 - SP-310 | ID PW: 419864 | GUID PW: 0d6d1953-4ca8-4772-aa18-dbdaf596fb9d
+093. 02.13.02 - Ponto de �nibus - km 84+300 - SP-333 | ID PW: 419731 | GUID PW: 09df81e6-4d3d-4a17-aa56-362ca88d6a2c
+094. 02.13.02 - Ponto de �nibus - km 96+500 - SP-333 | ID PW: 419831 | GUID PW: 2ce88b36-8815-43f2-a714-8ab4cb320cc7
+095. 02.14.01.02 - Ciclovias - km 6 - SP-323 | ID PW: 430076 | GUID PW: 7cb2976b-d664-4839-b38c-2b280761432c
+096. 02.14.01.03 - Ciclovias - km 17 - SP-326 | ID PW: 311031 | GUID PW: 753190bc-f745-4081-81f5-f40fc50195e9
+097. 02.14.01.03 - Ciclovias - km 29 - SP-310 | ID PW: 430043 | GUID PW: e0ef40a2-4812-407e-bd3f-dde21d987404
+098. 02.14.01.04 - Ciclovias - km 16 - SP-333 | ID PW: 430109 | GUID PW: d650f56c-4f87-40d9-9ef5-0b5f8ba42b6f
+099. 02.14.01.05 - Ciclovias - km 7 - SP-351 | ID PW: 430142 | GUID PW: 6b60cc67-ca13-460f-9e0c-54a9480ab5aa
+100. 03.03.03 - Free Flow Agulha - km 346 - SP-310 | ID PW: 419689 | GUID PW: 41e3b8b2-ff07-4c12-8cd8-8b1c70479de9
+101. 03.03.03 - Free Flow Araraquara - km 282 - SP-310 | ID PW: 419798 | GUID PW: 688ccb47-e322-4404-80fc-5382a105230d
+102. 03.03.03 - Free Flow Catigu� - km 398 - SP-310 | ID PW: 419764 | GUID PW: 190f5329-81c7-4866-a6d8-9f02be4492c9
+103. 03.03.03 - Free Flow Colina - km 407 - SP-326 | ID PW: 368247 | GUID PW: 0bf443ba-6599-42a4-9610-7562663b331d
+104. 03.03.03 - Free Flow Dobrada - km 307 - SP-326 | ID PW: 308937 | GUID PW: e3fd3d82-55ca-4180-81bf-faaa00847367
+105. 03.03.03 - Free Flow It�polis - km 178 - SP-333 | ID PW: 309761 | GUID PW: 7d93ef30-12a7-4445-849f-9f6fa9246ccf
+106. 03.03.03 - Free Flow Jaboticabal - km 111 - SP-333 | ID PW: 311038 | GUID PW: a87068db-1e08-47aa-a1a3-1eadb6c4ae15
+107. 03.03.03 - Free Flow Monte Alto - km 19 - SP-323 | ID PW: 368214 | GUID PW: 3e971ac6-b682-46e1-9923-1d99eab1a6fe
+108. 03.03.03 - Free Flow Piragi - km 184 - SP-351 | ID PW: 368280 | GUID PW: 4690f9b9-3427-4a81-8590-83213fb94727
+109. 03.03.03 - Free Flow Tai�va - km 356 - SP-326 | ID PW: 309349 | GUID PW: 03dbdc2d-d8fc-42e2-9221-6d3e630bbaf7
+110. 22 - Acesso industrial km 404+410 - SP-326 | ID PW: 430397 | GUID PW: 7741c813-1ee4-42d4-b5b3-0bc0140f233d
+111. 22 - Al�a de acesso no km 339 - SP-326 | ID PW: 430331 | GUID PW: 9c057af9-36bb-4c56-a85b-4657cd839435
+112. 22 - Implanta��o viaduto km 217+245 - SP-351 | ID PW: 430298 | GUID PW: 9ef744fa-3d74-4a63-839f-f00293de4f51
+113. 22 - Melhoria do dispositivo km 423+000 - SP-326 | ID PW: 430430 | GUID PW: e26c3bc7-3058-4e51-b311-0e7f0b2f9680
+114. 22 - Novo dispositivo km 423+500 - SP-326 | ID PW: 430464 | GUID PW: 02eb8558-6105-4465-bb35-0bcd9c5b5d11
+115. 22 - Reformula��o da rotat�ria km 341 - SP-326 | ID PW: 430364 | GUID PW: 1846ef48-8864-40fb-80ce-755a309726b5
+116. 22 - Reformula��o do dispositivo km 419 - SP-310 | ID PW: 430497 | GUID PW: bfed42b4-4e47-41e0-94a6-472ede0bc735
+117. CCPP -  Uch�a - km 415+200 - SP-310 | ID PW: 302857 | GUID PW: c2208db3-ec85-4ec9-95b7-7c3b29057f8c
+118. CCPP - Bebedouro - km 375+850 - SP-310 | ID PW: 303271 | GUID PW: 7566bfa0-cd69-4e68-9b4b-d917c84c7581
+119. CCPP - It�polis - km 181+500 - SP-310 | ID PW: 303682 | GUID PW: 7827434f-1d98-4f71-b71e-20133e8ec5c8
+120. CCPP - Jaboticabal - km 335+260 - SP-310 | ID PW: 304097 | GUID PW: af1582a0-be44-408f-876e-bd4ace781a22
+121. CCPP - S�o Carlos - km 233+900 - SP-310 | ID PW: 304508 | GUID PW: 06c1bbd9-d475-4b1e-9d2c-24adabee2f6f
+122. CCPP - S�o Jos� - km 434+700 - SP-310 | ID PW: 304919 | GUID PW: 5918c811-159a-4c1f-b0bd-2cca99b410da
+123. HS-WIM 01 - km 250 - SP-310 | ID PW: 166594 | GUID PW: 37eaa968-cbb1-43ed-a641-ad5637f8e212
+124. HS-WIM 02 - km 264 - SP-310 | ID PW: 167005 | GUID PW: 9f669545-245d-4b29-894c-a06337243752
+125. HS-WIM 03 - km 373 - SP-326 | ID PW: 167827 | GUID PW: b17d0523-4a88-4b70-bda3-c0575f0ed5b0
+126. HS-WIM 04 - km 388 - SP-310 | ID PW: 167416 | GUID PW: 92677286-f817-4a80-a43d-4ed497753e5c
+127. NOP01 - Faixa Adicional SC - km 227+800 - 231+320- SP-310 | ID PW: 396194 | GUID PW: 0d97e177-e093-4308-a1b6-013b9c8fbac9
+128. NOP02 - Faixa Adicional SC - km 227+800 - 230+750 - SP-310 | ID PW: 396217 | GUID PW: 65626b30-f42c-4ce4-8442-646c03bcc5b4
+129. NOP03 - Melhoria do Dispositivo SC - km 235+000 - SP-310 | ID PW: 397080 | GUID PW: 35833ac7-08d2-47a3-abb7-a2b80c00e9bc
+130. NOP04 - Melhoria do Dispositivo SC - km 236+100 - SP-310 | ID PW: 397103 | GUID PW: 58d167e5-456f-4b3c-ae0a-5fe4e89e60bb
+131. NOP05 - Implanta��o de Dispositivo SC - km 238+200 - SP-310 | ID PW: 397126 | GUID PW: fbefd888-6cba-45db-8217-5215f4fef7a6
+132. NOP06 - Faixa Adicional - km 238+524 - 240+370 - SP-310 Excluir | ID PW: 396240 | GUID PW: 8fb945a2-7e8e-48e8-a009-b807baeae993
+133. NOP07 - Melhoria do Dispositivo SC - km 240+000 - SP-310 | ID PW: 397149 | GUID PW: 65c0d94f-b525-4a2d-860d-405d344d174f
+134. NOP11 - Amplia��o de Dispositivo SJRP - km 432+200 - SP-310 | ID PW: 397172 | GUID PW: 8c8de1dc-13d7-46d9-98ee-9c83d6ff8a12
+135. NOP12 - Faixa Adicional SJRP- km 451+780 - 454+740 - SP-310 | ID PW: 396286 | GUID PW: b130c8f8-d0b7-45d3-9104-d45666fdf1f6
+136. NOP13 - Implanta��o de Viaduto MR - km 448+000 - SP-310 | ID PW: 396516 | GUID PW: 6150e492-05ac-4f9a-a951-0bb4b8e17c8d
+137. NOP15 - Implanta��o de Viaduto MR - km 453+180 - SP-310 | ID PW: 396539 | GUID PW: 2b747411-c476-4520-8d33-4c978a87c678
+138. NOP16 - Interse��o PP | ID PW: 396585 | GUID PW: b8b7320a-9c63-4331-b5da-d6c64f0d3d59
+139. NOP17 - Marginais PP | ID PW: 396608 | GUID PW: 40f19ad0-6291-47d1-9655-2c024830a24c
+140. NOP18 - Implanta��o de Dispositivo PP - km 203+210 - SP-351 | ID PW: 397195 | GUID PW: 914bc670-4f89-40e8-b5e4-074b3c11280e
+141. NOP19 - Al�a de Acesso JT | ID PW: 396631 | GUID PW: 46c69734-85ff-4015-964f-d70aa328e3e7
+142. NOP20 - Melhoria do dispositivo JT - km 341+000 - SP-326 | ID PW: 397218 | GUID PW: e5898bd5-2be6-4dcc-9a9c-b137ff817c0b
+143. NOP21 - Implant de Acesso CA | ID PW: 418627 | GUID PW: d1610811-6d59-42b3-80db-c2a937bade76
+144. NOP21 - Implant de Acesso CA | ID PW: 396677 | GUID PW: 30adc2f5-26ea-416e-a4e3-32d3d8558b42
+145. NOP21 - Implant de Acesso CO | ID PW: 396654 | GUID PW: 01d6b8e0-78e2-4867-a7f7-b03c35b5ebe9
+146. NOP21 - Implant de Acesso CO | ID PW: 418200 | GUID PW: 27f2133f-a55d-414b-bfdd-37be6f525efd
+147. NOP22 - Adequa��o de Dispositivo BA - km 423+100 - SP-326 | ID PW: 397241 | GUID PW: ae58f104-2101-456f-a230-197ba18a7887
+148. NOP24 - Implanta��o de Viaduto CA - km 217+245 - SP-351 | ID PW: 396562 | GUID PW: 5bb662b7-55f7-4fec-93f1-c0219fe14a47
+149. NOP25 - Dispositivo - km 162+800 - SP-333 | ID PW: 425834 | GUID PW: 4aa270ff-77b9-4cc6-9503-188598edb787
+150. NOP8910 - Faixa Adicional SJRP - 425+000 - 432+900 - SP-310 | ID PW: 396263 | GUID PW: 15dee4f2-08e9-466b-918e-a49c8bbdb073
+151. SP-310  Reformula��o do dispositivo km 419 | ID PW: 430009 | GUID PW: 1f7bd7f7-445a-49ed-b43b-9be67e0f096a
+152. SP-310 Implanta��o de al�as no km 382+600 | ID PW: 429552 | GUID PW: 4dfda47d-a0dd-4749-8d13-28eb0fcc6a2b
+153. SP-326 Acesso industrial km 404+410 | ID PW: 429910 | GUID PW: b9f1b4bf-099e-4a3a-8ba2-ca904bb9a6e5
+154. SP-326 Al�a de acesso no km 339 | ID PW: 429844 | GUID PW: a1154856-5317-4d03-a30a-c490da52c447
+155. SP-326 Melhoria do dispositivo km 423+000 | ID PW: 429943 | GUID PW: 7c05011b-3ae6-4706-8f39-6f3b23627973
+156. SP-326 Novo dispositivo km 423+500 | ID PW: 429976 | GUID PW: cec7e792-deb1-4c87-a694-409a43379c78
+157. SP-326 Reformula��o da rotat�ria km 341 | ID PW: 429877 | GUID PW: 6bb809d2-9801-4171-99bc-96ead95cc5bf
+158. SP-351 Implanta��o de novo viaduto no km 217+245 | ID PW: 429811 | GUID PW: b0780136-5425-4bcb-b736-5cc89d951718
+159. Teste GIR | ID PW: 362192 | GUID PW: 2b9f99c1-20c6-4e7b-8782-ff63f7850f5d
+
+Forma de selecao dos projetos:
+01. Selecionar manualmente pelos numeros
+02. Selecionar por planilha com coluna Projeto
+> 01
+01
+
+Digite numeros separados por virgula, intervalos como 1-5, ou 'todos'.
+> todos
+todos
+10:02:40 | AVISO | 54 projeto(s) selecionado(s) nao possuem ConnectedProjectId e nao podem ser gerenciados no ProjectWise Web.
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 01.02.01.02 - OAE / OACs TH 41 - km 173,5 + 182,2 - SP-333 | PW ID: 178646 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 01.02.01.03 - OAE / OACs TH 42 - km 182,2 + 212,5 - SP-333 | PW ID: 179058 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 01.02.01.04 - OAE / OACs TH 45 - km 157,3 +166,3 - SP-351 | PW ID: 179470 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 01.02.01.05 - OAE / OACs TH-46 - km 166,3 + 186,0 - SP-351 | PW ID: 179882 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 01.02.01.07 - OAE / OACs TH 48 - km 193,8 + 210,8 - SP-351 | PW ID: 180706 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 01.02.02.03 - OAE / OACs TH 04 - km 282,4 + 293,0 - SP-310 | PW ID: 181942 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 02.01.01.01 - Adequa��o de OAEs SP-310 | PW ID: 182359 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 02.01.01.02 - Adequa��o de OAEs SP-323 | PW ID: 182771 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 02.01.01.03 - Adequa��o de OAEs SP-326 | PW ID: 183183 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 02.01.01.04 - Adequa��es de OAEs SP-333 | PW ID: 183595 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 02.01.01.05 - Adequa��es de OAEs SP-351 | PW ID: 184007 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 02.02.01.01 - Dispositivo - km 301+308,42 - SP-310 | PW ID: 184419 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 02.02.01.04.02 - Dispositivo TH 21 - km 26,1 - SP-323 | PW ID: 186483 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 02.02.01.09.01 - Dispositivo TH 41 - km 179,9 - SP 333 | PW ID: 191015 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 02.02.01.10.01 - Dispositivo TH 42 - km 190,0 - SP 333 | PW ID: 191839 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 02.02.01.11.01 - Dispositivo TH 42 - km 203,4 - SP 333 | PW ID: 192663 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 02.02.02.02.01 - Amplia��o Dispositivo TH 04 - km 293,5 - SP 310 | PW ID: 201316 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 02.02.02.05.01 - Amplia��o Dispositivo TH 39  - km 157,6 - SP-333 | PW ID: 203377 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 02.02.02.06.01 - Amplia��o Dispositivo TH 41 - km 182,2 - SP-333 | PW ID: 204201 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 02.02.02.07.01 - Amplia��o Dispositivo TH 42 - km 209,3 - SP-333 | PW ID: 205025 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 02.02.02.07.02 - Amplia��o Dispositivo TH 42 - km 212,6 - SP-333 | PW ID: 205437 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 02.02.02.10 - Amplia��o Dispositivo - km 177,75 - SP-351 | PW ID: 206675 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 02.13.02 - Ponto de �nibus - km 84+300 - SP-310 | PW ID: 419864 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 02.13.02 - Ponto de �nibus - km 84+300 - SP-333 | PW ID: 419731 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 02.13.02 - Ponto de �nibus - km 96+500 - SP-333 | PW ID: 419831 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 02.14.01.02 - Ciclovias - km 6 - SP-323 | PW ID: 430076 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 02.14.01.03 - Ciclovias - km 29 - SP-310 | PW ID: 430043 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 02.14.01.04 - Ciclovias - km 16 - SP-333 | PW ID: 430109 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 02.14.01.05 - Ciclovias - km 7 - SP-351 | PW ID: 430142 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 03.03.03 - Free Flow Agulha - km 346 - SP-310 | PW ID: 419689 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 03.03.03 - Free Flow Araraquara - km 282 - SP-310 | PW ID: 419798 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 03.03.03 - Free Flow Catigu� - km 398 - SP-310 | PW ID: 419764 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 22 - Acesso industrial km 404+410 - SP-326 | PW ID: 430397 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 22 - Al�a de acesso no km 339 - SP-326 | PW ID: 430331 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 22 - Implanta��o viaduto km 217+245 - SP-351 | PW ID: 430298 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 22 - Melhoria do dispositivo km 423+000 - SP-326 | PW ID: 430430 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 22 - Novo dispositivo km 423+500 - SP-326 | PW ID: 430464 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 22 - Reformula��o da rotat�ria km 341 - SP-326 | PW ID: 430364 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: 22 - Reformula��o do dispositivo km 419 - SP-310 | PW ID: 430497 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: NOP16 - Interse��o PP | PW ID: 396585 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: NOP17 - Marginais PP | PW ID: 396608 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: NOP19 - Al�a de Acesso JT | PW ID: 396631 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: NOP21 - Implant de Acesso CA | PW ID: 418627 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: NOP21 - Implant de Acesso CA | PW ID: 396677 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: NOP21 - Implant de Acesso CO | PW ID: 396654 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: NOP21 - Implant de Acesso CO | PW ID: 418200 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: SP-310  Reformula��o do dispositivo km 419 | PW ID: 430009 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: SP-310 Implanta��o de al�as no km 382+600 | PW ID: 429552 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: SP-326 Acesso industrial km 404+410 | PW ID: 429910 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: SP-326 Al�a de acesso no km 339 | PW ID: 429844 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: SP-326 Melhoria do dispositivo km 423+000 | PW ID: 429943 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: SP-326 Novo dispositivo km 423+500 | PW ID: 429976 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: SP-326 Reformula��o da rotat�ria km 341 | PW ID: 429877 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:02:40 | AVISO | Sem ConnectedProjectId valido: SP-351 Implanta��o de novo viaduto no km 217+245 | PW ID: 429811 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+
+[OK] Projetos selecionados exportados.
+JSON: C:\Users\peter\OneDrive - Grupo Ecorodovias\�rea de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\PWDM_Gerenciamento_Participantes_V2\Logs\pwdm_projetos_execucao_connected_20260803_100151.json
+Projetos selecionados: 159
+Projetos aptos PW Web: 105
+True
+
+[INFO] Usando projetos selecionados pelo ProjectWise nesta execucao: C:\Users\peter\OneDrive - Grupo Ecorodovias\�rea de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\PWDM_Gerenciamento_Participantes_V2\Logs\pwdm_projetos_execucao_connected_20260803_100151.json
+
+[AVISO] Projeto(s) ignorado(s) por nao terem ConnectedProjectId valido para o ProjectWise Web:
+- 01.02.01.02 - OAE / OACs TH 41 - km 173,5 + 182,2 - SP-333 | PW ID: 178646 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 01.02.01.03 - OAE / OACs TH 42 - km 182,2 + 212,5 - SP-333 | PW ID: 179058 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 01.02.01.04 - OAE / OACs TH 45 - km 157,3 +166,3 - SP-351 | PW ID: 179470 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 01.02.01.05 - OAE / OACs TH-46 - km 166,3 + 186,0 - SP-351 | PW ID: 179882 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 01.02.01.07 - OAE / OACs TH 48 - km 193,8 + 210,8 - SP-351 | PW ID: 180706 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 01.02.02.03 - OAE / OACs TH 04 - km 282,4 + 293,0 - SP-310 | PW ID: 181942 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.01.01.01 - Adequa��o de OAEs SP-310 | PW ID: 182359 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.01.01.02 - Adequa��o de OAEs SP-323 | PW ID: 182771 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.01.01.03 - Adequa��o de OAEs SP-326 | PW ID: 183183 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.01.01.04 - Adequa��es de OAEs SP-333 | PW ID: 183595 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.01.01.05 - Adequa��es de OAEs SP-351 | PW ID: 184007 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.02.01.01 - Dispositivo - km 301+308,42 - SP-310 | PW ID: 184419 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.02.01.04.02 - Dispositivo TH 21 - km 26,1 - SP-323 | PW ID: 186483 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.02.01.09.01 - Dispositivo TH 41 - km 179,9 - SP 333 | PW ID: 191015 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.02.01.10.01 - Dispositivo TH 42 - km 190,0 - SP 333 | PW ID: 191839 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.02.01.11.01 - Dispositivo TH 42 - km 203,4 - SP 333 | PW ID: 192663 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.02.02.02.01 - Amplia��o Dispositivo TH 04 - km 293,5 - SP 310 | PW ID: 201316 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.02.02.05.01 - Amplia��o Dispositivo TH 39  - km 157,6 - SP-333 | PW ID: 203377 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.02.02.06.01 - Amplia��o Dispositivo TH 41 - km 182,2 - SP-333 | PW ID: 204201 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.02.02.07.01 - Amplia��o Dispositivo TH 42 - km 209,3 - SP-333 | PW ID: 205025 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.02.02.07.02 - Amplia��o Dispositivo TH 42 - km 212,6 - SP-333 | PW ID: 205437 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.02.02.10 - Amplia��o Dispositivo - km 177,75 - SP-351 | PW ID: 206675 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.13.02 - Ponto de �nibus - km 84+300 - SP-310 | PW ID: 419864 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.13.02 - Ponto de �nibus - km 84+300 - SP-333 | PW ID: 419731 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.13.02 - Ponto de �nibus - km 96+500 - SP-333 | PW ID: 419831 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.14.01.02 - Ciclovias - km 6 - SP-323 | PW ID: 430076 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.14.01.03 - Ciclovias - km 29 - SP-310 | PW ID: 430043 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.14.01.04 - Ciclovias - km 16 - SP-333 | PW ID: 430109 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.14.01.05 - Ciclovias - km 7 - SP-351 | PW ID: 430142 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 03.03.03 - Free Flow Agulha - km 346 - SP-310 | PW ID: 419689 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 03.03.03 - Free Flow Araraquara - km 282 - SP-310 | PW ID: 419798 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 03.03.03 - Free Flow Catigu� - km 398 - SP-310 | PW ID: 419764 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 22 - Acesso industrial km 404+410 - SP-326 | PW ID: 430397 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 22 - Al�a de acesso no km 339 - SP-326 | PW ID: 430331 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 22 - Implanta��o viaduto km 217+245 - SP-351 | PW ID: 430298 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 22 - Melhoria do dispositivo km 423+000 - SP-326 | PW ID: 430430 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 22 - Novo dispositivo km 423+500 - SP-326 | PW ID: 430464 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 22 - Reformula��o da rotat�ria km 341 - SP-326 | PW ID: 430364 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 22 - Reformula��o do dispositivo km 419 - SP-310 | PW ID: 430497 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- NOP16 - Interse��o PP | PW ID: 396585 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- NOP17 - Marginais PP | PW ID: 396608 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- NOP19 - Al�a de Acesso JT | PW ID: 396631 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- NOP21 - Implant de Acesso CA | PW ID: 418627 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- NOP21 - Implant de Acesso CA | PW ID: 396677 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- NOP21 - Implant de Acesso CO | PW ID: 396654 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- NOP21 - Implant de Acesso CO | PW ID: 418200 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- SP-310  Reformula��o do dispositivo km 419 | PW ID: 430009 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- SP-310 Implanta��o de al�as no km 382+600 | PW ID: 429552 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- SP-326 Acesso industrial km 404+410 | PW ID: 429910 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- SP-326 Al�a de acesso no km 339 | PW ID: 429844 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- SP-326 Melhoria do dispositivo km 423+000 | PW ID: 429943 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- SP-326 Novo dispositivo km 423+500 | PW ID: 429976 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- SP-326 Reformula��o da rotat�ria km 341 | PW ID: 429877 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- SP-351 Implanta��o de novo viaduto no km 217+245 | PW ID: 429811 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+Esses projetos nao serao consultados no gerenciamento de membros nesta execucao.
+[OK] 105 projeto(s) do ProjectWise Web carregado(s) pelo ConnectedProjectId.
+001. 01.01.01.01 - Duplica��o TH 39 - km 157,6 + 159,6 - SP-333 | PW ID: 131175 | ConnectedProjectId: da5fbcd7-9324-4d90-b8f6-afe7a69cd9ae
+002. 01.01.01.02 - Duplica��o TH 40 - km 159,6 + 173,5 - SP-333 | PW ID: 131586 | ConnectedProjectId: df5d89b3-f876-46c9-a375-b969482a57ab
+003. 01.01.01.03 - Duplica��o TH 41 - km 173,5 + 182,2 - SP-333 | PW ID: 131997 | ConnectedProjectId: 4bd0d076-2ce1-4a6f-9bbf-5abab29104ce
+004. 01.01.01.04 - Duplica��o TH 42 - km 182,2 + 212,5 - SP-333 | PW ID: 132408 | ConnectedProjectId: c636ed29-9ead-4752-abe1-616bd2644aa1
+005. 01.01.01.05 - Duplica��o TH 44- km 155,6 + 156,2 - SP-351 | PW ID: 132819 | ConnectedProjectId: 2c410832-5ae1-4aaa-a147-2ec4b83e7b3b
+006. 01.01.01.06 - Duplica��o TH 45 - km 157,3 + 166,3 - SP-351 | PW ID: 133230 | ConnectedProjectId: cf2d3df3-28b7-4630-a6f4-a1cfda3e57eb
+007. 01.01.01.07 - Duplica��o TH 46 - km 166,3 + 186,0 - SP-351 | PW ID: 133641 | ConnectedProjectId: 185eb150-58b2-41aa-8866-0102c2564e90
+008. 01.01.01.08 - Duplica��o TH 47 - km 186,0 + 193,8 - SP-351 | PW ID: 134052 | ConnectedProjectId: 2df9514c-ba54-41a2-9c5f-a78cebdae2cd
+009. 01.01.01.09 - Duplica��o TH 48 - km 193,8 + 210,8 - SP-351 | PW ID: 134463 | ConnectedProjectId: 60e339bb-7ce8-4d6c-bed9-49e74414dcb8
+010. 01.01.02.01 - Faixas Adicionais TH 02 - km 241,8 + 267,7 - SP-310 | PW ID: 176586 | ConnectedProjectId: de970ed2-fae6-4e0c-b1e7-2b71ba2f5ee6
+011. 01.01.02.02 - Faixas Adicionais TH 03 - km 267,7 + 282,4 - SP-310 | PW ID: 176998 | ConnectedProjectId: 5403cac8-059b-4d89-a817-1899082e3b2a
+012. 01.01.02.03 - Faixas Adicionais TH 04 - km 282,4 + 293,0 - SP-310 | PW ID: 177410 | ConnectedProjectId: 73d55551-b67a-4249-9ee0-85be7c383615
+013. 01.01.02.04 - Faixas Adicionais TH-09 - 320,4 + 321,6 - SP-310 | PW ID: 177822 | ConnectedProjectId: 66c777ab-7dfb-459e-81cc-8012f7be67bf
+014. 01.02.01.01 - OAE / OACs TH 40 - km 159,6 + 173,5 - SP-333 | PW ID: 178234 | ConnectedProjectId: 54d9f73c-ac64-4a0a-9a49-565a6b78e6ac
+015. 01.02.01.06 - OAE / OACs TH-47 - km 186,0 + 193,8 - SP-351 | PW ID: 394084 | ConnectedProjectId: 9163c899-2ba7-4b25-bb8b-a73f334f9355
+016. 01.02.02.01 - Amplia��es TH 02 - km 241,8 + 267,7 - SP-310 | PW ID: 181118 | ConnectedProjectId: 3b0ff334-6fc8-42d4-821f-6072730be261
+017. 01.02.02.02 - Amplia��es OAE / OAC TH 03  - km 267,7 + 282,4 - SP-310 | PW ID: 181530 | ConnectedProjectId: 1f868c37-492b-44d1-830b-789fa9ad28f7
+018. 01.03.01 - Interven��es TH 16 - km 425,000 + 454,300 - SP-310 | PW ID: 48324 | ConnectedProjectId: 07b0f25b-aefd-4f51-b6b8-2bf07589f26b
+019. 01.03.02 - Interven��es TH 01 - km 227,800 + 242,500 - SP-310 | PW ID: 48735 | ConnectedProjectId: af7e2556-31de-4caf-8f09-1e5e6a931d7b
+020. 01.03.03 - Duplica��o TH 36/37/38 -  km 144,000 + 158,000 - SP-333 | PW ID: 130763 | ConnectedProjectId: 0c5e2f46-e84b-4b54-b4c8-62d544012d96
+021. 01.03.04 - Viaduto TH 16 - km 439+700 - SP-310 | PW ID: 49146 | ConnectedProjectId: 4f167e1e-a280-4778-8103-714c9dcb2e3e
+022. 02.02.01.01.01 - Dispositivo TH 07 - km 304,7 - SP-310 | PW ID: 130352 | ConnectedProjectId: 6cf282ff-7fa1-4a11-9423-968e16d7f816
+023. 02.02.01.02.01 - Dispositivo TH 18 - km 13,3 - SP-323 | PW ID: 173642 | ConnectedProjectId: 349b58c6-4b4e-42a3-b6c8-46b0de77ee14
+024. 02.02.01.02.02 - Dispositivo TH 19 - km 15,2 - SP-323 | PW ID: 174053 | ConnectedProjectId: a8d0c648-723c-404a-9985-456be497164f
+025. 02.02.01.03.01 - Dispositivo TH 20 - km 20,4 - SP-323 | PW ID: 174464 | ConnectedProjectId: 2973ba9a-a459-401e-a4fb-f20afa252aff
+026. 02.02.01.04.01 - Dispositivo TH 21 - km 25,5 - SP-323 | PW ID: 186071 | ConnectedProjectId: 2afbaf38-c639-491b-b52c-e5578f674132
+027. 02.02.01.05.01 - Dispositivo TH 22 - km 33,0 - SP-323 | PW ID: 187307 | ConnectedProjectId: 12040464-3025-42d7-8dda-69bc252ce786
+028. 02.02.01.06.01 - Dispositivo TH 24 - km 40,6 - SP-323 | PW ID: 188131 | ConnectedProjectId: 5117b551-1ed7-4aff-a830-486b3a836250
+029. 02.02.01.07.01 - Dispositivo TH 40 - km 159,8 - SP-333 | PW ID: 188955 | ConnectedProjectId: ec15a823-b501-486d-86b1-0523dd24e31d
+030. 02.02.01.08.01 - Dispositivo TH 40 - km 168,3 - SP-333 | PW ID: 189779 | ConnectedProjectId: 742df7e1-4513-4a92-89d6-500117ca3136
+031. 02.02.01.08.02 - Dispositivo TH 40 - km 173,4 - SP-333 | PW ID: 190191 | ConnectedProjectId: 20ade866-a30f-4426-956e-f2a4d5f14828
+032. 02.02.01.12.01 - Dispositivo TH 44 - km 158,3 - SP-351 | PW ID: 176108 | ConnectedProjectId: 444c293b-fd0b-499b-9eb1-4c3816521843
+033. 02.02.01.13.01 - Dispositivo TH 45 - km 158,3 - SP-351 | PW ID: 193900 | ConnectedProjectId: 578d429e-de3d-45fd-9cf1-3e8e1468f252
+034. 02.02.01.14.01 - Dispositivo TH 45 - km 163,5 - SP-351 | PW ID: 194724 | ConnectedProjectId: 87b4bafa-144a-4e18-a7bb-0b2653a9ca0f
+035. 02.02.01.15.01 - Dispositivo TH 46 - km 167,4 - SP-351 | PW ID: 195548 | ConnectedProjectId: d4a637a6-6e1e-4acc-abe1-62fbbe697372
+036. 02.02.01.15.02 - Dispositivo TH 46 - km 174,6 - SP-351 | PW ID: 195960 | ConnectedProjectId: f7192fff-856c-4fdd-a042-fad5b3fc7d6e
+037. 02.02.01.16.01 - Dispositivo TH 46 - km 185,5 - SP-351 | PW ID: 196784 | ConnectedProjectId: 9963f12e-f784-4ab4-9b8b-94299f50eb4b
+038. 02.02.01.17.01 - Dispositivo TH 48 - km 193,9 - SP-351 | PW ID: 197608 | ConnectedProjectId: 074b779c-fec4-4941-9d89-e314780732f6
+039. 02.02.01.17.02 - Dispositivo TH 48 - km 196,2 - SP-351 | PW ID: 198020 | ConnectedProjectId: 1c0f0b99-a35c-436f-9cac-05b671c9bf2b
+040. 02.02.01.18.01 - Dispositivo TH 48 - km 206,9 - SP 351 | PW ID: 198844 | ConnectedProjectId: 19e233cd-0c90-4283-9393-5dde971b48ba
+041. 02.02.02.01.01 - Amplia��o Dispositivo TH 03 - km 268,3 - SP-310 | PW ID: 200080 | ConnectedProjectId: 70dfe555-b9a5-4960-9073-0431a5e05f95
+042. 02.02.02.01.02 - Amplia��o Dispositivo TH 03 - km 271,6 - SP-310 | PW ID: 200492 | ConnectedProjectId: 8bde709a-a131-446b-9e06-2d97bc08b565
+043. 02.02.02.03.01 - Amplia��o Dispositivo TH 06 - km 296,5 - SP-310 | PW ID: 129941 | ConnectedProjectId: a5206068-29ed-4048-bc77-3b002aef3d89
+044. 02.02.02.04.01 - Amplia��o Dispositivo TH 30  - km 379,0 - SP-326 | PW ID: 202553 | ConnectedProjectId: 3d020900-8ce5-407d-ba78-0f64b0ed0d40
+045. 02.02.02.05.01 - Dispositivo TH 39 -  km 157,5 - SP-333 | PW ID: 174875 | ConnectedProjectId: 0c78340b-9410-4a00-8c60-300606b860b1
+046. 02.02.02.08.01 - Amplia��o Dispositivo TH 43 - km 151,5 - SP-351 | PW ID: 175286 | ConnectedProjectId: e6c6ec20-5564-4d9d-bd08-fce2788e1541
+047. 02.02.02.09.01 - Amplia��o Dispositivo TH 44 - km 155,7 - SP-351 | PW ID: 175697 | ConnectedProjectId: 513d12f8-ca7f-451c-b211-adf50272b409
+048. 02.02.02.10.01 - Amplia��o Dispositivo TH 46 - km 182,8 - SP-351 | PW ID: 207087 | ConnectedProjectId: 61792758-88f1-4e17-b867-18e2982a8ca1
+049. 02.02.02.11.01 - Dispositivo TH 48 - km 194,5 - SP-351 | PW ID: 207911 | ConnectedProjectId: 56843352-ba9e-4dec-94f0-337110445953
+050. 02.04.03.01.01 - Acostamento TH 51 - km 0,000 + 0,450 - SPA-276 310 | PW ID: 163629 | ConnectedProjectId: 907f8e73-ba27-4f36-9ade-b8149e21e405
+051. 02.04.03.01.02 - Acostamento TH 52 - Km 0,000 + 0,090 - SPA-119  333 | PW ID: 164040 | ConnectedProjectId: 476a07cd-f65b-461f-a26c-3e9e5768ece0
+052. 02.04.03.02.01 - Acostamentos - km 227,800 + 454,300 - SP-310 | PW ID: 293433 | ConnectedProjectId: 8978b436-6e7d-49ae-94c2-d49247746d6e
+053. 02.04.03.02.02 - Acostamentos - km 0,000 + 44,100 - SP-323 | PW ID: 293844 | ConnectedProjectId: 20130837-337d-4dfe-b566-bb805b986f8e
+054. 02.04.03.02.03 - Acostamentos - km 293 ao 427 - SP-326 | PW ID: 294255 | ConnectedProjectId: ddf576e7-d623-4c1e-ae30-812815f245dd
+055. 02.04.03.02.04 - Acostamentos - km 83,020 + 212,450 - SP-333 | PW ID: 294666 | ConnectedProjectId: 07379b64-d463-4236-8c4b-3032021018a3
+056. 02.04.03.02.05 - Acostamentos - km 151,530 + 218,020 - SP-351 | PW ID: 295077 | ConnectedProjectId: fb85c471-8381-408b-8caa-7f8432dfba4c
+057. 02.06.02.06 - BSO 1 - km 009+470 - SP-323 | PW ID: 45849 | ConnectedProjectId: 0cbb899e-c0c8-45c1-872a-adb208f8d43c
+058. 02.06.02.07 - BSO 2 - km 036+800 - SP-323 | PW ID: 46260 | ConnectedProjectId: 5f965ca8-a4b4-430a-9719-dc133dc80de8
+059. 02.06.02.11 - BSO 3 - km 391+200 - SP-326 | PW ID: 46671 | ConnectedProjectId: 9bb64207-c9e1-4913-af6d-3860ad3286b1
+060. 02.06.02.12 - BSO 4 - km 409+200 - SP-326 | PW ID: 47082 | ConnectedProjectId: 33df92cc-9a4f-4244-b48f-8c7aaa61440d
+061. 02.06.02.16 - BSO 5 - km 161+750 - SP-351 | PW ID: 47493 | ConnectedProjectId: a7e4686c-1a85-4bb5-8aef-b5af1768ca0c
+062. 02.06.02.17 - BSO 6 - km 198+000 - SP-351 | PW ID: 47904 | ConnectedProjectId: f21e819c-50d4-48ce-accd-3152bdc37221
+063. 02.10.01.01 - Marginal TH 31 - km 420,290 + 424,800 - SP-326 | PW ID: 51751 | ConnectedProjectId: b3a75eae-72c9-46e4-9c17-64c240b7a251
+064. 02.11.01.01 - ADC Ibat� - km 252 - SP-310 | PW ID: 168238 | ConnectedProjectId: e17e072f-7d37-4652-b03f-8ee1b3d426a6
+065. 02.11.01.01 - ADC Mat�o - km 291 - SP-310 | PW ID: 168649 | ConnectedProjectId: 7813ecdd-b696-4275-a975-0c02b4c88da2
+066. 02.11.01.01 - ADC Uch�a - km 407 - SP-310 | PW ID: 169060 | ConnectedProjectId: 7f64ea9f-5006-4767-8372-9c6581fd7b66
+067. 02.12.01.02 - PMRv Canil SJRP - km 443,000 + 443,000 - SP-310 | PW ID: 353557 | ConnectedProjectId: 7b990f7e-b38b-4bdb-938a-716206cfb146
+068. 02.12.01.02 - PMRv SJRP - km 443,000 + 443,000 - SP-310 | PW ID: 308506 | ConnectedProjectId: 7b990f7e-b38b-4bdb-938a-716206cfb146
+069. 02.12.02.02 - PMRV Araraquara - km 273+400 - SP-310 | PW ID: 305332 | ConnectedProjectId: c6f0f752-7195-4d37-90c0-7fc5ed572f20
+070. 02.14.01.03 - Ciclovias - km 17 - SP-326 | PW ID: 311031 | ConnectedProjectId: 60655bb5-d2a2-475f-8be0-29f9a9986ceb
+071. 03.03.03 - Free Flow Colina - km 407 - SP-326 | PW ID: 368247 | ConnectedProjectId: 2679ae89-fdf4-4187-8618-557aaedca8c8
+072. 03.03.03 - Free Flow Dobrada - km 307 - SP-326 | PW ID: 308937 | ConnectedProjectId: bafe7316-2a95-4212-9923-5420b514e1f9
+073. 03.03.03 - Free Flow It�polis - km 178 - SP-333 | PW ID: 309761 | ConnectedProjectId: 9ca757d7-9488-4dca-bb0d-642b460b2587
+074. 03.03.03 - Free Flow Jaboticabal - km 111 - SP-333 | PW ID: 311038 | ConnectedProjectId: 2f7b6778-997a-4b75-a58f-19ee2af2659c
+075. 03.03.03 - Free Flow Monte Alto - km 19 - SP-323 | PW ID: 368214 | ConnectedProjectId: f94afb2b-a68c-4f7b-bdef-4d9e7f16d1ad
+076. 03.03.03 - Free Flow Piragi - km 184 - SP-351 | PW ID: 368280 | ConnectedProjectId: fce53dca-a6f5-487c-8305-63d85a676fde
+077. 03.03.03 - Free Flow Tai�va - km 356 - SP-326 | PW ID: 309349 | ConnectedProjectId: 26456005-2ac5-45f7-9671-0bb330773cb1
+078. CCPP -  Uch�a - km 415+200 - SP-310 | PW ID: 302857 | ConnectedProjectId: 0a00adcd-a028-48ae-97d4-e6366b136930
+079. CCPP - Bebedouro - km 375+850 - SP-310 | PW ID: 303271 | ConnectedProjectId: 135128d2-1bf2-4166-808a-a98d6265eedd
+080. CCPP - It�polis - km 181+500 - SP-310 | PW ID: 303682 | ConnectedProjectId: fa520639-de8d-4449-89b2-6c7471e4b27d
+081. CCPP - Jaboticabal - km 335+260 - SP-310 | PW ID: 304097 | ConnectedProjectId: c7ade8b7-aa20-4853-a8b9-8e5afa93aacd
+082. CCPP - S�o Carlos - km 233+900 - SP-310 | PW ID: 304508 | ConnectedProjectId: 0e3a0440-03ae-4387-ac5a-07d5b5b1b133
+083. CCPP - S�o Jos� - km 434+700 - SP-310 | PW ID: 304919 | ConnectedProjectId: 249afd3a-5046-483e-9a0e-64aa0c2ed9a1
+084. HS-WIM 01 - km 250 - SP-310 | PW ID: 166594 | ConnectedProjectId: e67e4d1d-ea5c-46ef-b060-846dccaa62e6
+085. HS-WIM 02 - km 264 - SP-310 | PW ID: 167005 | ConnectedProjectId: 1333da87-c946-43a1-ad5b-b37ec599b1ad
+086. HS-WIM 03 - km 373 - SP-326 | PW ID: 167827 | ConnectedProjectId: 23119fcd-6c22-4965-98f7-09b41fc22b05
+087. HS-WIM 04 - km 388 - SP-310 | PW ID: 167416 | ConnectedProjectId: 25d87e38-f330-48f9-90cb-836d0d7a53c0
+088. NOP01 - Faixa Adicional SC - km 227+800 - 231+320- SP-310 | PW ID: 396194 | ConnectedProjectId: f09802b3-356b-4e7a-a158-8497fd5cf63f
+089. NOP02 - Faixa Adicional SC - km 227+800 - 230+750 - SP-310 | PW ID: 396217 | ConnectedProjectId: 409a27f7-d2db-4895-9228-f397b29172b0
+090. NOP03 - Melhoria do Dispositivo SC - km 235+000 - SP-310 | PW ID: 397080 | ConnectedProjectId: 7ecf51ef-6c25-491d-aebc-1ec55dacb89b
+091. NOP04 - Melhoria do Dispositivo SC - km 236+100 - SP-310 | PW ID: 397103 | ConnectedProjectId: caf40341-fe8a-4819-aecb-40fab935a96e
+092. NOP05 - Implanta��o de Dispositivo SC - km 238+200 - SP-310 | PW ID: 397126 | ConnectedProjectId: f732f120-7b18-4f6e-b8ed-cb272a4c5568
+093. NOP06 - Faixa Adicional - km 238+524 - 240+370 - SP-310 Excluir | PW ID: 396240 | ConnectedProjectId: e6d1afaf-9d87-4568-9e5e-03836772b79d
+094. NOP07 - Melhoria do Dispositivo SC - km 240+000 - SP-310 | PW ID: 397149 | ConnectedProjectId: 94c4704c-51f9-4b37-b300-06dbb7c74798
+095. NOP11 - Amplia��o de Dispositivo SJRP - km 432+200 - SP-310 | PW ID: 397172 | ConnectedProjectId: ec3a0986-a5cb-431d-9b7a-8b29b7821ae7
+096. NOP12 - Faixa Adicional SJRP- km 451+780 - 454+740 - SP-310 | PW ID: 396286 | ConnectedProjectId: c15529f9-7d48-41cb-9736-f6c16f1bc425
+097. NOP13 - Implanta��o de Viaduto MR - km 448+000 - SP-310 | PW ID: 396516 | ConnectedProjectId: eb992b2a-1486-4a2f-8ad1-cac93f4c3056
+098. NOP15 - Implanta��o de Viaduto MR - km 453+180 - SP-310 | PW ID: 396539 | ConnectedProjectId: e500b7b5-8c47-45fc-8c94-aa7e2952b70e
+099. NOP18 - Implanta��o de Dispositivo PP - km 203+210 - SP-351 | PW ID: 397195 | ConnectedProjectId: 5493e24d-b87d-4c55-8fd2-aea734f846a3
+100. NOP20 - Melhoria do dispositivo JT - km 341+000 - SP-326 | PW ID: 397218 | ConnectedProjectId: 5474b444-edb6-4c5e-a9c2-8c283d8bfba8
+101. NOP22 - Adequa��o de Dispositivo BA - km 423+100 - SP-326 | PW ID: 397241 | ConnectedProjectId: fb35bafe-0b18-41a1-8bba-0874dd3518c0
+102. NOP24 - Implanta��o de Viaduto CA - km 217+245 - SP-351 | PW ID: 396562 | ConnectedProjectId: b1f7e14a-edc5-4bdb-b77a-f59a5d4edc4e
+103. NOP25 - Dispositivo - km 162+800 - SP-333 | PW ID: 425834 | ConnectedProjectId: 68772f46-04a8-4060-ba8f-46571618bfbe
+104. NOP8910 - Faixa Adicional SJRP - 425+000 - 432+900 - SP-310 | PW ID: 396263 | ConnectedProjectId: f1ff8854-0084-4d9d-98d1-55df1b94e0f7
+105. Teste GIR | PW ID: 362192 | ConnectedProjectId: 8f315e57-77f1-40e9-a3e5-7592e388b19b
+
+Modo de usuarios
+01. Usuario unico
+02. Lote por planilha .xlsx
+Escolha [1/2]: > 02
+
+[OK] Planilha importada: C:\Users\peter\OneDrive\Desktop\UsuariosPorDescricao_20260803_095501\Usuarios_Descricao_Gestor Engenharia.xlsx
+- Aba: Usuarios
+- Linhas validas: 2
+- Linhas invalidas ignoradas: 0
+- Projeto: sem coluna de projeto, os usuarios serao aplicados a todos os projetos selecionados.
+- Role: sera selecionada no RBAC para as linhas sem coluna/valor de role.
+[1/9] Abrindo navegador visual...
+[2/9] Acessando tela de membros RBAC: https://connect-rbacportal.bentley.com/Manage/da5fbcd7-9324-4d90-b8f6-afe7a69cd9ae/users
+
+Se necessario, faca login manualmente no navegador.
+Quando estiver autenticado e a tela carregar, pressione ENTER no terminal...> [CONTINUAR]
+  [AVISO] A pagina ainda estava navegando; repetindo a consulta RBAC...
+  [INFO] Roles extraidas dos membros existentes: 5
+
+Role RBAC para linhas sem role informada
+Escolha pelo numero abaixo. ENTER usa Team Member.
+01. iTwin owner (enterprise)
+02. PWDM Administrator (enterprise)
+03. PWDM Issuer (enterprise)
+04. PWDM Receiver (enterprise)
+05. Team Member (enterprise) [padrao]
+06. PWDM Approver (iTwin)
+Numero ou nome da role: > [CONTINUAR]
+[OK] Role selecionada para linhas sem role: Team Member
+
+[7/9] Lendo roles e membros nos projetos selecionados...
+- Linha 2 (1/2): esdras.ferreira@ecorodovias.com.br -> 105 projeto(s) [todos]
+  Consultando roles: 01.01.01.01 - Duplica��o TH 39 - km 157,6 + 159,6 - SP-333 (da5fbcd7-9324-4d90-b8f6-afe7a69cd9ae)
+  Consultando membros: 01.01.01.01 - Duplica��o TH 39 - km 157,6 + 159,6 - SP-333 (da5fbcd7-9324-4d90-b8f6-afe7a69cd9ae)
+  Consultando convites: 01.01.01.01 - Duplica��o TH 39 - km 157,6 + 159,6 - SP-333 (da5fbcd7-9324-4d90-b8f6-afe7a69cd9ae)
+  Consultando roles: 01.01.01.02 - Duplica��o TH 40 - km 159,6 + 173,5 - SP-333 (df5d89b3-f876-46c9-a375-b969482a57ab)
+  Consultando membros: 01.01.01.02 - Duplica��o TH 40 - km 159,6 + 173,5 - SP-333 (df5d89b3-f876-46c9-a375-b969482a57ab)
+  Consultando convites: 01.01.01.02 - Duplica��o TH 40 - km 159,6 + 173,5 - SP-333 (df5d89b3-f876-46c9-a375-b969482a57ab)
+  Consultando roles: 01.01.01.03 - Duplica��o TH 41 - km 173,5 + 182,2 - SP-333 (4bd0d076-2ce1-4a6f-9bbf-5abab29104ce)
+  Consultando membros: 01.01.01.03 - Duplica��o TH 41 - km 173,5 + 182,2 - SP-333 (4bd0d076-2ce1-4a6f-9bbf-5abab29104ce)
+  Consultando convites: 01.01.01.03 - Duplica��o TH 41 - km 173,5 + 182,2 - SP-333 (4bd0d076-2ce1-4a6f-9bbf-5abab29104ce)
+  Consultando roles: 01.01.01.04 - Duplica��o TH 42 - km 182,2 + 212,5 - SP-333 (c636ed29-9ead-4752-abe1-616bd2644aa1)
+  Consultando membros: 01.01.01.04 - Duplica��o TH 42 - km 182,2 + 212,5 - SP-333 (c636ed29-9ead-4752-abe1-616bd2644aa1)
+  Consultando convites: 01.01.01.04 - Duplica��o TH 42 - km 182,2 + 212,5 - SP-333 (c636ed29-9ead-4752-abe1-616bd2644aa1)
+  Consultando roles: 01.01.01.05 - Duplica��o TH 44- km 155,6 + 156,2 - SP-351 (2c410832-5ae1-4aaa-a147-2ec4b83e7b3b)
+  Consultando membros: 01.01.01.05 - Duplica��o TH 44- km 155,6 + 156,2 - SP-351 (2c410832-5ae1-4aaa-a147-2ec4b83e7b3b)
+  Consultando convites: 01.01.01.05 - Duplica��o TH 44- km 155,6 + 156,2 - SP-351 (2c410832-5ae1-4aaa-a147-2ec4b83e7b3b)
+  Consultando roles: 01.01.01.06 - Duplica��o TH 45 - km 157,3 + 166,3 - SP-351 (cf2d3df3-28b7-4630-a6f4-a1cfda3e57eb)
+  Consultando membros: 01.01.01.06 - Duplica��o TH 45 - km 157,3 + 166,3 - SP-351 (cf2d3df3-28b7-4630-a6f4-a1cfda3e57eb)
+  Consultando convites: 01.01.01.06 - Duplica��o TH 45 - km 157,3 + 166,3 - SP-351 (cf2d3df3-28b7-4630-a6f4-a1cfda3e57eb)
+  Consultando roles: 01.01.01.07 - Duplica��o TH 46 - km 166,3 + 186,0 - SP-351 (185eb150-58b2-41aa-8866-0102c2564e90)
+  Consultando membros: 01.01.01.07 - Duplica��o TH 46 - km 166,3 + 186,0 - SP-351 (185eb150-58b2-41aa-8866-0102c2564e90)
+  Consultando convites: 01.01.01.07 - Duplica��o TH 46 - km 166,3 + 186,0 - SP-351 (185eb150-58b2-41aa-8866-0102c2564e90)
+  Consultando roles: 01.01.01.08 - Duplica��o TH 47 - km 186,0 + 193,8 - SP-351 (2df9514c-ba54-41a2-9c5f-a78cebdae2cd)
+  Consultando membros: 01.01.01.08 - Duplica��o TH 47 - km 186,0 + 193,8 - SP-351 (2df9514c-ba54-41a2-9c5f-a78cebdae2cd)
+  Consultando convites: 01.01.01.08 - Duplica��o TH 47 - km 186,0 + 193,8 - SP-351 (2df9514c-ba54-41a2-9c5f-a78cebdae2cd)
+  Consultando roles: 01.01.01.09 - Duplica��o TH 48 - km 193,8 + 210,8 - SP-351 (60e339bb-7ce8-4d6c-bed9-49e74414dcb8)
+  Consultando membros: 01.01.01.09 - Duplica��o TH 48 - km 193,8 + 210,8 - SP-351 (60e339bb-7ce8-4d6c-bed9-49e74414dcb8)
+  Consultando convites: 01.01.01.09 - Duplica��o TH 48 - km 193,8 + 210,8 - SP-351 (60e339bb-7ce8-4d6c-bed9-49e74414dcb8)
+  Consultando roles: 01.01.02.01 - Faixas Adicionais TH 02 - km 241,8 + 267,7 - SP-310 (de970ed2-fae6-4e0c-b1e7-2b71ba2f5ee6)
+  Consultando membros: 01.01.02.01 - Faixas Adicionais TH 02 - km 241,8 + 267,7 - SP-310 (de970ed2-fae6-4e0c-b1e7-2b71ba2f5ee6)
+  Consultando convites: 01.01.02.01 - Faixas Adicionais TH 02 - km 241,8 + 267,7 - SP-310 (de970ed2-fae6-4e0c-b1e7-2b71ba2f5ee6)
+  Consultando roles: 01.01.02.02 - Faixas Adicionais TH 03 - km 267,7 + 282,4 - SP-310 (5403cac8-059b-4d89-a817-1899082e3b2a)
+  Consultando membros: 01.01.02.02 - Faixas Adicionais TH 03 - km 267,7 + 282,4 - SP-310 (5403cac8-059b-4d89-a817-1899082e3b2a)
+  Consultando convites: 01.01.02.02 - Faixas Adicionais TH 03 - km 267,7 + 282,4 - SP-310 (5403cac8-059b-4d89-a817-1899082e3b2a)
+  Consultando roles: 01.01.02.03 - Faixas Adicionais TH 04 - km 282,4 + 293,0 - SP-310 (73d55551-b67a-4249-9ee0-85be7c383615)
+  Consultando membros: 01.01.02.03 - Faixas Adicionais TH 04 - km 282,4 + 293,0 - SP-310 (73d55551-b67a-4249-9ee0-85be7c383615)
+  Consultando convites: 01.01.02.03 - Faixas Adicionais TH 04 - km 282,4 + 293,0 - SP-310 (73d55551-b67a-4249-9ee0-85be7c383615)
+  Consultando roles: 01.01.02.04 - Faixas Adicionais TH-09 - 320,4 + 321,6 - SP-310 (66c777ab-7dfb-459e-81cc-8012f7be67bf)
+  Consultando membros: 01.01.02.04 - Faixas Adicionais TH-09 - 320,4 + 321,6 - SP-310 (66c777ab-7dfb-459e-81cc-8012f7be67bf)
+  Consultando convites: 01.01.02.04 - Faixas Adicionais TH-09 - 320,4 + 321,6 - SP-310 (66c777ab-7dfb-459e-81cc-8012f7be67bf)
+  Consultando roles: 01.02.01.01 - OAE / OACs TH 40 - km 159,6 + 173,5 - SP-333 (54d9f73c-ac64-4a0a-9a49-565a6b78e6ac)
+  Consultando membros: 01.02.01.01 - OAE / OACs TH 40 - km 159,6 + 173,5 - SP-333 (54d9f73c-ac64-4a0a-9a49-565a6b78e6ac)
+  Consultando convites: 01.02.01.01 - OAE / OACs TH 40 - km 159,6 + 173,5 - SP-333 (54d9f73c-ac64-4a0a-9a49-565a6b78e6ac)
+  Consultando roles: 01.02.01.06 - OAE / OACs TH-47 - km 186,0 + 193,8 - SP-351 (9163c899-2ba7-4b25-bb8b-a73f334f9355)
+  Consultando membros: 01.02.01.06 - OAE / OACs TH-47 - km 186,0 + 193,8 - SP-351 (9163c899-2ba7-4b25-bb8b-a73f334f9355)
+  Consultando convites: 01.02.01.06 - OAE / OACs TH-47 - km 186,0 + 193,8 - SP-351 (9163c899-2ba7-4b25-bb8b-a73f334f9355)
+  Consultando roles: 01.02.02.01 - Amplia��es TH 02 - km 241,8 + 267,7 - SP-310 (3b0ff334-6fc8-42d4-821f-6072730be261)
+  Consultando membros: 01.02.02.01 - Amplia��es TH 02 - km 241,8 + 267,7 - SP-310 (3b0ff334-6fc8-42d4-821f-6072730be261)
+  Consultando convites: 01.02.02.01 - Amplia��es TH 02 - km 241,8 + 267,7 - SP-310 (3b0ff334-6fc8-42d4-821f-6072730be261)
+  Consultando roles: 01.02.02.02 - Amplia��es OAE / OAC TH 03  - km 267,7 + 282,4 - SP-310 (1f868c37-492b-44d1-830b-789fa9ad28f7)
+  Consultando membros: 01.02.02.02 - Amplia��es OAE / OAC TH 03  - km 267,7 + 282,4 - SP-310 (1f868c37-492b-44d1-830b-789fa9ad28f7)
+  Consultando convites: 01.02.02.02 - Amplia��es OAE / OAC TH 03  - km 267,7 + 282,4 - SP-310 (1f868c37-492b-44d1-830b-789fa9ad28f7)
+  Consultando roles: 01.03.01 - Interven��es TH 16 - km 425,000 + 454,300 - SP-310 (07b0f25b-aefd-4f51-b6b8-2bf07589f26b)
+  Consultando membros: 01.03.01 - Interven��es TH 16 - km 425,000 + 454,300 - SP-310 (07b0f25b-aefd-4f51-b6b8-2bf07589f26b)
+  Consultando convites: 01.03.01 - Interven��es TH 16 - km 425,000 + 454,300 - SP-310 (07b0f25b-aefd-4f51-b6b8-2bf07589f26b)
+  Consultando roles: 01.03.02 - Interven��es TH 01 - km 227,800 + 242,500 - SP-310 (af7e2556-31de-4caf-8f09-1e5e6a931d7b)
+  Consultando membros: 01.03.02 - Interven��es TH 01 - km 227,800 + 242,500 - SP-310 (af7e2556-31de-4caf-8f09-1e5e6a931d7b)
+  Consultando convites: 01.03.02 - Interven��es TH 01 - km 227,800 + 242,500 - SP-310 (af7e2556-31de-4caf-8f09-1e5e6a931d7b)
+  Consultando roles: 01.03.03 - Duplica��o TH 36/37/38 -  km 144,000 + 158,000 - SP-333 (0c5e2f46-e84b-4b54-b4c8-62d544012d96)
+  Consultando membros: 01.03.03 - Duplica��o TH 36/37/38 -  km 144,000 + 158,000 - SP-333 (0c5e2f46-e84b-4b54-b4c8-62d544012d96)
+  Consultando convites: 01.03.03 - Duplica��o TH 36/37/38 -  km 144,000 + 158,000 - SP-333 (0c5e2f46-e84b-4b54-b4c8-62d544012d96)
+  Consultando roles: 01.03.04 - Viaduto TH 16 - km 439+700 - SP-310 (4f167e1e-a280-4778-8103-714c9dcb2e3e)
+  Consultando membros: 01.03.04 - Viaduto TH 16 - km 439+700 - SP-310 (4f167e1e-a280-4778-8103-714c9dcb2e3e)
+  Consultando convites: 01.03.04 - Viaduto TH 16 - km 439+700 - SP-310 (4f167e1e-a280-4778-8103-714c9dcb2e3e)
+  Consultando roles: 02.02.01.01.01 - Dispositivo TH 07 - km 304,7 - SP-310 (6cf282ff-7fa1-4a11-9423-968e16d7f816)
+  Consultando membros: 02.02.01.01.01 - Dispositivo TH 07 - km 304,7 - SP-310 (6cf282ff-7fa1-4a11-9423-968e16d7f816)
+  Consultando convites: 02.02.01.01.01 - Dispositivo TH 07 - km 304,7 - SP-310 (6cf282ff-7fa1-4a11-9423-968e16d7f816)
+  Consultando roles: 02.02.01.02.01 - Dispositivo TH 18 - km 13,3 - SP-323 (349b58c6-4b4e-42a3-b6c8-46b0de77ee14)
+  Consultando membros: 02.02.01.02.01 - Dispositivo TH 18 - km 13,3 - SP-323 (349b58c6-4b4e-42a3-b6c8-46b0de77ee14)
+  Consultando convites: 02.02.01.02.01 - Dispositivo TH 18 - km 13,3 - SP-323 (349b58c6-4b4e-42a3-b6c8-46b0de77ee14)
+  Consultando roles: 02.02.01.02.02 - Dispositivo TH 19 - km 15,2 - SP-323 (a8d0c648-723c-404a-9985-456be497164f)
+  Consultando membros: 02.02.01.02.02 - Dispositivo TH 19 - km 15,2 - SP-323 (a8d0c648-723c-404a-9985-456be497164f)
+  Consultando convites: 02.02.01.02.02 - Dispositivo TH 19 - km 15,2 - SP-323 (a8d0c648-723c-404a-9985-456be497164f)
+  Consultando roles: 02.02.01.03.01 - Dispositivo TH 20 - km 20,4 - SP-323 (2973ba9a-a459-401e-a4fb-f20afa252aff)
+  Consultando membros: 02.02.01.03.01 - Dispositivo TH 20 - km 20,4 - SP-323 (2973ba9a-a459-401e-a4fb-f20afa252aff)
+  Consultando convites: 02.02.01.03.01 - Dispositivo TH 20 - km 20,4 - SP-323 (2973ba9a-a459-401e-a4fb-f20afa252aff)
+  Consultando roles: 02.02.01.04.01 - Dispositivo TH 21 - km 25,5 - SP-323 (2afbaf38-c639-491b-b52c-e5578f674132)
+  Consultando membros: 02.02.01.04.01 - Dispositivo TH 21 - km 25,5 - SP-323 (2afbaf38-c639-491b-b52c-e5578f674132)
+  Consultando convites: 02.02.01.04.01 - Dispositivo TH 21 - km 25,5 - SP-323 (2afbaf38-c639-491b-b52c-e5578f674132)
+  Consultando roles: 02.02.01.05.01 - Dispositivo TH 22 - km 33,0 - SP-323 (12040464-3025-42d7-8dda-69bc252ce786)
+  Consultando membros: 02.02.01.05.01 - Dispositivo TH 22 - km 33,0 - SP-323 (12040464-3025-42d7-8dda-69bc252ce786)
+  Consultando convites: 02.02.01.05.01 - Dispositivo TH 22 - km 33,0 - SP-323 (12040464-3025-42d7-8dda-69bc252ce786)
+  Consultando roles: 02.02.01.06.01 - Dispositivo TH 24 - km 40,6 - SP-323 (5117b551-1ed7-4aff-a830-486b3a836250)
+  Consultando membros: 02.02.01.06.01 - Dispositivo TH 24 - km 40,6 - SP-323 (5117b551-1ed7-4aff-a830-486b3a836250)
+  Consultando convites: 02.02.01.06.01 - Dispositivo TH 24 - km 40,6 - SP-323 (5117b551-1ed7-4aff-a830-486b3a836250)
+  Consultando roles: 02.02.01.07.01 - Dispositivo TH 40 - km 159,8 - SP-333 (ec15a823-b501-486d-86b1-0523dd24e31d)
+  Consultando membros: 02.02.01.07.01 - Dispositivo TH 40 - km 159,8 - SP-333 (ec15a823-b501-486d-86b1-0523dd24e31d)
+  Consultando convites: 02.02.01.07.01 - Dispositivo TH 40 - km 159,8 - SP-333 (ec15a823-b501-486d-86b1-0523dd24e31d)
+  Consultando roles: 02.02.01.08.01 - Dispositivo TH 40 - km 168,3 - SP-333 (742df7e1-4513-4a92-89d6-500117ca3136)
+  Consultando membros: 02.02.01.08.01 - Dispositivo TH 40 - km 168,3 - SP-333 (742df7e1-4513-4a92-89d6-500117ca3136)
+  Consultando convites: 02.02.01.08.01 - Dispositivo TH 40 - km 168,3 - SP-333 (742df7e1-4513-4a92-89d6-500117ca3136)
+  Consultando roles: 02.02.01.08.02 - Dispositivo TH 40 - km 173,4 - SP-333 (20ade866-a30f-4426-956e-f2a4d5f14828)
+  Consultando membros: 02.02.01.08.02 - Dispositivo TH 40 - km 173,4 - SP-333 (20ade866-a30f-4426-956e-f2a4d5f14828)
+  Consultando convites: 02.02.01.08.02 - Dispositivo TH 40 - km 173,4 - SP-333 (20ade866-a30f-4426-956e-f2a4d5f14828)
+  Consultando roles: 02.02.01.12.01 - Dispositivo TH 44 - km 158,3 - SP-351 (444c293b-fd0b-499b-9eb1-4c3816521843)
+  Consultando membros: 02.02.01.12.01 - Dispositivo TH 44 - km 158,3 - SP-351 (444c293b-fd0b-499b-9eb1-4c3816521843)
+  Consultando convites: 02.02.01.12.01 - Dispositivo TH 44 - km 158,3 - SP-351 (444c293b-fd0b-499b-9eb1-4c3816521843)
+  Consultando roles: 02.02.01.13.01 - Dispositivo TH 45 - km 158,3 - SP-351 (578d429e-de3d-45fd-9cf1-3e8e1468f252)
+  Consultando membros: 02.02.01.13.01 - Dispositivo TH 45 - km 158,3 - SP-351 (578d429e-de3d-45fd-9cf1-3e8e1468f252)
+  Consultando convites: 02.02.01.13.01 - Dispositivo TH 45 - km 158,3 - SP-351 (578d429e-de3d-45fd-9cf1-3e8e1468f252)
+  Consultando roles: 02.02.01.14.01 - Dispositivo TH 45 - km 163,5 - SP-351 (87b4bafa-144a-4e18-a7bb-0b2653a9ca0f)
+  Consultando membros: 02.02.01.14.01 - Dispositivo TH 45 - km 163,5 - SP-351 (87b4bafa-144a-4e18-a7bb-0b2653a9ca0f)
+  Consultando convites: 02.02.01.14.01 - Dispositivo TH 45 - km 163,5 - SP-351 (87b4bafa-144a-4e18-a7bb-0b2653a9ca0f)
+  Consultando roles: 02.02.01.15.01 - Dispositivo TH 46 - km 167,4 - SP-351 (d4a637a6-6e1e-4acc-abe1-62fbbe697372)
+  Consultando membros: 02.02.01.15.01 - Dispositivo TH 46 - km 167,4 - SP-351 (d4a637a6-6e1e-4acc-abe1-62fbbe697372)
+  Consultando convites: 02.02.01.15.01 - Dispositivo TH 46 - km 167,4 - SP-351 (d4a637a6-6e1e-4acc-abe1-62fbbe697372)
+  Consultando roles: 02.02.01.15.02 - Dispositivo TH 46 - km 174,6 - SP-351 (f7192fff-856c-4fdd-a042-fad5b3fc7d6e)
+  Consultando membros: 02.02.01.15.02 - Dispositivo TH 46 - km 174,6 - SP-351 (f7192fff-856c-4fdd-a042-fad5b3fc7d6e)
+  Consultando convites: 02.02.01.15.02 - Dispositivo TH 46 - km 174,6 - SP-351 (f7192fff-856c-4fdd-a042-fad5b3fc7d6e)
+  Consultando roles: 02.02.01.16.01 - Dispositivo TH 46 - km 185,5 - SP-351 (9963f12e-f784-4ab4-9b8b-94299f50eb4b)
+  Consultando membros: 02.02.01.16.01 - Dispositivo TH 46 - km 185,5 - SP-351 (9963f12e-f784-4ab4-9b8b-94299f50eb4b)
+  Consultando convites: 02.02.01.16.01 - Dispositivo TH 46 - km 185,5 - SP-351 (9963f12e-f784-4ab4-9b8b-94299f50eb4b)
+  Consultando roles: 02.02.01.17.01 - Dispositivo TH 48 - km 193,9 - SP-351 (074b779c-fec4-4941-9d89-e314780732f6)
+  Consultando membros: 02.02.01.17.01 - Dispositivo TH 48 - km 193,9 - SP-351 (074b779c-fec4-4941-9d89-e314780732f6)
+  Consultando convites: 02.02.01.17.01 - Dispositivo TH 48 - km 193,9 - SP-351 (074b779c-fec4-4941-9d89-e314780732f6)
+  Consultando roles: 02.02.01.17.02 - Dispositivo TH 48 - km 196,2 - SP-351 (1c0f0b99-a35c-436f-9cac-05b671c9bf2b)
+  Consultando membros: 02.02.01.17.02 - Dispositivo TH 48 - km 196,2 - SP-351 (1c0f0b99-a35c-436f-9cac-05b671c9bf2b)
+  Consultando convites: 02.02.01.17.02 - Dispositivo TH 48 - km 196,2 - SP-351 (1c0f0b99-a35c-436f-9cac-05b671c9bf2b)
+  Consultando roles: 02.02.01.18.01 - Dispositivo TH 48 - km 206,9 - SP 351 (19e233cd-0c90-4283-9393-5dde971b48ba)
+  Consultando membros: 02.02.01.18.01 - Dispositivo TH 48 - km 206,9 - SP 351 (19e233cd-0c90-4283-9393-5dde971b48ba)
+  Consultando convites: 02.02.01.18.01 - Dispositivo TH 48 - km 206,9 - SP 351 (19e233cd-0c90-4283-9393-5dde971b48ba)
+  Consultando roles: 02.02.02.01.01 - Amplia��o Dispositivo TH 03 - km 268,3 - SP-310 (70dfe555-b9a5-4960-9073-0431a5e05f95)
+  Consultando membros: 02.02.02.01.01 - Amplia��o Dispositivo TH 03 - km 268,3 - SP-310 (70dfe555-b9a5-4960-9073-0431a5e05f95)
+  Consultando convites: 02.02.02.01.01 - Amplia��o Dispositivo TH 03 - km 268,3 - SP-310 (70dfe555-b9a5-4960-9073-0431a5e05f95)
+  Consultando roles: 02.02.02.01.02 - Amplia��o Dispositivo TH 03 - km 271,6 - SP-310 (8bde709a-a131-446b-9e06-2d97bc08b565)
+  Consultando membros: 02.02.02.01.02 - Amplia��o Dispositivo TH 03 - km 271,6 - SP-310 (8bde709a-a131-446b-9e06-2d97bc08b565)
+  Consultando convites: 02.02.02.01.02 - Amplia��o Dispositivo TH 03 - km 271,6 - SP-310 (8bde709a-a131-446b-9e06-2d97bc08b565)
+  Consultando roles: 02.02.02.03.01 - Amplia��o Dispositivo TH 06 - km 296,5 - SP-310 (a5206068-29ed-4048-bc77-3b002aef3d89)
+  Consultando membros: 02.02.02.03.01 - Amplia��o Dispositivo TH 06 - km 296,5 - SP-310 (a5206068-29ed-4048-bc77-3b002aef3d89)
+  Consultando convites: 02.02.02.03.01 - Amplia��o Dispositivo TH 06 - km 296,5 - SP-310 (a5206068-29ed-4048-bc77-3b002aef3d89)
+  Consultando roles: 02.02.02.04.01 - Amplia��o Dispositivo TH 30  - km 379,0 - SP-326 (3d020900-8ce5-407d-ba78-0f64b0ed0d40)
+  Consultando membros: 02.02.02.04.01 - Amplia��o Dispositivo TH 30  - km 379,0 - SP-326 (3d020900-8ce5-407d-ba78-0f64b0ed0d40)
+  Consultando convites: 02.02.02.04.01 - Amplia��o Dispositivo TH 30  - km 379,0 - SP-326 (3d020900-8ce5-407d-ba78-0f64b0ed0d40)
+  Consultando roles: 02.02.02.05.01 - Dispositivo TH 39 -  km 157,5 - SP-333 (0c78340b-9410-4a00-8c60-300606b860b1)
+  Consultando membros: 02.02.02.05.01 - Dispositivo TH 39 -  km 157,5 - SP-333 (0c78340b-9410-4a00-8c60-300606b860b1)
+  Consultando convites: 02.02.02.05.01 - Dispositivo TH 39 -  km 157,5 - SP-333 (0c78340b-9410-4a00-8c60-300606b860b1)
+  Consultando roles: 02.02.02.08.01 - Amplia��o Dispositivo TH 43 - km 151,5 - SP-351 (e6c6ec20-5564-4d9d-bd08-fce2788e1541)
+  Consultando membros: 02.02.02.08.01 - Amplia��o Dispositivo TH 43 - km 151,5 - SP-351 (e6c6ec20-5564-4d9d-bd08-fce2788e1541)
+  Consultando convites: 02.02.02.08.01 - Amplia��o Dispositivo TH 43 - km 151,5 - SP-351 (e6c6ec20-5564-4d9d-bd08-fce2788e1541)
+  Consultando roles: 02.02.02.09.01 - Amplia��o Dispositivo TH 44 - km 155,7 - SP-351 (513d12f8-ca7f-451c-b211-adf50272b409)
+  Consultando membros: 02.02.02.09.01 - Amplia��o Dispositivo TH 44 - km 155,7 - SP-351 (513d12f8-ca7f-451c-b211-adf50272b409)
+  Consultando convites: 02.02.02.09.01 - Amplia��o Dispositivo TH 44 - km 155,7 - SP-351 (513d12f8-ca7f-451c-b211-adf50272b409)
+  Consultando roles: 02.02.02.10.01 - Amplia��o Dispositivo TH 46 - km 182,8 - SP-351 (61792758-88f1-4e17-b867-18e2982a8ca1)
+  Consultando membros: 02.02.02.10.01 - Amplia��o Dispositivo TH 46 - km 182,8 - SP-351 (61792758-88f1-4e17-b867-18e2982a8ca1)
+  Consultando convites: 02.02.02.10.01 - Amplia��o Dispositivo TH 46 - km 182,8 - SP-351 (61792758-88f1-4e17-b867-18e2982a8ca1)
+  Consultando roles: 02.02.02.11.01 - Dispositivo TH 48 - km 194,5 - SP-351 (56843352-ba9e-4dec-94f0-337110445953)
+  Consultando membros: 02.02.02.11.01 - Dispositivo TH 48 - km 194,5 - SP-351 (56843352-ba9e-4dec-94f0-337110445953)
+  Consultando convites: 02.02.02.11.01 - Dispositivo TH 48 - km 194,5 - SP-351 (56843352-ba9e-4dec-94f0-337110445953)
+  Consultando roles: 02.04.03.01.01 - Acostamento TH 51 - km 0,000 + 0,450 - SPA-276 310 (907f8e73-ba27-4f36-9ade-b8149e21e405)
+  Consultando membros: 02.04.03.01.01 - Acostamento TH 51 - km 0,000 + 0,450 - SPA-276 310 (907f8e73-ba27-4f36-9ade-b8149e21e405)
+  Consultando convites: 02.04.03.01.01 - Acostamento TH 51 - km 0,000 + 0,450 - SPA-276 310 (907f8e73-ba27-4f36-9ade-b8149e21e405)
+  Consultando roles: 02.04.03.01.02 - Acostamento TH 52 - Km 0,000 + 0,090 - SPA-119  333 (476a07cd-f65b-461f-a26c-3e9e5768ece0)
+  Consultando membros: 02.04.03.01.02 - Acostamento TH 52 - Km 0,000 + 0,090 - SPA-119  333 (476a07cd-f65b-461f-a26c-3e9e5768ece0)
+  Consultando convites: 02.04.03.01.02 - Acostamento TH 52 - Km 0,000 + 0,090 - SPA-119  333 (476a07cd-f65b-461f-a26c-3e9e5768ece0)
+  Consultando roles: 02.04.03.02.01 - Acostamentos - km 227,800 + 454,300 - SP-310 (8978b436-6e7d-49ae-94c2-d49247746d6e)
+  Consultando membros: 02.04.03.02.01 - Acostamentos - km 227,800 + 454,300 - SP-310 (8978b436-6e7d-49ae-94c2-d49247746d6e)
+  Consultando convites: 02.04.03.02.01 - Acostamentos - km 227,800 + 454,300 - SP-310 (8978b436-6e7d-49ae-94c2-d49247746d6e)
+  Consultando roles: 02.04.03.02.02 - Acostamentos - km 0,000 + 44,100 - SP-323 (20130837-337d-4dfe-b566-bb805b986f8e)
+  Consultando membros: 02.04.03.02.02 - Acostamentos - km 0,000 + 44,100 - SP-323 (20130837-337d-4dfe-b566-bb805b986f8e)
+  Consultando convites: 02.04.03.02.02 - Acostamentos - km 0,000 + 44,100 - SP-323 (20130837-337d-4dfe-b566-bb805b986f8e)
+  Consultando roles: 02.04.03.02.03 - Acostamentos - km 293 ao 427 - SP-326 (ddf576e7-d623-4c1e-ae30-812815f245dd)
+  Consultando membros: 02.04.03.02.03 - Acostamentos - km 293 ao 427 - SP-326 (ddf576e7-d623-4c1e-ae30-812815f245dd)
+  Consultando convites: 02.04.03.02.03 - Acostamentos - km 293 ao 427 - SP-326 (ddf576e7-d623-4c1e-ae30-812815f245dd)
+  Consultando roles: 02.04.03.02.04 - Acostamentos - km 83,020 + 212,450 - SP-333 (07379b64-d463-4236-8c4b-3032021018a3)
+  Consultando membros: 02.04.03.02.04 - Acostamentos - km 83,020 + 212,450 - SP-333 (07379b64-d463-4236-8c4b-3032021018a3)
+  Consultando convites: 02.04.03.02.04 - Acostamentos - km 83,020 + 212,450 - SP-333 (07379b64-d463-4236-8c4b-3032021018a3)
+  Consultando roles: 02.04.03.02.05 - Acostamentos - km 151,530 + 218,020 - SP-351 (fb85c471-8381-408b-8caa-7f8432dfba4c)
+  Consultando membros: 02.04.03.02.05 - Acostamentos - km 151,530 + 218,020 - SP-351 (fb85c471-8381-408b-8caa-7f8432dfba4c)
+  Consultando convites: 02.04.03.02.05 - Acostamentos - km 151,530 + 218,020 - SP-351 (fb85c471-8381-408b-8caa-7f8432dfba4c)
+  Consultando roles: 02.06.02.06 - BSO 1 - km 009+470 - SP-323 (0cbb899e-c0c8-45c1-872a-adb208f8d43c)
+  Consultando membros: 02.06.02.06 - BSO 1 - km 009+470 - SP-323 (0cbb899e-c0c8-45c1-872a-adb208f8d43c)
+  Consultando convites: 02.06.02.06 - BSO 1 - km 009+470 - SP-323 (0cbb899e-c0c8-45c1-872a-adb208f8d43c)
+  Consultando roles: 02.06.02.07 - BSO 2 - km 036+800 - SP-323 (5f965ca8-a4b4-430a-9719-dc133dc80de8)
+  Consultando membros: 02.06.02.07 - BSO 2 - km 036+800 - SP-323 (5f965ca8-a4b4-430a-9719-dc133dc80de8)
+  Consultando convites: 02.06.02.07 - BSO 2 - km 036+800 - SP-323 (5f965ca8-a4b4-430a-9719-dc133dc80de8)
+  Consultando roles: 02.06.02.11 - BSO 3 - km 391+200 - SP-326 (9bb64207-c9e1-4913-af6d-3860ad3286b1)
+  Consultando membros: 02.06.02.11 - BSO 3 - km 391+200 - SP-326 (9bb64207-c9e1-4913-af6d-3860ad3286b1)
+  Consultando convites: 02.06.02.11 - BSO 3 - km 391+200 - SP-326 (9bb64207-c9e1-4913-af6d-3860ad3286b1)
+  Consultando roles: 02.06.02.12 - BSO 4 - km 409+200 - SP-326 (33df92cc-9a4f-4244-b48f-8c7aaa61440d)
+  Consultando membros: 02.06.02.12 - BSO 4 - km 409+200 - SP-326 (33df92cc-9a4f-4244-b48f-8c7aaa61440d)
+  Consultando convites: 02.06.02.12 - BSO 4 - km 409+200 - SP-326 (33df92cc-9a4f-4244-b48f-8c7aaa61440d)
+  Consultando roles: 02.06.02.16 - BSO 5 - km 161+750 - SP-351 (a7e4686c-1a85-4bb5-8aef-b5af1768ca0c)
+  Consultando membros: 02.06.02.16 - BSO 5 - km 161+750 - SP-351 (a7e4686c-1a85-4bb5-8aef-b5af1768ca0c)
+  Consultando convites: 02.06.02.16 - BSO 5 - km 161+750 - SP-351 (a7e4686c-1a85-4bb5-8aef-b5af1768ca0c)
+  Consultando roles: 02.06.02.17 - BSO 6 - km 198+000 - SP-351 (f21e819c-50d4-48ce-accd-3152bdc37221)
+  Consultando membros: 02.06.02.17 - BSO 6 - km 198+000 - SP-351 (f21e819c-50d4-48ce-accd-3152bdc37221)
+  Consultando convites: 02.06.02.17 - BSO 6 - km 198+000 - SP-351 (f21e819c-50d4-48ce-accd-3152bdc37221)
+  Consultando roles: 02.10.01.01 - Marginal TH 31 - km 420,290 + 424,800 - SP-326 (b3a75eae-72c9-46e4-9c17-64c240b7a251)
+  Consultando membros: 02.10.01.01 - Marginal TH 31 - km 420,290 + 424,800 - SP-326 (b3a75eae-72c9-46e4-9c17-64c240b7a251)
+  Consultando convites: 02.10.01.01 - Marginal TH 31 - km 420,290 + 424,800 - SP-326 (b3a75eae-72c9-46e4-9c17-64c240b7a251)
+  Consultando roles: 02.11.01.01 - ADC Ibat� - km 252 - SP-310 (e17e072f-7d37-4652-b03f-8ee1b3d426a6)
+  Consultando membros: 02.11.01.01 - ADC Ibat� - km 252 - SP-310 (e17e072f-7d37-4652-b03f-8ee1b3d426a6)
+  Consultando convites: 02.11.01.01 - ADC Ibat� - km 252 - SP-310 (e17e072f-7d37-4652-b03f-8ee1b3d426a6)
+  Consultando roles: 02.11.01.01 - ADC Mat�o - km 291 - SP-310 (7813ecdd-b696-4275-a975-0c02b4c88da2)
+  Consultando membros: 02.11.01.01 - ADC Mat�o - km 291 - SP-310 (7813ecdd-b696-4275-a975-0c02b4c88da2)
+  Consultando convites: 02.11.01.01 - ADC Mat�o - km 291 - SP-310 (7813ecdd-b696-4275-a975-0c02b4c88da2)
+  Consultando roles: 02.11.01.01 - ADC Uch�a - km 407 - SP-310 (7f64ea9f-5006-4767-8372-9c6581fd7b66)
+  Consultando membros: 02.11.01.01 - ADC Uch�a - km 407 - SP-310 (7f64ea9f-5006-4767-8372-9c6581fd7b66)
+  Consultando convites: 02.11.01.01 - ADC Uch�a - km 407 - SP-310 (7f64ea9f-5006-4767-8372-9c6581fd7b66)
+  Consultando roles: 02.12.01.02 - PMRv Canil SJRP - km 443,000 + 443,000 - SP-310 (7b990f7e-b38b-4bdb-938a-716206cfb146)
+  Consultando membros: 02.12.01.02 - PMRv Canil SJRP - km 443,000 + 443,000 - SP-310 (7b990f7e-b38b-4bdb-938a-716206cfb146)
+  Consultando convites: 02.12.01.02 - PMRv Canil SJRP - km 443,000 + 443,000 - SP-310 (7b990f7e-b38b-4bdb-938a-716206cfb146)
+  Consultando roles: 02.12.02.02 - PMRV Araraquara - km 273+400 - SP-310 (c6f0f752-7195-4d37-90c0-7fc5ed572f20)
+  Consultando membros: 02.12.02.02 - PMRV Araraquara - km 273+400 - SP-310 (c6f0f752-7195-4d37-90c0-7fc5ed572f20)
+  Consultando convites: 02.12.02.02 - PMRV Araraquara - km 273+400 - SP-310 (c6f0f752-7195-4d37-90c0-7fc5ed572f20)
+  Consultando roles: 02.14.01.03 - Ciclovias - km 17 - SP-326 (60655bb5-d2a2-475f-8be0-29f9a9986ceb)
+  Consultando membros: 02.14.01.03 - Ciclovias - km 17 - SP-326 (60655bb5-d2a2-475f-8be0-29f9a9986ceb)
+  Consultando convites: 02.14.01.03 - Ciclovias - km 17 - SP-326 (60655bb5-d2a2-475f-8be0-29f9a9986ceb)
+  Consultando roles: 03.03.03 - Free Flow Colina - km 407 - SP-326 (2679ae89-fdf4-4187-8618-557aaedca8c8)
+  Consultando membros: 03.03.03 - Free Flow Colina - km 407 - SP-326 (2679ae89-fdf4-4187-8618-557aaedca8c8)
+  Consultando convites: 03.03.03 - Free Flow Colina - km 407 - SP-326 (2679ae89-fdf4-4187-8618-557aaedca8c8)
+  Consultando roles: 03.03.03 - Free Flow Dobrada - km 307 - SP-326 (bafe7316-2a95-4212-9923-5420b514e1f9)
+  Consultando membros: 03.03.03 - Free Flow Dobrada - km 307 - SP-326 (bafe7316-2a95-4212-9923-5420b514e1f9)
+  Consultando convites: 03.03.03 - Free Flow Dobrada - km 307 - SP-326 (bafe7316-2a95-4212-9923-5420b514e1f9)
+  Consultando roles: 03.03.03 - Free Flow It�polis - km 178 - SP-333 (9ca757d7-9488-4dca-bb0d-642b460b2587)
+  Consultando membros: 03.03.03 - Free Flow It�polis - km 178 - SP-333 (9ca757d7-9488-4dca-bb0d-642b460b2587)
+  Consultando convites: 03.03.03 - Free Flow It�polis - km 178 - SP-333 (9ca757d7-9488-4dca-bb0d-642b460b2587)
+  Consultando roles: 03.03.03 - Free Flow Jaboticabal - km 111 - SP-333 (2f7b6778-997a-4b75-a58f-19ee2af2659c)
+  Consultando membros: 03.03.03 - Free Flow Jaboticabal - km 111 - SP-333 (2f7b6778-997a-4b75-a58f-19ee2af2659c)
+  Consultando convites: 03.03.03 - Free Flow Jaboticabal - km 111 - SP-333 (2f7b6778-997a-4b75-a58f-19ee2af2659c)
+  Consultando roles: 03.03.03 - Free Flow Monte Alto - km 19 - SP-323 (f94afb2b-a68c-4f7b-bdef-4d9e7f16d1ad)
+  Consultando membros: 03.03.03 - Free Flow Monte Alto - km 19 - SP-323 (f94afb2b-a68c-4f7b-bdef-4d9e7f16d1ad)
+  Consultando convites: 03.03.03 - Free Flow Monte Alto - km 19 - SP-323 (f94afb2b-a68c-4f7b-bdef-4d9e7f16d1ad)
+  Consultando roles: 03.03.03 - Free Flow Piragi - km 184 - SP-351 (fce53dca-a6f5-487c-8305-63d85a676fde)
+  Consultando membros: 03.03.03 - Free Flow Piragi - km 184 - SP-351 (fce53dca-a6f5-487c-8305-63d85a676fde)
+  Consultando convites: 03.03.03 - Free Flow Piragi - km 184 - SP-351 (fce53dca-a6f5-487c-8305-63d85a676fde)
+  Consultando roles: 03.03.03 - Free Flow Tai�va - km 356 - SP-326 (26456005-2ac5-45f7-9671-0bb330773cb1)
+  Consultando membros: 03.03.03 - Free Flow Tai�va - km 356 - SP-326 (26456005-2ac5-45f7-9671-0bb330773cb1)
+  Consultando convites: 03.03.03 - Free Flow Tai�va - km 356 - SP-326 (26456005-2ac5-45f7-9671-0bb330773cb1)
+  Consultando roles: CCPP -  Uch�a - km 415+200 - SP-310 (0a00adcd-a028-48ae-97d4-e6366b136930)
+  Consultando membros: CCPP -  Uch�a - km 415+200 - SP-310 (0a00adcd-a028-48ae-97d4-e6366b136930)
+  Consultando convites: CCPP -  Uch�a - km 415+200 - SP-310 (0a00adcd-a028-48ae-97d4-e6366b136930)
+  Consultando roles: CCPP - Bebedouro - km 375+850 - SP-310 (135128d2-1bf2-4166-808a-a98d6265eedd)
+  Consultando membros: CCPP - Bebedouro - km 375+850 - SP-310 (135128d2-1bf2-4166-808a-a98d6265eedd)
+  Consultando convites: CCPP - Bebedouro - km 375+850 - SP-310 (135128d2-1bf2-4166-808a-a98d6265eedd)
+  Consultando roles: CCPP - It�polis - km 181+500 - SP-310 (fa520639-de8d-4449-89b2-6c7471e4b27d)
+  Consultando membros: CCPP - It�polis - km 181+500 - SP-310 (fa520639-de8d-4449-89b2-6c7471e4b27d)
+  Consultando convites: CCPP - It�polis - km 181+500 - SP-310 (fa520639-de8d-4449-89b2-6c7471e4b27d)
+  Consultando roles: CCPP - Jaboticabal - km 335+260 - SP-310 (c7ade8b7-aa20-4853-a8b9-8e5afa93aacd)
+  Consultando membros: CCPP - Jaboticabal - km 335+260 - SP-310 (c7ade8b7-aa20-4853-a8b9-8e5afa93aacd)
+  Consultando convites: CCPP - Jaboticabal - km 335+260 - SP-310 (c7ade8b7-aa20-4853-a8b9-8e5afa93aacd)
+  Consultando roles: CCPP - S�o Carlos - km 233+900 - SP-310 (0e3a0440-03ae-4387-ac5a-07d5b5b1b133)
+  Consultando membros: CCPP - S�o Carlos - km 233+900 - SP-310 (0e3a0440-03ae-4387-ac5a-07d5b5b1b133)
+  Consultando convites: CCPP - S�o Carlos - km 233+900 - SP-310 (0e3a0440-03ae-4387-ac5a-07d5b5b1b133)
+  Consultando roles: CCPP - S�o Jos� - km 434+700 - SP-310 (249afd3a-5046-483e-9a0e-64aa0c2ed9a1)
+  Consultando membros: CCPP - S�o Jos� - km 434+700 - SP-310 (249afd3a-5046-483e-9a0e-64aa0c2ed9a1)
+  Consultando convites: CCPP - S�o Jos� - km 434+700 - SP-310 (249afd3a-5046-483e-9a0e-64aa0c2ed9a1)
+  Consultando roles: HS-WIM 01 - km 250 - SP-310 (e67e4d1d-ea5c-46ef-b060-846dccaa62e6)
+  Consultando membros: HS-WIM 01 - km 250 - SP-310 (e67e4d1d-ea5c-46ef-b060-846dccaa62e6)
+  Consultando convites: HS-WIM 01 - km 250 - SP-310 (e67e4d1d-ea5c-46ef-b060-846dccaa62e6)
+  Consultando roles: HS-WIM 02 - km 264 - SP-310 (1333da87-c946-43a1-ad5b-b37ec599b1ad)
+  Consultando membros: HS-WIM 02 - km 264 - SP-310 (1333da87-c946-43a1-ad5b-b37ec599b1ad)
+  Consultando convites: HS-WIM 02 - km 264 - SP-310 (1333da87-c946-43a1-ad5b-b37ec599b1ad)
+  Consultando roles: HS-WIM 03 - km 373 - SP-326 (23119fcd-6c22-4965-98f7-09b41fc22b05)
+  Consultando membros: HS-WIM 03 - km 373 - SP-326 (23119fcd-6c22-4965-98f7-09b41fc22b05)
+  Consultando convites: HS-WIM 03 - km 373 - SP-326 (23119fcd-6c22-4965-98f7-09b41fc22b05)
+  Consultando roles: HS-WIM 04 - km 388 - SP-310 (25d87e38-f330-48f9-90cb-836d0d7a53c0)
+  Consultando membros: HS-WIM 04 - km 388 - SP-310 (25d87e38-f330-48f9-90cb-836d0d7a53c0)
+  Consultando convites: HS-WIM 04 - km 388 - SP-310 (25d87e38-f330-48f9-90cb-836d0d7a53c0)
+  Consultando roles: NOP01 - Faixa Adicional SC - km 227+800 - 231+320- SP-310 (f09802b3-356b-4e7a-a158-8497fd5cf63f)
+  Consultando membros: NOP01 - Faixa Adicional SC - km 227+800 - 231+320- SP-310 (f09802b3-356b-4e7a-a158-8497fd5cf63f)
+  Consultando convites: NOP01 - Faixa Adicional SC - km 227+800 - 231+320- SP-310 (f09802b3-356b-4e7a-a158-8497fd5cf63f)
+  Consultando roles: NOP02 - Faixa Adicional SC - km 227+800 - 230+750 - SP-310 (409a27f7-d2db-4895-9228-f397b29172b0)
+  Consultando membros: NOP02 - Faixa Adicional SC - km 227+800 - 230+750 - SP-310 (409a27f7-d2db-4895-9228-f397b29172b0)
+  Consultando convites: NOP02 - Faixa Adicional SC - km 227+800 - 230+750 - SP-310 (409a27f7-d2db-4895-9228-f397b29172b0)
+  Consultando roles: NOP03 - Melhoria do Dispositivo SC - km 235+000 - SP-310 (7ecf51ef-6c25-491d-aebc-1ec55dacb89b)
+  Consultando membros: NOP03 - Melhoria do Dispositivo SC - km 235+000 - SP-310 (7ecf51ef-6c25-491d-aebc-1ec55dacb89b)
+  Consultando convites: NOP03 - Melhoria do Dispositivo SC - km 235+000 - SP-310 (7ecf51ef-6c25-491d-aebc-1ec55dacb89b)
+  Consultando roles: NOP04 - Melhoria do Dispositivo SC - km 236+100 - SP-310 (caf40341-fe8a-4819-aecb-40fab935a96e)
+  Consultando membros: NOP04 - Melhoria do Dispositivo SC - km 236+100 - SP-310 (caf40341-fe8a-4819-aecb-40fab935a96e)
+  Consultando convites: NOP04 - Melhoria do Dispositivo SC - km 236+100 - SP-310 (caf40341-fe8a-4819-aecb-40fab935a96e)
+  Consultando roles: NOP05 - Implanta��o de Dispositivo SC - km 238+200 - SP-310 (f732f120-7b18-4f6e-b8ed-cb272a4c5568)
+  Consultando membros: NOP05 - Implanta��o de Dispositivo SC - km 238+200 - SP-310 (f732f120-7b18-4f6e-b8ed-cb272a4c5568)
+  Consultando convites: NOP05 - Implanta��o de Dispositivo SC - km 238+200 - SP-310 (f732f120-7b18-4f6e-b8ed-cb272a4c5568)
+  Consultando roles: NOP06 - Faixa Adicional - km 238+524 - 240+370 - SP-310 Excluir (e6d1afaf-9d87-4568-9e5e-03836772b79d)
+  Consultando membros: NOP06 - Faixa Adicional - km 238+524 - 240+370 - SP-310 Excluir (e6d1afaf-9d87-4568-9e5e-03836772b79d)
+  Consultando convites: NOP06 - Faixa Adicional - km 238+524 - 240+370 - SP-310 Excluir (e6d1afaf-9d87-4568-9e5e-03836772b79d)
+  Consultando roles: NOP07 - Melhoria do Dispositivo SC - km 240+000 - SP-310 (94c4704c-51f9-4b37-b300-06dbb7c74798)
+  Consultando membros: NOP07 - Melhoria do Dispositivo SC - km 240+000 - SP-310 (94c4704c-51f9-4b37-b300-06dbb7c74798)
+  Consultando convites: NOP07 - Melhoria do Dispositivo SC - km 240+000 - SP-310 (94c4704c-51f9-4b37-b300-06dbb7c74798)
+  Consultando roles: NOP11 - Amplia��o de Dispositivo SJRP - km 432+200 - SP-310 (ec3a0986-a5cb-431d-9b7a-8b29b7821ae7)
+  Consultando membros: NOP11 - Amplia��o de Dispositivo SJRP - km 432+200 - SP-310 (ec3a0986-a5cb-431d-9b7a-8b29b7821ae7)
+  Consultando convites: NOP11 - Amplia��o de Dispositivo SJRP - km 432+200 - SP-310 (ec3a0986-a5cb-431d-9b7a-8b29b7821ae7)
+  Consultando roles: NOP12 - Faixa Adicional SJRP- km 451+780 - 454+740 - SP-310 (c15529f9-7d48-41cb-9736-f6c16f1bc425)
+  Consultando membros: NOP12 - Faixa Adicional SJRP- km 451+780 - 454+740 - SP-310 (c15529f9-7d48-41cb-9736-f6c16f1bc425)
+  Consultando convites: NOP12 - Faixa Adicional SJRP- km 451+780 - 454+740 - SP-310 (c15529f9-7d48-41cb-9736-f6c16f1bc425)
+  Consultando roles: NOP13 - Implanta��o de Viaduto MR - km 448+000 - SP-310 (eb992b2a-1486-4a2f-8ad1-cac93f4c3056)
+  Consultando membros: NOP13 - Implanta��o de Viaduto MR - km 448+000 - SP-310 (eb992b2a-1486-4a2f-8ad1-cac93f4c3056)
+  Consultando convites: NOP13 - Implanta��o de Viaduto MR - km 448+000 - SP-310 (eb992b2a-1486-4a2f-8ad1-cac93f4c3056)
+  Consultando roles: NOP15 - Implanta��o de Viaduto MR - km 453+180 - SP-310 (e500b7b5-8c47-45fc-8c94-aa7e2952b70e)
+  Consultando membros: NOP15 - Implanta��o de Viaduto MR - km 453+180 - SP-310 (e500b7b5-8c47-45fc-8c94-aa7e2952b70e)
+  Consultando convites: NOP15 - Implanta��o de Viaduto MR - km 453+180 - SP-310 (e500b7b5-8c47-45fc-8c94-aa7e2952b70e)
+  Consultando roles: NOP18 - Implanta��o de Dispositivo PP - km 203+210 - SP-351 (5493e24d-b87d-4c55-8fd2-aea734f846a3)
+  Consultando membros: NOP18 - Implanta��o de Dispositivo PP - km 203+210 - SP-351 (5493e24d-b87d-4c55-8fd2-aea734f846a3)
+  Consultando convites: NOP18 - Implanta��o de Dispositivo PP - km 203+210 - SP-351 (5493e24d-b87d-4c55-8fd2-aea734f846a3)
+  Consultando roles: NOP20 - Melhoria do dispositivo JT - km 341+000 - SP-326 (5474b444-edb6-4c5e-a9c2-8c283d8bfba8)
+  Consultando membros: NOP20 - Melhoria do dispositivo JT - km 341+000 - SP-326 (5474b444-edb6-4c5e-a9c2-8c283d8bfba8)
+  Consultando convites: NOP20 - Melhoria do dispositivo JT - km 341+000 - SP-326 (5474b444-edb6-4c5e-a9c2-8c283d8bfba8)
+  Consultando roles: NOP22 - Adequa��o de Dispositivo BA - km 423+100 - SP-326 (fb35bafe-0b18-41a1-8bba-0874dd3518c0)
+  Consultando membros: NOP22 - Adequa��o de Dispositivo BA - km 423+100 - SP-326 (fb35bafe-0b18-41a1-8bba-0874dd3518c0)
+  Consultando convites: NOP22 - Adequa��o de Dispositivo BA - km 423+100 - SP-326 (fb35bafe-0b18-41a1-8bba-0874dd3518c0)
+  Consultando roles: NOP24 - Implanta��o de Viaduto CA - km 217+245 - SP-351 (b1f7e14a-edc5-4bdb-b77a-f59a5d4edc4e)
+  Consultando membros: NOP24 - Implanta��o de Viaduto CA - km 217+245 - SP-351 (b1f7e14a-edc5-4bdb-b77a-f59a5d4edc4e)
+  Consultando convites: NOP24 - Implanta��o de Viaduto CA - km 217+245 - SP-351 (b1f7e14a-edc5-4bdb-b77a-f59a5d4edc4e)
+  Consultando roles: NOP25 - Dispositivo - km 162+800 - SP-333 (68772f46-04a8-4060-ba8f-46571618bfbe)
+  Consultando membros: NOP25 - Dispositivo - km 162+800 - SP-333 (68772f46-04a8-4060-ba8f-46571618bfbe)
+  Consultando convites: NOP25 - Dispositivo - km 162+800 - SP-333 (68772f46-04a8-4060-ba8f-46571618bfbe)
+  Consultando roles: NOP8910 - Faixa Adicional SJRP - 425+000 - 432+900 - SP-310 (f1ff8854-0084-4d9d-98d1-55df1b94e0f7)
+  Consultando membros: NOP8910 - Faixa Adicional SJRP - 425+000 - 432+900 - SP-310 (f1ff8854-0084-4d9d-98d1-55df1b94e0f7)
+  Consultando convites: NOP8910 - Faixa Adicional SJRP - 425+000 - 432+900 - SP-310 (f1ff8854-0084-4d9d-98d1-55df1b94e0f7)
+  Consultando roles: Teste GIR (8f315e57-77f1-40e9-a3e5-7592e388b19b)
+  Consultando membros: Teste GIR (8f315e57-77f1-40e9-a3e5-7592e388b19b)
+  Consultando convites: Teste GIR (8f315e57-77f1-40e9-a3e5-7592e388b19b)
+- Linha 3 (2/2): t_thaissa.silva@ecorodovias.com.br -> 105 projeto(s) [todos]
+
+[8/9] Previa consolidada RBAC:
+- Usuarios: 2
+- Projetos: 104
+- Operacoes planejadas: 210
+- Operacoes aplicaveis: 210
+001. Linha 2 | esdras.ferreira@ecorodovias.com.br | 01.01.01.01 - Duplica��o TH 39 - km 157,6 + 159,6 - SP-333 | adicionar_usuario
+     Role: Team Member [enterprise]
+002. Linha 2 | esdras.ferreira@ecorodovias.com.br | 01.01.01.02 - Duplica��o TH 40 - km 159,6 + 173,5 - SP-333 | adicionar_usuario
+     Role: Team Member [enterprise]
+003. Linha 2 | esdras.ferreira@ecorodovias.com.br | 01.01.01.03 - Duplica��o TH 41 - km 173,5 + 182,2 - SP-333 | adicionar_usuario
+     Role: Team Member [enterprise]
+004. Linha 2 | esdras.ferreira@ecorodovias.com.br | 01.01.01.04 - Duplica��o TH 42 - km 182,2 + 212,5 - SP-333 | adicionar_usuario
+     Role: Team Member [enterprise]
+005. Linha 2 | esdras.ferreira@ecorodovias.com.br | 01.01.01.05 - Duplica��o TH 44- km 155,6 + 156,2 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+006. Linha 2 | esdras.ferreira@ecorodovias.com.br | 01.01.01.06 - Duplica��o TH 45 - km 157,3 + 166,3 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+007. Linha 2 | esdras.ferreira@ecorodovias.com.br | 01.01.01.07 - Duplica��o TH 46 - km 166,3 + 186,0 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+008. Linha 2 | esdras.ferreira@ecorodovias.com.br | 01.01.01.08 - Duplica��o TH 47 - km 186,0 + 193,8 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+009. Linha 2 | esdras.ferreira@ecorodovias.com.br | 01.01.01.09 - Duplica��o TH 48 - km 193,8 + 210,8 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+010. Linha 2 | esdras.ferreira@ecorodovias.com.br | 01.01.02.01 - Faixas Adicionais TH 02 - km 241,8 + 267,7 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+011. Linha 2 | esdras.ferreira@ecorodovias.com.br | 01.01.02.02 - Faixas Adicionais TH 03 - km 267,7 + 282,4 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+012. Linha 2 | esdras.ferreira@ecorodovias.com.br | 01.01.02.03 - Faixas Adicionais TH 04 - km 282,4 + 293,0 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+013. Linha 2 | esdras.ferreira@ecorodovias.com.br | 01.01.02.04 - Faixas Adicionais TH-09 - 320,4 + 321,6 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+014. Linha 2 | esdras.ferreira@ecorodovias.com.br | 01.02.01.01 - OAE / OACs TH 40 - km 159,6 + 173,5 - SP-333 | adicionar_usuario
+     Role: Team Member [enterprise]
+015. Linha 2 | esdras.ferreira@ecorodovias.com.br | 01.02.01.06 - OAE / OACs TH-47 - km 186,0 + 193,8 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+016. Linha 2 | esdras.ferreira@ecorodovias.com.br | 01.02.02.01 - Amplia��es TH 02 - km 241,8 + 267,7 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+017. Linha 2 | esdras.ferreira@ecorodovias.com.br | 01.02.02.02 - Amplia��es OAE / OAC TH 03  - km 267,7 + 282,4 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+018. Linha 2 | esdras.ferreira@ecorodovias.com.br | 01.03.01 - Interven��es TH 16 - km 425,000 + 454,300 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+019. Linha 2 | esdras.ferreira@ecorodovias.com.br | 01.03.02 - Interven��es TH 01 - km 227,800 + 242,500 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+020. Linha 2 | esdras.ferreira@ecorodovias.com.br | 01.03.03 - Duplica��o TH 36/37/38 -  km 144,000 + 158,000 - SP-333 | adicionar_usuario
+     Role: Team Member [enterprise]
+021. Linha 2 | esdras.ferreira@ecorodovias.com.br | 01.03.04 - Viaduto TH 16 - km 439+700 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+022. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.01.01.01 - Dispositivo TH 07 - km 304,7 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+023. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.01.02.01 - Dispositivo TH 18 - km 13,3 - SP-323 | adicionar_usuario
+     Role: Team Member [enterprise]
+024. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.01.02.02 - Dispositivo TH 19 - km 15,2 - SP-323 | adicionar_usuario
+     Role: Team Member [enterprise]
+025. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.01.03.01 - Dispositivo TH 20 - km 20,4 - SP-323 | adicionar_usuario
+     Role: Team Member [enterprise]
+026. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.01.04.01 - Dispositivo TH 21 - km 25,5 - SP-323 | adicionar_usuario
+     Role: Team Member [enterprise]
+027. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.01.05.01 - Dispositivo TH 22 - km 33,0 - SP-323 | adicionar_usuario
+     Role: Team Member [enterprise]
+028. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.01.06.01 - Dispositivo TH 24 - km 40,6 - SP-323 | adicionar_usuario
+     Role: Team Member [enterprise]
+029. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.01.07.01 - Dispositivo TH 40 - km 159,8 - SP-333 | adicionar_usuario
+     Role: Team Member [enterprise]
+030. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.01.08.01 - Dispositivo TH 40 - km 168,3 - SP-333 | adicionar_usuario
+     Role: Team Member [enterprise]
+031. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.01.08.02 - Dispositivo TH 40 - km 173,4 - SP-333 | adicionar_usuario
+     Role: Team Member [enterprise]
+032. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.01.12.01 - Dispositivo TH 44 - km 158,3 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+033. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.01.13.01 - Dispositivo TH 45 - km 158,3 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+034. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.01.14.01 - Dispositivo TH 45 - km 163,5 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+035. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.01.15.01 - Dispositivo TH 46 - km 167,4 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+036. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.01.15.02 - Dispositivo TH 46 - km 174,6 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+037. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.01.16.01 - Dispositivo TH 46 - km 185,5 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+038. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.01.17.01 - Dispositivo TH 48 - km 193,9 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+039. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.01.17.02 - Dispositivo TH 48 - km 196,2 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+040. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.01.18.01 - Dispositivo TH 48 - km 206,9 - SP 351 | adicionar_usuario
+     Role: Team Member [enterprise]
+041. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.02.01.01 - Amplia��o Dispositivo TH 03 - km 268,3 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+042. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.02.01.02 - Amplia��o Dispositivo TH 03 - km 271,6 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+043. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.02.03.01 - Amplia��o Dispositivo TH 06 - km 296,5 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+044. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.02.04.01 - Amplia��o Dispositivo TH 30  - km 379,0 - SP-326 | adicionar_usuario
+     Role: Team Member [enterprise]
+045. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.02.05.01 - Dispositivo TH 39 -  km 157,5 - SP-333 | adicionar_usuario
+     Role: Team Member [enterprise]
+046. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.02.08.01 - Amplia��o Dispositivo TH 43 - km 151,5 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+047. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.02.09.01 - Amplia��o Dispositivo TH 44 - km 155,7 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+048. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.02.10.01 - Amplia��o Dispositivo TH 46 - km 182,8 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+049. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.02.11.01 - Dispositivo TH 48 - km 194,5 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+050. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.04.03.01.01 - Acostamento TH 51 - km 0,000 + 0,450 - SPA-276 310 | adicionar_usuario
+     Role: Team Member [enterprise]
+051. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.04.03.01.02 - Acostamento TH 52 - Km 0,000 + 0,090 - SPA-119  333 | adicionar_usuario
+     Role: Team Member [enterprise]
+052. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.04.03.02.01 - Acostamentos - km 227,800 + 454,300 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+053. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.04.03.02.02 - Acostamentos - km 0,000 + 44,100 - SP-323 | adicionar_usuario
+     Role: Team Member [enterprise]
+054. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.04.03.02.03 - Acostamentos - km 293 ao 427 - SP-326 | adicionar_usuario
+     Role: Team Member [enterprise]
+055. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.04.03.02.04 - Acostamentos - km 83,020 + 212,450 - SP-333 | adicionar_usuario
+     Role: Team Member [enterprise]
+056. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.04.03.02.05 - Acostamentos - km 151,530 + 218,020 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+057. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.06.02.06 - BSO 1 - km 009+470 - SP-323 | adicionar_usuario
+     Role: Team Member [enterprise]
+058. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.06.02.07 - BSO 2 - km 036+800 - SP-323 | adicionar_usuario
+     Role: Team Member [enterprise]
+059. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.06.02.11 - BSO 3 - km 391+200 - SP-326 | adicionar_usuario
+     Role: Team Member [enterprise]
+060. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.06.02.12 - BSO 4 - km 409+200 - SP-326 | adicionar_usuario
+     Role: Team Member [enterprise]
+061. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.06.02.16 - BSO 5 - km 161+750 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+062. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.06.02.17 - BSO 6 - km 198+000 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+063. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.10.01.01 - Marginal TH 31 - km 420,290 + 424,800 - SP-326 | adicionar_usuario
+     Role: Team Member [enterprise]
+064. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.11.01.01 - ADC Ibat� - km 252 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+065. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.11.01.01 - ADC Mat�o - km 291 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+066. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.11.01.01 - ADC Uch�a - km 407 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+067. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.12.01.02 - PMRv Canil SJRP - km 443,000 + 443,000 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+068. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.12.01.02 - PMRv SJRP - km 443,000 + 443,000 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+069. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.12.02.02 - PMRV Araraquara - km 273+400 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+070. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.14.01.03 - Ciclovias - km 17 - SP-326 | adicionar_usuario
+     Role: Team Member [enterprise]
+071. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.03.03 - Free Flow Colina - km 407 - SP-326 | adicionar_usuario
+     Role: Team Member [enterprise]
+072. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.03.03 - Free Flow Dobrada - km 307 - SP-326 | adicionar_usuario
+     Role: Team Member [enterprise]
+073. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.03.03 - Free Flow It�polis - km 178 - SP-333 | adicionar_usuario
+     Role: Team Member [enterprise]
+074. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.03.03 - Free Flow Jaboticabal - km 111 - SP-333 | adicionar_usuario
+     Role: Team Member [enterprise]
+075. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.03.03 - Free Flow Monte Alto - km 19 - SP-323 | adicionar_usuario
+     Role: Team Member [enterprise]
+076. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.03.03 - Free Flow Piragi - km 184 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+077. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.03.03 - Free Flow Tai�va - km 356 - SP-326 | adicionar_usuario
+     Role: Team Member [enterprise]
+078. Linha 2 | esdras.ferreira@ecorodovias.com.br | CCPP -  Uch�a - km 415+200 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+079. Linha 2 | esdras.ferreira@ecorodovias.com.br | CCPP - Bebedouro - km 375+850 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+080. Linha 2 | esdras.ferreira@ecorodovias.com.br | CCPP - It�polis - km 181+500 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+081. Linha 2 | esdras.ferreira@ecorodovias.com.br | CCPP - Jaboticabal - km 335+260 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+082. Linha 2 | esdras.ferreira@ecorodovias.com.br | CCPP - S�o Carlos - km 233+900 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+083. Linha 2 | esdras.ferreira@ecorodovias.com.br | CCPP - S�o Jos� - km 434+700 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+084. Linha 2 | esdras.ferreira@ecorodovias.com.br | HS-WIM 01 - km 250 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+085. Linha 2 | esdras.ferreira@ecorodovias.com.br | HS-WIM 02 - km 264 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+086. Linha 2 | esdras.ferreira@ecorodovias.com.br | HS-WIM 03 - km 373 - SP-326 | adicionar_usuario
+     Role: Team Member [enterprise]
+087. Linha 2 | esdras.ferreira@ecorodovias.com.br | HS-WIM 04 - km 388 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+088. Linha 2 | esdras.ferreira@ecorodovias.com.br | NOP01 - Faixa Adicional SC - km 227+800 - 231+320- SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+089. Linha 2 | esdras.ferreira@ecorodovias.com.br | NOP02 - Faixa Adicional SC - km 227+800 - 230+750 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+090. Linha 2 | esdras.ferreira@ecorodovias.com.br | NOP03 - Melhoria do Dispositivo SC - km 235+000 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+091. Linha 2 | esdras.ferreira@ecorodovias.com.br | NOP04 - Melhoria do Dispositivo SC - km 236+100 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+092. Linha 2 | esdras.ferreira@ecorodovias.com.br | NOP05 - Implanta��o de Dispositivo SC - km 238+200 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+093. Linha 2 | esdras.ferreira@ecorodovias.com.br | NOP06 - Faixa Adicional - km 238+524 - 240+370 - SP-310 Excluir | adicionar_usuario
+     Role: Team Member [enterprise]
+094. Linha 2 | esdras.ferreira@ecorodovias.com.br | NOP07 - Melhoria do Dispositivo SC - km 240+000 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+095. Linha 2 | esdras.ferreira@ecorodovias.com.br | NOP11 - Amplia��o de Dispositivo SJRP - km 432+200 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+096. Linha 2 | esdras.ferreira@ecorodovias.com.br | NOP12 - Faixa Adicional SJRP- km 451+780 - 454+740 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+097. Linha 2 | esdras.ferreira@ecorodovias.com.br | NOP13 - Implanta��o de Viaduto MR - km 448+000 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+098. Linha 2 | esdras.ferreira@ecorodovias.com.br | NOP15 - Implanta��o de Viaduto MR - km 453+180 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+099. Linha 2 | esdras.ferreira@ecorodovias.com.br | NOP18 - Implanta��o de Dispositivo PP - km 203+210 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+100. Linha 2 | esdras.ferreira@ecorodovias.com.br | NOP20 - Melhoria do dispositivo JT - km 341+000 - SP-326 | adicionar_usuario
+     Role: Team Member [enterprise]
+101. Linha 2 | esdras.ferreira@ecorodovias.com.br | NOP22 - Adequa��o de Dispositivo BA - km 423+100 - SP-326 | adicionar_usuario
+     Role: Team Member [enterprise]
+102. Linha 2 | esdras.ferreira@ecorodovias.com.br | NOP24 - Implanta��o de Viaduto CA - km 217+245 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+103. Linha 2 | esdras.ferreira@ecorodovias.com.br | NOP25 - Dispositivo - km 162+800 - SP-333 | adicionar_usuario
+     Role: Team Member [enterprise]
+104. Linha 2 | esdras.ferreira@ecorodovias.com.br | NOP8910 - Faixa Adicional SJRP - 425+000 - 432+900 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+105. Linha 2 | esdras.ferreira@ecorodovias.com.br | Teste GIR | adicionar_usuario
+     Role: Team Member [enterprise]
+106. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 01.01.01.01 - Duplica��o TH 39 - km 157,6 + 159,6 - SP-333 | adicionar_usuario
+     Role: Team Member [enterprise]
+107. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 01.01.01.02 - Duplica��o TH 40 - km 159,6 + 173,5 - SP-333 | adicionar_usuario
+     Role: Team Member [enterprise]
+108. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 01.01.01.03 - Duplica��o TH 41 - km 173,5 + 182,2 - SP-333 | adicionar_usuario
+     Role: Team Member [enterprise]
+109. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 01.01.01.04 - Duplica��o TH 42 - km 182,2 + 212,5 - SP-333 | adicionar_usuario
+     Role: Team Member [enterprise]
+110. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 01.01.01.05 - Duplica��o TH 44- km 155,6 + 156,2 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+111. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 01.01.01.06 - Duplica��o TH 45 - km 157,3 + 166,3 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+112. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 01.01.01.07 - Duplica��o TH 46 - km 166,3 + 186,0 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+113. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 01.01.01.08 - Duplica��o TH 47 - km 186,0 + 193,8 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+114. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 01.01.01.09 - Duplica��o TH 48 - km 193,8 + 210,8 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+115. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 01.01.02.01 - Faixas Adicionais TH 02 - km 241,8 + 267,7 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+116. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 01.01.02.02 - Faixas Adicionais TH 03 - km 267,7 + 282,4 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+117. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 01.01.02.03 - Faixas Adicionais TH 04 - km 282,4 + 293,0 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+118. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 01.01.02.04 - Faixas Adicionais TH-09 - 320,4 + 321,6 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+119. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 01.02.01.01 - OAE / OACs TH 40 - km 159,6 + 173,5 - SP-333 | adicionar_usuario
+     Role: Team Member [enterprise]
+120. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 01.02.01.06 - OAE / OACs TH-47 - km 186,0 + 193,8 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+121. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 01.02.02.01 - Amplia��es TH 02 - km 241,8 + 267,7 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+122. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 01.02.02.02 - Amplia��es OAE / OAC TH 03  - km 267,7 + 282,4 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+123. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 01.03.01 - Interven��es TH 16 - km 425,000 + 454,300 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+124. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 01.03.02 - Interven��es TH 01 - km 227,800 + 242,500 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+125. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 01.03.03 - Duplica��o TH 36/37/38 -  km 144,000 + 158,000 - SP-333 | adicionar_usuario
+     Role: Team Member [enterprise]
+126. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 01.03.04 - Viaduto TH 16 - km 439+700 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+127. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.01.01.01 - Dispositivo TH 07 - km 304,7 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+128. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.01.02.01 - Dispositivo TH 18 - km 13,3 - SP-323 | adicionar_usuario
+     Role: Team Member [enterprise]
+129. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.01.02.02 - Dispositivo TH 19 - km 15,2 - SP-323 | adicionar_usuario
+     Role: Team Member [enterprise]
+130. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.01.03.01 - Dispositivo TH 20 - km 20,4 - SP-323 | adicionar_usuario
+     Role: Team Member [enterprise]
+131. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.01.04.01 - Dispositivo TH 21 - km 25,5 - SP-323 | adicionar_usuario
+     Role: Team Member [enterprise]
+132. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.01.05.01 - Dispositivo TH 22 - km 33,0 - SP-323 | adicionar_usuario
+     Role: Team Member [enterprise]
+133. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.01.06.01 - Dispositivo TH 24 - km 40,6 - SP-323 | adicionar_usuario
+     Role: Team Member [enterprise]
+134. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.01.07.01 - Dispositivo TH 40 - km 159,8 - SP-333 | adicionar_usuario
+     Role: Team Member [enterprise]
+135. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.01.08.01 - Dispositivo TH 40 - km 168,3 - SP-333 | adicionar_usuario
+     Role: Team Member [enterprise]
+136. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.01.08.02 - Dispositivo TH 40 - km 173,4 - SP-333 | adicionar_usuario
+     Role: Team Member [enterprise]
+137. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.01.12.01 - Dispositivo TH 44 - km 158,3 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+138. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.01.13.01 - Dispositivo TH 45 - km 158,3 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+139. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.01.14.01 - Dispositivo TH 45 - km 163,5 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+140. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.01.15.01 - Dispositivo TH 46 - km 167,4 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+141. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.01.15.02 - Dispositivo TH 46 - km 174,6 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+142. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.01.16.01 - Dispositivo TH 46 - km 185,5 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+143. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.01.17.01 - Dispositivo TH 48 - km 193,9 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+144. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.01.17.02 - Dispositivo TH 48 - km 196,2 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+145. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.01.18.01 - Dispositivo TH 48 - km 206,9 - SP 351 | adicionar_usuario
+     Role: Team Member [enterprise]
+146. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.02.01.01 - Amplia��o Dispositivo TH 03 - km 268,3 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+147. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.02.01.02 - Amplia��o Dispositivo TH 03 - km 271,6 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+148. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.02.03.01 - Amplia��o Dispositivo TH 06 - km 296,5 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+149. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.02.04.01 - Amplia��o Dispositivo TH 30  - km 379,0 - SP-326 | adicionar_usuario
+     Role: Team Member [enterprise]
+150. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.02.05.01 - Dispositivo TH 39 -  km 157,5 - SP-333 | adicionar_usuario
+     Role: Team Member [enterprise]
+151. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.02.08.01 - Amplia��o Dispositivo TH 43 - km 151,5 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+152. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.02.09.01 - Amplia��o Dispositivo TH 44 - km 155,7 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+153. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.02.10.01 - Amplia��o Dispositivo TH 46 - km 182,8 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+154. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.02.11.01 - Dispositivo TH 48 - km 194,5 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+155. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.04.03.01.01 - Acostamento TH 51 - km 0,000 + 0,450 - SPA-276 310 | adicionar_usuario
+     Role: Team Member [enterprise]
+156. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.04.03.01.02 - Acostamento TH 52 - Km 0,000 + 0,090 - SPA-119  333 | adicionar_usuario
+     Role: Team Member [enterprise]
+157. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.04.03.02.01 - Acostamentos - km 227,800 + 454,300 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+158. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.04.03.02.02 - Acostamentos - km 0,000 + 44,100 - SP-323 | adicionar_usuario
+     Role: Team Member [enterprise]
+159. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.04.03.02.03 - Acostamentos - km 293 ao 427 - SP-326 | adicionar_usuario
+     Role: Team Member [enterprise]
+160. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.04.03.02.04 - Acostamentos - km 83,020 + 212,450 - SP-333 | adicionar_usuario
+     Role: Team Member [enterprise]
+161. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.04.03.02.05 - Acostamentos - km 151,530 + 218,020 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+162. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.06.02.06 - BSO 1 - km 009+470 - SP-323 | adicionar_usuario
+     Role: Team Member [enterprise]
+163. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.06.02.07 - BSO 2 - km 036+800 - SP-323 | adicionar_usuario
+     Role: Team Member [enterprise]
+164. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.06.02.11 - BSO 3 - km 391+200 - SP-326 | adicionar_usuario
+     Role: Team Member [enterprise]
+165. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.06.02.12 - BSO 4 - km 409+200 - SP-326 | adicionar_usuario
+     Role: Team Member [enterprise]
+166. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.06.02.16 - BSO 5 - km 161+750 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+167. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.06.02.17 - BSO 6 - km 198+000 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+168. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.10.01.01 - Marginal TH 31 - km 420,290 + 424,800 - SP-326 | adicionar_usuario
+     Role: Team Member [enterprise]
+169. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.11.01.01 - ADC Ibat� - km 252 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+170. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.11.01.01 - ADC Mat�o - km 291 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+171. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.11.01.01 - ADC Uch�a - km 407 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+172. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.12.01.02 - PMRv Canil SJRP - km 443,000 + 443,000 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+173. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.12.01.02 - PMRv SJRP - km 443,000 + 443,000 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+174. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.12.02.02 - PMRV Araraquara - km 273+400 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+175. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.14.01.03 - Ciclovias - km 17 - SP-326 | adicionar_usuario
+     Role: Team Member [enterprise]
+176. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.03.03 - Free Flow Colina - km 407 - SP-326 | adicionar_usuario
+     Role: Team Member [enterprise]
+177. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.03.03 - Free Flow Dobrada - km 307 - SP-326 | adicionar_usuario
+     Role: Team Member [enterprise]
+178. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.03.03 - Free Flow It�polis - km 178 - SP-333 | adicionar_usuario
+     Role: Team Member [enterprise]
+179. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.03.03 - Free Flow Jaboticabal - km 111 - SP-333 | adicionar_usuario
+     Role: Team Member [enterprise]
+180. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.03.03 - Free Flow Monte Alto - km 19 - SP-323 | adicionar_usuario
+     Role: Team Member [enterprise]
+181. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.03.03 - Free Flow Piragi - km 184 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+182. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.03.03 - Free Flow Tai�va - km 356 - SP-326 | adicionar_usuario
+     Role: Team Member [enterprise]
+183. Linha 3 | t_thaissa.silva@ecorodovias.com.br | CCPP -  Uch�a - km 415+200 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+184. Linha 3 | t_thaissa.silva@ecorodovias.com.br | CCPP - Bebedouro - km 375+850 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+185. Linha 3 | t_thaissa.silva@ecorodovias.com.br | CCPP - It�polis - km 181+500 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+186. Linha 3 | t_thaissa.silva@ecorodovias.com.br | CCPP - Jaboticabal - km 335+260 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+187. Linha 3 | t_thaissa.silva@ecorodovias.com.br | CCPP - S�o Carlos - km 233+900 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+188. Linha 3 | t_thaissa.silva@ecorodovias.com.br | CCPP - S�o Jos� - km 434+700 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+189. Linha 3 | t_thaissa.silva@ecorodovias.com.br | HS-WIM 01 - km 250 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+190. Linha 3 | t_thaissa.silva@ecorodovias.com.br | HS-WIM 02 - km 264 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+191. Linha 3 | t_thaissa.silva@ecorodovias.com.br | HS-WIM 03 - km 373 - SP-326 | adicionar_usuario
+     Role: Team Member [enterprise]
+192. Linha 3 | t_thaissa.silva@ecorodovias.com.br | HS-WIM 04 - km 388 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+193. Linha 3 | t_thaissa.silva@ecorodovias.com.br | NOP01 - Faixa Adicional SC - km 227+800 - 231+320- SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+194. Linha 3 | t_thaissa.silva@ecorodovias.com.br | NOP02 - Faixa Adicional SC - km 227+800 - 230+750 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+195. Linha 3 | t_thaissa.silva@ecorodovias.com.br | NOP03 - Melhoria do Dispositivo SC - km 235+000 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+196. Linha 3 | t_thaissa.silva@ecorodovias.com.br | NOP04 - Melhoria do Dispositivo SC - km 236+100 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+197. Linha 3 | t_thaissa.silva@ecorodovias.com.br | NOP05 - Implanta��o de Dispositivo SC - km 238+200 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+198. Linha 3 | t_thaissa.silva@ecorodovias.com.br | NOP06 - Faixa Adicional - km 238+524 - 240+370 - SP-310 Excluir | adicionar_usuario
+     Role: Team Member [enterprise]
+199. Linha 3 | t_thaissa.silva@ecorodovias.com.br | NOP07 - Melhoria do Dispositivo SC - km 240+000 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+200. Linha 3 | t_thaissa.silva@ecorodovias.com.br | NOP11 - Amplia��o de Dispositivo SJRP - km 432+200 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+201. Linha 3 | t_thaissa.silva@ecorodovias.com.br | NOP12 - Faixa Adicional SJRP- km 451+780 - 454+740 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+202. Linha 3 | t_thaissa.silva@ecorodovias.com.br | NOP13 - Implanta��o de Viaduto MR - km 448+000 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+203. Linha 3 | t_thaissa.silva@ecorodovias.com.br | NOP15 - Implanta��o de Viaduto MR - km 453+180 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+204. Linha 3 | t_thaissa.silva@ecorodovias.com.br | NOP18 - Implanta��o de Dispositivo PP - km 203+210 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+205. Linha 3 | t_thaissa.silva@ecorodovias.com.br | NOP20 - Melhoria do dispositivo JT - km 341+000 - SP-326 | adicionar_usuario
+     Role: Team Member [enterprise]
+206. Linha 3 | t_thaissa.silva@ecorodovias.com.br | NOP22 - Adequa��o de Dispositivo BA - km 423+100 - SP-326 | adicionar_usuario
+     Role: Team Member [enterprise]
+207. Linha 3 | t_thaissa.silva@ecorodovias.com.br | NOP24 - Implanta��o de Viaduto CA - km 217+245 - SP-351 | adicionar_usuario
+     Role: Team Member [enterprise]
+208. Linha 3 | t_thaissa.silva@ecorodovias.com.br | NOP25 - Dispositivo - km 162+800 - SP-333 | adicionar_usuario
+     Role: Team Member [enterprise]
+209. Linha 3 | t_thaissa.silva@ecorodovias.com.br | NOP8910 - Faixa Adicional SJRP - 425+000 - 432+900 - SP-310 | adicionar_usuario
+     Role: Team Member [enterprise]
+210. Linha 3 | t_thaissa.silva@ecorodovias.com.br | Teste GIR | adicionar_usuario
+     Role: Team Member [enterprise]
+
+Confirmacao final
+- Operacoes que alteram o RBAC: 210
+Aplicar as operacoes no Bentley RBAC? [S/N]: > S
+
+[9/9] Aplicando alteracoes RBAC confirmadas...
+- Operacao 1/210: esdras.ferreira@ecorodovias.com.br | 01.01.01.01 - Duplica��o TH 39 - km 157,6 + 159,6 - SP-333 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 2/210: esdras.ferreira@ecorodovias.com.br | 01.01.01.02 - Duplica��o TH 40 - km 159,6 + 173,5 - SP-333 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 3/210: esdras.ferreira@ecorodovias.com.br | 01.01.01.03 - Duplica��o TH 41 - km 173,5 + 182,2 - SP-333 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 4/210: esdras.ferreira@ecorodovias.com.br | 01.01.01.04 - Duplica��o TH 42 - km 182,2 + 212,5 - SP-333 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 5/210: esdras.ferreira@ecorodovias.com.br | 01.01.01.05 - Duplica��o TH 44- km 155,6 + 156,2 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 6/210: esdras.ferreira@ecorodovias.com.br | 01.01.01.06 - Duplica��o TH 45 - km 157,3 + 166,3 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 7/210: esdras.ferreira@ecorodovias.com.br | 01.01.01.07 - Duplica��o TH 46 - km 166,3 + 186,0 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 8/210: esdras.ferreira@ecorodovias.com.br | 01.01.01.08 - Duplica��o TH 47 - km 186,0 + 193,8 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 9/210: esdras.ferreira@ecorodovias.com.br | 01.01.01.09 - Duplica��o TH 48 - km 193,8 + 210,8 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 10/210: esdras.ferreira@ecorodovias.com.br | 01.01.02.01 - Faixas Adicionais TH 02 - km 241,8 + 267,7 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 11/210: esdras.ferreira@ecorodovias.com.br | 01.01.02.02 - Faixas Adicionais TH 03 - km 267,7 + 282,4 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 12/210: esdras.ferreira@ecorodovias.com.br | 01.01.02.03 - Faixas Adicionais TH 04 - km 282,4 + 293,0 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 13/210: esdras.ferreira@ecorodovias.com.br | 01.01.02.04 - Faixas Adicionais TH-09 - 320,4 + 321,6 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 14/210: esdras.ferreira@ecorodovias.com.br | 01.02.01.01 - OAE / OACs TH 40 - km 159,6 + 173,5 - SP-333 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 15/210: esdras.ferreira@ecorodovias.com.br | 01.02.01.06 - OAE / OACs TH-47 - km 186,0 + 193,8 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 16/210: esdras.ferreira@ecorodovias.com.br | 01.02.02.01 - Amplia��es TH 02 - km 241,8 + 267,7 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 17/210: esdras.ferreira@ecorodovias.com.br | 01.02.02.02 - Amplia��es OAE / OAC TH 03  - km 267,7 + 282,4 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 18/210: esdras.ferreira@ecorodovias.com.br | 01.03.01 - Interven��es TH 16 - km 425,000 + 454,300 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 19/210: esdras.ferreira@ecorodovias.com.br | 01.03.02 - Interven��es TH 01 - km 227,800 + 242,500 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 20/210: esdras.ferreira@ecorodovias.com.br | 01.03.03 - Duplica��o TH 36/37/38 -  km 144,000 + 158,000 - SP-333 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 21/210: esdras.ferreira@ecorodovias.com.br | 01.03.04 - Viaduto TH 16 - km 439+700 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 22/210: esdras.ferreira@ecorodovias.com.br | 02.02.01.01.01 - Dispositivo TH 07 - km 304,7 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 23/210: esdras.ferreira@ecorodovias.com.br | 02.02.01.02.01 - Dispositivo TH 18 - km 13,3 - SP-323 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 24/210: esdras.ferreira@ecorodovias.com.br | 02.02.01.02.02 - Dispositivo TH 19 - km 15,2 - SP-323 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 25/210: esdras.ferreira@ecorodovias.com.br | 02.02.01.03.01 - Dispositivo TH 20 - km 20,4 - SP-323 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 26/210: esdras.ferreira@ecorodovias.com.br | 02.02.01.04.01 - Dispositivo TH 21 - km 25,5 - SP-323 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 27/210: esdras.ferreira@ecorodovias.com.br | 02.02.01.05.01 - Dispositivo TH 22 - km 33,0 - SP-323 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 28/210: esdras.ferreira@ecorodovias.com.br | 02.02.01.06.01 - Dispositivo TH 24 - km 40,6 - SP-323 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 29/210: esdras.ferreira@ecorodovias.com.br | 02.02.01.07.01 - Dispositivo TH 40 - km 159,8 - SP-333 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 30/210: esdras.ferreira@ecorodovias.com.br | 02.02.01.08.01 - Dispositivo TH 40 - km 168,3 - SP-333 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 31/210: esdras.ferreira@ecorodovias.com.br | 02.02.01.08.02 - Dispositivo TH 40 - km 173,4 - SP-333 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 32/210: esdras.ferreira@ecorodovias.com.br | 02.02.01.12.01 - Dispositivo TH 44 - km 158,3 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 33/210: esdras.ferreira@ecorodovias.com.br | 02.02.01.13.01 - Dispositivo TH 45 - km 158,3 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 34/210: esdras.ferreira@ecorodovias.com.br | 02.02.01.14.01 - Dispositivo TH 45 - km 163,5 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 35/210: esdras.ferreira@ecorodovias.com.br | 02.02.01.15.01 - Dispositivo TH 46 - km 167,4 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 36/210: esdras.ferreira@ecorodovias.com.br | 02.02.01.15.02 - Dispositivo TH 46 - km 174,6 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 37/210: esdras.ferreira@ecorodovias.com.br | 02.02.01.16.01 - Dispositivo TH 46 - km 185,5 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 38/210: esdras.ferreira@ecorodovias.com.br | 02.02.01.17.01 - Dispositivo TH 48 - km 193,9 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 39/210: esdras.ferreira@ecorodovias.com.br | 02.02.01.17.02 - Dispositivo TH 48 - km 196,2 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 40/210: esdras.ferreira@ecorodovias.com.br | 02.02.01.18.01 - Dispositivo TH 48 - km 206,9 - SP 351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 41/210: esdras.ferreira@ecorodovias.com.br | 02.02.02.01.01 - Amplia��o Dispositivo TH 03 - km 268,3 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 42/210: esdras.ferreira@ecorodovias.com.br | 02.02.02.01.02 - Amplia��o Dispositivo TH 03 - km 271,6 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 43/210: esdras.ferreira@ecorodovias.com.br | 02.02.02.03.01 - Amplia��o Dispositivo TH 06 - km 296,5 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 44/210: esdras.ferreira@ecorodovias.com.br | 02.02.02.04.01 - Amplia��o Dispositivo TH 30  - km 379,0 - SP-326 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 45/210: esdras.ferreira@ecorodovias.com.br | 02.02.02.05.01 - Dispositivo TH 39 -  km 157,5 - SP-333 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 46/210: esdras.ferreira@ecorodovias.com.br | 02.02.02.08.01 - Amplia��o Dispositivo TH 43 - km 151,5 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 47/210: esdras.ferreira@ecorodovias.com.br | 02.02.02.09.01 - Amplia��o Dispositivo TH 44 - km 155,7 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 48/210: esdras.ferreira@ecorodovias.com.br | 02.02.02.10.01 - Amplia��o Dispositivo TH 46 - km 182,8 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 49/210: esdras.ferreira@ecorodovias.com.br | 02.02.02.11.01 - Dispositivo TH 48 - km 194,5 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 50/210: esdras.ferreira@ecorodovias.com.br | 02.04.03.01.01 - Acostamento TH 51 - km 0,000 + 0,450 - SPA-276 310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 51/210: esdras.ferreira@ecorodovias.com.br | 02.04.03.01.02 - Acostamento TH 52 - Km 0,000 + 0,090 - SPA-119  333 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 52/210: esdras.ferreira@ecorodovias.com.br | 02.04.03.02.01 - Acostamentos - km 227,800 + 454,300 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 53/210: esdras.ferreira@ecorodovias.com.br | 02.04.03.02.02 - Acostamentos - km 0,000 + 44,100 - SP-323 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 54/210: esdras.ferreira@ecorodovias.com.br | 02.04.03.02.03 - Acostamentos - km 293 ao 427 - SP-326 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 55/210: esdras.ferreira@ecorodovias.com.br | 02.04.03.02.04 - Acostamentos - km 83,020 + 212,450 - SP-333 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 56/210: esdras.ferreira@ecorodovias.com.br | 02.04.03.02.05 - Acostamentos - km 151,530 + 218,020 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 57/210: esdras.ferreira@ecorodovias.com.br | 02.06.02.06 - BSO 1 - km 009+470 - SP-323 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 58/210: esdras.ferreira@ecorodovias.com.br | 02.06.02.07 - BSO 2 - km 036+800 - SP-323 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 59/210: esdras.ferreira@ecorodovias.com.br | 02.06.02.11 - BSO 3 - km 391+200 - SP-326 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 60/210: esdras.ferreira@ecorodovias.com.br | 02.06.02.12 - BSO 4 - km 409+200 - SP-326 [adicionar_usuario]
