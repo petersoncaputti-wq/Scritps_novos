@@ -1382,3 +1382,261 @@ Aplicar as operacoes no Bentley RBAC? [S/N]: > S
 - Operacao 85/210: esdras.ferreira@ecorodovias.com.br | HS-WIM 02 - km 264 - SP-310 [adicionar_usuario]
   [OK] adicionado
 - Operacao 86/210: esdras.ferreira@ecorodovias.com.br | HS-WIM 03 - km 373 - SP-326 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 87/210: esdras.ferreira@ecorodovias.com.br | HS-WIM 04 - km 388 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 88/210: esdras.ferreira@ecorodovias.com.br | NOP01 - Faixa Adicional SC - km 227+800 - 231+320- SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 89/210: esdras.ferreira@ecorodovias.com.br | NOP02 - Faixa Adicional SC - km 227+800 - 230+750 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 90/210: esdras.ferreira@ecorodovias.com.br | NOP03 - Melhoria do Dispositivo SC - km 235+000 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 91/210: esdras.ferreira@ecorodovias.com.br | NOP04 - Melhoria do Dispositivo SC - km 236+100 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 92/210: esdras.ferreira@ecorodovias.com.br | NOP05 - Implanta��o de Dispositivo SC - km 238+200 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 93/210: esdras.ferreira@ecorodovias.com.br | NOP06 - Faixa Adicional - km 238+524 - 240+370 - SP-310 Excluir [adicionar_usuario]
+  [OK] adicionado
+- Operacao 94/210: esdras.ferreira@ecorodovias.com.br | NOP07 - Melhoria do Dispositivo SC - km 240+000 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 95/210: esdras.ferreira@ecorodovias.com.br | NOP11 - Amplia��o de Dispositivo SJRP - km 432+200 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 96/210: esdras.ferreira@ecorodovias.com.br | NOP12 - Faixa Adicional SJRP- km 451+780 - 454+740 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 97/210: esdras.ferreira@ecorodovias.com.br | NOP13 - Implanta��o de Viaduto MR - km 448+000 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 98/210: esdras.ferreira@ecorodovias.com.br | NOP15 - Implanta��o de Viaduto MR - km 453+180 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 99/210: esdras.ferreira@ecorodovias.com.br | NOP18 - Implanta��o de Dispositivo PP - km 203+210 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 100/210: esdras.ferreira@ecorodovias.com.br | NOP20 - Melhoria do dispositivo JT - km 341+000 - SP-326 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 101/210: esdras.ferreira@ecorodovias.com.br | NOP22 - Adequa��o de Dispositivo BA - km 423+100 - SP-326 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 102/210: esdras.ferreira@ecorodovias.com.br | NOP24 - Implanta��o de Viaduto CA - km 217+245 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 103/210: esdras.ferreira@ecorodovias.com.br | NOP25 - Dispositivo - km 162+800 - SP-333 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 104/210: esdras.ferreira@ecorodovias.com.br | NOP8910 - Faixa Adicional SJRP - 425+000 - 432+900 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 105/210: esdras.ferreira@ecorodovias.com.br | Teste GIR [adicionar_usuario]
+  [OK] adicionado
+- Operacao 106/210: t_thaissa.silva@ecorodovias.com.br | 01.01.01.01 - Duplica��o TH 39 - km 157,6 + 159,6 - SP-333 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 107/210: t_thaissa.silva@ecorodovias.com.br | 01.01.01.02 - Duplica��o TH 40 - km 159,6 + 173,5 - SP-333 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 108/210: t_thaissa.silva@ecorodovias.com.br | 01.01.01.03 - Duplica��o TH 41 - km 173,5 + 182,2 - SP-333 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 109/210: t_thaissa.silva@ecorodovias.com.br | 01.01.01.04 - Duplica��o TH 42 - km 182,2 + 212,5 - SP-333 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 110/210: t_thaissa.silva@ecorodovias.com.br | 01.01.01.05 - Duplica��o TH 44- km 155,6 + 156,2 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 111/210: t_thaissa.silva@ecorodovias.com.br | 01.01.01.06 - Duplica��o TH 45 - km 157,3 + 166,3 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 112/210: t_thaissa.silva@ecorodovias.com.br | 01.01.01.07 - Duplica��o TH 46 - km 166,3 + 186,0 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 113/210: t_thaissa.silva@ecorodovias.com.br | 01.01.01.08 - Duplica��o TH 47 - km 186,0 + 193,8 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 114/210: t_thaissa.silva@ecorodovias.com.br | 01.01.01.09 - Duplica��o TH 48 - km 193,8 + 210,8 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 115/210: t_thaissa.silva@ecorodovias.com.br | 01.01.02.01 - Faixas Adicionais TH 02 - km 241,8 + 267,7 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 116/210: t_thaissa.silva@ecorodovias.com.br | 01.01.02.02 - Faixas Adicionais TH 03 - km 267,7 + 282,4 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 117/210: t_thaissa.silva@ecorodovias.com.br | 01.01.02.03 - Faixas Adicionais TH 04 - km 282,4 + 293,0 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 118/210: t_thaissa.silva@ecorodovias.com.br | 01.01.02.04 - Faixas Adicionais TH-09 - 320,4 + 321,6 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 119/210: t_thaissa.silva@ecorodovias.com.br | 01.02.01.01 - OAE / OACs TH 40 - km 159,6 + 173,5 - SP-333 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 120/210: t_thaissa.silva@ecorodovias.com.br | 01.02.01.06 - OAE / OACs TH-47 - km 186,0 + 193,8 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 121/210: t_thaissa.silva@ecorodovias.com.br | 01.02.02.01 - Amplia��es TH 02 - km 241,8 + 267,7 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 122/210: t_thaissa.silva@ecorodovias.com.br | 01.02.02.02 - Amplia��es OAE / OAC TH 03  - km 267,7 + 282,4 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 123/210: t_thaissa.silva@ecorodovias.com.br | 01.03.01 - Interven��es TH 16 - km 425,000 + 454,300 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 124/210: t_thaissa.silva@ecorodovias.com.br | 01.03.02 - Interven��es TH 01 - km 227,800 + 242,500 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 125/210: t_thaissa.silva@ecorodovias.com.br | 01.03.03 - Duplica��o TH 36/37/38 -  km 144,000 + 158,000 - SP-333 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 126/210: t_thaissa.silva@ecorodovias.com.br | 01.03.04 - Viaduto TH 16 - km 439+700 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 127/210: t_thaissa.silva@ecorodovias.com.br | 02.02.01.01.01 - Dispositivo TH 07 - km 304,7 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 128/210: t_thaissa.silva@ecorodovias.com.br | 02.02.01.02.01 - Dispositivo TH 18 - km 13,3 - SP-323 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 129/210: t_thaissa.silva@ecorodovias.com.br | 02.02.01.02.02 - Dispositivo TH 19 - km 15,2 - SP-323 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 130/210: t_thaissa.silva@ecorodovias.com.br | 02.02.01.03.01 - Dispositivo TH 20 - km 20,4 - SP-323 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 131/210: t_thaissa.silva@ecorodovias.com.br | 02.02.01.04.01 - Dispositivo TH 21 - km 25,5 - SP-323 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 132/210: t_thaissa.silva@ecorodovias.com.br | 02.02.01.05.01 - Dispositivo TH 22 - km 33,0 - SP-323 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 133/210: t_thaissa.silva@ecorodovias.com.br | 02.02.01.06.01 - Dispositivo TH 24 - km 40,6 - SP-323 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 134/210: t_thaissa.silva@ecorodovias.com.br | 02.02.01.07.01 - Dispositivo TH 40 - km 159,8 - SP-333 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 135/210: t_thaissa.silva@ecorodovias.com.br | 02.02.01.08.01 - Dispositivo TH 40 - km 168,3 - SP-333 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 136/210: t_thaissa.silva@ecorodovias.com.br | 02.02.01.08.02 - Dispositivo TH 40 - km 173,4 - SP-333 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 137/210: t_thaissa.silva@ecorodovias.com.br | 02.02.01.12.01 - Dispositivo TH 44 - km 158,3 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 138/210: t_thaissa.silva@ecorodovias.com.br | 02.02.01.13.01 - Dispositivo TH 45 - km 158,3 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 139/210: t_thaissa.silva@ecorodovias.com.br | 02.02.01.14.01 - Dispositivo TH 45 - km 163,5 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 140/210: t_thaissa.silva@ecorodovias.com.br | 02.02.01.15.01 - Dispositivo TH 46 - km 167,4 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 141/210: t_thaissa.silva@ecorodovias.com.br | 02.02.01.15.02 - Dispositivo TH 46 - km 174,6 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 142/210: t_thaissa.silva@ecorodovias.com.br | 02.02.01.16.01 - Dispositivo TH 46 - km 185,5 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 143/210: t_thaissa.silva@ecorodovias.com.br | 02.02.01.17.01 - Dispositivo TH 48 - km 193,9 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 144/210: t_thaissa.silva@ecorodovias.com.br | 02.02.01.17.02 - Dispositivo TH 48 - km 196,2 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 145/210: t_thaissa.silva@ecorodovias.com.br | 02.02.01.18.01 - Dispositivo TH 48 - km 206,9 - SP 351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 146/210: t_thaissa.silva@ecorodovias.com.br | 02.02.02.01.01 - Amplia��o Dispositivo TH 03 - km 268,3 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 147/210: t_thaissa.silva@ecorodovias.com.br | 02.02.02.01.02 - Amplia��o Dispositivo TH 03 - km 271,6 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 148/210: t_thaissa.silva@ecorodovias.com.br | 02.02.02.03.01 - Amplia��o Dispositivo TH 06 - km 296,5 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 149/210: t_thaissa.silva@ecorodovias.com.br | 02.02.02.04.01 - Amplia��o Dispositivo TH 30  - km 379,0 - SP-326 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 150/210: t_thaissa.silva@ecorodovias.com.br | 02.02.02.05.01 - Dispositivo TH 39 -  km 157,5 - SP-333 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 151/210: t_thaissa.silva@ecorodovias.com.br | 02.02.02.08.01 - Amplia��o Dispositivo TH 43 - km 151,5 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 152/210: t_thaissa.silva@ecorodovias.com.br | 02.02.02.09.01 - Amplia��o Dispositivo TH 44 - km 155,7 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 153/210: t_thaissa.silva@ecorodovias.com.br | 02.02.02.10.01 - Amplia��o Dispositivo TH 46 - km 182,8 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 154/210: t_thaissa.silva@ecorodovias.com.br | 02.02.02.11.01 - Dispositivo TH 48 - km 194,5 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 155/210: t_thaissa.silva@ecorodovias.com.br | 02.04.03.01.01 - Acostamento TH 51 - km 0,000 + 0,450 - SPA-276 310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 156/210: t_thaissa.silva@ecorodovias.com.br | 02.04.03.01.02 - Acostamento TH 52 - Km 0,000 + 0,090 - SPA-119  333 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 157/210: t_thaissa.silva@ecorodovias.com.br | 02.04.03.02.01 - Acostamentos - km 227,800 + 454,300 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 158/210: t_thaissa.silva@ecorodovias.com.br | 02.04.03.02.02 - Acostamentos - km 0,000 + 44,100 - SP-323 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 159/210: t_thaissa.silva@ecorodovias.com.br | 02.04.03.02.03 - Acostamentos - km 293 ao 427 - SP-326 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 160/210: t_thaissa.silva@ecorodovias.com.br | 02.04.03.02.04 - Acostamentos - km 83,020 + 212,450 - SP-333 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 161/210: t_thaissa.silva@ecorodovias.com.br | 02.04.03.02.05 - Acostamentos - km 151,530 + 218,020 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 162/210: t_thaissa.silva@ecorodovias.com.br | 02.06.02.06 - BSO 1 - km 009+470 - SP-323 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 163/210: t_thaissa.silva@ecorodovias.com.br | 02.06.02.07 - BSO 2 - km 036+800 - SP-323 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 164/210: t_thaissa.silva@ecorodovias.com.br | 02.06.02.11 - BSO 3 - km 391+200 - SP-326 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 165/210: t_thaissa.silva@ecorodovias.com.br | 02.06.02.12 - BSO 4 - km 409+200 - SP-326 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 166/210: t_thaissa.silva@ecorodovias.com.br | 02.06.02.16 - BSO 5 - km 161+750 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 167/210: t_thaissa.silva@ecorodovias.com.br | 02.06.02.17 - BSO 6 - km 198+000 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 168/210: t_thaissa.silva@ecorodovias.com.br | 02.10.01.01 - Marginal TH 31 - km 420,290 + 424,800 - SP-326 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 169/210: t_thaissa.silva@ecorodovias.com.br | 02.11.01.01 - ADC Ibat� - km 252 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 170/210: t_thaissa.silva@ecorodovias.com.br | 02.11.01.01 - ADC Mat�o - km 291 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 171/210: t_thaissa.silva@ecorodovias.com.br | 02.11.01.01 - ADC Uch�a - km 407 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 172/210: t_thaissa.silva@ecorodovias.com.br | 02.12.01.02 - PMRv Canil SJRP - km 443,000 + 443,000 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 173/210: t_thaissa.silva@ecorodovias.com.br | 02.12.01.02 - PMRv SJRP - km 443,000 + 443,000 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 174/210: t_thaissa.silva@ecorodovias.com.br | 02.12.02.02 - PMRV Araraquara - km 273+400 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 175/210: t_thaissa.silva@ecorodovias.com.br | 02.14.01.03 - Ciclovias - km 17 - SP-326 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 176/210: t_thaissa.silva@ecorodovias.com.br | 03.03.03 - Free Flow Colina - km 407 - SP-326 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 177/210: t_thaissa.silva@ecorodovias.com.br | 03.03.03 - Free Flow Dobrada - km 307 - SP-326 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 178/210: t_thaissa.silva@ecorodovias.com.br | 03.03.03 - Free Flow It�polis - km 178 - SP-333 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 179/210: t_thaissa.silva@ecorodovias.com.br | 03.03.03 - Free Flow Jaboticabal - km 111 - SP-333 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 180/210: t_thaissa.silva@ecorodovias.com.br | 03.03.03 - Free Flow Monte Alto - km 19 - SP-323 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 181/210: t_thaissa.silva@ecorodovias.com.br | 03.03.03 - Free Flow Piragi - km 184 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 182/210: t_thaissa.silva@ecorodovias.com.br | 03.03.03 - Free Flow Tai�va - km 356 - SP-326 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 183/210: t_thaissa.silva@ecorodovias.com.br | CCPP -  Uch�a - km 415+200 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 184/210: t_thaissa.silva@ecorodovias.com.br | CCPP - Bebedouro - km 375+850 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 185/210: t_thaissa.silva@ecorodovias.com.br | CCPP - It�polis - km 181+500 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 186/210: t_thaissa.silva@ecorodovias.com.br | CCPP - Jaboticabal - km 335+260 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 187/210: t_thaissa.silva@ecorodovias.com.br | CCPP - S�o Carlos - km 233+900 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 188/210: t_thaissa.silva@ecorodovias.com.br | CCPP - S�o Jos� - km 434+700 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 189/210: t_thaissa.silva@ecorodovias.com.br | HS-WIM 01 - km 250 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 190/210: t_thaissa.silva@ecorodovias.com.br | HS-WIM 02 - km 264 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 191/210: t_thaissa.silva@ecorodovias.com.br | HS-WIM 03 - km 373 - SP-326 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 192/210: t_thaissa.silva@ecorodovias.com.br | HS-WIM 04 - km 388 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 193/210: t_thaissa.silva@ecorodovias.com.br | NOP01 - Faixa Adicional SC - km 227+800 - 231+320- SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 194/210: t_thaissa.silva@ecorodovias.com.br | NOP02 - Faixa Adicional SC - km 227+800 - 230+750 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 195/210: t_thaissa.silva@ecorodovias.com.br | NOP03 - Melhoria do Dispositivo SC - km 235+000 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 196/210: t_thaissa.silva@ecorodovias.com.br | NOP04 - Melhoria do Dispositivo SC - km 236+100 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 197/210: t_thaissa.silva@ecorodovias.com.br | NOP05 - Implanta��o de Dispositivo SC - km 238+200 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 198/210: t_thaissa.silva@ecorodovias.com.br | NOP06 - Faixa Adicional - km 238+524 - 240+370 - SP-310 Excluir [adicionar_usuario]
+  [OK] adicionado
+- Operacao 199/210: t_thaissa.silva@ecorodovias.com.br | NOP07 - Melhoria do Dispositivo SC - km 240+000 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 200/210: t_thaissa.silva@ecorodovias.com.br | NOP11 - Amplia��o de Dispositivo SJRP - km 432+200 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 201/210: t_thaissa.silva@ecorodovias.com.br | NOP12 - Faixa Adicional SJRP- km 451+780 - 454+740 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 202/210: t_thaissa.silva@ecorodovias.com.br | NOP13 - Implanta��o de Viaduto MR - km 448+000 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 203/210: t_thaissa.silva@ecorodovias.com.br | NOP15 - Implanta��o de Viaduto MR - km 453+180 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 204/210: t_thaissa.silva@ecorodovias.com.br | NOP18 - Implanta��o de Dispositivo PP - km 203+210 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 205/210: t_thaissa.silva@ecorodovias.com.br | NOP20 - Melhoria do dispositivo JT - km 341+000 - SP-326 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 206/210: t_thaissa.silva@ecorodovias.com.br | NOP22 - Adequa��o de Dispositivo BA - km 423+100 - SP-326 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 207/210: t_thaissa.silva@ecorodovias.com.br | NOP24 - Implanta��o de Viaduto CA - km 217+245 - SP-351 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 208/210: t_thaissa.silva@ecorodovias.com.br | NOP25 - Dispositivo - km 162+800 - SP-333 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 209/210: t_thaissa.silva@ecorodovias.com.br | NOP8910 - Faixa Adicional SJRP - 425+000 - 432+900 - SP-310 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 210/210: t_thaissa.silva@ecorodovias.com.br | Teste GIR [adicionar_usuario]
+  [OK] adicionado
+
+Salvando log...
+[OK] Log: C:\Users\peter\OneDrive - Grupo Ecorodovias\�rea de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\PWDM_Gerenciamento_Participantes_V2\Logs\pwdm_gerenciamento_20260803_101231.json
+[OK] Resumo CSV: C:\Users\peter\OneDrive - Grupo Ecorodovias\�rea de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\PWDM_Gerenciamento_Participantes_V2\Logs\pwdm_resumo_20260803_101231.csv
+
+Finalizado.
+Pressione ENTER para fechar o navegador...> [CONTINUAR]
+[INFO] JSON temporario removido: C:\Users\peter\OneDrive - Grupo Ecorodovias\�rea de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\PWDM_Gerenciamento_Participantes_V2\Logs\pwdm_projetos_execucao_connected_20260803_100151.json
+Processo finalizado com código 0.

@@ -1,0 +1,767 @@
+﻿Iniciando rotina: 03 - Incluir usuários em projetos PW Web...
+
+[0/9] Selecionando concessao/projetos no ProjectWise...
+Uma janela/login do ProjectWise pode ser aberta se a sessao ainda nao estiver ativa.
+10:13:14 | Importando modulo ProjectWise...
+Security Protocol now set to TLS 1.2
+PWPS_DAB Version is 24.0.2.0
+This is a 64-bit process.
+.Net Framework version OK (at least 4.8)
+AVISO: Os nomes de alguns comandos importados do módulo 'pwps_dab' incluem verbos não aprovados que podem os tornar 
+menos detectáveis. Para localizar os comandos com verbos não aprovados, execute novamente o comando Import-Module com o
+ parâmetro Verbose. Para obter uma lista de verbos aprovados, digite Get-Verb.
+10:13:14 | Tentando conexao via New-PWLogin...
+10:13:28 | Conexao ProjectWise OK.
+10:13:29 | Listando filhos: Engenharia
+10:13:29 | Encontrado(s) 13 filho(s) em 0.5 s: Engenharia
+
+Concessoes disponiveis:
+01. Ecovias Araguaia
+02. Ecovias Capixaba
+03. Ecovias Cerrado
+04. Ecovias Imigrantes
+05. Ecovias Leste Paulista
+06. Ecovias Minas Goiás
+07. Ecovias Noroeste Paulista
+08. Ecovias Norte Minas
+09. Ecovias Ponte
+10. Ecovias Raposo Castello
+11. Ecovias Rio Minas
+12. Ecovias Sul
+13. Z - Templates
+> 10
+10
+10:13:46 | Carregando projetos somente da concessao 'Ecovias Raposo Castello'...
+10:13:46 | Listando filhos: Ecovias Raposo Castello
+10:13:46 | Encontrado(s) 2 filho(s) em 0.1 s: Ecovias Raposo Castello
+10:13:46 | Listando filhos: Projetos
+10:13:48 | Encontrado(s) 63 filho(s) em 2.7 s: Projetos
+
+Projetos da concessao escolhida:
+001. 01.01.02 - Duplicação - Cotia-Embu | ID PW: 397906 | GUID PW: caf2f440-5ae7-4d36-9e0d-f19429f3c3cb
+002. 01.02.04-TH-14-faixa adicional km 32.25 km ao km 41.70 da SP-280 | ID PW: 421109 | GUID PW: 25baa5b1-d85e-40b4-be6a-0b1b59f7eff3
+003. 01.02.05-TH-14-faixa adicional  km 41.70 km ao km 54.14 da SP-280 | ID PW: 421142 | GUID PW: 550e5cfb-9b75-46d1-ae3a-1a5837ab6b2d
+004. 02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste | ID PW: 311855 | GUID PW: b5813bc9-dba9-495a-abab-24c58304e99a
+005. 02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste | ID PW: 312266 | GUID PW: 9a16bedb-b7e4-49cc-bfc2-6b41056adfd7
+006. 02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste | ID PW: 312677 | GUID PW: 77488ef1-35b7-4d76-b8a6-5c89ca48cbde
+007. 02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste | ID PW: 313088 | GUID PW: b013fc3f-989d-41bc-99f1-3ac5a4fe13ba
+008. 02.02.02.05 - BSO 5 - (Localização á definir) - SP-280 | ID PW: 313499 | GUID PW: d4df1966-1475-4057-9b07-ff226f5488f4
+009. 02.02.03 - PPD 1 - km 20 - SP-280 - Leste | ID PW: 327363 | GUID PW: dd212a56-0588-4400-b305-5a4ec3c72a53
+010. 02.02.03 - PPD 2 - km 33 - SP-280 - Oeste | ID PW: 327774 | GUID PW: b1c9e711-a1d8-4259-834f-88a16c57ff40
+011. 02.02.04 - PMRV - Araçariguama - SP-280 | ID PW: 328185 | GUID PW: f1d7fd3f-dc0d-4543-8852-c92e12592aa1
+012. 02.05.05 - Benjamin Mansur TH-02 - km 12,47 - SP-270 | ID PW: 423215 | GUID PW: 2c43233b-0368-421b-b380-f7a40cd64782
+013. 02.05.06 - Diamante TH-04 - km 20,55 - SP-270 | ID PW: 423704 | GUID PW: 9dec37d1-172b-4cae-b45d-747c75988c0f
+014. 02.05.07 - Parclo Reconstrução TH-03 - km 16,60 - SP-270 | ID PW: 423238 | GUID PW: 9391352c-250a-4a79-bc26-d9719923be88
+015. 02.05.08 - Escola Politécnica TH-03 - km 17,58 - SP-270 | ID PW: 423261 | GUID PW: 7d9dd87c-822c-48ec-bcd8-f6f915b78fb8
+016. 02.05.09 - Diamante TH-04 - km 18,83 - SP-270 | ID PW: 423284 | GUID PW: dd6ce7af-f6d4-40ac-9ebe-3cb30bc52333
+017. 02.05.10 - Alça  TH-04 - km 21,49 - SP-270 | ID PW: 423737 | GUID PW: ff32a0bf-39ec-49d2-9e7e-e725aaf1e13e
+018. 02.05.17 - Trevo Embú Resconstrução TH-05 - km 27,275 - SP-270 | ID PW: 423169 | GUID PW: 1d355f03-7002-4279-a480-db5202fc1d26
+019. 02.05.19 - Dispositivo de Conexão - BR-116 | ID PW: 397749 | GUID PW: 6e6fa8f4-5717-4680-b24b-0aeb19e16344
+020. 02.05.22 - Alça - km 22,20 - SP-280 | ID PW: 394768 | GUID PW: 76f7168a-4d31-4f85-ae89-61e4579530b7
+021. 02.05.23 - Diamante - km 36,00 SP-280 | ID PW: 394559 | GUID PW: b7224958-5b34-43c0-ab74-cc4a4bf1a9a3
+022. 02.05.24 - Trombeta - km 46,62 - SP-280 | ID PW: 394721 | GUID PW: 0bebf477-b8d7-4a0b-be4c-42155f2a00a5
+023. 02.05.25 - Diamante km 50,9 - SP-280 | ID PW: 422939 | GUID PW: 63f58fda-f6e8-4f0b-b109-c24e8b099ea9
+024. 02.05.26 - Alça - km 22,80 - SP-280 | ID PW: 397701 | GUID PW: 07e0ba75-7f8b-4354-88b8-61cf7c99605f
+025. 02.06.11-  Marginal Decrescente - km 30,74 +31,23 - SP-280 | ID PW: 394745 | GUID PW: 607ad92d-5c02-4f71-87e2-d192deaeffb9
+026. 02.08.01.02 -  Ferradura na Marginal Pinheiros Jockey Club | ID PW: 426499 | GUID PW: 44c06ca5-a888-4e0c-92c3-10b92903b828
+027. 02.08.02  - Ponte Av. Politécnica Pinheiros | ID PW: 426532 | GUID PW: 966b5de6-0678-4948-b429-30881a5aeba6
+028. 02.09.19 - Pontos de Ônibus Cotia-Embu - km 0 + 16,5 | ID PW: 397772 | GUID PW: 1ab86f71-88f1-4d41-bd5b-edf50edfcd5d
+029. 02.10.05 - Rodoanel TH-04 - km 21,825 - SP-270 | ID PW: 423770 | GUID PW: 2a3cbedd-8584-47f1-b112-2d51ac1391c7
+030. 02.10.19 - Acesso Cotia-Embu - km 0 + 16,5 | ID PW: 397796 | GUID PW: b84fa135-05d5-47fb-9212-755222c38952
+031. 02.11.01.12 - Alça TH-04 - km 28,07 - SP-270 | ID PW: 423803 | GUID PW: 617a4fd6-56ff-4910-a236-3b385571a22f
+032. 02.11.01.15 - OAE - km 22,2 - SP-280 | ID PW: 397034 | GUID PW: e78f585f-58bc-4c18-852d-1525cf446835
+033. 02.11.01.17 - OAE - km 22,2 - SP-280 | ID PW: 397057 | GUID PW: 2b5afe74-fb89-4036-a2bd-2df6a77ab53b
+034. 02.11.01.31 - OAE - Cotia-Embu - km 0 | ID PW: 397819 | GUID PW: 30f9f245-bd31-485c-b62f-d68e76f5cfa3
+035. 02.13.01 - Faixa Adic Ponte Rio Tietê Carapicuiba | ID PW: 397842 | GUID PW: 3f38e5e0-ded0-4b08-b360-324f84df88c5
+036. 02.8.01.01 -  Ferradura na Marginal Pinheiros Eusébio Matoso | ID PW: 426466 | GUID PW: 7f5609ae-c98e-4b6f-9c70-006dc09f3559
+037. 03.03 - Free Flow P10 - Via Expressa Leste km 33,990 - SP-280 | ID PW: 423077 | GUID PW: d8be8575-b4f9-4dae-8939-b26bec5addfd
+038. 03.03 - Free Flow P10 - Via Expressa Oeste km 33,990 - SP-280 | ID PW: 423671 | GUID PW: d9403054-4001-4d8a-829f-5855d6c47b36
+039. 03.03 - Free Flow P11 - Via Expressa Norte-Sul km 34,600 - SP-280 | ID PW: 423100 | GUID PW: d5abbce3-3ec1-4ae3-86ef-774856790fff
+040. 03.03 - Free Flow P12 - Via Expressa Norte-Sul km 40,655 - SP-280 | ID PW: 423123 | GUID PW: b2b8c3fb-0b69-41a6-acd5-1a052e72575e
+041. 03.03 - Free Flow P4 - Via Expressa Leste km 24,900 - SP-270 | ID PW: 422962 | GUID PW: c8c1ebfd-4b86-4230-97b9-96efa315e68f
+042. 03.03 - Free Flow P6 - Marginal Leste km 13,660 - SP-280 | ID PW: 423407 | GUID PW: 4dab4830-a16e-48fa-b137-0db010b99be1
+043. 03.03 - Free Flow P6 - Marginal Oeste km 14,420 - SP-280 | ID PW: 423340 | GUID PW: 629f5241-f9a2-487f-91b7-8d8225af0929
+044. 03.03 - Free Flow P6 - Via Expressa Leste km 13,680 - SP-280 | ID PW: 423374 | GUID PW: 3f690068-6d06-4dd3-b2e7-cf573ac53753
+045. 03.03 - Free Flow P6 - Via Expressa Leste km 24,900 - SP-275 | ID PW: 422985 | GUID PW: 8c297a42-36ac-481b-8610-93b0fcaed5e4
+046. 03.03 - Free Flow P6 - Via Expressa Oeste km 14,390 - SP-280 | ID PW: 423307 | GUID PW: ea077c54-cedc-4886-b6e5-361d45e8f2df
+047. 03.03 - Free Flow P7 - Marginal Leste km 20,970 - SP-280 | ID PW: 423473 | GUID PW: 19645718-5947-408d-afb5-cc985c950018
+048. 03.03 - Free Flow P7 - Marginal Oeste km 18,050 - SP-280 | ID PW: 423008 | GUID PW: 5b49c16a-8099-4ad4-9fb6-7174e50b6718
+049. 03.03 - Free Flow P7 - Via Expressa Leste km 20,745 - SP-280 | ID PW: 423440 | GUID PW: b41cc2ae-ca95-4fc1-a96b-fa5b074cb900
+050. 03.03 - Free Flow P7 - Via Expressa Oeste km 18,140 - SP-280 | ID PW: 423506 | GUID PW: 34aa45c8-7277-49b6-966f-29d3837b197a
+051. 03.03 - Free Flow P8 - Marginal Leste km 24,040 - SP-280 | ID PW: 423031 | GUID PW: 745f5038-e787-47b7-9e60-f63f329e4cea
+052. 03.03 - Free Flow P8 - Marginal Oeste km 23,980 - SP-280 | ID PW: 423572 | GUID PW: 3cfaec2f-d4bb-41be-9ab5-f783beb5cc82
+053. 03.03 - Free Flow P8 - Via Expressa Leste km 24,010 - SP-280 | ID PW: 423605 | GUID PW: 19261be7-cd4b-4d96-8681-cd4a59256b6c
+054. 03.03 - Free Flow P8 - Via Expressa Oeste km 24,010 - SP-280 | ID PW: 423539 | GUID PW: 2e7919ce-61f2-431d-b414-facfd8af5b86
+055. 03.03 - Free Flow P9 - Via Expressa Leste km 29,210 - SP-280 | ID PW: 423054 | GUID PW: 30a2ca56-8bd9-4ab8-b10b-77a39ee73273
+056. 03.03 - Free Flow P9 - Via Expressa Oeste km 29,340 - SP-280 | ID PW: 423638 | GUID PW: 2cab500e-33d9-476a-88e7-784ccd8e358a
+057. 03.11 - HS-WIM 1 - km 20 - SP-280 | ID PW: 328597 | GUID PW: 8eb542fd-4931-4f16-8e0f-b6bd00cd9c7a
+058. 03.11 - HS-WIM 2 km 24 - SP-270 | ID PW: 329008 | GUID PW: 290c3c2b-873f-48eb-b301-c3bc8ff1586f
+059. 03.11 - HS-WIM 3 - km 29 Oeste SP-280 | ID PW: 329419 | GUID PW: a4c65d19-4362-4a65-b23a-d359baf76d30
+060. 03.11 - HS-WIM 4  km 29 Leste - SP-280 | ID PW: 427149 | GUID PW: 9ba0fb15-d696-406f-889f-fc7ac6d4f6f1
+061. O2.05.14 - Trevo São Camilo Reconstrução TH-05 - km 24,075 - SP-270 | ID PW: 423146 | GUID PW: 41ce9cdb-02a2-45b2-8661-ae2ac62bbc09
+062. Projeto Conceitual - Raposo Tavares/ Nova Ligação Embu | ID PW: 299566 | GUID PW: 2ea01ce0-850d-4352-b5eb-708fe64a49d6
+063. Trincheira Conexão SP TH-01 - km 10,94 - SP - 270 | ID PW: 423192 | GUID PW: f01b8169-e669-45a5-8e64-2eff76c49150
+
+Forma de selecao dos projetos:
+01. Selecionar manualmente pelos numeros
+02. Selecionar por planilha com coluna Projeto
+> 1
+1
+
+Digite numeros separados por virgula, intervalos como 1-5, ou 'todos'.
+> todos
+todos
+10:13:54 | AVISO | 17 projeto(s) selecionado(s) nao possuem ConnectedProjectId e nao podem ser gerenciados no ProjectWise Web.
+10:13:54 | AVISO | Sem ConnectedProjectId valido: 02.05.05 - Benjamin Mansur TH-02 - km 12,47 - SP-270 | PW ID: 423215 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:13:54 | AVISO | Sem ConnectedProjectId valido: 02.05.06 - Diamante TH-04 - km 20,55 - SP-270 | PW ID: 423704 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:13:54 | AVISO | Sem ConnectedProjectId valido: 02.05.07 - Parclo Reconstrução TH-03 - km 16,60 - SP-270 | PW ID: 423238 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:13:54 | AVISO | Sem ConnectedProjectId valido: 02.05.08 - Escola Politécnica TH-03 - km 17,58 - SP-270 | PW ID: 423261 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:13:54 | AVISO | Sem ConnectedProjectId valido: 02.05.09 - Diamante TH-04 - km 18,83 - SP-270 | PW ID: 423284 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:13:54 | AVISO | Sem ConnectedProjectId valido: 02.05.10 - Alça  TH-04 - km 21,49 - SP-270 | PW ID: 423737 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:13:54 | AVISO | Sem ConnectedProjectId valido: 02.05.17 - Trevo Embú Resconstrução TH-05 - km 27,275 - SP-270 | PW ID: 423169 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:13:54 | AVISO | Sem ConnectedProjectId valido: 02.08.01.02 -  Ferradura na Marginal Pinheiros Jockey Club | PW ID: 426499 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:13:54 | AVISO | Sem ConnectedProjectId valido: 02.08.02  - Ponte Av. Politécnica Pinheiros | PW ID: 426532 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:13:54 | AVISO | Sem ConnectedProjectId valido: 02.09.19 - Pontos de Ônibus Cotia-Embu - km 0 + 16,5 | PW ID: 397772 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:13:54 | AVISO | Sem ConnectedProjectId valido: 02.10.05 - Rodoanel TH-04 - km 21,825 - SP-270 | PW ID: 423770 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:13:54 | AVISO | Sem ConnectedProjectId valido: 02.10.19 - Acesso Cotia-Embu - km 0 + 16,5 | PW ID: 397796 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:13:54 | AVISO | Sem ConnectedProjectId valido: 02.11.01.12 - Alça TH-04 - km 28,07 - SP-270 | PW ID: 423803 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:13:54 | AVISO | Sem ConnectedProjectId valido: 02.11.01.31 - OAE - Cotia-Embu - km 0 | PW ID: 397819 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:13:54 | AVISO | Sem ConnectedProjectId valido: 02.8.01.01 -  Ferradura na Marginal Pinheiros Eusébio Matoso | PW ID: 426466 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:13:54 | AVISO | Sem ConnectedProjectId valido: O2.05.14 - Trevo São Camilo Reconstrução TH-05 - km 24,075 - SP-270 | PW ID: 423146 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+10:13:54 | AVISO | Sem ConnectedProjectId valido: Trincheira Conexão SP TH-01 - km 10,94 - SP - 270 | PW ID: 423192 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+
+[OK] Projetos selecionados exportados.
+JSON: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\PWDM_Gerenciamento_Participantes_V2\Logs\pwdm_projetos_execucao_connected_20260803_101314.json
+Projetos selecionados: 63
+Projetos aptos PW Web: 46
+True
+
+[INFO] Usando projetos selecionados pelo ProjectWise nesta execucao: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\PWDM_Gerenciamento_Participantes_V2\Logs\pwdm_projetos_execucao_connected_20260803_101314.json
+
+[AVISO] Projeto(s) ignorado(s) por nao terem ConnectedProjectId valido para o ProjectWise Web:
+- 02.05.05 - Benjamin Mansur TH-02 - km 12,47 - SP-270 | PW ID: 423215 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.05.06 - Diamante TH-04 - km 20,55 - SP-270 | PW ID: 423704 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.05.07 - Parclo Reconstrução TH-03 - km 16,60 - SP-270 | PW ID: 423238 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.05.08 - Escola Politécnica TH-03 - km 17,58 - SP-270 | PW ID: 423261 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.05.09 - Diamante TH-04 - km 18,83 - SP-270 | PW ID: 423284 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.05.10 - Alça  TH-04 - km 21,49 - SP-270 | PW ID: 423737 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.05.17 - Trevo Embú Resconstrução TH-05 - km 27,275 - SP-270 | PW ID: 423169 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.08.01.02 -  Ferradura na Marginal Pinheiros Jockey Club | PW ID: 426499 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.08.02  - Ponte Av. Politécnica Pinheiros | PW ID: 426532 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.09.19 - Pontos de Ônibus Cotia-Embu - km 0 + 16,5 | PW ID: 397772 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.10.05 - Rodoanel TH-04 - km 21,825 - SP-270 | PW ID: 423770 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.10.19 - Acesso Cotia-Embu - km 0 + 16,5 | PW ID: 397796 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.11.01.12 - Alça TH-04 - km 28,07 - SP-270 | PW ID: 423803 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.11.01.31 - OAE - Cotia-Embu - km 0 | PW ID: 397819 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- 02.8.01.01 -  Ferradura na Marginal Pinheiros Eusébio Matoso | PW ID: 426466 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- O2.05.14 - Trevo São Camilo Reconstrução TH-05 - km 24,075 - SP-270 | PW ID: 423146 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+- Trincheira Conexão SP TH-01 - km 10,94 - SP - 270 | PW ID: 423192 | ConnectedProjectId: 00000000-0000-0000-0000-000000000000
+Esses projetos nao serao consultados no gerenciamento de membros nesta execucao.
+[OK] 46 projeto(s) do ProjectWise Web carregado(s) pelo ConnectedProjectId.
+001. 01.01.02 - Duplicação - Cotia-Embu | PW ID: 397906 | ConnectedProjectId: c5621ad1-33a2-47f7-a337-19a60e18c75a
+002. 01.02.04-TH-14-faixa adicional km 32.25 km ao km 41.70 da SP-280 | PW ID: 421109 | ConnectedProjectId: 2ef7573e-3e1b-4cb7-b9c8-0780ad5372cc
+003. 01.02.05-TH-14-faixa adicional  km 41.70 km ao km 54.14 da SP-280 | PW ID: 421142 | ConnectedProjectId: 26e76980-9ff8-4a1c-b95f-24468c7b9522
+004. 02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste | PW ID: 311855 | ConnectedProjectId: bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66
+005. 02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste | PW ID: 312266 | ConnectedProjectId: 3d856c59-1088-4880-9217-cb841410147c
+006. 02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste | PW ID: 312677 | ConnectedProjectId: ea3b588e-3784-4f4d-aadd-ba905875ad99
+007. 02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste | PW ID: 313088 | ConnectedProjectId: ae496c86-d35f-45ed-9421-67432d77d9bd
+008. 02.02.02.05 - BSO 5 - (Localização á definir) - SP-280 | PW ID: 313499 | ConnectedProjectId: 5778dda5-3d2d-402b-bfd9-6f6e7d87a077
+009. 02.02.03 - PPD 1 - km 20 - SP-280 - Leste | PW ID: 327363 | ConnectedProjectId: 50c209f1-607a-4b28-b9a3-d5c139d8961a
+010. 02.02.03 - PPD 2 - km 33 - SP-280 - Oeste | PW ID: 327774 | ConnectedProjectId: dbe9beeb-f435-48b6-82d8-7714f491c706
+011. 02.02.04 - PMRV - Araçariguama - SP-280 | PW ID: 328185 | ConnectedProjectId: 903aed48-88ea-43af-8664-f61851c6cbbe
+012. 02.05.19 - Dispositivo de Conexão - BR-116 | PW ID: 397749 | ConnectedProjectId: 6d384fe3-52b8-4123-8966-78e84a9b5b8b
+013. 02.05.22 - Alça - km 22,20 - SP-280 | PW ID: 394768 | ConnectedProjectId: 5147867f-9581-43a3-8210-1ba6f12501cc
+014. 02.05.23 - Diamante - km 36,00 SP-280 | PW ID: 394559 | ConnectedProjectId: 09ce0a82-239d-40c1-b49e-15caeefec61c
+015. 02.05.24 - Trombeta - km 46,62 - SP-280 | PW ID: 394721 | ConnectedProjectId: 895f658a-2417-4c48-b668-45590d1cdbc5
+016. 02.05.25 - Diamante km 50,9 - SP-280 | PW ID: 422939 | ConnectedProjectId: fb0571a5-3f64-4fab-908f-268be93776a6
+017. 02.05.26 - Alça - km 22,80 - SP-280 | PW ID: 397701 | ConnectedProjectId: 992ffbe8-8902-497c-8442-74a6c31b6f17
+018. 02.06.11-  Marginal Decrescente - km 30,74 +31,23 - SP-280 | PW ID: 394745 | ConnectedProjectId: e2cb9029-c7f8-4dd0-8fbe-7cd34b7082fd
+019. 02.11.01.15 - OAE - km 22,2 - SP-280 | PW ID: 397034 | ConnectedProjectId: 56cb3120-01b4-4165-9d8f-ba34e33539ae
+020. 02.11.01.17 - OAE - km 22,2 - SP-280 | PW ID: 397057 | ConnectedProjectId: 144c0f05-4a8b-4754-9658-3f1de6031b2d
+021. 02.13.01 - Faixa Adic Ponte Rio Tietê Carapicuiba | PW ID: 397842 | ConnectedProjectId: 7357e987-ec70-4dc6-9d12-ffe08438e439
+022. 03.03 - Free Flow P10 - Via Expressa Leste km 33,990 - SP-280 | PW ID: 423077 | ConnectedProjectId: e24a37f3-c2e6-418a-995e-a7a35b86d9ef
+023. 03.03 - Free Flow P10 - Via Expressa Oeste km 33,990 - SP-280 | PW ID: 423671 | ConnectedProjectId: b47658c0-d4ad-4051-aa37-633b2755696c
+024. 03.03 - Free Flow P11 - Via Expressa Norte-Sul km 34,600 - SP-280 | PW ID: 423100 | ConnectedProjectId: bae44540-ff29-41b0-adcc-ddc6a1d69eda
+025. 03.03 - Free Flow P12 - Via Expressa Norte-Sul km 40,655 - SP-280 | PW ID: 423123 | ConnectedProjectId: cb60e4e7-7084-4854-9b02-ff1e01f20d32
+026. 03.03 - Free Flow P4 - Via Expressa Leste km 24,900 - SP-270 | PW ID: 422962 | ConnectedProjectId: 2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1
+027. 03.03 - Free Flow P6 - Marginal Leste km 13,660 - SP-280 | PW ID: 423407 | ConnectedProjectId: 0aa4956e-d972-4aca-bf20-a537fa4bad96
+028. 03.03 - Free Flow P6 - Marginal Oeste km 14,420 - SP-280 | PW ID: 423340 | ConnectedProjectId: e6e6bd37-2dc3-4781-9eda-a697cde5268d
+029. 03.03 - Free Flow P6 - Via Expressa Leste km 13,680 - SP-280 | PW ID: 423374 | ConnectedProjectId: 10cbbcde-0091-44d7-860b-876904640209
+030. 03.03 - Free Flow P6 - Via Expressa Leste km 24,900 - SP-275 | PW ID: 422985 | ConnectedProjectId: 34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0
+031. 03.03 - Free Flow P6 - Via Expressa Oeste km 14,390 - SP-280 | PW ID: 423307 | ConnectedProjectId: 843cfe4c-6dcf-4363-bd72-8ea689505806
+032. 03.03 - Free Flow P7 - Marginal Leste km 20,970 - SP-280 | PW ID: 423473 | ConnectedProjectId: 30cde4d8-73fe-413a-947d-cd3116a0cb2b
+033. 03.03 - Free Flow P7 - Marginal Oeste km 18,050 - SP-280 | PW ID: 423008 | ConnectedProjectId: feb590aa-7b39-49f4-acc8-3002d4dc8003
+034. 03.03 - Free Flow P7 - Via Expressa Leste km 20,745 - SP-280 | PW ID: 423440 | ConnectedProjectId: 17335eae-f523-4c5e-804a-c5ec8cc017d1
+035. 03.03 - Free Flow P7 - Via Expressa Oeste km 18,140 - SP-280 | PW ID: 423506 | ConnectedProjectId: b82a2e67-91c6-42b6-86ce-90f5b84e9b32
+036. 03.03 - Free Flow P8 - Marginal Leste km 24,040 - SP-280 | PW ID: 423031 | ConnectedProjectId: 25739821-e400-43d6-90cf-f4ca361422e5
+037. 03.03 - Free Flow P8 - Marginal Oeste km 23,980 - SP-280 | PW ID: 423572 | ConnectedProjectId: 4cbacd61-c55f-4fa0-ac35-6b07631f91c7
+038. 03.03 - Free Flow P8 - Via Expressa Leste km 24,010 - SP-280 | PW ID: 423605 | ConnectedProjectId: 6841f1b3-7a77-40a2-9a21-afbce6ce277a
+039. 03.03 - Free Flow P8 - Via Expressa Oeste km 24,010 - SP-280 | PW ID: 423539 | ConnectedProjectId: 27f2366e-7ec3-4a08-a22f-ad91ce49d6b0
+040. 03.03 - Free Flow P9 - Via Expressa Leste km 29,210 - SP-280 | PW ID: 423054 | ConnectedProjectId: 2144adc7-166a-49c1-8b26-db74a8ff27e5
+041. 03.03 - Free Flow P9 - Via Expressa Oeste km 29,340 - SP-280 | PW ID: 423638 | ConnectedProjectId: 624cd394-bd20-483f-a325-27ea3518eefe
+042. 03.11 - HS-WIM 1 - km 20 - SP-280 | PW ID: 328597 | ConnectedProjectId: 2d0daf2a-daa7-4b01-ae64-b0de2acc681a
+043. 03.11 - HS-WIM 2 km 24 - SP-270 | PW ID: 329008 | ConnectedProjectId: da2a40d3-8844-47a0-880d-1da9c9501096
+044. 03.11 - HS-WIM 3 - km 29 Oeste SP-280 | PW ID: 329419 | ConnectedProjectId: ebf70eb8-cc8f-462d-921d-fe54b18bb25b
+045. 03.11 - HS-WIM 4  km 29 Leste - SP-280 | PW ID: 427149 | ConnectedProjectId: 9b810580-178e-4a54-920b-2d3b748e7ee7
+046. Projeto Conceitual - Raposo Tavares/ Nova Ligação Embu | PW ID: 299566 | ConnectedProjectId: 57e3ca06-eccf-4cab-b4be-36d7353e3f1e
+
+Modo de usuarios
+01. Usuario unico
+02. Lote por planilha .xlsx
+Escolha [1/2]: > 02
+
+[OK] Planilha importada: C:\Users\peter\OneDrive\Desktop\UsuariosPorDescricao_20260803_095501\Usuarios_Descricao_Gestor Engenharia.xlsx
+- Aba: Usuarios
+- Linhas validas: 2
+- Linhas invalidas ignoradas: 0
+- Projeto: sem coluna de projeto, os usuarios serao aplicados a todos os projetos selecionados.
+- Role: sera selecionada no RBAC para as linhas sem coluna/valor de role.
+[1/9] Abrindo navegador visual...
+[2/9] Acessando tela de membros RBAC: https://connect-rbacportal.bentley.com/Manage/c5621ad1-33a2-47f7-a337-19a60e18c75a/users
+
+Se necessario, faca login manualmente no navegador.
+Quando estiver autenticado e a tela carregar, pressione ENTER no terminal...> [CONTINUAR]
+  [INFO] Roles extraidas dos membros existentes: 6
+
+Role RBAC para linhas sem role informada
+Escolha pelo numero abaixo. ENTER usa Team Member.
+01. iTwin owner (enterprise)
+02. PWDM Administrator (enterprise)
+03. PWDM Approver (enterprise)
+04. PWDM Issuer (enterprise)
+05. PWDM Receiver (enterprise)
+06. Team Member (enterprise) [padrao]
+Numero ou nome da role: > [CONTINUAR]
+[OK] Role selecionada para linhas sem role: Team Member
+
+[7/9] Lendo roles e membros nos projetos selecionados...
+- Linha 2 (1/2): esdras.ferreira@ecorodovias.com.br -> 46 projeto(s) [todos]
+  Consultando roles: 01.01.02 - Duplicação - Cotia-Embu (c5621ad1-33a2-47f7-a337-19a60e18c75a)
+  Consultando membros: 01.01.02 - Duplicação - Cotia-Embu (c5621ad1-33a2-47f7-a337-19a60e18c75a)
+  Consultando convites: 01.01.02 - Duplicação - Cotia-Embu (c5621ad1-33a2-47f7-a337-19a60e18c75a)
+  Consultando roles: 01.02.04-TH-14-faixa adicional km 32.25 km ao km 41.70 da SP-280 (2ef7573e-3e1b-4cb7-b9c8-0780ad5372cc)
+  Consultando membros: 01.02.04-TH-14-faixa adicional km 32.25 km ao km 41.70 da SP-280 (2ef7573e-3e1b-4cb7-b9c8-0780ad5372cc)
+  Consultando convites: 01.02.04-TH-14-faixa adicional km 32.25 km ao km 41.70 da SP-280 (2ef7573e-3e1b-4cb7-b9c8-0780ad5372cc)
+  Consultando roles: 01.02.05-TH-14-faixa adicional  km 41.70 km ao km 54.14 da SP-280 (26e76980-9ff8-4a1c-b95f-24468c7b9522)
+  Consultando membros: 01.02.05-TH-14-faixa adicional  km 41.70 km ao km 54.14 da SP-280 (26e76980-9ff8-4a1c-b95f-24468c7b9522)
+  Consultando convites: 01.02.05-TH-14-faixa adicional  km 41.70 km ao km 54.14 da SP-280 (26e76980-9ff8-4a1c-b95f-24468c7b9522)
+  Consultando roles: 02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste (bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66)
+  Consultando membros: 02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste (bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66)
+  Consultando convites: 02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste (bdaa1cf7-5b79-4d4b-a333-12c47ec0ed66)
+  Consultando roles: 02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste (3d856c59-1088-4880-9217-cb841410147c)
+  Consultando membros: 02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste (3d856c59-1088-4880-9217-cb841410147c)
+  Consultando convites: 02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste (3d856c59-1088-4880-9217-cb841410147c)
+  Consultando roles: 02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste (ea3b588e-3784-4f4d-aadd-ba905875ad99)
+  Consultando membros: 02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste (ea3b588e-3784-4f4d-aadd-ba905875ad99)
+  Consultando convites: 02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste (ea3b588e-3784-4f4d-aadd-ba905875ad99)
+  Consultando roles: 02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste (ae496c86-d35f-45ed-9421-67432d77d9bd)
+  Consultando membros: 02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste (ae496c86-d35f-45ed-9421-67432d77d9bd)
+  Consultando convites: 02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste (ae496c86-d35f-45ed-9421-67432d77d9bd)
+  Consultando roles: 02.02.02.05 - BSO 5 - (Localização á definir) - SP-280 (5778dda5-3d2d-402b-bfd9-6f6e7d87a077)
+  Consultando membros: 02.02.02.05 - BSO 5 - (Localização á definir) - SP-280 (5778dda5-3d2d-402b-bfd9-6f6e7d87a077)
+  Consultando convites: 02.02.02.05 - BSO 5 - (Localização á definir) - SP-280 (5778dda5-3d2d-402b-bfd9-6f6e7d87a077)
+  Consultando roles: 02.02.03 - PPD 1 - km 20 - SP-280 - Leste (50c209f1-607a-4b28-b9a3-d5c139d8961a)
+  Consultando membros: 02.02.03 - PPD 1 - km 20 - SP-280 - Leste (50c209f1-607a-4b28-b9a3-d5c139d8961a)
+  Consultando convites: 02.02.03 - PPD 1 - km 20 - SP-280 - Leste (50c209f1-607a-4b28-b9a3-d5c139d8961a)
+  Consultando roles: 02.02.03 - PPD 2 - km 33 - SP-280 - Oeste (dbe9beeb-f435-48b6-82d8-7714f491c706)
+  Consultando membros: 02.02.03 - PPD 2 - km 33 - SP-280 - Oeste (dbe9beeb-f435-48b6-82d8-7714f491c706)
+  Consultando convites: 02.02.03 - PPD 2 - km 33 - SP-280 - Oeste (dbe9beeb-f435-48b6-82d8-7714f491c706)
+  Consultando roles: 02.02.04 - PMRV - Araçariguama - SP-280 (903aed48-88ea-43af-8664-f61851c6cbbe)
+  Consultando membros: 02.02.04 - PMRV - Araçariguama - SP-280 (903aed48-88ea-43af-8664-f61851c6cbbe)
+  Consultando convites: 02.02.04 - PMRV - Araçariguama - SP-280 (903aed48-88ea-43af-8664-f61851c6cbbe)
+  Consultando roles: 02.05.19 - Dispositivo de Conexão - BR-116 (6d384fe3-52b8-4123-8966-78e84a9b5b8b)
+  Consultando membros: 02.05.19 - Dispositivo de Conexão - BR-116 (6d384fe3-52b8-4123-8966-78e84a9b5b8b)
+  Consultando convites: 02.05.19 - Dispositivo de Conexão - BR-116 (6d384fe3-52b8-4123-8966-78e84a9b5b8b)
+  Consultando roles: 02.05.22 - Alça - km 22,20 - SP-280 (5147867f-9581-43a3-8210-1ba6f12501cc)
+  Consultando membros: 02.05.22 - Alça - km 22,20 - SP-280 (5147867f-9581-43a3-8210-1ba6f12501cc)
+  Consultando convites: 02.05.22 - Alça - km 22,20 - SP-280 (5147867f-9581-43a3-8210-1ba6f12501cc)
+  Consultando roles: 02.05.23 - Diamante - km 36,00 SP-280 (09ce0a82-239d-40c1-b49e-15caeefec61c)
+  Consultando membros: 02.05.23 - Diamante - km 36,00 SP-280 (09ce0a82-239d-40c1-b49e-15caeefec61c)
+  Consultando convites: 02.05.23 - Diamante - km 36,00 SP-280 (09ce0a82-239d-40c1-b49e-15caeefec61c)
+  Consultando roles: 02.05.24 - Trombeta - km 46,62 - SP-280 (895f658a-2417-4c48-b668-45590d1cdbc5)
+  Consultando membros: 02.05.24 - Trombeta - km 46,62 - SP-280 (895f658a-2417-4c48-b668-45590d1cdbc5)
+  Consultando convites: 02.05.24 - Trombeta - km 46,62 - SP-280 (895f658a-2417-4c48-b668-45590d1cdbc5)
+  Consultando roles: 02.05.25 - Diamante km 50,9 - SP-280 (fb0571a5-3f64-4fab-908f-268be93776a6)
+  Consultando membros: 02.05.25 - Diamante km 50,9 - SP-280 (fb0571a5-3f64-4fab-908f-268be93776a6)
+  Consultando convites: 02.05.25 - Diamante km 50,9 - SP-280 (fb0571a5-3f64-4fab-908f-268be93776a6)
+  Consultando roles: 02.05.26 - Alça - km 22,80 - SP-280 (992ffbe8-8902-497c-8442-74a6c31b6f17)
+  Consultando membros: 02.05.26 - Alça - km 22,80 - SP-280 (992ffbe8-8902-497c-8442-74a6c31b6f17)
+  Consultando convites: 02.05.26 - Alça - km 22,80 - SP-280 (992ffbe8-8902-497c-8442-74a6c31b6f17)
+  Consultando roles: 02.06.11-  Marginal Decrescente - km 30,74 +31,23 - SP-280 (e2cb9029-c7f8-4dd0-8fbe-7cd34b7082fd)
+  Consultando membros: 02.06.11-  Marginal Decrescente - km 30,74 +31,23 - SP-280 (e2cb9029-c7f8-4dd0-8fbe-7cd34b7082fd)
+  Consultando convites: 02.06.11-  Marginal Decrescente - km 30,74 +31,23 - SP-280 (e2cb9029-c7f8-4dd0-8fbe-7cd34b7082fd)
+  Consultando roles: 02.11.01.15 - OAE - km 22,2 - SP-280 (56cb3120-01b4-4165-9d8f-ba34e33539ae)
+  Consultando membros: 02.11.01.15 - OAE - km 22,2 - SP-280 (56cb3120-01b4-4165-9d8f-ba34e33539ae)
+  Consultando convites: 02.11.01.15 - OAE - km 22,2 - SP-280 (56cb3120-01b4-4165-9d8f-ba34e33539ae)
+  Consultando roles: 02.11.01.17 - OAE - km 22,2 - SP-280 (144c0f05-4a8b-4754-9658-3f1de6031b2d)
+  Consultando membros: 02.11.01.17 - OAE - km 22,2 - SP-280 (144c0f05-4a8b-4754-9658-3f1de6031b2d)
+  Consultando convites: 02.11.01.17 - OAE - km 22,2 - SP-280 (144c0f05-4a8b-4754-9658-3f1de6031b2d)
+  Consultando roles: 02.13.01 - Faixa Adic Ponte Rio Tietê Carapicuiba (7357e987-ec70-4dc6-9d12-ffe08438e439)
+  Consultando membros: 02.13.01 - Faixa Adic Ponte Rio Tietê Carapicuiba (7357e987-ec70-4dc6-9d12-ffe08438e439)
+  Consultando convites: 02.13.01 - Faixa Adic Ponte Rio Tietê Carapicuiba (7357e987-ec70-4dc6-9d12-ffe08438e439)
+  Consultando roles: 03.03 - Free Flow P10 - Via Expressa Leste km 33,990 - SP-280 (e24a37f3-c2e6-418a-995e-a7a35b86d9ef)
+  Consultando membros: 03.03 - Free Flow P10 - Via Expressa Leste km 33,990 - SP-280 (e24a37f3-c2e6-418a-995e-a7a35b86d9ef)
+  Consultando convites: 03.03 - Free Flow P10 - Via Expressa Leste km 33,990 - SP-280 (e24a37f3-c2e6-418a-995e-a7a35b86d9ef)
+  Consultando roles: 03.03 - Free Flow P10 - Via Expressa Oeste km 33,990 - SP-280 (b47658c0-d4ad-4051-aa37-633b2755696c)
+  Consultando membros: 03.03 - Free Flow P10 - Via Expressa Oeste km 33,990 - SP-280 (b47658c0-d4ad-4051-aa37-633b2755696c)
+  Consultando convites: 03.03 - Free Flow P10 - Via Expressa Oeste km 33,990 - SP-280 (b47658c0-d4ad-4051-aa37-633b2755696c)
+  Consultando roles: 03.03 - Free Flow P11 - Via Expressa Norte-Sul km 34,600 - SP-280 (bae44540-ff29-41b0-adcc-ddc6a1d69eda)
+  Consultando membros: 03.03 - Free Flow P11 - Via Expressa Norte-Sul km 34,600 - SP-280 (bae44540-ff29-41b0-adcc-ddc6a1d69eda)
+  Consultando convites: 03.03 - Free Flow P11 - Via Expressa Norte-Sul km 34,600 - SP-280 (bae44540-ff29-41b0-adcc-ddc6a1d69eda)
+  Consultando roles: 03.03 - Free Flow P12 - Via Expressa Norte-Sul km 40,655 - SP-280 (cb60e4e7-7084-4854-9b02-ff1e01f20d32)
+  Consultando membros: 03.03 - Free Flow P12 - Via Expressa Norte-Sul km 40,655 - SP-280 (cb60e4e7-7084-4854-9b02-ff1e01f20d32)
+  Consultando convites: 03.03 - Free Flow P12 - Via Expressa Norte-Sul km 40,655 - SP-280 (cb60e4e7-7084-4854-9b02-ff1e01f20d32)
+  Consultando roles: 03.03 - Free Flow P4 - Via Expressa Leste km 24,900 - SP-270 (2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1)
+  Consultando membros: 03.03 - Free Flow P4 - Via Expressa Leste km 24,900 - SP-270 (2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1)
+  Consultando convites: 03.03 - Free Flow P4 - Via Expressa Leste km 24,900 - SP-270 (2cf8106d-71a0-442e-b8b8-f94b8ba1b3b1)
+  Consultando roles: 03.03 - Free Flow P6 - Marginal Leste km 13,660 - SP-280 (0aa4956e-d972-4aca-bf20-a537fa4bad96)
+  Consultando membros: 03.03 - Free Flow P6 - Marginal Leste km 13,660 - SP-280 (0aa4956e-d972-4aca-bf20-a537fa4bad96)
+  Consultando convites: 03.03 - Free Flow P6 - Marginal Leste km 13,660 - SP-280 (0aa4956e-d972-4aca-bf20-a537fa4bad96)
+  Consultando roles: 03.03 - Free Flow P6 - Marginal Oeste km 14,420 - SP-280 (e6e6bd37-2dc3-4781-9eda-a697cde5268d)
+  Consultando membros: 03.03 - Free Flow P6 - Marginal Oeste km 14,420 - SP-280 (e6e6bd37-2dc3-4781-9eda-a697cde5268d)
+  Consultando convites: 03.03 - Free Flow P6 - Marginal Oeste km 14,420 - SP-280 (e6e6bd37-2dc3-4781-9eda-a697cde5268d)
+  Consultando roles: 03.03 - Free Flow P6 - Via Expressa Leste km 13,680 - SP-280 (10cbbcde-0091-44d7-860b-876904640209)
+  Consultando membros: 03.03 - Free Flow P6 - Via Expressa Leste km 13,680 - SP-280 (10cbbcde-0091-44d7-860b-876904640209)
+  Consultando convites: 03.03 - Free Flow P6 - Via Expressa Leste km 13,680 - SP-280 (10cbbcde-0091-44d7-860b-876904640209)
+  Consultando roles: 03.03 - Free Flow P6 - Via Expressa Leste km 24,900 - SP-275 (34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0)
+  Consultando membros: 03.03 - Free Flow P6 - Via Expressa Leste km 24,900 - SP-275 (34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0)
+  Consultando convites: 03.03 - Free Flow P6 - Via Expressa Leste km 24,900 - SP-275 (34a23c8c-4b5c-4a5d-a94a-c70baa65c4b0)
+  Consultando roles: 03.03 - Free Flow P6 - Via Expressa Oeste km 14,390 - SP-280 (843cfe4c-6dcf-4363-bd72-8ea689505806)
+  Consultando membros: 03.03 - Free Flow P6 - Via Expressa Oeste km 14,390 - SP-280 (843cfe4c-6dcf-4363-bd72-8ea689505806)
+  Consultando convites: 03.03 - Free Flow P6 - Via Expressa Oeste km 14,390 - SP-280 (843cfe4c-6dcf-4363-bd72-8ea689505806)
+  Consultando roles: 03.03 - Free Flow P7 - Marginal Leste km 20,970 - SP-280 (30cde4d8-73fe-413a-947d-cd3116a0cb2b)
+  Consultando membros: 03.03 - Free Flow P7 - Marginal Leste km 20,970 - SP-280 (30cde4d8-73fe-413a-947d-cd3116a0cb2b)
+  Consultando convites: 03.03 - Free Flow P7 - Marginal Leste km 20,970 - SP-280 (30cde4d8-73fe-413a-947d-cd3116a0cb2b)
+  Consultando roles: 03.03 - Free Flow P7 - Marginal Oeste km 18,050 - SP-280 (feb590aa-7b39-49f4-acc8-3002d4dc8003)
+  Consultando membros: 03.03 - Free Flow P7 - Marginal Oeste km 18,050 - SP-280 (feb590aa-7b39-49f4-acc8-3002d4dc8003)
+  Consultando convites: 03.03 - Free Flow P7 - Marginal Oeste km 18,050 - SP-280 (feb590aa-7b39-49f4-acc8-3002d4dc8003)
+  Consultando roles: 03.03 - Free Flow P7 - Via Expressa Leste km 20,745 - SP-280 (17335eae-f523-4c5e-804a-c5ec8cc017d1)
+  Consultando membros: 03.03 - Free Flow P7 - Via Expressa Leste km 20,745 - SP-280 (17335eae-f523-4c5e-804a-c5ec8cc017d1)
+  Consultando convites: 03.03 - Free Flow P7 - Via Expressa Leste km 20,745 - SP-280 (17335eae-f523-4c5e-804a-c5ec8cc017d1)
+  Consultando roles: 03.03 - Free Flow P7 - Via Expressa Oeste km 18,140 - SP-280 (b82a2e67-91c6-42b6-86ce-90f5b84e9b32)
+  Consultando membros: 03.03 - Free Flow P7 - Via Expressa Oeste km 18,140 - SP-280 (b82a2e67-91c6-42b6-86ce-90f5b84e9b32)
+  Consultando convites: 03.03 - Free Flow P7 - Via Expressa Oeste km 18,140 - SP-280 (b82a2e67-91c6-42b6-86ce-90f5b84e9b32)
+  Consultando roles: 03.03 - Free Flow P8 - Marginal Leste km 24,040 - SP-280 (25739821-e400-43d6-90cf-f4ca361422e5)
+  Consultando membros: 03.03 - Free Flow P8 - Marginal Leste km 24,040 - SP-280 (25739821-e400-43d6-90cf-f4ca361422e5)
+  Consultando convites: 03.03 - Free Flow P8 - Marginal Leste km 24,040 - SP-280 (25739821-e400-43d6-90cf-f4ca361422e5)
+  Consultando roles: 03.03 - Free Flow P8 - Marginal Oeste km 23,980 - SP-280 (4cbacd61-c55f-4fa0-ac35-6b07631f91c7)
+  Consultando membros: 03.03 - Free Flow P8 - Marginal Oeste km 23,980 - SP-280 (4cbacd61-c55f-4fa0-ac35-6b07631f91c7)
+  Consultando convites: 03.03 - Free Flow P8 - Marginal Oeste km 23,980 - SP-280 (4cbacd61-c55f-4fa0-ac35-6b07631f91c7)
+  Consultando roles: 03.03 - Free Flow P8 - Via Expressa Leste km 24,010 - SP-280 (6841f1b3-7a77-40a2-9a21-afbce6ce277a)
+  Consultando membros: 03.03 - Free Flow P8 - Via Expressa Leste km 24,010 - SP-280 (6841f1b3-7a77-40a2-9a21-afbce6ce277a)
+  Consultando convites: 03.03 - Free Flow P8 - Via Expressa Leste km 24,010 - SP-280 (6841f1b3-7a77-40a2-9a21-afbce6ce277a)
+  Consultando roles: 03.03 - Free Flow P8 - Via Expressa Oeste km 24,010 - SP-280 (27f2366e-7ec3-4a08-a22f-ad91ce49d6b0)
+  Consultando membros: 03.03 - Free Flow P8 - Via Expressa Oeste km 24,010 - SP-280 (27f2366e-7ec3-4a08-a22f-ad91ce49d6b0)
+  Consultando convites: 03.03 - Free Flow P8 - Via Expressa Oeste km 24,010 - SP-280 (27f2366e-7ec3-4a08-a22f-ad91ce49d6b0)
+  Consultando roles: 03.03 - Free Flow P9 - Via Expressa Leste km 29,210 - SP-280 (2144adc7-166a-49c1-8b26-db74a8ff27e5)
+  Consultando membros: 03.03 - Free Flow P9 - Via Expressa Leste km 29,210 - SP-280 (2144adc7-166a-49c1-8b26-db74a8ff27e5)
+  Consultando convites: 03.03 - Free Flow P9 - Via Expressa Leste km 29,210 - SP-280 (2144adc7-166a-49c1-8b26-db74a8ff27e5)
+  Consultando roles: 03.03 - Free Flow P9 - Via Expressa Oeste km 29,340 - SP-280 (624cd394-bd20-483f-a325-27ea3518eefe)
+  Consultando membros: 03.03 - Free Flow P9 - Via Expressa Oeste km 29,340 - SP-280 (624cd394-bd20-483f-a325-27ea3518eefe)
+  Consultando convites: 03.03 - Free Flow P9 - Via Expressa Oeste km 29,340 - SP-280 (624cd394-bd20-483f-a325-27ea3518eefe)
+  Consultando roles: 03.11 - HS-WIM 1 - km 20 - SP-280 (2d0daf2a-daa7-4b01-ae64-b0de2acc681a)
+  Consultando membros: 03.11 - HS-WIM 1 - km 20 - SP-280 (2d0daf2a-daa7-4b01-ae64-b0de2acc681a)
+  Consultando convites: 03.11 - HS-WIM 1 - km 20 - SP-280 (2d0daf2a-daa7-4b01-ae64-b0de2acc681a)
+  Consultando roles: 03.11 - HS-WIM 2 km 24 - SP-270 (da2a40d3-8844-47a0-880d-1da9c9501096)
+  Consultando membros: 03.11 - HS-WIM 2 km 24 - SP-270 (da2a40d3-8844-47a0-880d-1da9c9501096)
+  Consultando convites: 03.11 - HS-WIM 2 km 24 - SP-270 (da2a40d3-8844-47a0-880d-1da9c9501096)
+  Consultando roles: 03.11 - HS-WIM 3 - km 29 Oeste SP-280 (ebf70eb8-cc8f-462d-921d-fe54b18bb25b)
+  Consultando membros: 03.11 - HS-WIM 3 - km 29 Oeste SP-280 (ebf70eb8-cc8f-462d-921d-fe54b18bb25b)
+  Consultando convites: 03.11 - HS-WIM 3 - km 29 Oeste SP-280 (ebf70eb8-cc8f-462d-921d-fe54b18bb25b)
+  Consultando roles: 03.11 - HS-WIM 4  km 29 Leste - SP-280 (9b810580-178e-4a54-920b-2d3b748e7ee7)
+  Consultando membros: 03.11 - HS-WIM 4  km 29 Leste - SP-280 (9b810580-178e-4a54-920b-2d3b748e7ee7)
+  Consultando convites: 03.11 - HS-WIM 4  km 29 Leste - SP-280 (9b810580-178e-4a54-920b-2d3b748e7ee7)
+  Consultando roles: Projeto Conceitual - Raposo Tavares/ Nova Ligação Embu (57e3ca06-eccf-4cab-b4be-36d7353e3f1e)
+  Consultando membros: Projeto Conceitual - Raposo Tavares/ Nova Ligação Embu (57e3ca06-eccf-4cab-b4be-36d7353e3f1e)
+  Consultando convites: Projeto Conceitual - Raposo Tavares/ Nova Ligação Embu (57e3ca06-eccf-4cab-b4be-36d7353e3f1e)
+- Linha 3 (2/2): t_thaissa.silva@ecorodovias.com.br -> 46 projeto(s) [todos]
+
+[8/9] Previa consolidada RBAC:
+- Usuarios: 2
+- Projetos: 46
+- Operacoes planejadas: 92
+- Operacoes aplicaveis: 91
+001. Linha 2 | esdras.ferreira@ecorodovias.com.br | 01.01.02 - Duplicação - Cotia-Embu | adicionar_usuario
+     Role: Team Member [enterprise]
+002. Linha 2 | esdras.ferreira@ecorodovias.com.br | 01.02.04-TH-14-faixa adicional km 32.25 km ao km 41.70 da SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+003. Linha 2 | esdras.ferreira@ecorodovias.com.br | 01.02.05-TH-14-faixa adicional  km 41.70 km ao km 54.14 da SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+004. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste | sem_alteracao
+     Role: Team Member [enterprise]
+005. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste | adicionar_usuario
+     Role: Team Member [enterprise]
+006. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste | adicionar_usuario
+     Role: Team Member [enterprise]
+007. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste | adicionar_usuario
+     Role: Team Member [enterprise]
+008. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.02.05 - BSO 5 - (Localização á definir) - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+009. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.03 - PPD 1 - km 20 - SP-280 - Leste | adicionar_usuario
+     Role: Team Member [enterprise]
+010. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.03 - PPD 2 - km 33 - SP-280 - Oeste | adicionar_usuario
+     Role: Team Member [enterprise]
+011. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.02.04 - PMRV - Araçariguama - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+012. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.05.19 - Dispositivo de Conexão - BR-116 | adicionar_usuario
+     Role: Team Member [enterprise]
+013. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.05.22 - Alça - km 22,20 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+014. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.05.23 - Diamante - km 36,00 SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+015. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.05.24 - Trombeta - km 46,62 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+016. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.05.25 - Diamante km 50,9 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+017. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.05.26 - Alça - km 22,80 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+018. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.06.11-  Marginal Decrescente - km 30,74 +31,23 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+019. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.11.01.15 - OAE - km 22,2 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+020. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.11.01.17 - OAE - km 22,2 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+021. Linha 2 | esdras.ferreira@ecorodovias.com.br | 02.13.01 - Faixa Adic Ponte Rio Tietê Carapicuiba | adicionar_usuario
+     Role: Team Member [enterprise]
+022. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P10 - Via Expressa Leste km 33,990 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+023. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P10 - Via Expressa Oeste km 33,990 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+024. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P11 - Via Expressa Norte-Sul km 34,600 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+025. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P12 - Via Expressa Norte-Sul km 40,655 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+026. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P4 - Via Expressa Leste km 24,900 - SP-270 | adicionar_usuario
+     Role: Team Member [enterprise]
+027. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P6 - Marginal Leste km 13,660 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+028. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P6 - Marginal Oeste km 14,420 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+029. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P6 - Via Expressa Leste km 13,680 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+030. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P6 - Via Expressa Leste km 24,900 - SP-275 | adicionar_usuario
+     Role: Team Member [enterprise]
+031. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P6 - Via Expressa Oeste km 14,390 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+032. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P7 - Marginal Leste km 20,970 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+033. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P7 - Marginal Oeste km 18,050 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+034. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P7 - Via Expressa Leste km 20,745 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+035. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P7 - Via Expressa Oeste km 18,140 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+036. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P8 - Marginal Leste km 24,040 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+037. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P8 - Marginal Oeste km 23,980 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+038. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P8 - Via Expressa Leste km 24,010 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+039. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P8 - Via Expressa Oeste km 24,010 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+040. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P9 - Via Expressa Leste km 29,210 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+041. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P9 - Via Expressa Oeste km 29,340 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+042. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.11 - HS-WIM 1 - km 20 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+043. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.11 - HS-WIM 2 km 24 - SP-270 | adicionar_usuario
+     Role: Team Member [enterprise]
+044. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.11 - HS-WIM 3 - km 29 Oeste SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+045. Linha 2 | esdras.ferreira@ecorodovias.com.br | 03.11 - HS-WIM 4  km 29 Leste - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+046. Linha 2 | esdras.ferreira@ecorodovias.com.br | Projeto Conceitual - Raposo Tavares/ Nova Ligação Embu | adicionar_usuario
+     Role: Team Member [enterprise]
+047. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 01.01.02 - Duplicação - Cotia-Embu | adicionar_usuario
+     Role: Team Member [enterprise]
+048. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 01.02.04-TH-14-faixa adicional km 32.25 km ao km 41.70 da SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+049. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 01.02.05-TH-14-faixa adicional  km 41.70 km ao km 54.14 da SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+050. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste | adicionar_usuario
+     Role: Team Member [enterprise]
+051. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste | adicionar_usuario
+     Role: Team Member [enterprise]
+052. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste | adicionar_usuario
+     Role: Team Member [enterprise]
+053. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste | adicionar_usuario
+     Role: Team Member [enterprise]
+054. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.02.05 - BSO 5 - (Localização á definir) - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+055. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.03 - PPD 1 - km 20 - SP-280 - Leste | adicionar_usuario
+     Role: Team Member [enterprise]
+056. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.03 - PPD 2 - km 33 - SP-280 - Oeste | adicionar_usuario
+     Role: Team Member [enterprise]
+057. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.02.04 - PMRV - Araçariguama - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+058. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.05.19 - Dispositivo de Conexão - BR-116 | adicionar_usuario
+     Role: Team Member [enterprise]
+059. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.05.22 - Alça - km 22,20 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+060. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.05.23 - Diamante - km 36,00 SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+061. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.05.24 - Trombeta - km 46,62 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+062. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.05.25 - Diamante km 50,9 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+063. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.05.26 - Alça - km 22,80 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+064. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.06.11-  Marginal Decrescente - km 30,74 +31,23 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+065. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.11.01.15 - OAE - km 22,2 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+066. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.11.01.17 - OAE - km 22,2 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+067. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 02.13.01 - Faixa Adic Ponte Rio Tietê Carapicuiba | adicionar_usuario
+     Role: Team Member [enterprise]
+068. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P10 - Via Expressa Leste km 33,990 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+069. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P10 - Via Expressa Oeste km 33,990 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+070. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P11 - Via Expressa Norte-Sul km 34,600 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+071. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P12 - Via Expressa Norte-Sul km 40,655 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+072. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P4 - Via Expressa Leste km 24,900 - SP-270 | adicionar_usuario
+     Role: Team Member [enterprise]
+073. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P6 - Marginal Leste km 13,660 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+074. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P6 - Marginal Oeste km 14,420 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+075. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P6 - Via Expressa Leste km 13,680 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+076. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P6 - Via Expressa Leste km 24,900 - SP-275 | adicionar_usuario
+     Role: Team Member [enterprise]
+077. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P6 - Via Expressa Oeste km 14,390 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+078. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P7 - Marginal Leste km 20,970 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+079. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P7 - Marginal Oeste km 18,050 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+080. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P7 - Via Expressa Leste km 20,745 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+081. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P7 - Via Expressa Oeste km 18,140 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+082. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P8 - Marginal Leste km 24,040 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+083. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P8 - Marginal Oeste km 23,980 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+084. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P8 - Via Expressa Leste km 24,010 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+085. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P8 - Via Expressa Oeste km 24,010 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+086. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P9 - Via Expressa Leste km 29,210 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+087. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P9 - Via Expressa Oeste km 29,340 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+088. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.11 - HS-WIM 1 - km 20 - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+089. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.11 - HS-WIM 2 km 24 - SP-270 | adicionar_usuario
+     Role: Team Member [enterprise]
+090. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.11 - HS-WIM 3 - km 29 Oeste SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+091. Linha 3 | t_thaissa.silva@ecorodovias.com.br | 03.11 - HS-WIM 4  km 29 Leste - SP-280 | adicionar_usuario
+     Role: Team Member [enterprise]
+092. Linha 3 | t_thaissa.silva@ecorodovias.com.br | Projeto Conceitual - Raposo Tavares/ Nova Ligação Embu | adicionar_usuario
+     Role: Team Member [enterprise]
+
+Confirmacao final
+- Operacoes que alteram o RBAC: 91
+- Operacoes apenas informativas/ignoradas: 1
+Aplicar as operacoes no Bentley RBAC? [S/N]: > S
+
+[9/9] Aplicando alteracoes RBAC confirmadas...
+- Operacao 1/92: esdras.ferreira@ecorodovias.com.br | 01.01.02 - Duplicação - Cotia-Embu [adicionar_usuario]
+  [OK] adicionado
+- Operacao 2/92: esdras.ferreira@ecorodovias.com.br | 01.02.04-TH-14-faixa adicional km 32.25 km ao km 41.70 da SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 3/92: esdras.ferreira@ecorodovias.com.br | 01.02.05-TH-14-faixa adicional  km 41.70 km ao km 54.14 da SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 4/92: esdras.ferreira@ecorodovias.com.br | 02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste [sem_alteracao]
+  [OK] sem_alteracao
+- Operacao 5/92: esdras.ferreira@ecorodovias.com.br | 02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste [adicionar_usuario]
+  [OK] adicionado
+- Operacao 6/92: esdras.ferreira@ecorodovias.com.br | 02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste [adicionar_usuario]
+  [OK] adicionado
+- Operacao 7/92: esdras.ferreira@ecorodovias.com.br | 02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste [adicionar_usuario]
+  [OK] adicionado
+- Operacao 8/92: esdras.ferreira@ecorodovias.com.br | 02.02.02.05 - BSO 5 - (Localização á definir) - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 9/92: esdras.ferreira@ecorodovias.com.br | 02.02.03 - PPD 1 - km 20 - SP-280 - Leste [adicionar_usuario]
+  [OK] adicionado
+- Operacao 10/92: esdras.ferreira@ecorodovias.com.br | 02.02.03 - PPD 2 - km 33 - SP-280 - Oeste [adicionar_usuario]
+  [OK] adicionado
+- Operacao 11/92: esdras.ferreira@ecorodovias.com.br | 02.02.04 - PMRV - Araçariguama - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 12/92: esdras.ferreira@ecorodovias.com.br | 02.05.19 - Dispositivo de Conexão - BR-116 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 13/92: esdras.ferreira@ecorodovias.com.br | 02.05.22 - Alça - km 22,20 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 14/92: esdras.ferreira@ecorodovias.com.br | 02.05.23 - Diamante - km 36,00 SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 15/92: esdras.ferreira@ecorodovias.com.br | 02.05.24 - Trombeta - km 46,62 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 16/92: esdras.ferreira@ecorodovias.com.br | 02.05.25 - Diamante km 50,9 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 17/92: esdras.ferreira@ecorodovias.com.br | 02.05.26 - Alça - km 22,80 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 18/92: esdras.ferreira@ecorodovias.com.br | 02.06.11-  Marginal Decrescente - km 30,74 +31,23 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 19/92: esdras.ferreira@ecorodovias.com.br | 02.11.01.15 - OAE - km 22,2 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 20/92: esdras.ferreira@ecorodovias.com.br | 02.11.01.17 - OAE - km 22,2 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 21/92: esdras.ferreira@ecorodovias.com.br | 02.13.01 - Faixa Adic Ponte Rio Tietê Carapicuiba [adicionar_usuario]
+  [OK] adicionado
+- Operacao 22/92: esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P10 - Via Expressa Leste km 33,990 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 23/92: esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P10 - Via Expressa Oeste km 33,990 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 24/92: esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P11 - Via Expressa Norte-Sul km 34,600 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 25/92: esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P12 - Via Expressa Norte-Sul km 40,655 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 26/92: esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P4 - Via Expressa Leste km 24,900 - SP-270 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 27/92: esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P6 - Marginal Leste km 13,660 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 28/92: esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P6 - Marginal Oeste km 14,420 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 29/92: esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P6 - Via Expressa Leste km 13,680 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 30/92: esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P6 - Via Expressa Leste km 24,900 - SP-275 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 31/92: esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P6 - Via Expressa Oeste km 14,390 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 32/92: esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P7 - Marginal Leste km 20,970 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 33/92: esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P7 - Marginal Oeste km 18,050 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 34/92: esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P7 - Via Expressa Leste km 20,745 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 35/92: esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P7 - Via Expressa Oeste km 18,140 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 36/92: esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P8 - Marginal Leste km 24,040 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 37/92: esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P8 - Marginal Oeste km 23,980 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 38/92: esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P8 - Via Expressa Leste km 24,010 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 39/92: esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P8 - Via Expressa Oeste km 24,010 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 40/92: esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P9 - Via Expressa Leste km 29,210 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 41/92: esdras.ferreira@ecorodovias.com.br | 03.03 - Free Flow P9 - Via Expressa Oeste km 29,340 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 42/92: esdras.ferreira@ecorodovias.com.br | 03.11 - HS-WIM 1 - km 20 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 43/92: esdras.ferreira@ecorodovias.com.br | 03.11 - HS-WIM 2 km 24 - SP-270 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 44/92: esdras.ferreira@ecorodovias.com.br | 03.11 - HS-WIM 3 - km 29 Oeste SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 45/92: esdras.ferreira@ecorodovias.com.br | 03.11 - HS-WIM 4  km 29 Leste - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 46/92: esdras.ferreira@ecorodovias.com.br | Projeto Conceitual - Raposo Tavares/ Nova Ligação Embu [adicionar_usuario]
+  [OK] adicionado
+- Operacao 47/92: t_thaissa.silva@ecorodovias.com.br | 01.01.02 - Duplicação - Cotia-Embu [adicionar_usuario]
+  [OK] adicionado
+- Operacao 48/92: t_thaissa.silva@ecorodovias.com.br | 01.02.04-TH-14-faixa adicional km 32.25 km ao km 41.70 da SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 49/92: t_thaissa.silva@ecorodovias.com.br | 01.02.05-TH-14-faixa adicional  km 41.70 km ao km 54.14 da SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 50/92: t_thaissa.silva@ecorodovias.com.br | 02.02.02.01 - BSO 1 - km 39,5 - SP-280 - Leste [adicionar_usuario]
+  [OK] adicionado
+- Operacao 51/92: t_thaissa.silva@ecorodovias.com.br | 02.02.02.02 - BSO 2 - km 17,000 - SP-270 - Oeste [adicionar_usuario]
+  [OK] adicionado
+- Operacao 52/92: t_thaissa.silva@ecorodovias.com.br | 02.02.02.03 - BSO 3 - km 27,3 - SP-270 - Leste [adicionar_usuario]
+  [OK] adicionado
+- Operacao 53/92: t_thaissa.silva@ecorodovias.com.br | 02.02.02.04 - BSO 4 - km 27,8 - SP-280 - Leste [adicionar_usuario]
+  [OK] adicionado
+- Operacao 54/92: t_thaissa.silva@ecorodovias.com.br | 02.02.02.05 - BSO 5 - (Localização á definir) - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 55/92: t_thaissa.silva@ecorodovias.com.br | 02.02.03 - PPD 1 - km 20 - SP-280 - Leste [adicionar_usuario]
+  [OK] adicionado
+- Operacao 56/92: t_thaissa.silva@ecorodovias.com.br | 02.02.03 - PPD 2 - km 33 - SP-280 - Oeste [adicionar_usuario]
+  [OK] adicionado
+- Operacao 57/92: t_thaissa.silva@ecorodovias.com.br | 02.02.04 - PMRV - Araçariguama - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 58/92: t_thaissa.silva@ecorodovias.com.br | 02.05.19 - Dispositivo de Conexão - BR-116 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 59/92: t_thaissa.silva@ecorodovias.com.br | 02.05.22 - Alça - km 22,20 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 60/92: t_thaissa.silva@ecorodovias.com.br | 02.05.23 - Diamante - km 36,00 SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 61/92: t_thaissa.silva@ecorodovias.com.br | 02.05.24 - Trombeta - km 46,62 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 62/92: t_thaissa.silva@ecorodovias.com.br | 02.05.25 - Diamante km 50,9 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 63/92: t_thaissa.silva@ecorodovias.com.br | 02.05.26 - Alça - km 22,80 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 64/92: t_thaissa.silva@ecorodovias.com.br | 02.06.11-  Marginal Decrescente - km 30,74 +31,23 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 65/92: t_thaissa.silva@ecorodovias.com.br | 02.11.01.15 - OAE - km 22,2 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 66/92: t_thaissa.silva@ecorodovias.com.br | 02.11.01.17 - OAE - km 22,2 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 67/92: t_thaissa.silva@ecorodovias.com.br | 02.13.01 - Faixa Adic Ponte Rio Tietê Carapicuiba [adicionar_usuario]
+  [OK] adicionado
+- Operacao 68/92: t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P10 - Via Expressa Leste km 33,990 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 69/92: t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P10 - Via Expressa Oeste km 33,990 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 70/92: t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P11 - Via Expressa Norte-Sul km 34,600 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 71/92: t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P12 - Via Expressa Norte-Sul km 40,655 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 72/92: t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P4 - Via Expressa Leste km 24,900 - SP-270 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 73/92: t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P6 - Marginal Leste km 13,660 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 74/92: t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P6 - Marginal Oeste km 14,420 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 75/92: t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P6 - Via Expressa Leste km 13,680 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 76/92: t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P6 - Via Expressa Leste km 24,900 - SP-275 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 77/92: t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P6 - Via Expressa Oeste km 14,390 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 78/92: t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P7 - Marginal Leste km 20,970 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 79/92: t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P7 - Marginal Oeste km 18,050 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 80/92: t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P7 - Via Expressa Leste km 20,745 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 81/92: t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P7 - Via Expressa Oeste km 18,140 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 82/92: t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P8 - Marginal Leste km 24,040 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 83/92: t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P8 - Marginal Oeste km 23,980 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 84/92: t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P8 - Via Expressa Leste km 24,010 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 85/92: t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P8 - Via Expressa Oeste km 24,010 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 86/92: t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P9 - Via Expressa Leste km 29,210 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 87/92: t_thaissa.silva@ecorodovias.com.br | 03.03 - Free Flow P9 - Via Expressa Oeste km 29,340 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 88/92: t_thaissa.silva@ecorodovias.com.br | 03.11 - HS-WIM 1 - km 20 - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 89/92: t_thaissa.silva@ecorodovias.com.br | 03.11 - HS-WIM 2 km 24 - SP-270 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 90/92: t_thaissa.silva@ecorodovias.com.br | 03.11 - HS-WIM 3 - km 29 Oeste SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 91/92: t_thaissa.silva@ecorodovias.com.br | 03.11 - HS-WIM 4  km 29 Leste - SP-280 [adicionar_usuario]
+  [OK] adicionado
+- Operacao 92/92: t_thaissa.silva@ecorodovias.com.br | Projeto Conceitual - Raposo Tavares/ Nova Ligação Embu [adicionar_usuario]
+  [OK] adicionado
+
+Salvando log...
+[OK] Log: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\PWDM_Gerenciamento_Participantes_V2\Logs\pwdm_gerenciamento_20260803_101741.json
+[OK] Resumo CSV: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\PWDM_Gerenciamento_Participantes_V2\Logs\pwdm_resumo_20260803_101741.csv
+
+Finalizado.
+Pressione ENTER para fechar o navegador...> [CONTINUAR]
+[INFO] JSON temporario removido: C:\Users\peter\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\PWDM_Gerenciamento_Participantes_V2\Logs\pwdm_projetos_execucao_connected_20260803_101314.json
+Processo finalizado com código 0.
