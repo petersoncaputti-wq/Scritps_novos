@@ -35,7 +35,7 @@
       "tipo": "powershell",
       "modo": "integrado",
       "risco": "alto",
-      "dependencias": ["command:python"]
+      "dependencias": ["command:python", "pythonmodule:playwright", "pythonmodule:openpyxl", "playwrightbrowser:chromium"]
     },
     {
       "id": "criar-projetos",
@@ -59,7 +59,7 @@
       "tipo": "batch",
       "modo": "integrado",
       "risco": "alto",
-      "dependencias": ["command:python"]
+      "dependencias": ["command:python", "pythonmodule:playwright", "pythonmodule:openpyxl", "playwrightbrowser:chromium"]
     },
     {
       "id": "usuarios-inativos",

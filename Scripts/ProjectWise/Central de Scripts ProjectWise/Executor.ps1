@@ -60,6 +60,43 @@ function Get-ResolvedScriptPath {
     [System.IO.Path]::GetFullPath((Join-Path $script:ExecutorRoot ([string]$Item.arquivo)))
 }
 
+function Get-CentralPythonExecutable {
+    $projectRoot = [IO.Path]::GetFullPath((Join-Path $script:ExecutorRoot '..\..\..'))
+    $venvPython = Join-Path $projectRoot '.venv\Scripts\python.exe'
+    if (Test-Path -LiteralPath $venvPython -PathType Leaf) {
+        try {
+            $version = & $venvPython --version 2>&1
+            if ($LASTEXITCODE -eq 0 -and $version) { return $venvPython }
+        }
+        catch {}
+    }
+
+    $command = Get-Command python.exe -ErrorAction SilentlyContinue | Select-Object -First 1
+    if ($command) { return $command.Source }
+    return $null
+}
+
+function Test-PythonModule {
+    param([Parameter(Mandatory)][string]$Name)
+    $python = Get-CentralPythonExecutable
+    if (-not $python) { return $false }
+    try {
+        & $python -c "import importlib.util,sys; sys.exit(0 if importlib.util.find_spec('$Name') else 1)" 2>$null
+        return $LASTEXITCODE -eq 0
+    }
+    catch { return $false }
+}
+
+function Test-PlaywrightChromium {
+    $python = Get-CentralPythonExecutable
+    if (-not $python -or -not (Test-PythonModule -Name 'playwright')) { return $false }
+    try {
+        & $python -c "import os; from playwright.sync_api import sync_playwright; p=sync_playwright().start(); ok=os.path.isfile(p.chromium.executable_path); p.stop(); raise SystemExit(0 if ok else 1)" 2>$null
+        return $LASTEXITCODE -eq 0
+    }
+    catch { return $false }
+}
+
 function Get-DependencyStatus {
     param([Parameter(Mandatory)]$Item)
 
@@ -73,6 +110,8 @@ function Get-DependencyStatus {
         switch ($kind) {
             'module'  { $available = $null -ne (Get-Module -ListAvailable -Name $name | Select-Object -First 1) }
             'command' { $available = $null -ne (Get-Command $name -ErrorAction SilentlyContinue | Select-Object -First 1) }
+            'pythonmodule' { $available = Test-PythonModule -Name $name }
+            'playwrightbrowser' { $available = Test-PlaywrightChromium }
             default   { $available = $false }
         }
 

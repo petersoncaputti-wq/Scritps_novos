@@ -2,7 +2,8 @@
 param(
     [string]$DatasourceName = '01SSRV305.ECSC.ECORODOVIAS.CORP:ecorodovias-pw-01',
     [string]$UserName = 'admin',
-    [string]$Password = '123456',
+    [string]$Password = $env:ECORODOVIAS_PW_PASSWORD,
+    [switch]$UseGuiLogin,
     [string[]]$States = @('Emitido pela Engenharia'),
     [string]$UnidadeFiltro,
     [string]$ProjetoFiltro,
@@ -325,8 +326,13 @@ try {
     Write-SimulationLog -Message 'Pré-requisitos locais validados: modelo Excel e módulo ImportExcel disponíveis.'
 
     Write-SimulationLog -Message 'Iniciando login lógico no ProjectWise.'
-    $securePassword = ConvertTo-SecureString $Password -AsPlainText -Force
-    $login = New-PWLogin -DatasourceName $DatasourceName -UserName $UserName -Password $securePassword
+    if ($UseGuiLogin -or [string]::IsNullOrWhiteSpace($Password)) {
+        $login = New-PWLogin -DatasourceName $DatasourceName -UseGui -DoNotCreateWorkingDirectory
+    }
+    else {
+        $securePassword = ConvertTo-SecureString $Password -AsPlainText -Force
+        $login = New-PWLogin -DatasourceName $DatasourceName -UserName $UserName -Password $securePassword -DoNotCreateWorkingDirectory
+    }
     if (-not $login) {
         throw 'Não foi possível efetuar login no ProjectWise.'
     }

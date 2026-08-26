@@ -293,8 +293,7 @@ function ValidaSeModeloFederadoAutoral {
 # ---------------- Execução (fase 1: calcular e criar AT + espelho UN) ----------------
 try { Undo-PWLogin -ErrorAction SilentlyContinue | Out-Null } catch {}
 
-$SecurePassword = ConvertTo-SecureString '123456' -AsPlainText -Force
-New-PWLogin -DatasourceName '01SSRV305.ECSC.ECORODOVIAS.CORP:ecorodovias-01' -Password $SecurePassword -UserName 'admin' | Out-Null
+New-PWLogin -DatasourceName '01SSRV305.ECSC.ECORODOVIAS.CORP:ecorodovias-01' -UseGui -DoNotCreateWorkingDirectory | Out-Null
 if (-not (Get-PWCurrentDatasource)) { throw "Login ProjectWise não estabelecido." }
 
 $documentos = ObterDocumentosValidados

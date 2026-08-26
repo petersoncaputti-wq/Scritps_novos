@@ -25,7 +25,8 @@ $UserName       = 'admin'
 
 # IMPORTANTE: por seguranca, prefira Get-Credential ou um cofre de credenciais.
 # Mantido abaixo para preservar o comportamento original do script.
-$SecurePassword = ConvertTo-SecureString '123456' -AsPlainText -Force
+if ([string]::IsNullOrWhiteSpace($env:ECORODOVIAS_PW_PASSWORD)) { throw 'Defina ECORODOVIAS_PW_PASSWORD para executar esta rotina automática.' }
+$SecurePassword = ConvertTo-SecureString $env:ECORODOVIAS_PW_PASSWORD -AsPlainText -Force
 
 #-------------------------------------------------------
 # Caches em memoria para reduzir chamadas repetidas

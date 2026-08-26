@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.py[cod]
+Logs/
+**/Logs/
+**/browser_profile/
+**/tmp_rbac_js/
+*.db-journal
+*.log

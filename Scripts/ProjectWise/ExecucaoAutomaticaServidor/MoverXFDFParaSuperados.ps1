@@ -4,7 +4,8 @@
 $swTotal = [System.Diagnostics.Stopwatch]::StartNew()
 $sw = [System.Diagnostics.Stopwatch]::StartNew()
 Write-Host "Logando..."
-$SecurePassword = ConvertTo-SecureString '123456' -AsPlainText -Force
+if ([string]::IsNullOrWhiteSpace($env:ECORODOVIAS_PW_PASSWORD)) { throw 'Defina ECORODOVIAS_PW_PASSWORD para executar esta rotina automática.' }
+$SecurePassword = ConvertTo-SecureString $env:ECORODOVIAS_PW_PASSWORD -AsPlainText -Force
 $logado = New-PWLogin -DatasourceName '01SSRV305.ECSC.ECORODOVIAS.CORP:ecorodovias-01' -Password $SecurePassword -UserName 'admin'
 if (-not $logado) { return }
 Write-Host "Login levou [$($sw.Elapsed)]"; $sw.Restart()

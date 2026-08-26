@@ -379,7 +379,16 @@ namespace CentralScripts {
                 $psi.Arguments = '-NoProfile -STA -ExecutionPolicy Bypass -EncodedCommand {0}' -f $encodedCommand
             }
             else {
-                $psi.FileName = 'python.exe'
+                $pythonExecutable = if (Get-Command Get-CentralPythonExecutable -ErrorAction SilentlyContinue) {
+                    Get-CentralPythonExecutable
+                }
+                else {
+                    (Get-Command python.exe -ErrorAction SilentlyContinue | Select-Object -First 1).Source
+                }
+                if (-not $pythonExecutable) {
+                    throw 'Python não encontrado. Recrie o ambiente virtual .venv na raiz do projeto.'
+                }
+                $psi.FileName = $pythonExecutable
                 $psi.Arguments = ('-u "{0}" {1}' -f $pythonScript, $argumentsForRun).Trim()
             }
             $psi.WorkingDirectory = Split-Path -Parent $pythonScript

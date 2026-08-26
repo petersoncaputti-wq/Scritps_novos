@@ -247,7 +247,8 @@ function ValidaSeModeloFederadoAutoral {
 # -----------------------------------------------
 try { Undo-PWLogin -ErrorAction SilentlyContinue | Out-Null } catch {}
 
-$SecurePassword = ConvertTo-SecureString '123456' -AsPlainText -Force
+if ([string]::IsNullOrWhiteSpace($env:ECORODOVIAS_PW_PASSWORD)) { throw 'Defina ECORODOVIAS_PW_PASSWORD para executar esta rotina automática.' }
+$SecurePassword = ConvertTo-SecureString $env:ECORODOVIAS_PW_PASSWORD -AsPlainText -Force
 New-PWLogin -DatasourceName '01SSRV305.ECSC.ECORODOVIAS.CORP:ecorodovias-01' -Password $SecurePassword -UserName 'admin' | Out-Null
 if (-not (Get-PWCurrentDatasource)) { throw "Login ProjectWise não estabelecido." }
 

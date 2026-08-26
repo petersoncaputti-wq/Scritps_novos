@@ -694,7 +694,8 @@ function CopiarDocumentoParaDestino {
 # Execução principal
 #-------------------------------------------------------
 try {
-    $SecurePassword = ConvertTo-SecureString '123456' -AsPlainText -Force
+    if ([string]::IsNullOrWhiteSpace($env:ECORODOVIAS_PW_PASSWORD)) { throw 'Defina ECORODOVIAS_PW_PASSWORD para executar esta rotina automática.' }
+    $SecurePassword = ConvertTo-SecureString $env:ECORODOVIAS_PW_PASSWORD -AsPlainText -Force
 
     New-PWLogin `
         -DatasourceName '01SSRV305.ECSC.ECORODOVIAS.CORP:ecorodovias-pw-01' `

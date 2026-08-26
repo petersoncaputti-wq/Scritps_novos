@@ -176,8 +176,7 @@ function ValidaSeModeloFederadoAutoral {
 #-------------------------------------------------------
 #Início da execução
 #-------------------------------------------------------
-$SecurePassword = ConvertTo-SecureString '123456' -AsPlainText -Force
-New-PWLogin -DatasourceName '01SSRV305.ECSC.ECORODOVIAS.CORP:ecorodovias-pw-01' -Password $SecurePassword -UserName 'admin'
+New-PWLogin -DatasourceName '01SSRV305.ECSC.ECORODOVIAS.CORP:ecorodovias-pw-01' -UseGui -DoNotCreateWorkingDirectory | Out-Null
 
 $documentos = ObterDocumentosASeremValidados
 

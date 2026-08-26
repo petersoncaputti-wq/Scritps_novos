@@ -18,7 +18,7 @@ $inicio = Get-Date
 try {
     Write-Host ''
     Write-Host '[1/1] Processando os documentos válidos...'
-    & $scriptOperacional
+    & $scriptOperacional -UseGuiLogin
     $duracao = (Get-Date) - $inicio
     Write-Host ''
     Write-Host ("[OK] Fluxo Movimenta Documentos Válidos finalizado em {0:hh\:mm\:ss}." -f $duracao)

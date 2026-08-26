@@ -4,6 +4,14 @@
 #-------------------------------------------------------
 # Caches globais da execução
 #-------------------------------------------------------
+[CmdletBinding()]
+param(
+    [string]$DatasourceName = '01SSRV305.ECSC.ECORODOVIAS.CORP:ecorodovias-pw-01',
+    [string]$UserName = 'admin',
+    [string]$Password = $env:ECORODOVIAS_PW_PASSWORD,
+    [switch]$UseGuiLogin
+)
+
 $script:CacheDisciplina = @{}
 $script:CacheFaseProjeto = @{}
 $script:CachePastas = @{}
@@ -694,12 +702,13 @@ function CopiarDocumentoParaDestino {
 # Execução principal
 #-------------------------------------------------------
 try {
-    $SecurePassword = ConvertTo-SecureString '123456' -AsPlainText -Force
-
-    New-PWLogin `
-        -DatasourceName '01SSRV305.ECSC.ECORODOVIAS.CORP:ecorodovias-pw-01' `
-        -Password $SecurePassword `
-        -UserName 'admin'
+    if ($UseGuiLogin -or [string]::IsNullOrWhiteSpace($Password)) {
+        New-PWLogin -DatasourceName $DatasourceName -UseGui -DoNotCreateWorkingDirectory | Out-Null
+    }
+    else {
+        $SecurePassword = ConvertTo-SecureString $Password -AsPlainText -Force
+        New-PWLogin -DatasourceName $DatasourceName -Password $SecurePassword -UserName $UserName -DoNotCreateWorkingDirectory | Out-Null
+    }
 
     $documentos = Medir-Tempo 'Busca documentos validados' {
         ObterDocumentosValidados

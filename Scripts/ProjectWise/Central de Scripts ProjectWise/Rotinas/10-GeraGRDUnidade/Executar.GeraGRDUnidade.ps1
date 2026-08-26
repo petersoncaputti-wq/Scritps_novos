@@ -31,10 +31,10 @@ try {
     Write-Host ''
     Write-Host $(if ($Simular) { '[1/1] Simulando a geração das GRDs para as unidades...' } else { '[1/1] Gerando as GRDs para as unidades...' })
     if ($Simular) {
-        & $scriptOperacional -Simular -CaminhoModeloExcel $modeloExcel -LogDirectory $logOperacional
+        & $scriptOperacional -Simular -UseGuiLogin -CaminhoModeloExcel $modeloExcel -LogDirectory $logOperacional
     }
     else {
-        & $scriptOperacional -Executar -CaminhoModeloExcel $modeloExcel -LogDirectory $logOperacional
+        & $scriptOperacional -Executar -UseGuiLogin -CaminhoModeloExcel $modeloExcel -LogDirectory $logOperacional
     }
 
     $duracao = (Get-Date) - $inicio
