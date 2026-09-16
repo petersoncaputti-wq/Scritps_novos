@@ -745,14 +745,13 @@ try {
     $concessoes = @(Obter-FilhosPasta (Obter-IdPasta $pastaEngenharia) | Sort-Object { (Obter-RotuloPasta $_).ToLowerInvariant() })
     if ($concessoes.Count -eq 0) { throw 'Nenhuma concessao encontrada.' }
 
-    $concessao = Selecionar-UmItem -Itens $concessoes -Titulo 'Concessoes encontradas'
-    $nomeConcessao = Obter-RotuloPasta $concessao
-
-    Write-Etapa "Localizando projetos de '$nomeConcessao'..."
-    $filhosConcessao = Obter-FilhosPasta (Obter-IdPasta $concessao)
-    $pastaProjetos = Localizar-Pasta -Pastas $filhosConcessao -Nomes $NomesProjetos -Descricao 'Pasta Projetos'
-
     if ($modoOperacao -eq 'Consolidacao') {
+        $concessao = Selecionar-UmItem -Itens $concessoes -Titulo 'Concessoes encontradas'
+        $nomeConcessao = Obter-RotuloPasta $concessao
+        Write-Etapa "Localizando projetos de '$nomeConcessao'..."
+        $filhosConcessao = Obter-FilhosPasta (Obter-IdPasta $concessao)
+        $pastaProjetos = Localizar-Pasta -Pastas $filhosConcessao -Nomes $NomesProjetos -Descricao 'Pasta Projetos'
+
         Write-Host ''
         Write-Host 'Modo de consolidacao de extracao existente.' -ForegroundColor Green
         Write-Host "Arquivo de origem: $ArquivoExistente"
@@ -774,15 +773,71 @@ try {
         return
     }
 
-    $projetos = @(Obter-FilhosPasta (Obter-IdPasta $pastaProjetos) | Sort-Object { (Obter-RotuloPasta $_).ToLowerInvariant() })
-    if ($projetos.Count -eq 0) { throw 'Nenhum projeto encontrado na concessao selecionada.' }
+    $concessoesSelecionadas = @(Selecionar-VariosItens -Itens $concessoes -Titulo 'Concessoes encontradas')
+    $selecoes = New-Object 'System.Collections.Generic.List[object]'
 
-    $projetosSelecionados = @(Selecionar-VariosItens -Itens $projetos -Titulo 'Projetos encontrados')
+    foreach ($concessaoSelecionada in $concessoesSelecionadas) {
+        $nomeConcessaoSelecionada = Obter-RotuloPasta $concessaoSelecionada
+        Write-Etapa "Localizando projetos de '$nomeConcessaoSelecionada'..."
+        try {
+            $filhos = Obter-FilhosPasta (Obter-IdPasta $concessaoSelecionada)
+            $pastaProjetosSelecionada = Localizar-Pasta -Pastas $filhos -Nomes $NomesProjetos -Descricao "Pasta Projetos de $nomeConcessaoSelecionada"
+            $todosProjetos = @(Obter-FilhosPasta (Obter-IdPasta $pastaProjetosSelecionada) | Sort-Object { (Obter-RotuloPasta $_).ToLowerInvariant() })
+            if ($todosProjetos.Count -eq 0) {
+                Write-Host "Nenhum projeto encontrado em '$nomeConcessaoSelecionada'." -ForegroundColor Yellow
+                continue
+            }
+
+            Write-Host ''
+            Write-Host ("{0} - {1} projetos encontrados" -f $nomeConcessaoSelecionada, $todosProjetos.Count) -ForegroundColor Cyan
+            Write-Host '1 - Selecionar todos os projetos'
+            Write-Host '2 - Escolher projetos'
+            Write-Host '3 - Ignorar esta concessao'
+            do { $opcaoProjetos = (Read-Host 'Escolha uma opcao (1/2/3)').Trim() } while ($opcaoProjetos -notin @('1','2','3'))
+            if ($opcaoProjetos -eq '3') { continue }
+
+            if ($opcaoProjetos -eq '1') {
+                $projetosEscolhidos = @($todosProjetos)
+            }
+            else {
+                $projetosEscolhidos = @(Selecionar-VariosItens -Itens $todosProjetos -Titulo "Projetos de $nomeConcessaoSelecionada")
+            }
+
+            $selecoes.Add([PSCustomObject]@{
+                Concessao       = $concessaoSelecionada
+                PastaProjetos   = $pastaProjetosSelecionada
+                TodosProjetos   = $todosProjetos
+                Projetos        = $projetosEscolhidos
+            })
+        }
+        catch {
+            Write-Host "Nao foi possivel preparar '$nomeConcessaoSelecionada': $($_.Exception.Message)" -ForegroundColor Yellow
+        }
+    }
+
+    if ($selecoes.Count -eq 0) { throw 'Nenhum projeto foi selecionado para extracao.' }
     Write-Host ''
-    Write-Host "Projetos selecionados: $($projetosSelecionados.Count)" -ForegroundColor Green
-    $projetosSelecionados | ForEach-Object { Write-Host " - $(Obter-RotuloPasta $_)" }
-    $confirmacao = (Read-Host 'Continuar com a extracao? (S/N)').Trim()
-    if ($confirmacao -notmatch '^[Ss]$') { throw 'Operacao cancelada pelo usuario.' }
+    Write-Host 'RESUMO DA SELECAO' -ForegroundColor Cyan
+    $totalProjetosLote = 0
+    foreach ($selecao in $selecoes) {
+        $quantidade = @($selecao.Projetos).Count
+        $totalProjetosLote += $quantidade
+        Write-Host ("{0}: {1} de {2} projetos" -f (Obter-RotuloPasta $selecao.Concessao), $quantidade, @($selecao.TodosProjetos).Count)
+    }
+    Write-Host "Concessoes: $($selecoes.Count) | Projetos: $totalProjetosLote"
+    if ((Read-Host 'Confirmar processamento? (S/N)').Trim() -notmatch '^[Ss]$') { throw 'Operacao cancelada pelo usuario.' }
+
+    $indiceConcessao = 0
+    foreach ($selecaoAtual in $selecoes) {
+        $indiceConcessao++
+        $concessao = $selecaoAtual.Concessao
+        $pastaProjetos = $selecaoAtual.PastaProjetos
+        $projetos = @($selecaoAtual.TodosProjetos)
+        $projetosSelecionados = @($selecaoAtual.Projetos)
+        $nomeConcessao = Obter-RotuloPasta $concessao
+        Write-Host ''
+        Write-Host ("CONCESSAO {0}/{1}: {2}" -f $indiceConcessao, $selecoes.Count, $nomeConcessao) -ForegroundColor Green
+        try {
 
     $linhas = New-Object 'System.Collections.Generic.List[object]'
     $resumos = New-Object 'System.Collections.Generic.List[object]'
@@ -979,6 +1034,19 @@ try {
     Write-Host "Divergencias de escopo: $($divergencias.Count)"
     Write-Host "Projetos com erro: $($erros.Count)"
     Write-Host "Arquivo: $arquivoSaida"
+        }
+        catch {
+            Write-Host "Falha ao processar a concessao '$nomeConcessao': $($_.Exception.Message)" -ForegroundColor Red
+            Write-Host 'As demais concessoes continuarao sendo processadas.' -ForegroundColor Yellow
+        }
+
+        # Libera os dados volumosos antes de iniciar a proxima concessao.
+        $linhas = $null
+        $resumos = $null
+        $erros = $null
+        $reconciliacao = $null
+        $divergencias = $null
+    }
 }
 catch {
     Write-Host ''
