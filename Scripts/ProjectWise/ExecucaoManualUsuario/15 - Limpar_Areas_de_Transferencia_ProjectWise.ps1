@@ -12,8 +12,18 @@
 [CmdletBinding()]
 param(
     [string]$DatasourceName = '',
-    [switch]$SomenteListar
+    [switch]$SomenteListar,
+    [switch]$ModoConsole
 )
+if (-not $ModoConsole) {
+    if ([string]::IsNullOrWhiteSpace($PSScriptRoot)) { throw 'Execute o arquivo completo e salvo.' }
+    $interface = Join-Path $PSScriptRoot 'Interface_Limpeza_ProjectWise.ps1'
+    if (-not (Test-Path -LiteralPath $interface -PathType Leaf)) {
+        throw "Copie Interface_Limpeza_ProjectWise.ps1 para a mesma pasta deste script. Alternativa: execute com -ModoConsole. Arquivo esperado: $interface"
+    }
+    & $interface -DatasourceName $DatasourceName -SomenteListar:$SomenteListar
+    return
+}
 if ([Threading.Thread]::CurrentThread.GetApartmentState() -ne [Threading.ApartmentState]::MTA) {
     if ([string]::IsNullOrWhiteSpace($PSCommandPath)) {
         throw 'Salve o script e execute o arquivo completo para iniciar a sessao MTA.'
@@ -21,7 +31,7 @@ if ([Threading.Thread]::CurrentThread.GetApartmentState() -ne [Threading.Apartme
     # Literais PowerShell e comando Unicode preservam espacos, acentos e aspas.
     $caminhoLiteral = $PSCommandPath.Replace("'", "''")
     $datasourceLiteral = $DatasourceName.Replace("'", "''")
-    $comandoMTA = "& '$caminhoLiteral' -DatasourceName '$datasourceLiteral'"
+    $comandoMTA = "& '$caminhoLiteral' -DatasourceName '$datasourceLiteral' -ModoConsole"
     if ($SomenteListar) { $comandoMTA += ' -SomenteListar' }
     $comandoCodificado = [Convert]::ToBase64String([Text.Encoding]::Unicode.GetBytes($comandoMTA))
     $executavelPowerShell = Join-Path $env:SystemRoot 'System32\WindowsPowerShell\v1.0\powershell.exe'
@@ -98,18 +108,98 @@ function Obter-CaminhoPW {
     catch { return '' }
 }
 
+function Obter-ErroNativoPW {
+    # Capturar antes de qualquer outra consulta PW: o ultimo erro pode mudar.
+    try { return ((Get-PWError -ErrorAction Stop | Out-String).Trim()) }
+    catch { return "Diagnostico nativo indisponivel: $($_.Exception.Message)" }
+}
+
+function Confirmar-SessaoPW {
+    try {
+        $situacao = @(Get-PWLoginStatus -ErrorAction Stop)
+        if (@($situacao | Where-Object { $_ -is [bool] -and -not $_ }).Count) {
+            throw 'ProjectWise retornou sessao inativa.'
+        }
+    } catch {
+        $nativo = Obter-ErroNativoPW
+        throw "Sessao ProjectWise nao confirmada: $($_.Exception.Message) | PW: $nativo"
+    }
+}
+
+function Consultar-PWValidado {
+    param([scriptblock]$Consulta, [ValidateSet('Pasta','Documento')][string]$Tipo, [string]$Contexto,
+        [int]$PastaPaiParaValidarVazio = 0)
+    Confirmar-SessaoPW
+    try { $itens = @(& $Consulta) }
+    catch {
+        $nativo = Obter-ErroNativoPW
+        throw "Falha de consulta ($Contexto): $($_.Exception.Message) | PW: $nativo"
+    }
+    # Booleano nao e pasta nem documento. Nao presumir que False significa vazio.
+    if (@($itens | Where-Object { $_ -is [bool] }).Count) {
+        $nativo = Obter-ErroNativoPW
+        # O ultimo erro PW pode pertencer a uma operacao anterior.
+        # Um False isolado exige confirmar o pai e consultar a arvore
+        # por outro comando; o codigo do ultimo erro nao prova lista vazia.
+        # Nao se aplica a documentos, exclusoes, raiz ou retornos mistos.
+        if ($Tipo -eq 'Pasta' -and $PastaPaiParaValidarVazio -gt 0 -and
+            $itens.Count -eq 1 -and $itens[0] -is [bool] -and -not $itens[0]) {
+            $idPaiConsultaVazio = $PastaPaiParaValidarVazio
+            $pai = @(Consultar-PWValidado -Tipo Pasta -Contexto "Confirmar existencia da pasta $PastaPaiParaValidarVazio" -Consulta {
+                Get-PWFolders -FolderID $idPaiConsultaVazio -JustOne -ErrorAction Stop
+            })
+            if ($pai.Count -eq 1 -and (Obter-IdPastaValido $pai[0]) -eq $PastaPaiParaValidarVazio) {
+                $arvore = @(Consultar-PWValidado -Tipo Pasta -Contexto "Verificacao independente da arvore $idPaiConsultaVazio. Diagnostico anterior: $nativo" -Consulta {
+                    Get-PWFolders -FolderID $idPaiConsultaVazio -ErrorAction Stop
+                })
+                $descendentes = @($arvore | Where-Object { (Obter-IdPastaValido $_) -ne $idPaiConsultaVazio })
+                if ($descendentes.Count -gt 0) {
+                    throw "Consultas divergentes ($Contexto): a arvore retornou $($descendentes.Count) pasta(s), mas a consulta de filhos retornou False. PW anterior: $nativo"
+                }
+                Write-Etapa "Ausencia de subpastas de $idPaiConsultaVazio confirmada por consulta independente. Diagnostico da consulta anterior (pode ser residual): $nativo"
+                return @()
+            }
+            throw "Consulta nao confirmada ($Contexto): Not found e existencia da pasta pai nao confirmada. PW original: $nativo"
+        }
+        throw "Consulta nao confirmada ($Contexto): retorno booleano, nao uma lista de $Tipo. PW: $nativo"
+    }
+    foreach ($item in $itens) {
+        if ($null -eq $item) { continue }
+        if ($Tipo -eq 'Pasta') { $null = Obter-IdPastaValido $item }
+        else {
+            $guid = [guid]::Empty
+            if (-not [guid]::TryParse((Obter-Texto $item @('DocumentGUID')), [ref]$guid) -or $guid -eq [guid]::Empty) {
+                throw "Consulta nao confirmada ($Contexto): documento sem GUID valido."
+            }
+        }
+    }
+    Confirmar-SessaoPW
+    return @($itens | Where-Object { $null -ne $_ })
+}
+
+function Obter-DocumentosValidados {
+    param([int]$FolderID)
+    if ($FolderID -le 0) { throw 'ID de pasta invalido para consultar documentos.' }
+    return @(Consultar-PWValidado -Tipo Documento -Contexto "Documentos/versoes da pasta $FolderID" -Consulta {
+        Get-PWDocumentsBySearch -FolderID $FolderID -GetVersionsToo -ErrorAction Stop
+    })
+}
+
 function Obter-FilhosRaiz {
     $cmd = Get-Command Get-PWFoldersImmediateChildren -ErrorAction Stop
     if ($cmd.Parameters.ContainsKey('Root')) {
-        return @(Get-PWFoldersImmediateChildren -Root -ErrorAction Stop | Where-Object { $null -ne $_ })
+        return @(Consultar-PWValidado -Tipo Pasta -Contexto 'Pastas raiz' -Consulta { Get-PWFoldersImmediateChildren -Root -ErrorAction Stop })
     }
-    return @(Get-PWFoldersImmediateChildren -ErrorAction Stop | Where-Object { $null -ne $_ })
+    return @(Consultar-PWValidado -Tipo Pasta -Contexto 'Pastas raiz' -Consulta { Get-PWFoldersImmediateChildren -ErrorAction Stop })
 }
 
 function Obter-FilhosPasta {
     param([Parameter(Mandatory)][string]$FolderId)
-    return @(Get-PWFoldersImmediateChildren -FolderID $FolderId -WarningAction SilentlyContinue -ErrorAction Stop |
-        Where-Object { $null -ne $_ })
+    $id = 0
+    if (-not [int]::TryParse($FolderId, [ref]$id) -or $id -le 0) { throw 'ID de pasta invalido para consultar subpastas.' }
+    return @(Consultar-PWValidado -Tipo Pasta -Contexto "Subpastas de $FolderId" -PastaPaiParaValidarVazio $id -Consulta {
+        Get-PWFoldersImmediateChildren -FolderID $FolderId -WarningAction SilentlyContinue -ErrorAction Stop
+    })
 }
 
 function Localizar-Pasta {
@@ -256,7 +346,7 @@ function Testar-PastaLimpeza {
 function Obter-InventarioTamanho {
     param([int]$FolderID)
     $itens = @{}
-    foreach ($doc in (Get-PWDocumentsBySearch -FolderID $FolderID -GetVersionsToo -ErrorAction Stop)) {
+    foreach ($doc in (Obter-DocumentosValidados $FolderID)) {
         if ($null -eq $doc) { continue }
         $guid = [guid]$doc.DocumentGUID
         if ($guid -eq [guid]::Empty) { throw 'Documento sem GUID para medir a exclusao.' }
@@ -265,6 +355,9 @@ function Obter-InventarioTamanho {
         }
         $bytes = [decimal]$doc.FileSize
         if ($bytes -lt 0) { throw 'Tamanho de documento invalido.' }
+        if ($null -eq $doc.PSObject.Properties['VersionSequence'] -or $null -eq $doc.VersionSequence) {
+            throw 'Documento sem VersionSequence para medir a exclusao.'
+        }
         $itens[('{0}:{1}' -f $guid, $doc.VersionSequence)] = $bytes
     }
     return ,$itens
@@ -293,18 +386,24 @@ function Medir-Exclusao {
     }
 }
 
-function Limpar-ConteudoPasta {
-    param([object]$Alvo, [Parameter(Mandatory)][object]$Diagnostico)
-    $Diagnostico.Etapa = 'Validar pasta protegida'
+function Confirmar-PastaProtegida {
+    param([object]$Alvo)
     $pastaAtual = @(Obter-FilhosPasta $Alvo.AreaID | Where-Object {
         (Obter-IdPasta $_) -eq [string]$Alvo.PastaID -and (Testar-PastaLimpeza $_)
     })
-    if ($pastaAtual.Count -ne 1) { throw 'A pasta alvo mudou ou nao pertence mais a Area de Transferencia.' }
+    if ($pastaAtual.Count -ne 1) { throw 'Nao foi possivel confirmar a pasta protegida na Area de Transferencia. Fila interrompida; isso nao comprova que a pasta foi movida.' }
+}
+
+function Limpar-ConteudoPasta {
+    param([object]$Alvo, [Parameter(Mandatory)][object]$Diagnostico)
+    $Diagnostico.Etapa = 'Validar pasta protegida'
+    Confirmar-PastaProtegida $Alvo
 
     # Sem RemoveFolders: preserva todas as pastas e remove documentos da arvore.
     $Diagnostico.Etapa = 'Remover documentos'
-    $resultado = @(Remove-PWFolder -FolderID $Alvo.PastaID -RemoveDocuments -ProceedWithDelete -ErrorAction Stop)
-    if ($resultado -contains $false) { throw 'ProjectWise informou falha ao remover documentos.' }
+    try { $resultado = @(Remove-PWFolder -FolderID $Alvo.PastaID -RemoveDocuments -ProceedWithDelete -ErrorAction Stop) }
+    catch { $nativo = Obter-ErroNativoPW; throw "Falha ao remover documentos: $($_.Exception.Message) | PW: $nativo" }
+    if ($resultado -contains $false) { $nativo = Obter-ErroNativoPW; throw "ProjectWise informou falha ao remover documentos. PW: $nativo" }
 
     # RemoveFolders SOMENTE nos filhos, nunca em Entrada/Saida/Importacao.
     $Diagnostico.Etapa = 'Consultar subpastas apos remover documentos'
@@ -320,13 +419,15 @@ function Limpar-ConteudoPasta {
         }
         $Diagnostico.Etapa = "Remover subpasta ID $idFilho"
         Write-Etapa "Removendo subpasta $(Obter-NomePasta $filho) (ID $idFilho)..."
-        $resultado = @(Remove-PWFolder -FolderID $idFilho -RemoveDocuments -RemoveFolders -ProceedWithDelete -ErrorAction Stop)
-        if ($resultado -contains $false) { throw "Falha ao remover subpasta $idFilho." }
+        Confirmar-SessaoPW
+        try { $resultado = @(Remove-PWFolder -FolderID $idFilho -RemoveDocuments -RemoveFolders -ProceedWithDelete -ErrorAction Stop) }
+        catch { $nativo = Obter-ErroNativoPW; throw "Falha ao remover subpasta ${idFilho}: $($_.Exception.Message) | PW: $nativo" }
+        if ($resultado -contains $false) { $nativo = Obter-ErroNativoPW; throw "Falha ao remover subpasta $idFilho. PW: $nativo" }
     }
 
     $Diagnostico.Item = ''
     $Diagnostico.Etapa = 'Verificar documentos restantes'
-    $restantes = @(Get-PWDocumentsBySearch -FolderID $Alvo.PastaID -GetVersionsToo -ErrorAction Stop | Where-Object { $null -ne $_ })
+    $restantes = @(Obter-DocumentosValidados $Alvo.PastaID)
     $Diagnostico.Etapa = 'Verificar subpastas restantes'
     $subpastas = @(Obter-FilhosPasta $Alvo.PastaID)
     $Diagnostico.Etapa = 'Verificar preservacao da pasta'
@@ -379,6 +480,7 @@ try {
 
     $alvos = New-Object 'System.Collections.Generic.List[object]'
     $idsVistos = New-Object 'System.Collections.Generic.HashSet[int]'
+    $pastasVazias = 0
     foreach ($projeto in $projetos) {
         Write-Etapa "Procurando Areas de Transferencia em $(Obter-RotuloPasta $projeto)..."
         $areas = @(Localizar-AreasTransferenciaNoProjeto $projeto)
@@ -393,10 +495,15 @@ try {
                 if ($idPasta -eq $idArea) { throw 'Alvo corresponde a propria Area de Transferencia.' }
                 if (-not $idsVistos.Add($idPasta)) { continue }
                 Write-Etapa "Consultando documentos e versoes de $(Obter-NomePasta $pasta) (ID $idPasta), incluindo subpastas. Aguardando ProjectWise..."
-                $documentos = @(Get-PWDocumentsBySearch -FolderID $idPasta -GetVersionsToo -ErrorAction Stop | Where-Object { $null -ne $_ })
+                $documentos = @(Obter-DocumentosValidados $idPasta)
                 Write-Etapa "$($documentos.Count) documentos/versoes retornados. Consultando subpastas..."
                 $filhos = @(Obter-FilhosPasta $idPasta)
                 Write-Etapa "Pasta analisada: $(Obter-NomePasta $pasta) | $($filhos.Count) subpastas diretas."
+                if ($documentos.Count -eq 0 -and $filhos.Count -eq 0) {
+                    $pastasVazias++
+                    Write-Etapa "Pasta $idPasta ja vazia. Fora da fila de limpeza."
+                    continue
+                }
                 $alvos.Add([pscustomobject]@{
                     Projeto = Obter-RotuloPasta $projeto
                     AreaID = $idArea; PastaID = $idPasta
@@ -408,6 +515,7 @@ try {
             }
         }
     }
+    Write-Etapa "Analise concluida: $($alvos.Count) pasta(s) com conteudo; $pastasVazias pasta(s) ja vazia(s)."
     if ($alvos.Count -eq 0) { Write-Host 'Nenhuma pasta para limpar.'; return }
     $alvos.ToArray() | Format-Table Projeto, Pasta, PastaID, DocumentosComVersoes, SubpastasDiretas, CaminhoPW -AutoSize -Wrap | Out-Host
     if ($SomenteListar) { Write-Host 'SomenteListar: nenhum dado foi excluido.'; return }
@@ -432,6 +540,7 @@ try {
     # Valida a gravacao do log antes das exclusoes.
     'Projeto,AreaID,PastaID,Pasta,CaminhoPW,Status,Erro' | Set-Content -LiteralPath $arquivoLog -Encoding UTF8
     foreach ($alvo in $alvos) {
+        $interromperFila = $false
         $status = 'Concluido'; $erro = ''
         $diagnostico = [pscustomobject]@{ Etapa = 'Inventario anterior'; ItensRetornados = $null; Item = '' }
         $linhaErro = $null; $pilhaErro = ''; $identificadorErro = ''
@@ -443,6 +552,7 @@ try {
             Limpar-ConteudoPasta -Alvo $alvo -Diagnostico $diagnostico
         }
         catch {
+            $interromperFila = $true
             $status = 'Erro'; $erro = $_.Exception.Message
             $linhaErro = $_.InvocationInfo.ScriptLineNumber
             $pilhaErro = $_.ScriptStackTrace
@@ -455,11 +565,12 @@ try {
         # Movimentacoes concorrentes de outros usuarios podem afetar a comparacao.
         if ($null -ne $antes) {
             try {
+                Confirmar-PastaProtegida $alvo
                 $depois = Obter-InventarioTamanho $alvo.PastaID
                 $medicao = Medir-Exclusao -Antes $antes -Depois $depois
                 $statusMedicao = 'Confirmado por inventario'
             }
-            catch { $erroMedicao = $_.Exception.Message }
+            catch { $erroMedicao = $_.Exception.Message; $interromperFila = $true; $status = 'Erro' }
         }
         else { $erroMedicao = 'Inventario anterior indisponivel. Exclusao nao iniciada.' }
         $log.Add([pscustomobject]@{
@@ -477,6 +588,10 @@ try {
             StatusMedicao = $statusMedicao; ErroMedicao = $erroMedicao
         })
         $log.ToArray() | Export-Csv -LiteralPath $arquivoLog -NoTypeInformation -Encoding UTF8
+        if ($interromperFila) {
+            Write-Host 'Fila interrompida na primeira falha. Os alvos seguintes nao foram executados. Consulte o log e realize nova analise.' -ForegroundColor Red
+            break
+        }
     }
     $falhas = @($log.ToArray() | Where-Object Status -eq 'Erro').Count
     Write-Host "Limpeza finalizada. Concluidas: $($log.Count - $falhas). Falhas: $falhas."
