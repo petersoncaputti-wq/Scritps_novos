@@ -42,7 +42,8 @@ $trabalhador = {
             try {
                 switch ($pedido.Acao) {
                     'Conectar' {
-                        Emitir 'Mensagem' 'Interface Limpeza v1.2 | Preparando PWPS_DAB...'
+                        Emitir 'Desconectado' $null
+                        Emitir 'Mensagem' 'Interface Limpeza v1.5 | Preparando PWPS_DAB...'
                         # O inicializador do PWPS_DAB 24.0.2 acessa
                         # $Host.Runspace.ThreadOptions. O host padrao de uma
                         # runspace criada por API nao expoe essa propriedade.
@@ -60,6 +61,11 @@ $trabalhador = {
                         # variavel de ambiente que pode estar ausente.
                         Set-StrictMode -Off
                         Import-Module PWPS_DAB -ErrorAction Stop
+                        if ($pedido.Reconectar) {
+                            $analiseValida = $false; $alvos = @()
+                            try { Undo-PWLogin -ErrorAction Stop | Out-Null } catch { Emitir 'Mensagem' 'Sessao anterior indisponivel. Abrindo novo login.' }
+                            $login = $false
+                        }
                         Emitir 'Mensagem' 'Modulo importado. Abrindo login...'
                         $p = @{ UseGui = $true; DoNotCreateWorkingDirectory = $true; ErrorAction = 'Stop' }
                         if ($pedido.Datasource) { $p.DatasourceName = $pedido.Datasource }
@@ -70,6 +76,50 @@ $trabalhador = {
                         $engenharia = Localizar-Pasta (Obter-FilhosRaiz) @('Engenharia', 'Engineering') 'Engenharia'
                         $concessoes = @(Obter-FilhosPasta (Obter-IdPasta $engenharia) | Sort-Object { Obter-RotuloPasta $_ })
                         Emitir 'Concessoes' @($concessoes | ForEach-Object { Obter-RotuloPasta $_ })
+                    }
+                    'Retomar' {
+                        $analiseValida = $false; $alvos = @()
+                        Confirmar-SessaoPW
+                        $salvo = Get-Content -LiteralPath $pedido.Arquivo -Raw -ErrorAction Stop | ConvertFrom-Json -ErrorAction Stop
+                        $datasourceAtual = [string](Get-PWCurrentDatasource -ErrorAction Stop)
+                        if ($salvo.Versao -ne 1 -or [string]::IsNullOrWhiteSpace($salvo.Datasource) -or
+                            $salvo.Datasource -cne $datasourceAtual) { throw 'Retomada pertence a outro datasource ou tem formato invalido. Conecte ao datasource original.' }
+                        $lista = New-Object 'System.Collections.Generic.List[object]'
+                        $vistos = New-Object 'System.Collections.Generic.HashSet[int]'
+                        $pendentes = @($salvo.Alvos | Where-Object Status -ne 'Concluido')
+                        $verificados = 0; $vazias = 0
+                        foreach ($item in $pendentes) {
+                            if ($estado.Cancelar) { break }
+                            $idArea = 0; $idPasta = 0
+                            if (-not [int]::TryParse([string]$item.AreaID, [ref]$idArea) -or $idArea -le 0 -or
+                                -not [int]::TryParse([string]$item.PastaID, [ref]$idPasta) -or $idPasta -le 0 -or $idPasta -eq $idArea) { throw 'IDs invalidos no arquivo de retomada.' }
+                            if (-not $vistos.Add($idPasta)) { throw 'Alvo duplicado no arquivo de retomada.' }
+                            $pastaArea = @(Consultar-PWValidado -Tipo Pasta -Contexto 'Validar Area de Transferencia da retomada' -Consulta {
+                                Get-PWFolders -FolderID $idArea -JustOne -ErrorAction Stop
+                            })
+                            if ($pastaArea.Count -ne 1 -or (Obter-IdPastaValido $pastaArea[0]) -ne $idArea -or
+                                -not (Testar-NomeAreaTransferencia (Obter-NomePasta $pastaArea[0]))) { throw 'Area de Transferencia da retomada nao confirmada.' }
+                            $pasta = @(Obter-FilhosPasta $idArea | Where-Object { (Obter-IdPasta $_) -eq [string]$idPasta -and (Testar-PastaLimpeza $_) })
+                            if ($pasta.Count -ne 1) { throw "Pasta protegida $idPasta nao confirmada. Analise interrompida." }
+                            $caminhoAtual = Obter-CaminhoPW $pasta[0]
+                            if ([string]::IsNullOrWhiteSpace($caminhoAtual) -or $caminhoAtual -ine $item.CaminhoPW) { throw "Caminho da pasta $idPasta mudou ou nao foi confirmado. Faca nova analise dos projetos." }
+                            Emitir 'Mensagem' "Reanalisando pendencia: $caminhoAtual"
+                            $inventario = Obter-InventarioTamanho $idPasta
+                            $filhos = @(Obter-FilhosPasta $idPasta)
+                            if ($inventario.Count -eq 0 -and $filhos.Count -eq 0) { $vazias++ }
+                            else {
+                                $medida = Medir-Exclusao -Antes $inventario -Depois @{}
+                                $lista.Add([pscustomobject]@{ Projeto = $item.Projeto; AreaID = $idArea; PastaID = $idPasta
+                                    Pasta = Obter-NomePasta $pasta[0]; CaminhoPW = $caminhoAtual
+                                    DocumentosComVersoes = $inventario.Count; SubpastasDiretas = $filhos.Count; MiB = $medida.MiBExcluidos })
+                            }
+                            $verificados++
+                            Emitir 'Progresso' @{ Valor = [int](100 * $verificados / $pendentes.Count); Texto = "$verificados/$($pendentes.Count) pendencias reanalisadas" }
+                        }
+                        if ($estado.Cancelar) { Emitir 'Mensagem' 'Reanalise cancelada. Nenhuma limpeza iniciada.'; break }
+                        $alvos = $lista.ToArray(); $analiseValida = $true
+                        Emitir 'Areas' $alvos
+                        Emitir 'Mensagem' "Retomada pronta para revisao: $($alvos.Count) alvos com conteudo; $vazias ja vazios. Confirme a limpeza para continuar."
                     }
                     'Projetos' {
                         $areas = @(); $alvos = @(); $analiseValida = $false
@@ -127,6 +177,15 @@ $trabalhador = {
                         $null = [IO.Directory]::CreateDirectory($pastaLog)
                         $sufixo = Get-Date -Format 'yyyyMMdd_HHmmss_fff'
                         $arquivoLog = Join-Path $pastaLog "Log_Limpeza_$sufixo.csv"
+                        Confirmar-SessaoPW
+                        $datasourceAtual = [string](Get-PWCurrentDatasource -ErrorAction Stop)
+                        if ([string]::IsNullOrWhiteSpace($datasourceAtual)) { throw 'Datasource nao identificado. Limpeza nao iniciada.' }
+                        $arquivoRetomada = Join-Path $pastaLog "Retomada_Limpeza_$sufixo.json"
+                        $retomada = [pscustomobject]@{ Versao = 1; Datasource = $datasourceAtual; Criado = (Get-Date).ToString('o')
+                            Alvos = @($alvos | ForEach-Object { [pscustomobject]@{ Projeto = $_.Projeto; AreaID = $_.AreaID; PastaID = $_.PastaID
+                                Pasta = $_.Pasta; CaminhoPW = $_.CaminhoPW; Status = 'Pendente' } }) }
+                        Salvar-RetomadaLimpeza -Caminho $arquivoRetomada -Dados $retomada
+                        Emitir 'RetomadaSalva' $arquivoRetomada
                         $alvos | Export-Csv -LiteralPath (Join-Path $pastaLog "Alvos_Limpeza_$sufixo.csv") -NoTypeInformation -Encoding UTF8
                         # Garante acesso de gravacao antes de qualquer exclusao.
                         'Projeto,PastaID,Status' | Set-Content -LiteralPath $arquivoLog -Encoding UTF8
@@ -170,6 +229,10 @@ $trabalhador = {
                                 }
                             } else { $erroMedicao = 'Inventario anterior indisponivel. Exclusao nao iniciada.' }
                             $relogio.Stop()
+                            if ($interromperFila -and (Testar-FalhaLocalContinuavel -Erro $erro -Etapa $diagnostico.Etapa -StatusMedicao $statusMedicao)) {
+                                $interromperFila = $false
+                                Emitir 'Mensagem' "Pasta $($alvo.PastaID) mantida com erro 58014. Sessao, pasta e inventario posterior validados; continuando com o proximo alvo."
+                            }
                             $log.Add([pscustomobject]@{
                                 Projeto = $alvo.Projeto; AreaID = $alvo.AreaID; PastaID = $alvo.PastaID
                                 Pasta = $alvo.Pasta; CaminhoPW = $alvo.CaminhoPW; Status = $status; Erro = $erro
@@ -186,6 +249,8 @@ $trabalhador = {
                                 StatusMedicao = $statusMedicao; ErroMedicao = $erroMedicao
                             })
                             $log.ToArray() | Export-Csv -LiteralPath $arquivoLog -NoTypeInformation -Encoding UTF8
+                            $retomada.Alvos[$i].Status = $status
+                            Salvar-RetomadaLimpeza -Caminho $arquivoRetomada -Dados $retomada
                             if ($status -ne 'Cancelada') { $processadas++ }
                             Emitir 'Linha' @{ Indice = $i; Status = $status; Duracao = $relogio.Elapsed.ToString('hh\:mm\:ss')
                                 Retornos = $(if ($medicao) { $medicao.DocumentosVersoesExcluidos } else { 'Nao confirmado' })
@@ -206,7 +271,8 @@ $trabalhador = {
                                     Emitir 'Linha' @{ Indice = $j; Status = 'Nao executado'; Retornos = ''; MiB = ''; Duracao = '' }
                                 }
                                 $log.ToArray() | Export-Csv -LiteralPath $arquivoLog -NoTypeInformation -Encoding UTF8
-                                Emitir 'Erro' 'Fila interrompida na primeira falha. Consulte o diagnostico e realize nova analise antes de limpar novamente.'
+                                Emitir 'Erro' 'Fila interrompida por falha sem condicoes confirmadas para continuar. Consulte o diagnostico e realize nova analise.'
+                                Emitir 'Mensagem' "Execucao pausada. Use Reconectar e depois Retomar pendencias. Arquivo: $arquivoRetomada"
                                 break
                             }
                         }
@@ -225,7 +291,7 @@ $trabalhador = {
 }
 
 $form = New-Object Windows.Forms.Form
-$form.Text = 'ProjectWise | Limpar Areas de Transferencia | Limpeza v1.2'
+$form.Text = 'ProjectWise | Limpar Areas de Transferencia | Limpeza v1.5'
 $form.Font = New-Object Drawing.Font('Segoe UI', 10)
 $form.AutoScaleMode = 'Dpi'
 $form.AutoScroll = $true
@@ -270,6 +336,9 @@ $titulo = Controle Label 'LIMPAR AREAS DE TRANSFERENCIA'
 $titulo.AutoSize = $true
 Adicionar-Linha $titulo
 $conectar = Controle Button 'Conectar ao ProjectWise'
+$reconectar = Controle Button 'Reconectar'
+$retomar = Controle Button 'Retomar pendencias'
+foreach ($botao in @($reconectar,$retomar)) { $botao.AutoSize = $true; $botao.Padding = New-Object Windows.Forms.Padding(6) }
 $concessao = Controle ComboBox ''
 $concessao.DropDownStyle = 'DropDownList'
 $concessao.DropDownWidth = 600
@@ -337,25 +406,71 @@ Adicionar-Linha $nota
 $detalhes = Controle TextBox ''
 $detalhes.Multiline = $true; $detalhes.ReadOnly = $true; $detalhes.ScrollBars = 'Vertical'; $detalhes.WordWrap = $true
 Adicionar-Linha $detalhes
-$detalhes.AppendText("Interface Limpeza v1.2 | Arquivo: $PSCommandPath`r`n")
+$detalhes.AppendText("Interface Limpeza v1.5 | Arquivo: $PSCommandPath`r`n")
+# Abas ocupam o espaco restante; comandos e progresso ficam sempre acessiveis.
+$form.AutoScroll = $false
+$estrutura = New-Object Windows.Forms.TableLayoutPanel
+$estrutura.Dock = 'Fill'; $estrutura.ColumnCount = 1; $estrutura.RowCount = 3
+$null = $estrutura.ColumnStyles.Add((New-Object Windows.Forms.ColumnStyle('Percent',100)))
+$null = $estrutura.RowStyles.Add((New-Object Windows.Forms.RowStyle('AutoSize')))
+$null = $estrutura.RowStyles.Add((New-Object Windows.Forms.RowStyle('Percent',100)))
+$null = $estrutura.RowStyles.Add((New-Object Windows.Forms.RowStyle('AutoSize')))
+$comandos = New-Object Windows.Forms.FlowLayoutPanel
+$comandos.Dock = 'Fill'; $comandos.AutoSize = $true; $comandos.WrapContents = $true
+$painelAntigo = $iniciar.Parent
+foreach ($c in @($iniciar,$cancelar,$reconectar,$retomar,$detalhado,$abrir)) { $comandos.Controls.Add($c) }
+$painelAntigo.Visible = $false
+$abas = New-Object Windows.Forms.TabControl
+$abas.Dock = 'Fill'
+$configuracao = New-Object Windows.Forms.TabPage
+$configuracao.Text = '1. Selecionar e analisar'; $configuracao.AutoScroll = $true
+$resultados = New-Object Windows.Forms.TabPage
+$resultados.Text = '2. Revisar e acompanhar'
+$paginaDetalhes = New-Object Windows.Forms.TabPage
+$paginaDetalhes.Text = '3. Detalhes e erros'
+$abas.TabPages.AddRange([Windows.Forms.TabPage[]]@($configuracao,$resultados,$paginaDetalhes))
+$configuracao.Controls.Add($layout)
+$resultados.Controls.Add($grid); $grid.Dock = 'Fill'
+$grid.AutoSizeRowsMode = 'DisplayedCells'
+$paginaDetalhes.Controls.Add($detalhes); $detalhes.Dock = 'Fill'
+$rodape = New-Object Windows.Forms.TableLayoutPanel
+$rodape.Dock = 'Fill'; $rodape.AutoSize = $true; $rodape.ColumnCount = 1
+$null = $rodape.ColumnStyles.Add((New-Object Windows.Forms.ColumnStyle('Percent',100)))
+# Mensagem rolavel para caminhos extensos, sem crescer sobre a tabela.
+$mensagemInicial = $situacao.Text
+$layout.Controls.Remove($situacao); $situacao.Dispose()
+$situacao = Controle TextBox $mensagemInicial
+$situacao.Multiline = $true; $situacao.ReadOnly = $true; $situacao.ScrollBars = 'Vertical'
+$situacao.Height = $form.Font.Height * 3
+foreach ($c in @($barra,$situacao,$tempo,$situacaoArquivos)) {
+    $linha = $rodape.RowCount; $rodape.RowCount++
+    $null = $rodape.RowStyles.Add((New-Object Windows.Forms.RowStyle('AutoSize')))
+    $rodape.Controls.Add($c,0,$linha); $c.Dock = 'Top'
+}
+$estrutura.Controls.Add($comandos,0,0)
+$estrutura.Controls.Add($abas,0,1)
+$estrutura.Controls.Add($rodape,0,2)
+$form.Controls.Add($estrutura)
 function Ajustar-Layout {
-    $largura = [Math]::Max(100, $layout.ClientSize.Width - $layout.Padding.Horizontal - 12)
-    foreach ($rotulo in @($titulo, $rotuloProjetos, $rotuloDestino, $situacao, $tempo, $situacaoArquivos, $nota)) {
-        $rotulo.MaximumSize = New-Object Drawing.Size($largura, 0)
+    $largura = [Math]::Max(100,$configuracao.ClientSize.Width - 48)
+    foreach ($rotulo in @($titulo,$rotuloProjetos,$rotuloDestino,$nota)) {
+        $rotulo.MaximumSize = New-Object Drawing.Size($largura,0)
     }
-    $escala = $form.Font.Height / 18.0
-    $projetosUI.Height = [Math]::Max([int](90 * $escala), [int]($form.ClientSize.Height * 0.13))
-    $grid.Height = [Math]::Max([int](130 * $escala), [int]($form.ClientSize.Height * 0.20))
-    $detalhes.Height = [Math]::Max([int](90 * $escala), [int]($form.ClientSize.Height * 0.12))
+    $situacaoArquivos.MaximumSize = New-Object Drawing.Size([Math]::Max(100,$form.ClientSize.Width - 20),0)
+    $projetosUI.Height = [Math]::Max(90,[int]($configuracao.ClientSize.Height * 0.30))
+    $situacao.Height = $form.Font.Height * 3
+    $concessao.DropDownWidth = [Math]::Min(800,[Windows.Forms.Screen]::FromControl($form).WorkingArea.Width - 40)
 }
 $form.Add_ClientSizeChanged({ Ajustar-Layout })
-$layout.Add_SizeChanged({ Ajustar-Layout })
+$configuracao.Add_SizeChanged({ Ajustar-Layout })
 Ajustar-Layout
 
 $ui = @{ Ocupado = $false; Conectado = $false; Areas = 0; Relogio = [Diagnostics.Stopwatch]::new(); Fechar = $false }
 function Atualizar-Botoes {
     $livre = -not $ui.Ocupado -and -not $estado.Encerrar
     $conectar.Enabled = $livre -and -not $ui.Conectado
+    $reconectar.Enabled = $livre
+    $retomar.Enabled = $livre -and $ui.Conectado
     $concessao.Enabled = $livre -and $ui.Conectado
     $carregar.Enabled = $livre -and $concessao.SelectedIndex -ge 0
     $projetosUI.Enabled = $livre
@@ -375,6 +490,23 @@ function Enviar($pedido) {
     $pedidos.Enqueue($pedido)
 }
 $conectar.Add_Click({ Enviar @{ Acao = 'Conectar'; Datasource = $DatasourceName } })
+$reconectar.Add_Click({
+    $ui.Areas = 0; $grid.Rows.Clear(); $projetosUI.Items.Clear(); $concessao.Items.Clear()
+    Enviar @{ Acao = 'Conectar'; Datasource = $DatasourceName; Reconectar = $true }
+})
+$retomar.Add_Click({
+    $dialogo = New-Object Windows.Forms.OpenFileDialog
+    $dialogo.Title = 'Selecione o ponto de retomada da execucao interrompida'
+    $dialogo.Filter = 'Retomada de limpeza (Retomada_Limpeza_*.json)|Retomada_Limpeza_*.json'
+    if ($ui.ArquivoRetomada -and (Test-Path -LiteralPath $ui.ArquivoRetomada)) { $dialogo.FileName = $ui.ArquivoRetomada }
+    elseif (Test-Path -LiteralPath $destinoUI.Text -PathType Container) { $dialogo.InitialDirectory = $destinoUI.Text }
+    try {
+        if ($dialogo.ShowDialog($form) -eq 'OK') {
+            $ui.Areas = 0; $grid.Rows.Clear()
+            Enviar @{ Acao = 'Retomar'; Arquivo = $dialogo.FileName }
+        }
+    } finally { $dialogo.Dispose() }
+})
 $concessao.Add_SelectedIndexChanged({
     $projetosUI.Items.Clear(); $grid.Rows.Clear(); $ui.Areas = 0; Atualizar-Botoes
 })
@@ -404,6 +536,7 @@ $iniciar.Add_Click({
     $aviso = "Excluir o conteudo das $($grid.Rows.Count) pastas listadas?`r`n`r`nInventario: $quantidadeDocs documentos/versoes, alem das subpastas.`r`nEntrada, Saida e Importacao serao preservadas.`r`nA limpeza abrange o conteudo presente no momento da execucao.`r`n`r`nConfira os caminhos na tabela antes de confirmar."
     if ([Windows.Forms.MessageBox]::Show($form, $aviso, 'Confirmar limpeza no ProjectWise', 'YesNo', 'Warning', 'Button2') -ne 'Yes') { return }
     foreach ($linha in $grid.Rows) { $linha.Cells[2].Value = 'Aguardando' }
+    $abas.SelectedTab = $resultados
     Enviar @{ Acao = 'Limpar'; Destino = $destinoUI.Text; Confirmado = $true }
 })
 $cancelar.Add_Click({
@@ -439,14 +572,16 @@ $timer.Add_Tick({
     while ($eventos.TryDequeue([ref]$evento)) {
         $d = $evento.Dados
         switch ($evento.Tipo) {
+            'Desconectado' { $ui.Conectado = $false; $ui.Areas = 0; $concessao.Items.Clear(); $projetosUI.Items.Clear(); $grid.Rows.Clear() }
+            'RetomadaSalva' { $ui.ArquivoRetomada = [string]$d; $detalhes.AppendText("Ponto de retomada: $d`r`n") }
             'Concessoes' { $ui.Conectado = $true; foreach ($nome in $d) { $null = $concessao.Items.Add($nome) }; if ($concessao.Items.Count) { $concessao.SelectedIndex = 0 }; $situacao.Text = 'Selecione a concessao e carregue os projetos.' }
             'Projetos' { foreach ($nome in $d) { $null = $projetosUI.Items.Add($nome) }; $situacao.Text = "$($projetosUI.Items.Count) projeto(s). Marque e localize as areas." }
-            'Areas' { $ui.Areas = @($d).Count; foreach ($area in $d) { $null = $grid.Rows.Add([object[]]@($area.Projeto, $area.Pasta, 'Analisada', $area.DocumentosComVersoes, $area.SubpastasDiretas, '', '', '', $area.CaminhoPW)) } }
+            'Areas' { $grid.Rows.Clear(); $abas.SelectedTab = $resultados; $ui.Areas = @($d).Count; foreach ($area in $d) { $null = $grid.Rows.Add([object[]]@($area.Projeto, $area.Pasta, 'Analisada', $area.DocumentosComVersoes, $area.SubpastasDiretas, '', '', '', $area.CaminhoPW)) } }
             'Linha' { $linha = $grid.Rows[$d.Indice]; $linha.Cells[2].Value = $d.Status; $linha.Cells[5].Value = $d.Retornos; $linha.Cells[6].Value = $d.MiB; $linha.Cells[7].Value = $d.Duracao }
             'Progresso' { $barra.Value = $d.Valor; $situacao.Text = $d.Texto }
             'Resumo' { $situacaoArquivos.Text = [string]$d }
             'Mensagem' { $situacao.Text = [string]$d; $detalhes.AppendText("$(Get-Date -Format 'HH:mm:ss') | $d`r`n") }
-            'Erro' { $situacao.Text = 'Falha: ' + $d; $detalhes.AppendText("ERRO: $d`r`n") }
+            'Erro' { $abas.SelectedTab = $paginaDetalhes; $situacao.Text = 'Falha: ' + $d; $detalhes.AppendText("ERRO: $d`r`n") }
             'Livre' {
                 $ui.Ocupado = $false; $ui.Relogio.Stop()
                 $cancelar.Text = 'Cancelar'

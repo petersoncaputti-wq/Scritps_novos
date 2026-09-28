@@ -394,6 +394,28 @@ function Confirmar-PastaProtegida {
     if ($pastaAtual.Count -ne 1) { throw 'Nao foi possivel confirmar a pasta protegida na Area de Transferencia. Fila interrompida; isso nao comprova que a pasta foi movida.' }
 }
 
+function Salvar-RetomadaLimpeza {
+    param([string]$Caminho, [object]$Dados)
+    $temporario = $Caminho + '.' + [guid]::NewGuid().ToString('N') + '.tmp'
+    try {
+        [IO.File]::WriteAllText($temporario, ($Dados | ConvertTo-Json -Depth 8), (New-Object Text.UTF8Encoding($true)))
+        if ([IO.File]::Exists($Caminho)) { [IO.File]::Replace($temporario, $Caminho, ($Caminho + '.bak')) }
+        else { [IO.File]::Move($temporario, $Caminho) }
+    } finally {
+        if ([IO.File]::Exists($temporario)) { [IO.File]::Delete($temporario) }
+    }
+}
+
+function Testar-FalhaLocalContinuavel {
+    param([string]$Erro, [string]$Etapa, [string]$StatusMedicao)
+    # Libera somente a falha conhecida de liberacao de documento, apos
+    # validacao posterior da pasta, sessao e inventario pelo chamador.
+    return ($StatusMedicao -eq 'Confirmado por inventario' -and
+        $Etapa -match '^Remover (documentos|subpasta ID \d+)$' -and
+        $Erro -match '(?im)Last Error ID:\s*58014\b' -and
+        $Erro -notmatch '(?i)58249|connection terminated|sessao.*nao confirmada')
+}
+
 function Limpar-ConteudoPasta {
     param([object]$Alvo, [Parameter(Mandatory)][object]$Diagnostico)
     $Diagnostico.Etapa = 'Validar pasta protegida'
@@ -573,6 +595,10 @@ try {
             catch { $erroMedicao = $_.Exception.Message; $interromperFila = $true; $status = 'Erro' }
         }
         else { $erroMedicao = 'Inventario anterior indisponivel. Exclusao nao iniciada.' }
+        if ($interromperFila -and (Testar-FalhaLocalContinuavel -Erro $erro -Etapa $diagnostico.Etapa -StatusMedicao $statusMedicao)) {
+            $interromperFila = $false
+            Write-Etapa "Pasta $($alvo.PastaID) mantida com erro 58014. Validacoes posteriores concluidas; continuando com o proximo alvo."
+        }
         $log.Add([pscustomobject]@{
             Projeto = $alvo.Projeto; AreaID = $alvo.AreaID; PastaID = $alvo.PastaID
             Pasta = $alvo.Pasta; CaminhoPW = $alvo.CaminhoPW; Status = $status; Erro = $erro
