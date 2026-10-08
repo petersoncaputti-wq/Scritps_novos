@@ -1,0 +1,7 @@
+config.json
+token_cache*
+logs/
+.env
+__pycache__/
+.venv/
+*.part
