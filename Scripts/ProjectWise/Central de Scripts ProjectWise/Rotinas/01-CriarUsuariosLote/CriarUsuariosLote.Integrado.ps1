@@ -350,6 +350,9 @@ function Buscar-UsuarioPW {
     param([object]$Registro)
 
     $resultado = Test-UsuarioExistePW -Registro $Registro
+    if ($resultado.ConflitoNome) {
+        throw "Conflito de login ao localizar o cadastro. Nenhuma identidade foi alterada."
+    }
     if ($resultado.Existe) {
         return $resultado.Usuario
     }
@@ -364,37 +367,101 @@ function Test-UsuarioExistePW {
         Existe       = $false
         Usuario      = $null
         EncontradoPor = ""
+        ConflitoNome = $false
+        EmailConflitante = ""
+    }
+
+    # E-mail identifica o cadastro; nome/login sozinho pode pertencer a um homonimo.
+    if ([string]::IsNullOrWhiteSpace($Registro.Email)) {
+        throw "Não é possível identificar o usuário sem e-mail."
+    }
+
+    $email = $Registro.Email.Trim()
+    $usuariosPorEmail = @(Get-PWUsersByMatch -Email $email -ErrorAction Stop)
+    $usuariosPorEmail = @($usuariosPorEmail | Where-Object {
+        (Get-ValorSeguroPropriedade -Objeto $_ -PossiveisNomes @("Email", "EMail", "Mail")).Trim() -ieq $email
+    })
+
+    if ($usuariosPorEmail.Count -gt 1) {
+        throw "Mais de um cadastro possui o e-mail '$email'. Revise os cadastros antes de processar esta linha."
+    }
+
+    if ($usuariosPorEmail.Count -eq 1) {
+        $resultado.Existe = $true
+        $resultado.Usuario = $usuariosPorEmail[0]
+        $resultado.EncontradoPor = "E-mail"
+        return $resultado
     }
 
     if (-not [string]::IsNullOrWhiteSpace($Registro.UserName)) {
-        $usuariosPorNome = @(Get-PWUsersByMatch -UserName $Registro.UserName -ErrorAction SilentlyContinue)
+        $nome = $Registro.UserName.Trim()
+        $usuariosPorNome = @(Get-PWUsersByMatch -UserName $nome -ErrorAction Stop)
         $usuariosPorNome = @($usuariosPorNome | Where-Object {
-            (Get-ValorSeguroPropriedade -Objeto $_ -PossiveisNomes @("Name", "UserName", "LoginName")) -ieq $Registro.UserName
+            (Get-ValorSeguroPropriedade -Objeto $_ -PossiveisNomes @("Name", "UserName", "LoginName")).Trim() -ieq $nome
         })
 
         if ($usuariosPorNome.Count -gt 0) {
-            $resultado.Existe = $true
-            $resultado.Usuario = $usuariosPorNome[0]
-            $resultado.EncontradoPor = "Name"
-            return $resultado
-        }
-    }
-
-    if (-not [string]::IsNullOrWhiteSpace($Registro.Email)) {
-        $usuariosPorEmail = @(Get-PWUsersByMatch -Email $Registro.Email -ErrorAction SilentlyContinue)
-        $usuariosPorEmail = @($usuariosPorEmail | Where-Object {
-            (Get-ValorSeguroPropriedade -Objeto $_ -PossiveisNomes @("Email", "EMail", "Mail")) -ieq $Registro.Email
-        })
-
-        if ($usuariosPorEmail.Count -gt 0) {
-            $resultado.Existe = $true
-            $resultado.Usuario = $usuariosPorEmail[0]
-            $resultado.EncontradoPor = "E-mail"
-            return $resultado
+            $emailExistente = Get-ValorSeguroPropriedade -Objeto $usuariosPorNome[0] -PossiveisNomes @("Email", "EMail", "Mail")
+            $resultado.ConflitoNome = $true
+            $resultado.EmailConflitante = $emailExistente
         }
     }
 
     return $resultado
+}
+
+function Solicitar-NomeAlternativo {
+    param([object]$Registro, [string]$EmailConflitante)
+
+    $janela = New-Object System.Windows.Forms.Form
+    $janela.Text = 'Nome de usuario ja cadastrado'
+    $janela.Size = New-Object System.Drawing.Size(560, 260)
+    $janela.StartPosition = 'CenterScreen'
+    $janela.FormBorderStyle = 'FixedDialog'
+    $janela.MaximizeBox = $false
+    $janela.MinimizeBox = $false
+    $janela.TopMost = $true
+    $texto = New-Object System.Windows.Forms.Label
+    $texto.Location = New-Object System.Drawing.Point(15, 15)
+    $texto.Size = New-Object System.Drawing.Size(515, 115)
+    $texto.Text = "Linha $($Registro.Linha): $($Registro.UserName)`r`nE-mail da nova pessoa: $($Registro.Email)`r`nE-mail do cadastro que ocupa esse nome: $EmailConflitante`r`n`r`nInforme outro nome de usuario para criar a nova pessoa."
+    $campo = New-Object System.Windows.Forms.TextBox
+    $campo.Location = New-Object System.Drawing.Point(15, 135)
+    $campo.Width = 515
+    $ok = New-Object System.Windows.Forms.Button
+    $ok.Text = 'Verificar nome'
+    $ok.Location = New-Object System.Drawing.Point(285, 175)
+    $ok.Width = 120
+    $ok.DialogResult = [System.Windows.Forms.DialogResult]::OK
+    $cancelar = New-Object System.Windows.Forms.Button
+    $cancelar.Text = 'Cancelar linha'
+    $cancelar.Location = New-Object System.Drawing.Point(410, 175)
+    $cancelar.Width = 120
+    $cancelar.DialogResult = [System.Windows.Forms.DialogResult]::Cancel
+    $janela.Controls.AddRange(@($texto, $campo, $ok, $cancelar))
+    $janela.AcceptButton = $ok
+    $janela.CancelButton = $cancelar
+    try {
+        if ($janela.ShowDialog() -ne [System.Windows.Forms.DialogResult]::OK) { return $null }
+        return $campo.Text.Trim()
+    }
+    finally { $janela.Dispose() }
+}
+
+function Resolver-NomeUsuarioPW {
+    param([object]$Registro)
+
+    while ($true) {
+        $verificacao = Test-UsuarioExistePW -Registro $Registro
+        if (-not $verificacao.ConflitoNome) { return $verificacao }
+        Write-Status "Linha $($Registro.Linha): login ocupado por outro e-mail. Aguardando nome alternativo." "WARN"
+        $alternativo = Solicitar-NomeAlternativo -Registro $Registro -EmailConflitante $verificacao.EmailConflitante
+        if ($null -eq $alternativo) {
+            throw "Cadastro cancelado pelo operador ao solicitar nome alternativo. Nenhum cadastro ou acesso foi alterado para esta linha."
+        }
+        if ([string]::IsNullOrWhiteSpace($alternativo)) { continue }
+        $Registro.UserName = $alternativo.Trim()
+    }
 }
 
 function Criar-UsuarioPW {
@@ -630,7 +697,8 @@ function Processar-Registros {
                 continue
             }
 
-            $verificacaoUsuario = Test-UsuarioExistePW -Registro $registro
+            $nomeSolicitado = $registro.UserName
+            $verificacaoUsuario = Resolver-NomeUsuarioPW -Registro $registro
             $usuario = $verificacaoUsuario.Usuario
             $acao = ""
 
@@ -656,8 +724,14 @@ function Processar-Registros {
                 Write-Status "Linha $($registro.Linha): usuário criado - $($registro.UserName)" "OK"
             }
 
+            $nomeEfetivo = Get-ValorSeguroPropriedade -Objeto $usuario -PossiveisNomes @("Name", "UserName", "LoginName")
+            $registro.UserName = $nomeEfetivo
+            $mensagemResultado = "Registro processado com sucesso."
+            if ($nomeSolicitado -ine $nomeEfetivo) {
+                $mensagemResultado += " Nome solicitado: '$nomeSolicitado'; nome utilizado: '$nomeEfetivo'."
+            }
             $statusAcessos = Add-UsuarioEmAcessos -Usuario $usuario -Registro $registro
-            $resultados.Add((New-Resultado -Registro $registro -Status "OK" -Acao $acao -Mensagem "Registro processado com sucesso." -Acessos $statusAcessos))
+            $resultados.Add((New-Resultado -Registro $registro -Status "OK" -Acao $acao -Mensagem $mensagemResultado -Acessos $statusAcessos))
         }
         catch {
             $mensagemErro = $_.Exception.Message
