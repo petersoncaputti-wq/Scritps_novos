@@ -1,0 +1,30 @@
+﻿[
+    {
+        "Camada":  "Document",
+        "GUID":  "5fc0819d-db6f-4841-a979-75a387bb1d01",
+        "ObjType":  4,
+        "ObjID1":  49115,
+        "ObjID2":  185,
+        "Workflow":  0,
+        "State":  0,
+        "MemberType":  2,
+        "MemberId":  11448,
+        "AccessMask":  20,
+        "NomeGrupo":  "ARTESP",
+        "Direitos":  "----r--R---"
+    },
+    {
+        "Camada":  "Workflow",
+        "GUID":  "5fc0819d-db6f-4841-a979-75a387bb1d01",
+        "ObjType":  4,
+        "ObjID1":  49115,
+        "ObjID2":  185,
+        "Workflow":  6,
+        "State":  42,
+        "MemberType":  2,
+        "MemberId":  11448,
+        "AccessMask":  20,
+        "NomeGrupo":  "ARTESP",
+        "Direitos":  "----r--R---"
+    }
+]

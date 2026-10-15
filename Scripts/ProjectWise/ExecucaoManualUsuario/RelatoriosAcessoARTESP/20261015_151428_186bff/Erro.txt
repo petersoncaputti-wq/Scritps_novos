@@ -1,0 +1,9 @@
+﻿Pasta sem identificador valido.
+No C:\Users\Peterson\OneDrive - Grupo Ecorodovias\Área de 
+Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\18 - Preparar Acesso ARTESP.ps1:63 caractere:5
++     throw 'Pasta sem identificador valido.'
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Pasta sem identificador valido.:String) [], RuntimeException
+    + FullyQualifiedErrorId : Pasta sem identificador valido.
+ 
+

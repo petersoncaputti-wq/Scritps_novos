@@ -1,0 +1,13 @@
+﻿Pasta Projetos nao localizada na concessao selecionada. Confira a concessao, o datasource e o acesso. Diagnostico: 
+C:\Users\Peterson\OneDrive - Grupo Ecorodovias\Área de 
+Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\RelatoriosAcessoARTESP\20261015_151949_f5e3ea
+No C:\Users\Peterson\OneDrive - Grupo Ecorodovias\Área de 
+Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\18 - Preparar Acesso ARTESP.ps1:213 caractere:13
++             throw "Pasta Projetos nao localizada na concessao selecio ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Pasta Projetos ...5_151949_f5e3ea:String) [], RuntimeException
+    + FullyQualifiedErrorId : Pasta Projetos nao localizada na concessao selecionada. Confira a concessao, o datasourc 
+   e e o acesso. Diagnostico: C:\Users\Peterson\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\P  
+  rojectWise\ExecucaoManualUsuario\RelatoriosAcessoARTESP\20261015_151949_f5e3ea
+ 
+
