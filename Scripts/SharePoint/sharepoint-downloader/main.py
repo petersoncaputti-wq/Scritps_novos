@@ -14,12 +14,26 @@ def main() -> int:
     parser.add_argument("--destination", default="", help="Pasta local para o teste pelo navegador")
     parser.add_argument("--workers", type=int, choices=range(1, 9), default=3, help="Downloads simultaneos (padrao: 3)")
     parser.add_argument("--refresh-inventory", action="store_true", help="Reler o SharePoint em vez de reutilizar o inventario concluido")
+    parser.add_argument('--project-list', default='', help='Planilha XLSX: E prioridade, F link do projeto')
+    parser.add_argument('--sheet', default=None, help='Aba da lista (padrao: primeira aba)')
+    parser.add_argument('--priority', type=int, action='append', help='Selecionar prioridade; pode repetir')
+    parser.add_argument('--project-rows', type=int, nargs='+', help='Linhas atribuidas a esta maquina')
+    parser.add_argument('--plan-only', action='store_true', help='Conferir fila sem login ou download')
     args = parser.parse_args()
+    if args.plan_only and not args.project_list:
+        parser.error('--plan-only requer --project-list')
+    if args.project_list and (args.browser_test or args.diagnose_download or args.device_code):
+        parser.error('--project-list nao pode ser combinado com teste, diagnostico ou device-code')
     from log_setup import configure_logging
     run_log, handlers = configure_logging(BASE / 'logs')
     print(f"Log completo desta execucao: {run_log}")
     logging.info("APLICACAO_INICIO modo=%s workers=%s atualizar_inventario=%s", 'diagnostico' if args.diagnose_download else 'browser-all' if args.browser_all else 'browser-test' if args.browser_test else 'graph', args.workers, args.refresh_inventory)
     try:
+        if args.project_list:
+            from project_queue import run_project_queue
+            return run_project_queue(args.project_list, args.destination, args.sheet,
+                                     args.priority, args.project_rows, args.plan_only,
+                                     args.workers, args.refresh_inventory)
         if args.diagnose_download:
             from download_diagnostic import choose_target
             args.url, args.diagnose_file = choose_target(args.url, args.diagnose_file)

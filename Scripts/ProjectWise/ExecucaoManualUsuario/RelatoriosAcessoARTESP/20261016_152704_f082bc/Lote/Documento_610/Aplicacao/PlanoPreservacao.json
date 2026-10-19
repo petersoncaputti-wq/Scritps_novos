@@ -1,0 +1,82 @@
+﻿{
+    "Operacao":  "Reverter",
+    "GUID":  "96352429-b85f-461d-937f-59112178eb9f",
+    "WorkflowID":  6,
+    "StateID":  42,
+    "Motivo":  "Numero antes da revisao igual ou maior que 900",
+    "ACLPropriaAntes":  [
+                            {
+                                "ObjType":  4,
+                                "ObjID1":  49136,
+                                "ObjID2":  87,
+                                "Workflow":  6,
+                                "State":  42,
+                                "MemberType":  2,
+                                "MemberId":  11448,
+                                "AccessMask":  20
+                            },
+                            {
+                                "ObjType":  4,
+                                "ObjID1":  49136,
+                                "ObjID2":  87,
+                                "Workflow":  6,
+                                "State":  42,
+                                "MemberType":  3,
+                                "MemberId":  1862,
+                                "AccessMask":  20
+                            },
+                            {
+                                "ObjType":  4,
+                                "ObjID1":  49136,
+                                "ObjID2":  87,
+                                "Workflow":  6,
+                                "State":  42,
+                                "MemberType":  3,
+                                "MemberId":  1864,
+                                "AccessMask":  278
+                            },
+                            {
+                                "ObjType":  4,
+                                "ObjID1":  49136,
+                                "ObjID2":  87,
+                                "Workflow":  6,
+                                "State":  42,
+                                "MemberType":  4,
+                                "MemberId":  0,
+                                "AccessMask":  0
+                            }
+                        ],
+    "ACLEsperada":  [
+                        {
+                            "ObjType":  4,
+                            "ObjID1":  49136,
+                            "ObjID2":  87,
+                            "Workflow":  6,
+                            "State":  42,
+                            "MemberType":  3,
+                            "MemberId":  1862,
+                            "AccessMask":  20
+                        },
+                        {
+                            "ObjType":  4,
+                            "ObjID1":  49136,
+                            "ObjID2":  87,
+                            "Workflow":  6,
+                            "State":  42,
+                            "MemberType":  3,
+                            "MemberId":  1864,
+                            "AccessMask":  278
+                        },
+                        {
+                            "ObjType":  4,
+                            "ObjID1":  49136,
+                            "ObjID2":  87,
+                            "Workflow":  6,
+                            "State":  42,
+                            "MemberType":  4,
+                            "MemberId":  0,
+                            "AccessMask":  0
+                        }
+                    ],
+    "AcessoHerdadoRestante":  false
+}

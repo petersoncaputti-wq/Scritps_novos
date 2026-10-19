@@ -1,0 +1,53 @@
+﻿{
+    "GUID":  "7c1d1fdc-8217-4c01-8ea4-b38b0b4c72ee",
+    "WorkflowID":  6,
+    "StateID":  42,
+    "ACLPropriaAntes":  [
+
+                        ],
+    "ACLOrigem":  [
+                      {
+                          "MemberType":  3,
+                          "MemberId":  11547,
+                          "AccessMask":  20,
+                          "Name":  "np-nop01 - faixa adicional sc-unidade-consulta",
+                          "Origem":  "Engenharia\\Ecovias Noroeste Paulista\\Projetos\\NOP01 - Faixa Adicional SC\\2 - Unidade"
+                      },
+                      {
+                          "MemberType":  3,
+                          "MemberId":  11549,
+                          "AccessMask":  278,
+                          "Name":  "np-nop01 - faixa adicional sc-unidade-lider unidade",
+                          "Origem":  "Engenharia\\Ecovias Noroeste Paulista\\Projetos\\NOP01 - Faixa Adicional SC\\2 - Unidade"
+                      },
+                      {
+                          "MemberType":  4,
+                          "MemberId":  0,
+                          "AccessMask":  0,
+                          "Name":  "All_Users (*Everyone)",
+                          "Origem":  "Engenharia\\Ecovias Noroeste Paulista\\Projetos\\NOP01 - Faixa Adicional SC\\2 - Unidade"
+                      }
+                  ],
+    "ACLEsperada":  [
+                        {
+                            "MemberType":  2,
+                            "MemberId":  11448,
+                            "AccessMask":  20
+                        },
+                        {
+                            "MemberType":  3,
+                            "MemberId":  11547,
+                            "AccessMask":  20
+                        },
+                        {
+                            "MemberType":  3,
+                            "MemberId":  11549,
+                            "AccessMask":  278
+                        },
+                        {
+                            "MemberType":  4,
+                            "MemberId":  0,
+                            "AccessMask":  0
+                        }
+                    ]
+}

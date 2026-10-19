@@ -1,5 +1,32 @@
 # SharePoint Downloader POC para Windows
 
+## Baixar projetos de uma planilha por prioridade
+
+Execute `Baixar Projetos da Planilha.bat` e informe o caminho do arquivo XLSX. O preparador instala ou reutiliza o ambiente Python. Selecione o destino local e conclua o login no Edge uma vez. O programa conserva a mesma sessao entre projetos; expiracao ou politicas corporativas podem exigir novo login/MFA.
+
+A primeira aba e usada por padrao: A = ano, B = lote, C = SH, E = prioridade numerica positiva, F = link. O leitor extrai o endereco real do hiperlink, aceita links de pasta `/:f:/r/` e nao executa formulas nem altera a planilha. Resumos e notas sem dados de projeto sao ignorados. Links invalidos ou prioridades ausentes aparecem como pendencias.
+
+Os projetos seguem prioridade crescente (1 primeiro), com ordem de linha nos empates. Cada projeto e baixado com suas subpastas antes do proximo. Destinos usam ano, lote, SH e identificador da origem. Falhas de um projeto sao registradas e a fila continua. Pastas duplicadas na lista sao sinalizadas e nao sao repetidas.
+
+```powershell
+# Conferir sem abrir navegador nem baixar arquivos:
+.\.venv\Scripts\python.exe main.py --project-list "C:\Listas\Migracao.xlsx" --plan-only
+# Iniciar a fila:
+.\.venv\Scripts\python.exe main.py --project-list "C:\Listas\Migracao.xlsx" --destination "D:\Migracao"
+# Distribuir linhas diferentes entre maquinas:
+.\.venv\Scripts\python.exe main.py --project-list "C:\Listas\Migracao.xlsx" --project-rows 2 3 4 5 --destination "D:\Migracao"
+# Selecionar prioridades ou outra aba:
+.\.venv\Scripts\python.exe main.py --project-list "C:\Listas\Migracao.xlsx" --priority 1 --priority 2 --sheet "Planilha1"
+```
+
+Cada maquina precisa de seu proprio login. Para preservar prioridade global entre maquinas, distribua primeiro os projetos de maior prioridade. Os filtros mantem a prioridade dentro da selecao de cada maquina, sem coordenacao automatica entre equipamentos.
+
+Para retomar, repita o comando com a mesma lista e destino. Os projetos sao revisitados e o controle de cada pasta reaproveita arquivos existentes conforme as regras de tamanho/versao do modo completo. Preserve os bancos SQLite e parciais. Use `--refresh-inventory` para reler alteracoes na origem.
+
+Cada execucao grava `fila_projetos_resumo_<id>.json` no destino e atualiza esse arquivo apos cada projeto, registrando linha, prioridade, destino e estado. `concluido` indica lote sem falhas reportadas, nao verificacao criptografica. Pendencias da planilha e dos downloads resultam em codigo de saida 1. CTRL+C interrompe a fila e preserva os parciais. A fila nao realiza importacao no ProjectWise.
+
+Na lista analisada em 19/10/2026, ha 74 projetos com links aceitos e duas pendencias nas linhas 56 e 57 (`L17` na coluna F). Corrija esses links para incluir os dois projetos.
+
 ## Baixar a pasta completa pelo navegador
 
 Para outros notebooks, copie esta pasta sem `.venv`, logs e downloads. Dê duplo clique em `Baixar Pasta Completa SharePoint.bat` em qualquer local.

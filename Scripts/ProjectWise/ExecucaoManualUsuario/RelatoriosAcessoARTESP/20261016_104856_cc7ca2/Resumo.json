@@ -1,0 +1,76 @@
+﻿{
+    "Grupo":  "ARTESP",
+    "Projeto":  "01.03.01",
+    "ProjetoID":  48324,
+    "UnidadeID":  48326,
+    "Disciplinas":  [
+                        {
+                            "Nome":  "Desapropriação",
+                            "FolderID":  48686
+                        },
+                        {
+                            "Nome":  "Estrutura de Concreto",
+                            "FolderID":  48692
+                        },
+                        {
+                            "Nome":  "Estrutura de Contenção",
+                            "FolderID":  354606
+                        },
+                        {
+                            "Nome":  "Estudo de tráfego e Segurança Viária",
+                            "FolderID":  48698
+                        },
+                        {
+                            "Nome":  "Estudos socio ambiental",
+                            "FolderID":  48701
+                        },
+                        {
+                            "Nome":  "Geometria",
+                            "FolderID":  48704
+                        },
+                        {
+                            "Nome":  "Geotecnia",
+                            "FolderID":  48707
+                        },
+                        {
+                            "Nome":  "Hidrologia, Hidráulica e Drenagem",
+                            "FolderID":  48710
+                        },
+                        {
+                            "Nome":  "Interferência",
+                            "FolderID":  48713
+                        },
+                        {
+                            "Nome":  "Modelo BIM",
+                            "FolderID":  360047
+                        },
+                        {
+                            "Nome":  "Paisagismo",
+                            "FolderID":  353650
+                        },
+                        {
+                            "Nome":  "Passagem de Fauna",
+                            "FolderID":  410718
+                        },
+                        {
+                            "Nome":  "Pavimento",
+                            "FolderID":  48719
+                        },
+                        {
+                            "Nome":  "Sinalização e dispositivos de segurança",
+                            "FolderID":  48722
+                        },
+                        {
+                            "Nome":  "Terraplenagem",
+                            "FolderID":  48725
+                        },
+                        {
+                            "Nome":  "Topografia",
+                            "FolderID":  48728
+                        }
+                    ],
+    "TotalSelecionado":  4093,
+    "Modo":  "Projeto e Unidade conferidos/aplicados; consulte ResultadoDocumentos.csv para o lote",
+    "Subpastas":  false,
+    "VersoesHistoricas":  false
+}

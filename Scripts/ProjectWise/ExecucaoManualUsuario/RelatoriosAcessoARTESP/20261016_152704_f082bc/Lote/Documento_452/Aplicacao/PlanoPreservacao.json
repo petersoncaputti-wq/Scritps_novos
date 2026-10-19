@@ -1,0 +1,14 @@
+﻿{
+    "Operacao":  "Reverter",
+    "GUID":  "9ee14b61-86f3-4ee9-93bf-b46da953e4f2",
+    "WorkflowID":  6,
+    "StateID":  30,
+    "Motivo":  "Numero antes da revisao igual ou maior que 900",
+    "ACLPropriaAntes":  [
+
+                        ],
+    "ACLEsperada":  [
+
+                    ],
+    "AcessoHerdadoRestante":  false
+}

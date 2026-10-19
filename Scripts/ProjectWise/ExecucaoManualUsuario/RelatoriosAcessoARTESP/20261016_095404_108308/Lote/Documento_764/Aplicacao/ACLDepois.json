@@ -1,0 +1,42 @@
+﻿[
+    {
+        "ObjType":  4,
+        "ObjID1":  49121,
+        "ObjID2":  284,
+        "Workflow":  6,
+        "State":  42,
+        "MemberType":  2,
+        "MemberId":  11448,
+        "AccessMask":  20
+    },
+    {
+        "ObjType":  4,
+        "ObjID1":  49121,
+        "ObjID2":  284,
+        "Workflow":  6,
+        "State":  42,
+        "MemberType":  3,
+        "MemberId":  1862,
+        "AccessMask":  20
+    },
+    {
+        "ObjType":  4,
+        "ObjID1":  49121,
+        "ObjID2":  284,
+        "Workflow":  6,
+        "State":  42,
+        "MemberType":  3,
+        "MemberId":  1864,
+        "AccessMask":  278
+    },
+    {
+        "ObjType":  4,
+        "ObjID1":  49121,
+        "ObjID2":  284,
+        "Workflow":  6,
+        "State":  42,
+        "MemberType":  4,
+        "MemberId":  0,
+        "AccessMask":  0
+    }
+]

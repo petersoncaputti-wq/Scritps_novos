@@ -1,0 +1,72 @@
+﻿{
+    "GUID":  "3b246a69-190b-4f76-9194-9813616ac754",
+    "WorkflowID":  6,
+    "StateID":  42,
+    "ACLPropriaAntes":  [
+                            {
+                                "ObjType":  4,
+                                "ObjID1":  48686,
+                                "ObjID2":  227,
+                                "Workflow":  6,
+                                "State":  42,
+                                "MemberType":  2,
+                                "MemberId":  11448,
+                                "AccessMask":  20
+                            },
+                            {
+                                "ObjType":  4,
+                                "ObjID1":  48686,
+                                "ObjID2":  227,
+                                "Workflow":  6,
+                                "State":  42,
+                                "MemberType":  3,
+                                "MemberId":  1842,
+                                "AccessMask":  20
+                            },
+                            {
+                                "ObjType":  4,
+                                "ObjID1":  48686,
+                                "ObjID2":  227,
+                                "Workflow":  6,
+                                "State":  42,
+                                "MemberType":  3,
+                                "MemberId":  1844,
+                                "AccessMask":  278
+                            },
+                            {
+                                "ObjType":  4,
+                                "ObjID1":  48686,
+                                "ObjID2":  227,
+                                "Workflow":  6,
+                                "State":  42,
+                                "MemberType":  4,
+                                "MemberId":  0,
+                                "AccessMask":  0
+                            }
+                        ],
+    "ACLOrigem":  [
+
+                  ],
+    "ACLEsperada":  [
+                        {
+                            "MemberType":  2,
+                            "MemberId":  11448,
+                            "AccessMask":  20
+                        },
+                        {
+                            "MemberType":  3,
+                            "MemberId":  1842,
+                            "AccessMask":  20
+                        },
+                        {
+                            "MemberType":  3,
+                            "MemberId":  1844,
+                            "AccessMask":  278
+                        },
+                        {
+                            "MemberType":  4,
+                            "MemberId":  0,
+                            "AccessMask":  0
+                        }
+                    ]
+}

@@ -1,0 +1,53 @@
+﻿{
+    "GUID":  "ba1e5aa1-5d03-4f71-a103-0f6614fa29cd",
+    "WorkflowID":  6,
+    "StateID":  42,
+    "ACLPropriaAntes":  [
+
+                        ],
+    "ACLOrigem":  [
+                      {
+                          "MemberType":  3,
+                          "MemberId":  1842,
+                          "AccessMask":  20,
+                          "Name":  "np-01.03.01-unidade-consulta",
+                          "Origem":  "Engenharia\\Ecovias Noroeste Paulista\\Projetos\\01.03.01\\2 - Unidade"
+                      },
+                      {
+                          "MemberType":  3,
+                          "MemberId":  1844,
+                          "AccessMask":  278,
+                          "Name":  "np-01.03.01-unidade-lider unidade",
+                          "Origem":  "Engenharia\\Ecovias Noroeste Paulista\\Projetos\\01.03.01\\2 - Unidade"
+                      },
+                      {
+                          "MemberType":  4,
+                          "MemberId":  0,
+                          "AccessMask":  0,
+                          "Name":  "All_Users (*Everyone)",
+                          "Origem":  "Engenharia\\Ecovias Noroeste Paulista\\Projetos\\01.03.01\\2 - Unidade"
+                      }
+                  ],
+    "ACLEsperada":  [
+                        {
+                            "MemberType":  2,
+                            "MemberId":  11448,
+                            "AccessMask":  20
+                        },
+                        {
+                            "MemberType":  3,
+                            "MemberId":  1842,
+                            "AccessMask":  20
+                        },
+                        {
+                            "MemberType":  3,
+                            "MemberId":  1844,
+                            "AccessMask":  278
+                        },
+                        {
+                            "MemberType":  4,
+                            "MemberId":  0,
+                            "AccessMask":  0
+                        }
+                    ]
+}

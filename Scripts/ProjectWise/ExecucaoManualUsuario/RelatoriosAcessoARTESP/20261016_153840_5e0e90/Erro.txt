@@ -1,0 +1,9 @@
+﻿Erro ao enumerar a ACL completa do documento.
+No C:\Users\Peterson\OneDrive - Grupo Ecorodovias\Área de 
+Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Funcoes\PreservarSegurancaARTESP.ps1:82 caractere:21
++ ...  ($n -lt 0) { throw 'Erro ao enumerar a ACL completa do documento.' }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Erro ao enumera...a do documento.:String) [], RuntimeException
+    + FullyQualifiedErrorId : Erro ao enumerar a ACL completa do documento.
+ 
+

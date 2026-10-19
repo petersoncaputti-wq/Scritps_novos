@@ -1,0 +1,56 @@
+﻿{
+    "Grupo":  "ARTESP",
+    "Projeto":  "01.03.04",
+    "ProjetoID":  49146,
+    "UnidadeID":  49148,
+    "Disciplinas":  [
+                        {
+                            "Nome":  "Desapropriação",
+                            "FolderID":  49509
+                        },
+                        {
+                            "Nome":  "Estrutura de Concreto",
+                            "FolderID":  49515
+                        },
+                        {
+                            "Nome":  "Estrutura de Contenção",
+                            "FolderID":  357637
+                        },
+                        {
+                            "Nome":  "Geometria",
+                            "FolderID":  49527
+                        },
+                        {
+                            "Nome":  "Geotecnia",
+                            "FolderID":  49530
+                        },
+                        {
+                            "Nome":  "Hidrologia, Hidráulica e Drenagem",
+                            "FolderID":  49533
+                        },
+                        {
+                            "Nome":  "Interferência",
+                            "FolderID":  49536
+                        },
+                        {
+                            "Nome":  "Paisagismo",
+                            "FolderID":  364693
+                        },
+                        {
+                            "Nome":  "Pavimento",
+                            "FolderID":  49542
+                        },
+                        {
+                            "Nome":  "Sinalização e dispositivos de segurança",
+                            "FolderID":  49545
+                        },
+                        {
+                            "Nome":  "Terraplenagem",
+                            "FolderID":  429651
+                        }
+                    ],
+    "TotalSelecionado":  94,
+    "Modo":  "Projeto e Unidade conferidos/aplicados; consulte ResultadoDocumentos.csv para o lote",
+    "Subpastas":  false,
+    "VersoesHistoricas":  false
+}

@@ -10,12 +10,17 @@ function Get-PWDocumentsByGUIDs {
     [pscustomobject]@{ProjectID=10;Workflow='Fluxo';WorkflowState='Estado'}
 }
 function Atualizar-ACLWorkflowARTESP {
-    param($GUID,$Destino,[switch]$Aplicar,$PlanoAprovado)
+    param($GUID,$Destino,[switch]$Aplicar,$PlanoAprovado,$Contexto,$DocumentoLido,$SelecaoEsperada,[switch]$Silencioso,[switch]$Reverter)
     if($Aplicar){
         if(-not $PlanoAprovado){throw 'Aplicacao sem plano aprovado'}
+        if(-not $SelecaoEsperada){throw 'Aplicacao sem revalidacao de escopo'}
         $script:chamadas.Add('Aplicar:'+ $GUID)
         if($GUID -eq $script:falhar){throw 'Falha simulada'}
-    } else {$script:chamadas.Add('Planejar:'+ $GUID)}
+        $Contexto.UltimoResultado=if($Reverter){'Revertido - ARTESP removido; demais acessos preservados'}else{'Concluido - ACL completa verificada'}
+    } else {
+        if(-not $DocumentoLido -or -not $Contexto){throw 'Planejamento sem compartilhamento de consultas'}
+        $script:chamadas.Add('Planejar:'+ $GUID)
+    }
 }
 $linhas=@(1..3 | ForEach-Object {[pscustomobject]@{Documento="arquivo$_.pdf";DocumentGUID="guid$_";FolderID=10;Workflow='Fluxo';Estado='Estado'}})
 $raiz=Join-Path $env:TEMP ('TestLoteARTESP_'+[guid]::NewGuid().ToString('N'))
@@ -26,6 +31,8 @@ try {
     $r=@(Import-Csv (Join-Path $destino 'ResultadoDocumentos.csv'))
     if(@($r | Where-Object Resultado -eq 'Concluido - ACL completa verificada').Count -ne 3){throw 'Lote incompleto'}
     if(($script:chamadas -join ',') -ne 'Planejar:guid1,Planejar:guid2,Planejar:guid3,Aplicar:guid1,Aplicar:guid2,Aplicar:guid3'){throw 'Ordem incorreta'}
+    if(@(Import-Csv (Join-Path $destino 'ProgressoDocumentos.csv')).Count -ne 9){throw 'Diario incompleto'}
+    if(@(Import-Csv (Join-Path $destino 'TemposEtapas.csv')).Count -ne 2){throw 'Tempos das etapas ausentes'}
     $script:chamadas.Clear();$script:resposta=''
     $destino=Join-Path $raiz 'Cancelado'
     Executar-LoteARTESP $linhas $destino
@@ -37,6 +44,11 @@ try {
     if(-not $falhou -or $script:chamadas.Contains('Aplicar:guid3')){throw 'Continuou depois de falha'}
     $r=@(Import-Csv (Join-Path $destino 'ResultadoDocumentos.csv'))
     if($r[0].Resultado -ne 'Concluido - ACL completa verificada' -or $r[1].Resultado -notlike 'Falha*' -or $r[2].Resultado -ne 'Nao executado - lote interrompido'){throw 'Relatorio incorreto'}
+    $script:falhar='';$script:resposta='REVERTER LOTE'
+    $destino=Join-Path $raiz 'Reversao'
+    Executar-LoteARTESP $linhas $destino -Reverter
+    $r=@(Import-Csv (Join-Path $destino 'ResultadoDocumentos.csv'))
+    if(@($r|Where-Object Resultado -like 'Revertido*').Count -ne 3){throw 'Operacao de reversao nao encaminhada ao lote'}
     'OK: lote completo, planejamento antes da escrita, confirmacao obrigatoria, interrupcao e relatorio de pendentes.'
 }
 finally {

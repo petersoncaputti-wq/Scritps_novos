@@ -83,9 +83,10 @@ function Escolher([object[]]$Itens, [string]$Titulo, [switch]$Varios) {
         Write-Host ('{0} - {1}' -f ($i + 1), $rotulo)
     }
     while ($true) {
-        $entrada = Read-Host 'Informe numero(s) separados por virgula; Q cancela'
+        $promptSelecao = if ($Varios) { 'Informe numeros separados por virgula ou ponto e virgula; Q cancela' } else { 'Informe um numero; Q cancela' }
+        $entrada = Read-Host $promptSelecao
         if ($entrada -eq 'Q') { throw 'Operacao cancelada pelo usuario.' }
-        $partes = @($entrada.Split(',') | ForEach-Object { $_.Trim() })
+        $partes = @($entrada -split '[,;]' | ForEach-Object { $_.Trim() })
         $indices = @(); $valido = $true
         foreach ($parte in $partes) {
             $numero = 0
@@ -106,6 +107,18 @@ function Localizar([object[]]$Pastas, [string]$Nome) {
     $encontradas = @($Pastas | Where-Object { (Nome-Pasta $_) -eq $Nome })
     if ($encontradas.Count -eq 1) { return $encontradas[0] }
     Escolher $Pastas "Selecione a pasta $Nome"
+}
+function Ler-DocumentosDisciplinas([object[]]$Pastas) {
+    $vistos=@{}
+    foreach($pasta in $Pastas) {
+        $id=Id-Pasta $pasta
+        if($vistos.ContainsKey($id)){continue}
+        $vistos[$id]=$true
+        $nome=Nome-Pasta $pasta
+        Write-Host "Lendo documentos atuais de $nome (ID $id), somente nesta pasta..." -ForegroundColor Cyan
+        $docs=@(Get-PWDocumentsBySearch -FolderID $id -JustThisFolder -PopulatePath -ErrorAction Stop | Where-Object { $null -ne $_ -and $_ -isnot [bool] })
+        foreach($doc in $docs) { [pscustomobject]@{Pasta=$nome;FolderID=$id;Documento=$doc} }
+    }
 }
 function Exportar-Seguranca($Pasta, [string]$Nome) {
     # Falhas sao registradas e interrompem a analise; nao equivalem a ausencia de ACL.
@@ -184,6 +197,11 @@ function Testar-AcessoDocumento([object[]]$Linhas) {
 $loginCriado = $false
 try {
     . (Join-Path (Split-Path -LiteralPath $caminhoScriptARTESP) 'Funcoes\PreservarSegurancaARTESP.ps1')
+    do {
+        $operacaoARTESP=(Read-Host 'Operacao: 1 conceder ARTESP aos permitidos; 2 reverter ARTESP dos arquivos PL/numero >= 900; Q cancela').Trim()
+        if($operacaoARTESP -eq 'Q'){return}
+    } while($operacaoARTESP -notin @('1','2'))
+    $reverterARTESP=$operacaoARTESP -eq '2'
     Import-Module PWPS_DAB -DisableNameChecking -ErrorAction Stop
     if (-not (Testar-SessaoPW)) {
         $login = @{ UseGui = $true; DoNotCreateWorkingDirectory = $true; ErrorAction = 'Stop' }
@@ -194,7 +212,8 @@ try {
     elseif ($DatasourceName) {
         throw 'Ja existe uma sessao: execute sem DatasourceName ou encerre a sessao antes de escolher outro datasource.'
     }
-    Write-Host 'ARTESP: Read no projeto e Unidade; Read + File Read nos documentos. Cada aplicacao exige confirmacao.' -ForegroundColor Yellow
+    if($reverterARTESP){Write-Host 'REVERSAO: somente entrada propria ARTESP em Workflow nos arquivos bloqueados. Projeto e Unidade nao serao alterados.' -ForegroundColor Yellow}
+    else{Write-Host 'ARTESP: Read no projeto e Unidade; Read + File Read nos documentos. Cada aplicacao exige confirmacao.' -ForegroundColor Yellow}
     Get-PWCurrentDatasource | Format-List | Out-Host
     $raizes = @(Get-PWFoldersImmediateChildren -Root -ErrorAction Stop)
     $engenharia = Localizar $raizes 'Engenharia'
@@ -215,25 +234,32 @@ try {
     }
     $projetos = Localizar $filhosConcessao 'Projetos'
     $projeto = Escolher (Filhos $projetos) 'Selecione o projeto (filhos diretos de Projetos)'
-    Conferir-ARTESPPasta $projeto 'Projeto'
+    if(-not $reverterARTESP){Conferir-ARTESPPasta $projeto 'Projeto'}
     $unidade = Localizar (Filhos $projeto) '2 - Unidade'
-    Conferir-ARTESPPasta $unidade 'Unidade'
+    if(-not $reverterARTESP){Conferir-ARTESPPasta $unidade 'Unidade'}
     # Navegacao permite Executivo > disciplina, sem presumir niveis fixos.
     $disciplina = $unidade
     while ($true) {
         Write-Host ("Pasta atual: " + (Nome-Pasta $disciplina))
         $resposta = Read-Host 'Usar esta pasta como escopo? S confirma; Enter abre subpastas; Q cancela'
-        if ($resposta -eq 'S') { break }
+        if ($resposta -eq 'S') { $disciplinas=@($disciplina); break }
         if ($resposta -eq 'Q') { throw 'Operacao cancelada pelo usuario.' }
-        $disciplina = Escolher (Filhos $disciplina) 'Selecione a etapa ou disciplina; Q cancela'
+        $pastasEscolhidas = @(Escolher (Filhos $disciplina) 'Selecione uma etapa para navegar ou varias disciplinas para consultar' -Varios)
+        if($pastasEscolhidas.Count -gt 1) {
+            $pastasEscolhidas | ForEach-Object { Write-Host (' - ' + (Nome-Pasta $_)) }
+            $confirmarPastas=Read-Host 'Consultar estas pastas, sem incluir subpastas? S confirma; Q cancela; Enter refaz'
+            if($confirmarPastas -eq 'Q'){throw 'Operacao cancelada pelo usuario.'}
+            if($confirmarPastas -eq 'S'){ $disciplinas=$pastasEscolhidas; break }
+        } else { $disciplina=$pastasEscolhidas[0] }
     }
     Exportar-Seguranca $projeto 'SegurancaProjeto'
     Exportar-Seguranca $unidade 'SegurancaUnidade'
-    Exportar-Seguranca $disciplina 'SegurancaDisciplina'
-    Write-Host 'Lendo documentos atuais apenas da pasta selecionada (sem subpastas nem versoes historicas)...'
-    $documentos = @(Get-PWDocumentsBySearch -FolderID (Id-Pasta $disciplina) -JustThisFolder -PopulatePath -ErrorAction Stop)
+    foreach($pasta in $disciplinas){ Exportar-Seguranca $pasta ('SegurancaDisciplina_' + (Id-Pasta $pasta)) }
+    $itensPastas=@(Ler-DocumentosDisciplinas $disciplinas)
+    $documentos=@($itensPastas | ForEach-Object {$_.Documento})
     $linhas = @(); $indice = 0
-    foreach ($doc in $documentos) {
+    foreach ($itemPasta in $itensPastas) {
+        $doc=$itemPasta.Documento
         $indice++
         $linhas += [pscustomobject]@{
             Indice = $indice
@@ -243,14 +269,31 @@ try {
             Estado = Texto $doc @('WorkflowState','StateName','State')
             DocumentGUID = Texto $doc @('DocumentGUID','DocumentGuid','GUID')
             DocumentID = Texto $doc @('DocumentID','ID')
-            FolderID = Id-Pasta $disciplina
+            Pasta = $itemPasta.Pasta
+            FolderID = $itemPasta.FolderID
             Versao = Texto $doc @('Version','VersionString')
         }
     }
     if ($linhas.Count -eq 0) { throw 'Nenhum documento encontrado na pasta selecionada.' }
     $linhas | Export-Csv (Join-Path $Destino 'Inventario.csv') -NoTypeInformation -Encoding UTF8
     $documentos | Export-Clixml (Join-Path $Destino 'ObjetosDocumentos.xml') -Depth 5
-    Write-Host ("Total lido na pasta: {0} documentos." -f $linhas.Count) -ForegroundColor Cyan
+    Write-Host ("Total lido em {0} pasta(s): {1} documentos." -f $disciplinas.Count,$linhas.Count) -ForegroundColor Cyan
+    $excluidos=@();$permitidos=@()
+    foreach($linha in $linhas){
+        $nomeValidacao=if([string]::IsNullOrWhiteSpace($linha.Arquivo)){$linha.Documento}else{$linha.Arquivo}
+        $motivo=Obter-BloqueioArquivoARTESP $nomeValidacao
+        if($motivo){$excluidos += $linha | Select-Object *,@{n='MotivoExclusao';e={$motivo}}}
+        else{$permitidos += $linha}
+    }
+    $excluidos | Export-Csv (Join-Path $Destino 'ArquivosExcluidos.csv') -NoTypeInformation -Encoding UTF8
+    Write-Host ("Excluidos pelas regras: {0}. Disponiveis para selecionar: {1}." -f $excluidos.Count,$permitidos.Count) -ForegroundColor Yellow
+    $linhas=if($reverterARTESP){@($excluidos)}else{@($permitidos)}
+    $linhas=@($linhas)
+    if($reverterARTESP){Write-Host ("Arquivos bloqueados disponiveis para reversao: {0}" -f $linhas.Count) -ForegroundColor Yellow}
+    if($linhas.Count -eq 0){Write-Host 'Nenhum arquivo elegivel para a operacao. Consulte ArquivosExcluidos.csv.';return}
+    $linhas | Group-Object FolderID,Pasta,Workflow,Estado | ForEach-Object {
+        [pscustomobject]@{Pasta=$_.Group[0].Pasta;FolderID=$_.Group[0].FolderID;Workflow=$_.Group[0].Workflow;Estado=$_.Group[0].Estado;Quantidade=$_.Count}
+    } | Export-Csv (Join-Path $Destino 'ContagensPorPastaEstado.csv') -NoTypeInformation -Encoding UTF8
     $estados = @($linhas | Group-Object Workflow,Estado | Sort-Object Name | ForEach-Object {
         [pscustomobject]@{
             Rotulo = ('{0} / {1} ({2} documentos)' -f $_.Group[0].Workflow, $_.Group[0].Estado, $_.Count)
@@ -272,36 +315,40 @@ try {
         $linha = $_
         @($selecionados | Where-Object { $_.Workflow -eq $linha.Workflow -and $_.Estado -eq $linha.Estado }).Count -gt 0
     } | ForEach-Object {
-        $_ | Add-Member NoteProperty Rotulo ('{0} | {1} | {2}' -f $_.Documento,$_.Estado,$_.DocumentGUID) -PassThru
+        $_ | Add-Member NoteProperty Rotulo ('{0} | {1} | {2} | {3}' -f $_.Pasta,$_.Documento,$_.Estado,$_.DocumentGUID) -PassThru
     })
     if ($candidatos.Count -ne $totalEsperado) { throw 'Contagem do filtro diverge da soma dos estados selecionados.' }
     $candidatos | Export-Csv (Join-Path $Destino 'DocumentosFiltrados.csv') -NoTypeInformation -Encoding UTF8
     Write-Host ("Documentos encontrados nos estados selecionados: {0}" -f $candidatos.Count) -ForegroundColor Cyan
-    $candidatos | Format-Table Indice,Documento,Workflow,Estado -AutoSize | Out-Host
+    $candidatos | Format-Table Indice,Pasta,Documento,Workflow,Estado -AutoSize | Out-Host
     if ((Read-Host 'Selecionar todos os documentos acima? S confirma; Enter permite escolher') -eq 'S') {
         $escolhidos = $candidatos
     } else { $escolhidos = @(Escolher $candidatos 'Selecione os documentos' -Varios) }
-    $escolhidos | Format-Table Documento,Workflow,Estado -AutoSize | Out-Host
+    $escolhidos | Format-Table Pasta,Documento,Workflow,Estado -AutoSize | Out-Host
     $confirmacaoPlano = (Read-Host 'Confirmar geracao do plano para estes documentos? Digite SIM').Trim()
     if ($confirmacaoPlano -ine 'SIM') {
-        Write-Host 'Plano documental cancelado. As etapas do projeto e Unidade podem ter sido aplicadas; consulte os relatorios.' -ForegroundColor Yellow
+        Write-Host 'Plano documental cancelado. Consulte os relatorios das etapas ja executadas.' -ForegroundColor Yellow
         return
     }
     $escolhidos | Select-Object *, @{n='Resultado';e={'Selecionado - aplicacao documental ainda nao iniciada'}},
-        @{n='DireitosPropostos';e={'ARTESP: Read + File Read; preservar ACL completa'}} |
+        @{n='DireitosPropostos';e={if($reverterARTESP){'Remover somente ARTESP da ACL propria de Workflow'}else{'ARTESP: Read + File Read; preservar ACL completa'}}} |
         Export-Csv (Join-Path $Destino 'PlanoDocumentos.csv') -NoTypeInformation -Encoding UTF8
     [pscustomobject]@{
         Grupo = 'ARTESP'; Projeto = Nome-Pasta $projeto; ProjetoID = Id-Pasta $projeto
-        UnidadeID = Id-Pasta $unidade; Disciplina = Nome-Pasta $disciplina
-        DisciplinaID = Id-Pasta $disciplina; TotalSelecionado = @($escolhidos).Count
-        Modo = 'Projeto e Unidade conferidos/aplicados; consulte ResultadoDocumentos.csv para o lote'; Subpastas = $false; VersoesHistoricas = $false
-    } | ConvertTo-Json | Set-Content (Join-Path $Destino 'Resumo.json') -Encoding UTF8
+        Operacao = if($reverterARTESP){'Reverter arquivos bloqueados'}else{'Conceder arquivos permitidos'}
+        UnidadeID = Id-Pasta $unidade
+        Disciplinas = @($disciplinas | ForEach-Object {[pscustomobject]@{Nome=Nome-Pasta $_;FolderID=Id-Pasta $_}})
+        TotalSelecionado = @($escolhidos).Count
+        Modo = if($reverterARTESP){'Reversao documental; projeto e Unidade preservados'}else{'Projeto e Unidade conferidos/aplicados; consulte ResultadoDocumentos.csv para o lote'}
+        Subpastas = $false; VersoesHistoricas = $false
+    } | ConvertTo-Json -Depth 5 | Set-Content (Join-Path $Destino 'Resumo.json') -Encoding UTF8
     Write-Host "Plano concluido. Relatorios em: $Destino" -ForegroundColor Green
-    $modoDocumental=(Read-Host 'Digite LOTE para planejar/aplicar os selecionados; TESTE para um documento; Enter encerra').Trim()
+    $promptDocumental=if($reverterARTESP){'Digite LOTE para planejar a reversao dos selecionados; Enter encerra'}else{'Digite LOTE para planejar/aplicar os selecionados; TESTE para um documento; Enter encerra'}
+    $modoDocumental=(Read-Host $promptDocumental).Trim()
     if ($modoDocumental -ieq 'TESTE') {
-        Testar-AcessoDocumento @($escolhidos)
+        if(-not $reverterARTESP){Testar-AcessoDocumento @($escolhidos)}
     } elseif ($modoDocumental -ieq 'LOTE') {
-        Executar-LoteARTESP -Linhas @($escolhidos) -Destino (Join-Path $Destino 'Lote')
+        Executar-LoteARTESP -Linhas @($escolhidos) -Destino (Join-Path $Destino 'Lote') -Reverter:$reverterARTESP
     }
 }
 catch {

@@ -1,4 +1,4 @@
-param([switch]$PrepareOnly, [Parameter(ValueFromRemainingArguments=$true)][string[]]$DownloaderArgs)
+param([switch]$PrepareOnly, [string]$ProjectList, [Parameter(ValueFromRemainingArguments=$true)][string[]]$DownloaderArgs)
 $ErrorActionPreference = 'Stop'
 
 function Find-CompatiblePython {
@@ -89,7 +89,11 @@ try {
     }
     Write-Host 'Ambiente pronto. O Microsoft Edge deve estar instalado para o login.'
     if ($PrepareOnly) { exit 0 }
-    & $pythonPath (Join-Path $PSScriptRoot 'main.py') --browser-all @DownloaderArgs
+    if ($ProjectList) {
+        & $pythonPath (Join-Path $PSScriptRoot 'main.py') --project-list $ProjectList @DownloaderArgs
+    } else {
+        & $pythonPath (Join-Path $PSScriptRoot 'main.py') --browser-all @DownloaderArgs
+    }
     exit $LASTEXITCODE
 } catch {
     Write-Host ('Erro ao preparar o downloader: ' + $_.Exception.Message) -ForegroundColor Red
