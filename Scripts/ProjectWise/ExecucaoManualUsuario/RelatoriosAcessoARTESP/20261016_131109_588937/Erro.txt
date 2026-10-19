@@ -1,9 +1,0 @@
-﻿Operacao cancelada pelo usuario.
-No C:\Users\Peterson\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\18 - Preparar Acesso 
-ARTESP.ps1:240 caractere:34
-+ ...   if ($resposta -eq 'Q') { throw 'Operacao cancelada pelo usuario.' }
-+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : OperationStopped: (Operacao cancelada pelo usuario.:String) [], RuntimeException
-    + FullyQualifiedErrorId : Operacao cancelada pelo usuario.
- 
-

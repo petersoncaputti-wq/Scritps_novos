@@ -1,9 +1,0 @@
-﻿Documento mudou de pasta/workflow/estado desde a selecao.
-No C:\Users\Peterson\OneDrive - Grupo Ecorodovias\Área de 
-Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\Funcoes\PreservarSegurancaARTESP.ps1:170 caractere:107
-+ ... a.Estado) { throw 'Documento mudou de pasta/workflow/estado desde a s ...
-+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : OperationStopped: (Documento mudou...esde a selecao.:String) [], RuntimeException
-    + FullyQualifiedErrorId : Documento mudou de pasta/workflow/estado desde a selecao.
- 
-

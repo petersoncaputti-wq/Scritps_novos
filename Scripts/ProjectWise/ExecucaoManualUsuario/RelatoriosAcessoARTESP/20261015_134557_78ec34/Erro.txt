@@ -1,9 +1,0 @@
-﻿Plano cancelado.
-No C:\Users\Peterson\OneDrive - Grupo Ecorodovias\Área de Trabalho\Scritps_novos\Scripts\ProjectWise\ExecucaoManualUsuario\18 - Preparar Acesso 
-ARTESP.ps1:205 caractere:98
-+ ... tes documentos? Digite SIM') -cne 'SIM') { throw 'Plano cancelado.' }
-+                                                ~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : OperationStopped: (Plano cancelado.:String) [], RuntimeException
-    + FullyQualifiedErrorId : Plano cancelado.
- 
-
