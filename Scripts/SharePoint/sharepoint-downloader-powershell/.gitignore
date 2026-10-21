@@ -1,0 +1,8 @@
+logs/
+msedgedriver.exe
+edgedriver_win64.zip
+Driver_Notes/
+*.part
+*.spdownload.part*
+.sharepoint_*/
+.sharepoint_download.lock
