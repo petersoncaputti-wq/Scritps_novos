@@ -27,6 +27,7 @@ public class SPFixture : IDisposable {
             byte[] body=Data;
             if(path=="/page"){type="text/html";body=Encoding.UTF8.GetBytes("<html><title>Local test</title></html>");}
             if(path=="/json"){type="application/json";body=Encoding.UTF8.GetBytes("{\"value\":[{\"Name\":\"fixture.txt\",\"Length\":36}],\"odata.nextLink\":null}");}
+            if(path.StartsWith("/_api/web?")){type="application/json";body=Encoding.UTF8.GetBytes("{\"Url\":\"https://example.sharepoint.com/sites/Test\"}");}
             if(path=="/missing")status=404;
             if(path=="/auth")status=401;
             if((path=="/throttle" || path=="/retry-throttle") && count==1){status=429;extra="Retry-After: 0\r\n";}

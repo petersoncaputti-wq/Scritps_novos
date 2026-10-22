@@ -17,7 +17,9 @@ PowerShell 7 nao foi validada: use os atalhos, que chamam Windows PowerShell 5.1
 
 Os atalhos preservam a janela para leitura de erros. Informe a URL da pasta,
 escolha o destino na janela visual e faca login/MFA no Edge aberto pelo script.
-Pressione ENTER no terminal quando a pasta estiver aberta no navegador.
+Ao concluir login/MFA, o programa confirma acesso pela API e continua automaticamente.
+Nao precisa pressionar ENTER no terminal. Se o acesso nao for confirmado em 10
+minutos, encerra a espera com mensagem para conferir MFA/permissoes no Edge.
 Na fila por planilha, selecione primeiro o XLSX e depois o destino. O Edge abre
 a primeira pasta antes da preparacao do resumo da fila. O terminal mostra a pasta
 que esta abrindo; o log registra `NAVEGACAO_INICIO` e `NAVEGACAO_FIM`.

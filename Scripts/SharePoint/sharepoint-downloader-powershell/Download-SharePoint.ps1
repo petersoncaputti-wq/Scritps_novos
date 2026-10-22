@@ -63,10 +63,17 @@ try{
     $ready=$false
     for($i=0;$i -lt 40;$i++){try{$null=Driver GET 'status';$ready=$true;break}catch{Start-Sleep -Milliseconds 250}}
     if(!$ready){throw 'Edge WebDriver nao iniciou. Confira bloqueios corporativos e versao do driver.'}
+    $initialUrl=if($ProjectList){$queue.Projects[0].Parsed.Url}else{$parsed.Url}
+    if(!$initialUrl){throw 'A primeira pasta nao tem URL valida; navegador nao sera iniciado.'}
     Write-Host 'Abrindo Edge para autenticar no SharePoint...'
+    Log 'EDGE_SESSAO_INICIO' @{etapa='criacao';versao_fluxo=2}
     $session=Driver POST 'session' @{capabilities=@{alwaysMatch=@{browserName='MicrosoftEdge';pageLoadStrategy='eager';'ms:edgeOptions'=@{args=@('--no-first-run')}}}}
     $script:SessionId=$session.sessionId
+    if(!$script:SessionId){throw 'Edge abriu sem estabelecer sessao de controle.'}
+    Log 'EDGE_SESSAO_PRONTA' @{etapa='configuracao'}
+    Write-Host 'Edge conectado. Configurando navegacao...'
     $null=Driver POST "session/$script:SessionId/timeouts" @{script=120000;pageLoad=120000}
+    Log 'EDGE_CONFIGURADO'
     if($ProjectList){
         # Navegar antes de gravar o resumo da fila evita deixar about:blank
         # enquanto um destino lento/rede esta preparando o controle.

@@ -24,6 +24,11 @@ try{
     $items=@(Collection ($fixture.BaseUrl+'/json'))
     if($items.Count -ne 1){throw 'Leitura de colecao divergente.'}
     $jar=CookieJar
+    # Adaptacao em memoria para verificar login automatico no fixture HTTP local.
+    $waitBody=${function:WaitSharePoint}.ToString().Replace('$site=''https://''+$Parsed.Host','$site=$fixture.BaseUrl')
+    Set-Item Function:WaitSharePoint ([scriptblock]::Create($waitBody))
+    $script:RunLog=$null
+    WaitSharePoint ([pscustomobject]@{Host='127.0.0.1';Path='/'})
     Write-Host 'OK: Edge WebDriver real, sessao headless, fetch JSON no navegador, colecao e cookies em memoria.'
 }finally{
     if($script:SessionId){try{$null=Driver DELETE "session/$script:SessionId"}catch{}}

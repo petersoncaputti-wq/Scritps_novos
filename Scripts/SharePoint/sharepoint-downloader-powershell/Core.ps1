@@ -75,8 +75,35 @@ function SelectTab {
 function Renew {
     Log 'LOGIN_RENOVACAO'
     $null=Driver POST "session/$script:SessionId/url" @{url=$script:LoginUrl}
-    [void](Read-Host 'Conclua login/MFA no Edge e confira acesso a pasta; ENTER para continuar')
-    SelectTab
+    WaitSharePoint (ParseUrl $script:LoginUrl)
+}
+function WaitSharePoint($Parsed) {
+    Write-Host 'Conclua o login/MFA no Edge. O programa continuara automaticamente; nao precisa pressionar ENTER.'
+    Log 'LOGIN_AGUARDANDO' @{host=$Parsed.Host}
+    $segments=$Parsed.Path.Trim('/').Split('/')
+    $site='https://'+$Parsed.Host
+    if($segments.Count -ge 2 -and $segments[0] -in @('sites','teams')){
+        $site+='/'+[uri]::EscapeDataString($segments[0])+'/'+[uri]::EscapeDataString($segments[1])
+    }
+    $probe=$site+'/_api/web?$select=Url'
+    $js=@'
+var done=arguments[arguments.length-1];
+fetch(arguments[0],{credentials:'same-origin',headers:{Accept:'application/json;odata=nometadata'}})
+.then(async r=>{if(!r.ok)return done(false);if(!(r.headers.get('content-type')||'').includes('json'))return done(false);
+var data=await r.json();done(!!(data.Url||(data.d&&data.d.Url)));}).catch(()=>done(false));
+'@
+    $deadline=[DateTime]::UtcNow.AddMinutes(10)
+    while([DateTime]::UtcNow -lt $deadline){
+        foreach($handle in @(Driver GET "session/$script:SessionId/window/handles")){
+            $null=Driver POST "session/$script:SessionId/window" @{handle=$handle}
+            $u=[uri](Driver GET "session/$script:SessionId/url")
+            if($u.Host -ne $Parsed.Host){continue}
+            $ok=Driver POST "session/$script:SessionId/execute/async" @{script=$js;args=@($probe)}
+            if($ok -eq $true){Log 'LOGIN_CONCLUIDO' @{host=$Parsed.Host};Write-Host 'Login confirmado. Continuando...';return}
+        }
+        Start-Sleep -Seconds 1
+    }
+    throw 'Login/acesso ao site nao confirmado em 10 minutos. Confira MFA, permissao ao projeto e mensagens no Edge.'
 }
 function BrowserJson([string]$Endpoint) {
     $u=[uri]$Endpoint
@@ -142,7 +169,7 @@ function OpenFolder($Parsed) {
     Log 'NAVEGACAO_FIM' @{host=$Parsed.Host;pasta=$Parsed.Path}
     $current=[uri](Driver GET "session/$script:SessionId/url")
     if(!$script:AuthenticatedHost -or $current.Host -ne $Parsed.Host -or $script:AuthenticatedHost -ne $Parsed.Host){
-        [void](Read-Host 'Faca login/MFA no Edge. Quando a pasta aparecer, pressione ENTER aqui'); SelectTab
+        WaitSharePoint $Parsed
     }
     $script:AuthenticatedHost=$Parsed.Host
     $script:Web=$null; $segments=$Parsed.Path.Trim('/').Split('/')
