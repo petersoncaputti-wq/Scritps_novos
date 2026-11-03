@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "presentation-finalization.v1",
+  "finalSha256": "687e233dfb3166a47d3ee50f37585eb82ab8cbf106ff2a2f94379959e8a400cc",
+  "byteCount": 4503684,
+  "packageIntegrity": {
+    "chart_count": 0,
+    "claim_boundary": "Structural package checks only; no slide text, notes, formulas, chart values, or native PowerPoint execution were inspected.",
+    "finding_count": 0,
+    "findings": [],
+    "notes_parts_skipped": 31,
+    "relationship_part_count": 70,
+    "slide_count": 31,
+    "status": "pass",
+    "exitCode": 0,
+    "findingCount": 0,
+    "warnings": []
+  },
+  "presentationLayout": {
+    "finding_count": 0,
+    "findings": [],
+    "font_policy": {
+      "checked_text_script_count": 197,
+      "native_font_rendering_verified": false,
+      "observed_font_families": [
+        "Verdana"
+      ],
+      "observed_font_use_counts": {
+        "Verdana": 197
+      },
+      "passed": true,
+      "performed": true
+    },
+    "slide_count": 31,
+    "slide_size_in": [
+      13.3333,
+      7.5
+    ],
+    "warning_count": 1,
+    "warnings": [
+      {
+        "kind": "object_outside_slide_boundary",
+        "object_id": "26",
+        "object_kind": "pic",
+        "slide": 1
+      }
+    ],
+    "exitCode": 0,
+    "findingCount": 0,
+    "fontPolicy": {
+      "checked_text_script_count": 197,
+      "native_font_rendering_verified": false,
+      "observed_font_families": [
+        "Verdana"
+      ],
+      "observed_font_use_counts": {
+        "Verdana": 197
+      },
+      "passed": true,
+      "performed": true
+    }
+  },
+  "fontSelection": {
+    "basis": "reference",
+    "approvedFamilies": [
+      "Verdana"
+    ],
+    "scriptFonts": {},
+    "referenceSha256": "bb9e658bcea550c9e2a0abf160a980e8778c1e474e1df6e3881941daafdef525",
+    "referenceFontsVerifiedInEncodedText": true,
+    "checked_text_script_count": 197,
+    "native_font_rendering_verified": false,
+    "observed_font_families": [
+      "Verdana"
+    ],
+    "observed_font_use_counts": {
+      "Verdana": 197
+    },
+    "passed": true,
+    "performed": true
+  },
+  "firstPartyImport": {
+    "performed": true,
+    "passed": true,
+    "slideCount": 31,
+    "sha256": "687e233dfb3166a47d3ee50f37585eb82ab8cbf106ff2a2f94379959e8a400cc",
+    "runtimeNodeModules": "C:/Users/Peterson/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "nodeExecutable": "C:\\Users\\Peterson\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe"
+  },
+  "nativeTableArithmetic": {
+    "performed": true,
+    "checked_column_count": 0,
+    "checks": [],
+    "claim_boundary": "Displayed-value arithmetic with rounding tolerance; not source-data verification.",
+    "eligible_table_count": 0,
+    "finding_count": 0,
+    "findings": [],
+    "native_table_count": 5,
+    "passed": true,
+    "schema_version": "presentation-native-table-arithmetic.v1",
+    "skipped_tables": [
+      {
+        "reason": "no_unambiguous_bottom_total",
+        "slide": 2,
+        "table": 1
+      },
+      {
+        "reason": "no_numeric_amounts",
+        "slide": 12,
+        "table": 1
+      },
+      {
+        "reason": "no_numeric_amounts",
+        "slide": 21,
+        "table": 1
+      },
+      {
+        "reason": "no_unambiguous_bottom_total",
+        "slide": 22,
+        "table": 1
+      },
+      {
+        "reason": "no_numeric_amounts",
+        "slide": 27,
+        "table": 1
+      }
+    ],
+    "slide_count": 31,
+    "warning_count": 0,
+    "warnings": []
+  },
+  "nativeChartTitles": {
+    "performed": true,
+    "checks": [],
+    "finding_count": 0,
+    "findings": [],
+    "native_chart_count": 0,
+    "native_powerpoint_verified": false,
+    "passed": true,
+    "presentation_sha256": "687e233dfb3166a47d3ee50f37585eb82ab8cbf106ff2a2f94379959e8a400cc",
+    "schema_version": "presentation-native-chart-titles.v1",
+    "slide_count": 31,
+    "source_text_emitted": false,
+    "unresolved_linked_title_count": 0
+  },
+  "sourceDerivedPolicyFlags": [
+    "--expected-slide-size-emu",
+    "12192000,6858000",
+    "--validate-heading-fit",
+    "--require-native-table-slide",
+    "2",
+    "--require-native-table-slide",
+    "12",
+    "--require-native-table-slide",
+    "21",
+    "--require-native-table-slide",
+    "22",
+    "--require-native-table-slide",
+    "27",
+    "--cover-role",
+    "none",
+    "--approved-font-family",
+    "Verdana"
+  ],
+  "nativeChartValidation": {
+    "detectedOwnerSlides": [],
+    "detectedChartCount": 0,
+    "targetApplication": null,
+    "sourceChartOwnersExplicitlyDeclared": false,
+    "validatorRan": false,
+    "passed": true
+  }
+}
