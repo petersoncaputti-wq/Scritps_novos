@@ -34,7 +34,19 @@ def select_destination() -> str:
     return selected
 
 
+def alias_folder_path(endpoint: str) -> str:
+    """Keep long folder names out of the REST URL path segment."""
+    pattern = r"GetFolderByServerRelativePath\(decodedUrl='([^']*)'\)"
+    match = re.search(pattern, endpoint)
+    if not match:
+        return endpoint
+    endpoint = endpoint[:match.start()] + 'GetFolderByServerRelativePath(decodedUrl=@folderPath)' + endpoint[match.end():]
+    separator = '&' if '?' in endpoint else '?'
+    return endpoint + separator + '@folderPath=%27' + match.group(1) + '%27'
+
+
 def read_json(page, endpoint: str) -> dict:
+    endpoint = alias_folder_path(endpoint)
     result = page.evaluate("""async endpoint => {
         const r = await fetch(endpoint, {credentials: 'same-origin',
             headers: {Accept: 'application/json;odata=nometadata'}});
