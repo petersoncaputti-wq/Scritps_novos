@@ -66,6 +66,16 @@ def run_parallel(db, page, web, root, progress, renew, workers, transfer):
         if target.exists():
             same_version = not record or record[2] == version
             if target.is_file() and target.stat().st_size == size and same_version:
+                from bulk_transfer import verify_local_file
+                try:
+                    verify_local_file(target, size)
+                except DownloadError:
+                    failed += 1
+                    progress.failed = failed
+                    db.execute('INSERT OR REPLACE INTO files VALUES (?,?,?,?,?)', (path, text, size, version, 'failed'))
+                    db.commit()
+                    progress.message(f'Falha na verificacao: {target.name} (detalhes no log)')
+                    return False
                 skipped += 1
                 db.execute('INSERT OR REPLACE INTO files VALUES (?,?,?,?,?)', (path, text, size, version, 'existing'))
                 db.commit()
@@ -134,6 +144,8 @@ def run_parallel(db, page, web, root, progress, renew, workers, transfer):
                     progress.message(f'Nova tentativa: {Path(text).name} (detalhes no log)')
                     logging.warning('DOWNLOAD_ERRO remoto=%s local=%s tentativa=%s motivo=%s', path, text, attempt, reason)
                     if attempt >= 3:
+                        db.execute("UPDATE files SET status='failed' WHERE remote=?", (path,))
+                        db.commit()
                         failed += 1
                         progress.failed = failed
                         progress.message(f'Falha: {Path(text).name} (detalhes no log)')

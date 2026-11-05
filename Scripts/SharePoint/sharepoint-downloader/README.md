@@ -41,6 +41,7 @@ Informe a URL da pasta e selecione o destino na janela visual. Cancelar encerra 
 Faca login/MFA no Edge; a transferencia e feita pelo Python no terminal, por streaming.
 
 - Padrao de 8 downloads simultaneos; ajuste com `--workers 1` a `--workers 8`.
+- Antes de concluir cada download, confirma existencia no caminho final, tamanho em disco e leitura completa do arquivo. Arquivos existentes reaproveitados passam pela mesma verificacao. O log registra `ARQUIVO_LOCAL_VERIFICADO` ou `VERIFICACAO_LOCAL_FALHOU`; falhas nao contam como concluidas. A leitura adicional pode aumentar o tempo em discos lentos. Nao compara checksum com a origem nem garante preservacao futura.
 - Percorre todas as subpastas e paginas, incluindo pastas vazias. Nao ha limite de 100 MB.
 - O inventario inicial conta os documentos e o volume total. A barra mostra bytes transferidos e arquivos concluidos, somando as transferencias simultaneas.
 - Durante os downloads, a barra ocupa uma unica linha atualizada, adaptada a largura do terminal, com contador de erros e estado atual. Mensagens por arquivo ficam no log completo; login adicional e resumo final aparecem separadamente no terminal.

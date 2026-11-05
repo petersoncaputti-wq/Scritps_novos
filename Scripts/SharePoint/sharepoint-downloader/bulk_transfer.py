@@ -7,6 +7,28 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 
+def verify_local_file(target, size):
+    """Confirm final-path existence, disk size and readability of every byte."""
+    from browser_bulk import DownloadError
+    target = Path(target)
+    try:
+        if not target.is_file():
+            raise OSError('Arquivo ausente ou destino nao e um arquivo regular.')
+        with target.open('rb') as source:
+            import os
+            if os.fstat(source.fileno()).st_size != size:
+                raise OSError('Tamanho gravado no disco diverge do inventario.')
+            read = 0
+            while chunk := source.read(1024 * 1024):
+                read += len(chunk)
+            if read != size or target.stat().st_size != size:
+                raise OSError('Tamanho divergente durante a leitura de verificacao.')
+    except OSError as error:
+        logging.error('VERIFICACAO_LOCAL_FALHOU local=%s esperado_bytes=%s motivo=%s', target, size, error)
+        raise DownloadError(f'Verificacao do arquivo no destino falhou: {error}') from error
+    logging.info('ARQUIVO_LOCAL_VERIFICADO local=%s bytes=%s verificacao=existencia_tamanho_leitura_completa', target, size)
+
+
 def transfer_file(session, url, target, size, progress=None, resume_key=None, stop=None):
     from browser_bulk import DownloadError, retry_delay
     partial = target.with_name(target.name + '.spdownload.part')
@@ -83,5 +105,6 @@ def transfer_file(session, url, target, size, progress=None, resume_key=None, st
     if target.exists():
         raise DownloadError('Destino criado durante o download; preservado sem sobrescrever.')
     partial.rename(target)
+    verify_local_file(target, size)
     logging.info('TRANSFERENCIA_VALIDADA local=%s bytes=%s bytes_reutilizados=%s duracao_segundos=%.2f', target, written, offset, time.monotonic()-started)
     metadata.unlink(missing_ok=True)
