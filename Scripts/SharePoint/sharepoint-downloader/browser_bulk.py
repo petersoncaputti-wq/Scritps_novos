@@ -135,7 +135,7 @@ def transfer(session, url, target, size, progress=None, resume_key=None, stop=No
     return transfer_file(session, url, target, size, progress, resume_key, stop)
 
 
-def download_tree(page, web, remote_root, destination, login_url, workers=3, refresh_inventory=False):
+def download_tree(page, web, remote_root, destination, login_url, workers=8, refresh_inventory=False):
     import msvcrt
     destination.mkdir(parents=True, exist_ok=True)
     with (destination / '.sharepoint_download.lock').open('a+b') as lock:
@@ -154,7 +154,7 @@ def download_tree(page, web, remote_root, destination, login_url, workers=3, ref
             msvcrt.locking(lock.fileno(), msvcrt.LK_UNLCK, 1)
 
 
-def _download_tree(page, web, remote_root, destination, login_url, workers=3, refresh_inventory=False):
+def _download_tree(page, web, remote_root, destination, login_url, workers=8, refresh_inventory=False):
     destination.mkdir(parents=True, exist_ok=True)
     root_info = read_json(page, folder_endpoint(web, remote_root) + '?$select=Name,ServerRelativeUrl')
     remote_root = root_info['ServerRelativeUrl'].rstrip('/')

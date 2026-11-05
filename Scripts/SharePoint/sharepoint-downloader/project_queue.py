@@ -124,7 +124,7 @@ def resolve_web(page, parsed):
     raise RuntimeError('Nao foi possivel localizar o site SharePoint.')
 
 
-def execute_queue(projects, destination, workers=3, refresh_inventory=False, issues=None):
+def execute_queue(projects, destination, workers=8, refresh_inventory=False, issues=None):
     from playwright.sync_api import sync_playwright
     from browser_test import wait_for_sharepoint
     from browser_bulk import download_tree, safe_error
@@ -190,7 +190,7 @@ def execute_queue(projects, destination, workers=3, refresh_inventory=False, iss
 
 
 def run_project_queue(path, destination='', sheet=None, priorities=None, rows=None,
-                      plan_only=False, workers=3, refresh_inventory=False):
+                      plan_only=False, workers=8, refresh_inventory=False):
     projects, issues = load_projects(path, sheet, priorities, rows)
     for issue in issues:
         print(f"Pendencia na linha {issue['linha']}: {issue['motivo']}")

@@ -7,7 +7,7 @@ param(
     [switch]$Recursive=$true,
     [switch]$OnlyCurrentFolder,
     [switch]$ListOnly,
-    [ValidateRange(1,8)][int]$Workers=3,
+    [ValidateRange(1,8)][int]$Workers=8,
     [switch]$RefreshInventory,
     [string]$ProjectList,
     [string]$Sheet,

@@ -40,7 +40,7 @@ Execute `Baixar Pasta Completa SharePoint.bat` ou `.\.venv\Scripts\python.exe ma
 Informe a URL da pasta e selecione o destino na janela visual. Cancelar encerra a execucao.
 Faca login/MFA no Edge; a transferencia e feita pelo Python no terminal, por streaming.
 
-- Padrao de 3 downloads simultaneos; ajuste com `--workers 1` a `--workers 8`.
+- Padrao de 8 downloads simultaneos; ajuste com `--workers 1` a `--workers 8`.
 - Percorre todas as subpastas e paginas, incluindo pastas vazias. Nao ha limite de 100 MB.
 - O inventario inicial conta os documentos e o volume total. A barra mostra bytes transferidos e arquivos concluidos, somando as transferencias simultaneas.
 - Durante os downloads, a barra ocupa uma unica linha atualizada, adaptada a largura do terminal, com contador de erros e estado atual. Mensagens por arquivo ficam no log completo; login adicional e resumo final aparecem separadamente no terminal.

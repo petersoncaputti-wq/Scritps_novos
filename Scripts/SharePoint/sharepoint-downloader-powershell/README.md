@@ -37,7 +37,7 @@ podem impedir o fluxo ou exigir novo login durante a execucao.
 
 ```powershell
 .\Download-SharePoint.ps1
-.\Download-SharePoint.ps1 -Destination 'D:\Migracao' -Workers 3
+.\Download-SharePoint.ps1 -Destination 'D:\Migracao' -Workers 8
 .\Download-SharePoint.ps1 -Destination 'D:\Migracao' -RefreshInventory
 .\Download-SharePoint.ps1 -Destination 'D:\Migracao' -OnlyCurrentFolder
 .\Download-SharePoint.ps1 -Destination 'D:\Conferencia' -ListOnly
@@ -52,7 +52,7 @@ ou `RootFolder`, e links `/:f:/r/` que contem o caminho. Links opacos nao sao ac
   usa-o diretamente. A versao inicial PowerShell salvava diretamente no destino;
   confira essa diferenca antes de reaproveitar downloads daquela versao.
 - Faz inventario antes da transferencia, contando arquivos e bytes.
-- Padrao de tres downloads simultaneos; `-Workers` aceita 1 a 8.
+- Padrao de oito downloads simultaneos; `-Workers` aceita 1 a 8.
 - Progresso agregado mostra arquivos, bytes, velocidade estimada, ETA e falhas.
   A estimativa considera bytes logicos, inclusive existentes/parciais reutilizados.
 - Nomes Windows invalidos, reservados ou longos recebem sufixo hash. Colisoes

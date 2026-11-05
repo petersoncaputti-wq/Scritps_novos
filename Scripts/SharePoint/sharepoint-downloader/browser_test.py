@@ -84,7 +84,7 @@ def wait_for_sharepoint(context, hostname: str):
 
 
 def run_browser_test(url: str = "", destination: str = "", download_all: bool = False,
-                     workers: int = 3, refresh_inventory: bool = False, diagnose_file: str = '') -> int:
+                     workers: int = 8, refresh_inventory: bool = False, diagnose_file: str = '') -> int:
     from playwright.sync_api import sync_playwright
 
     url = url or input("URL da pasta SharePoint: ").strip()

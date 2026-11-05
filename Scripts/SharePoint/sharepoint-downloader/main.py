@@ -12,7 +12,7 @@ def main() -> int:
     parser.add_argument("--diagnose-file", default="", help="Caminho remoto do arquivo; por padrao usa a ultima falha registrada")
     parser.add_argument("--url", default="", help="URL da pasta para o teste pelo navegador")
     parser.add_argument("--destination", default="", help="Pasta local para o teste pelo navegador")
-    parser.add_argument("--workers", type=int, choices=range(1, 9), default=3, help="Downloads simultaneos (padrao: 3)")
+    parser.add_argument("--workers", type=int, choices=range(1, 9), default=8, help="Downloads simultaneos (padrao: 8)")
     parser.add_argument("--refresh-inventory", action="store_true", help="Reler o SharePoint em vez de reutilizar o inventario concluido")
     parser.add_argument('--project-list', default='', help='Planilha XLSX: E prioridade, F link do projeto')
     parser.add_argument('--sheet', default=None, help='Aba da lista (padrao: primeira aba)')
