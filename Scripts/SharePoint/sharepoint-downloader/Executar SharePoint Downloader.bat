@@ -1,8 +1,8 @@
 @echo off
 setlocal
 cd /d "%~dp0"
-if not exist ".venv\Scripts\python.exe" (
-    echo Configure o ambiente virtual seguindo o README.md.
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0Preparar-Downloader.ps1" -PrepareOnly
+if errorlevel 1 (
     pause
     exit /b 1
 )

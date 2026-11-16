@@ -81,7 +81,7 @@ namespace CentralScripts {
     $help = New-Object System.Windows.Forms.Label
     $help.Dock = 'Fill'
     $help.Text = if ([string]::IsNullOrWhiteSpace($HelpText)) {
-        "A rotina abrirá o seletor de projetos e o navegador Bentley quando necessário.`r`nAs perguntas e confirmações serão apresentadas automaticamente em janelas de diálogo."
+        "A rotina abrirá o seletor de projetos e o navegador Bentley quando necessário.`r`nAs perguntas aparecem abaixo do acompanhamento. Você pode rolar e copiar o histórico enquanto responde."
     }
     else { $HelpText }
     $help.ForeColor = [System.Drawing.Color]::FromArgb(70, 78, 88)
@@ -99,19 +99,28 @@ namespace CentralScripts {
     $answerLayout.Dock = 'Fill'
     $answerLayout.Visible = $false
     $answerLayout.ColumnCount = 2
+    $answerLayout.RowCount = 2
+    [void]$answerLayout.RowStyles.Add((New-Object System.Windows.Forms.RowStyle('Percent', 100)))
+    [void]$answerLayout.RowStyles.Add((New-Object System.Windows.Forms.RowStyle('Absolute', 42)))
+    $questionLabel = New-Object System.Windows.Forms.Label
+    $questionLabel.Dock = 'Fill'
+    $questionLabel.AutoEllipsis = $true
+    $questionLabel.Padding = New-Object System.Windows.Forms.Padding(0, 6, 0, 0)
+    $answerLayout.Controls.Add($questionLabel, 0, 0)
+    $answerLayout.SetColumnSpan($questionLabel, 2)
     [void]$answerLayout.ColumnStyles.Add((New-Object System.Windows.Forms.ColumnStyle('Percent', 100)))
     [void]$answerLayout.ColumnStyles.Add((New-Object System.Windows.Forms.ColumnStyle('Absolute', 175)))
     $layout.Controls.Add($answerLayout, 0, 3)
     $answerBox = New-Object System.Windows.Forms.TextBox
     $answerBox.Dock = 'Fill'
     $answerBox.Margin = New-Object System.Windows.Forms.Padding(0, 8, 8, 7)
-    $answerLayout.Controls.Add($answerBox, 0, 0)
+    $answerLayout.Controls.Add($answerBox, 0, 1)
     $answerButton = New-Object System.Windows.Forms.Button
     $answerButton.Text = 'Responder / Continuar'
     $answerButton.Dock = 'Fill'
     $answerButton.Margin = New-Object System.Windows.Forms.Padding(0, 5, 0, 4)
     $answerButton.Enabled = $false
-    $answerLayout.Controls.Add($answerButton, 1, 0)
+    $answerLayout.Controls.Add($answerButton, 1, 1)
 
     $actions = New-Object System.Windows.Forms.FlowLayoutPanel
     $actions.Dock = 'Fill'
@@ -203,140 +212,90 @@ namespace CentralScripts {
 
     $askText = {
         param([string]$Question, [string]$Title)
-        $dialog = New-Object System.Windows.Forms.Form
-        $dialog.Text = $Title
-        $dialog.StartPosition = 'CenterParent'
-        $dialog.FormBorderStyle = 'FixedDialog'
-        $dialog.MinimizeBox = $false
-        $dialog.MaximizeBox = $false
-        $dialog.ShowInTaskbar = $false
-        $dialog.ClientSize = New-Object System.Drawing.Size(500, 145)
-        $label = New-Object System.Windows.Forms.Label
-        $label.Text = $Question
-        $label.Location = New-Object System.Drawing.Point(16, 15)
-        $label.Size = New-Object System.Drawing.Size(468, 45)
-        $dialog.Controls.Add($label)
-        $textBox = New-Object System.Windows.Forms.TextBox
-        $textBox.Location = New-Object System.Drawing.Point(18, 65)
-        $textBox.Width = 464
-        $dialog.Controls.Add($textBox)
-        $ok = New-Object System.Windows.Forms.Button
-        $ok.Text = 'Confirmar'
-        $ok.DialogResult = 'OK'
-        $ok.Location = New-Object System.Drawing.Point(302, 103)
-        $ok.Size = New-Object System.Drawing.Size(85, 30)
-        $dialog.Controls.Add($ok)
-        $cancel = New-Object System.Windows.Forms.Button
-        $cancel.Text = 'Cancelar'
-        $cancel.DialogResult = 'Cancel'
-        $cancel.Location = New-Object System.Drawing.Point(397, 103)
-        $cancel.Size = New-Object System.Drawing.Size(85, 30)
-        $dialog.Controls.Add($cancel)
-        $dialog.AcceptButton = $ok
-        $dialog.CancelButton = $cancel
-        $dialog.Add_Shown({ $textBox.Focus() })
-        $result = $dialog.ShowDialog($panel.FindForm())
-        $value = $textBox.Text
-        $dialog.Dispose()
-        if ($result -eq 'OK') { return $value }
+        $questionLabel.Text = "${Title}: $Question"
+        $layout.RowStyles[3].Height = 108
+        $answerLayout.Visible = $true
+        $answerBox.Clear()
+        $answerBox.Enabled = $true
+        $answerButton.Enabled = $true
+        $statusLabel.Text = 'Aguardando resposta. Consulte o histórico acima.'
+        $answerBox.Focus()
         return $null
     }.GetNewClosure()
-
     $showPrompt = {
         param([string]$Prompt)
         $state.DialogOpen = $true
         try {
             if ($Prompt -match 'Escolha \[1/2\]') {
                 if ($state.PromptBuffer -match 'Forma de selecao dos projetos') {
-                    $value = & $askText 'Digite 1 para selecionar projetos pelos números ou 2 para selecionar por planilha.' 'Forma de seleção dos projetos'
+                    & $askText 'Digite 1 para selecionar projetos pelos números ou 2 para selecionar por planilha.' 'Forma de seleção dos projetos'
                 }
                 else {
-                    $value = & $askText 'Digite 1 para usuário único ou 2 para lote por planilha Excel.' 'Modo de inclusão'
+                    & $askText 'Digite 1 para usuário único ou 2 para lote por planilha Excel.' 'Modo de inclusão'
                 }
-                if ($null -ne $value) { & $writeResponse $value }
             }
             elseif ($Prompt -eq 'SELECIONAR_CONCESSAO') {
-                $value = & $askText 'Informe o número da concessão exibida no acompanhamento.' 'Selecionar concessão'
-                if ($null -ne $value) { & $writeResponse $value }
+                & $askText 'Informe o número da concessão exibida no acompanhamento.' 'Selecionar concessão'
             }
             elseif ($Prompt -eq 'FORMA_SELECAO_PROJETOS') {
-                $value = & $askText 'Digite 1 para selecionar projetos pelos números ou 2 para selecionar por planilha.' 'Forma de seleção dos projetos'
-                if ($null -ne $value) { & $writeResponse $value }
+                & $askText 'Digite 1 para selecionar projetos pelos números ou 2 para selecionar por planilha.' 'Forma de seleção dos projetos'
             }
             elseif ($Prompt -eq 'SELECIONAR_PROJETOS') {
-                $value = & $askText "Informe números separados por vírgula, um intervalo como 1-5, ou digite 'todos'." 'Selecionar projetos'
-                if ($null -ne $value) { & $writeResponse $value }
+                & $askText "Informe números separados por vírgula, um intervalo como 1-5, ou digite 'todos'." 'Selecionar projetos'
             }
             elseif ($Prompt -eq 'SELECIONAR_BUSCAS_SALVAS') {
-                $value = & $askText 'Use P ou deixe vazio para as buscas padrão; T para todas; ou informe números como 1,3,6 ou 1-5.' 'Selecionar buscas salvas'
-                if ($null -ne $value) { & $writeResponse $value }
+                & $askText 'Use P ou deixe vazio para as buscas padrão; T para todas; ou informe números como 1,3,6 ou 1-5.' 'Selecionar buscas salvas'
             }
             elseif ($Prompt -eq 'SELECIONAR_CONCESSAO_BUSCAS') {
-                $value = & $askText 'Informe o número da concessão exibida no acompanhamento.' 'Selecionar concessão'
-                if ($null -ne $value) { & $writeResponse $value }
+                & $askText 'Informe o número da concessão exibida no acompanhamento.' 'Selecionar concessão'
             }
             elseif ($Prompt -eq 'SELECIONAR_PROJETOS_BUSCAS') {
-                $value = & $askText 'Informe números separados por vírgula, um intervalo como 2-6, ou T para todos.' 'Selecionar projetos'
-                if ($null -ne $value) { & $writeResponse $value }
+                & $askText 'Informe números separados por vírgula, um intervalo como 2-6, ou T para todos.' 'Selecionar projetos'
             }
             elseif ($Prompt -match 'E-mail do usuario') {
-                $value = & $askText 'Informe o e-mail do usuário que será incluído.' 'Usuário'
-                if ($null -ne $value) { & $writeResponse $value }
+                & $askText 'Informe o e-mail do usuário que será incluído.' 'Usuário'
             }
             elseif ($Prompt -match 'Acao desejada \[1/2/3\]') {
-                $value = & $askText 'Digite 1 para incluir, 2 para alterar permissões ou 3 para excluir o participante.' 'Ação desejada'
-                if ($null -ne $value) { & $writeResponse $value }
+                & $askText 'Digite 1 para incluir, 2 para alterar permissões ou 3 para excluir o participante.' 'Ação desejada'
             }
             elseif ($Prompt -match 'Titulo/cargo do participante') {
-                $value = & $askText 'Informe o título/cargo do participante. Deixe vazio para usar Participante.' 'Título do participante'
-                if ($null -ne $value) { & $writeResponse $value }
+                & $askText 'Informe o título/cargo do participante. Deixe vazio para usar Participante.' 'Título do participante'
             }
             elseif ($Prompt -match 'Numero ou nome da role') {
-                $value = & $askText 'Informe o número ou o nome exato da role exibida no acompanhamento.' 'Selecionar role'
-                if ($null -ne $value) { & $writeResponse $value }
-            }
-            elseif ($Prompt -match 'Continuar com este e-mail') {
-                $yes = [Windows.Forms.MessageBox]::Show($panel.FindForm(), 'Confirma o e-mail informado?', 'Confirmar usuário', 'YesNo', 'Question')
-                & $writeResponse $(if ($yes -eq 'Yes') { 'S' } else { 'N' })
-            }
-            elseif ($Prompt -match 'Continuar com estes usuarios') {
-                $yes = [Windows.Forms.MessageBox]::Show($panel.FindForm(), 'Deseja continuar com os usuários apresentados?', 'Confirmar usuários', 'YesNo', 'Question')
-                & $writeResponse $(if ($yes -eq 'Yes') { 'S' } else { 'N' })
-            }
-            elseif ($Prompt -match 'Aplicar as operacoes no Bentley RBAC') {
-                $yes = [Windows.Forms.MessageBox]::Show($panel.FindForm(), 'Deseja aplicar as operações apresentadas no Bentley RBAC?', 'Confirmação final', 'YesNo', 'Warning')
-                & $writeResponse $(if ($yes -eq 'Yes') { 'S' } else { 'N' })
-            }
-            elseif ($Prompt -match 'Aplicar alteracoes\? \[S/N\]') {
-                $yes = [Windows.Forms.MessageBox]::Show($panel.FindForm(), 'Deseja aplicar as alterações apresentadas?', 'Confirmação final', 'YesNo', 'Warning')
-                & $writeResponse $(if ($yes -eq 'Yes') { 'S' } else { 'N' })
+                & $askText 'Informe o número ou o nome exato da role exibida no acompanhamento.' 'Selecionar role'
             }
             elseif ($Prompt -match 'Confirmacao:') {
-                $yes = [Windows.Forms.MessageBox]::Show($panel.FindForm(), 'A exclusão removerá participantes dos projetos selecionados. Deseja confirmar?', 'Confirmar exclusão', 'YesNo', 'Warning')
-                & $writeResponse $(if ($yes -eq 'Yes') { 'CONFIRMAR EXCLUSAO' } else { '' })
+                & $askText 'A exclusão removerá participantes dos projetos selecionados. Digite CONFIRMAR EXCLUSAO para confirmar; deixe vazio para desistir.' 'Confirmar exclusão'
             }
             elseif ($Prompt -match '\[S/N\]:') {
                 $question = ($Prompt -replace '\s*\[S/N\]:\s*$', '').Trim()
-                $yes = [Windows.Forms.MessageBox]::Show($panel.FindForm(), $question, 'Permissão do participante', 'YesNo', 'Question')
-                & $writeResponse $(if ($yes -eq 'Yes') { 'S' } else { 'N' })
+                & $askText "$question Responda S para sim ou N para não." 'Confirmação'
             }
             else {
-                [Windows.Forms.MessageBox]::Show($panel.FindForm(), 'Conclua a etapa indicada e clique em OK para continuar.', 'Continuar execução', 'OK', 'Information') | Out-Null
-                & $writeResponse ''
+                & $askText 'Conclua a etapa indicada no acompanhamento e pressione Enter ou Responder / Continuar.' 'Continuar execução'
             }
         }
-        finally { $state.DialogOpen = $false }
+        catch {
+            $state.DialogOpen = $false
+            throw
+        }
     }.GetNewClosure()
 
     $sendAnswer = {
-        if (-not $state.Process -or $state.Process.HasExited) { return }
+        if (-not $state.Process -or $state.Process.HasExited -or -not $state.DialogOpen) { return }
         $answer = $answerBox.Text
+        if ($state.PromptBuffer -match '\[S/N\]:\s*$' -and $answer.Trim() -notmatch '^[SsNn]$') {
+            $statusLabel.Text = 'Informe S para sim ou N para não.'
+            return
+        }
         try {
-            $state.Process.StandardInput.WriteLine($answer)
-            $state.Process.StandardInput.Flush()
-            & $appendOutput (if ([string]::IsNullOrEmpty($answer)) { '> [CONTINUAR]' } else { "> $answer" })
+            & $writeResponse $answer
+            $state.DialogOpen = $false
             $answerBox.Clear()
-            $answerBox.Focus()
+            $answerButton.Enabled = $false
+            $answerLayout.Visible = $false
+            $layout.RowStyles[3].Height = 0
+            $statusLabel.Text = 'Rotina em execução.'
         }
         catch { & $appendOutput "[ERRO] Não foi possível enviar a resposta: $($_.Exception.Message)" }
     }.GetNewClosure()
@@ -369,6 +328,10 @@ namespace CentralScripts {
         try {
             $state.LogPath = Join-Path $logsDir ("{0}_{1}.log" -f $LogPrefix, (Get-Date -Format 'yyyyMMdd_HHmmss'))
             $state.Finished = $false
+            $state.DialogOpen = $false
+            $state.PromptBuffer = ''
+            $answerLayout.Visible = $false
+            $layout.RowStyles[3].Height = 0
             $output.Clear()
             & $appendOutput "Iniciando rotina: $PanelTitle..."
             $psi = New-Object System.Diagnostics.ProcessStartInfo
@@ -474,6 +437,9 @@ namespace CentralScripts {
         }
         if ($state.Process -and $state.Process.HasExited -and -not $state.Finished) {
             $state.Finished = $true
+            $state.DialogOpen = $false
+            $answerLayout.Visible = $false
+            $layout.RowStyles[3].Height = 0
             $code = $state.Process.ExitCode
             & $appendOutput "Processo finalizado com código $code."
             $statusLabel.Text = if ($code -eq 0) { 'Execução concluída.' } else { "Execução finalizada com erro ($code)." }

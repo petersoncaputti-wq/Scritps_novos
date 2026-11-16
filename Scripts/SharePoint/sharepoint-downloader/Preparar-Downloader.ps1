@@ -54,8 +54,13 @@ try {
     }
     $validEnvironment = $false
     if (Test-Path -LiteralPath $pythonPath) {
-        & $pythonPath -c 'import sys, tkinter; assert sys.version_info >= (3,11)' 2>$null
-        $validEnvironment = ($LASTEXITCODE -eq 0)
+        try {
+            & $pythonPath -c 'import sys, tkinter; assert sys.version_info >= (3,11)' 2>$null
+            $validEnvironment = ($LASTEXITCODE -eq 0)
+        } catch {
+            # Windows PowerShell treats stderr from a broken venv as a terminating error.
+            $validEnvironment = $false
+        }
     }
     if ($marker -and $marker.folder -ne $PSScriptRoot) { $validEnvironment = $false }
     if (-not $validEnvironment) {
@@ -76,8 +81,12 @@ try {
     $requirementsHash = (Get-FileHash -LiteralPath $requirementsPath -Algorithm SHA256).Hash
     $needsInstall = (-not $marker -or $marker.requirements -ne $requirementsHash)
     if (-not $needsInstall) {
-        & $pythonPath -c 'import playwright.sync_api, requests, msal, msal_extensions, tkinter' 2>$null
-        $needsInstall = ($LASTEXITCODE -ne 0)
+        try {
+            & $pythonPath -c 'import playwright.sync_api, requests, msal, msal_extensions, tkinter' 2>$null
+            $needsInstall = ($LASTEXITCODE -ne 0)
+        } catch {
+            $needsInstall = $true
+        }
     }
     if ($needsInstall) {
         Write-Host 'Instalando/verificando dependencias. Esta etapa requer internet...'

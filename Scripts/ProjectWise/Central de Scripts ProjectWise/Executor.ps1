@@ -71,8 +71,25 @@ function Get-CentralPythonExecutable {
         catch {}
     }
 
-    $command = Get-Command python.exe -ErrorAction SilentlyContinue | Select-Object -First 1
-    if ($command) { return $command.Source }
+    # Valida o executavel para nao aceitar o alias da Microsoft Store.
+    $launcher = Get-Command py.exe -ErrorAction SilentlyContinue | Select-Object -First 1
+    if ($launcher) {
+        try {
+            $resolved = & $launcher.Source -c "import sys; print(sys.executable)" 2>$null
+            if ($LASTEXITCODE -eq 0 -and $resolved -and (Test-Path -LiteralPath ([string]$resolved) -PathType Leaf)) {
+                return [string]$resolved
+            }
+        }
+        catch {}
+    }
+    foreach ($command in @(Get-Command python.exe, python3.exe -CommandType Application -ErrorAction SilentlyContinue)) {
+        if ($command.Source -match '\\Microsoft\\WindowsApps\\') { continue }
+        try {
+            $version = & $command.Source --version 2>&1
+            if ($LASTEXITCODE -eq 0 -and $version) { return $command.Source }
+        }
+        catch {}
+    }
     return $null
 }
 
@@ -109,7 +126,7 @@ function Get-DependencyStatus {
 
         switch ($kind) {
             'module'  { $available = $null -ne (Get-Module -ListAvailable -Name $name | Select-Object -First 1) }
-            'command' { $available = $null -ne (Get-Command $name -ErrorAction SilentlyContinue | Select-Object -First 1) }
+            'command' { if ($name -eq 'python') { $available = $null -ne (Get-CentralPythonExecutable) } else { $available = $null -ne (Get-Command $name -ErrorAction SilentlyContinue | Select-Object -First 1) } }
             'pythonmodule' { $available = Test-PythonModule -Name $name }
             'playwrightbrowser' { $available = Test-PlaywrightChromium }
             default   { $available = $false }
