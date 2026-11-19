@@ -67,6 +67,9 @@ try{
     Assert ($clean -notmatch 'secret|user@example|https://') 'log remove credenciais, URL e email'
     $script:Web='https://demo.sharepoint.com/sites/Test'
     Assert ((RemoteEndpoint File "/sites/Test/Docs/O'Brien #1.pdf") -like '*O%27%27Brien%20%231.pdf*') 'encoding REST com apostrofo e cerquilha'
+    $longPath='/sites/Test/Docs/'+((1..12|ForEach-Object{'Pasta longa com acentuação e espaços '+$_}) -join '/')
+    $ep=[uri](RemoteEndpoint Folder $longPath '/Files' '$select=Name&$top=500')
+    Assert (($ep.Segments|ForEach-Object{$_.Length}|Measure-Object -Maximum).Maximum -lt 120 -and $ep.Query -like "?@a1='%2Fsites*'&`$select=Name&`$top=500") 'caminho longo vai na query string (evita HTTP 400)'
     # Fixtures XLSX sem Excel, formulas ou Python.
     $xlsx=Join-Path $temp 'projects.xlsx';$archive=[IO.Compression.ZipFile]::Open($xlsx,[IO.Compression.ZipArchiveMode]::Create)
     $parts=@{
@@ -108,7 +111,7 @@ try{
     $script:ListingCalls=0
     function Collection {param($Endpoint)
         $script:ListingCalls++
-        if($Endpoint -like '*/Folders?*' -and $Endpoint -match "decodedUrl='%2FDocs'"){
+        if($Endpoint -like '*/Folders?*' -and $Endpoint -match "@a1='%2FDocs'"){
             [pscustomobject]@{Name='Sub';ServerRelativeUrl='/Docs/Sub'}
             [pscustomobject]@{Name='Empty';ServerRelativeUrl='/Docs/Empty'}
         }

@@ -45,18 +45,47 @@ def alias_folder_path(endpoint: str) -> str:
     return endpoint + separator + '@folderPath=%27' + match.group(1) + '%27'
 
 
+# SharePoint Online sinaliza limite de requisicoes (throttling) com 429/503 e,
+# em leituras REST intensas pelo navegador, tambem com 406. Sao temporarios.
+TRANSIENT_STATUS = {406, 408, 429, 500, 502, 503, 504}
+RETRY_DELAYS = (5, 15, 30, 60, 120, 180)
+
+
 def read_json(page, endpoint: str) -> dict:
     endpoint = alias_folder_path(endpoint)
-    result = page.evaluate("""async endpoint => {
-        const r = await fetch(endpoint, {credentials: 'same-origin',
-            headers: {Accept: 'application/json;odata=nometadata'}});
-        const type = r.headers.get('content-type') || '';
-        if (!r.ok || !type.includes('json')) return {status: r.status};
-        return {status: r.status, data: await r.json()};
-    }""", endpoint)
-    if "data" not in result:
-        raise RuntimeError(f"SharePoint recusou a leitura: HTTP {result['status']}. Confira login e acesso a pasta.")
-    return result["data"]
+    for attempt in range(len(RETRY_DELAYS) + 1):
+        result = page.evaluate("""async endpoint => {
+            const r = await fetch(endpoint, {credentials: 'same-origin',
+                headers: {Accept: 'application/json;odata=nometadata'}});
+            const type = r.headers.get('content-type') || '';
+            if (!r.ok || !type.includes('json')) {
+                let detail = '';
+                try { detail = (await r.text()).slice(0, 500); } catch (e) {}
+                return {status: r.status, retryAfter: r.headers.get('Retry-After'), detail};
+            }
+            return {status: r.status, data: await r.json()};
+        }""", endpoint)
+        if "data" in result:
+            return result["data"]
+        status = result.get("status")
+        if status not in TRANSIENT_STATUS or attempt == len(RETRY_DELAYS):
+            break
+        delay = RETRY_DELAYS[attempt]
+        try:
+            delay = max(delay, min(300, float(result.get("retryAfter") or 0)))
+        except ValueError:
+            pass
+        logging.warning("LEITURA_LIMITADA http=%s tentativa=%s espera_segundos=%s", status, attempt + 1, delay)
+        print(f"SharePoint limitou as leituras (HTTP {status}). Aguardando {delay:.0f}s e tentando de novo...")
+        page.wait_for_timeout(delay * 1000)
+    detail = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", result.get("detail") or "")).strip()[:300]
+    # 404 e esperado na busca da raiz do site (testa caminhos do mais longo ao mais curto).
+    level = logging.INFO if status == 404 else logging.ERROR
+    logging.log(level, "LEITURA_RECUSADA http=%s detalhe=%s", status, detail)
+    message = f"SharePoint recusou a leitura: HTTP {status}. Confira login e acesso a pasta."
+    if detail:
+        message += f" Detalhe do servidor: {detail}"
+    raise RuntimeError(message)
 
 
 def wait_for_sharepoint(context, hostname: str):

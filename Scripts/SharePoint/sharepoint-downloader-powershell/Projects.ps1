@@ -72,11 +72,11 @@ function RunQueue($Queue,[string]$Destination,[switch]$FirstFolderOpened){
 }
 function Diagnose([string]$Remote){
     if(!$Remote.StartsWith($script:RemoteRoot+'/',[StringComparison]::OrdinalIgnoreCase)){throw 'Arquivo de diagnostico fora da pasta informada.'}
-    $api=RemoteEndpoint File $Remote;$jar=CookieJar;$metadata=$null
-    try{$metadata=BrowserJson ($api+'?$select=Name,Length,Exists,UniqueId,TimeLastModified');Write-Host "Metadados no navegador: $($metadata.Name), $($metadata.Length) bytes";Log 'DIAGNOSTICO_METADADOS' @{nome=$metadata.Name;bytes=$metadata.Length}}
+    $api=RemoteEndpoint File $Remote '' '$select=Name,Length,Exists,UniqueId,TimeLastModified';$jar=CookieJar;$metadata=$null
+    try{$metadata=BrowserJson $api;Write-Host "Metadados no navegador: $($metadata.Name), $($metadata.Length) bytes";Log 'DIAGNOSTICO_METADADOS' @{nome=$metadata.Name;bytes=$metadata.Length}}
     catch{Write-Warning 'Metadados no navegador: leitura recusada.'}
     $tests=New-Object Collections.ArrayList
-    [void]$tests.Add(@{Label='metadados_terminal';Url=$api+'?$select=Name,Length,Exists,UniqueId,TimeLastModified'})
+    [void]$tests.Add(@{Label='metadados_terminal';Url=$api})
     $i=0;foreach($route in @(Routes $Remote)){[void]$tests.Add(@{Label=@('rest_caminho','url_direta','download_aspx')[$i];Url=$route});$i++}
     $id=[guid]::Empty
     if($metadata -and [guid]::TryParse([string]$metadata.UniqueId,[ref]$id)){[void]$tests.Add(@{Label='conteudo_por_id';Url=$script:Web+"/_api/web/GetFileById('$id')/`$value"})}
@@ -86,9 +86,8 @@ function Diagnose([string]$Remote){
 function BrowserTest($Parsed,[string]$Destination){
     $remote=$Parsed.Path
     while($true){
-        $api=RemoteEndpoint Folder $remote
-        $files=@(Collection ($api+'/Files?$select=Name,Length,ServerRelativeUrl,ETag&$top=20')|Select-Object -First 20)
-        $folders=@(Collection ($api+'/Folders?$select=Name,ServerRelativeUrl&$top=200')|Select-Object -First 200)
+        $files=@(Collection (RemoteEndpoint Folder $remote '/Files' '$select=Name,Length,ServerRelativeUrl,ETag&$top=20')|Select-Object -First 20)
+        $folders=@(Collection (RemoteEndpoint Folder $remote '/Folders' '$select=Name,ServerRelativeUrl&$top=200')|Select-Object -First 200)
         Write-Host "Pasta: $remote"
         for($n=0;$n -lt $folders.Count;$n++){Write-Host "P$($n+1). $($folders[$n].Name)"}
         $choice=Read-Host 'P e numero para abrir subpasta; ENTER para usar esta pasta'

@@ -121,6 +121,7 @@ done({status:r.status,data:await r.json()});}).catch(()=>done({status:0}));
         if($attempt -eq 4){break}
         if($r.status -in @(401,403)){Renew;continue}
         if($r.status -in @(0,429,503,500,502,504)){WaitSeconds (RetryDelay $r.retry ($attempt*3));continue}
+        Log 'LEITURA_SHAREPOINT_ERRO' @{http=$r.status;tamanho_url=$Endpoint.Length}
         throw "Leitura SharePoint falhou: HTTP $($r.status)."
     }
     throw "Leitura SharePoint falhou: HTTP $($r.status)."
@@ -142,12 +143,15 @@ function Collection([string]$Endpoint){
         if($next){$Endpoint=[uri]::new([uri]$Endpoint,[string]$next).AbsoluteUri}else{$Endpoint=$null}
     }
 }
-function RemoteEndpoint([string]$Kind,[string]$Path){
+function RemoteEndpoint([string]$Kind,[string]$Path,[string]$Suffix='',[string]$Query=''){
+    # Caminho vai na query string (alias @a1): no segmento da URL, caminhos longos geram HTTP 400.
     $literal=[uri]::EscapeDataString($Path.Replace("'","''")).Replace("'",'%27')
-    "$script:Web/_api/web/Get${Kind}ByServerRelativePath(decodedUrl='$literal')"
+    $url=$script:Web+'/_api/web/Get'+$Kind+'ByServerRelativePath(decodedUrl=@a1)'+$Suffix+"?@a1='"+$literal+"'"
+    if($Query){$url+='&'+$Query}
+    $url
 }
 function Routes([string]$Remote){
-    (RemoteEndpoint File $Remote)+'/$value'
+    RemoteEndpoint File $Remote '/$value'
     'https://'+$script:OriginUri.Host+(($Remote.Split('/')|ForEach-Object{[uri]::EscapeDataString($_)}) -join '/')
     $script:Web+'/_layouts/15/download.aspx?SourceUrl='+[uri]::EscapeDataString($Remote)
 }
@@ -177,7 +181,7 @@ function OpenFolder($Parsed) {
         $candidate='https://'+$Parsed.Host
         if($n -gt 0){$candidate+='/'+(($segments[0..($n-1)]|ForEach-Object{[uri]::EscapeDataString($_)}) -join '/')}
         try{$info=BrowserJson ($candidate+'/_api/web?$select=Url,Title');$script:Web=$info.Url.TrimEnd('/');break}
-        catch{if($_.Exception.Message -notmatch 'HTTP 404'){throw}}
+        catch{if($_.Exception.Message -notmatch 'HTTP (400|404)'){throw}}
     }
     if(!$script:Web -or ([uri]$script:Web).Host -ne $Parsed.Host){throw 'Site SharePoint nao localizado.'}
     Write-Host "Site: $script:Web";Log 'SITE_LOCALIZADO' @{host=$Parsed.Host;pasta=$Parsed.Path}
@@ -205,8 +209,7 @@ function BuildInventory([string]$Remote,[string]$Root,[string]$Inventory,[string
             if($visited.ContainsKey($path)){continue};$visited[$path]=$true
             [SharePointPS.LocalPaths]::EnsureDirectory($local)
             Write-Host "Inventariando: $path";Log 'PASTA_LIDA' @{remoto=$path;local=$local}
-            $endpoint=RemoteEndpoint Folder $path
-            foreach($file in @(Collection ($endpoint+'/Files?$select=Name,Length,ServerRelativeUrl,ETag,TimeLastModified&$top=500'))){
+            foreach($file in @(Collection (RemoteEndpoint Folder $path '/Files' '$select=Name,Length,ServerRelativeUrl,ETag,TimeLastModified&$top=500'))){
                 if(!$file.ServerRelativeUrl.StartsWith($path+'/',[StringComparison]::OrdinalIgnoreCase)){throw 'Arquivo fora da pasta.'}
                 $target=SafePath (Join-Path $local (LocalName $file.Name)) $Root
                 if($targets.ContainsKey($target)){throw 'Colisao entre nomes locais de arquivos/pastas.'};$targets[$target]=$true
@@ -216,7 +219,7 @@ function BuildInventory([string]$Remote,[string]$Root,[string]$Inventory,[string
                 Log 'ARQUIVO_INVENTARIADO' $row
             }
             if($Scope -eq 'recursive'){
-                foreach($folder in @(Collection ($endpoint+'/Folders?$select=Name,ServerRelativeUrl&$top=500'))){
+                foreach($folder in @(Collection (RemoteEndpoint Folder $path '/Folders' '$select=Name,ServerRelativeUrl&$top=500'))){
                     if(!$folder.ServerRelativeUrl.StartsWith($path+'/',[StringComparison]::OrdinalIgnoreCase)){throw 'Subpasta fora da origem.'}
                     $child=SafePath (Join-Path $local (LocalName $folder.Name)) $Root
                     if($targets.ContainsKey($child)){throw 'Colisao entre nomes locais de arquivos/pastas.'};$targets[$child]=$true
@@ -279,7 +282,7 @@ function RunTransfers([string]$Inventory,[string]$State,[string]$Root,$Totals){
                     Log 'DOWNLOAD_ERRO' @{remoto=$job.Row.Remote;local=$job.Row.Local;http=$result.Status;mensagem=$result.Message;correlacao=$result.Correlation;tentativa=$job.Attempt;esperado=$result.Expected;recebido=$result.Received;content_length=$result.ResponseLength;encoding=$result.ContentEncoding;etag=$result.ResponseETag}
                     if($result.SizeMismatch -and $job.Attempt -lt 3){
                         try{
-                            $fresh=BrowserJson ((RemoteEndpoint File $job.Row.Remote)+'?$select=Length,ETag,TimeLastModified')
+                            $fresh=BrowserJson (RemoteEndpoint File $job.Row.Remote '' '$select=Length,ETag,TimeLastModified')
                             $version=[string]$fresh.ETag;if(!$version){$version=[string]$fresh.TimeLastModified}
                             $newSize=0L
                             if($null -ne $fresh.Length -and [long]::TryParse([string]$fresh.Length,[ref]$newSize) -and $newSize -ge 0 -and
@@ -328,7 +331,7 @@ function RunTransfers([string]$Inventory,[string]$State,[string]$Root,$Totals){
 }
 function RunBatch($Parsed,[string]$Destination){
     $script:RemoteRoot=$Parsed.Path
-    $folder=BrowserJson ((RemoteEndpoint Folder $Parsed.Path)+'?$select=Name,ServerRelativeUrl')
+    $folder=BrowserJson (RemoteEndpoint Folder $Parsed.Path '' '$select=Name,ServerRelativeUrl')
     $base=[IO.Path]::GetFullPath($Destination);$rootName=LocalName $folder.Name
     $root=if([IO.Path]::GetFileName($base.TrimEnd('\')) -ieq $rootName){$base}else{Join-Path $base $rootName}
     $root=SafePath $root $base;[SharePointPS.LocalPaths]::EnsureDirectory($root)
