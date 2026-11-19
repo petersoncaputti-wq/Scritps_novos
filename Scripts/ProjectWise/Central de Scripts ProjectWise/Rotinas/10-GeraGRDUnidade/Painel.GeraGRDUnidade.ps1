@@ -16,6 +16,7 @@
         -CentralRoot $CentralRoot `
         -OnBack $OnBack `
         -PanelTitle '10 - Gera GRD para Unidade' `
+        -Etapas @('Use Simular para conferir sem alterar nada.', 'Iniciar rotina gera as GRDs e importa as planilhas.', 'Confira o resumo ao final.') `
         -PythonRelativePath 'Rotinas\10-GeraGRDUnidade\Executar.GeraGRDUnidade.ps1' `
         -LogPrefix 'PW_GeraGRDUnidade' `
         -LogDirectory '10-GeraGRDUnidade' `

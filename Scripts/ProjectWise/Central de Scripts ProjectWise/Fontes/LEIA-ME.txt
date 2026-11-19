@@ -1,0 +1,9 @@
+Lexend (Regular e SemiBold)
+Fonte oficial da marca, conforme Ecovias Brand Book (abril/2025), item 1.14.
+
+Origem: Google Fonts (https://fonts.google.com/specimen/Lexend)
+Licença: SIL Open Font License 1.1 - uso gratuito, inclusive comercial.
+
+A Central carrega estes arquivos somente para o próprio processo (Tema.ps1).
+Nada é instalado no Windows. Se a pasta for removida, a Central usa Verdana,
+que é a fonte de sistema indicada no brand book (item 1.15).

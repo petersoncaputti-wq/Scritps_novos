@@ -16,6 +16,7 @@
         -CentralRoot $CentralRoot `
         -OnBack $OnBack `
         -PanelTitle '07 - Criar buscas salvas' `
+        -Etapas @('Escolha as buscas salvas (ou use as padrão).', 'Escolha a concessão e os projetos.', 'Acompanhe a criação. Buscas que já existem são ignoradas.') `
         -PythonRelativePath '..\ExecucaoManualUsuario\06 - Criar Buscas Salvas em Projetos.ps1' `
         -LogPrefix 'PW_CriarBuscasSalvas' `
         -LogDirectory '07-CriarBuscasSalvas' `

@@ -85,4 +85,27 @@ $form.Show()
         . $RoutineScript
     }
     $Parent.Tag = [PSCustomObject]@{ Process = $null; Module = $routineModule; LogPath = $logPath }
+
+    # Visual da Central sobre a janela original (cores e bordas; posicoes nao mudam).
+    if (Get-Command Set-TemaControles -ErrorAction SilentlyContinue) {
+        $Parent.BackColor = $script:Tema.Fundo
+        Set-TemaControles -Raiz $Parent -Titulo '05 - Gerenciar usuários inativos'
+    }
+
+    # Layout que se ajusta a altura (o original exige 760px e era cortado em telas
+    # com escala). A grade de usuarios recebe a sobra; Etapa 4 e Acompanhamento
+    # ficam lado a lado no rodape.
+    $janela = @($Parent.Controls | Where-Object { $_ -is [System.Windows.Forms.Form] }) | Select-Object -First 1
+    if ($janela -and (Get-Command Set-TemaLayoutEtapas -ErrorAction SilentlyContinue)) {
+        $grupos = @($janela.Controls | Where-Object { $_ -is [System.Windows.Forms.GroupBox] })
+        $g1 = $grupos | Where-Object { $_.Text -like 'Etapa 1*' } | Select-Object -First 1
+        $g2 = $grupos | Where-Object { $_.Text -like 'Etapa 2*' } | Select-Object -First 1
+        $g3 = $grupos | Where-Object { $_.Text -like 'Etapa 3*' } | Select-Object -First 1
+        $g4 = $grupos | Where-Object { $_.Text -like 'Etapa 4*' } | Select-Object -First 1
+        $gLog = $grupos | Where-Object { $_.Text -eq 'Acompanhamento' } | Select-Object -First 1
+        if ($g1 -and $g2 -and $g3 -and $g4 -and $gLog) {
+            Set-TemaLayoutEtapas -Janela $janela -Topo $g1.Top -Superiores @($g1, $g2) -Principal $g3 `
+                -Inferiores @($g4, $gLog) -AlturaInferiorMin 80 -AlturaInferiorMax 120 -ProporcaoInferior 0.70 -AlturaPrincipalMin 200
+        }
+    }
 }

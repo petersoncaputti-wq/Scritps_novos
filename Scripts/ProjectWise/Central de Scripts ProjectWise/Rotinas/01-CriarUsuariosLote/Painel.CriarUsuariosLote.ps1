@@ -26,25 +26,35 @@
     $header = New-Object System.Windows.Forms.Panel
     $header.Dock = 'Fill'
     $header.Margin = New-Object System.Windows.Forms.Padding(0)
-    $header.BackColor = [System.Drawing.Color]::FromArgb(22, 54, 92)
+    # Cabecalho no mesmo padrao das demais rotinas: branco, "Voltar" e titulo em verde.
+    $header.BackColor = [System.Drawing.Color]::White
+    $header.Add_Paint({
+        param($c, $e)
+        $p = New-Object System.Drawing.Pen([System.Drawing.Color]::FromArgb(221, 229, 223))
+        $e.Graphics.DrawLine($p, 0, ($c.Height - 1), $c.Width, ($c.Height - 1))
+        $p.Dispose()
+    })
     $panelLayout.Controls.Add($header, 0, 0)
 
     $backButton = New-Object System.Windows.Forms.Button
-    $backButton.Text = '< Voltar'
+    $backButton.Text = '←  Voltar'
     $backButton.FlatStyle = 'Flat'
     $backButton.FlatAppearance.BorderSize = 0
-    $backButton.ForeColor = [System.Drawing.Color]::White
-    $backButton.BackColor = [System.Drawing.Color]::FromArgb(22, 54, 92)
-    $backButton.Location = New-Object System.Drawing.Point(12, 17)
-    $backButton.Size = New-Object System.Drawing.Size(80, 30)
+    $backButton.FlatAppearance.MouseOverBackColor = [System.Drawing.Color]::FromArgb(228, 243, 226)
+    $backButton.ForeColor = [System.Drawing.Color]::FromArgb(5, 107, 40)
+    $backButton.BackColor = [System.Drawing.Color]::White
+    $backButton.Font = New-Object System.Drawing.Font('Segoe UI', 9.5, [System.Drawing.FontStyle]::Bold)
+    $backButton.Cursor = [System.Windows.Forms.Cursors]::Hand
+    $backButton.Location = New-Object System.Drawing.Point(12, 14)
+    $backButton.Size = New-Object System.Drawing.Size(92, 36)
     $header.Controls.Add($backButton)
 
     $title = New-Object System.Windows.Forms.Label
-    $title.Text = 'Criar usuários em lote'
-    $title.ForeColor = [System.Drawing.Color]::White
-    $title.Font = New-Object System.Drawing.Font('Segoe UI Semibold', 16)
+    $title.Text = '01 - Criar usuários em lote'
+    $title.ForeColor = [System.Drawing.Color]::FromArgb(5, 107, 40)
+    $title.Font = if (Get-Command Get-TemaFonte -ErrorAction SilentlyContinue) { Get-TemaFonte -Papel Titulo -Tamanho 15 } else { New-Object System.Drawing.Font('Segoe UI Semibold', 15) }
     $title.AutoSize = $true
-    $title.Location = New-Object System.Drawing.Point(105, 15)
+    $title.Location = New-Object System.Drawing.Point(112, 17)
     $header.Controls.Add($title)
 
     $content = New-Object System.Windows.Forms.Panel
@@ -148,7 +158,7 @@
 
     $runButton = New-Object System.Windows.Forms.Button
     $runButton.Text = 'Validar planilha'
-    $runButton.BackColor = [System.Drawing.Color]::FromArgb(31, 105, 178)
+    $runButton.BackColor = [System.Drawing.Color]::FromArgb(5, 107, 40)
     $runButton.ForeColor = [System.Drawing.Color]::White
     $runButton.FlatStyle = 'Flat'
     $runButton.Dock = 'Fill'
@@ -214,8 +224,9 @@
 
     $logBox = New-Object System.Windows.Forms.RichTextBox
     $logBox.ReadOnly = $true
-    $logBox.BackColor = [System.Drawing.Color]::FromArgb(28, 31, 36)
-    $logBox.ForeColor = [System.Drawing.Color]::Gainsboro
+    # Acompanhamento claro, como nas demais rotinas.
+    $logBox.BackColor = [System.Drawing.Color]::White
+    $logBox.ForeColor = [System.Drawing.Color]::FromArgb(23, 37, 28)
     $logBox.Font = New-Object System.Drawing.Font('Consolas', 9)
     $logBox.Dock = 'Fill'
     $logBox.Margin = New-Object System.Windows.Forms.Padding(0)
@@ -284,8 +295,17 @@
     $appendLine = {
         param([string]$Line, [System.Drawing.Color]$Color)
         if ([string]::IsNullOrWhiteSpace($Line)) { return }
+        # As cores pastel eram para fundo escuro; no fundo claro usa os tons do tema.
+        $corClara = switch ($Color.Name) {
+            'LightGreen'   { [System.Drawing.Color]::FromArgb(30, 127, 58) }
+            'Salmon'       { [System.Drawing.Color]::FromArgb(196, 43, 28) }
+            'Khaki'        { [System.Drawing.Color]::FromArgb(168, 70, 12) }
+            'LightSkyBlue' { [System.Drawing.Color]::FromArgb(5, 107, 40) }
+            'Gainsboro'    { [System.Drawing.Color]::FromArgb(23, 37, 28) }
+            default        { $Color }
+        }
         $logBox.SelectionStart = $logBox.TextLength
-        $logBox.SelectionColor = $Color
+        $logBox.SelectionColor = $corClara
         $logBox.AppendText($Line + [Environment]::NewLine)
         $logBox.SelectionStart = $logBox.TextLength
         $logBox.ScrollToCaret()
@@ -635,5 +655,10 @@
 
     $Parent.Controls.Add($panel)
     $panel.BringToFront()
+    # Cartoes, botoes e grade no padrao da Central (Tema.ps1).
+    if (Get-Command Set-TemaControles -ErrorAction SilentlyContinue) {
+        $panel.BackColor = $script:Tema.Fundo
+        Set-TemaControles -Raiz $panel -SemTitulo
+    }
     return $panel
 }

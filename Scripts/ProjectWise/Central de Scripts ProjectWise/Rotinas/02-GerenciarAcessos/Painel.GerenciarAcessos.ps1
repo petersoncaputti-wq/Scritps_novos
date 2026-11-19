@@ -124,4 +124,30 @@ $form.Show()
         Process = $null
         Module  = $routineModule
     }
+
+    # Visual da Central sobre a janela original (cores e bordas; posicoes nao mudam).
+    if (Get-Command Set-TemaControles -ErrorAction SilentlyContinue) {
+        $Parent.BackColor = $script:Tema.Fundo
+        Set-TemaControles -Raiz $Parent -Titulo '02 - Gerenciar acessos de projetos'
+    }
+
+    # ---------------------------------------------------------
+    # Layout que se ajusta a altura disponivel.
+    # O original empilha 4 etapas e exige 810px de altura: em tela 1920x1080
+    # com escala de 125% (793px uteis maximizado) o fim era cortado e a lista
+    # de projetos ficava com ~100px. Aqui "Resumo" e "Acompanhamento" ficam
+    # lado a lado e a lista de projetos recebe a sobra de altura.
+    # ---------------------------------------------------------
+    $janela = @($Parent.Controls | Where-Object { $_ -is [System.Windows.Forms.Form] }) | Select-Object -First 1
+    if ($janela -and (Get-Command Set-TemaLayoutEtapas -ErrorAction SilentlyContinue)) {
+        $grupos = @($janela.Controls | Where-Object { $_ -is [System.Windows.Forms.GroupBox] })
+        $gUsuario = $grupos | Where-Object { $_.Text -like 'Etapa 1*' } | Select-Object -First 1
+        $gSelecao = $grupos | Where-Object { $_.Text -like 'Etapa 2*' } | Select-Object -First 1
+        $gResumo = $grupos | Where-Object { $_.Text -like 'Etapa 3*' } | Select-Object -First 1
+        $gLog = $grupos | Where-Object { $_.Text -eq 'Acompanhamento' } | Select-Object -First 1
+        if ($gUsuario -and $gSelecao -and $gResumo -and $gLog) {
+            Set-TemaLayoutEtapas -Janela $janela -Topo $gUsuario.Top -Superiores @($gUsuario) -Principal $gSelecao `
+                -Inferiores @($gResumo, $gLog) -AlturaInferiorMin 130 -AlturaInferiorMax 200 -AlturaPrincipalMin 240
+        }
+    }
 }

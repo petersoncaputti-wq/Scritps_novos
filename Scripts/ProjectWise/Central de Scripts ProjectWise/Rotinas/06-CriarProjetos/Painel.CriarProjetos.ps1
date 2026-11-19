@@ -16,6 +16,7 @@
         -CentralRoot $CentralRoot `
         -OnBack $OnBack `
         -PanelTitle '06 - Criar projetos no ProjectWise' `
+        -Etapas @('Faça login no ProjectWise.', 'Selecione a planilha de projetos.', 'Acompanhe a criação de cada projeto.') `
         -PythonRelativePath '..\ExecucaoManualUsuario\01 - Criar Projetos no ProjectWise.ps1' `
         -LogPrefix 'PW_CriarProjetos' `
         -LogDirectory '06-CriarProjetos' `

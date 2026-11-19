@@ -36,6 +36,10 @@ $script:AtualizandoCheckTree = $false
 $script:InicializacaoConcluida = $false
 $script:ProjetosCarregados = @()
 $script:CacheGruposPW = $null
+$script:IndiceGruposPW = $null
+$script:CacheParametrosCmdlet = @{}
+$script:VersaoCacheAcessos = 1
+$script:DiasValidadeCacheAcessos = 7
 $script:ResumoImportacaoUsuarios = $null
 $script:ResumoImportacaoProjetos = $null
 $script:FiltroExclusaoAvancado = ""
@@ -122,8 +126,12 @@ function Ask-UiYesNo {
 function Obter-ParametrosCmdlet {
     param([string]$NomeCmdlet)
 
-    $cmd = Get-Command $NomeCmdlet -ErrorAction Stop
-    return @($cmd.Parameters.Keys)
+    if (-not $script:CacheParametrosCmdlet) { $script:CacheParametrosCmdlet = @{} }
+    if (-not $script:CacheParametrosCmdlet.ContainsKey($NomeCmdlet)) {
+        $cmd = Get-Command $NomeCmdlet -ErrorAction Stop
+        $script:CacheParametrosCmdlet[$NomeCmdlet] = @($cmd.Parameters.Keys)
+    }
+    return @($script:CacheParametrosCmdlet[$NomeCmdlet])
 }
 
 function Obter-ValorSeguroPropriedade {
@@ -385,17 +393,10 @@ function Remover-AcentosTexto {
     }
 
     try {
+        # \p{Mn} = NonSpacingMark. Regex nativo e muito mais rapido que iterar
+        # caractere a caractere em PowerShell.
         $normalizado = $Texto.Normalize([System.Text.NormalizationForm]::FormD)
-        $builder = New-Object System.Text.StringBuilder
-
-        foreach ($ch in $normalizado.ToCharArray()) {
-            $categoria = [System.Globalization.CharUnicodeInfo]::GetUnicodeCategory($ch)
-            if ($categoria -ne [System.Globalization.UnicodeCategory]::NonSpacingMark) {
-                [void]$builder.Append($ch)
-            }
-        }
-
-        return $builder.ToString().Normalize([System.Text.NormalizationForm]::FormC)
+        return ([regex]::Replace($normalizado, '\p{Mn}', '')).Normalize([System.Text.NormalizationForm]::FormC)
     }
     catch {
         return $Texto
@@ -462,6 +463,41 @@ function Obter-TodosGruposPWCache {
 
     $script:CacheGruposPW = @($grupos)
     return @($script:CacheGruposPW)
+}
+
+# Indice com os nomes de grupos ja normalizados. A normalizacao (remocao de
+# acentos caractere a caractere) e cara; feita uma unica vez por sessao em vez
+# de repetida para cada grupo x cada projeto que cai no fallback.
+function Obter-IndiceGruposPW {
+    if ($null -ne $script:IndiceGruposPW) {
+        return $script:IndiceGruposPW
+    }
+
+    $inicio = Get-Date
+    $indice = New-Object System.Collections.Generic.List[object]
+    $rxAcento = New-Object System.Text.RegularExpressions.Regex('\p{Mn}', 'Compiled')
+    $rxTraco = New-Object System.Text.RegularExpressions.Regex('[–—]', 'Compiled')
+    $rxEspaco = New-Object System.Text.RegularExpressions.Regex('\s+', 'Compiled')
+    foreach ($grupo in @(Obter-TodosGruposPWCache)) {
+        if ($grupo -is [string]) { $nomeGrupo = $grupo.Trim() }
+        elseif ($grupo.PSObject.Properties['Name'] -and $grupo.Name) { $nomeGrupo = ([string]$grupo.Name).Trim() }
+        else { $nomeGrupo = Obter-NomeGrupoPW -Grupo $grupo }
+        if ([string]::IsNullOrWhiteSpace($nomeGrupo)) { continue }
+
+        # Mesmo resultado de Normalizar-TextoBuscaGrupo, sem o custo de 3 chamadas de funcao por grupo.
+        $norm = $rxAcento.Replace($nomeGrupo.Normalize([System.Text.NormalizationForm]::FormD), '').Normalize([System.Text.NormalizationForm]::FormC)
+        $norm = $rxEspaco.Replace($rxTraco.Replace($norm.Trim().ToLowerInvariant(), '-'), ' ').Trim()
+        $indice.Add([PSCustomObject]@{
+            Nome     = $nomeGrupo
+            Norm     = $norm
+            Compacto = ($norm -replace '[^a-z0-9]+', '')
+            Objeto   = $grupo
+        })
+    }
+
+    $script:IndiceGruposPW = $indice.ToArray()
+    Write-Log ("Indice de grupos montado: {0} grupo(s) em {1:N1}s." -f $script:IndiceGruposPW.Count, ((Get-Date) - $inicio).TotalSeconds)
+    return $script:IndiceGruposPW
 }
 
 function Obter-ApelidosProjetoParaBuscaGrupo {
@@ -531,8 +567,8 @@ function Obter-GruposInferidosPorProjeto {
         [array]$GroupsAtuais
     )
 
-    $gruposPW = Obter-TodosGruposPWCache
-    if (-not $gruposPW -or $gruposPW.Count -eq 0) {
+    $indiceGrupos = @(Obter-IndiceGruposPW)
+    if ($indiceGrupos.Count -eq 0) {
         return @()
     }
 
@@ -552,37 +588,38 @@ function Obter-GruposInferidosPorProjeto {
         if (-not [string]::IsNullOrWhiteSpace($nomeNorm)) { $nomesExistentes[$nomeNorm] = $true }
     }
 
-    $resultado = @()
-    foreach ($grupo in $gruposPW) {
-        $nomeGrupo = Obter-NomeGrupoPW -Grupo $grupo
-        if ([string]::IsNullOrWhiteSpace($nomeGrupo)) { continue }
-
-        $nomeGrupoNorm = Normalizar-TextoBuscaGrupo $nomeGrupo
-        if ($nomesExistentes.ContainsKey($nomeGrupoNorm)) { continue }
-
-        $nomeGrupoCompacto = Normalizar-TextoCompactoBuscaGrupo $nomeGrupoNorm
-        $match = $false
-
+    # Normaliza os apelidos uma unica vez (antes era feito dentro do laco de grupos).
+    $apelidosPreparados = @(
         foreach ($apelido in $apelidos) {
             $apelidoNorm = Normalizar-TextoBuscaGrupo $apelido
-            $apelidoCompacto = Normalizar-TextoCompactoBuscaGrupo $apelidoNorm
+            $apelidoCompacto = $apelidoNorm -replace '[^a-z0-9]+', ''
+            if ($apelidoCompacto.Length -ge 6) {
+                [PSCustomObject]@{ Norm = $apelidoNorm; Compacto = $apelidoCompacto }
+            }
+        }
+    )
 
-            if ($apelidoCompacto.Length -lt 6) { continue }
+    $ordinal = [System.StringComparison]::Ordinal
+    $resultado = New-Object System.Collections.Generic.List[object]
+    foreach ($g in $indiceGrupos) {
+        if ($nomesExistentes.ContainsKey($g.Norm)) { continue }
 
-            if ($nomeGrupoNorm -like "*$apelidoNorm*" -or $nomeGrupoCompacto -like "*$apelidoCompacto*") {
+        $match = $false
+        foreach ($a in $apelidosPreparados) {
+            if ($g.Norm.IndexOf($a.Norm, $ordinal) -ge 0 -or $g.Compacto.IndexOf($a.Compacto, $ordinal) -ge 0) {
                 $match = $true
                 break
             }
         }
 
         if ($match) {
-            $resultado += [PSCustomObject]@{
+            $resultado.Add([PSCustomObject]@{
                 Tipo     = "Group"
-                Nome     = $nomeGrupo
-                ObjetoPw = $grupo
+                Nome     = $g.Nome
+                ObjetoPw = $g.Objeto
                 Origem   = "InferidoPorNome"
-            }
-            $nomesExistentes[$nomeGrupoNorm] = $true
+            })
+            $nomesExistentes[$g.Norm] = $true
         }
     }
 
@@ -760,7 +797,8 @@ function Selecionar-ItemDialog {
     param(
         [array]$Itens,
         [string]$Titulo,
-        [string]$Descricao = ""
+        [string]$Descricao = "",
+        [scriptblock]$FormatarItem = $null
     )
 
     if (-not $Itens -or $Itens.Count -eq 0) {
@@ -788,7 +826,12 @@ function Selecionar-ItemDialog {
     $form.Controls.Add($listBox)
 
     foreach ($item in $Itens) {
-        $nome = Obter-NomeAmigavelItem -Item $item
+        if ($FormatarItem) {
+            $nome = [string](& $FormatarItem $item)
+        }
+        else {
+            $nome = Obter-NomeAmigavelItem -Item $item
+        }
         $null = $listBox.Items.Add([PSCustomObject]@{
             Texto = $nome
             Valor = $item
@@ -904,55 +947,118 @@ function Mostrar-ResumoConsolidadoDialog {
 # ---------------------------------------------------------
 # EXECUCAO - COMANDOS PW
 # ---------------------------------------------------------
+function Invocar-BuscaUsuariosPW {
+    param(
+        [string]$Valor,
+        [string]$Parametro
+    )
+
+    if ($Parametro) {
+        $argumentos = @{ $Parametro = $Valor; ErrorAction = 'SilentlyContinue' }
+        return @(Get-PWUsersByMatch @argumentos | Where-Object { $_ -ne $null })
+    }
+
+    return @(Get-PWUsersByMatch $Valor -ErrorAction SilentlyContinue | Where-Object { $_ -ne $null })
+}
+
+# Resolve um e-mail sem lancar excecao. Retorna um objeto com Status:
+#   Encontrado  -> um unico usuario com e-mail exato
+#   Parcial     -> um unico usuario retornado, mas o e-mail dele e diferente do informado
+#   Ambiguo     -> mais de um usuario possivel (Candidatos preenchido)
+#   NaoEncontrado / Erro
+function Resolver-UsuarioPW {
+    param([string]$Email)
+
+    $resultado = [PSCustomObject]@{
+        Email      = $Email
+        Status     = ""
+        Usuario    = $null
+        Candidatos = @()
+        Detalhe    = ""
+    }
+
+    try {
+        Write-Log "Buscando usuario pelo email: $Email"
+
+        if (-not $script:ParametrosGetPWUsersByMatch) {
+            $script:ParametrosGetPWUsersByMatch = @(Obter-ParametrosCmdlet -NomeCmdlet "Get-PWUsersByMatch")
+            Write-Log ("Parametros encontrados no cmdlet: " + ($script:ParametrosGetPWUsersByMatch -join ", "))
+        }
+        $parametros = $script:ParametrosGetPWUsersByMatch
+
+        $parametroPrincipal = @("Email", "Identity", "UserName", "UserId") | Where-Object { $parametros -contains $_ } | Select-Object -First 1
+        $usuarios = @(Invocar-BuscaUsuariosPW -Valor $Email -Parametro $parametroPrincipal)
+
+        # Alguns usuarios tem o e-mail como login, mas o campo Email vazio no PW.
+        if ($usuarios.Count -eq 0 -and $parametroPrincipal -ne "UserName" -and $parametros -contains "UserName") {
+            $usuarios = @(Invocar-BuscaUsuariosPW -Valor $Email -Parametro "UserName")
+            if ($usuarios.Count -gt 0) {
+                Write-Log "Usuario '$Email' localizado pelo login (UserName) em vez do campo Email."
+            }
+        }
+
+        if ($usuarios.Count -eq 0) {
+            $resultado.Status = "NaoEncontrado"
+            $resultado.Detalhe = "Nenhum usuario no ProjectWise com este e-mail. Verifique a grafia ou crie o usuario (rotina 01)."
+            Write-Log "Usuario NAO encontrado: $Email" "WARN"
+            return $resultado
+        }
+
+        $comEmailExato = @(
+            $usuarios | Where-Object {
+                $emailItem = Obter-ValorSeguroPropriedade -Objeto $_ -PossiveisNomes @("Email","EMail","Mail")
+                $loginItem = Obter-ValorSeguroPropriedade -Objeto $_ -PossiveisNomes @("UserName","LoginName","Name")
+                ($emailItem -and $emailItem -ieq $Email) -or ($loginItem -and $loginItem -ieq $Email)
+            }
+        )
+
+        if ($comEmailExato.Count -eq 1) {
+            Write-Log "Usuario localizado com correspondencia exata de email."
+            $resultado.Status = "Encontrado"
+            $resultado.Usuario = $comEmailExato[0]
+            return $resultado
+        }
+
+        if ($comEmailExato.Count -gt 1) {
+            $resultado.Status = "Ambiguo"
+            $resultado.Candidatos = $comEmailExato
+            $resultado.Detalhe = "$($comEmailExato.Count) usuarios com este mesmo e-mail no PW. Escolha o correto."
+            Write-Log "Usuario AMBIGUO: $Email ($($comEmailExato.Count) contas com o mesmo e-mail): $((@($comEmailExato | ForEach-Object { Obter-RotuloUsuario -Usuario $_ })) -join ' || ')" "WARN"
+            return $resultado
+        }
+
+        if ($usuarios.Count -eq 1) {
+            $emailRetornado = Obter-ValorSeguroPropriedade -Objeto $usuarios[0] -PossiveisNomes @("Email","EMail","Mail")
+            $resultado.Status = "Parcial"
+            $resultado.Usuario = $usuarios[0]
+            $resultado.Detalhe = "A busca retornou um usuario com e-mail diferente ('$emailRetornado'). Confira antes de incluir."
+            Write-Log "Usuario com correspondencia PARCIAL: informado '$Email', retornado '$emailRetornado'." "WARN"
+            return $resultado
+        }
+
+        $resultado.Status = "Ambiguo"
+        $resultado.Candidatos = $usuarios
+        $resultado.Detalhe = "$($usuarios.Count) usuarios parecidos, nenhum com e-mail exato. Escolha o correto."
+        Write-Log "Usuario AMBIGUO: $Email ($($usuarios.Count) resultados, nenhum exato)." "WARN"
+        return $resultado
+    }
+    catch {
+        $resultado.Status = "Erro"
+        $resultado.Detalhe = "Falha na consulta ao PW: $($_.Exception.Message)"
+        Write-Log "Erro ao buscar usuario '$Email'. Detalhe: $($_.Exception.Message)" "ERROR"
+        return $resultado
+    }
+}
+
 function Buscar-UsuarioPW {
     param([string]$Email)
 
-    Write-Log "Buscando usuario pelo email: $Email"
-
-    $parametros = Obter-ParametrosCmdlet -NomeCmdlet "Get-PWUsersByMatch"
-    Write-Log ("Parametros encontrados no cmdlet: " + ($parametros -join ", "))
-
-    $usuarios = $null
-
-    if ($parametros -contains "Email") {
-        $usuarios = @(Get-PWUsersByMatch -Email $Email -ErrorAction SilentlyContinue)
+    $r = Resolver-UsuarioPW -Email $Email
+    switch ($r.Status) {
+        "Encontrado" { return $r.Usuario }
+        "Parcial"    { return $r.Usuario }
+        default      { throw "Usuario '$Email': $($r.Detalhe)" }
     }
-    elseif ($parametros -contains "Identity") {
-        $usuarios = @(Get-PWUsersByMatch -Identity $Email -ErrorAction SilentlyContinue)
-    }
-    elseif ($parametros -contains "UserName") {
-        $usuarios = @(Get-PWUsersByMatch -UserName $Email -ErrorAction SilentlyContinue)
-    }
-    elseif ($parametros -contains "UserId") {
-        $usuarios = @(Get-PWUsersByMatch -UserId $Email -ErrorAction SilentlyContinue)
-    }
-    else {
-        $usuarios = @(Get-PWUsersByMatch $Email -ErrorAction SilentlyContinue)
-    }
-
-    $usuarios = @($usuarios | Where-Object { $_ -ne $null })
-
-    if (-not $usuarios -or $usuarios.Count -eq 0) {
-        throw "Nenhum usuario encontrado para o e-mail informado."
-    }
-
-    $usuariosComEmailExato = @(
-        $usuarios | Where-Object {
-            $emailItem = Obter-ValorSeguroPropriedade -Objeto $_ -PossiveisNomes @("Email","EMail","Mail")
-            $emailItem -and $emailItem.ToLower() -eq $Email.ToLower()
-        }
-    )
-
-    if ($usuariosComEmailExato.Count -eq 1) {
-        Write-Log "Usuario localizado com correspondencia exata de email."
-        return $usuariosComEmailExato[0]
-    }
-
-    if ($usuarios.Count -eq 1) {
-        return $usuarios[0]
-    }
-
-    throw "Mais de um usuario foi encontrado para este criterio."
 }
 
 function Get-PWRootFoldersSafe {
@@ -2438,8 +2544,29 @@ function Obter-UsuariosParaExecucao {
 function Obter-EmailsInformados {
     param([string]$Texto)
 
+    if ([string]::IsNullOrWhiteSpace($Texto)) {
+        return @()
+    }
+
+    # Remove espacos invisiveis e "mailto:" comuns quando o e-mail vem copiado do Outlook.
+    $limpo = $Texto -replace '[ ​﻿]', ' ' -replace '(?i)mailto:', ''
+
+    # Se ha "@", extrai somente os e-mails (aceita "Fulano <fulano@x.com>").
+    if ($limpo.Contains('@')) {
+        $extraidos = @(
+            [regex]::Matches($limpo, '[^\s<>"''()\[\];:,|]+@[^\s<>"''()\[\];:,|]+') |
+                ForEach-Object { $_.Value.Trim().TrimEnd('.') } |
+                Where-Object { $_ -ne "" } |
+                Select-Object -Unique
+        )
+        if ($extraidos.Count -gt 0) {
+            return $extraidos
+        }
+    }
+
+    # Sem "@": devolve o texto para que seja reportado como e-mail invalido.
     return @(
-        $Texto -split '[,;|\r\n]+' |
+        $limpo -split '[,;|\r\n]+' |
             ForEach-Object { $_.Trim() } |
             Where-Object { $_ -ne "" } |
             Select-Object -Unique
@@ -2485,10 +2612,31 @@ function Importar-EmailsUsuarios {
         throw "Arquivo nao encontrado: $CaminhoArquivo"
     }
 
+    $nomesColunaEmail = @("E-mail", "Email", "E-mails", "Emails", "Mail", "Usuario", "Usuário", "Usuarios", "Usuários", "User", "Login")
+
     $ext = [System.IO.Path]::GetExtension($CaminhoArquivo).ToLowerInvariant()
+    $planilhas = @()   # lista de @{ Nome; Dados }
     if ($ext -in @(".xlsx", ".xlsm")) {
+        if (-not (Get-Module -ListAvailable -Name ImportExcel)) {
+            throw "O modulo 'ImportExcel' nao esta instalado neste computador. Instale com: Install-Module ImportExcel -Scope CurrentUser`r`nOu salve a planilha como CSV e importe novamente."
+        }
         Import-Module ImportExcel -ErrorAction Stop
-        $dados = @(Import-Excel -Path $CaminhoArquivo)
+
+        try {
+            $nomesAbas = @(Get-ExcelSheetInfo -Path $CaminhoArquivo | ForEach-Object { $_.Name })
+        }
+        catch {
+            throw "Nao foi possivel abrir a planilha. Verifique se ela esta aberta no Excel (feche e tente de novo) ou corrompida.`r`nDetalhe: $($_.Exception.Message)"
+        }
+
+        foreach ($aba in $nomesAbas) {
+            try {
+                $planilhas += [PSCustomObject]@{ Nome = $aba; Dados = @(Import-Excel -Path $CaminhoArquivo -WorksheetName $aba) }
+            }
+            catch {
+                Write-Log "Aba '$aba' ignorada na leitura de usuarios: $($_.Exception.Message)" "WARN"
+            }
+        }
     }
     elseif ($ext -eq ".csv") {
         $primeiraLinha = Get-Content -Path $CaminhoArquivo -TotalCount 1
@@ -2499,25 +2647,62 @@ function Importar-EmailsUsuarios {
             $delimitador = ';'
         }
 
-        $dados = @(Import-Csv -Path $CaminhoArquivo -Delimiter $delimitador)
+        $planilhas += [PSCustomObject]@{ Nome = "CSV"; Dados = @(Import-Csv -Path $CaminhoArquivo -Delimiter $delimitador) }
     }
     else {
         throw "Extensao nao suportada: $ext. Use .xlsx, .xlsm ou .csv."
     }
 
-    if (-not $dados -or $dados.Count -eq 0) {
-        throw "A planilha selecionada nao possui usuarios."
+    # Escolhe a primeira aba que tenha coluna de e-mail reconhecida. Se nenhuma
+    # tiver, tenta achar uma coluna cujo conteudo seja majoritariamente e-mail.
+    $dados = $null
+    $colunaEmail = $null
+    $abaUsada = $null
+    $colunasVistas = New-Object System.Collections.Generic.List[string]
+
+    foreach ($planilha in $planilhas) {
+        if ($planilha.Dados.Count -eq 0) { continue }
+        $colunas = @($planilha.Dados[0].PSObject.Properties | ForEach-Object { $_.Name })
+        $colunasVistas.Add("[$($planilha.Nome)] " + ($colunas -join ", "))
+
+        $coluna = $colunas | Where-Object { $c = $_.Trim(); $nomesColunaEmail | Where-Object { $_ -ieq $c } } | Select-Object -First 1
+        if (-not $coluna) {
+            foreach ($c in $colunas) {
+                $valores = @($planilha.Dados | Select-Object -First 50 | ForEach-Object { [string]$_.$c } | Where-Object { $_ -and $_.Trim() })
+                $qtdEmail = @($valores | Where-Object { $_ -match '[^@\s<>]+@[^@\s<>]+\.[^@\s<>]+' }).Count
+                if ($valores.Count -gt 0 -and $qtdEmail -ge [Math]::Ceiling($valores.Count / 2)) {
+                    $coluna = $c
+                    Write-Log "Coluna de e-mail detectada pelo conteudo: '$c' (aba '$($planilha.Nome)')." "WARN"
+                    break
+                }
+            }
+        }
+
+        if ($coluna) {
+            $dados = $planilha.Dados
+            $colunaEmail = $coluna
+            $abaUsada = $planilha.Nome
+            break
+        }
+    }
+
+    if (-not $dados) {
+        if ($colunasVistas.Count -eq 0) {
+            throw "A planilha selecionada esta vazia (nenhuma linha de dados abaixo do cabecalho)."
+        }
+        throw "Nao encontrei a coluna de e-mail. A 1a linha deve ter um cabecalho como: E-mail, Email, Mail ou Usuario.`r`n`r`nColunas encontradas:`r`n$($colunasVistas -join "`r`n")"
     }
 
     $emails = New-Object System.Collections.Generic.List[string]
     $emailsUnicos = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
+    $linhaPorEmail = New-Object 'System.Collections.Generic.Dictionary[string,int]' ([System.StringComparer]::OrdinalIgnoreCase)
     $duplicados = New-Object System.Collections.Generic.List[string]
     $linhasSemEmail = New-Object System.Collections.Generic.List[int]
     $totalEmailsEncontrados = 0
     $numeroLinha = 2
 
     foreach ($linha in $dados) {
-        $valor = Obter-ValorCampoLinha -Linha $linha -Nomes @("E-mail", "Email", "Mail", "Usuario", "Usuário", "User")
+        $valor = Obter-ValorCampoLinha -Linha $linha -Nomes @($colunaEmail)
         if ([string]::IsNullOrWhiteSpace($valor)) {
             $linhasSemEmail.Add($numeroLinha)
             $numeroLinha++
@@ -2528,9 +2713,10 @@ function Importar-EmailsUsuarios {
             $totalEmailsEncontrados++
             if ($emailsUnicos.Add($email)) {
                 $emails.Add($email)
+                $linhaPorEmail[$email] = $numeroLinha
             }
             else {
-                $duplicados.Add($email)
+                $duplicados.Add("$email (linha $numeroLinha)")
             }
         }
 
@@ -2538,16 +2724,21 @@ function Importar-EmailsUsuarios {
     }
 
     if ($emails.Count -eq 0) {
-        throw "Nenhum e-mail foi encontrado. Use uma coluna chamada E-mail, Email, Mail ou Usuario."
+        throw "A coluna '$colunaEmail' (aba '$abaUsada') nao possui nenhum e-mail preenchido."
     }
 
+    Write-Log "Planilha de usuarios lida: aba '$abaUsada', coluna '$colunaEmail', $($dados.Count) linha(s), $($emails.Count) e-mail(s) unico(s)."
+
     $script:ResumoImportacaoUsuarios = [PSCustomObject]@{
+        Aba                     = $abaUsada
+        Coluna                  = $colunaEmail
         LinhasPlanilha          = $dados.Count
         TotalEmailsEncontrados  = $totalEmailsEncontrados
         EmailsUnicos            = $emails.Count
         DuplicadosIgnorados     = $duplicados.Count
         EmailsDuplicados        = @($duplicados | Select-Object -Unique)
         LinhasSemEmail          = @($linhasSemEmail.ToArray())
+        LinhaPorEmail           = $linhaPorEmail
     }
 
     return $emails.ToArray()
@@ -2637,33 +2828,388 @@ function Importar-NomesProjetos {
     return $projetos.ToArray()
 }
 
-function Confirmar-E-AdicionarUsuariosPorEmail {
+$script:RotulosStatusUsuario = @{
+    Encontrado    = "OK"
+    Escolhido     = "OK (escolhido)"
+    Parcial       = "Conferir"
+    Ambiguo       = "Mais de um"
+    NaoEncontrado = "Não encontrado"
+    Invalido      = "E-mail inválido"
+    Erro          = "Erro na consulta"
+}
+
+function Obter-RotuloUsuarioDetalhado {
+    param([object]$Usuario)
+
+    $nome = Obter-ValorSeguroPropriedade -Objeto $Usuario -PossiveisNomes @("Name","UserName","FullName")
+    $descricao = Obter-ValorSeguroPropriedade -Objeto $Usuario -PossiveisNomes @("Description","FullName")
+    $email = Obter-ValorSeguroPropriedade -Objeto $Usuario -PossiveisNomes @("Email","EMail","Mail")
+    $id = Obter-ValorSeguroPropriedade -Objeto $Usuario -PossiveisNomes @("UserID","UserId","ID","Id")
+    $desativado = Obter-ValorSeguroPropriedade -Objeto $Usuario -PossiveisNomes @("Disabled","IsDisabled")
+    $texto = "$nome | $email | ID: $id"
+    if ($descricao -and $descricao -ne $nome) { $texto += " | $descricao" }
+    if ($desativado -eq "True") { $texto += " | DESATIVADO" }
+    return $texto
+}
+
+function Resolver-ListaEmailsUsuarios {
     param(
         [string[]]$Emails,
-        [switch]$SubstituirQuandoUnico
+        $LinhaPorEmail = $null
     )
 
-    $adicionados = 0
+    $itens = New-Object System.Collections.Generic.List[object]
+    $total = @($Emails).Count
+    $i = 0
     foreach ($emailInformado in $Emails) {
-        $email = Validar-Email -Email $emailInformado
-        Write-UiLog "Buscando usuario: $email"
-        $usuario = Buscar-UsuarioPW -Email $email
+        $i++
+        $linha = ""
+        if ($LinhaPorEmail -and $LinhaPorEmail.ContainsKey($emailInformado)) {
+            $linha = [string]$LinhaPorEmail[$emailInformado]
+        }
 
-        $null = Validar-IdentificadoresUsuario -Usuario $usuario
-
-        $nome = Obter-ValorSeguroPropriedade -Objeto $usuario -PossiveisNomes @("Name","UserName","FullName")
-        $emailEncontrado = Obter-ValorSeguroPropriedade -Objeto $usuario -PossiveisNomes @("Email","EMail","Mail")
-        $login = Obter-ValorSeguroPropriedade -Objeto $usuario -PossiveisNomes @("LoginName","Login","UserID")
-
-        $confirmar = Ask-UiYesNo -Mensagem "Confirmar usuário encontrado?`r`n`r`nNome : $nome`r`nEmail: $emailEncontrado`r`nLogin: $login" -Titulo "Confirmar usuário"
-
-        if (-not $confirmar) {
-            Write-UiLog "Usuario nao confirmado: $email"
+        try {
+            $email = Validar-Email -Email $emailInformado
+        }
+        catch {
+            $itens.Add([PSCustomObject]@{
+                Linha = $linha; Email = $emailInformado; Status = "Invalido"; Usuario = $null; Candidatos = @()
+                Detalhe = "Formato de e-mail invalido."
+            })
+            Write-UiLog "[$i/$total] E-mail invalido$(if ($linha) { " (linha $linha)" }): $emailInformado"
+            Write-Log "E-mail invalido$(if ($linha) { " (linha $linha)" }): '$emailInformado'" "WARN"
             continue
         }
 
-        $adicionado = Adicionar-UsuarioSelecionado -Usuario $usuario -Substituir:$SubstituirQuandoUnico
-        if ($adicionado) {
+        Write-UiLog "[$i/$total] Buscando usuario: $email"
+        $r = Resolver-UsuarioPW -Email $email
+
+        if ($r.Usuario) {
+            try {
+                $null = Validar-IdentificadoresUsuario -Usuario $r.Usuario
+            }
+            catch {
+                $r.Status = "Erro"
+                $r.Detalhe = $_.Exception.Message
+                $r.Usuario = $null
+            }
+        }
+
+        $itens.Add([PSCustomObject]@{
+            Linha = $linha; Email = $email; Status = $r.Status; Usuario = $r.Usuario; Candidatos = @($r.Candidatos)
+            Detalhe = $r.Detalhe
+        })
+
+        if ($r.Status -ne "Encontrado") {
+            Write-UiLog "    -> $($script:RotulosStatusUsuario[$r.Status]): $($r.Detalhe)"
+        }
+    }
+
+    return $itens.ToArray()
+}
+
+function Salvar-PendenciasUsuarios {
+    param(
+        [array]$Itens,
+        [string]$Caminho
+    )
+
+    $pendentes = @($Itens | Where-Object { $_.Status -notin @("Encontrado", "Escolhido") })
+    if ($pendentes.Count -eq 0) {
+        return $null
+    }
+
+    $pendentes | ForEach-Object {
+        [PSCustomObject]@{
+            Linha    = $_.Linha
+            Email    = $_.Email
+            Situacao = $script:RotulosStatusUsuario[$_.Status]
+            Detalhe  = $_.Detalhe
+            Candidatos = (@($_.Candidatos | ForEach-Object { Obter-RotuloUsuarioDetalhado -Usuario $_ }) -join " || ")
+        }
+    } | Export-Csv -Path $Caminho -NoTypeInformation -Delimiter ';' -Encoding UTF8
+
+    return $Caminho
+}
+
+function Atualizar-LinhaRevisaoUsuario {
+    param([int]$Indice)
+
+    $item = $script:RevisaoUsuariosItens[$Indice]
+    $row = $script:RevisaoUsuariosGrid.Rows[$Indice]
+    $u = $item.Usuario
+
+    $row.Cells["Situacao"].Value = $script:RotulosStatusUsuario[$item.Status]
+    $row.Cells["Nome"].Value = if ($u) { Obter-ValorSeguroPropriedade -Objeto $u -PossiveisNomes @("Name","UserName","FullName") } else { "" }
+    $row.Cells["EmailPW"].Value = if ($u) { Obter-ValorSeguroPropriedade -Objeto $u -PossiveisNomes @("Email","EMail","Mail") } else { "" }
+    $row.Cells["Detalhe"].Value = $item.Detalhe
+
+    $podeIncluir = [bool]$u
+    $row.Cells["Incluir"].ReadOnly = -not $podeIncluir
+    if (-not $podeIncluir) { $row.Cells["Incluir"].Value = $false }
+
+    $cor = switch ($item.Status) {
+        "Encontrado" { [System.Drawing.Color]::White }
+        "Escolhido"  { [System.Drawing.Color]::Honeydew }
+        "Parcial"    { [System.Drawing.Color]::LightYellow }
+        "Ambiguo"    { [System.Drawing.Color]::Moccasin }
+        default      { [System.Drawing.Color]::MistyRose }
+    }
+    $row.DefaultCellStyle.BackColor = $cor
+}
+
+function Atualizar-ResumoRevisaoUsuarios {
+    $itens = $script:RevisaoUsuariosItens
+    $ok = @($itens | Where-Object { $_.Status -in @("Encontrado","Escolhido") }).Count
+    $conferir = @($itens | Where-Object { $_.Status -eq "Parcial" }).Count
+    $ambiguos = @($itens | Where-Object { $_.Status -eq "Ambiguo" }).Count
+    $falhas = @($itens | Where-Object { $_.Status -in @("NaoEncontrado","Invalido","Erro") }).Count
+
+    $marcados = 0
+    foreach ($row in $script:RevisaoUsuariosGrid.Rows) {
+        if ($row.Cells["Incluir"].Value -eq $true) { $marcados++ }
+    }
+
+    $script:RevisaoUsuariosLabel.Text = "Total: $($itens.Count)   |   OK: $ok   |   Conferir: $conferir   |   Mais de um: $ambiguos   |   Não encontrados/inválidos: $falhas`r`n" +
+        "Linhas vermelhas não serão incluídas. Linhas laranja: dê duplo clique para escolher o usuário correto. Linhas amarelas: confira e marque se estiver certo."
+    $script:RevisaoUsuariosBtnOk.Text = "Incluir marcados ($marcados)"
+    $script:RevisaoUsuariosBtnOk.Enabled = $marcados -gt 0
+}
+
+function Escolher-CandidatoRevisaoUsuario {
+    param([int]$Indice)
+
+    if ($Indice -lt 0) { return }
+    $item = $script:RevisaoUsuariosItens[$Indice]
+    if (@($item.Candidatos).Count -eq 0) { return }
+
+    try {
+        $escolhido = Selecionar-ItemDialog -Itens @($item.Candidatos) -Titulo "Escolher usuário" `
+            -Descricao "Mais de um usuário para '$($item.Email)'. Selecione o correto:" `
+            -FormatarItem { param($u) Obter-RotuloUsuarioDetalhado -Usuario $u }
+    }
+    catch {
+        return
+    }
+
+    $item.Usuario = $escolhido
+    $item.Status = "Escolhido"
+    $item.Detalhe = "Escolhido manualmente entre $(@($item.Candidatos).Count) candidatos."
+    Write-Log "Usuario '$($item.Email)' resolvido manualmente: $(Obter-RotuloUsuarioDetalhado -Usuario $escolhido)"
+    Atualizar-LinhaRevisaoUsuario -Indice $Indice
+    $script:RevisaoUsuariosGrid.Rows[$Indice].Cells["Incluir"].Value = $true
+    Atualizar-ResumoRevisaoUsuarios
+}
+
+# Mostra uma unica tela com o resultado de todos os e-mails. Retorna os usuarios
+# marcados para inclusao, ou $null se o operador cancelar.
+function Mostrar-RevisaoUsuariosDialog {
+    param([array]$Itens)
+
+    $script:RevisaoUsuariosItens = @($Itens)
+
+    $dlg = New-Object System.Windows.Forms.Form
+    $dlg.Text = "Revisar usuários da planilha"
+    $dlg.Size = New-Object System.Drawing.Size(1150, 620)
+    $dlg.MinimumSize = New-Object System.Drawing.Size(900, 450)
+    $dlg.StartPosition = "CenterParent"
+    $dlg.ShowInTaskbar = $false
+
+    $label = New-Object System.Windows.Forms.Label
+    $label.Dock = [System.Windows.Forms.DockStyle]::Top
+    $label.Height = 48
+    $label.Padding = New-Object System.Windows.Forms.Padding(8, 6, 8, 0)
+    $script:RevisaoUsuariosLabel = $label
+
+    $grid = New-Object System.Windows.Forms.DataGridView
+    $grid.Dock = [System.Windows.Forms.DockStyle]::Fill
+    $grid.AllowUserToAddRows = $false
+    $grid.AllowUserToDeleteRows = $false
+    $grid.RowHeadersVisible = $false
+    $grid.SelectionMode = [System.Windows.Forms.DataGridViewSelectionMode]::FullRowSelect
+    $grid.MultiSelect = $false
+    $grid.AutoSizeColumnsMode = [System.Windows.Forms.DataGridViewAutoSizeColumnsMode]::Fill
+    $grid.BackgroundColor = [System.Drawing.Color]::White
+    $script:RevisaoUsuariosGrid = $grid
+
+    $colIncluir = New-Object System.Windows.Forms.DataGridViewCheckBoxColumn
+    $colIncluir.Name = "Incluir"; $colIncluir.HeaderText = "Incluir"; $colIncluir.FillWeight = 22
+    [void]$grid.Columns.Add($colIncluir)
+    foreach ($def in @(
+        @("Linha", "Linha", 22), @("Email", "E-mail na planilha", 110), @("Situacao", "Situação", 45),
+        @("Nome", "Nome no PW", 70), @("EmailPW", "E-mail no PW", 100), @("Detalhe", "Detalhe", 170)
+    )) {
+        $col = New-Object System.Windows.Forms.DataGridViewTextBoxColumn
+        $col.Name = $def[0]; $col.HeaderText = $def[1]; $col.FillWeight = $def[2]; $col.ReadOnly = $true
+        [void]$grid.Columns.Add($col)
+    }
+
+    for ($i = 0; $i -lt $script:RevisaoUsuariosItens.Count; $i++) {
+        $item = $script:RevisaoUsuariosItens[$i]
+        $idx = $grid.Rows.Add()
+        $grid.Rows[$idx].Cells["Linha"].Value = $item.Linha
+        $grid.Rows[$idx].Cells["Email"].Value = $item.Email
+        $grid.Rows[$idx].Cells["Incluir"].Value = ($item.Status -eq "Encontrado")
+        Atualizar-LinhaRevisaoUsuario -Indice $idx
+    }
+
+    $grid.Add_CurrentCellDirtyStateChanged({
+        if ($script:RevisaoUsuariosGrid.IsCurrentCellDirty) {
+            $script:RevisaoUsuariosGrid.CommitEdit([System.Windows.Forms.DataGridViewDataErrorContexts]::Commit) | Out-Null
+        }
+    })
+    $grid.Add_CellValueChanged({ Atualizar-ResumoRevisaoUsuarios })
+    $grid.Add_CellDoubleClick({
+        param($s, $e)
+        if ($e.RowIndex -ge 0) { Escolher-CandidatoRevisaoUsuario -Indice $e.RowIndex }
+    })
+
+    $painelBotoes = New-Object System.Windows.Forms.FlowLayoutPanel
+    $painelBotoes.Dock = [System.Windows.Forms.DockStyle]::Bottom
+    $painelBotoes.Height = 46
+    $painelBotoes.FlowDirection = [System.Windows.Forms.FlowDirection]::RightToLeft
+    $painelBotoes.Padding = New-Object System.Windows.Forms.Padding(6)
+
+    $btnCancelar = New-Object System.Windows.Forms.Button
+    $btnCancelar.Text = "Cancelar"; $btnCancelar.Size = New-Object System.Drawing.Size(100, 30)
+    $btnCancelar.DialogResult = [System.Windows.Forms.DialogResult]::Cancel
+
+    $btnOk = New-Object System.Windows.Forms.Button
+    $btnOk.Size = New-Object System.Drawing.Size(170, 30)
+    $btnOk.DialogResult = [System.Windows.Forms.DialogResult]::OK
+    $script:RevisaoUsuariosBtnOk = $btnOk
+
+    $btnEscolher = New-Object System.Windows.Forms.Button
+    $btnEscolher.Text = "Escolher usuário..."; $btnEscolher.Size = New-Object System.Drawing.Size(140, 30)
+    $btnEscolher.Add_Click({
+        $linhaAtual = $script:RevisaoUsuariosGrid.CurrentRow
+        if ($linhaAtual) { Escolher-CandidatoRevisaoUsuario -Indice $linhaAtual.Index }
+    })
+
+    $btnCopiar = New-Object System.Windows.Forms.Button
+    $btnCopiar.Text = "Copiar pendências"; $btnCopiar.Size = New-Object System.Drawing.Size(140, 30)
+    $btnCopiar.Add_Click({
+        $linhas = @($script:RevisaoUsuariosItens | Where-Object { $_.Status -notin @("Encontrado","Escolhido") } | ForEach-Object {
+            "{0}`t{1}`t{2}`t{3}" -f $_.Linha, $_.Email, $script:RotulosStatusUsuario[$_.Status], $_.Detalhe
+        })
+        if ($linhas.Count -gt 0) {
+            [System.Windows.Forms.Clipboard]::SetText("Linha`tE-mail`tSituacao`tDetalhe`r`n" + ($linhas -join "`r`n"))
+            Show-UiInfo "$($linhas.Count) pendência(s) copiada(s). Cole no Excel ou no e-mail."
+        }
+    })
+
+    $painelBotoes.Controls.AddRange(@($btnCancelar, $btnOk, $btnEscolher, $btnCopiar))
+
+    $dlg.Controls.Add($grid)
+    $dlg.Controls.Add($label)
+    $dlg.Controls.Add($painelBotoes)
+    $dlg.CancelButton = $btnCancelar
+
+    Atualizar-ResumoRevisaoUsuarios
+
+    $resultadoDialogo = $dlg.ShowDialog()
+
+    $selecionados = New-Object System.Collections.Generic.List[object]
+    for ($i = 0; $i -lt $grid.Rows.Count; $i++) {
+        $item = $script:RevisaoUsuariosItens[$i]
+        if ($grid.Rows[$i].Cells["Incluir"].Value -eq $true -and $item.Usuario) {
+            $selecionados.Add($item.Usuario)
+        }
+    }
+    $dlg.Dispose()
+
+    if ($resultadoDialogo -ne [System.Windows.Forms.DialogResult]::OK) {
+        return $null
+    }
+    return ,$selecionados.ToArray()
+}
+
+function Confirmar-E-AdicionarUsuariosPorEmail {
+    param(
+        [string[]]$Emails,
+        [switch]$SubstituirQuandoUnico,
+        $LinhaPorEmail = $null
+    )
+
+    $script:UltimaResolucaoUsuarios = $null
+    $itens = @(Resolver-ListaEmailsUsuarios -Emails $Emails -LinhaPorEmail $LinhaPorEmail)
+
+    # Um unico e-mail digitado: mantem a confirmacao simples, mas com mensagem clara.
+    if ($itens.Count -eq 1 -and -not $LinhaPorEmail) {
+        $item = $itens[0]
+        switch ($item.Status) {
+            "Ambiguo" {
+                try {
+                    $item.Usuario = Selecionar-ItemDialog -Itens @($item.Candidatos) -Titulo "Escolher usuário" `
+                        -Descricao "Mais de um usuário para '$($item.Email)'. Selecione o correto:" `
+                        -FormatarItem { param($u) Obter-RotuloUsuarioDetalhado -Usuario $u }
+                }
+                catch {
+                    Write-UiLog "Selecao cancelada para: $($item.Email)"
+                    return 0
+                }
+            }
+            { $_ -in @("NaoEncontrado", "Invalido", "Erro") } {
+                throw "Usuário '$($item.Email)': $($script:RotulosStatusUsuario[$item.Status]).`r`n`r`n$($item.Detalhe)"
+            }
+        }
+
+        $u = $item.Usuario
+        $nome = Obter-ValorSeguroPropriedade -Objeto $u -PossiveisNomes @("Name","UserName","FullName")
+        $emailEncontrado = Obter-ValorSeguroPropriedade -Objeto $u -PossiveisNomes @("Email","EMail","Mail")
+        $login = Obter-ValorSeguroPropriedade -Objeto $u -PossiveisNomes @("LoginName","Login","UserID")
+        $aviso = if ($item.Status -eq "Parcial") { "ATENÇÃO: o e-mail encontrado é diferente do informado ($($item.Email)).`r`n`r`n" } else { "" }
+
+        if (-not (Ask-UiYesNo -Mensagem "${aviso}Confirmar usuário encontrado?`r`n`r`nNome : $nome`r`nEmail: $emailEncontrado`r`nLogin: $login" -Titulo "Confirmar usuário")) {
+            Write-UiLog "Usuario nao confirmado: $($item.Email)"
+            return 0
+        }
+
+        if (Adicionar-UsuarioSelecionado -Usuario $u -Substituir:$SubstituirQuandoUnico) {
+            Write-UiLog "Usuario confirmado: $nome"
+            return 1
+        }
+        Write-UiLog "Usuario ja estava na lista: $nome"
+        return 0
+    }
+
+    # Lote: uma tela de revisao para tudo, sem interromper no primeiro problema.
+    $selecionados = Mostrar-RevisaoUsuariosDialog -Itens $itens
+
+    $caminhoPendencias = $null
+    try {
+        $caminhoPendencias = Salvar-PendenciasUsuarios -Itens $itens -Caminho (Join-Path $PastaLog ("UsuariosPendentes_{0}.csv" -f (Get-Date -Format "yyyyMMdd_HHmmss")))
+        if ($caminhoPendencias) {
+            Write-Log "Pendencias de usuarios salvas em: $caminhoPendencias" "WARN"
+        }
+    }
+    catch {
+        Write-Log "Nao foi possivel salvar o CSV de pendencias: $($_.Exception.Message)" "WARN"
+    }
+
+    $script:UltimaResolucaoUsuarios = [PSCustomObject]@{
+        Itens             = $itens
+        Cancelado         = ($null -eq $selecionados)
+        CaminhoPendencias = $caminhoPendencias
+    }
+
+    $pendentes = @($itens | Where-Object { $_.Status -notin @("Encontrado","Escolhido") -and -not ($_.Status -eq "Parcial" -and $selecionados -contains $_.Usuario) })
+    if ($pendentes.Count -gt 0) {
+        Write-UiLog "Usuarios com pendencia ($($pendentes.Count)):"
+        foreach ($p in $pendentes) {
+            Write-UiLog (" - {0}{1} | {2} | {3}" -f $(if ($p.Linha) { "linha $($p.Linha): " } else { "" }), $p.Email, $script:RotulosStatusUsuario[$p.Status], $p.Detalhe)
+        }
+    }
+
+    if ($null -eq $selecionados) {
+        Write-UiLog "Importacao de usuarios cancelada pelo operador. Nenhum usuario foi adicionado."
+        return 0
+    }
+
+    $adicionados = 0
+    foreach ($u in $selecionados) {
+        $nome = Obter-ValorSeguroPropriedade -Objeto $u -PossiveisNomes @("Name","UserName","FullName")
+        if (Adicionar-UsuarioSelecionado -Usuario $u) {
             $adicionados++
             Write-UiLog "Usuario confirmado: $nome"
         }
@@ -2856,11 +3402,178 @@ function Mesclar-SelecoesProjetos {
     )
 }
 
+# ---------------------------------------------------------
+# CACHE LOCAL DE ACESSOS POR CONCESSAO
+# A lista de projetos e sempre lida do PW; o cache guarda apenas os groups /
+# user lists de cada projeto (por ID), que mudam raramente. Projetos novos ou
+# com cache vencido sao lidos novamente do PW.
+# ---------------------------------------------------------
+function Obter-CaminhoCacheConcessao {
+    param([string]$IdConcessao)
+
+    $datasource = "pw"
+    try {
+        if (Get-Command Get-PWCurrentDatasource -ErrorAction SilentlyContinue) {
+            $ds = Get-PWCurrentDatasource -ErrorAction Stop
+            if ($ds) { $datasource = [string]$ds }
+        }
+    }
+    catch { }
+    $datasource = $datasource -replace '[^A-Za-z0-9_.-]+', '_'
+
+    $pasta = Join-Path $env:LOCALAPPDATA "CentralScriptsPW\02-GerenciarAcessos\Cache"
+    if (-not (Test-Path -LiteralPath $pasta)) {
+        New-Item -ItemType Directory -Path $pasta -Force | Out-Null
+    }
+    return (Join-Path $pasta ("acessos_{0}_{1}.json" -f $datasource, $IdConcessao))
+}
+
+function Ler-CacheConcessao {
+    param([string]$IdConcessao)
+
+    $mapa = @{}
+    try {
+        $caminho = Obter-CaminhoCacheConcessao -IdConcessao $IdConcessao
+        if (-not (Test-Path -LiteralPath $caminho)) {
+            return $mapa
+        }
+
+        $dados = Get-Content -LiteralPath $caminho -Raw -Encoding UTF8 | ConvertFrom-Json
+        if ($dados.Versao -ne $script:VersaoCacheAcessos) {
+            return $mapa
+        }
+        foreach ($p in @($dados.Projetos)) {
+            if ($p -and $p.ProjetoId) { $mapa[[string]$p.ProjetoId] = $p }
+        }
+    }
+    catch {
+        Write-Log "Cache de acessos ignorado (arquivo invalido): $($_.Exception.Message)" "WARN"
+        $mapa = @{}
+    }
+    return $mapa
+}
+
+function Salvar-CacheConcessao {
+    param(
+        [string]$IdConcessao,
+        [array]$Entradas
+    )
+
+    try {
+        $caminho = Obter-CaminhoCacheConcessao -IdConcessao $IdConcessao
+        $conteudo = [PSCustomObject]@{
+            Versao   = $script:VersaoCacheAcessos
+            SalvoEm  = (Get-Date).ToString("o")
+            Projetos = @($Entradas)
+        }
+        $json = ConvertTo-Json -InputObject $conteudo -Depth 6 -Compress
+        [System.IO.File]::WriteAllText($caminho, $json, (New-Object System.Text.UTF8Encoding($false)))
+    }
+    catch {
+        Write-Log "Nao foi possivel salvar o cache de acessos: $($_.Exception.Message)" "WARN"
+    }
+}
+
+function Obter-InfoCacheConcessao {
+    param([string]$IdConcessao)
+
+    try {
+        $caminho = Obter-CaminhoCacheConcessao -IdConcessao $IdConcessao
+        if (Test-Path -LiteralPath $caminho) {
+            return Get-Item -LiteralPath $caminho
+        }
+    }
+    catch { }
+    return $null
+}
+
+function Converter-AcessosParaCache {
+    param([array]$Acessos)
+
+    return @($Acessos | Where-Object { $_ } | ForEach-Object {
+        [PSCustomObject]@{ Tipo = [string]$_.Tipo; Nome = [string]$_.Nome; Origem = [string]$_.Origem }
+    })
+}
+
+function Converter-AcessosDoCache {
+    param($Acessos)
+
+    # ObjetoPw nao e persistido: a execucao usa apenas Tipo/Nome.
+    return @(@($Acessos) | Where-Object { $_ -and $_.Nome } | ForEach-Object {
+        [PSCustomObject]@{ Tipo = [string]$_.Tipo; Nome = [string]$_.Nome; ObjetoPw = $null; Origem = [string]$_.Origem }
+    })
+}
+
+function Ler-AcessosProjetoDoPW {
+    param(
+        [object]$Projeto,
+        [string]$NomeProjeto,
+        [string]$NomeProjetoTecnico
+    )
+
+    $seguranca = Ler-SegurancaProjeto -PastaProjeto $Projeto
+    $acessos = Filtrar-AcessosProjeto -ObjetosSeguranca $seguranca["TodosAcessos"]
+
+    $groups = New-Object System.Collections.Generic.List[object]
+    $userLists = New-Object System.Collections.Generic.List[object]
+    $outrosAcessos = New-Object System.Collections.Generic.List[object]
+
+    foreach ($acesso in $acessos) {
+        $tipo = Descobrir-TipoAcesso -Acesso $acesso
+        $nomeAcesso = Obter-NomeAcesso -Acesso $acesso
+        if ([string]::IsNullOrWhiteSpace($nomeAcesso)) {
+            continue
+        }
+
+        $itemAcesso = [PSCustomObject]@{
+            Tipo     = $tipo
+            Nome     = $nomeAcesso
+            ObjetoPw = $acesso
+            Origem   = "PW"
+        }
+
+        if ($tipo -eq 'Group') { $groups.Add($itemAcesso) }
+        elseif ($tipo -eq 'UserList') { $userLists.Add($itemAcesso) }
+        else { $outrosAcessos.Add($itemAcesso) }
+    }
+
+    # FALLBACK INTELIGENTE:
+    # Se a API não retornou groups suficientes na segurança da pasta/projeto,
+    # tenta localizar grupos existentes pelo padrão do nome do projeto.
+    # Isso cobre cenários em que o ProjectWise Administrator mostra groups no nível de projeto,
+    # mas o módulo pwps_dab não expõe um cmdlet de Project Security no ambiente.
+    if ($groups.Count -lt 3) {
+        Write-Log "Projeto '$NomeProjeto' retornou apenas $($groups.Count) group(s) pela API. Tentando fallback por nome..." "WARN"
+        # PowerShell 5.1: passar @(List[object]) direto como argumento gera
+        # "Os tipos de argumento nao correspondem". Converte antes.
+        [object[]]$groupsAtuais = $groups.ToArray()
+        $gruposInferidos = @(Obter-GruposInferidosPorProjeto `
+            -ProjetoNome $NomeProjeto `
+            -ProjetoNomeTecnico $NomeProjetoTecnico `
+            -GroupsAtuais $groupsAtuais)
+
+        foreach ($g in $gruposInferidos) { $groups.Add($g) }
+    }
+
+    [object[]]$arrGroups = $groups.ToArray()
+    [object[]]$arrUserLists = $userLists.ToArray()
+    [object[]]$arrOutros = $outrosAcessos.ToArray()
+    return [PSCustomObject]@{
+        Groups        = $arrGroups
+        UserLists     = $arrUserLists
+        OutrosAcessos = $arrOutros
+    }
+}
+
 function Carregar-ArvoreProjetosDaConcessao {
-    param([object]$Concessao)
+    param(
+        [object]$Concessao,
+        [switch]$IgnorarCache
+    )
 
     Limpar-ArvoreProjetos
     $script:ProjetosCarregados = @()
+    $inicioCarga = Get-Date
 
     $nomeConcessao = Obter-RotuloConcessao -Concessao $Concessao
     $idConcessao = Obter-IdPasta -Pasta $Concessao
@@ -2886,60 +3599,59 @@ function Carregar-ArvoreProjetosDaConcessao {
         throw "Nenhum projeto foi encontrado para a concessao selecionada."
     }
 
+    $cache = @{}
+    if (-not $IgnorarCache) {
+        $cache = Ler-CacheConcessao -IdConcessao $idConcessao
+    }
+    $entradasCache = New-Object System.Collections.Generic.List[object]
+    $listaCarregados = New-Object System.Collections.Generic.List[object]
+    $qtdDoCache = 0
+    $qtdDoPW = 0
+    $total = @($projetos).Count
+    $indice = 0
+
     foreach ($projeto in $projetos) {
+        $indice++
         $nomeProjeto = Obter-RotuloProjeto -Projeto $projeto
         $nomeProjetoTecnico = Obter-ValorSeguroPropriedade -Objeto $projeto -PossiveisNomes @("Name","FolderName","ProjectName")
         $idProjeto = Obter-IdPasta -Pasta $projeto
 
-        Write-UiLog "Lendo acessos do projeto '$nomeProjeto'..."
-        $seguranca = Ler-SegurancaProjeto -PastaProjeto $projeto
-        $acessos = Filtrar-AcessosProjeto -ObjetosSeguranca $seguranca["TodosAcessos"]
-
-        $groups = @()
-        $userLists = @()
-        $outrosAcessos = @()
-
-        foreach ($acesso in $acessos) {
-            $tipo = Descobrir-TipoAcesso -Acesso $acesso
-            $nomeAcesso = Obter-NomeAcesso -Acesso $acesso
-            if ([string]::IsNullOrWhiteSpace($nomeAcesso)) {
-                continue
-            }
-
-            $itemAcesso = [PSCustomObject]@{
-                Tipo     = $tipo
-                Nome     = $nomeAcesso
-                ObjetoPw = $acesso
-                Origem   = "PW"
-            }
-
-            if ($tipo -eq 'Group') {
-                $groups += $itemAcesso
-            }
-            elseif ($tipo -eq 'UserList') {
-                $userLists += $itemAcesso
-            }
-            else {
-                $outrosAcessos += $itemAcesso
+        $entrada = $null
+        if ($idProjeto -and $cache.ContainsKey([string]$idProjeto)) {
+            $entrada = $cache[[string]$idProjeto]
+            $dataCache = [datetime]::MinValue
+            if (-not [datetime]::TryParse([string]$entrada.LidoEm, [ref]$dataCache) -or
+                ((Get-Date) - $dataCache).TotalDays -gt $script:DiasValidadeCacheAcessos) {
+                $entrada = $null
             }
         }
 
-        # FALLBACK INTELIGENTE:
-        # Se a API não retornou groups suficientes na segurança da pasta/projeto,
-        # tenta localizar grupos existentes pelo padrão do nome do projeto.
-        # Isso cobre cenários em que o ProjectWise Administrator mostra groups no nível de projeto,
-        # mas o módulo pwps_dab não expõe um cmdlet de Project Security no ambiente.
-        $usarFallbackGroups = ($groups.Count -lt 3)
-        if ($usarFallbackGroups) {
-            Write-Log "Projeto '$nomeProjeto' retornou apenas $($groups.Count) group(s) pela API. Tentando fallback por nome..." "WARN"
-            $gruposInferidos = Obter-GruposInferidosPorProjeto `
-                -ProjetoNome $nomeProjeto `
-                -ProjetoNomeTecnico $nomeProjetoTecnico `
-                -GroupsAtuais $groups
+        if ($entrada) {
+            $qtdDoCache++
+            $groups = Converter-AcessosDoCache $entrada.Groups
+            $userLists = Converter-AcessosDoCache $entrada.UserLists
+            $outrosAcessos = Converter-AcessosDoCache $entrada.OutrosAcessos
+            $lidoEm = [string]$entrada.LidoEm
+        }
+        else {
+            $qtdDoPW++
+            Write-UiLog "Lendo acessos do projeto '$nomeProjeto' ($indice/$total)..."
+            $lidos = Ler-AcessosProjetoDoPW -Projeto $projeto -NomeProjeto $nomeProjeto -NomeProjetoTecnico $nomeProjetoTecnico
+            $groups = $lidos.Groups
+            $userLists = $lidos.UserLists
+            $outrosAcessos = $lidos.OutrosAcessos
+            $lidoEm = (Get-Date).ToString("o")
+        }
 
-            if ($gruposInferidos.Count -gt 0) {
-                $groups += @($gruposInferidos)
-            }
+        if ($idProjeto) {
+            $entradasCache.Add([PSCustomObject]@{
+                ProjetoId     = [string]$idProjeto
+                ProjetoNome   = $nomeProjeto
+                LidoEm        = $lidoEm
+                Groups        = @(Converter-AcessosParaCache $groups)
+                UserLists     = @(Converter-AcessosParaCache $userLists)
+                OutrosAcessos = @(Converter-AcessosParaCache $outrosAcessos)
+            })
         }
 
         if (($groups.Count + $userLists.Count + $outrosAcessos.Count) -eq 0) {
@@ -2953,7 +3665,7 @@ function Carregar-ArvoreProjetosDaConcessao {
 
         Write-Log "Projeto '$nomeProjeto' carregado para arvore. Groups=$($groups.Count) | UserLists=$($userLists.Count) | Outros=$($outrosAcessos.Count)"
 
-        $script:ProjetosCarregados += [PSCustomObject]@{
+        $listaCarregados.Add([PSCustomObject]@{
             ConcessaoNome     = $nomeConcessao
             ConcessaoObjeto   = $Concessao
             ProjetoNome       = $nomeProjeto
@@ -2963,14 +3675,26 @@ function Carregar-ArvoreProjetosDaConcessao {
             Groups            = @($groups | Sort-Object Nome)
             UserLists         = @($userLists | Sort-Object Nome)
             OutrosAcessos     = @($outrosAcessos | Sort-Object Tipo, Nome)
-        }
+        })
+    }
+
+    $script:ProjetosCarregados = @($listaCarregados.ToArray())
+
+    # Projetos removidos do PW somem do cache porque so as entradas atuais sao salvas.
+    if ($qtdDoPW -gt 0 -or $cache.Count -ne $entradasCache.Count) {
+        Salvar-CacheConcessao -IdConcessao $idConcessao -Entradas $entradasCache.ToArray()
     }
 
     $script:ConcessaoSelecionada = $Concessao
     $script:LabelConcessaoAtual.Text = "Concessão: $nomeConcessao"
     Limpar-CamposFiltroProjetos
     Renderizar-ArvoreProjetos -ProjetosData $script:ProjetosCarregados -Filtro ""
-    Write-UiLog "Concessao '$nomeConcessao' carregada com sucesso."
+
+    $segundos = ((Get-Date) - $inicioCarga).TotalSeconds
+    Write-Log ("Concessao '{0}' carregada em {1:N1}s. Projetos: {2} | do cache: {3} | lidos do PW: {4}" -f $nomeConcessao, $segundos, $total, $qtdDoCache, $qtdDoPW)
+    $origem = if ($qtdDoCache -gt 0) { "; $qtdDoCache do cache local, $qtdDoPW lidos do PW" } else { "" }
+    # Mantem o prefixo "Concessao * carregada com sucesso." usado pela Central para esconder a barra de progresso.
+    Write-UiLog ("Concessao '{0}' carregada com sucesso. ({1:N0}s{2})" -f $nomeConcessao, $segundos, $origem)
 }
 
 # ---------------------------------------------------------
@@ -3545,7 +4269,10 @@ $script:BtnImportarUsuarios.Add_Click({
         }
 
         $usuariosAntes = @($script:UsuariosSelecionados).Count
-        $adicionados = Confirmar-E-AdicionarUsuariosPorEmail -Emails $emails
+        $linhaPorEmail = $null
+        if ($resumoImportacao) { $linhaPorEmail = $resumoImportacao.LinhaPorEmail }
+        if (-not $linhaPorEmail) { $linhaPorEmail = @{} }
+        $adicionados = Confirmar-E-AdicionarUsuariosPorEmail -Emails $emails -LinhaPorEmail $linhaPorEmail
 
         if (@($script:UsuariosSelecionados).Count -gt 0 -and $usuariosAntes -eq 0) {
             $script:ConcessaoSelecionada = $null
@@ -3571,6 +4298,30 @@ $script:BtnImportarUsuarios.Add_Click({
         }
         $mensagemResumo += "Usuarios adicionados: $adicionados`r`n"
         $mensagemResumo += "Usuarios confirmados na lista: $($script:UsuariosSelecionados.Count)"
+
+        $resolucao = $script:UltimaResolucaoUsuarios
+        if ($resolucao) {
+            if ($resolucao.Cancelado) {
+                $mensagemResumo = "Importacao cancelada. Nenhum usuario foi adicionado.`r`n`r`n" + $mensagemResumo
+            }
+
+            $naoIncluidos = @($resolucao.Itens | Where-Object { $_.Status -in @("NaoEncontrado","Invalido","Erro","Ambiguo") })
+            if ($naoIncluidos.Count -gt 0) {
+                $mensagemResumo += "`r`n`r`nNAO incluidos ($($naoIncluidos.Count)):"
+                foreach ($p in @($naoIncluidos | Select-Object -First 15)) {
+                    $mensagemResumo += "`r`n - " + $(if ($p.Linha) { "linha $($p.Linha): " } else { "" }) + "$($p.Email) ($($script:RotulosStatusUsuario[$p.Status]))"
+                }
+                if ($naoIncluidos.Count -gt 15) {
+                    $mensagemResumo += "`r`n ... e mais $($naoIncluidos.Count - 15)."
+                }
+            }
+            if ($resolucao.CaminhoPendencias) {
+                $mensagemResumo += "`r`n`r`nLista completa de pendencias salva em:`r`n$($resolucao.CaminhoPendencias)"
+            }
+        }
+        if (@($resumoImportacao.LinhasSemEmail).Count -gt 0) {
+            $mensagemResumo += "`r`n`r`nLinhas sem e-mail ignoradas: $(@($resumoImportacao.LinhasSemEmail) -join ', ')"
+        }
 
         Show-UiInfo $mensagemResumo
     }
@@ -3639,7 +4390,19 @@ $script:BtnLocalizarConcessao.Add_Click({
         $concessaoSelecionada = Selecionar-ItemDialog -Itens $concessoes -Titulo "Selecionar concessão" -Descricao "Escolha a concessão:"
 
         $script:SelecoesProjetos = @()
-        Carregar-ArvoreProjetosDaConcessao -Concessao $concessaoSelecionada
+
+        $ignorarCache = $false
+        $infoCache = Obter-InfoCacheConcessao -IdConcessao (Obter-IdPasta -Pasta $concessaoSelecionada)
+        if ($infoCache) {
+            $usarCache = Ask-UiYesNo -Titulo "Acessos salvos" -Mensagem (
+                "Existem acessos desta concessão salvos neste computador em $($infoCache.LastWriteTime.ToString('dd/MM/yyyy HH:mm')).`r`n`r`n" +
+                "Sim  = carregamento rápido (a lista de projetos é consultada no PW; só projetos novos ou com mais de $($script:DiasValidadeCacheAcessos) dias são relidos).`r`n" +
+                "Não = reler os acessos de todos os projetos no ProjectWise (mais lento).`r`n`r`n" +
+                "Use 'Não' se grupos ou user lists foram criados/alterados recentemente.")
+            $ignorarCache = -not $usarCache
+        }
+
+        Carregar-ArvoreProjetosDaConcessao -Concessao $concessaoSelecionada -IgnorarCache:$ignorarCache
         Atualizar-ResumoNaTela
         Atualizar-EstadoInterface
     }

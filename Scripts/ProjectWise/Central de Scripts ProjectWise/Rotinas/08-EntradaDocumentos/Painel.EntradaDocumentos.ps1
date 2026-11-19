@@ -16,6 +16,7 @@
         -CentralRoot $CentralRoot `
         -OnBack $OnBack `
         -PanelTitle '08 - Script Entrada de Documentos' `
+        -Etapas @('Confirme a execução.', 'Validação dos documentos recebidos.', 'Criação das pastas de disciplina.') `
         -PythonRelativePath 'Rotinas\08-EntradaDocumentos\Executar.EntradaDocumentos.ps1' `
         -LogPrefix 'PW_EntradaDocumentos' `
         -LogDirectory '08-EntradaDocumentos' `

@@ -16,6 +16,7 @@
         -CentralRoot $CentralRoot `
         -OnBack $OnBack `
         -PanelTitle '09 - Movimenta Documentos Válidos' `
+        -Etapas @('Confirme a execução.', 'Cópia dos documentos validados para as pastas de disciplina.', 'Versões anteriores vão para Superados e os estados são atualizados.') `
         -PythonRelativePath 'Rotinas\09-MovimentaDocumentosValidos\Executar.MovimentaDocumentosValidos.ps1' `
         -LogPrefix 'PW_MovimentaDocumentosValidos' `
         -LogDirectory '09-MovimentaDocumentosValidos' `

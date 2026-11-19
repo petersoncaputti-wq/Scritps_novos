@@ -1,5 +1,7 @@
 import subprocess
 import json
+import os
+import time
 import traceback
 from datetime import datetime
 from pathlib import Path
@@ -399,15 +401,105 @@ def confirmar_aplicacao_sn(operacoes: list[dict[str, Any]]) -> bool:
         print("[AVISO] Responda apenas S ou N.")
 
 
-def post_json_em_aba(pagina_api, url_tela: str, endpoint: str, payload: dict[str, Any]) -> dict[str, Any]:
+# O PWDM devolve HTTP 429 (muitas requisicoes) quando recebe operacoes em rajada.
+# Antes, cada operacao recarregava a tela inteira e buscava o token de novo;
+# agora a tela/token sao reaproveitados, ha uma pausa entre operacoes e o 429
+# e tratado com espera e nova tentativa.
+PAUSA_ENTRE_OPERACOES_S = float(os.getenv("PWDM_PAUSA_ENTRE_OPERACOES", "1.0"))
+ESPERAS_429_S = (20, 40, 80, 160)
+_TELA_PRONTA: dict[int, dict[str, str]] = {}
+
+
+def preparar_tela_e_token(pagina_api, url_tela: str, forcar: bool = False) -> tuple[str, str]:
+    """Carrega a tela de participantes e obtem o token, reaproveitando se ja estiverem prontos."""
+    cache = _TELA_PRONTA.get(id(pagina_api))
+    try:
+        url_atual = str(pagina_api.url or "").split("#", 1)[0]
+    except Exception:
+        url_atual = ""
+    if (
+        not forcar
+        and cache
+        and cache["url_tela"] == url_tela
+        and cache["token"]
+        and url_atual == url_tela.split("#", 1)[0]
+    ):
+        return cache["token"], cache["origem"]
+
     pagina_api.goto(url_tela, wait_until="domcontentloaded")
     try:
         pagina_api.wait_for_load_state("networkidle", timeout=15000)
     except Exception:
         pass
+    token, origem = obter_token_verificacao(pagina_api, url_tela)
+    _TELA_PRONTA[id(pagina_api)] = {"url_tela": url_tela, "token": token, "origem": origem}
+    return token, origem
 
+
+def segundos_retry_after(valor: Any) -> Optional[float]:
+    try:
+        segundos = float(str(valor).strip())
+        return segundos if 0 < segundos <= 600 else None
+    except (TypeError, ValueError):
+        return None
+
+
+def post_json_em_aba(pagina_api, url_tela: str, endpoint: str, payload: dict[str, Any]) -> dict[str, Any]:
+    forcar_recarga = False
+    tentativa_429 = 0
+    recarregou_apos_falha = False
+
+    while True:
+        usou_cache = not forcar_recarga and bool(_TELA_PRONTA.get(id(pagina_api), {}).get("url_tela") == url_tela)
+        token_verificacao, origem_token = preparar_tela_e_token(pagina_api, url_tela, forcar=forcar_recarga)
+        resultado = _post_json_uma_vez(pagina_api, url_tela, endpoint, payload, token_verificacao, origem_token)
+
+        if resultado["ok"]:
+            return resultado
+
+        status = int(resultado.get("status") or 0)
+        if status in (429, 503) and tentativa_429 < len(ESPERAS_429_S):
+            espera = segundos_retry_after(resultado.get("retryAfter")) or ESPERAS_429_S[tentativa_429]
+            tentativa_429 += 1
+            print(
+                f"  [AVISO] PWDM pediu para desacelerar (HTTP {status}). "
+                f"Nova tentativa em {int(espera)}s ({tentativa_429}/{len(ESPERAS_429_S)})..."
+            )
+            time.sleep(espera)
+            forcar_recarga = True
+            continue
+
+        # Token reaproveitado pode ter expirado: tenta uma vez com a tela recarregada.
+        if usou_cache and not recarregou_apos_falha and status in (400, 401, 403, 419):
+            recarregou_apos_falha = True
+            forcar_recarga = True
+            continue
+
+        _TELA_PRONTA.pop(id(pagina_api), None)
+        url_endpoint = url_absoluta_pwdm(endpoint)
+        detalhe = resultado.get("body")
+        if detalhe is None:
+            detalhe = str(resultado.get("text") or "").strip()[:500] or "sem corpo de resposta"
+        payload_log = sanitizar_para_log(payload)
+        raise RuntimeError(
+            f"POST falhou em {url_endpoint}: HTTP {resultado['status']} "
+            f"{resultado['statusText']} - {detalhe} "
+            f"(pagina={resultado.get('pageUrl')}, resposta={resultado.get('responseUrl')}, "
+            f"token={'sim' if resultado.get('tokenFound') else 'nao'}, "
+            f"origem_token={resultado.get('tokenSource') or 'nenhuma'}, "
+            f"payload={payload_log})"
+        )
+
+
+def _post_json_uma_vez(
+    pagina_api,
+    url_tela: str,
+    endpoint: str,
+    payload: dict[str, Any],
+    token_verificacao: str,
+    origem_token: str,
+) -> dict[str, Any]:
     url_endpoint = url_absoluta_pwdm(endpoint)
-    token_verificacao, origem_token = obter_token_verificacao(pagina_api, url_tela)
     resultado = pagina_api.evaluate(
         """
         async ({ endpoint, payload, referer, tokenVerificacao, origemToken }) => {
@@ -462,6 +554,7 @@ def post_json_em_aba(pagina_api, url_tela: str, endpoint: str, payload: dict[str
                 status: response.status,
                 statusText: response.statusText,
                 contentType: response.headers.get("content-type") || "",
+                retryAfter: response.headers.get("retry-after") || "",
                 responseUrl: response.url,
                 pageUrl: location.href,
                 tokenFound: Boolean(token),
@@ -479,21 +572,6 @@ def post_json_em_aba(pagina_api, url_tela: str, endpoint: str, payload: dict[str
             "origemToken": origem_token,
         },
     )
-
-    if not resultado["ok"]:
-        detalhe = resultado.get("body")
-        if detalhe is None:
-            detalhe = str(resultado.get("text") or "").strip()[:500] or "sem corpo de resposta"
-        payload_log = sanitizar_para_log(payload)
-        raise RuntimeError(
-            f"POST falhou em {url_endpoint}: HTTP {resultado['status']} "
-            f"{resultado['statusText']} - {detalhe} "
-            f"(pagina={resultado.get('pageUrl')}, resposta={resultado.get('responseUrl')}, "
-            f"token={'sim' if resultado.get('tokenFound') else 'nao'}, "
-            f"origem_token={resultado.get('tokenSource') or 'nenhuma'}, "
-            f"payload={payload_log})"
-        )
-
     return resultado
 
 
@@ -617,9 +695,12 @@ def aplicar_operacoes_com_aba_unica(page, operacoes: list[dict[str, Any]], email
     print("[INFO] Usando uma unica aba auxiliar para aplicar todos os POSTs.")
     resultados = []
     pagina_api = page.context.new_page()
+    _TELA_PRONTA.pop(id(pagina_api), None)
 
     try:
         for indice, op in enumerate(operacoes, start=1):
+            if indice > 1 and PAUSA_ENTRE_OPERACOES_S > 0:
+                time.sleep(PAUSA_ENTRE_OPERACOES_S)
             print(f"- Projeto {indice}: {op.get('nomeProjeto') or op['projectId']} [{op.get('acaoEfetiva')}]")
             try:
                 resultado = aplicar_operacao_em_aba(pagina_api, op, email)
@@ -653,11 +734,15 @@ def aplicar_operacoes_com_aba_unica(page, operacoes: list[dict[str, Any]], email
 def aplicar_operacoes_lote_com_aba_unica(page, operacoes: list[dict[str, Any]]) -> list[dict[str, Any]]:
     print("\n[9/9] Aplicando alteracoes confirmadas...")
     print("[INFO] Usando uma unica aba auxiliar para aplicar todos os POSTs do lote.")
+    print(f"[INFO] Pausa de {PAUSA_ENTRE_OPERACOES_S:.1f}s entre operacoes para evitar bloqueio do PWDM (HTTP 429).")
     resultados = []
     pagina_api = page.context.new_page()
+    _TELA_PRONTA.pop(id(pagina_api), None)
 
     try:
         for indice, op in enumerate(operacoes, start=1):
+            if indice > 1 and PAUSA_ENTRE_OPERACOES_S > 0:
+                time.sleep(PAUSA_ENTRE_OPERACOES_S)
             email = str(op.get("email") or "")
             print(
                 f"- Operacao {indice}/{len(operacoes)}: "

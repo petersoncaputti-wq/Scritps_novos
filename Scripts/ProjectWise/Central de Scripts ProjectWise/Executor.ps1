@@ -15,6 +15,10 @@ $script:ActivePanel = $null
 $script:CardControls = @()
 $script:LogoImages = @()
 
+# Tema visual (cores do brand book, fontes Lexend, desenho dos cartoes)
+. (Join-Path $PSScriptRoot 'Tema.ps1')
+Initialize-TemaFontes -Raiz $PSScriptRoot
+
 function Get-UiImage {
     param([Parameter(Mandatory)][string]$Path)
 
@@ -505,48 +509,205 @@ function Invoke-SelectedRoutine {
     }
 }
 
+function Get-RoutineNumber {
+    param($Item)
+    ([int]([int]$Item.ordem / 10)).ToString('00')
+}
+
+function Get-RoutineLogsPath {
+    # Prefere a pasta de logs da propria rotina (Logs\NN-Nome); senao, a da Central.
+    param($Item)
+    $numero = Get-RoutineNumber -Item $Item
+    $pasta = Get-ChildItem -LiteralPath $script:LogsPath -Directory -ErrorAction SilentlyContinue |
+        Where-Object { $_.Name -like "$numero-*" } | Select-Object -First 1
+    if ($pasta) { return $pasta.FullName }
+    return $script:LogsPath
+}
+
 function Update-Details {
-    if (-not $script:SelectedScript) {
-        $script:RunButton.Enabled = $false
-        $logsButton.Enabled = $false
-        $folderButton.Enabled = $false
+    $item = $script:SelectedScript
+    $temItem = $null -ne $item
+    $script:RunButton.Enabled = $temItem
+    $script:LogsButton.Enabled = $temItem
+    $script:MoreButton.Enabled = $temItem
+
+    if (-not $temItem) {
+        $script:DetailTitle.Text = 'Selecione uma rotina'
+        $script:DetailInfo.Text = 'Clique em um cartão. Duplo clique ou Enter abre a rotina.'
+        $script:RunButton.Text = 'Abrir rotina'
         return
     }
 
-    $item = $script:SelectedScript
-    $script:RunButton.Enabled = $true
-    $logsButton.Enabled = $true
-    $folderButton.Enabled = $true
-    $script:RunButton.Text = if ([string]$item.modo -in @('em_migracao', 'integrado')) { 'Abrir formulário' } else { 'Executar rotina' }
-    $number = ([int]([int]$item.ordem / 10)).ToString('00')
-    $script:StatusLabel.Text = "Selecionado: $number - $($item.nome)"
+    $numero = Get-RoutineNumber -Item $item
+    $script:DetailTitle.Text = "$numero · $($item.nome)"
+    $partes = @([string]$item.categoria)
+    switch ([string]$item.risco) {
+        'critico' { $partes += 'Crítica: altera ou exclui dados' }
+        'alto'    { $partes += 'Pede confirmação' }
+    }
+    if ([string]$item.modo -eq 'em_migracao') { $partes += 'Em migração' }
+    $script:DetailInfo.Text = $partes -join '  ·  '
+    $script:RunButton.Text = if ([string]$item.modo -in @('em_migracao', 'integrado')) { 'Abrir rotina' } else { 'Executar rotina' }
+    $script:StatusLabel.Text = "Selecionado: $numero - $($item.nome)"
 }
 
 function Update-CardWidths {
     if (-not $script:CardsPanel) { return }
-    $cardWidth = [Math]::Max(280, $script:CardsPanel.ClientSize.Width - 28)
+    $util = $script:CardsPanel.ClientSize.Width - $script:CardsPanel.Padding.Horizontal - 2
+    if ($script:CardsPanel.VerticalScroll.Visible) { $util -= 2 }
+    $colunas = if ($util -ge 760) { 2 } else { 1 }
+    $margem = 12
+    $largura = [Math]::Max(300, [int][Math]::Floor(($util - ($colunas * $margem)) / $colunas))
+    $script:CardsPanel.SuspendLayout()
     foreach ($card in @($script:CardControls)) {
-        $card.Width = $cardWidth
+        $card.Width = $largura
+        $card.Invalidate()
     }
+    $script:CardsPanel.ResumeLayout()
 }
 
 function Select-ScriptCard {
     param(
         [Parameter(Mandatory)]$Item,
-        [Parameter(Mandatory)][System.Windows.Forms.Panel]$Card
+        [Parameter(Mandatory)][System.Windows.Forms.Control]$Card
     )
 
     foreach ($existingCard in @($script:CardControls)) {
-        $existingCard.BackColor = [System.Drawing.Color]::White
+        if ($existingCard.Tag.Selecionado) {
+            $existingCard.Tag.Selecionado = $false
+            $existingCard.Invalidate()
+        }
     }
-    $Card.BackColor = [System.Drawing.Color]::FromArgb(225, 237, 250)
+    $Card.Tag.Selecionado = $true
+    $Card.Invalidate()
+    $script:CardsPanel.ScrollControlIntoView($Card)
     $script:SelectedScript = $Item
     Update-Details
 }
 
+function Move-CardSelection {
+    param([int]$Passo)
+    $cards = @($script:CardControls)
+    if ($cards.Count -eq 0) { return }
+    $atual = -1
+    for ($i = 0; $i -lt $cards.Count; $i++) { if ($cards[$i].Tag.Selecionado) { $atual = $i; break } }
+    $novo = [Math]::Min($cards.Count - 1, [Math]::Max(0, $atual + $Passo))
+    if ($atual -lt 0) { $novo = 0 }
+    Select-ScriptCard -Item $cards[$novo].Tag.Item -Card $cards[$novo]
+}
+
+# --- Desenho do cartao (tudo pintado, para cantos e selos suaves) ---
+$script:CardPaint = {
+    param($ctl, $e)
+    $g = $e.Graphics
+    $g.SmoothingMode = [System.Drawing.Drawing2D.SmoothingMode]::AntiAlias
+    $g.TextRenderingHint = [System.Drawing.Text.TextRenderingHint]::ClearTypeGridFit
+    $estado = $ctl.Tag
+    $item = $estado.Item
+    $T = $script:Tema
+    $F = $script:Fontes
+
+    $g.Clear($script:CardsPanel.BackColor)
+    $r = New-Object System.Drawing.RectangleF(0.5, 0.5, ($ctl.Width - 1.5), ($ctl.Height - 1.5))
+    $path = New-TemaRetanguloArredondado -R $r -Raio 8
+    $fundo = New-Object System.Drawing.SolidBrush($T.Camada)
+    $corBorda = if ($estado.Selecionado) { $T.VerdeMedio } elseif ($estado.Hover) { $T.ContornoForte } else { $T.Contorno }
+    $espessura = if ($estado.Selecionado) { 2 } else { 1 }
+    $borda = New-Object System.Drawing.Pen($corBorda, $espessura)
+    $g.FillPath($fundo, $path)
+    $g.DrawPath($borda, $path)
+    $fundo.Dispose(); $borda.Dispose(); $path.Dispose()
+
+    # Icone dentro da forma "janela para o mundo"
+    $corJanela = if ($estado.Selecionado) { $T.VerdeMedio } else { $T.VerdeSuave }
+    $corGlifo = if ($estado.Selecionado) { [System.Drawing.Color]::White } else { $T.VerdeEscuro }
+    Draw-TemaJanela -G $g -R (New-Object System.Drawing.RectangleF(16, 16, 50, 44)) -Cor $corJanela
+    $glifo = if ($item.icone) { [string][char][Convert]::ToInt32([string]$item.icone, 16) } else { [string][char]0xE7C3 }
+    $flagsCentro = [System.Windows.Forms.TextFormatFlags]'HorizontalCenter,VerticalCenter,NoPadding'
+    [System.Windows.Forms.TextRenderer]::DrawText($g, $glifo, $F.Icone, (New-Object System.Drawing.Rectangle(22, 22, 44, 38)), $corGlifo, $flagsCentro)
+
+    # Textos
+    $x = 82
+    $larguraTexto = $ctl.Width - $x - 16
+    $numero = Get-RoutineNumber -Item $item
+    $flagsLinha = [System.Windows.Forms.TextFormatFlags]'NoPadding,SingleLine,EndEllipsis'
+    $tamNum = [System.Windows.Forms.TextRenderer]::MeasureText($g, $numero, $F.Legenda, (New-Object System.Drawing.Size(200, 40)), $flagsLinha)
+    [System.Windows.Forms.TextRenderer]::DrawText($g, $numero, $F.Legenda, (New-Object System.Drawing.Point(($ctl.Width - 16 - $tamNum.Width), 18)), $T.TextoSuave, $flagsLinha)
+    [System.Windows.Forms.TextRenderer]::DrawText($g, [string]$item.nome, $F.CardTitulo, (New-Object System.Drawing.Rectangle($x, 15, ($larguraTexto - $tamNum.Width - 8), 24)), $T.Texto, $flagsLinha)
+    $flagsDesc = [System.Windows.Forms.TextFormatFlags]'NoPadding,WordBreak,EndEllipsis'
+    [System.Windows.Forms.TextRenderer]::DrawText($g, [string]$item.descricao, $F.Texto, (New-Object System.Drawing.Rectangle($x, 41, $larguraTexto, 36)), $T.TextoSuave, $flagsDesc)
+
+    # Selos
+    $sx = $x
+    $sy = $ctl.Height - 31
+    $sx += 6 + (Draw-TemaSelo -G $g -Texto ([string]$item.categoria) -Fonte $F.Legenda -X $sx -Y $sy -Fundo $T.Fundo -Cor $T.TextoSuave)
+    switch ([string]$item.risco) {
+        'critico' { $sx += 6 + (Draw-TemaSelo -G $g -Texto 'Crítica' -Fonte $F.LegendaForte -X $sx -Y $sy -Fundo $T.CriticoSuave -Cor $T.Critico -Ponto) }
+        'alto'    { $sx += 6 + (Draw-TemaSelo -G $g -Texto 'Pede confirmação' -Fonte $F.Legenda -X $sx -Y $sy -Fundo $T.Fundo -Cor $T.TextoSuave) }
+    }
+    if ([string]$item.modo -eq 'em_migracao') {
+        [void](Draw-TemaSelo -G $g -Texto 'Em migração' -Fonte $F.Legenda -X $sx -Y $sy -Fundo $T.AtencaoSuave -Cor $T.Atencao -Ponto)
+    }
+}
+
+$script:CardMouseEnter = { $this.Tag.Hover = $true; $this.Invalidate() }
+$script:CardMouseLeave = { $this.Tag.Hover = $false; $this.Invalidate() }
+$script:CardClick = { Select-ScriptCard -Item $this.Tag.Item -Card $this; $this.Focus() }
+$script:CardDoubleClick = {
+    Select-ScriptCard -Item $this.Tag.Item -Card $this
+    Invoke-SelectedRoutine
+}
+
+# --- Filtros de categoria em formato de pilula ---
+$script:PillPaint = {
+    param($ctl, $e)
+    $g = $e.Graphics
+    $g.SmoothingMode = [System.Drawing.Drawing2D.SmoothingMode]::AntiAlias
+    $T = $script:Tema
+    $ativo = $ctl.Tag.Categoria -eq $script:CategoriaAtual
+    $g.Clear($ctl.Parent.BackColor)
+    $r = New-Object System.Drawing.RectangleF(0.5, 0.5, ($ctl.Width - 1.5), ($ctl.Height - 1.5))
+    $path = New-TemaRetanguloArredondado -R $r -Raio (($ctl.Height - 1) / 2)
+    if ($ativo) {
+        $b = New-Object System.Drawing.SolidBrush($T.VerdeEscuro); $g.FillPath($b, $path); $b.Dispose()
+        $corTexto = [System.Drawing.Color]::White
+    }
+    else {
+        $corFundo = if ($ctl.Tag.Hover) { $T.VerdeSuave } else { $T.Camada }
+        $b = New-Object System.Drawing.SolidBrush($corFundo); $g.FillPath($b, $path); $b.Dispose()
+        $p = New-Object System.Drawing.Pen($T.Contorno); $g.DrawPath($p, $path); $p.Dispose()
+        $corTexto = $T.Texto
+    }
+    $path.Dispose()
+    $flags = [System.Windows.Forms.TextFormatFlags]'HorizontalCenter,VerticalCenter,NoPadding,SingleLine'
+    [System.Windows.Forms.TextRenderer]::DrawText($g, $ctl.Tag.Texto, $script:Fontes.Pilula, $ctl.ClientRectangle, $corTexto, $flags)
+}
+
+function New-CategoryPill {
+    param([string]$Categoria, [string]$Texto)
+    $pill = New-Object System.Windows.Forms.Panel
+    Enable-TemaBufferDuplo -Controle $pill
+    $tam = [System.Windows.Forms.TextRenderer]::MeasureText($Texto, $script:Fontes.Pilula)
+    $pill.Size = New-Object System.Drawing.Size(($tam.Width + 26), 32)
+    $pill.Margin = New-Object System.Windows.Forms.Padding(0, 0, 8, 0)
+    $pill.Cursor = [System.Windows.Forms.Cursors]::Hand
+    $pill.Tag = @{ Categoria = $Categoria; Texto = $Texto; Hover = $false }
+    $pill.Add_Paint($script:PillPaint)
+    $pill.Add_MouseEnter({ $this.Tag.Hover = $true; $this.Invalidate() })
+    $pill.Add_MouseLeave({ $this.Tag.Hover = $false; $this.Invalidate() })
+    $pill.Add_Click({
+        $script:CategoriaAtual = $this.Tag.Categoria
+        foreach ($p in $script:CategoryPills) { $p.Invalidate() }
+        Update-ScriptList
+    })
+    return $pill
+}
+
 function Update-ScriptList {
     $search = $script:SearchBox.Text.Trim()
-    $category = [string]$script:CategoryBox.SelectedItem
+    $category = $script:CategoriaAtual
+    $anterior = if ($script:SelectedScript) { [string]$script:SelectedScript.id } else { $null }
+
     $script:CardsPanel.SuspendLayout()
     foreach ($oldCard in @($script:CardControls)) {
         $script:CardsPanel.Controls.Remove($oldCard)
@@ -556,59 +717,41 @@ function Update-ScriptList {
     $script:SelectedScript = $null
 
     $filtered = @($script:Catalog | Where-Object {
-        ($category -eq 'Todas' -or $_.categoria -eq $category) -and
-        ([string]::IsNullOrWhiteSpace($search) -or $_.nome -like "*$search*" -or $_.descricao -like "*$search*")
+        ([string]::IsNullOrWhiteSpace($category) -or $_.categoria -eq $category) -and
+        ([string]::IsNullOrWhiteSpace($search) -or $_.nome -like "*$search*" -or $_.descricao -like "*$search*" -or $_.categoria -like "*$search*")
     } | Sort-Object ordem, nome)
 
     foreach ($item in $filtered) {
         $card = New-Object System.Windows.Forms.Panel
-        $card.Height = 92
-        $card.Width = [Math]::Max(280, $script:CardsPanel.ClientSize.Width - 28)
-        $card.Margin = New-Object System.Windows.Forms.Padding(3, 3, 3, 8)
-        $card.Padding = New-Object System.Windows.Forms.Padding(12, 9, 12, 8)
-        $card.BackColor = [System.Drawing.Color]::White
-        $card.BorderStyle = 'FixedSingle'
+        Enable-TemaBufferDuplo -Controle $card
+        $card.Height = 116
+        $card.Width = 320
+        $card.Margin = New-Object System.Windows.Forms.Padding(0, 0, 12, 12)
         $card.Cursor = [System.Windows.Forms.Cursors]::Hand
-        $card.Tag = $item
-
-        $number = ([int]([int]$item.ordem / 10)).ToString('00')
-        $cardTitle = New-Object System.Windows.Forms.Label
-        $cardTitle.Text = "$number - $($item.nome)"
-        $cardTitle.Font = New-Object System.Drawing.Font('Segoe UI Semibold', 11)
-        $cardTitle.ForeColor = [System.Drawing.Color]::FromArgb(22, 54, 92)
-        $cardTitle.Location = New-Object System.Drawing.Point(12, 10)
-        $cardTitle.Size = New-Object System.Drawing.Size(($card.Width - 26), 26)
-        $cardTitle.Anchor = 'Top,Left,Right'
-        $cardTitle.Cursor = [System.Windows.Forms.Cursors]::Hand
-        $card.Controls.Add($cardTitle)
-
-        $cardDescription = New-Object System.Windows.Forms.Label
-        $cardDescription.Text = [string]$item.descricao
-        $cardDescription.ForeColor = [System.Drawing.Color]::FromArgb(75, 82, 90)
-        $cardDescription.Location = New-Object System.Drawing.Point(13, 42)
-        $cardDescription.Size = New-Object System.Drawing.Size(($card.Width - 28), 39)
-        $cardDescription.Anchor = 'Top,Left,Right'
-        $cardDescription.Cursor = [System.Windows.Forms.Cursors]::Hand
-        $card.Controls.Add($cardDescription)
-
-        $selectHandler = { Select-ScriptCard -Item $item -Card $card }.GetNewClosure()
-        $openHandler = {
-            Select-ScriptCard -Item $item -Card $card
-            Invoke-SelectedRoutine
-        }.GetNewClosure()
-        foreach ($control in @($card, $cardTitle, $cardDescription)) {
-            $control.Add_Click($selectHandler)
-            $control.Add_DoubleClick($openHandler)
-        }
-
+        $card.TabStop = $true
+        $card.AccessibleName = "$(Get-RoutineNumber -Item $item) - $($item.nome)"
+        $card.Tag = @{ Item = $item; Hover = $false; Selecionado = $false }
+        $card.Add_Paint($script:CardPaint)
+        $card.Add_MouseEnter($script:CardMouseEnter)
+        $card.Add_MouseLeave($script:CardMouseLeave)
+        $card.Add_Click($script:CardClick)
+        $card.Add_DoubleClick($script:CardDoubleClick)
         $script:CardControls += $card
         [void]$script:CardsPanel.Controls.Add($card)
     }
+
+    $script:EmptyLabel.Visible = $filtered.Count -eq 0
+    if ($filtered.Count -eq 0) {
+        $script:EmptyLabel.Text = if ($search) { "Nenhuma rotina encontrada para '$search'." } else { 'Nenhuma rotina nesta categoria.' }
+    }
     $script:CardsPanel.ResumeLayout()
     Update-CardWidths
-    Update-Details
-    $script:StatusLabel.Text = if ($filtered.Count -eq 1) { '1 rotina encontrada' } else { "$($filtered.Count) rotinas encontradas" }
+
+    $reselecionar = @($script:CardControls | Where-Object { [string]$_.Tag.Item.id -eq $anterior } | Select-Object -First 1)
+    if ($reselecionar.Count -gt 0) { Select-ScriptCard -Item $reselecionar[0].Tag.Item -Card $reselecionar[0] } else { Update-Details }
+    $script:StatusLabel.Text = if ($filtered.Count -eq 1) { '1 rotina' } else { "$($filtered.Count) rotinas" }
 }
+
 
 try {
     if (-not (Test-Path -LiteralPath $script:CatalogPath)) { throw "Catálogo não encontrado: $script:CatalogPath" }
@@ -621,192 +764,379 @@ catch {
     exit 1
 }
 
+$T = $script:Tema
+$script:Fontes = @{
+    Titulo       = Get-TemaFonte -Papel Titulo -Tamanho 15
+    Marca        = Get-TemaFonte -Papel Texto -Tamanho 9
+    CardTitulo   = Get-TemaFonte -Papel Destaque -Tamanho 10.5
+    Detalhe      = Get-TemaFonte -Papel Destaque -Tamanho 11
+    Texto        = Get-TemaFonte -Papel Texto -Tamanho 9
+    Legenda      = Get-TemaFonte -Papel Legenda -Tamanho 8
+    LegendaForte = Get-TemaFonte -Papel TextoForte -Tamanho 8
+    Pilula       = Get-TemaFonte -Papel Texto -Tamanho 9
+    Icone        = Get-TemaFonte -Papel Icone -Tamanho 17
+    IconeBusca   = Get-TemaFonte -Papel Icone -Tamanho 10
+    IconeBotao   = Get-TemaFonte -Papel Icone -Tamanho 11
+}
+$script:CategoriaAtual = ''
+$script:CategoryPills = @()
+
 $form = New-Object System.Windows.Forms.Form
 $form.Text = 'Central de Scripts'
 $form.StartPosition = 'CenterScreen'
-$form.Size = New-Object System.Drawing.Size(1100, 700)
-$form.MinimumSize = New-Object System.Drawing.Size(920, 600)
+$form.Size = New-Object System.Drawing.Size(1180, 760)
+# Minimo suficiente para as telas das rotinas (as maiores pedem ~1000x640 de area util).
+$form.MinimumSize = New-Object System.Drawing.Size(1040, 700)
 $form.AutoScaleMode = [System.Windows.Forms.AutoScaleMode]::Dpi
+# Fonte e fundo do form ficam como antes: os paineis das rotinas herdam esses valores.
 $form.Font = New-Object System.Drawing.Font('Segoe UI', 9)
 $form.BackColor = [System.Drawing.Color]::FromArgb(245, 247, 250)
+$form.KeyPreview = $true
+$iconePath = Join-Path $script:ExecutorRoot 'CentralScripts-Icone-v2.ico'
+if (Test-Path -LiteralPath $iconePath) {
+    try { $form.Icon = New-Object System.Drawing.Icon($iconePath) } catch { }
+}
+Set-TemaJanela -Form $form
 
 $layout = New-Object System.Windows.Forms.TableLayoutPanel
 $layout.Dock = 'Fill'
 $layout.Margin = New-Object System.Windows.Forms.Padding(0)
 $layout.Padding = New-Object System.Windows.Forms.Padding(0)
+$layout.BackColor = $T.Fundo
 $layout.ColumnCount = 1
-$layout.RowCount = 4
+$layout.RowCount = 5
 [void]$layout.ColumnStyles.Add((New-Object System.Windows.Forms.ColumnStyle([System.Windows.Forms.SizeType]::Percent, 100)))
-[void]$layout.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 86)))
-[void]$layout.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 62)))
-[void]$layout.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Percent, 100)))
-[void]$layout.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 24)))
+[void]$layout.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 68)))   # cabecalho
+[void]$layout.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 64)))   # busca e filtros
+[void]$layout.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Percent, 100)))   # cartoes
+[void]$layout.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 68)))   # acoes
+[void]$layout.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 26)))   # status
 $form.Controls.Add($layout)
 
-$header = New-Object System.Windows.Forms.Panel
+# ---------------- Cabecalho ----------------
+$header = New-Object System.Windows.Forms.TableLayoutPanel
 $header.Dock = 'Fill'
 $header.Margin = New-Object System.Windows.Forms.Padding(0)
-$header.BackColor = [System.Drawing.Color]::FromArgb(22, 54, 92)
+$header.Padding = New-Object System.Windows.Forms.Padding(20, 0, 24, 0)
+$header.BackColor = $T.Camada
+$header.ColumnCount = 3
+$header.RowCount = 1
+[void]$header.ColumnStyles.Add((New-Object System.Windows.Forms.ColumnStyle([System.Windows.Forms.SizeType]::Absolute, 52)))
+[void]$header.ColumnStyles.Add((New-Object System.Windows.Forms.ColumnStyle([System.Windows.Forms.SizeType]::Percent, 100)))
+[void]$header.ColumnStyles.Add((New-Object System.Windows.Forms.ColumnStyle([System.Windows.Forms.SizeType]::Absolute, 130)))
+[void]$header.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Percent, 100)))
+$header.Add_Paint({
+    param($ctl, $e)
+    $p = New-Object System.Drawing.Pen($script:Tema.Contorno)
+    $e.Graphics.DrawLine($p, 0, ($ctl.Height - 1), $ctl.Width, ($ctl.Height - 1))
+    $p.Dispose()
+})
 $layout.Controls.Add($header, 0, 0)
 
-$headerLayout = New-Object System.Windows.Forms.TableLayoutPanel
-$headerLayout.Dock = 'Fill'
-$headerLayout.Margin = New-Object System.Windows.Forms.Padding(0)
-$headerLayout.ColumnCount = 3
-$headerLayout.RowCount = 1
-[void]$headerLayout.ColumnStyles.Add((New-Object System.Windows.Forms.ColumnStyle([System.Windows.Forms.SizeType]::Absolute, 215)))
-[void]$headerLayout.ColumnStyles.Add((New-Object System.Windows.Forms.ColumnStyle([System.Windows.Forms.SizeType]::Percent, 100)))
-[void]$headerLayout.ColumnStyles.Add((New-Object System.Windows.Forms.ColumnStyle([System.Windows.Forms.SizeType]::Absolute, 225)))
-[void]$headerLayout.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Percent, 100)))
-$header.Controls.Add($headerLayout)
+$appIcon = New-Object System.Windows.Forms.PictureBox
+$appIcon.Size = New-Object System.Drawing.Size(40, 40)
+$appIcon.Anchor = 'Left'
+$appIcon.Margin = New-Object System.Windows.Forms.Padding(0)
+$appIcon.SizeMode = 'Zoom'
+$appIcon.AccessibleName = 'Ícone da Central de Scripts'
+# Usa o PNG v1 (transparencia limpa; o v2 tem halo magenta) reduzido em alta qualidade.
+$iconeOrigem = Get-UiImage -Path (Join-Path $script:ExecutorRoot 'CentralScripts-Icone.png')
+if ($iconeOrigem) {
+    $iconeReduzido = New-Object System.Drawing.Bitmap(80, 80)
+    $gIcone = [System.Drawing.Graphics]::FromImage($iconeReduzido)
+    $gIcone.InterpolationMode = [System.Drawing.Drawing2D.InterpolationMode]::HighQualityBicubic
+    $gIcone.SmoothingMode = [System.Drawing.Drawing2D.SmoothingMode]::AntiAlias
+    $gIcone.PixelOffsetMode = [System.Drawing.Drawing2D.PixelOffsetMode]::HighQuality
+    $gIcone.DrawImage($iconeOrigem, 0, 0, 80, 80)
+    $gIcone.Dispose()
+    $script:LogoImages += $iconeReduzido
+    $appIcon.Image = $iconeReduzido
+}
+$header.Controls.Add($appIcon, 0, 0)
 
-$projectWiseLogo = New-Object System.Windows.Forms.PictureBox
-$projectWiseLogo.Dock = 'Fill'
-$projectWiseLogo.Margin = New-Object System.Windows.Forms.Padding(14, 10, 10, 10)
-$projectWiseLogo.SizeMode = 'Zoom'
-$projectWiseLogo.BackColor = [System.Drawing.Color]::Transparent
-$projectWiseLogo.AccessibleName = 'Logotipo ProjectWise'
-$projectWiseLogo.Image = Get-UiImage -Path (Join-Path $script:ExecutorRoot 'Outlook-ProjectWis.png')
-$headerLayout.Controls.Add($projectWiseLogo, 0, 0)
-
-$headerText = New-Object System.Windows.Forms.Panel
-$headerText.Dock = 'Fill'
-$headerText.Margin = New-Object System.Windows.Forms.Padding(0)
-$headerText.BackColor = [System.Drawing.Color]::Transparent
-$headerLayout.Controls.Add($headerText, 1, 0)
+$headerText = New-Object System.Windows.Forms.FlowLayoutPanel
+$headerText.FlowDirection = 'TopDown'
+$headerText.WrapContents = $false
+$headerText.AutoSize = $true
+$headerText.Anchor = 'Left'
+$headerText.Margin = New-Object System.Windows.Forms.Padding(4, 0, 0, 0)
+$header.Controls.Add($headerText, 1, 0)
 
 $title = New-Object System.Windows.Forms.Label
 $title.Text = 'Central de Scripts'
-$title.ForeColor = [System.Drawing.Color]::White
-$title.Font = New-Object System.Drawing.Font('Segoe UI Semibold', 21)
-$title.AutoSize = $false
-$title.Dock = 'Fill'
-$title.TextAlign = 'MiddleCenter'
+$title.Font = $script:Fontes.Titulo
+$title.ForeColor = $T.VerdeEscuro
+$title.AutoSize = $true
+$title.Margin = New-Object System.Windows.Forms.Padding(0)
 $headerText.Controls.Add($title)
 
+$subtitle = New-Object System.Windows.Forms.Label
+$subtitle.Text = 'Rotinas ProjectWise · Engenharia'
+$subtitle.Font = $script:Fontes.Marca
+$subtitle.ForeColor = $T.TextoSuave
+$subtitle.AutoSize = $true
+$subtitle.Margin = New-Object System.Windows.Forms.Padding(1, 0, 0, 0)
+$headerText.Controls.Add($subtitle)
+
 $ecorodoviasLogo = New-Object System.Windows.Forms.PictureBox
-$ecorodoviasLogo.Dock = 'Fill'
-$ecorodoviasLogo.Margin = New-Object System.Windows.Forms.Padding(12, 13, 16, 13)
+$ecorodoviasLogo.Size = New-Object System.Drawing.Size(124, 40)
+$ecorodoviasLogo.Anchor = 'Right'
+$ecorodoviasLogo.Margin = New-Object System.Windows.Forms.Padding(0)
 $ecorodoviasLogo.SizeMode = 'Zoom'
-$ecorodoviasLogo.BackColor = [System.Drawing.Color]::Transparent
 $ecorodoviasLogo.AccessibleName = 'Logotipo EcoRodovias'
 $ecorodoviasLogo.Image = Get-UiImage -Path (Join-Path $script:ExecutorRoot 'Ecorodovias_Logo.png')
-$headerLayout.Controls.Add($ecorodoviasLogo, 2, 0)
+$header.Controls.Add($ecorodoviasLogo, 2, 0)
 
-$filters = New-Object System.Windows.Forms.Panel
+# ---------------- Busca e filtros ----------------
+$filters = New-Object System.Windows.Forms.FlowLayoutPanel
 $filters.Dock = 'Fill'
+$filters.WrapContents = $false
 $filters.Margin = New-Object System.Windows.Forms.Padding(0)
-$filters.Padding = New-Object System.Windows.Forms.Padding(16, 14, 16, 8)
+$filters.Padding = New-Object System.Windows.Forms.Padding(20, 16, 20, 0)
+$filters.BackColor = $T.Fundo
 $layout.Controls.Add($filters, 0, 1)
 
-$searchLabel = New-Object System.Windows.Forms.Label
-$searchLabel.Text = 'Pesquisar:'
-$searchLabel.AutoSize = $true
-$searchLabel.Location = New-Object System.Drawing.Point(18, 21)
-$filters.Controls.Add($searchLabel)
+$searchHost = New-Object System.Windows.Forms.Panel
+Enable-TemaBufferDuplo -Controle $searchHost
+$searchHost.Size = New-Object System.Drawing.Size(320, 32)
+$searchHost.Margin = New-Object System.Windows.Forms.Padding(0, 0, 18, 0)
+$searchHost.BackColor = $T.Fundo
+$searchHost.Add_Paint({
+    param($ctl, $e)
+    $g = $e.Graphics
+    $g.SmoothingMode = [System.Drawing.Drawing2D.SmoothingMode]::AntiAlias
+    $r = New-Object System.Drawing.RectangleF(0.5, 0.5, ($ctl.Width - 1.5), ($ctl.Height - 1.5))
+    $path = New-TemaRetanguloArredondado -R $r -Raio 6
+    $b = New-Object System.Drawing.SolidBrush($script:Tema.Camada); $g.FillPath($b, $path); $b.Dispose()
+    $foco = $script:SearchBox -and $script:SearchBox.Focused
+    $cor = if ($foco) { $script:Tema.VerdeMedio } else { $script:Tema.Contorno }
+    $p = New-Object System.Drawing.Pen($cor, $(if ($foco) { 1.5 } else { 1 })); $g.DrawPath($p, $path); $p.Dispose(); $path.Dispose()
+    $flags = [System.Windows.Forms.TextFormatFlags]'VerticalCenter,NoPadding'
+    [System.Windows.Forms.TextRenderer]::DrawText($g, [string][char]0xE721, $script:Fontes.IconeBusca, (New-Object System.Drawing.Rectangle(11, 0, 20, $ctl.Height)), $script:Tema.TextoSuave, $flags)
+})
+$searchHost.Add_Click({ $script:SearchBox.Focus() })
+$filters.Controls.Add($searchHost)
 
 $script:SearchBox = New-Object System.Windows.Forms.TextBox
-$script:SearchBox.Location = New-Object System.Drawing.Point(88, 17)
-$script:SearchBox.Width = 330
-$filters.Controls.Add($script:SearchBox)
+$script:SearchBox.BorderStyle = 'None'
+$script:SearchBox.Font = $script:Fontes.Texto
+$script:SearchBox.BackColor = $T.Camada
+$script:SearchBox.ForeColor = $T.Texto
+$script:SearchBox.Location = New-Object System.Drawing.Point(34, 8)
+$script:SearchBox.Width = 276
+$script:SearchBox.Anchor = 'Left,Right,Top'
+Set-TemaTextoExemplo -Caixa $script:SearchBox -Texto 'Buscar rotina (Ctrl+F)'
+$script:SearchBox.Add_GotFocus({ $searchHost.Invalidate() })
+$script:SearchBox.Add_LostFocus({ $searchHost.Invalidate() })
+$searchHost.Controls.Add($script:SearchBox)
 
-$categoryLabel = New-Object System.Windows.Forms.Label
-$categoryLabel.Text = 'Categoria:'
-$categoryLabel.AutoSize = $true
-$categoryLabel.Location = New-Object System.Drawing.Point(442, 21)
-$filters.Controls.Add($categoryLabel)
+$categorias = @($script:Catalog | Group-Object categoria | Sort-Object Name)
+$script:CategoryPills += New-CategoryPill -Categoria '' -Texto "Todas  $($script:Catalog.Count)"
+foreach ($grupo in $categorias) {
+    $script:CategoryPills += New-CategoryPill -Categoria $grupo.Name -Texto "$($grupo.Name)  $($grupo.Count)"
+}
+foreach ($pill in $script:CategoryPills) { $filters.Controls.Add($pill) }
 
-$script:CategoryBox = New-Object System.Windows.Forms.ComboBox
-$script:CategoryBox.DropDownStyle = 'DropDownList'
-$script:CategoryBox.Location = New-Object System.Drawing.Point(512, 17)
-$script:CategoryBox.Width = 220
-[void]$script:CategoryBox.Items.Add('Todas')
-$script:Catalog | Select-Object -ExpandProperty categoria -Unique | Sort-Object | ForEach-Object { [void]$script:CategoryBox.Items.Add($_) }
-$script:CategoryBox.SelectedIndex = 0
-$filters.Controls.Add($script:CategoryBox)
+# Em janelas estreitas a busca encolhe para os filtros continuarem visiveis.
+$filters.Add_Resize({
+    $larguraFiltros = 0
+    foreach ($p in $script:CategoryPills) { $larguraFiltros += $p.Width + $p.Margin.Horizontal }
+    $disponivel = $this.ClientSize.Width - $this.Padding.Horizontal - $larguraFiltros - $searchHost.Margin.Horizontal - 4
+    $searchHost.Width = [Math]::Max(180, [Math]::Min(320, $disponivel))
+    $script:SearchBox.Width = $searchHost.Width - 44
+})
 
-$main = New-Object System.Windows.Forms.TableLayoutPanel
-$main.Dock = 'Fill'
-$main.Margin = New-Object System.Windows.Forms.Padding(0)
-$main.Padding = New-Object System.Windows.Forms.Padding(16, 6, 16, 10)
-$main.ColumnCount = 1
-$main.RowCount = 2
-[void]$main.ColumnStyles.Add((New-Object System.Windows.Forms.ColumnStyle([System.Windows.Forms.SizeType]::Percent, 100)))
-[void]$main.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Percent, 100)))
-[void]$main.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 58)))
-$layout.Controls.Add($main, 0, 2)
+# ---------------- Cartoes ----------------
+$cardsHost = New-Object System.Windows.Forms.Panel
+$cardsHost.Dock = 'Fill'
+$cardsHost.Margin = New-Object System.Windows.Forms.Padding(0)
+$cardsHost.BackColor = $T.Fundo
+$layout.Controls.Add($cardsHost, 0, 2)
 
 $script:CardsPanel = New-Object System.Windows.Forms.FlowLayoutPanel
 $script:CardsPanel.Dock = 'Fill'
 $script:CardsPanel.AutoScroll = $true
-$script:CardsPanel.FlowDirection = 'TopDown'
-$script:CardsPanel.WrapContents = $false
-$script:CardsPanel.BackColor = [System.Drawing.Color]::FromArgb(238, 242, 247)
-$script:CardsPanel.Padding = New-Object System.Windows.Forms.Padding(5)
-$main.Controls.Add($script:CardsPanel, 0, 0)
+$script:CardsPanel.FlowDirection = 'LeftToRight'
+$script:CardsPanel.WrapContents = $true
+$script:CardsPanel.BackColor = $T.Fundo
+$script:CardsPanel.Padding = New-Object System.Windows.Forms.Padding(20, 6, 8, 8)
+Enable-TemaBufferDuplo -Controle $script:CardsPanel
+$cardsHost.Controls.Add($script:CardsPanel)
 
-$homeActions = New-Object System.Windows.Forms.FlowLayoutPanel
-$homeActions.Dock = 'Fill'
-$homeActions.FlowDirection = 'LeftToRight'
-$homeActions.WrapContents = $false
-$homeActions.Padding = New-Object System.Windows.Forms.Padding(4, 7, 4, 4)
-$homeActions.BackColor = [System.Drawing.Color]::White
-$main.Controls.Add($homeActions, 0, 1)
+$script:EmptyLabel = New-Object System.Windows.Forms.Label
+$script:EmptyLabel.Dock = 'Top'
+$script:EmptyLabel.Height = 80
+$script:EmptyLabel.TextAlign = 'MiddleCenter'
+$script:EmptyLabel.Font = $script:Fontes.Texto
+$script:EmptyLabel.ForeColor = $T.TextoSuave
+$script:EmptyLabel.Visible = $false
+$cardsHost.Controls.Add($script:EmptyLabel)
+$script:EmptyLabel.BringToFront()
+
+# ---------------- Barra de acoes ----------------
+$actionBar = New-Object System.Windows.Forms.TableLayoutPanel
+$actionBar.Dock = 'Fill'
+$actionBar.Margin = New-Object System.Windows.Forms.Padding(0)
+$actionBar.Padding = New-Object System.Windows.Forms.Padding(20, 0, 20, 0)
+$actionBar.BackColor = $T.Camada
+$actionBar.ColumnCount = 2
+$actionBar.RowCount = 1
+[void]$actionBar.ColumnStyles.Add((New-Object System.Windows.Forms.ColumnStyle([System.Windows.Forms.SizeType]::Percent, 100)))
+[void]$actionBar.ColumnStyles.Add((New-Object System.Windows.Forms.ColumnStyle([System.Windows.Forms.SizeType]::AutoSize)))
+[void]$actionBar.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Percent, 100)))
+$actionBar.Add_Paint({
+    param($ctl, $e)
+    $p = New-Object System.Drawing.Pen($script:Tema.Contorno)
+    $e.Graphics.DrawLine($p, 0, 0, $ctl.Width, 0)
+    $p.Dispose()
+})
+$layout.Controls.Add($actionBar, 0, 3)
+
+$detailText = New-Object System.Windows.Forms.FlowLayoutPanel
+$detailText.FlowDirection = 'TopDown'
+$detailText.WrapContents = $false
+$detailText.AutoSize = $true
+$detailText.Anchor = 'Left'
+$detailText.Margin = New-Object System.Windows.Forms.Padding(0)
+$actionBar.Controls.Add($detailText, 0, 0)
+
+$script:DetailTitle = New-Object System.Windows.Forms.Label
+$script:DetailTitle.Font = $script:Fontes.Detalhe
+$script:DetailTitle.ForeColor = $T.Texto
+$script:DetailTitle.AutoSize = $true
+$script:DetailTitle.Margin = New-Object System.Windows.Forms.Padding(0)
+$detailText.Controls.Add($script:DetailTitle)
+
+$script:DetailInfo = New-Object System.Windows.Forms.Label
+$script:DetailInfo.Font = $script:Fontes.Texto
+$script:DetailInfo.ForeColor = $T.TextoSuave
+$script:DetailInfo.AutoSize = $true
+$script:DetailInfo.Margin = New-Object System.Windows.Forms.Padding(0, 2, 0, 0)
+$detailText.Controls.Add($script:DetailInfo)
+
+$buttons = New-Object System.Windows.Forms.FlowLayoutPanel
+$buttons.FlowDirection = 'LeftToRight'
+$buttons.WrapContents = $false
+$buttons.AutoSize = $true
+$buttons.Anchor = 'Right'
+$buttons.Margin = New-Object System.Windows.Forms.Padding(0)
+$actionBar.Controls.Add($buttons, 1, 0)
+
+$script:MoreButton = New-Object System.Windows.Forms.Button
+$script:MoreButton.Text = [string][char]0xE712
+Set-TemaBotao -Botao $script:MoreButton -Tipo Secundario
+$script:MoreButton.Font = $script:Fontes.IconeBotao
+$script:MoreButton.Size = New-Object System.Drawing.Size(40, 38)
+$script:MoreButton.Margin = New-Object System.Windows.Forms.Padding(0, 0, 8, 0)
+$script:MoreButton.AccessibleName = 'Mais ações'
+$buttons.Controls.Add($script:MoreButton)
+
+$script:LogsButton = New-Object System.Windows.Forms.Button
+$script:LogsButton.Text = 'Logs da rotina'
+Set-TemaBotao -Botao $script:LogsButton -Tipo Secundario
+$script:LogsButton.Size = New-Object System.Drawing.Size(128, 38)
+$script:LogsButton.Margin = New-Object System.Windows.Forms.Padding(0, 0, 8, 0)
+$buttons.Controls.Add($script:LogsButton)
 
 $script:RunButton = New-Object System.Windows.Forms.Button
-$script:RunButton.Text = 'Executar rotina'
-$script:RunButton.Enabled = $false
-$script:RunButton.BackColor = [System.Drawing.Color]::FromArgb(31, 105, 178)
-$script:RunButton.ForeColor = [System.Drawing.Color]::White
-$script:RunButton.FlatStyle = 'Flat'
-$script:RunButton.Margin = New-Object System.Windows.Forms.Padding(3)
-$script:RunButton.Size = New-Object System.Drawing.Size(160, 38)
-$homeActions.Controls.Add($script:RunButton)
+$script:RunButton.Text = 'Abrir rotina'
+Set-TemaBotao -Botao $script:RunButton -Tipo Principal
+$script:RunButton.Size = New-Object System.Drawing.Size(156, 38)
+$script:RunButton.Margin = New-Object System.Windows.Forms.Padding(0)
+$script:RunButton.Add_EnabledChanged({
+    if ($this.Enabled) { $this.BackColor = $script:Tema.VerdeEscuro; $this.FlatAppearance.BorderColor = $script:Tema.VerdeEscuro }
+    else { $this.BackColor = $script:Tema.Contorno; $this.FlatAppearance.BorderColor = $script:Tema.Contorno }
+})
+$buttons.Controls.Add($script:RunButton)
 
-$logsButton = New-Object System.Windows.Forms.Button
-$logsButton.Text = 'Abrir pasta de logs'
-$logsButton.Enabled = $false
-$logsButton.Margin = New-Object System.Windows.Forms.Padding(3)
-$logsButton.Size = New-Object System.Drawing.Size(150, 38)
-$homeActions.Controls.Add($logsButton)
+$moreMenu = New-Object System.Windows.Forms.ContextMenuStrip
+$moreMenu.Font = $script:Fontes.Texto
+$menuFolder = $moreMenu.Items.Add('Abrir pasta do script')
+$menuCentralLogs = $moreMenu.Items.Add('Abrir logs da Central')
 
-$folderButton = New-Object System.Windows.Forms.Button
-$folderButton.Text = 'Abrir pasta do script'
-$folderButton.Enabled = $false
-$folderButton.Margin = New-Object System.Windows.Forms.Padding(3)
-$folderButton.Size = New-Object System.Drawing.Size(170, 38)
-$homeActions.Controls.Add($folderButton)
-
+# ---------------- Status ----------------
 $statusStrip = New-Object System.Windows.Forms.StatusStrip
 $statusStrip.Dock = 'Fill'
 $statusStrip.Margin = New-Object System.Windows.Forms.Padding(0)
+$statusStrip.SizingGrip = $false
+$statusStrip.BackColor = $T.Fundo
+$statusStrip.Font = $script:Fontes.Legenda
 $script:StatusLabel = New-Object System.Windows.Forms.ToolStripStatusLabel
 $script:StatusLabel.Spring = $true
 $script:StatusLabel.TextAlign = 'MiddleLeft'
+$script:StatusLabel.ForeColor = $T.TextoSuave
+$script:EnvLabel = New-Object System.Windows.Forms.ToolStripStatusLabel
+$script:EnvLabel.ForeColor = $T.TextoSuave
+$script:EnvLabel.Text = 'Verificando ambiente...'
 [void]$statusStrip.Items.Add($script:StatusLabel)
-$layout.Controls.Add($statusStrip, 0, 3)
+[void]$statusStrip.Items.Add($script:EnvLabel)
+$layout.Controls.Add($statusStrip, 0, 4)
 
+# ---------------- Eventos ----------------
 $script:SearchBox.Add_TextChanged({ Update-ScriptList })
-$script:CategoryBox.Add_SelectedIndexChanged({ Update-ScriptList })
 $script:CardsPanel.Add_Resize({ Update-CardWidths })
 $script:RunButton.Add_Click({ Invoke-SelectedRoutine })
-$logsButton.Add_Click({
-    if (-not (Test-Path -LiteralPath $script:LogsPath)) { New-Item -ItemType Directory -Path $script:LogsPath -Force | Out-Null }
-    Start-Process explorer.exe -ArgumentList ('"{0}"' -f $script:LogsPath)
+$script:LogsButton.Add_Click({
+    if (-not $script:SelectedScript) { return }
+    $pasta = Get-RoutineLogsPath -Item $script:SelectedScript
+    if (-not (Test-Path -LiteralPath $pasta)) { New-Item -ItemType Directory -Path $pasta -Force | Out-Null }
+    Start-Process explorer.exe -ArgumentList ('"{0}"' -f $pasta)
 })
-$folderButton.Add_Click({
+$script:MoreButton.Add_Click({ $moreMenu.Show($script:MoreButton, 0, $script:MoreButton.Height) })
+$menuFolder.Add_Click({
     if ($script:SelectedScript) {
         $folder = Split-Path -Parent (Get-ResolvedScriptPath -Item $script:SelectedScript)
         if (Test-Path -LiteralPath $folder) { Start-Process explorer.exe -ArgumentList ('"{0}"' -f $folder) }
+    }
+})
+$menuCentralLogs.Add_Click({
+    if (-not (Test-Path -LiteralPath $script:LogsPath)) { New-Item -ItemType Directory -Path $script:LogsPath -Force | Out-Null }
+    Start-Process explorer.exe -ArgumentList ('"{0}"' -f $script:LogsPath)
+})
+
+$form.Add_KeyDown({
+    param($ctl, $e)
+    if ($script:ActivePanel) { return }   # rotina aberta: teclado e da rotina
+    if ($e.Control -and $e.KeyCode -eq 'F') {
+        $script:SearchBox.Focus(); $script:SearchBox.SelectAll(); $e.SuppressKeyPress = $true
+    }
+    elseif ($e.KeyCode -eq 'Escape' -and $script:SearchBox.Text) {
+        $script:SearchBox.Clear(); $e.SuppressKeyPress = $true
+    }
+    elseif ($e.KeyCode -eq 'Enter') {
+        if (-not $script:SelectedScript -and $script:CardControls.Count -eq 1) {
+            Select-ScriptCard -Item $script:CardControls[0].Tag.Item -Card $script:CardControls[0]
+        }
+        if ($script:SelectedScript) { Invoke-SelectedRoutine }
+        $e.SuppressKeyPress = $true
+    }
+    elseif ($e.KeyCode -in @('Down', 'Right') -and -not ($script:SearchBox.Focused -and $e.KeyCode -eq 'Right')) {
+        Move-CardSelection -Passo 1; $e.SuppressKeyPress = $true
+    }
+    elseif ($e.KeyCode -in @('Up', 'Left') -and -not ($script:SearchBox.Focused -and $e.KeyCode -eq 'Left')) {
+        Move-CardSelection -Passo -1; $e.SuppressKeyPress = $true
     }
 })
 
 $form.Add_Shown({
     Update-ScriptList
     Write-ExecutorLog "ABERTO | Catálogo com $($script:Catalog.Count) rotinas"
+    $form.Refresh()
+    # Verificacao rapida: so modulos do PowerShell (Python/Chromium sao checados ao abrir a rotina).
+    $faltando = @(foreach ($modulo in @('PWPS_DAB', 'ImportExcel')) {
+        if (-not (Get-Module -ListAvailable -Name $modulo | Select-Object -First 1)) { $modulo }
+    })
+    if ($faltando.Count -eq 0) {
+        $script:EnvLabel.Text = '●  Ambiente pronto: PWPS_DAB e ImportExcel encontrados'
+        $script:EnvLabel.ForeColor = $script:Tema.VerdeEscuro
+    }
+    else {
+        $script:EnvLabel.Text = "●  Faltando: $($faltando -join ', ')"
+        $script:EnvLabel.ForeColor = $script:Tema.Critico
+    }
 })
 $form.Add_FormClosing({
-    param($sender, $eventArgs)
+    param($ctl, $eventArgs)
     $activeProcess = if ($script:ActivePanel -and $script:ActivePanel.Tag) { $script:ActivePanel.Tag.Process } else { $null }
     if ($activeProcess -and -not $activeProcess.HasExited) {
         $answer = [System.Windows.Forms.MessageBox]::Show(
