@@ -1013,8 +1013,10 @@ namespace CentralScripts {
         $output.AppendText($Text)
         $state.PromptBuffer += $Text
         $state.LastOutputUtc = [DateTime]::UtcNow
-        if ($state.PromptBuffer.Length -gt 3000) {
-            $state.PromptBuffer = $state.PromptBuffer.Substring($state.PromptBuffer.Length - 3000)
+        # Limite folgado: listas longas (ex.: 100+ projetos de uma concessao) precisam
+        # manter o titulo ("Projetos encontrados:") no buffer para a pergunta ser reconhecida.
+        if ($state.PromptBuffer.Length -gt 100000) {
+            $state.PromptBuffer = $state.PromptBuffer.Substring($state.PromptBuffer.Length - 100000)
         }
         if ($state.LogPath) {
             try { [IO.File]::AppendAllText($state.LogPath, $Text, [Text.UTF8Encoding]::new($true)) } catch {}
