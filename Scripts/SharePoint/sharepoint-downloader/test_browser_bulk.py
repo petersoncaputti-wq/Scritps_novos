@@ -184,7 +184,8 @@ class BulkTests(unittest.TestCase):
             return iter([item] if "root/child'" in endpoint else [])
 
         def transfer(session, url, target, size, progress=None, **kwargs):
-            self.assertEqual(len(scanned), 4, 'Todas as pastas devem ser lidas antes do download')
+            folder_reads = {e for e in scanned if '/Folders?' in e or '/Files?' in e}
+            self.assertEqual(len(folder_reads), 4, 'Todas as pastas devem ser lidas antes do download')
             if progress:
                 progress(size)
             target.write_bytes(b'abc')

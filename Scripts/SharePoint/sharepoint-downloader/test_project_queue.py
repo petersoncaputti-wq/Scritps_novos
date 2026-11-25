@@ -46,8 +46,8 @@ class QueueTests(unittest.TestCase):
         projects = [Project(i, i, '4', '1', str(i), f'https://a.sharepoint.com/sites/P/{i}') for i in range(1, 4)]
         manager = MagicMock()
         pw = manager.return_value.__enter__.return_value
-        browser = pw.chromium.launch.return_value
-        context = browser.new_context.return_value
+        context = pw.chromium.launch_persistent_context.return_value
+        context.pages = []
         page = context.new_page.return_value
         page.url = 'https://a.sharepoint.com/sites/P'
         with tempfile.TemporaryDirectory() as tmp, \
@@ -58,7 +58,7 @@ class QueueTests(unittest.TestCase):
             self.assertEqual(execute_queue(projects, tmp), 1)
             self.assertEqual(login.call_count, 1)
             self.assertEqual(download.call_count, 3)
-            self.assertEqual(browser.new_context.call_count, 1)
+            self.assertEqual(pw.chromium.launch_persistent_context.call_count, 1)
             report = json.loads(next(Path(tmp).glob('fila_projetos_resumo_*.json')).read_text(encoding='utf-8'))
             self.assertEqual([r['estado'] for r in report['projetos']], ['falha', 'com_pendencias', 'concluido'])
             context.close.assert_called_once()

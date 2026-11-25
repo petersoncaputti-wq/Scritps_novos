@@ -119,14 +119,16 @@ def resolve_web(page, parsed):
                 raise RuntimeError('Site retornado fora do dominio esperado.')
             return web
         except RuntimeError as error:
-            if 'HTTP 404' not in str(error):
+            from browser_test import is_not_found
+            if not is_not_found(error):
                 raise
     raise RuntimeError('Nao foi possivel localizar o site SharePoint.')
 
 
-def execute_queue(projects, destination, workers=8, refresh_inventory=False, issues=None):
+def execute_queue(projects, destination, workers=8, refresh_inventory=False, issues=None,
+                  verify_existing=False, fresh_login=False):
     from playwright.sync_api import sync_playwright
-    from browser_test import wait_for_sharepoint
+    from browser_test import wait_for_sharepoint, open_browser, close_browser
     from browser_bulk import download_tree, safe_error
     destination = Path(destination).expanduser().resolve()
     destination.mkdir(parents=True, exist_ok=True)
@@ -140,9 +142,8 @@ def execute_queue(projects, destination, workers=8, refresh_inventory=False, iss
 
     save()
     with sync_playwright() as pw:
-        browser = pw.chromium.launch(channel='msedge', headless=False)
-        context = browser.new_context(accept_downloads=True)
-        page = context.new_page()
+        context = open_browser(pw, fresh_login)
+        page = context.pages[0] if context.pages else context.new_page()
         authenticated_host = None
         try:
             for index, project in enumerate(projects, 1):
@@ -163,13 +164,15 @@ def execute_queue(projects, destination, workers=8, refresh_inventory=False, iss
                     try:
                         web = resolve_web(page, parsed)
                     except RuntimeError as error:
-                        if not any(code in str(error) for code in ('HTTP 401', 'HTTP 403', 'HTTP 200')):
+                        from browser_test import is_auth_failure
+                        if not is_auth_failure(error):
                             raise
                         print('Confira a sessao e o acesso ao projeto no Edge.')
                         page = wait_for_sharepoint(context, parsed.hostname)
                         web = resolve_web(page, parsed)
                     result = download_tree(page, web, parsed.path, target, project.url,
-                                           workers=workers, refresh_inventory=refresh_inventory)
+                                           workers=workers, refresh_inventory=refresh_inventory,
+                                           verify_existing=verify_existing)
                     record['estado'] = 'concluido' if result == 0 else 'com_pendencias'
                 except (KeyboardInterrupt, EOFError):
                     record['estado'] = 'interrompido'
@@ -182,15 +185,15 @@ def execute_queue(projects, destination, workers=8, refresh_inventory=False, iss
                 save()
                 logging.info('FILA_PROJETO_FIM linha=%s estado=%s', project.row, record['estado'])
         finally:
-            context.close()
-            browser.close()
+            close_browser(context)
     failed = sum(r['estado'] != 'concluido' for r in report['projetos'])
     print(f'\nFila finalizada: {len(projects)-failed} projetos concluidos; {failed} com pendencias. Resumo: {report_path}')
     return 1 if failed or issues else 0
 
 
 def run_project_queue(path, destination='', sheet=None, priorities=None, rows=None,
-                      plan_only=False, workers=8, refresh_inventory=False):
+                      plan_only=False, workers=8, refresh_inventory=False, verify_existing=False,
+                      fresh_login=False):
     projects, issues = load_projects(path, sheet, priorities, rows)
     for issue in issues:
         print(f"Pendencia na linha {issue['linha']}: {issue['motivo']}")
@@ -204,4 +207,5 @@ def run_project_queue(path, destination='', sheet=None, priorities=None, rows=No
     if not destination:
         from browser_test import select_destination
         destination = select_destination()
-    return execute_queue(projects, destination, workers, refresh_inventory, issues)
+    return execute_queue(projects, destination, workers, refresh_inventory, issues, verify_existing,
+                         fresh_login)

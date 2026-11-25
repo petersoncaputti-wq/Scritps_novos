@@ -6,6 +6,18 @@ import time
 from pathlib import Path
 from urllib.parse import urlsplit
 
+# SharePoint grava propriedades da biblioteca dentro de arquivos Office no
+# download, entao os bytes recebidos excedem o Length do inventario em alguns KB.
+OFFICE_SUFFIXES = {'.doc', '.docx', '.docm', '.dotx', '.dotm', '.xls', '.xlsx', '.xlsm',
+                   '.xltx', '.xltm', '.xlsb', '.ppt', '.pptx', '.pptm', '.potx', '.ppsx'}
+OFFICE_MAX_DELTA = 256 * 1024
+
+
+def office_size_ok(target, inventory_size, actual_size):
+    """True quando a diferenca e o acrescimo de propriedades esperado no Office."""
+    return (Path(target).suffix.lower() in OFFICE_SUFFIXES
+            and inventory_size < actual_size <= inventory_size + OFFICE_MAX_DELTA)
+
 
 def verify_local_file(target, size):
     """Confirm final-path existence, disk size and readability of every byte."""
@@ -45,7 +57,9 @@ def transfer_file(session, url, target, size, progress=None, resume_key=None, st
     offset = partial.stat().st_size if partial.exists() else 0
     initial_offset = offset
     started = time.monotonic()
-    if saved.get('identity') != identity or saved.get('size') != size or offset >= size:
+    expected = saved.get('expected') or size
+    if (saved.get('identity') != identity or saved.get('size') != size or offset >= expected
+            or (expected != size and not office_size_ok(target, size, expected))):
         offset = 0
     validator = saved.get('etag')
     if not validator or validator.startswith('W/'):
@@ -70,13 +84,13 @@ def transfer_file(session, url, target, size, progress=None, resume_key=None, st
             raise DownloadError(message, response.status_code,
                                 retry_delay(response.headers.get('Retry-After')))
         if urlsplit(response.url).hostname != urlsplit(url).hostname:
-            raise DownloadError('Download redirecionado para outro dominio; refaca o login.')
+            raise DownloadError('Download redirecionado para outro dominio; refaca o login.', auth=True)
         if 'text/html' in response.headers.get('Content-Type', '').lower() and target.suffix.lower() not in ('.html', '.htm'):
-            raise DownloadError('Download retornou HTML; a sessao pode ter expirado.')
+            raise DownloadError('Download retornou HTML; a sessao pode ter expirado.', auth=True)
         if response.status_code == 206:
             match = re.fullmatch(r'bytes (\d+)-(\d+)/(\d+)', response.headers.get('Content-Range', ''))
-            if (not offset or not match or int(match[1]) != offset or int(match[3]) != size
-                    or int(match[2]) < offset or int(match[2]) >= size
+            if (not offset or not match or int(match[1]) != offset or int(match[3]) != expected
+                    or int(match[2]) < offset or int(match[2]) >= expected
                     or response.headers.get('ETag') != validator):
                 raise DownloadError('Resposta Range ou versao invalida; parcial preservado.')
             logging.info('PARCIAL_RETOMADA_CONFIRMADA local=%s offset=%s', target, offset)
@@ -84,7 +98,15 @@ def transfer_file(session, url, target, size, progress=None, resume_key=None, st
             if offset:
                 logging.info('PARCIAL_REINICIO local=%s motivo=servidor_retornou_200', target)
             offset = 0  # Server ignored Range or the remote version changed.
-        metadata.write_text(json.dumps({'identity': identity, 'size': size,
+            expected = size
+            try:
+                length = int(response.headers.get('Content-Length') or -1)
+            except (TypeError, ValueError):
+                length = -1
+            if length != size and office_size_ok(target, size, length):
+                expected = length
+                logging.info('TAMANHO_AJUSTADO_OFFICE local=%s inventario_bytes=%s resposta_bytes=%s', target, size, length)
+        metadata.write_text(json.dumps({'identity': identity, 'size': size, 'expected': expected,
                                         'etag': response.headers.get('ETag')}), encoding='utf-8')
         written = offset
         with partial.open('ab' if offset else 'wb') as output:
@@ -98,13 +120,18 @@ def transfer_file(session, url, target, size, progress=None, resume_key=None, st
                 written += len(chunk)
                 if progress:
                     progress(written)
-    if written != size:
+    if written != expected and expected == size and office_size_ok(target, size, written):
+        # Resposta sem Content-Length: aceita o acrescimo tipico de propriedades Office.
+        logging.info('TAMANHO_AJUSTADO_OFFICE local=%s inventario_bytes=%s resposta_bytes=%s', target, size, written)
+        expected = written
+    if written != expected:
         # A complete but different-sized response cannot safely be resumed.
         metadata.write_text(json.dumps({'identity': identity, 'size': size, 'etag': None}), encoding='utf-8')
         raise DownloadError(f'Tamanho divergente: esperado {size:,} bytes; recebido {written:,} bytes. O arquivo pode ter mudado apos o inventario.')
     if target.exists():
         raise DownloadError('Destino criado durante o download; preservado sem sobrescrever.')
     partial.rename(target)
-    verify_local_file(target, size)
+    verify_local_file(target, expected)
     logging.info('TRANSFERENCIA_VALIDADA local=%s bytes=%s bytes_reutilizados=%s duracao_segundos=%.2f', target, written, offset, time.monotonic()-started)
     metadata.unlink(missing_ok=True)
+    return expected

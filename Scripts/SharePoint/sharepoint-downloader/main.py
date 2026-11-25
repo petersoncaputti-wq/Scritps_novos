@@ -14,6 +14,8 @@ def main() -> int:
     parser.add_argument("--destination", default="", help="Pasta local para o teste pelo navegador")
     parser.add_argument("--workers", type=int, choices=range(1, 9), default=8, help="Downloads simultaneos (padrao: 8)")
     parser.add_argument("--refresh-inventory", action="store_true", help="Reler o SharePoint em vez de reutilizar o inventario concluido")
+    parser.add_argument("--fresh-login", action="store_true", help="Ignorar o login salvo no perfil do Edge")
+    parser.add_argument("--verify-existing", action="store_true", help="Reler por completo arquivos ja baixados (mais lento)")
     parser.add_argument('--project-list', default='', help='Planilha XLSX: E prioridade, F link do projeto')
     parser.add_argument('--sheet', default=None, help='Aba da lista (padrao: primeira aba)')
     parser.add_argument('--priority', type=int, action='append', help='Selecionar prioridade; pode repetir')
@@ -33,7 +35,8 @@ def main() -> int:
             from project_queue import run_project_queue
             return run_project_queue(args.project_list, args.destination, args.sheet,
                                      args.priority, args.project_rows, args.plan_only,
-                                     args.workers, args.refresh_inventory)
+                                     args.workers, args.refresh_inventory, args.verify_existing,
+                                     args.fresh_login)
         if args.diagnose_download:
             from download_diagnostic import choose_target
             args.url, args.diagnose_file = choose_target(args.url, args.diagnose_file)
@@ -43,7 +46,8 @@ def main() -> int:
             from browser_test import run_browser_test
             return run_browser_test(args.url, args.destination, download_all=args.browser_all,
                                     workers=args.workers, refresh_inventory=args.refresh_inventory,
-                                    diagnose_file=args.diagnose_file if args.diagnose_download else '')
+                                    diagnose_file=args.diagnose_file if args.diagnose_download else '',
+                                    verify_existing=args.verify_existing, fresh_login=args.fresh_login)
         from auth import authenticate
         from graph_client import GraphClient
         from sharepoint import parse_sharepoint_url, get_site, get_drives, resolve_sharepoint_folder, list_folder

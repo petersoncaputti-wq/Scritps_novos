@@ -40,9 +40,20 @@ Execute `Baixar Pasta Completa SharePoint.bat` ou `.\.venv\Scripts\python.exe ma
 Informe a URL da pasta e selecione o destino na janela visual. Cancelar encerra a execucao.
 Faca login/MFA no Edge; a transferencia e feita pelo Python no terminal, por streaming.
 
+### Login salvo e deteccao automatica
+
+- O Edge usa um perfil proprio em `%LOCALAPPDATA%\SharePointDownloader\edge_profile`. Marque **Continuar conectado** no login: as proximas execucoes costumam abrir ja autenticadas, sem MFA, ate a politica do tenant expirar a sessao.
+- O login e detectado automaticamente quando a pasta do SharePoint abre; nao e preciso pressionar ENTER. ENTER forca a verificacao manual e Q cancela.
+- Se o perfil estiver em uso (duas execucoes na mesma maquina), a segunda usa uma sessao temporaria. `--fresh-login` ignora o login salvo.
+- Os cookies do perfil ficam gravados pelo Edge e protegidos pelo Windows (DPAPI) para o usuario atual. Para encerrar a sessao salva, apague a pasta `edge_profile`.
+- Durante o lote, uma leitura leve a cada 10 minutos mantem a sessao ativa. Se a sessao expirar, o lote pausa, pede um unico novo login e repete os arquivos afetados sem gastar tentativas. HTTP 403 repetido logo apos a renovacao e tratado como falta de permissao do arquivo.
+
+
 - Padrao de 8 downloads simultaneos; ajuste com `--workers 1` a `--workers 8`.
-- Antes de concluir cada download, confirma existencia no caminho final, tamanho em disco e leitura completa do arquivo. Arquivos existentes reaproveitados passam pela mesma verificacao. O log registra `ARQUIVO_LOCAL_VERIFICADO` ou `VERIFICACAO_LOCAL_FALHOU`; falhas nao contam como concluidas. A leitura adicional pode aumentar o tempo em discos lentos. Nao compara checksum com a origem nem garante preservacao futura.
+- Antes de concluir cada download, confirma existencia no caminho final, tamanho em disco e leitura completa do arquivo. Arquivos existentes ja confirmados no SQLite (mesma versao, tamanho e data de modificacao) sao reaproveitados sem nova leitura (`verificacao=registro_sqlite` no log); os demais passam pela leitura completa. Use `--verify-existing` para forcar a releitura de todos.
+- Arquivos Office (.docx, .xlsx, .doc, .xls etc.) costumam chegar alguns KB maiores que o inventario, porque o SharePoint grava as propriedades da biblioteca no arquivo. Acrescimos de ate 256 KiB sao aceitos e registrados como `TAMANHO_AJUSTADO_OFFICE`; o tamanho real fica no SQLite. O log registra `ARQUIVO_LOCAL_VERIFICADO` ou `VERIFICACAO_LOCAL_FALHOU`; falhas nao contam como concluidas. A leitura adicional pode aumentar o tempo em discos lentos. Nao compara checksum com a origem nem garante preservacao futura.
 - Percorre todas as subpastas e paginas, incluindo pastas vazias. Nao ha limite de 100 MB.
+- O inventario le a biblioteca inteira em paginas de 5000 itens (`INVENTARIO_LISTA_LIDO` no log), em vez de duas leituras por pasta. Bibliotecas com mais de 100 mil itens, respostas vazias inesperadas ou erros da leitura em lista voltam automaticamente para a leitura pasta a pasta (`INVENTARIO_LISTA_FALHOU`). A pasta `Forms` da biblioteca nao entra no inventario.
 - O inventario inicial conta os documentos e o volume total. A barra mostra bytes transferidos e arquivos concluidos, somando as transferencias simultaneas.
 - Durante os downloads, a barra ocupa uma unica linha atualizada, adaptada a largura do terminal, com contador de erros e estado atual. Mensagens por arquivo ficam no log completo; login adicional e resumo final aparecem separadamente no terminal.
 - Um inventario concluido e reutilizado na mesma URL/destino. Para detectar arquivos novos ou alteracoes, use `--refresh-inventory`. Inventarios interrompidos sao refeitos.
@@ -52,9 +63,11 @@ Faca login/MFA no Edge; a transferencia e feita pelo Python no terminal, por str
 - Nomes incompat?veis com Windows ou muito longos recebem adaptacao com sufixo hash.
 - Parciais ficam em `.spdownload.part` com identificacao em `.json`. Uma nova tentativa usa HTTP Range e If-Range quando ha ETag forte; valida Content-Range e ETag antes de anexar bytes. Se o servidor nao suporta retomada ou muda a versao, o arquivo recomeca do inicio. Parciais antigos `.part.<identificador>` nao sao importados automaticamente.
 - CTRL+C interrompe as transferencias e preserva os parciais identificados. A parada pode aguardar uma leitura HTTP ate seu timeout (60 segundos). Execute novamente com a mesma URL/destino para continuar.
-- Cada arquivo recebe ate tres tentativas. HTTP 429/503 reduz o lote para um download e aplica uma pausa global, respeitando Retry-After. Sessao expirada solicita novo login no Edge.
+- Cada arquivo recebe ate tres tentativas. HTTP 429/503 reduz o lote para um download e aplica uma pausa global, respeitando Retry-After; apos 20 downloads sem nova limitacao, a concorrencia volta a subir um passo por vez (`LOTE_CONCORRENCIA_AMPLIADA`).
+- Queda de rede: apos 5 erros de conexao seguidos o lote pausa (`REDE_INDISPONIVEL`), testa a conexao em intervalos de 10s ate 2 min e retoma sozinho (`REDE_RESTABELECIDA`). Arquivos interrompidos pela queda voltam para a fila sem gastar tentativas.
+- Cada trabalhador reutiliza a mesma conexao HTTP entre arquivos e se identifica como `NONISV|Ecorodovias|SharePointDownloader`, como a Microsoft recomenda para trafego automatizado.
 - Se a rota REST por caminho retornar HTTP 400/404, tenta a URL direta e depois download.aspx. Cada alternativa conserva sessao, streaming, retomada e validacao de tamanho; a rota usada e registrada no log. Falhas de autenticacao ou integridade nao disparam troca de rota.
-- Um bloqueio impede dois lotes simultaneos no mesmo destino. Cookies ficam apenas em memoria; trabalhadores HTTP nao acessam Playwright ou SQLite.
+- Um bloqueio impede dois lotes simultaneos no mesmo destino. Os trabalhadores HTTP recebem copia dos cookies em memoria e nao acessam Playwright ou SQLite.
 - Erros aparecem no terminal e no log sem tokens ou URLs assinadas. O resumo distingue baixados, existentes e falhas/conflitos.
 
 Exemplos:

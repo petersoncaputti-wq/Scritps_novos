@@ -1,5 +1,6 @@
 """Teste de leitura usando login manual e sessao SharePoint no navegador."""
 import logging
+import os
 import re
 import time
 from pathlib import Path
@@ -45,6 +46,22 @@ def alias_folder_path(endpoint: str) -> str:
     return endpoint + separator + '@folderPath=%27' + match.group(1) + '%27'
 
 
+class SharePointHTTPError(RuntimeError):
+    """Leitura REST recusada; status 200 significa resposta nao JSON (pagina de login)."""
+
+    def __init__(self, message, status):
+        super().__init__(message)
+        self.status = status
+
+
+def is_auth_failure(error) -> bool:
+    return isinstance(error, SharePointHTTPError) and error.status in (200, 401, 403)
+
+
+def is_not_found(error) -> bool:
+    return isinstance(error, SharePointHTTPError) and error.status == 404
+
+
 # SharePoint Online sinaliza limite de requisicoes (throttling) com 429/503 e,
 # em leituras REST intensas pelo navegador, tambem com 406. Sao temporarios.
 TRANSIENT_STATUS = {406, 408, 429, 500, 502, 503, 504}
@@ -85,10 +102,93 @@ def read_json(page, endpoint: str) -> dict:
     message = f"SharePoint recusou a leitura: HTTP {status}. Confira login e acesso a pasta."
     if detail:
         message += f" Detalhe do servidor: {detail}"
-    raise RuntimeError(message)
+    raise SharePointHTTPError(message, status)
 
 
-def wait_for_sharepoint(context, hostname: str):
+PROFILE_DIR = Path(os.environ.get('LOCALAPPDATA', str(BASE))) / 'SharePointDownloader' / 'edge_profile'
+
+
+def open_browser(pw, fresh_login: bool = False):
+    """Perfil persistente do Edge: o login com "Continuar conectado" vale entre execucoes."""
+    if not fresh_login:
+        try:
+            PROFILE_DIR.mkdir(parents=True, exist_ok=True)
+            context = pw.chromium.launch_persistent_context(
+                str(PROFILE_DIR), channel='msedge', headless=False, accept_downloads=True)
+            logging.info('NAVEGADOR_PERFIL tipo=persistente')
+            return context
+        except Exception as error:
+            # Perfil em uso por outra execucao, corrompido ou bloqueado por politica.
+            logging.warning('NAVEGADOR_PERFIL_INDISPONIVEL tipo=%s; usando sessao temporaria', type(error).__name__)
+            print('Perfil salvo do Edge indisponivel (outra execucao aberta?). Usando sessao temporaria.')
+    browser = pw.chromium.launch(channel='msedge', headless=False)
+    context = browser.new_context(accept_downloads=True)
+    logging.info('NAVEGADOR_PERFIL tipo=temporario')
+    return context
+
+
+def close_browser(context):
+    browser = context.browser
+    context.close()
+    if browser is not None:
+        browser.close()
+
+
+SESSION_CHECK = """async () => {
+    if (document.readyState !== 'complete') return {ready: false};
+    const r = await fetch(location.origin + '/_api/web?$select=Url', {credentials: 'same-origin',
+        headers: {Accept: 'application/json;odata=nometadata'}});
+    return {ready: true, status: r.status, forms: r.headers.get('x-forms_based_auth_required') || ''};
+}"""
+
+
+def session_ready(tab, hostname: str) -> bool:
+    """Aba no SharePoint com sessao autenticada (403 de permissao tambem conta)."""
+    if tab.is_closed() or urlsplit(tab.url).hostname != hostname:
+        return False
+    try:
+        result = tab.evaluate(SESSION_CHECK)
+    except Exception:
+        return False  # navegacao em andamento destroi o contexto JavaScript
+    return bool(result.get('ready')) and result.get('status') != 401 and not result.get('forms')
+
+
+def read_key():
+    """Tecla pressionada no terminal, sem bloquear o navegador (Windows)."""
+    try:
+        import msvcrt
+    except ImportError:
+        return None
+    if not msvcrt.kbhit():
+        return None
+    return msvcrt.getwch()
+
+
+def wait_for_sharepoint(context, hostname: str, poll_ms: int = 1500):
+    """Detecta o login automaticamente; ENTER forca a verificacao e Q cancela."""
+    print("Aguardando login/MFA no Edge (detectado automaticamente; Q cancela).")
+    announced = time.monotonic()
+    while True:
+        tabs = [tab for tab in context.pages if not tab.is_closed()]
+        if not tabs:
+            raise RuntimeError("O navegador foi fechado. Execute o teste novamente.")
+        for tab in reversed(tabs):
+            if session_ready(tab, hostname):
+                logging.info('LOGIN_DETECTADO hostname=%s modo=automatico', hostname)
+                return tab
+        key = read_key()
+        if key and key.upper() == 'Q':
+            raise KeyboardInterrupt
+        if key in ('\r', '\n'):
+            return wait_for_sharepoint_manual(context, hostname)
+        if time.monotonic() - announced >= 120:
+            announced = time.monotonic()
+            hosts = sorted({urlsplit(tab.url).hostname or "pagina sem dominio" for tab in tabs})
+            print(f"Ainda aguardando o SharePoint ({hostname}). Dominios abertos: " + ", ".join(hosts))
+        tabs[0].wait_for_timeout(poll_ms)
+
+
+def wait_for_sharepoint_manual(context, hostname: str):
     """Pump browser events after terminal input; login may open another tab."""
     while True:
         answer = input("Quando a pasta estiver aberta, pressione ENTER aqui (Q para cancelar)... ").strip()
@@ -113,7 +213,8 @@ def wait_for_sharepoint(context, hostname: str):
 
 
 def run_browser_test(url: str = "", destination: str = "", download_all: bool = False,
-                     workers: int = 8, refresh_inventory: bool = False, diagnose_file: str = '') -> int:
+                     workers: int = 8, refresh_inventory: bool = False, diagnose_file: str = '',
+                     verify_existing: bool = False, fresh_login: bool = False) -> int:
     from playwright.sync_api import sync_playwright
 
     url = url or input("URL da pasta SharePoint: ").strip()
@@ -127,9 +228,8 @@ def run_browser_test(url: str = "", destination: str = "", download_all: bool = 
     logging.info("DESTINO_SELECIONADO caminho=%s", target_dir)
     origin = f"https://{parsed.hostname}"
     with sync_playwright() as pw:
-        browser = pw.chromium.launch(channel="msedge", headless=False)
-        context = browser.new_context(accept_downloads=True)
-        page = context.new_page()
+        context = open_browser(pw, fresh_login)
+        page = context.pages[0] if context.pages else context.new_page()
         try:
             page.goto(url, wait_until="domcontentloaded", timeout=120000)
             print("Faca login e MFA no navegador. Abra a pasta desejada.")
@@ -146,7 +246,7 @@ def run_browser_test(url: str = "", destination: str = "", download_all: bool = 
                     web = info["Url"].rstrip("/")
                     break
                 except RuntimeError as error:
-                    if "HTTP 404" not in str(error):
+                    if not is_not_found(error):
                         raise
             if not web or urlsplit(web).hostname != parsed.hostname:
                 raise RuntimeError("Nao foi possivel localizar o site SharePoint.")
@@ -156,7 +256,8 @@ def run_browser_test(url: str = "", destination: str = "", download_all: bool = 
             if download_all:
                 from browser_bulk import download_tree
                 return download_tree(page, web, parsed.path, target_dir, url,
-                                     workers=workers, refresh_inventory=refresh_inventory)
+                                     workers=workers, refresh_inventory=refresh_inventory,
+                                     verify_existing=verify_existing)
             current_path = parsed.path
             while True:
                 endpoint = folder_endpoint(web, current_path)
@@ -230,5 +331,4 @@ def run_browser_test(url: str = "", destination: str = "", download_all: bool = 
             logging.info("Teste navegador: download concluido bytes=%s", target.stat().st_size)
             return 0
         finally:
-            context.close()
-            browser.close()
+            close_browser(context)

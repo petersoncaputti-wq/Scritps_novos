@@ -11,14 +11,16 @@ from pathlib import Path
 from urllib.parse import quote, urljoin, urlsplit
 
 import requests
-from browser_test import folder_endpoint, read_json, wait_for_sharepoint
+from browser_test import folder_endpoint, is_auth_failure, read_json, wait_for_sharepoint
 
 
 class DownloadError(RuntimeError):
-    def __init__(self, message, status=None, retry_after=None):
+    def __init__(self, message, status=None, retry_after=None, auth=False):
         super().__init__(message)
         self.status = status
         self.retry_after = retry_after
+        # Sessao expirada/recusada: 401, 403 ou pagina de login no lugar do arquivo.
+        self.auth = auth or status in (401, 403)
 
 
 def retry_delay(value):
@@ -68,6 +70,56 @@ def pages(page, endpoint: str):
         yield from data.get('value', [])
         next_url = data.get('@odata.nextLink') or data.get('odata.nextLink')
         endpoint = urljoin(endpoint, next_url) if next_url else None
+
+
+LIST_SCAN_MAX_ITEMS = 100000  # acima disso a leitura pasta a pasta tende a ser menor
+
+
+def remote_relative(remote_root, path):
+    """Segmentos abaixo da raiz, ou None se o caminho estiver fora dela."""
+    prefix = remote_root.rstrip('/') + '/'
+    if not path.casefold().startswith(prefix.casefold()):
+        return None
+    return [segment for segment in path[len(prefix):].split('/') if segment]
+
+
+def list_inventory(listing, web, remote_root):
+    """Inventario da biblioteca em paginas de 5000 itens, em vez de 2 leituras por pasta.
+
+    Retorna (pastas, arquivos) com os mesmos campos da leitura por pasta, ou None
+    quando a biblioteca nao e encontrada ou e grande demais para compensar.
+    """
+    libraries = listing(web + "/_api/web/lists?$select=Id,ItemCount,RootFolder/ServerRelativeUrl"
+                        "&$expand=RootFolder&$filter=BaseType eq 1&$top=500")
+    matches = []
+    for library in libraries:
+        root_url = (library.get('RootFolder') or {}).get('ServerRelativeUrl', '').rstrip('/')
+        if root_url and (remote_root.casefold() == root_url.casefold()
+                         or remote_relative(root_url, remote_root) is not None):
+            matches.append((len(root_url), library))
+    if not matches:
+        logging.info('INVENTARIO_LISTA_IGNORADO motivo=biblioteca_nao_encontrada')
+        return None
+    library = max(matches, key=lambda item: item[0])[1]
+    if int(library.get('ItemCount') or 0) > LIST_SCAN_MAX_ITEMS:
+        logging.info('INVENTARIO_LISTA_IGNORADO motivo=biblioteca_grande itens=%s', library.get('ItemCount'))
+        return None
+    print(f"Leitura da biblioteca: {library.get('ItemCount')} itens em paginas de 5000...")
+    endpoint = (web + "/_api/web/lists(guid'" + library['Id'] + "')/items?$select=FileSystemObjectType,FileRef,"
+                "File/Name,File/Length,File/ServerRelativeUrl,File/ETag,File/TimeLastModified&$expand=File&$top=5000")
+    folders, files = [], []
+    for item in listing(endpoint):
+        path = item.get('FileRef') or ''
+        segments = remote_relative(remote_root, path)
+        if not segments:
+            continue
+        if item.get('FileSystemObjectType') == 1:
+            folders.append(path)
+        elif item.get('FileSystemObjectType') == 0 and item.get('File'):
+            files.append(item['File'])
+    logging.info('INVENTARIO_LISTA_LIDO biblioteca=%s itens_biblioteca=%s pastas=%s arquivos=%s',
+                 library['Id'], library.get('ItemCount'), len(folders), len(files))
+    return folders, files
 
 
 def copy_cookies(page, session):
@@ -135,7 +187,8 @@ def transfer(session, url, target, size, progress=None, resume_key=None, stop=No
     return transfer_file(session, url, target, size, progress, resume_key, stop)
 
 
-def download_tree(page, web, remote_root, destination, login_url, workers=8, refresh_inventory=False):
+def download_tree(page, web, remote_root, destination, login_url, workers=8, refresh_inventory=False,
+                  verify_existing=False):
     import msvcrt
     destination.mkdir(parents=True, exist_ok=True)
     with (destination / '.sharepoint_download.lock').open('a+b') as lock:
@@ -148,15 +201,17 @@ def download_tree(page, web, remote_root, destination, login_url, workers=8, ref
         except OSError:
             raise RuntimeError('Ja existe um lote rodando neste destino. Encerre-o antes de iniciar outro.') from None
         try:
-            return _download_tree(page, web, remote_root, destination, login_url, workers, refresh_inventory)
+            return _download_tree(page, web, remote_root, destination, login_url, workers, refresh_inventory,
+                                  verify_existing)
         finally:
             lock.seek(0)
             msvcrt.locking(lock.fileno(), msvcrt.LK_UNLCK, 1)
 
 
-def _download_tree(page, web, remote_root, destination, login_url, workers=8, refresh_inventory=False):
+def _download_tree(page, web, remote_root, destination, login_url, workers=8, refresh_inventory=False,
+                   verify_existing=False):
     destination.mkdir(parents=True, exist_ok=True)
-    root_info = read_json(page, folder_endpoint(web, remote_root) + '?$select=Name,ServerRelativeUrl')
+    root_info = read_json(page, folder_endpoint(web, remote_root) + '?$select=Name,ServerRelativeUrl,ItemCount')
     remote_root = root_info['ServerRelativeUrl'].rstrip('/')
     root = destination if destination.name.casefold() == local_name(root_info['Name']).casefold() else destination / local_name(root_info['Name'])
     root.mkdir(exist_ok=True)
@@ -186,7 +241,7 @@ def _download_tree(page, web, remote_root, destination, login_url, workers=8, re
         try:
             return list(pages(page, endpoint))
         except RuntimeError as error:
-            if any(code in str(error) for code in ('HTTP 401', 'HTTP 403', 'HTTP 200')):
+            if is_auth_failure(error):
                 renew()
                 return list(pages(page, endpoint))
             raise
@@ -208,6 +263,48 @@ def _download_tree(page, web, remote_root, destination, login_url, workers=8, re
             total_files = total_bytes = 0
             print('Leitura inicial: contando todos os arquivos e subpastas...')
             logging.info('INVENTARIO_INICIO')
+
+            def local_dir(remote):
+                local = root
+                for segment in remote_relative(remote_root, remote + '/x')[:-1]:
+                    local = local / local_name(segment)
+                local.mkdir(parents=True, exist_ok=True)
+                # Resolve rejects existing junctions/symlinks escaping the chosen root.
+                if not local.resolve().is_relative_to(root.resolve()):
+                    raise ValueError('Diretorio local fora do destino.')
+                return local
+
+            scanned = None
+            try:
+                scanned = list_inventory(listing, web, remote_root)
+            except (RuntimeError, KeyError, TypeError, ValueError) as error:
+                if is_auth_failure(error):
+                    raise
+                logging.warning('INVENTARIO_LISTA_FALHOU tipo=%s; lendo pasta a pasta', type(error).__name__)
+            if scanned is not None and not scanned[0] and not scanned[1] and int(root_info.get('ItemCount') or 0):
+                logging.warning('INVENTARIO_LISTA_VAZIO itens_raiz=%s; lendo pasta a pasta', root_info.get('ItemCount'))
+                scanned = None
+            if scanned is not None:
+                folders, files = scanned
+                visited.add(remote_root)
+                local_dir(remote_root)
+                for remote in sorted(folders):
+                    visited.add(remote)
+                    logging.info('PASTA_LIDA remoto=%s local=%s', remote, local_dir(remote))
+                for item in files:
+                    path = item['ServerRelativeUrl']
+                    if not remote_relative(remote_root, path):
+                        raise RuntimeError('Arquivo fora da pasta solicitada.')
+                    target = local_dir(path.rsplit('/', 1)[0]) / local_name(item['Name'])
+                    size = int(item['Length'])
+                    version = item.get('ETag') or item.get('TimeLastModified', '')
+                    db.execute('INSERT INTO inventory VALUES (?,?,?,?)', (path, str(target), size, version))
+                    logging.debug('ARQUIVO_INVENTARIADO remoto=%s local=%s bytes=%s versao=%s', path, target, size, version)
+                    total_files += 1
+                    total_bytes += size
+                db.commit()
+                stack = []
+                print(f'Inventario: {len(visited)} pastas; {total_files} arquivos; {format_bytes(total_bytes)}')
             while stack:
                 remote, local = stack.pop()
                 if remote in visited:
@@ -235,7 +332,7 @@ def _download_tree(page, web, remote_root, destination, login_url, workers=8, re
                     size = int(item['Length'])
                     version = item.get('ETag') or item.get('TimeLastModified', '')
                     db.execute('INSERT INTO inventory VALUES (?,?,?,?)', (path, str(target), size, version))
-                    logging.info('ARQUIVO_INVENTARIADO remoto=%s local=%s bytes=%s versao=%s', path, target, size, version)
+                    logging.debug('ARQUIVO_INVENTARIADO remoto=%s local=%s bytes=%s versao=%s', path, target, size, version)
                     total_files += 1
                     total_bytes += size
                 db.commit()
@@ -247,7 +344,7 @@ def _download_tree(page, web, remote_root, destination, login_url, workers=8, re
         progress = Progress(total_files, total_bytes)
         from bulk_parallel import run_parallel
         downloaded, skipped, failed = run_parallel(
-            db, page, web, root, progress, renew, workers, transfer)
+            db, page, web, root, progress, renew, workers, transfer, verify_existing)
         print(f'\nLote finalizado: {downloaded} baixados; {skipped} ja concluidos; {failed} falhas/conflitos.\nDestino: {root}')
         logging.info('LOTE_RESUMO estado=%s total_arquivos=%s total_bytes=%s baixados=%s existentes=%s falhas_conflitos=%s duracao_segundos=%.2f destino=%s', 'concluido' if not failed else 'concluido_com_falhas', total_files, total_bytes, downloaded, skipped, failed, time.monotonic()-started, root)
         return 1 if failed else 0
