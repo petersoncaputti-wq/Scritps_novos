@@ -159,15 +159,58 @@ def montar_operacao_erro_consulta(
     }
 
 
-def abrir_tela_e_buscar_dados_em_aba(pagina_api, connect_space_id: str, project_id: str) -> dict[str, Any]:
-    url_tela = url_tela_participantes(connect_space_id, project_id)
-    endpoint = endpoint_participantes(connect_space_id, project_id)
+# O portal PWDM as vezes demora mais de 30 s para entregar a tela de participantes
+# (principalmente em projetos recem-conectados). Em vez de desistir na primeira
+# tentativa, a navegacao usa um timeout maior e tenta novamente.
+TIMEOUT_TELA_MS = int(float(os.getenv("PWDM_TIMEOUT_TELA_S", "60")) * 1000)
+TENTATIVAS_TELA = max(1, int(os.getenv("PWDM_TENTATIVAS_TELA", "3")))
 
-    pagina_api.goto(url_tela, wait_until="domcontentloaded")
+
+def navegar_tela_participantes(pagina_api, url_tela: str, permitir_seguir_sem_tela: bool = False) -> None:
+    """Abre a tela de participantes com timeout maior e novas tentativas.
+
+    Com permitir_seguir_sem_tela=True, se todas as tentativas estourarem o tempo mas
+    a aba ja estiver no dominio do PWDM, segue assim mesmo: a consulta de
+    participantes e um fetch ao endpoint e so precisa dos cookies da sessao.
+    """
+    ultimo_erro: Optional[Exception] = None
+    for tentativa in range(1, TENTATIVAS_TELA + 1):
+        try:
+            pagina_api.goto(url_tela, wait_until="domcontentloaded", timeout=TIMEOUT_TELA_MS)
+            ultimo_erro = None
+            break
+        except Exception as erro:
+            ultimo_erro = erro
+            if "Timeout" not in str(erro) or tentativa == TENTATIVAS_TELA:
+                break
+            espera = 5 * tentativa
+            print(
+                f"  [AVISO] Tela do PWDM nao carregou em {TIMEOUT_TELA_MS // 1000} s "
+                f"(tentativa {tentativa}/{TENTATIVAS_TELA}); nova tentativa em {espera} s..."
+            )
+            time.sleep(espera)
+
+    if ultimo_erro is not None:
+        try:
+            url_atual = str(pagina_api.url or "")
+        except Exception:
+            url_atual = ""
+        if permitir_seguir_sem_tela and "Timeout" in str(ultimo_erro) and url_atual.startswith(url_absoluta_pwdm("/")):
+            print("  [AVISO] Tela do PWDM nao terminou de carregar; tentando a consulta direta mesmo assim.")
+            return
+        raise ultimo_erro
+
     try:
         pagina_api.wait_for_load_state("networkidle", timeout=15000)
     except Exception:
         print("[AVISO] Tela ainda tinha requisicoes ativas; seguindo com a consulta.")
+
+
+def abrir_tela_e_buscar_dados_em_aba(pagina_api, connect_space_id: str, project_id: str) -> dict[str, Any]:
+    url_tela = url_tela_participantes(connect_space_id, project_id)
+    endpoint = endpoint_participantes(connect_space_id, project_id)
+
+    navegar_tela_participantes(pagina_api, url_tela, permitir_seguir_sem_tela=True)
 
     resultado = pagina_api.evaluate(
         """
@@ -426,11 +469,7 @@ def preparar_tela_e_token(pagina_api, url_tela: str, forcar: bool = False) -> tu
     ):
         return cache["token"], cache["origem"]
 
-    pagina_api.goto(url_tela, wait_until="domcontentloaded")
-    try:
-        pagina_api.wait_for_load_state("networkidle", timeout=15000)
-    except Exception:
-        pass
+    navegar_tela_participantes(pagina_api, url_tela)
     token, origem = obter_token_verificacao(pagina_api, url_tela)
     _TELA_PRONTA[id(pagina_api)] = {"url_tela": url_tela, "token": token, "origem": origem}
     return token, origem
